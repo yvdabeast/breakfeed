@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Breakfeed — Your AI Morning Briefing</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>&#9749;</text></svg>">
+</head>
+<body>
+  <div class="container">
+    <!-- Header -->
+    <header class="header">
+      <div class="header-top">
+        <div class="brand">
+          <span class="brand-icon">&#9749;</span>
+          <h1>Breakfeed</h1>
+        </div>
+        <button class="theme-toggle" id="themeToggle" aria-label="Toggle dark mode">
+          <span class="theme-icon">&#9790;</span>
+        </button>
+      </div>
+      <p class="date" id="dateDisplay"></p>
+      <p class="subtitle" id="statsDisplay"></p>
+    </header>
+
+    <!-- Navigation Pills -->
+    <nav class="nav-pills" id="navPills">
+      <button class="pill active" data-section="twitter">
+        <span class="pill-icon">&#120143;</span> Builders
+      </button>
+      <button class="pill" data-section="podcasts">
+        <span class="pill-icon">&#9654;</span> Podcasts
+      </button>
+      <button class="pill" data-section="producthunt">
+        <span class="pill-icon">&#9650;</span> Product Hunt
+      </button>
+      <button class="pill" data-section="github">
+        <span class="pill-icon">&#9733;</span> GitHub
+      </button>
+    </nav>
+
+    <!-- Twitter / Builders Section -->
+    <section class="section" id="section-twitter">
+      <div class="section-header">
+        <h2><span class="section-icon twitter-color">&#120143;</span> Builders are talking about</h2>
+      </div>
+      <div class="cards" id="twitterCards"></div>
+    </section>
+
+    <!-- Podcasts Section -->
+    <section class="section hidden" id="section-podcasts">
+      <div class="section-header">
+        <h2><span class="section-icon youtube-color">&#9654;</span> Fresh Episodes</h2>
+      </div>
+      <div class="cards" id="podcastCards"></div>
+    </section>
+
+    <!-- Product Hunt Section -->
+    <section class="section hidden" id="section-producthunt">
+      <div class="section-header">
+        <h2><span class="section-icon ph-color">&#9650;</span> Product Hunt Hot</h2>
+      </div>
+      <div class="cards" id="phCards"></div>
+    </section>
+
+    <!-- GitHub Trending Section -->
+    <section class="section hidden" id="section-github">
+      <div class="section-header">
+        <h2><span class="section-icon github-color">&#9733;</span> GitHub Trending</h2>
+      </div>
+      <div class="cards" id="githubCards"></div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+      <p>Data sources: <a href="https://github.com/zarazhangrui/follow-builders" target="_blank">follow-builders</a> &middot; Product Hunt &middot; GitHub Trending</p>
+      <p class="update-time" id="updateTime"></p>
+    </footer>
+  </div>
+
+  <script src="app.js"></script>
+</body>
+</html>
