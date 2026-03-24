@@ -190,6 +190,7 @@
         : '';
       const dateStr = ep.publishedAt
         ? new Date(ep.publishedAt).toLocaleDateString('en-US', { month: 'short', day: 'numeric' })
+          + ' ' + new Date(ep.publishedAt).toLocaleTimeString('en-US', { hour: '2-digit', minute: '2-digit', hour12: false })
         : '';
 
       const summaryZh = ep.summary_zh || '';
