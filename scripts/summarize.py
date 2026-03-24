@@ -36,6 +36,13 @@ def summarize_tweets(client, builders):
             if not text.strip():
                 continue
 
+            # Skip tweets that are just links with no real content
+            import re
+            stripped = re.sub(r'https?://\S+', '', text).strip()
+            if not stripped:
+                tweet["summary_zh"] = ""
+                continue
+
             prompt = f"""你是一个 AI 行业资讯翻译员。把下面这条推文翻译/解读成简单易懂的中文，让完全不懂 AI 的普通人也能看懂。
 
 要求：
