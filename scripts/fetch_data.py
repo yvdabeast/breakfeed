@@ -73,16 +73,87 @@ def fetch_twitter():
 
 
 def fetch_podcasts():
-    """Fetch podcast data from follow-builders."""
-    print("Fetching podcast data from follow-builders...", file=sys.stderr)
-    data = fetch_json(FEED_PODCASTS_URL)
-    if not data or "podcasts" not in data:
-        print("  [WARN] No podcast data available", file=sys.stderr)
-        return []
+    """Fetch latest episodes from YouTube RSS for each podcast channel."""
+    print("Fetching podcast data from YouTube RSS...", file=sys.stderr)
 
-    podcasts = data["podcasts"]
-    print(f"  Found {len(podcasts)} episodes", file=sys.stderr)
-    return podcasts
+    # Channel ID → Name mapping
+    channels = {
+        "UCxBcwypKK-W3GHd_RZ9FZrQ": "Latent Space",
+        "UCSI7h9hydQ40K5MJHnCrQvw": "No Priors",
+        "UCUl-s_Vp-Kkk_XVyDylNwLA": "Unsupervised Learning",
+        "UCQID78IY6EOojr5RUdD47MQ": "Data Driven NYC",
+    }
+
+    # Also include the Training Data playlist
+    playlists = {
+        "PLOhHNjZItNnMm5tdW61JpnyxeYH5NDDx8": "Training Data",
+    }
+
+    ns = {
+        "atom": "http://www.w3.org/2005/Atom",
+        "yt": "http://www.youtube.com/xml/schemas/2015",
+        "media": "http://search.yahoo.com/mrss/",
+    }
+
+    episodes = []
+
+    # Fetch from channels
+    for channel_id, name in channels.items():
+        try:
+            url = f"https://www.youtube.com/feeds/videos.xml?channel_id={channel_id}"
+            resp = requests.get(url, headers=HEADERS, timeout=REQUEST_TIMEOUT)
+            if resp.status_code != 200:
+                print(f"  [WARN] Failed to fetch {name}: HTTP {resp.status_code}", file=sys.stderr)
+                continue
+
+            import xml.etree.ElementTree as ET
+            root = ET.fromstring(resp.text)
+            for entry in list(root.findall("atom:entry", ns))[:2]:
+                vid = entry.find("yt:videoId", ns)
+                title = entry.find("atom:title", ns)
+                pub = entry.find("atom:published", ns)
+                if vid is not None and title is not None:
+                    episodes.append({
+                        "name": name,
+                        "title": title.text,
+                        "videoId": vid.text,
+                        "url": f"https://youtube.com/watch?v={vid.text}",
+                        "publishedAt": pub.text if pub is not None else "",
+                    })
+        except Exception as e:
+            print(f"  [WARN] Error fetching {name}: {e}", file=sys.stderr)
+
+    # Fetch from playlists
+    for playlist_id, name in playlists.items():
+        try:
+            url = f"https://www.youtube.com/feeds/videos.xml?playlist_id={playlist_id}"
+            resp = requests.get(url, headers=HEADERS, timeout=REQUEST_TIMEOUT)
+            if resp.status_code != 200:
+                continue
+
+            import xml.etree.ElementTree as ET
+            root = ET.fromstring(resp.text)
+            for entry in list(root.findall("atom:entry", ns))[:2]:
+                vid = entry.find("yt:videoId", ns)
+                title = entry.find("atom:title", ns)
+                pub = entry.find("atom:published", ns)
+                if vid is not None and title is not None:
+                    episodes.append({
+                        "name": name,
+                        "title": title.text,
+                        "videoId": vid.text,
+                        "url": f"https://youtube.com/watch?v={vid.text}",
+                        "publishedAt": pub.text if pub is not None else "",
+                    })
+        except Exception as e:
+            print(f"  [WARN] Error fetching {name}: {e}", file=sys.stderr)
+
+    # Sort by date descending, take latest 5
+    episodes.sort(key=lambda e: e.get("publishedAt", ""), reverse=True)
+    episodes = episodes[:5]
+
+    print(f"  Found {len(episodes)} episodes", file=sys.stderr)
+    return episodes
 
 
 def fetch_producthunt():

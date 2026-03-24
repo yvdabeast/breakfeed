@@ -133,26 +133,39 @@
     }
 
     container.innerHTML = podcasts.map(ep => {
-      const thumbUrl = ep.videoId
-        ? `https://img.youtube.com/vi/${esc(ep.videoId)}/mqdefault.jpg`
+      const videoId = ep.videoId ? esc(ep.videoId) : '';
+      const thumbUrl = videoId
+        ? `https://img.youtube.com/vi/${videoId}/hqdefault.jpg`
         : '';
       const dateStr = ep.publishedAt
         ? new Date(ep.publishedAt).toLocaleDateString('en-US', { month: 'short', day: 'numeric' })
         : '';
 
       return `
-        <div class="card podcast-card">
-          <div class="podcast-thumb" ${thumbUrl ? `style="background: url('${thumbUrl}') center/cover no-repeat;"` : ''}>
-            ${thumbUrl ? '' : '<span class="podcast-play">\u25B6</span>'}
+        <div class="card podcast-card-v">
+          <div class="podcast-meta">
+            <span class="podcast-channel">${esc(ep.name)}</span>
+            <span class="podcast-date">${dateStr}</span>
           </div>
-          <div class="podcast-info">
-            <div class="podcast-channel">${esc(ep.name)}</div>
-            <div class="podcast-title"><a href="${esc(ep.url)}" target="_blank" rel="noopener">${esc(ep.title)}</a></div>
-            <div class="podcast-date">${dateStr}</div>
-          </div>
+          <div class="podcast-title"><a href="${esc(ep.url)}" target="_blank" rel="noopener">${esc(ep.title)}</a></div>
+          ${videoId ? `
+          <div class="podcast-player" data-video-id="${videoId}">
+            <img class="podcast-thumb-img" src="${thumbUrl}" alt="${esc(ep.title)}" loading="lazy">
+            <div class="play-overlay">
+              <div class="play-btn">&#9654;</div>
+            </div>
+          </div>` : ''}
         </div>
       `;
     }).join('');
+
+    // Click to replace thumbnail with YouTube iframe
+    container.querySelectorAll('.podcast-player').forEach(player => {
+      player.addEventListener('click', () => {
+        const videoId = player.getAttribute('data-video-id');
+        player.innerHTML = `<iframe class="podcast-iframe" src="https://www.youtube.com/embed/${videoId}?autoplay=1" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>`;
+      });
+    });
   }
 
   // --- Product Hunt Cards ---
@@ -173,10 +186,10 @@
             <div class="ph-name"><a href="${esc(p.url)}" target="_blank" rel="noopener">${esc(p.name)}</a></div>
             <div class="ph-tagline">${esc(p.tagline)}</div>
           </div>
-          <div class="ph-votes">
+          <a class="ph-view" href="${esc(p.url)}" target="_blank" rel="noopener">
             <span class="ph-votes-arrow">\u25B2</span>
-            <span class="ph-votes-count">${formatNum(p.votes)}</span>
-          </div>
+            <span>View</span>
+          </a>
         </div>
       `;
     }).join('');

@@ -334,32 +334,17 @@ a:hover {
   font-weight: 500;
 }
 
-/* Podcast Card */
-.podcast-card {
+/* Podcast Card — Vertical with embedded player */
+.podcast-card-v {
   display: flex;
-  gap: var(--space-lg);
-  align-items: center;
+  flex-direction: column;
+  gap: var(--space-sm);
 }
 
-.podcast-thumb {
-  width: 120px;
-  height: 68px;
-  border-radius: var(--radius-sm);
-  background: linear-gradient(135deg, #ff0000 0%, #cc0000 100%);
+.podcast-meta {
   display: flex;
   align-items: center;
-  justify-content: center;
-  flex-shrink: 0;
-}
-
-.podcast-play {
-  font-size: 28px;
-  color: white;
-}
-
-.podcast-info {
-  flex: 1;
-  min-width: 0;
+  justify-content: space-between;
 }
 
 .podcast-channel {
@@ -368,14 +353,12 @@ a:hover {
   color: var(--youtube);
   text-transform: uppercase;
   letter-spacing: 0.5px;
-  margin-bottom: var(--space-xs);
 }
 
 .podcast-title {
   font-size: 15px;
   font-weight: 600;
   line-height: 1.4;
-  margin-bottom: var(--space-xs);
 }
 
 .podcast-title a {
@@ -389,6 +372,61 @@ a:hover {
 .podcast-date {
   font-size: 13px;
   color: var(--text-tertiary);
+}
+
+.podcast-player {
+  position: relative;
+  width: 100%;
+  aspect-ratio: 16 / 9;
+  border-radius: var(--radius-sm);
+  overflow: hidden;
+  cursor: pointer;
+  margin-top: var(--space-xs);
+}
+
+.podcast-thumb-img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+}
+
+.play-overlay {
+  position: absolute;
+  inset: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: rgba(0,0,0,0.3);
+  transition: background 0.2s ease;
+}
+
+.podcast-player:hover .play-overlay {
+  background: rgba(0,0,0,0.5);
+}
+
+.play-btn {
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  background: rgba(255,0,0,0.9);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 24px;
+  color: white;
+  padding-left: 4px;
+  transition: transform 0.2s ease;
+}
+
+.podcast-player:hover .play-btn {
+  transform: scale(1.1);
+}
+
+.podcast-iframe {
+  width: 100%;
+  height: 100%;
+  border: none;
 }
 
 /* Product Hunt Card */
@@ -445,7 +483,7 @@ a:hover {
   margin-top: 2px;
 }
 
-.ph-votes {
+.ph-view {
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -453,16 +491,22 @@ a:hover {
   border: 1px solid var(--border);
   border-radius: var(--radius-sm);
   flex-shrink: 0;
+  text-decoration: none;
+  color: var(--text-secondary);
+  font-size: 11px;
+  font-weight: 600;
+  transition: all 0.2s ease;
+}
+
+.ph-view:hover {
+  border-color: var(--ph);
+  color: var(--ph);
+  text-decoration: none;
 }
 
 .ph-votes-arrow {
   font-size: 10px;
   color: var(--ph);
-}
-
-.ph-votes-count {
-  font-size: 14px;
-  font-weight: 700;
 }
 
 /* GitHub Card */
