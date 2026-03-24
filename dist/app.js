@@ -106,17 +106,28 @@
       return;
     }
 
-    let cardIndex = 0;
     container.innerHTML = dayGroups.map(day => {
       const dateLabel = formatDateLabel(day.date);
-      const buildersHtml = (day.builders || []).map(builder => {
-        return builder.tweets.map(tweet => {
+
+      // Flatten all tweets in this day group, then sort by time (newest first)
+      const allTweets = [];
+      (day.builders || []).forEach(builder => {
+        (builder.tweets || []).forEach(tweet => {
+          allTweets.push({ tweet, builder });
+        });
+      });
+      allTweets.sort((a, b) => {
+        const ta = new Date(a.tweet.createdAt).getTime() || 0;
+        const tb = new Date(b.tweet.createdAt).getTime() || 0;
+        return tb - ta;
+      });
+
+      const tweetsHtml = allTweets.map(({ tweet, builder }) => {
         const initial = builder.name.charAt(0).toUpperCase();
         const timeAgo = formatTimeAgo(tweet.createdAt);
         const bioZh = builder.bio_zh || '';
         const summaryZh = tweet.summary_zh || '';
         const hasOriginal = tweet.text && tweet.text.trim();
-        const idx = cardIndex++;
 
         return `
           <div class="card tweet-card">
@@ -148,8 +159,7 @@
           </div>
         `;
       }).join('');
-      }).join('');
-      return `<div class="date-divider"><span>${dateLabel}</span></div>` + buildersHtml;
+      return `<div class="date-divider"><span>${dateLabel}</span></div>` + tweetsHtml;
     }).join('');
   }
 
