@@ -44,8 +44,8 @@ jobs:
           with open('dist/data/feed.json', 'r') as f:
               new_feed = json.load(f)
 
-          # Build lookup from old feed
-          old_summaries = {}
+          # Build lookups from old feed
+          old_tweet_summaries = {}
           old_bios = {}
           for b in old_feed.get('twitter', []):
               handle = b.get('handle', '')
@@ -53,26 +53,57 @@ jobs:
                   old_bios[handle] = b['bio_zh']
               for t in b.get('tweets', []):
                   if t.get('summary_zh'):
-                      old_summaries[t['id']] = t['summary_zh']
+                      old_tweet_summaries[t['id']] = t['summary_zh']
+
+          old_podcast_summaries = {}
+          for p in old_feed.get('podcasts', []):
+              if p.get('summary_zh'):
+                  old_podcast_summaries[p.get('videoId', '')] = p['summary_zh']
+
+          old_ph_summaries = {}
+          for p in old_feed.get('producthunt', []):
+              if p.get('summary_zh'):
+                  old_ph_summaries[p.get('name', '')] = p['summary_zh']
+
+          old_gh_summaries = {}
+          for r in old_feed.get('github_trending', []):
+              if r.get('summary_zh'):
+                  old_gh_summaries[r.get('repo', '')] = r['summary_zh']
 
           # Merge into new feed
-          merged_s = 0
-          merged_b = 0
+          merged = 0
           for b in new_feed.get('twitter', []):
               handle = b.get('handle', '')
               if handle in old_bios and not b.get('bio_zh'):
                   b['bio_zh'] = old_bios[handle]
-                  merged_b += 1
               for t in b.get('tweets', []):
                   tid = t.get('id', '')
-                  if tid in old_summaries and not t.get('summary_zh'):
-                      t['summary_zh'] = old_summaries[tid]
-                      merged_s += 1
+                  if tid in old_tweet_summaries and not t.get('summary_zh'):
+                      t['summary_zh'] = old_tweet_summaries[tid]
+                      merged += 1
+
+          for p in new_feed.get('podcasts', []):
+              vid = p.get('videoId', '')
+              if vid in old_podcast_summaries and not p.get('summary_zh'):
+                  p['summary_zh'] = old_podcast_summaries[vid]
+                  merged += 1
+
+          for p in new_feed.get('producthunt', []):
+              name = p.get('name', '')
+              if name in old_ph_summaries and not p.get('summary_zh'):
+                  p['summary_zh'] = old_ph_summaries[name]
+                  merged += 1
+
+          for r in new_feed.get('github_trending', []):
+              repo = r.get('repo', '')
+              if repo in old_gh_summaries and not r.get('summary_zh'):
+                  r['summary_zh'] = old_gh_summaries[repo]
+                  merged += 1
 
           with open('dist/data/feed.json', 'w') as f:
               json.dump(new_feed, f, ensure_ascii=False, indent=2)
 
-          print(f'Merged {merged_s} summaries, {merged_b} bios', file=sys.stderr)
+          print(f'Merged {merged} total summaries', file=sys.stderr)
           "
 
       - name: Generate summaries (if API key available)

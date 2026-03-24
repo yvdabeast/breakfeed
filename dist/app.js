@@ -196,18 +196,22 @@
 
     container.innerHTML = products.map((p, i) => {
       const emoji = getProductEmoji(p.name);
+      const summaryZh = p.summary_zh || '';
       return `
-        <div class="card ph-card">
-          <div class="ph-rank">${i + 1}</div>
-          <div class="ph-logo">${emoji}</div>
-          <div class="ph-info">
-            <div class="ph-name"><a href="${esc(p.url)}" target="_blank" rel="noopener">${esc(p.name)}</a></div>
-            <div class="ph-tagline">${esc(p.tagline)}</div>
+        <div class="card ph-card-v">
+          <div class="ph-card-header">
+            <div class="ph-rank">${i + 1}</div>
+            <div class="ph-logo">${emoji}</div>
+            <div class="ph-name-wrap">
+              <div class="ph-name"><a href="${esc(p.url)}" target="_blank" rel="noopener">${esc(p.name)}</a></div>
+              <div class="ph-tagline">${esc(p.tagline)}</div>
+            </div>
+            <a class="ph-view" href="${esc(p.url)}" target="_blank" rel="noopener">
+              <span class="ph-votes-arrow">\u25B2</span>
+              <span>View</span>
+            </a>
           </div>
-          <a class="ph-view" href="${esc(p.url)}" target="_blank" rel="noopener">
-            <span class="ph-votes-arrow">\u25B2</span>
-            <span>View</span>
-          </a>
+          ${summaryZh ? `<div class="ph-summary">${esc(summaryZh)}</div>` : ''}
         </div>
       `;
     }).join('');
@@ -223,12 +227,13 @@
 
     container.innerHTML = repos.map((r, i) => {
       const langClass = (r.language || '').toLowerCase().replace(/[^a-z]/g, '') || 'default';
+      const summaryZh = r.summary_zh || '';
       return `
         <div class="card gh-card">
           <div class="gh-rank">${i + 1}</div>
           <div class="gh-info">
             <div class="gh-repo"><a href="${esc(r.url)}" target="_blank" rel="noopener">${esc(r.repo)}</a></div>
-            <div class="gh-desc">${esc(r.description || '')}</div>
+            ${summaryZh ? `<div class="gh-summary">${esc(summaryZh)}</div>` : `<div class="gh-desc">${esc(r.description || '')}</div>`}
             <div class="gh-meta">
               <span class="gh-lang">
                 <span class="gh-lang-dot ${langClass}"></span>

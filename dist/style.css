@@ -480,6 +480,29 @@ a:hover {
 }
 
 /* Product Hunt Card */
+.ph-card-v {
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-sm);
+}
+
+.ph-card-header {
+  display: flex;
+  align-items: center;
+  gap: var(--space-md);
+}
+
+.ph-summary {
+  font-size: 14px;
+  line-height: 1.65;
+  color: var(--text-secondary);
+  padding-left: 72px;
+}
+
+@media (max-width: 480px) {
+  .ph-summary { padding-left: 0; }
+}
+
 .ph-card {
   display: flex;
   align-items: center;
@@ -595,6 +618,13 @@ a:hover {
   font-size: 13px;
   color: var(--text-secondary);
   line-height: 1.4;
+  margin-top: 4px;
+}
+
+.gh-summary {
+  font-size: 14px;
+  line-height: 1.65;
+  color: var(--text-secondary);
   margin-top: 4px;
 }
 

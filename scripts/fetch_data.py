@@ -94,12 +94,16 @@ def fetch_podcasts():
     """Fetch latest episodes from YouTube RSS for each podcast channel."""
     print("Fetching podcast data from YouTube RSS...", file=sys.stderr)
 
-    # Channel ID → Name mapping
+    # Channel ID → Name mapping (expanded list)
     channels = {
         "UCxBcwypKK-W3GHd_RZ9FZrQ": "Latent Space",
         "UCSI7h9hydQ40K5MJHnCrQvw": "No Priors",
         "UCUl-s_Vp-Kkk_XVyDylNwLA": "Unsupervised Learning",
         "UCQID78IY6EOojr5RUdD47MQ": "Data Driven NYC",
+        "UCZHmQk67mSJgfCCTn7xBfew": "Lex Fridman",
+        "UCsBjURrPoezykLs9EqgamOA": "Fireship",
+        "UCJIfeSCssxSC_Dhc5s7woww": "Matt Wolfe",
+        "UCXUPKJO5MZQN11PqgIvyuvQ": "AI Explained",
     }
 
     # Also include the Training Data playlist
@@ -126,17 +130,25 @@ def fetch_podcasts():
 
             import xml.etree.ElementTree as ET
             root = ET.fromstring(resp.text)
-            for entry in list(root.findall("atom:entry", ns))[:2]:
+            for entry in list(root.findall("atom:entry", ns))[:3]:
                 vid = entry.find("yt:videoId", ns)
                 title = entry.find("atom:title", ns)
                 pub = entry.find("atom:published", ns)
                 if vid is not None and title is not None:
+                    title_text = title.text or ""
+                    # Detect Shorts by title patterns
+                    is_short = any(tag in title_text.lower() for tag in
+                                   ["#shorts", "#short", "#podcastclips", "#clips"])
+                    # Also check if title is very short (common for shorts)
+                    if not is_short and len(title_text) < 30 and "#" in title_text:
+                        is_short = True
                     episodes.append({
                         "name": name,
-                        "title": title.text,
+                        "title": title_text,
                         "videoId": vid.text,
                         "url": f"https://youtube.com/watch?v={vid.text}",
                         "publishedAt": pub.text if pub is not None else "",
+                        "isShort": is_short,
                     })
         except Exception as e:
             print(f"  [WARN] Error fetching {name}: {e}", file=sys.stderr)
@@ -151,24 +163,30 @@ def fetch_podcasts():
 
             import xml.etree.ElementTree as ET
             root = ET.fromstring(resp.text)
-            for entry in list(root.findall("atom:entry", ns))[:2]:
+            for entry in list(root.findall("atom:entry", ns))[:3]:
                 vid = entry.find("yt:videoId", ns)
                 title = entry.find("atom:title", ns)
                 pub = entry.find("atom:published", ns)
                 if vid is not None and title is not None:
                     episodes.append({
                         "name": name,
-                        "title": title.text,
+                        "title": title.text or "",
                         "videoId": vid.text,
                         "url": f"https://youtube.com/watch?v={vid.text}",
                         "publishedAt": pub.text if pub is not None else "",
+                        "isShort": False,
                     })
         except Exception as e:
             print(f"  [WARN] Error fetching {name}: {e}", file=sys.stderr)
 
-    # Sort by date descending, take latest 5
+    # Sort by date descending
     episodes.sort(key=lambda e: e.get("publishedAt", ""), reverse=True)
-    episodes = episodes[:5]
+
+    # Cap: max 5 long videos, max 3 shorts, total 8
+    longs = [e for e in episodes if not e.get("isShort")][:5]
+    shorts = [e for e in episodes if e.get("isShort")][:3]
+    episodes = sorted(longs + shorts, key=lambda e: e.get("publishedAt", ""), reverse=True)
+    episodes = episodes[:8]
 
     print(f"  Found {len(episodes)} episodes", file=sys.stderr)
     return episodes
