@@ -25,28 +25,26 @@ jobs:
       - name: Install dependencies
         run: pip install -r scripts/requirements.txt
 
+      - name: Save committed feed (has summaries)
+        run: cp dist/data/feed.json /tmp/old-feed.json
+
       - name: Fetch fresh data
         run: python scripts/fetch_data.py
 
-      - name: Preserve Chinese summaries
+      - name: Merge summaries from committed feed
         run: |
           python3 -c "
-          import json, urllib.request, sys
+          import json, sys
 
-          # Fetch the currently deployed feed (has summaries)
-          try:
-              req = urllib.request.Request('https://yvdabeast.github.io/breakfeed/data/feed.json')
-              with urllib.request.urlopen(req, timeout=10) as resp:
-                  old_feed = json.loads(resp.read())
-          except Exception as e:
-              print(f'No existing feed to merge: {e}', file=sys.stderr)
-              sys.exit(0)
+          # Load the committed feed (has summaries from repo)
+          with open('/tmp/old-feed.json', 'r') as f:
+              old_feed = json.load(f)
 
           # Load freshly fetched feed
           with open('dist/data/feed.json', 'r') as f:
               new_feed = json.load(f)
 
-          # Build lookup: tweet_id -> summary_zh from old feed
+          # Build lookup from old feed
           old_summaries = {}
           old_bios = {}
           for b in old_feed.get('twitter', []):
@@ -58,23 +56,23 @@ jobs:
                       old_summaries[t['id']] = t['summary_zh']
 
           # Merge into new feed
-          merged_summaries = 0
-          merged_bios = 0
+          merged_s = 0
+          merged_b = 0
           for b in new_feed.get('twitter', []):
               handle = b.get('handle', '')
               if handle in old_bios and not b.get('bio_zh'):
                   b['bio_zh'] = old_bios[handle]
-                  merged_bios += 1
+                  merged_b += 1
               for t in b.get('tweets', []):
                   tid = t.get('id', '')
                   if tid in old_summaries and not t.get('summary_zh'):
                       t['summary_zh'] = old_summaries[tid]
-                      merged_summaries += 1
+                      merged_s += 1
 
           with open('dist/data/feed.json', 'w') as f:
               json.dump(new_feed, f, ensure_ascii=False, indent=2)
 
-          print(f'Merged {merged_summaries} summaries, {merged_bios} bios', file=sys.stderr)
+          print(f'Merged {merged_s} summaries, {merged_b} bios', file=sys.stderr)
           "
 
       - name: Generate summaries (if API key available)
