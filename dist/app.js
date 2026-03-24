@@ -96,17 +96,27 @@
       return;
     }
 
-    let cardIndex = 0;
-    container.innerHTML = builders.map(builder => {
-      return builder.tweets.map(tweet => {
-        const initial = builder.name.charAt(0).toUpperCase();
-        const timeAgo = formatTimeAgo(tweet.createdAt);
-        const bioZh = builder.bio_zh || '';
-        const summaryZh = tweet.summary_zh || '';
-        const hasOriginal = tweet.text && tweet.text.trim();
-        const idx = cardIndex++;
+    // Flatten all tweets with builder info, then sort by time (newest first)
+    const allTweets = [];
+    builders.forEach(builder => {
+      builder.tweets.forEach(tweet => {
+        allTweets.push({ tweet, builder });
+      });
+    });
+    allTweets.sort((a, b) => {
+      const ta = new Date(a.tweet.createdAt).getTime() || 0;
+      const tb = new Date(b.tweet.createdAt).getTime() || 0;
+      return tb - ta;
+    });
 
-        return `
+    container.innerHTML = allTweets.map(({ tweet, builder }) => {
+      const initial = builder.name.charAt(0).toUpperCase();
+      const timeAgo = formatTimeAgo(tweet.createdAt);
+      const bioZh = builder.bio_zh || '';
+      const summaryZh = tweet.summary_zh || '';
+      const hasOriginal = tweet.text && tweet.text.trim();
+
+      return `
           <div class="card tweet-card">
             <div class="tweet-header">
               <div class="tweet-avatar">${initial}</div>
@@ -135,7 +145,6 @@
             </div>
           </div>
         `;
-      }).join('');
     }).join('');
   }
 
