@@ -156,6 +156,8 @@
         ? new Date(ep.publishedAt).toLocaleDateString('en-US', { month: 'short', day: 'numeric' })
         : '';
 
+      const summaryZh = ep.summary_zh || '';
+
       return `
         <div class="card podcast-card-v">
           <div class="podcast-meta">
@@ -163,6 +165,7 @@
             <span class="podcast-date">${dateStr}</span>
           </div>
           <div class="podcast-title"><a href="${esc(ep.url)}" target="_blank" rel="noopener">${esc(ep.title)}</a></div>
+          ${summaryZh ? `<div class="podcast-summary">${esc(summaryZh)}</div>` : ''}
           ${videoId ? `
           <div class="podcast-player" data-video-id="${videoId}">
             <img class="podcast-thumb-img" src="${thumbUrl}" alt="${esc(ep.title)}" loading="lazy">
