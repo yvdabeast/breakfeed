@@ -268,7 +268,7 @@ a:hover {
 /* Twitter Card */
 .tweet-card .tweet-header {
   display: flex;
-  align-items: center;
+  align-items: flex-start;
   gap: var(--space-sm);
   margin-bottom: var(--space-md);
 }
@@ -285,6 +285,7 @@ a:hover {
   font-size: 16px;
   color: var(--accent);
   flex-shrink: 0;
+  margin-top: 2px;
 }
 
 .tweet-author {
@@ -303,10 +304,52 @@ a:hover {
   color: var(--text-tertiary);
 }
 
+.tweet-bio {
+  font-size: 12px;
+  color: var(--text-tertiary);
+  line-height: 1.4;
+  margin-top: 2px;
+}
+
+.tweet-summary {
+  font-size: 15px;
+  line-height: 1.7;
+  margin-bottom: var(--space-md);
+  word-break: break-word;
+  color: var(--text);
+}
+
 .tweet-text {
   font-size: 15px;
   line-height: 1.65;
   margin-bottom: var(--space-md);
+  word-break: break-word;
+}
+
+.tweet-original {
+  margin-bottom: var(--space-md);
+}
+
+.tweet-original-toggle {
+  font-size: 13px;
+  color: var(--text-tertiary);
+  cursor: pointer;
+  padding: 4px 0;
+  user-select: none;
+}
+
+.tweet-original-toggle:hover {
+  color: var(--accent);
+}
+
+.tweet-original-text {
+  font-size: 13px;
+  line-height: 1.6;
+  color: var(--text-secondary);
+  margin-top: var(--space-sm);
+  padding: var(--space-sm) var(--space-md);
+  background: var(--bg-hover);
+  border-radius: var(--radius-sm);
   word-break: break-word;
 }
 

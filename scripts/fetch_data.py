@@ -59,15 +59,33 @@ def fetch_json(url):
         return None
 
 
+def load_bios():
+    """Load Chinese bios from bios_zh.json."""
+    bios_path = SCRIPT_DIR / "bios_zh.json"
+    try:
+        with open(bios_path, "r", encoding="utf-8") as f:
+            return json.load(f)
+    except Exception:
+        return {}
+
+
 def fetch_twitter():
-    """Fetch Twitter/X data from follow-builders."""
+    """Fetch Twitter/X data from follow-builders, inject Chinese bios."""
     print("Fetching Twitter data from follow-builders...", file=sys.stderr)
     data = fetch_json(FEED_X_URL)
     if not data or "x" not in data:
         print("  [WARN] No Twitter data available", file=sys.stderr)
         return []
 
+    bios = load_bios()
     builders = data["x"]
+
+    # Inject Chinese bio for each builder
+    for builder in builders:
+        handle = builder.get("handle", "").lower()
+        if handle in bios:
+            builder["bio_zh"] = bios[handle]
+
     print(f"  Found {len(builders)} builders with tweets", file=sys.stderr)
     return builders
 

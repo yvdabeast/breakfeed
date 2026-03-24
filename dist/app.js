@@ -96,10 +96,16 @@
       return;
     }
 
+    let cardIndex = 0;
     container.innerHTML = builders.map(builder => {
       return builder.tweets.map(tweet => {
         const initial = builder.name.charAt(0).toUpperCase();
         const timeAgo = formatTimeAgo(tweet.createdAt);
+        const bioZh = builder.bio_zh || '';
+        const summaryZh = tweet.summary_zh || '';
+        const hasOriginal = tweet.text && tweet.text.trim();
+        const idx = cardIndex++;
+
         return `
           <div class="card tweet-card">
             <div class="tweet-header">
@@ -107,16 +113,25 @@
               <div class="tweet-author">
                 <div class="tweet-name">${esc(builder.name)}</div>
                 <div class="tweet-handle">@${esc(builder.handle)} &middot; ${timeAgo}</div>
+                ${bioZh ? `<div class="tweet-bio">${esc(bioZh)}</div>` : ''}
               </div>
             </div>
-            <div class="tweet-text">${linkify(esc(tweet.text))}</div>
+            ${summaryZh
+              ? `<div class="tweet-summary">${esc(summaryZh)}</div>`
+              : `<div class="tweet-text">${linkify(esc(tweet.text))}</div>`
+            }
+            ${hasOriginal && summaryZh ? `
+            <details class="tweet-original">
+              <summary class="tweet-original-toggle">\u539F\u6587</summary>
+              <div class="tweet-original-text">${linkify(esc(tweet.text))}</div>
+            </details>` : ''}
             <div class="tweet-footer">
               <div class="tweet-stats">
                 <span class="tweet-stat">\u2764\uFE0F ${formatNum(tweet.likes)}</span>
                 <span class="tweet-stat">\uD83D\uDD01 ${formatNum(tweet.retweets)}</span>
                 <span class="tweet-stat">\uD83D\uDCAC ${formatNum(tweet.replies)}</span>
               </div>
-              <a class="tweet-link" href="${esc(tweet.url)}" target="_blank" rel="noopener">View &rarr;</a>
+              <a class="tweet-link" href="${esc(tweet.url)}" target="_blank" rel="noopener">\u539F\u6587 &rarr;</a>
             </div>
           </div>
         `;
