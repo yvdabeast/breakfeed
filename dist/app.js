@@ -88,17 +88,29 @@
       'Last updated: ' + d.toLocaleString();
   }
 
-  // --- Twitter Cards ---
-  function renderTwitter(builders) {
+  // --- Twitter Cards (with history) ---
+  function renderTwitter(builders, twitterHistory) {
     const container = document.getElementById('twitterCards');
-    if (!builders || builders.length === 0) {
+
+    // Build date-grouped data: use twitter_history if available, fallback to flat builders
+    let dayGroups = [];
+    if (twitterHistory && twitterHistory.length > 0) {
+      dayGroups = twitterHistory;
+    } else if (builders && builders.length > 0) {
+      const today = new Date().toISOString().slice(0, 10);
+      dayGroups = [{ date: today, builders: builders }];
+    }
+
+    if (dayGroups.length === 0) {
       container.innerHTML = emptyState('\uD83D\uDCED', 'No tweets today');
       return;
     }
 
     let cardIndex = 0;
-    container.innerHTML = builders.map(builder => {
-      return builder.tweets.map(tweet => {
+    container.innerHTML = dayGroups.map(day => {
+      const dateLabel = formatDateLabel(day.date);
+      const buildersHtml = (day.builders || []).map(builder => {
+        return builder.tweets.map(tweet => {
         const initial = builder.name.charAt(0).toUpperCase();
         const timeAgo = formatTimeAgo(tweet.createdAt);
         const bioZh = builder.bio_zh || '';
@@ -136,10 +148,12 @@
           </div>
         `;
       }).join('');
+      }).join('');
+      return `<div class="date-divider"><span>${dateLabel}</span></div>` + buildersHtml;
     }).join('');
   }
 
-  // --- Podcast Cards ---
+  // --- Podcast Cards (with date grouping) ---
   function renderPodcasts(podcasts) {
     const container = document.getElementById('podcastCards');
     if (!podcasts || podcasts.length === 0) {
@@ -147,7 +161,19 @@
       return;
     }
 
-    container.innerHTML = podcasts.map(ep => {
+    // Group by fetchDate or publishedAt date
+    const grouped = {};
+    podcasts.forEach(ep => {
+      const date = (ep.fetchDate || (ep.publishedAt || '').slice(0, 10) || 'unknown');
+      if (!grouped[date]) grouped[date] = [];
+      grouped[date].push(ep);
+    });
+
+    const sortedDates = Object.keys(grouped).sort().reverse();
+
+    container.innerHTML = sortedDates.map(date => {
+      const dateLabel = formatDateLabel(date);
+      const cards = grouped[date].map(ep => {
       const videoId = ep.videoId ? esc(ep.videoId) : '';
       const thumbUrl = videoId
         ? `https://img.youtube.com/vi/${videoId}/hqdefault.jpg`
@@ -175,6 +201,8 @@
           </div>` : ''}
         </div>
       `;
+      }).join('');
+      return `<div class="date-divider"><span>${dateLabel}</span></div>` + cards;
     }).join('');
 
     // Click to replace thumbnail with YouTube iframe
@@ -249,6 +277,16 @@
   }
 
   // --- Helpers ---
+  function formatDateLabel(dateStr) {
+    if (!dateStr || dateStr === 'unknown') return '';
+    const today = new Date().toISOString().slice(0, 10);
+    const yesterday = new Date(Date.now() - 86400000).toISOString().slice(0, 10);
+    if (dateStr === today) return '\u4ECA\u5929';           // 今天
+    if (dateStr === yesterday) return '\u6628\u5929';       // 昨天
+    const d = new Date(dateStr + 'T00:00:00');
+    return d.toLocaleDateString('zh-CN', { month: 'long', day: 'numeric', weekday: 'short' });
+  }
+
   function esc(str) {
     const div = document.createElement('div');
     div.textContent = str || '';
@@ -309,7 +347,7 @@
 
       renderStats(data);
       renderUpdateTime(data);
-      renderTwitter(data.twitter);
+      renderTwitter(data.twitter, data.twitter_history);
       renderPodcasts(data.podcasts);
       renderProductHunt(data.producthunt);
       renderGitHub(data.github_trending);

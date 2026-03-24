@@ -672,6 +672,32 @@ a:hover {
 }
 
 /* ============================================
+   Date Divider
+   ============================================ */
+
+.date-divider {
+  display: flex;
+  align-items: center;
+  gap: var(--space-md);
+  margin: var(--space-lg) 0 var(--space-md);
+}
+
+.date-divider::before,
+.date-divider::after {
+  content: '';
+  flex: 1;
+  height: 1px;
+  background: var(--border);
+}
+
+.date-divider span {
+  font-size: 13px;
+  font-weight: 600;
+  color: var(--text-tertiary);
+  white-space: nowrap;
+}
+
+/* ============================================
    Empty State
    ============================================ */
 

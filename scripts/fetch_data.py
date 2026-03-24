@@ -94,21 +94,45 @@ def fetch_podcasts():
     """Fetch latest episodes from YouTube RSS for each podcast channel."""
     print("Fetching podcast data from YouTube RSS...", file=sys.stderr)
 
-    # Channel ID → Name mapping (expanded list)
+    # Channel ID → Name mapping (from Zara's list + our additions)
     channels = {
+        # Core AI podcasts
         "UCxBcwypKK-W3GHd_RZ9FZrQ": "Latent Space",
         "UCSI7h9hydQ40K5MJHnCrQvw": "No Priors",
         "UCUl-s_Vp-Kkk_XVyDylNwLA": "Unsupervised Learning",
         "UCQID78IY6EOojr5RUdD47MQ": "Data Driven NYC",
+        "UC-DRzaGnL_vtBUpCFH5M0tg": "TBPN",
+        # Tech / AI commentary
         "UCZHmQk67mSJgfCCTn7xBfew": "Lex Fridman",
         "UCsBjURrPoezykLs9EqgamOA": "Fireship",
         "UCJIfeSCssxSC_Dhc5s7woww": "Matt Wolfe",
         "UCXUPKJO5MZQN11PqgIvyuvQ": "AI Explained",
+        # Product / startup
+        "UC6t1O76G0jYXOAoYCm153dA": "Lenny's Podcast",
+        "UCPjNBjflYl0-HQtUvOx0Ibw": "Greg Isenberg",
+        "UCcefcZRL2oaA_uBNeo5UOWg": "Y Combinator",
+        # AI companies
+        "UCOIji0UklfggVrY7Ym-IfDQ": "Anthropic",
+        "UCP7jMXSY2xbc3KCAE0MHQ-A": "Google DeepMind",
+        # Builders
+        "UCXUPKJO5MZQN11PqgIvyuvQ": "Andrej Karpathy",
+        "UCt6l0E-bBC1Z4d7C3qgh3cA": "Rowan Cheung",
+        # Communities
+        "UCMR-rPSUI34DRQXUkvFuIUQ": "South Park Commons",
+        "UCGwuxdEeCf0TIA2RbPOj-8g": "Stanford GSB",
+        "UCmvYCRYPDlzSHVNCI_ViJDQ": "Tiago Forte",
     }
 
-    # Also include the Training Data playlist
+    # Playlists
     playlists = {
         "PLOhHNjZItNnMm5tdW61JpnyxeYH5NDDx8": "Training Data",
+        "PLWEAb1SXhjlfkEF_PxzYHonU_v5LPMI8L": "Latent Space (full)",
+        "PLuMcoKK9mKgHtW_o9h5sGO2vXrffKHwJL": "AI & I",
+        "PLqYmG7hTraZBiUr6_Qf8YTS2Oqy3OGZEj": "Google DeepMind Podcast",
+        "PLRYSuzHGhXPmKnOpd-f588cNNmTe2S9FP": "The AI Daily Brief",
+        "PLIWHjbvRtljj4RewVNv_znkUe-3E-NKd2": "Behind the Craft",
+        "PLmYVYFmFwGm3txxUduawn7i53C5rDjjd7": "Minus One",
+        "PLQ-uHSnFig5Ob4XXhgSK26Smb4oRhzFmK": "Lightcone Podcast",
     }
 
     ns = {
@@ -179,14 +203,27 @@ def fetch_podcasts():
         except Exception as e:
             print(f"  [WARN] Error fetching {name}: {e}", file=sys.stderr)
 
-    # Sort by date descending
-    episodes.sort(key=lambda e: e.get("publishedAt", ""), reverse=True)
+    # Deduplicate by videoId
+    seen = set()
+    unique = []
+    for e in episodes:
+        vid = e.get("videoId", "")
+        if vid and vid not in seen:
+            seen.add(vid)
+            unique.append(e)
+    episodes = unique
 
-    # Cap: max 5 long videos, max 3 shorts, total 8
+    # Sort by date descending, take today's batch (max 5 long + 3 shorts = 8)
+    episodes.sort(key=lambda e: e.get("publishedAt", ""), reverse=True)
     longs = [e for e in episodes if not e.get("isShort")][:5]
     shorts = [e for e in episodes if e.get("isShort")][:3]
     episodes = sorted(longs + shorts, key=lambda e: e.get("publishedAt", ""), reverse=True)
     episodes = episodes[:8]
+
+    # Tag with fetch date
+    today = datetime.now(timezone.utc).strftime("%Y-%m-%d")
+    for e in episodes:
+        e["fetchDate"] = today
 
     print(f"  Found {len(episodes)} episodes", file=sys.stderr)
     return episodes
@@ -303,10 +340,68 @@ def fetch_github_trending():
         return []
 
 
+def load_existing_feed():
+    """Load existing feed.json for history accumulation."""
+    if OUTPUT_PATH.exists():
+        try:
+            with open(OUTPUT_PATH, "r", encoding="utf-8") as f:
+                return json.load(f)
+        except Exception:
+            pass
+    return None
+
+
+def merge_history(old_feed, new_twitter, new_podcasts):
+    """Merge new data into existing feed, preserving history with dedup."""
+    today = datetime.now(timezone.utc).strftime("%Y-%m-%d")
+
+    # --- Podcasts: accumulate, dedup by videoId, keep 7 days ---
+    old_podcasts = old_feed.get("podcasts", []) if old_feed else []
+    existing_vids = {ep.get("videoId") for ep in old_podcasts}
+    for ep in new_podcasts:
+        if ep.get("videoId") not in existing_vids:
+            old_podcasts.append(ep)
+    # Sort by date desc, keep max 7 days of content
+    old_podcasts.sort(key=lambda e: e.get("publishedAt", ""), reverse=True)
+    cutoff = (datetime.now(timezone.utc) - __import__("datetime").timedelta(days=7)).isoformat()
+    podcasts = [ep for ep in old_podcasts if ep.get("publishedAt", "") >= cutoff or not ep.get("publishedAt")]
+    # Safety cap at 60 episodes
+    podcasts = podcasts[:60]
+
+    # --- Twitter: accumulate by fetchDate, dedup by tweet id, keep 7 days ---
+    old_twitter = old_feed.get("twitter_history", []) if old_feed else []
+    # Add today's builders
+    for builder in new_twitter:
+        builder["fetchDate"] = today
+    # Merge: combine old history + new
+    all_tweet_ids = set()
+    for day_builders in old_twitter:
+        for b in day_builders.get("builders", []):
+            for t in b.get("tweets", []):
+                all_tweet_ids.add(t.get("id"))
+    # Filter new tweets to only truly new ones
+    filtered_new = []
+    for b in new_twitter:
+        new_tweets = [t for t in b.get("tweets", []) if t.get("id") not in all_tweet_ids]
+        if new_tweets:
+            filtered_new.append({**b, "tweets": new_tweets})
+    # Add today's batch to history
+    if filtered_new:
+        old_twitter.insert(0, {"date": today, "builders": filtered_new})
+    # Keep 7 days
+    cutoff_date = (datetime.now(timezone.utc) - __import__("datetime").timedelta(days=7)).strftime("%Y-%m-%d")
+    twitter_history = [day for day in old_twitter if day.get("date", "") >= cutoff_date]
+
+    return podcasts, twitter_history
+
+
 def main():
     print("=" * 50, file=sys.stderr)
     print("Breakfeed — Daily Data Fetch", file=sys.stderr)
     print("=" * 50, file=sys.stderr)
+
+    # Load existing feed for history
+    old_feed = load_existing_feed()
 
     # Fetch all sources
     twitter = fetch_twitter()
@@ -314,11 +409,15 @@ def main():
     producthunt = fetch_producthunt()
     github_trending = fetch_github_trending()
 
+    # Merge with history
+    merged_podcasts, twitter_history = merge_history(old_feed, twitter, podcasts)
+
     # Assemble feed
     feed = {
         "generatedAt": datetime.now(timezone.utc).isoformat(),
-        "twitter": twitter,
-        "podcasts": podcasts,
+        "twitter": twitter,           # Today's builders (for backwards compat)
+        "twitter_history": twitter_history,  # All days, grouped by date
+        "podcasts": merged_podcasts,   # Accumulated episodes
         "producthunt": producthunt,
         "github_trending": github_trending,
     }
@@ -334,8 +433,9 @@ def main():
     tweet_count = sum(len(b.get("tweets", [])) for b in twitter)
     print(f"\n{'=' * 50}", file=sys.stderr)
     print(f"Done! Output: {OUTPUT_PATH}", file=sys.stderr)
-    print(f"  Twitter: {len(twitter)} builders, {tweet_count} tweets", file=sys.stderr)
-    print(f"  Podcasts: {len(podcasts)} episodes", file=sys.stderr)
+    print(f"  Twitter: {len(twitter)} builders, {tweet_count} tweets (today)", file=sys.stderr)
+    print(f"  Twitter history: {len(twitter_history)} days", file=sys.stderr)
+    print(f"  Podcasts: {len(merged_podcasts)} episodes (accumulated)", file=sys.stderr)
     print(f"  Product Hunt: {len(producthunt)} products", file=sys.stderr)
     print(f"  GitHub: {len(github_trending)} repos", file=sys.stderr)
     print(f"{'=' * 50}", file=sys.stderr)
