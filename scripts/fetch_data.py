@@ -415,6 +415,7 @@ def fetch_producthunt():
             json={"query": """{ posts(order: VOTES, first: 15) { edges { node {
                 name tagline votesCount commentsCount url slug
                 thumbnail { url }
+                media { type url videoUrl }
                 topics { edges { node { name } } }
             } } } }"""},
             headers={"Authorization": f"Bearer {token}", "Content-Type": "application/json"},
@@ -433,6 +434,14 @@ def fetch_producthunt():
             thumb = node.get("thumbnail", {})
             thumb_url = thumb.get("url", "") if thumb else ""
 
+            # Get first product screenshot (not the logo thumbnail)
+            media_items = node.get("media", []) or []
+            screenshot = ""
+            for m in media_items[:1]:
+                if m.get("url"):
+                    screenshot = m["url"]
+                    break
+
             products.append({
                 "rank": i + 1,
                 "name": node.get("name", "Unknown"),
@@ -442,6 +451,7 @@ def fetch_producthunt():
                 "comments": node.get("commentsCount", 0),
                 "topics": topics,
                 "thumbnail": thumb_url,
+                "screenshot": screenshot,
             })
 
         print(f"  Found {len(products)} products (API)", file=sys.stderr)

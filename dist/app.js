@@ -251,6 +251,7 @@
       const votes = p.votes || 0;
       const topics = (p.topics || []).slice(0, 3);
       const thumbUrl = p.thumbnail || '';
+      const screenshotUrl = p.screenshot || '';
       return `
         <div class="card ph-card-v">
           <div class="ph-card-header">
@@ -269,6 +270,7 @@
             </a>
           </div>
           ${topics.length ? `<div class="ph-topics">${topics.map(t => `<span class="ph-topic">${esc(t)}</span>`).join('')}</div>` : ''}
+          ${screenshotUrl ? `<div class="ph-screenshot"><a href="${esc(p.url)}" target="_blank" rel="noopener"><img src="${esc(screenshotUrl)}" alt="${esc(p.name)}" loading="lazy" onerror="this.parentElement.style.display='none'"></a></div>` : ''}
           ${summaryZh ? `<div class="ph-summary">${esc(summaryZh)}</div>` : ''}
         </div>
       `;

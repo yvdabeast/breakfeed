@@ -554,6 +554,21 @@ a:hover {
   min-width: 0;
 }
 
+.ph-screenshot {
+  margin-top: var(--space-sm);
+  border-radius: var(--radius-sm);
+  overflow: hidden;
+  border: 1px solid var(--border);
+}
+
+.ph-screenshot img {
+  width: 100%;
+  height: auto;
+  display: block;
+  max-height: 280px;
+  object-fit: cover;
+}
+
 .ph-summary {
   font-size: 14px;
   line-height: 1.65;

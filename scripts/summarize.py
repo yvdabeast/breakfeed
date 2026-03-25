@@ -154,18 +154,16 @@ def summarize_producthunt(client, provider, feed):
         name = product.get("name", "")
         tagline = product.get("tagline", "")
 
-        prompt = f"""你是 AI 行业产品分析师，为一位特定用户分析新产品。
-
-{YVES_CONTEXT}
+        prompt = f"""你是产品分析师。用中文简洁介绍以下产品，让普通人一看就懂。
 
 产品名：{name}
 一句话介绍：{tagline}
 
-请用中文写 2-3 句话：
-1. 这个产品是做什么的（用普通人能懂的话）
-2. 对 Yves 的哪个业务有帮助：Logic Labs（AI 公司）还是 TexTale（科技服装电商），或者对他作为创意/设计 IC 有什么价值
-
-只输出分析内容，不要加前缀。"""
+要求：
+- 2-3 句话说清楚这个产品是什么、能做什么
+- 语言简洁直白，不要啰嗦
+- 不要说"对某某有帮助"之类的推荐语
+- 只介绍产品本身"""
 
         try:
             summary = call_llm(client, provider, prompt)
