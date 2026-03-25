@@ -68,9 +68,16 @@ jobs:
                           old_tweet_summaries[t['id']] = t['summary_zh']
 
           old_podcast_summaries = {}
+          old_podcast_durations = {}
           for p in old_feed.get('podcasts', []):
+              vid = p.get('videoId', '')
               if p.get('summary_zh'):
-                  old_podcast_summaries[p.get('videoId', '')] = p['summary_zh']
+                  old_podcast_summaries[vid] = p['summary_zh']
+              if p.get('duration'):
+                  old_podcast_durations[vid] = {
+                      'duration': p['duration'],
+                      'durationSeconds': p.get('durationSeconds', 0)
+                  }
 
           old_ph_summaries = {}
           for p in old_feed.get('producthunt', []):
@@ -110,6 +117,10 @@ jobs:
               vid = p.get('videoId', '')
               if vid in old_podcast_summaries and not p.get('summary_zh'):
                   p['summary_zh'] = old_podcast_summaries[vid]
+                  merged += 1
+              if vid in old_podcast_durations and not p.get('duration'):
+                  p['duration'] = old_podcast_durations[vid]['duration']
+                  p['durationSeconds'] = old_podcast_durations[vid]['durationSeconds']
                   merged += 1
 
           for p in new_feed.get('producthunt', []):

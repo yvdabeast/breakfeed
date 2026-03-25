@@ -216,6 +216,46 @@ Stars：{stars}
     return count
 
 
+def fetch_missing_durations(feed):
+    """Fetch video durations for podcasts that don't have them."""
+    import requests
+    count = 0
+    headers = {"User-Agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 Breakfeed/1.0"}
+
+    for ep in feed.get("podcasts", []):
+        if ep.get("duration") or not ep.get("videoId"):
+            continue
+
+        vid = ep["videoId"]
+        try:
+            url = f"https://www.youtube.com/watch?v={vid}"
+            resp = requests.get(url, headers=headers, timeout=15)
+            if resp.status_code != 200:
+                continue
+
+            match = re.search(r'"lengthSeconds"\s*:\s*"(\d+)"', resp.text)
+            if match:
+                seconds = int(match.group(1))
+                if seconds < 60:
+                    ep["duration"] = f"{seconds}s"
+                elif seconds < 3600:
+                    m = seconds // 60
+                    s = seconds % 60
+                    ep["duration"] = f"{m}m{s:02d}s" if s > 0 else f"{m}m"
+                else:
+                    h = seconds // 3600
+                    m = (seconds % 3600) // 60
+                    ep["duration"] = f"{h}h{m:02d}m"
+                ep["durationSeconds"] = seconds
+                ep["isShort"] = seconds <= 120
+                count += 1
+                print(f"  [duration] {ep['title'][:40]}: {ep['duration']}", file=sys.stderr)
+        except Exception as e:
+            print(f"  [WARN] Duration {vid}: {e}", file=sys.stderr)
+
+    return count
+
+
 def main():
     # Try OpenAI first, fall back to Anthropic
     openai_key = os.environ.get("OPENAI_API_KEY", "")
@@ -254,6 +294,11 @@ def main():
     print("Breakfeed — Generating Chinese Summaries", file=sys.stderr)
     print("=" * 50, file=sys.stderr)
 
+    # Fetch missing durations first (doesn't need LLM)
+    duration_count = fetch_missing_durations(feed)
+    if duration_count:
+        print(f"  Fetched {duration_count} missing durations", file=sys.stderr)
+
     tweet_count = summarize_tweets(client, provider, feed)
     podcast_count = summarize_podcasts(client, provider, feed)
     ph_count = summarize_producthunt(client, provider, feed)
@@ -264,11 +309,12 @@ def main():
         json.dump(feed, f, ensure_ascii=False, indent=2)
 
     total = tweet_count + podcast_count + ph_count + gh_count
-    print(f"\nDone! Generated {total} summaries:", file=sys.stderr)
+    print(f"\nDone! Generated {total} summaries + {duration_count} durations:", file=sys.stderr)
     print(f"  Tweets: {tweet_count}", file=sys.stderr)
     print(f"  Podcasts: {podcast_count}", file=sys.stderr)
     print(f"  Product Hunt: {ph_count}", file=sys.stderr)
     print(f"  GitHub: {gh_count}", file=sys.stderr)
+    print(f"  Durations: {duration_count}", file=sys.stderr)
 
 
 if __name__ == "__main__":
