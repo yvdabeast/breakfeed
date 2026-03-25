@@ -150,7 +150,6 @@
         return `
           <div class="card tweet-card">
             <div class="tweet-header">
-              <div class="card-rank">#${rank}</div>
               <div class="tweet-avatar">${initial}</div>
               <div class="tweet-author">
                 <div class="tweet-name">${esc(builder.name)}</div>
@@ -220,8 +219,8 @@
       return `
         <div class="card podcast-card-v">
           <div class="podcast-meta">
-            <span class="podcast-channel"><span class="card-rank-inline">#${podcastRank}</span> ${esc(ep.name)}</span>
-            <span class="podcast-date">${dateStr}${duration ? ` · ${esc(duration)}` : ''}</span>
+            <span class="podcast-channel">${esc(ep.name)}</span>
+            <span class="podcast-date">${dateStr}</span>
           </div>
           <div class="podcast-title"><a href="${esc(ep.url)}" target="_blank" rel="noopener">${esc(ep.title)}</a></div>
           ${summaryZh ? `<div class="podcast-summary">${formatSummaryWithRec(summaryZh)}</div>` : ''}
@@ -266,7 +265,6 @@
       return `
         <div class="card ph-card-v">
           <div class="ph-card-header">
-            <div class="ph-rank">#${rank}</div>
             ${thumbUrl
               ? `<img class="ph-thumb" src="${esc(thumbUrl)}" alt="${esc(p.name)}" loading="lazy" onerror="this.style.display='none';this.nextElementSibling.style.display='flex'">`
               : ''}
@@ -301,7 +299,6 @@
       const summaryZh = r.summary_zh || '';
       return `
         <div class="card gh-card">
-          <div class="gh-rank">#${i + 1}</div>
           <div class="gh-info">
             <div class="gh-repo"><a href="${esc(r.url)}" target="_blank" rel="noopener">${esc(r.repo)}</a></div>
             ${summaryZh ? `<div class="gh-summary">${esc(summaryZh)}</div>` : `<div class="gh-desc">${esc(r.description || '')}</div>`}
