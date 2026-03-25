@@ -258,18 +258,16 @@ a:hover {
    ============================================ */
 
 .cards {
-  display: grid;
-  grid-template-columns: 1fr;
-  gap: var(--space-md);
-  align-items: start;
+  column-count: 1;
+  column-gap: var(--space-md);
 }
 
 @media (min-width: 600px) {
-  .cards { grid-template-columns: repeat(2, 1fr); }
+  .cards { column-count: 2; }
 }
 
 @media (min-width: 1200px) {
-  .cards { grid-template-columns: repeat(3, 1fr); }
+  .cards { column-count: 3; }
 }
 
 .card {
@@ -279,6 +277,8 @@ a:hover {
   padding: var(--space-lg);
   box-shadow: var(--shadow);
   transition: all 0.2s ease;
+  break-inside: avoid;
+  margin-bottom: var(--space-md);
 }
 
 .card:hover {
@@ -809,7 +809,8 @@ a:hover {
   align-items: center;
   gap: var(--space-md);
   margin: var(--space-sm) 0;
-  grid-column: 1 / -1;
+  column-span: all;
+  break-before: column;
 }
 
 .date-divider::before,
