@@ -32,22 +32,32 @@
   // --- Navigation ---
   function initNav() {
     const pills = document.querySelectorAll('.pill');
+
+    function switchTab(section) {
+      pills.forEach(p => p.classList.remove('active'));
+      const activePill = document.querySelector(`.pill[data-section="${section}"]`);
+      if (activePill) activePill.classList.add('active');
+
+      document.querySelectorAll('.section').forEach(s => s.classList.add('hidden'));
+      const target = document.getElementById('section-' + section);
+      if (target) {
+        target.classList.remove('hidden');
+        target.style.animation = 'none';
+        target.offsetHeight;
+        target.style.animation = '';
+      }
+      localStorage.setItem('breakfeed-tab', section);
+    }
+
     pills.forEach(pill => {
       pill.addEventListener('click', () => {
-        pills.forEach(p => p.classList.remove('active'));
-        pill.classList.add('active');
-
-        const section = pill.getAttribute('data-section');
-        document.querySelectorAll('.section').forEach(s => s.classList.add('hidden'));
-        const target = document.getElementById('section-' + section);
-        if (target) {
-          target.classList.remove('hidden');
-          target.style.animation = 'none';
-          target.offsetHeight; // trigger reflow
-          target.style.animation = '';
-        }
+        switchTab(pill.getAttribute('data-section'));
       });
     });
+
+    // Restore last active tab
+    const savedTab = localStorage.getItem('breakfeed-tab');
+    if (savedTab) switchTab(savedTab);
   }
 
   // --- Date Display ---
