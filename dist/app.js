@@ -132,16 +132,25 @@
         return tb - ta;
       });
 
-      const tweetsHtml = allTweets.map(({ tweet, builder }) => {
+      // Sort by engagement (likes + retweets + replies) for ranking
+      allTweets.sort((a, b) => {
+        const engA = (a.tweet.likes || 0) + (a.tweet.retweets || 0) + (a.tweet.replies || 0);
+        const engB = (b.tweet.likes || 0) + (b.tweet.retweets || 0) + (b.tweet.replies || 0);
+        return engB - engA;
+      });
+
+      const tweetsHtml = allTweets.map(({ tweet, builder }, idx) => {
         const initial = builder.name.charAt(0).toUpperCase();
         const timeAgo = formatTimeAgo(tweet.createdAt);
         const bioZh = builder.bio_zh || '';
         const summaryZh = tweet.summary_zh || '';
         const hasOriginal = tweet.text && tweet.text.trim();
+        const rank = idx + 1;
 
         return `
           <div class="card tweet-card">
             <div class="tweet-header">
+              <div class="card-rank">#${rank}</div>
               <div class="tweet-avatar">${initial}</div>
               <div class="tweet-author">
                 <div class="tweet-name">${esc(builder.name)}</div>
@@ -193,7 +202,9 @@
 
     container.innerHTML = sortedDates.map(date => {
       const dateLabel = formatDateLabel(date);
+      let podcastRank = 0;
       const cards = grouped[date].map(ep => {
+      podcastRank++;
       const videoId = ep.videoId ? esc(ep.videoId) : '';
       const thumbUrl = videoId
         ? `https://img.youtube.com/vi/${videoId}/hqdefault.jpg`
@@ -209,7 +220,7 @@
       return `
         <div class="card podcast-card-v">
           <div class="podcast-meta">
-            <span class="podcast-channel">${esc(ep.name)}</span>
+            <span class="podcast-channel"><span class="card-rank-inline">#${podcastRank}</span> ${esc(ep.name)}</span>
             <span class="podcast-date">${dateStr}${duration ? ` · ${esc(duration)}` : ''}</span>
           </div>
           <div class="podcast-title"><a href="${esc(ep.url)}" target="_blank" rel="noopener">${esc(ep.title)}</a></div>

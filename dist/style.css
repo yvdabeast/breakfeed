@@ -81,9 +81,13 @@ a:hover {
    ============================================ */
 
 .container {
-  max-width: 680px;
+  max-width: 960px;
   margin: 0 auto;
   padding: var(--space-lg) var(--space-md);
+}
+
+@media (min-width: 1200px) {
+  .container { max-width: 1200px; }
 }
 
 /* ============================================
@@ -139,6 +143,14 @@ a:hover {
 
 .theme-icon {
   font-size: 18px;
+}
+
+.slogan {
+  font-size: 14px;
+  color: var(--text-tertiary);
+  font-style: italic;
+  margin-top: 2px;
+  letter-spacing: 0.2px;
 }
 
 .date {
@@ -246,9 +258,16 @@ a:hover {
    ============================================ */
 
 .cards {
-  display: flex;
-  flex-direction: column;
-  gap: var(--space-md);
+  column-count: 1;
+  column-gap: var(--space-md);
+}
+
+@media (min-width: 600px) {
+  .cards { column-count: 2; }
+}
+
+@media (min-width: 1200px) {
+  .cards { column-count: 3; }
 }
 
 .card {
@@ -258,11 +277,28 @@ a:hover {
   padding: var(--space-lg);
   box-shadow: var(--shadow);
   transition: all 0.2s ease;
+  break-inside: avoid;
+  margin-bottom: var(--space-md);
 }
 
 .card:hover {
   box-shadow: var(--shadow-hover);
   transform: translateY(-1px);
+}
+
+/* Unified rank badge */
+.card-rank {
+  font-size: 13px;
+  font-weight: 700;
+  color: var(--text-tertiary);
+  flex-shrink: 0;
+  min-width: 28px;
+}
+
+.card-rank-inline {
+  font-weight: 700;
+  color: var(--text-tertiary);
+  margin-right: 4px;
 }
 
 /* Twitter Card */
@@ -786,6 +822,7 @@ a:hover {
   align-items: center;
   gap: var(--space-md);
   margin: var(--space-lg) 0 var(--space-md);
+  column-span: all;
 }
 
 .date-divider::before,
@@ -873,6 +910,10 @@ a:hover {
 
   .brand h1 {
     font-size: 28px;
+  }
+
+  .card {
+    padding: var(--space-lg);
   }
 }
 
