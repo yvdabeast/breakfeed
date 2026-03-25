@@ -31,6 +31,9 @@ jobs:
         run: cp dist/data/feed.json /tmp/old-feed.json
 
       - name: Fetch fresh data
+        env:
+          PH_API_KEY: ${{ secrets.PH_API_KEY }}
+          PH_API_SECRET: ${{ secrets.PH_API_SECRET }}
         run: python scripts/fetch_data.py
 
       - name: Merge summaries from committed feed

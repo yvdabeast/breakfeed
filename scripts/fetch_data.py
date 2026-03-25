@@ -383,38 +383,107 @@ def fetch_podcasts():
 
 
 def fetch_producthunt():
-    """Fetch top products from Product Hunt RSS."""
-    print("Fetching Product Hunt RSS...", file=sys.stderr)
+    """Fetch top 15 products from Product Hunt API (ranked by votes)."""
+    print("Fetching Product Hunt API...", file=sys.stderr)
+
+    ph_key = os.environ.get("PH_API_KEY", "")
+    ph_secret = os.environ.get("PH_API_SECRET", "")
+
+    if not ph_key or not ph_secret:
+        print("  [WARN] PH_API_KEY/PH_API_SECRET not set, falling back to RSS", file=sys.stderr)
+        return fetch_producthunt_rss()
+
+    try:
+        # Get access token
+        token_resp = requests.post("https://api.producthunt.com/v2/oauth/token", json={
+            "client_id": ph_key,
+            "client_secret": ph_secret,
+            "grant_type": "client_credentials",
+        }, timeout=15)
+
+        if token_resp.status_code != 200:
+            print(f"  [WARN] PH token failed: {token_resp.status_code}", file=sys.stderr)
+            return fetch_producthunt_rss()
+
+        token = token_resp.json().get("access_token", "")
+        if not token:
+            return fetch_producthunt_rss()
+
+        # Fetch top 15 posts ranked by votes
+        gql_resp = requests.post(
+            "https://api.producthunt.com/v2/api/graphql",
+            json={"query": """{ posts(order: VOTES, first: 15) { edges { node {
+                name tagline votesCount commentsCount url slug
+                thumbnail { url }
+                topics { edges { node { name } } }
+            } } } }"""},
+            headers={"Authorization": f"Bearer {token}", "Content-Type": "application/json"},
+            timeout=15,
+        )
+
+        if gql_resp.status_code != 200:
+            print(f"  [WARN] PH GraphQL failed: {gql_resp.status_code}", file=sys.stderr)
+            return fetch_producthunt_rss()
+
+        edges = gql_resp.json().get("data", {}).get("posts", {}).get("edges", [])
+        products = []
+        for i, edge in enumerate(edges):
+            node = edge["node"]
+            topics = [t["node"]["name"] for t in node.get("topics", {}).get("edges", [])]
+            thumb = node.get("thumbnail", {})
+            thumb_url = thumb.get("url", "") if thumb else ""
+
+            products.append({
+                "rank": i + 1,
+                "name": node.get("name", "Unknown"),
+                "tagline": node.get("tagline", ""),
+                "url": node.get("url", ""),
+                "votes": node.get("votesCount", 0),
+                "comments": node.get("commentsCount", 0),
+                "topics": topics,
+                "thumbnail": thumb_url,
+            })
+
+        print(f"  Found {len(products)} products (API)", file=sys.stderr)
+        return products
+
+    except Exception as e:
+        print(f"  [WARN] PH API failed: {e}, falling back to RSS", file=sys.stderr)
+        return fetch_producthunt_rss()
+
+
+def fetch_producthunt_rss():
+    """Fallback: Fetch products from Product Hunt RSS (no votes/tags)."""
+    print("  Using PH RSS fallback...", file=sys.stderr)
     try:
         feed = feedparser.parse(PH_RSS_URL)
         if not feed.entries:
-            print("  [WARN] No PH entries found", file=sys.stderr)
             return []
 
         products = []
-        for entry in feed.entries[:10]:
-            # Strip HTML from summary and clean up
+        for i, entry in enumerate(feed.entries[:15]):
             raw_summary = entry.get("summary", "") or ""
             clean_summary = BeautifulSoup(raw_summary, "html.parser").get_text(separator=" ", strip=True)
-            # Remove trailing "Discussion | Link" and similar noise
             clean_summary = re.sub(r'\s*(Discussion|Link|Comments?)(\s*\|\s*(Discussion|Link|Comments?))*\s*$', '', clean_summary)
-            # Take first sentence only
             tagline = clean_summary.split(".")[0].strip() if clean_summary else ""
             if len(tagline) > 120:
                 tagline = tagline[:120] + "..."
 
             products.append({
+                "rank": i + 1,
                 "name": entry.get("title", "Unknown"),
                 "tagline": tagline,
                 "url": entry.get("link", ""),
-                "votes": 0,  # RSS doesn't include vote counts
+                "votes": 0,
+                "comments": 0,
+                "topics": [],
                 "thumbnail": "",
             })
 
-        print(f"  Found {len(products)} products", file=sys.stderr)
+        print(f"  Found {len(products)} products (RSS fallback)", file=sys.stderr)
         return products
     except Exception as e:
-        print(f"  [WARN] Failed to fetch Product Hunt: {e}", file=sys.stderr)
+        print(f"  [WARN] PH RSS failed: {e}", file=sys.stderr)
         return []
 
 

@@ -246,22 +246,29 @@
     }
 
     container.innerHTML = products.map((p, i) => {
-      const emoji = getProductEmoji(p.name);
       const summaryZh = p.summary_zh || '';
+      const rank = p.rank || (i + 1);
+      const votes = p.votes || 0;
+      const topics = (p.topics || []).slice(0, 3);
+      const thumbUrl = p.thumbnail || '';
       return `
         <div class="card ph-card-v">
           <div class="ph-card-header">
-            <div class="ph-rank">${i + 1}</div>
-            <div class="ph-logo">${emoji}</div>
+            <div class="ph-rank">#${rank}</div>
+            ${thumbUrl
+              ? `<img class="ph-thumb" src="${esc(thumbUrl)}" alt="${esc(p.name)}" loading="lazy" onerror="this.style.display='none';this.nextElementSibling.style.display='flex'">`
+              : ''}
+            <div class="ph-logo" ${thumbUrl ? 'style="display:none"' : ''}>${getProductEmoji(p.name)}</div>
             <div class="ph-name-wrap">
               <div class="ph-name"><a href="${esc(p.url)}" target="_blank" rel="noopener">${esc(p.name)}</a></div>
               <div class="ph-tagline">${esc(p.tagline)}</div>
             </div>
-            <a class="ph-view" href="${esc(p.url)}" target="_blank" rel="noopener">
+            <a class="ph-upvote" href="${esc(p.url)}" target="_blank" rel="noopener">
               <span class="ph-votes-arrow">\u25B2</span>
-              <span>View</span>
+              <span class="ph-vote-count">${formatNum(votes)}</span>
             </a>
           </div>
+          ${topics.length ? `<div class="ph-topics">${topics.map(t => `<span class="ph-topic">${esc(t)}</span>`).join('')}</div>` : ''}
           ${summaryZh ? `<div class="ph-summary">${esc(summaryZh)}</div>` : ''}
         </div>
       `;

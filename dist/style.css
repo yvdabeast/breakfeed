@@ -618,7 +618,15 @@ a:hover {
   margin-top: 2px;
 }
 
-.ph-view {
+.ph-thumb {
+  width: 48px;
+  height: 48px;
+  border-radius: var(--radius-sm);
+  object-fit: cover;
+  flex-shrink: 0;
+}
+
+.ph-upvote {
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -631,9 +639,10 @@ a:hover {
   font-size: 11px;
   font-weight: 600;
   transition: all 0.2s ease;
+  min-width: 52px;
 }
 
-.ph-view:hover {
+.ph-upvote:hover {
   border-color: var(--ph);
   color: var(--ph);
   text-decoration: none;
@@ -642,6 +651,26 @@ a:hover {
 .ph-votes-arrow {
   font-size: 10px;
   color: var(--ph);
+}
+
+.ph-vote-count {
+  font-size: 13px;
+  font-weight: 700;
+}
+
+.ph-topics {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6px;
+  margin-top: var(--space-sm);
+}
+
+.ph-topic {
+  font-size: 11px;
+  color: var(--text-tertiary);
+  background: var(--bg-hover);
+  padding: 2px 8px;
+  border-radius: 12px;
 }
 
 /* GitHub Card */
