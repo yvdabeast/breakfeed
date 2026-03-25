@@ -102,11 +102,12 @@ def fetch_twitter():
             builders = data["x"]
             print(f"  RSSHub failed, using stale follow-builders data ({len(builders)} builders)", file=sys.stderr)
 
-    # Inject Chinese bio for each builder
+    # Inject Chinese bio for each builder (case-insensitive lookup)
+    bios_lower = {k.lower(): v for k, v in bios.items()}
     for builder in builders:
         handle = builder.get("handle", "").lower()
-        if handle in bios:
-            builder["bio_zh"] = bios[handle]
+        if handle in bios_lower:
+            builder["bio_zh"] = bios_lower[handle]
 
     print(f"  Final: {len(builders)} builders with tweets", file=sys.stderr)
     return builders
