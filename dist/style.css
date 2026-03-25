@@ -545,15 +545,20 @@ a:hover {
 
 .ph-card-header {
   display: flex;
-  align-items: center;
+  align-items: flex-start;
   gap: var(--space-md);
+}
+
+.ph-name-wrap {
+  flex: 1;
+  min-width: 0;
 }
 
 .ph-summary {
   font-size: 14px;
   line-height: 1.65;
   color: var(--text-secondary);
-  padding-left: 72px;
+  margin-top: var(--space-sm);
 }
 
 @media (max-width: 480px) {
