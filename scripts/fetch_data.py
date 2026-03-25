@@ -336,6 +336,36 @@ def fetch_podcasts():
             unique.append(e)
     episodes = unique
 
+    # Fetch duration for each episode
+    print("  Fetching video durations...", file=sys.stderr)
+    for ep in episodes:
+        vid = ep.get("videoId", "")
+        if not vid:
+            continue
+        try:
+            oembed_url = f"https://www.youtube.com/watch?v={vid}"
+            resp = requests.get(
+                f"https://www.youtube.com/oembed?url={oembed_url}&format=json",
+                headers=HEADERS, timeout=10
+            )
+            # oEmbed doesn't have duration, so scrape from video page
+            page_resp = requests.get(oembed_url, headers=HEADERS, timeout=10)
+            if page_resp.status_code == 200:
+                # Look for "lengthSeconds" in the page source
+                import re as _re
+                match = _re.search(r'"lengthSeconds"\s*:\s*"(\d+)"', page_resp.text)
+                if match:
+                    seconds = int(match.group(1))
+                    hours = seconds // 3600
+                    minutes = (seconds % 3600) // 60
+                    if hours > 0:
+                        ep["duration"] = f"{hours}h{minutes:02d}m"
+                    else:
+                        ep["duration"] = f"{minutes}m"
+                    ep["durationSeconds"] = seconds
+        except Exception:
+            pass  # Duration is optional, don't fail the whole fetch
+
     # Sort by date descending, take today's batch (max 5 long + 3 shorts = 8)
     episodes.sort(key=lambda e: e.get("publishedAt", ""), reverse=True)
     longs = [e for e in episodes if not e.get("isShort")][:5]

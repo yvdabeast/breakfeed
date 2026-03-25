@@ -194,12 +194,13 @@
         : '';
 
       const summaryZh = ep.summary_zh || '';
+      const duration = ep.duration || '';
 
       return `
         <div class="card podcast-card-v">
           <div class="podcast-meta">
             <span class="podcast-channel">${esc(ep.name)}</span>
-            <span class="podcast-date">${dateStr}</span>
+            <span class="podcast-date">${dateStr}${duration ? ` · ${esc(duration)}` : ''}</span>
           </div>
           <div class="podcast-title"><a href="${esc(ep.url)}" target="_blank" rel="noopener">${esc(ep.title)}</a></div>
           ${summaryZh ? `<div class="podcast-summary">${esc(summaryZh)}</div>` : ''}
@@ -208,6 +209,7 @@
             <img class="podcast-thumb-img" src="${thumbUrl}" alt="${esc(ep.title)}" loading="lazy">
             <div class="play-overlay">
               <div class="play-btn">&#9654;</div>
+              ${duration ? `<div class="duration-badge">${esc(duration)}</div>` : ''}
             </div>
           </div>` : ''}
         </div>
