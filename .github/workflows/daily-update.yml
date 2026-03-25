@@ -150,6 +150,14 @@ jobs:
           pip install openai anthropic
           python scripts/summarize.py
 
+      - name: Commit updated feed back to repo
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add dist/data/feed.json
+          git diff --cached --quiet || git commit -m "chore: update feed data [skip ci]"
+          git push || true
+
       - name: Deploy to GitHub Pages
         uses: peaceiris/actions-gh-pages@v4
         with:
