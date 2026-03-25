@@ -1,16 +1,17 @@
 #!/usr/bin/env python3
 """
 Breakfeed — Chinese Summary Generator
-Uses Claude API to generate Chinese summaries for ALL content:
+Uses OpenAI API (GPT-4o-mini) to generate Chinese summaries for ALL content:
   - Tweets (summary_zh)
   - Podcasts (summary_zh with watch recommendation)
   - Product Hunt (summary_zh with relevance)
   - GitHub Trending (summary_zh with relevance)
 
 Usage:
-  ANTHROPIC_API_KEY=sk-... python summarize.py
+  OPENAI_API_KEY=sk-... python summarize.py
 
-If no API key is set, skips summarization silently.
+Falls back to Anthropic API if ANTHROPIC_API_KEY is set and OPENAI is not.
+If neither key is set, skips summarization silently.
 """
 
 import json
@@ -22,7 +23,6 @@ from pathlib import Path
 SCRIPT_DIR = Path(__file__).parent
 FEED_PATH = SCRIPT_DIR.parent / "dist" / "data" / "feed.json"
 
-# Context about Yves for personalized recommendations
 YVES_CONTEXT = """受众背景：
 - Yves（衣服）：Logic Labs（AI 公司）和 TexTale（男士科技服装电商）联合创始人
 - 前 OnePlus 全球创意设计总监
@@ -30,8 +30,26 @@ YVES_CONTEXT = """受众背景：
 - 关注：AI 行业趋势、创意设计工具、电商运营、品牌营销"""
 
 
-def summarize_tweets(client, feed):
-    """Generate Chinese summaries for tweets in twitter and twitter_history."""
+def call_llm(client, provider, prompt, max_tokens=200):
+    """Unified LLM call for both OpenAI and Anthropic."""
+    if provider == "openai":
+        response = client.chat.completions.create(
+            model="gpt-4o-mini",
+            max_tokens=max_tokens,
+            messages=[{"role": "user", "content": prompt}],
+        )
+        return response.choices[0].message.content.strip()
+    else:
+        response = client.messages.create(
+            model="claude-sonnet-4-20250514",
+            max_tokens=max_tokens,
+            messages=[{"role": "user", "content": prompt}],
+        )
+        return response.content[0].text.strip()
+
+
+def summarize_tweets(client, provider, feed):
+    """Generate Chinese summaries for tweets."""
     all_builders = list(feed.get("twitter", []))
     for day in feed.get("twitter_history", []):
         all_builders.extend(day.get("builders", []))
@@ -70,12 +88,7 @@ def summarize_tweets(client, feed):
 推文原文：{text}"""
 
             try:
-                response = client.messages.create(
-                    model="claude-sonnet-4-20250514",
-                    max_tokens=200,
-                    messages=[{"role": "user", "content": prompt}],
-                )
-                summary = response.content[0].text.strip()
+                summary = call_llm(client, provider, prompt)
                 tweet["summary_zh"] = summary
                 count += 1
                 print(f"  [tweet] @{handle}: {summary[:50]}...", file=sys.stderr)
@@ -85,7 +98,7 @@ def summarize_tweets(client, feed):
     return count
 
 
-def summarize_podcasts(client, feed):
+def summarize_podcasts(client, provider, feed):
     """Generate Chinese summaries with watch recommendations for podcasts."""
     count = 0
     for ep in feed.get("podcasts", []):
@@ -121,12 +134,7 @@ def summarize_podcasts(client, feed):
 只输出摘要和建议，不要加任何前缀标题。"""
 
         try:
-            response = client.messages.create(
-                model="claude-sonnet-4-20250514",
-                max_tokens=300,
-                messages=[{"role": "user", "content": prompt}],
-            )
-            summary = response.content[0].text.strip()
+            summary = call_llm(client, provider, prompt, max_tokens=300)
             ep["summary_zh"] = summary
             count += 1
             print(f"  [podcast] {name}: {summary[:50]}...", file=sys.stderr)
@@ -136,7 +144,7 @@ def summarize_podcasts(client, feed):
     return count
 
 
-def summarize_producthunt(client, feed):
+def summarize_producthunt(client, provider, feed):
     """Generate Chinese summaries for Product Hunt items."""
     count = 0
     for product in feed.get("producthunt", []):
@@ -160,12 +168,7 @@ def summarize_producthunt(client, feed):
 只输出分析内容，不要加前缀。"""
 
         try:
-            response = client.messages.create(
-                model="claude-sonnet-4-20250514",
-                max_tokens=200,
-                messages=[{"role": "user", "content": prompt}],
-            )
-            summary = response.content[0].text.strip()
+            summary = call_llm(client, provider, prompt)
             product["summary_zh"] = summary
             count += 1
             print(f"  [ph] {name}: {summary[:50]}...", file=sys.stderr)
@@ -175,7 +178,7 @@ def summarize_producthunt(client, feed):
     return count
 
 
-def summarize_github(client, feed):
+def summarize_github(client, provider, feed):
     """Generate Chinese summaries for GitHub trending repos."""
     count = 0
     for repo in feed.get("github_trending", []):
@@ -203,12 +206,7 @@ Stars：{stars}
 只输出分析内容，不要加前缀。"""
 
         try:
-            response = client.messages.create(
-                model="claude-sonnet-4-20250514",
-                max_tokens=200,
-                messages=[{"role": "user", "content": prompt}],
-            )
-            summary = response.content[0].text.strip()
+            summary = call_llm(client, provider, prompt)
             repo["summary_zh"] = summary
             count += 1
             print(f"  [gh] {repo_name}: {summary[:50]}...", file=sys.stderr)
@@ -219,18 +217,34 @@ Stars：{stars}
 
 
 def main():
-    api_key = os.environ.get("ANTHROPIC_API_KEY", "")
-    if not api_key:
-        print("No ANTHROPIC_API_KEY set, skipping summarization.", file=sys.stderr)
-        return
+    # Try OpenAI first, fall back to Anthropic
+    openai_key = os.environ.get("OPENAI_API_KEY", "")
+    anthropic_key = os.environ.get("ANTHROPIC_API_KEY", "")
 
-    try:
-        import anthropic
-    except ImportError:
-        print("anthropic package not installed, skipping.", file=sys.stderr)
-        return
+    client = None
+    provider = None
 
-    client = anthropic.Anthropic(api_key=api_key)
+    if openai_key:
+        try:
+            from openai import OpenAI
+            client = OpenAI(api_key=openai_key)
+            provider = "openai"
+            print("Using OpenAI (GPT-4o-mini) for summaries", file=sys.stderr)
+        except ImportError:
+            print("openai package not installed", file=sys.stderr)
+
+    if not client and anthropic_key:
+        try:
+            import anthropic
+            client = anthropic.Anthropic(api_key=anthropic_key)
+            provider = "anthropic"
+            print("Using Anthropic (Claude) for summaries", file=sys.stderr)
+        except ImportError:
+            print("anthropic package not installed", file=sys.stderr)
+
+    if not client:
+        print("No API key available, skipping summarization.", file=sys.stderr)
+        return
 
     # Load feed
     with open(FEED_PATH, "r", encoding="utf-8") as f:
@@ -240,10 +254,10 @@ def main():
     print("Breakfeed — Generating Chinese Summaries", file=sys.stderr)
     print("=" * 50, file=sys.stderr)
 
-    tweet_count = summarize_tweets(client, feed)
-    podcast_count = summarize_podcasts(client, feed)
-    ph_count = summarize_producthunt(client, feed)
-    gh_count = summarize_github(client, feed)
+    tweet_count = summarize_tweets(client, provider, feed)
+    podcast_count = summarize_podcasts(client, provider, feed)
+    ph_count = summarize_producthunt(client, provider, feed)
+    gh_count = summarize_github(client, provider, feed)
 
     # Write back
     with open(FEED_PATH, "w", encoding="utf-8") as f:
