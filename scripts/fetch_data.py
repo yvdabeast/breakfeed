@@ -70,15 +70,37 @@ def load_bios():
 
 
 def fetch_twitter():
-    """Fetch Twitter/X data from follow-builders, inject Chinese bios."""
+    """Fetch Twitter/X data from follow-builders, with RSSHub fallback."""
     print("Fetching Twitter data from follow-builders...", file=sys.stderr)
     data = fetch_json(FEED_X_URL)
-    if not data or "x" not in data:
-        print("  [WARN] No Twitter data available", file=sys.stderr)
-        return []
-
     bios = load_bios()
-    builders = data["x"]
+
+    # Check if follow-builders data is fresh (< 12 hours old)
+    is_stale = True
+    if data and "generatedAt" in data:
+        try:
+            gen_time = datetime.fromisoformat(data["generatedAt"].replace("Z", "+00:00"))
+            age_hours = (datetime.now(timezone.utc) - gen_time).total_seconds() / 3600
+            is_stale = age_hours > 12
+            if is_stale:
+                print(f"  [WARN] follow-builders data is {age_hours:.1f}h old, trying RSSHub fallback...", file=sys.stderr)
+        except Exception:
+            pass
+
+    builders = []
+
+    if data and "x" in data and not is_stale:
+        # Use follow-builders data
+        builders = data["x"]
+        print(f"  Found {len(builders)} builders from follow-builders", file=sys.stderr)
+    else:
+        # Fallback: try RSSHub for each account
+        print("  Using RSSHub fallback for Twitter data...", file=sys.stderr)
+        builders = fetch_twitter_rsshub(bios)
+        # If RSSHub also fails, use stale follow-builders data as last resort
+        if not builders and data and "x" in data:
+            builders = data["x"]
+            print(f"  RSSHub failed, using stale follow-builders data ({len(builders)} builders)", file=sys.stderr)
 
     # Inject Chinese bio for each builder
     for builder in builders:
@@ -86,7 +108,108 @@ def fetch_twitter():
         if handle in bios:
             builder["bio_zh"] = bios[handle]
 
-    print(f"  Found {len(builders)} builders with tweets", file=sys.stderr)
+    print(f"  Final: {len(builders)} builders with tweets", file=sys.stderr)
+    return builders
+
+
+def fetch_twitter_rsshub(bios):
+    """Fallback: fetch tweets from RSSHub instances."""
+    # List of public RSSHub instances to try
+    rsshub_instances = [
+        "https://rsshub.app",
+        "https://rsshub.rssforever.com",
+        "https://rsshub-instance.zeabur.app",
+    ]
+
+    # Get handles from bios or use default list
+    handles = list(bios.keys()) if bios else [
+        "karpathy", "swyx", "sama", "kevinweil", "petergyang",
+        "rauchg", "levie", "garrytan", "danshipper", "trq212",
+        "alexalbert__", "amasad", "steipete", "mattturck", "claudeai",
+    ]
+
+    builders = []
+    working_instance = None
+
+    # Find a working instance
+    for instance in rsshub_instances:
+        try:
+            test_url = f"{instance}/twitter/user/sama"
+            resp = requests.get(test_url, headers=HEADERS, timeout=10)
+            if resp.status_code == 200:
+                working_instance = instance
+                print(f"  Using RSSHub instance: {instance}", file=sys.stderr)
+                break
+        except Exception:
+            continue
+
+    if not working_instance:
+        print("  [WARN] No working RSSHub instance found", file=sys.stderr)
+        return []
+
+    for handle in handles:
+        try:
+            url = f"{working_instance}/twitter/user/{handle}"
+            resp = requests.get(url, headers=HEADERS, timeout=15)
+            if resp.status_code != 200:
+                continue
+
+            feed = feedparser.parse(resp.text)
+            if not feed.entries:
+                continue
+
+            tweets = []
+            for entry in feed.entries[:3]:
+                # Parse entry
+                title = entry.get("title", "")
+                link = entry.get("link", "")
+                pub_date = entry.get("published", "")
+
+                # Try to extract tweet ID from link
+                tweet_id = ""
+                if "/status/" in link:
+                    tweet_id = link.split("/status/")[-1].split("?")[0].split("#")[0]
+
+                if not tweet_id:
+                    continue
+
+                tweets.append({
+                    "id": tweet_id,
+                    "text": title,
+                    "createdAt": pub_date,
+                    "url": link,
+                    "likes": 0,
+                    "retweets": 0,
+                    "replies": 0,
+                    "isQuote": False,
+                    "quotedTweetId": None,
+                })
+
+            if tweets:
+                # Find display name from bios or use handle
+                display_name = handle
+                for key, val in bios.items():
+                    if key.lower() == handle.lower():
+                        display_name = handle
+                        break
+
+                builders.append({
+                    "source": "x",
+                    "name": display_name.replace("_", " ").title(),
+                    "handle": handle,
+                    "bio": "",
+                    "tweets": tweets,
+                })
+
+            # Be nice to the instance
+            import time
+            time.sleep(0.5)
+
+        except Exception as e:
+            print(f"  [WARN] RSSHub failed for @{handle}: {e}", file=sys.stderr)
+            continue
+
+    print(f"  RSSHub fetched {len(builders)} builders", file=sys.stderr)
     return builders
 
 

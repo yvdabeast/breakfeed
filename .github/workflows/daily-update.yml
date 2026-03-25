@@ -46,9 +46,10 @@ jobs:
           with open('dist/data/feed.json', 'r') as f:
               new_feed = json.load(f)
 
-          # Build lookups from old feed
+          # Build lookups from old feed (including history)
           old_tweet_summaries = {}
           old_bios = {}
+          # Collect from current twitter
           for b in old_feed.get('twitter', []):
               handle = b.get('handle', '')
               if b.get('bio_zh'):
@@ -56,6 +57,15 @@ jobs:
               for t in b.get('tweets', []):
                   if t.get('summary_zh'):
                       old_tweet_summaries[t['id']] = t['summary_zh']
+          # Collect from twitter_history
+          for day in old_feed.get('twitter_history', []):
+              for b in day.get('builders', []):
+                  handle = b.get('handle', '')
+                  if b.get('bio_zh'):
+                      old_bios[handle] = b['bio_zh']
+                  for t in b.get('tweets', []):
+                      if t.get('summary_zh'):
+                          old_tweet_summaries[t['id']] = t['summary_zh']
 
           old_podcast_summaries = {}
           for p in old_feed.get('podcasts', []):
@@ -74,6 +84,7 @@ jobs:
 
           # Merge into new feed
           merged = 0
+          # Merge current twitter
           for b in new_feed.get('twitter', []):
               handle = b.get('handle', '')
               if handle in old_bios and not b.get('bio_zh'):
@@ -83,6 +94,17 @@ jobs:
                   if tid in old_tweet_summaries and not t.get('summary_zh'):
                       t['summary_zh'] = old_tweet_summaries[tid]
                       merged += 1
+          # Merge twitter_history
+          for day in new_feed.get('twitter_history', []):
+              for b in day.get('builders', []):
+                  handle = b.get('handle', '')
+                  if handle in old_bios and not b.get('bio_zh'):
+                      b['bio_zh'] = old_bios[handle]
+                  for t in b.get('tweets', []):
+                      tid = t.get('id', '')
+                      if tid in old_tweet_summaries and not t.get('summary_zh'):
+                          t['summary_zh'] = old_tweet_summaries[tid]
+                          merged += 1
 
           for p in new_feed.get('podcasts', []):
               vid = p.get('videoId', '')
