@@ -394,9 +394,10 @@
     const containerWidth = container.offsetWidth;
 
     // Determine columns based on viewport
+    // 768px+ for 2 cols (ensures folding phones stay single column when folded)
     let cols = 1;
     if (window.innerWidth >= 1200) cols = 3;
-    else if (window.innerWidth >= 600) cols = 2;
+    else if (window.innerWidth >= 768) cols = 2;
 
     if (cols === 1) {
       // Single column: no masonry needed, just reset to flow layout
@@ -407,6 +408,10 @@
         child.style.left = '';
         child.style.top = '';
         child.style.width = '';
+        // Comfortable spacing between cards in single column
+        if (child.classList.contains('card')) {
+          child.style.marginBottom = '20px';
+        }
       });
       return;
     }
