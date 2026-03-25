@@ -58,13 +58,14 @@
 }
 
 body {
-  font-family: -apple-system, BlinkMacSystemFont, 'SF Pro Text', 'Segoe UI', Roboto, sans-serif;
+  font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'SF Pro Text', 'Segoe UI', Roboto, sans-serif;
   background: var(--bg);
   color: var(--text);
-  line-height: 1.6;
-  font-size: 16px;
+  line-height: 1.65;
+  font-size: 15px;
   -webkit-font-smoothing: antialiased;
   transition: background 0.3s ease, color 0.3s ease;
+  letter-spacing: -0.01em;
 }
 
 a {
@@ -95,8 +96,8 @@ a:hover {
    ============================================ */
 
 .header {
-  margin-bottom: var(--space-xl);
-  padding-bottom: var(--space-lg);
+  margin-bottom: var(--space-2xl);
+  padding-bottom: var(--space-xl);
   border-bottom: 1px solid var(--border);
 }
 
@@ -118,9 +119,10 @@ a:hover {
 }
 
 .brand h1 {
-  font-size: 24px;
+  font-family: 'Playfair Display', Georgia, 'Times New Roman', serif;
+  font-size: 36px;
   font-weight: 700;
-  letter-spacing: -0.5px;
+  letter-spacing: -1px;
 }
 
 .theme-toggle {
@@ -146,11 +148,12 @@ a:hover {
 }
 
 .slogan {
-  font-size: 14px;
+  font-family: 'Playfair Display', Georgia, serif;
+  font-size: 15px;
   color: var(--text-tertiary);
   font-style: italic;
-  margin-top: 2px;
-  letter-spacing: 0.2px;
+  margin-top: 4px;
+  letter-spacing: 0.3px;
 }
 
 .date {
@@ -187,16 +190,19 @@ a:hover {
   display: flex;
   align-items: center;
   gap: 6px;
-  padding: 8px 16px;
+  padding: 8px 18px;
   border-radius: 100px;
   border: 1px solid var(--border);
   background: var(--bg-card);
   color: var(--text-secondary);
-  font-size: 14px;
+  font-family: 'Inter', -apple-system, sans-serif;
+  font-size: 13px;
   font-weight: 500;
   cursor: pointer;
   white-space: nowrap;
   transition: all 0.2s ease;
+  letter-spacing: 0.3px;
+  text-transform: uppercase;
 }
 
 .pill:hover {
@@ -237,11 +243,13 @@ a:hover {
 }
 
 .section-header h2 {
-  font-size: 18px;
+  font-family: 'Playfair Display', Georgia, serif;
+  font-size: 26px;
   font-weight: 600;
   display: flex;
   align-items: center;
   gap: var(--space-sm);
+  letter-spacing: -0.5px;
 }
 
 .section-icon {
@@ -434,9 +442,11 @@ a:hover {
 }
 
 .podcast-title {
-  font-size: 15px;
+  font-family: 'Playfair Display', Georgia, serif;
+  font-size: 17px;
   font-weight: 600;
-  line-height: 1.4;
+  line-height: 1.35;
+  letter-spacing: -0.3px;
 }
 
 .podcast-title a {
@@ -641,9 +651,11 @@ a:hover {
 }
 
 .ph-name {
-  font-size: 15px;
+  font-family: 'Playfair Display', Georgia, serif;
+  font-size: 17px;
   font-weight: 600;
   line-height: 1.3;
+  letter-spacing: -0.3px;
 }
 
 .ph-name a {
@@ -731,9 +743,11 @@ a:hover {
 }
 
 .gh-repo {
+  font-family: 'Inter', -apple-system, sans-serif;
   font-size: 15px;
   font-weight: 600;
   line-height: 1.3;
+  letter-spacing: -0.2px;
 }
 
 .gh-repo a {
@@ -819,10 +833,13 @@ a:hover {
 }
 
 .date-divider span {
-  font-size: 13px;
-  font-weight: 600;
+  font-family: 'Playfair Display', Georgia, serif;
+  font-size: 14px;
+  font-weight: 400;
+  font-style: italic;
   color: var(--text-tertiary);
   white-space: nowrap;
+  letter-spacing: 0.3px;
 }
 
 /* ============================================
