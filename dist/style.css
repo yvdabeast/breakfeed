@@ -286,16 +286,18 @@ a:hover {
   transform: translateY(-1px);
 }
 
-/* Unified rank badge */
-.card-rank {
-  font-size: 13px;
+/* Unified rank badge — all tabs use same style */
+.card-rank, .ph-rank, .gh-rank {
+  font-size: 14px;
   font-weight: 700;
   color: var(--text-tertiary);
   flex-shrink: 0;
   min-width: 28px;
+  text-align: center;
 }
 
 .card-rank-inline {
+  font-size: 14px;
   font-weight: 700;
   color: var(--text-tertiary);
   margin-right: 4px;
@@ -622,14 +624,7 @@ a:hover {
   gap: var(--space-md);
 }
 
-.ph-rank {
-  font-size: 14px;
-  font-weight: 700;
-  color: var(--text-tertiary);
-  width: 24px;
-  text-align: center;
-  flex-shrink: 0;
-}
+/* .ph-rank unified above */
 
 .ph-logo {
   width: 48px;
@@ -731,15 +726,7 @@ a:hover {
   gap: var(--space-md);
 }
 
-.gh-rank {
-  font-size: 14px;
-  font-weight: 700;
-  color: var(--text-tertiary);
-  width: 24px;
-  text-align: center;
-  flex-shrink: 0;
-  padding-top: 2px;
-}
+/* .gh-rank unified above */
 
 .gh-info {
   flex: 1;

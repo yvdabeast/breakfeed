@@ -301,7 +301,7 @@
       const summaryZh = r.summary_zh || '';
       return `
         <div class="card gh-card">
-          <div class="gh-rank">${i + 1}</div>
+          <div class="gh-rank">#${i + 1}</div>
           <div class="gh-info">
             <div class="gh-repo"><a href="${esc(r.url)}" target="_blank" rel="noopener">${esc(r.repo)}</a></div>
             ${summaryZh ? `<div class="gh-summary">${esc(summaryZh)}</div>` : `<div class="gh-desc">${esc(r.description || '')}</div>`}
