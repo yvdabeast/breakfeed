@@ -203,7 +203,7 @@
             <span class="podcast-date">${dateStr}${duration ? ` · ${esc(duration)}` : ''}</span>
           </div>
           <div class="podcast-title"><a href="${esc(ep.url)}" target="_blank" rel="noopener">${esc(ep.title)}</a></div>
-          ${summaryZh ? `<div class="podcast-summary">${esc(summaryZh)}</div>` : ''}
+          ${summaryZh ? `<div class="podcast-summary">${formatSummaryWithRec(summaryZh)}</div>` : ''}
           ${videoId ? `
           <div class="podcast-player" data-video-id="${videoId}">
             <img class="podcast-thumb-img" src="${thumbUrl}" alt="${esc(ep.title)}" loading="lazy">
@@ -304,6 +304,17 @@
     const div = document.createElement('div');
     div.textContent = str || '';
     return div.innerHTML;
+  }
+
+  function formatSummaryWithRec(text) {
+    // Split summary and recommendation line (starts with emoji 🎯💡⏭️)
+    const lines = (text || '').split('\n').filter(l => l.trim());
+    if (lines.length <= 1) return esc(text);
+    const recLine = lines.find(l => /^[🎯💡⏭️]/.test(l.trim()));
+    if (!recLine) return esc(text);
+    const summaryLines = lines.filter(l => l !== recLine);
+    const recClass = recLine.includes('推荐') ? 'rec-yes' : recLine.includes('值得') ? 'rec-maybe' : 'rec-skip';
+    return `<span class="summary-text">${esc(summaryLines.join(' '))}</span><span class="rec-badge ${recClass}">${esc(recLine.trim())}</span>`;
   }
 
   function linkify(text) {
