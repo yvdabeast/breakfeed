@@ -258,16 +258,15 @@ a:hover {
    ============================================ */
 
 .cards {
-  column-count: 1;
-  column-gap: var(--space-md);
+  position: relative;
+  width: 100%;
 }
 
-@media (min-width: 600px) {
-  .cards { column-count: 2; }
-}
-
-@media (min-width: 1200px) {
-  .cards { column-count: 3; }
+.cards.masonry-ready > .card,
+.cards.masonry-ready > .date-divider {
+  position: absolute;
+  left: 0;
+  top: 0;
 }
 
 .card {
@@ -276,9 +275,7 @@ a:hover {
   border-radius: var(--radius);
   padding: var(--space-lg);
   box-shadow: var(--shadow);
-  transition: all 0.2s ease;
-  break-inside: avoid;
-  margin-bottom: var(--space-md);
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
 }
 
 .card:hover {
@@ -808,9 +805,9 @@ a:hover {
   display: flex;
   align-items: center;
   gap: var(--space-md);
-  margin: var(--space-sm) 0;
-  column-span: all;
-  break-before: column;
+  padding: var(--space-sm) 0;
+  width: 100%;
+  box-sizing: border-box;
 }
 
 .date-divider::before,

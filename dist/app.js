@@ -389,6 +389,95 @@
     `;
   }
 
+  // --- Masonry Layout (Z-order + staggered) ---
+  function applyMasonry(container) {
+    if (!container || !container.children.length) return;
+
+    const gap = 16;
+    const containerWidth = container.offsetWidth;
+
+    // Determine columns based on viewport
+    let cols = 1;
+    if (window.innerWidth >= 1200) cols = 3;
+    else if (window.innerWidth >= 600) cols = 2;
+
+    if (cols === 1) {
+      // Single column: no masonry needed, just reset to flow layout
+      container.classList.remove('masonry-ready');
+      container.style.height = '';
+      Array.from(container.children).forEach(child => {
+        child.style.position = '';
+        child.style.left = '';
+        child.style.top = '';
+        child.style.width = '';
+      });
+      return;
+    }
+
+    const colWidth = (containerWidth - gap * (cols - 1)) / cols;
+    const colHeights = new Array(cols).fill(0);
+
+    // First pass: set widths so heights can be measured
+    container.classList.remove('masonry-ready');
+    Array.from(container.children).forEach(child => {
+      child.style.position = '';
+      child.style.left = '';
+      child.style.top = '';
+      if (child.classList.contains('date-divider')) {
+        child.style.width = '100%';
+      } else {
+        child.style.width = colWidth + 'px';
+      }
+    });
+
+    // Force layout recalc
+    container.offsetHeight;
+
+    // Second pass: position elements
+    container.classList.add('masonry-ready');
+    const children = Array.from(container.children);
+
+    children.forEach((child, i) => {
+      if (child.classList.contains('date-divider')) {
+        // Date divider: span full width, start below all columns
+        const maxH = Math.max(...colHeights);
+        child.style.position = 'absolute';
+        child.style.left = '0';
+        child.style.top = maxH + 'px';
+        child.style.width = '100%';
+        const dividerH = child.offsetHeight + gap;
+        colHeights.fill(maxH + dividerH);
+      } else {
+        // Card: Z-order placement (left to right)
+        const col = (() => {
+          // Find the column with the LEAST height (for masonry),
+          // but among equal-height columns pick leftmost (for Z-order)
+          let minH = Infinity, minCol = 0;
+          for (let c = 0; c < cols; c++) {
+            if (colHeights[c] < minH - 1) { // -1 threshold for "close enough" same row
+              minH = colHeights[c];
+              minCol = c;
+            }
+          }
+          return minCol;
+        })();
+
+        child.style.position = 'absolute';
+        child.style.left = (col * (colWidth + gap)) + 'px';
+        child.style.top = colHeights[col] + 'px';
+        child.style.width = colWidth + 'px';
+
+        colHeights[col] += child.offsetHeight + gap;
+      }
+    });
+
+    container.style.height = Math.max(...colHeights) + 'px';
+  }
+
+  function applyAllMasonry() {
+    document.querySelectorAll('.cards').forEach(applyMasonry);
+  }
+
   // --- Init ---
   async function init() {
     initTheme();
@@ -405,6 +494,30 @@
       renderPodcasts(data.podcasts);
       renderProductHunt(data.producthunt);
       renderGitHub(data.github_trending);
+
+      // Apply masonry after images load
+      requestAnimationFrame(() => {
+        applyAllMasonry();
+        // Re-layout when images finish loading
+        document.querySelectorAll('.cards img').forEach(img => {
+          img.addEventListener('load', applyAllMasonry);
+          img.addEventListener('error', applyAllMasonry);
+        });
+      });
+
+      // Re-layout on resize
+      let resizeTimer;
+      window.addEventListener('resize', () => {
+        clearTimeout(resizeTimer);
+        resizeTimer = setTimeout(applyAllMasonry, 150);
+      });
+
+      // Re-layout on tab switch (hidden tabs have 0 height)
+      document.querySelectorAll('.pill').forEach(pill => {
+        pill.addEventListener('click', () => {
+          requestAnimationFrame(() => requestAnimationFrame(applyAllMasonry));
+        });
+      });
     } catch (err) {
       console.error('Failed to load feed:', err);
       document.getElementById('twitterCards').innerHTML =
