@@ -435,11 +435,12 @@
     // Force layout recalc
     container.offsetHeight;
 
-    // Second pass: position elements
+    // Second pass: position elements with strict left-to-right order
     container.classList.add('masonry-ready');
     const children = Array.from(container.children);
+    let cardIndex = 0; // tracks which column to place next card in
 
-    children.forEach((child, i) => {
+    children.forEach((child) => {
       if (child.classList.contains('date-divider')) {
         // Date divider: span full width, start below all columns
         const maxH = Math.max(...colHeights);
@@ -449,20 +450,11 @@
         child.style.width = '100%';
         const dividerH = child.offsetHeight + gap;
         colHeights.fill(maxH + dividerH);
+        cardIndex = 0; // reset to left after divider
       } else {
-        // Card: Z-order placement (left to right)
-        const col = (() => {
-          // Find the column with the LEAST height (for masonry),
-          // but among equal-height columns pick leftmost (for Z-order)
-          let minH = Infinity, minCol = 0;
-          for (let c = 0; c < cols; c++) {
-            if (colHeights[c] < minH - 1) { // -1 threshold for "close enough" same row
-              minH = colHeights[c];
-              minCol = c;
-            }
-          }
-          return minCol;
-        })();
+        // Strict left-to-right: always go 0, 1, 2, 0, 1, 2...
+        const col = cardIndex % cols;
+        cardIndex++;
 
         child.style.position = 'absolute';
         child.style.left = (col * (colWidth + gap)) + 'px';
