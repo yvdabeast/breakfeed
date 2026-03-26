@@ -150,6 +150,7 @@
         return `
           <div class="card tweet-card">
             <div class="tweet-header">
+              <div class="card-rank">#${rank}</div>
               <div class="tweet-avatar">${initial}</div>
               <div class="tweet-author">
                 <div class="tweet-name">${esc(builder.name)}</div>
@@ -199,11 +200,11 @@
 
     const sortedDates = Object.keys(grouped).sort().reverse();
 
+    let globalPodcastRank = 0;
     container.innerHTML = sortedDates.map(date => {
       const dateLabel = formatDateLabel(date);
-      let podcastRank = 0;
       const cards = grouped[date].map(ep => {
-      podcastRank++;
+      globalPodcastRank++;
       const videoId = ep.videoId ? esc(ep.videoId) : '';
       const thumbUrl = videoId
         ? `https://img.youtube.com/vi/${videoId}/hqdefault.jpg`
@@ -219,7 +220,7 @@
       return `
         <div class="card podcast-card-v">
           <div class="podcast-meta">
-            <span class="podcast-channel">${esc(ep.name)}</span>
+            <span class="podcast-channel"><span class="card-rank">#${globalPodcastRank}</span> ${esc(ep.name)}</span>
             <span class="podcast-date">${dateStr}</span>
           </div>
           <div class="podcast-title"><a href="${esc(ep.url)}" target="_blank" rel="noopener">${esc(ep.title)}</a></div>
@@ -265,6 +266,7 @@
       return `
         <div class="card ph-card-v">
           <div class="ph-card-header">
+            <div class="card-rank">#${rank}</div>
             ${thumbUrl
               ? `<img class="ph-thumb" src="${esc(thumbUrl)}" alt="${esc(p.name)}" loading="lazy" onerror="this.style.display='none';this.nextElementSibling.style.display='flex'">`
               : ''}
@@ -299,6 +301,7 @@
       const summaryZh = r.summary_zh || '';
       return `
         <div class="card gh-card">
+          <div class="card-rank">#${i + 1}</div>
           <div class="gh-info">
             <div class="gh-repo"><a href="${esc(r.url)}" target="_blank" rel="noopener">${esc(r.repo)}</a></div>
             ${summaryZh ? `<div class="gh-summary">${esc(summaryZh)}</div>` : `<div class="gh-desc">${esc(r.description || '')}</div>`}
