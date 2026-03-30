@@ -231,7 +231,8 @@ def fetch_podcasts():
         "UCsBjURrPoezykLs9EqgamOA": "Fireship",
         "UCJIfeSCssxSC_Dhc5s7woww": "Matt Wolfe",
         "UCXUPKJO5MZQN11PqgIvyuvQ": "AI Explained",
-        # Product / startup
+        # Product / startup / media
+        "UCjIMtrzxYc0lblGhmOgC_CA": "Every Inc",
         "UC6t1O76G0jYXOAoYCm153dA": "Lenny's Podcast",
         "UCPjNBjflYl0-HQtUvOx0Ibw": "Greg Isenberg",
         "UCcefcZRL2oaA_uBNeo5UOWg": "Y Combinator",
@@ -590,16 +591,54 @@ def merge_history(old_feed, new_twitter, new_podcasts):
 
     # --- Podcasts: accumulate, dedup by videoId, keep 7 days ---
     old_podcasts = old_feed.get("podcasts", []) if old_feed else []
-    existing_vids = {ep.get("videoId") for ep in old_podcasts}
+    existing_vids = {ep.get("videoId"): ep for ep in old_podcasts}
     for ep in new_podcasts:
-        if ep.get("videoId") not in existing_vids:
+        vid = ep.get("videoId")
+        if vid not in existing_vids:
             old_podcasts.append(ep)
+        else:
+            # Patch missing duration from fresh fetch
+            old_ep = existing_vids[vid]
+            if not old_ep.get("duration") and ep.get("duration"):
+                old_ep["duration"] = ep["duration"]
+                old_ep["durationSeconds"] = ep.get("durationSeconds")
+                old_ep["isShort"] = ep.get("isShort", False)
     # Sort by date desc, keep max 7 days of content
     old_podcasts.sort(key=lambda e: e.get("publishedAt", ""), reverse=True)
     cutoff = (datetime.now(timezone.utc) - __import__("datetime").timedelta(days=7)).isoformat()
     podcasts = [ep for ep in old_podcasts if ep.get("publishedAt", "") >= cutoff or not ep.get("publishedAt")]
     # Safety cap at 60 episodes
     podcasts = podcasts[:60]
+
+    # Backfill duration for any episodes still missing it
+    missing_dur = [ep for ep in podcasts if not ep.get("duration") and ep.get("videoId")]
+    if missing_dur:
+        print(f"  Backfilling duration for {len(missing_dur)} episodes...", file=sys.stderr)
+        for ep in missing_dur:
+            vid = ep["videoId"]
+            for attempt in range(2):
+                try:
+                    url = f"https://www.youtube.com/watch?v={vid}"
+                    page_resp = requests.get(url, headers=HEADERS, timeout=20)
+                    if page_resp.status_code == 200:
+                        match = re.search(r'"lengthSeconds"\s*:\s*"(\d+)"', page_resp.text)
+                        if match:
+                            seconds = int(match.group(1))
+                            hours = seconds // 3600
+                            minutes = (seconds % 3600) // 60
+                            if seconds < 60:
+                                ep["duration"] = f"{seconds}s"
+                            elif hours > 0:
+                                ep["duration"] = f"{hours}h{minutes:02d}m"
+                            else:
+                                ep["duration"] = f"{minutes}m"
+                            ep["durationSeconds"] = seconds
+                            ep["isShort"] = seconds <= 120
+                            break
+                except Exception:
+                    if attempt == 0:
+                        import time
+                        time.sleep(1)
 
     # --- Twitter: accumulate by fetchDate, dedup by tweet id, keep 7 days ---
     old_twitter = old_feed.get("twitter_history", []) if old_feed else []
