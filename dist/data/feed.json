@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-03-31T08:00:53.882344+00:00",
+  "generatedAt": "2026-03-31T12:08:38.185855+00:00",
   "twitter": [
     {
       "source": "x",
@@ -17,7 +17,7 @@
           "replies": 225,
           "isQuote": true,
           "quotedTweetId": "2038807290422370479",
-          "summary_zh": "最近有个新的供应链攻击，目标是 npm 上最受欢迎的 HTTP 客户端库 axios，每周下载量达到 3 亿次。这位专家分享了他在使用相关工具时发现的潜在风险，虽然他这次没受到影响，但提醒大家要注意项目中的依赖关系（代码库之间的联系），因为如果不加限制，恶意代码就可能在用户间传播。建议大家在使用这些工具时采取一些安全措施，比如调整设置或使用容器等。"
+          "summary_zh": "最近有一个供应链攻击，攻击了非常流行的 HTTP 客户端库 npm axios，每周下载量达3亿次。虽然我在自己系统中发现的一个使用版本是安全的，但很多项目的依赖库没有固定版本，这样一来，如果我早些时候更新，就可能会中招。\n\n为了保护自己，可以通过一些设置来防御，比如使用特定版本的限制或容器等，但我觉得包管理工具的默认设置必须要改进，这样才能防止因为一个漏洞而影响到大量用户。"
         }
       ],
       "bio_zh": "前 Tesla AI 总监、前 OpenAI 创始成员，斯坦福 CS PhD，现创办 Eureka Labs 做 AI 教育",
@@ -39,7 +39,7 @@
           "replies": 19,
           "isQuote": true,
           "quotedTweetId": "2038741832298094635",
-          "summary_zh": "和朋友 Romain 的一次谈话让我印象深刻，大家都在问“为什么不能用 ChatGPT 登录？”其实这个功能早就有了！只要留意一下，就会发现 Codex 应用服务器已经推出好几个月了，快去看看说明文档吧！"
+          "summary_zh": "最近和 @romainhuet 聊的事情让我印象深刻，大家都在问“怎么用 ChatGPT 登录”。其实这个功能早就有了！只要知道怎么找和看文档就行了，已经发布好几个月了！"
         }
       ],
       "bio_zh": "AI 开发者社区意见领袖，Latent Space 播客主理人，前 AWS/Netlify 工程师",
@@ -61,7 +61,7 @@
           "replies": 2,
           "isQuote": false,
           "quotedTweetId": null,
-          "summary_zh": "新的NotebookLM上线了！这是一个特别的笔记本，专门介绍本杰明·富兰克林（一个著名的美国科学家和政治家）的科学作品，里面包含了他的原始论文和信件，还有一些当时的资料。这种“特色笔记本”让你能从精选的高质量资料中学习。希望你喜欢！"
+          "summary_zh": "NotebookLM 新推出了一本特别的电子笔记本，介绍本杰明·富兰克林的科学研究。这本笔记本是和历史最悠久的科学机构——皇家学会合作制作的，里面包含了富兰克林的原始文献和信件。特别的电子笔记本可以让你通过精选的高质量资料来学习。希望你喜欢！"
         }
       ],
       "bio_zh": "Google Labs 产品负责人，推动 Google AI 产品创新",
@@ -83,7 +83,7 @@
           "replies": 0,
           "isQuote": false,
           "quotedTweetId": null,
-          "summary_zh": "听说 @cursor_ai 在中国也能正常使用，支持各种类型的模型，真是太好了！"
+          "summary_zh": "听说@cursor_ai在中国也能顺利使用各种模型，真是太好了！这意味着大家可以在这边使用它来进行AI相关的工作。"
         }
       ],
       "bio_zh": "Roblox 产品经理，14 万订阅的 AI 实操教程作者",
@@ -105,7 +105,7 @@
           "replies": 7,
           "isQuote": true,
           "quotedTweetId": "2038715473916018716",
-          "summary_zh": "现在我们的产品都能支持 GitHub 企业服务器，包括网络版 Claude 代码、iOS、安卓和代码审查功能！快试试吧，欢迎留下反馈！"
+          "summary_zh": "他们的产品现在支持 GitHub Enterprise Server（一个用于代码管理和协作的平台），包括 Claude Code（一个 AI 编程助手）在网页、iOS 和 Android 上的版本，连代码审查功能也可以用。快试试吧，听听大家的反馈！"
         }
       ],
       "bio_zh": "Anthropic 早期员工，AI 安全研究者",
@@ -127,7 +127,7 @@
           "replies": 19,
           "isQuote": true,
           "quotedTweetId": "2038602508210167809",
-          "summary_zh": "用 RevenueCat 赚钱吧！如果你在 Replit 上做了手机应用，现在可以通过这个平台来实现盈利啦！"
+          "summary_zh": "用 RevenueCat 来赚钱你在 Replit 上制作的手机应用吧！简单来说，RevenueCat 是一个工具，可以帮助开发者更轻松地管理应用内购买（让用户为你的小程序付钱）。"
         }
       ],
       "bio_zh": "Replit CEO，致力于让所有人都能用 AI 写代码和部署应用",
@@ -149,7 +149,7 @@
           "replies": 49,
           "isQuote": false,
           "quotedTweetId": null,
-          "summary_zh": "Opus 4.5 的推出让工程开发进入了全新的阶段，现在有了更多依靠 AI 完成编码的方式。不过，因为大型语言模型（LLMs）有一些固有问题和过于自信的表现，我们让团队明确认识到，轻松的氛围和关键基础设施是不相容的。我们会分享一些如何“负责任地使用 AI”以保障安全性、耐用性和可用性的早期指导。"
+          "summary_zh": "Opus 4.5 发布后，编程变得更依赖智能代理（像是自动代码生成的工具），但这也带来了缺陷和过度自信的问题。因此，我们提醒团队要重视安全性和稳定性，不要把这些关键任务交给不靠谱的工具。我们还分享了一些内部指导，帮助团队负责任地使用这些智能代理。"
         }
       ],
       "bio_zh": "Vercel CEO，Next.js 创造者，v0 AI 代码生成工具的幕后推手",
@@ -171,7 +171,7 @@
           "replies": 38,
           "isQuote": true,
           "quotedTweetId": "2038799182471798966",
-          "summary_zh": "在企业内部，有很多机会可以让聪明、有创意的人重新设计工作流程，以适应使用智能代理(就是能自动完成任务的软件或程序)的未来。虽然用这些代理来自动化工作能提高效率，但仍需要很多人力去整理数据、学习工作流程，以及确保代理能顺利运行。\n\n随着这种转变，企业里将会出现很多新职位，专注于这个领域的人将会非常有价值。因此，对刚入职场的人来说，这是一个快速提升自己能力的好机会。"
+          "summary_zh": "在公司里有很多机会，可以让聪明又有创业精神的人重新设计工作流程以适应新技术。虽然用智能助手（代理）来自动化工作可以提高效率，但这需要很多准备工作，比如整理数据、学习流程、制定助手的使用计划、连接不同的系统等，甚至可能还要改变现有的工作流程。未来，擅长这些任务的人会在职场上非常受欢迎，也为年轻人提供了快速成长的机会。"
         }
       ],
       "bio_zh": "Box CEO，企业 AI 应用的坚定推动者，科技圈知名段子手",
@@ -193,7 +193,7 @@
           "replies": 6,
           "isQuote": false,
           "quotedTweetId": null,
-          "summary_zh": "Cursor 快来了！这是一个很酷的 AI 代码编辑器，可以帮助程序员更方便地写代码。期待它的发布！"
+          "summary_zh": "Cursor 就要有新动态了，大家可以关注一下！"
         },
         {
           "id": "2038841219556724924",
@@ -205,7 +205,7 @@
           "replies": 41,
           "isQuote": false,
           "quotedTweetId": null,
-          "summary_zh": "提到过往有一段时间，使用Mac电脑就像在和活物交流，软件有独特的个性和温度。虽然现在的技术让一切变得更快、更标准化，但带来的却是缺乏情感和人性。AI的出现虽然让我们能快速生产软件，但与此同时也让很多产品变得平庸，失去了灵魂。关键是给有创意的人空间和工具，让他们创造出有温度的作品，而不是单纯依赖AI。"
+          "summary_zh": "提到在2005年左右，使用Mac电脑的感觉就像是和富有灵魂的东西互动。当时的软件设计注重用户的感受，充满个性和温暖，而如今随着AI的崛起，虽然我们能更快速地创造产品，但很多东西变得平庸、缺少灵魂，机器生成的内容也让人感到无趣。\n\n未来应该是让真正有创意和热情的人，利用AI工具去实现他们的想法，而不是让机器主导创作，把人性化的元素完全抹去。只有这样，才能创造出更多独特和有个性的软件。"
         },
         {
           "id": "2038702070799479232",
@@ -217,7 +217,7 @@
           "replies": 7,
           "isQuote": true,
           "quotedTweetId": "2038670159259619644",
-          "summary_zh": "别忘了，我们做这些工作的目的是为了人类，而不是为了其他的东西。"
+          "summary_zh": "别忘了，我们做这些事情的目的都是为了人类，而不是为了别的。"
         }
       ],
       "bio_zh": "Cursor 联合创始人，AI 代码编辑器赛道领跑者",
@@ -239,7 +239,7 @@
           "replies": 2,
           "isQuote": true,
           "quotedTweetId": "2037922065781538829",
-          "summary_zh": "他在说有很多类似的情况。这个链接可能提到了一些人或公司的案例，说明在某个领域里，大家都碰到了同样的问题。"
+          "summary_zh": "很多类似的情况。"
         },
         {
           "id": "2038839491818139913",
@@ -251,7 +251,7 @@
           "replies": 3,
           "isQuote": true,
           "quotedTweetId": "2038810903655985531",
-          "summary_zh": "Garry Tan在推特上发了一条链接，表达了对某个内容的兴趣。在这条推文中，他的“Tempted”意思是说他对这个内容很感兴趣，想要了解更多。"
+          "summary_zh": "Garry Tan 可能在分享一个让他很感兴趣的链接或者话题，感觉像是很想尝试或者探索的东西。简单来说，就是他有点心动，想看看里面的内容。"
         },
         {
           "id": "2038830778700996927",
@@ -263,7 +263,7 @@
           "replies": 19,
           "isQuote": false,
           "quotedTweetId": null,
-          "summary_zh": "今晚我在GStack上提升评价技能，刚刚发布了新功能！这意味着我在努力改善用户体验，让大家在平台上能更好地评估内容。"
+          "summary_zh": "今晚在 GStack 上提升/改进评审技能（就是对项目或产品进行评价的能力），刚刚发布了新内容啦！"
         }
       ],
       "bio_zh": "Y Combinator 现任 CEO，早期投资了 Coinbase、Instacart 等",
@@ -285,7 +285,7 @@
           "replies": 14,
           "isQuote": false,
           "quotedTweetId": null,
-          "summary_zh": "想象一下，如果一个智能助手能查看和管理你的聊天记录、日历、会议、文档和表格，那有多好！现在这个功能已经通过 Lark CLI 实现了，一个超级强大的团队协作工具。更酷的是，我刚刚开发了一个新功能，它不仅能从会议中提取待办事项，还能真的帮你执行这些任务，太神奇了！"
+          "summary_zh": "想象一下，如果Claude Code（一个AI工具）能够访问并操作你所有的聊天记录、日历、会议、文档和表格，那会怎样？这在Lark CLI这个多功能协作工具里已经成为现实了！它现在变得更智能，不仅能够提取会议中的待办事项，还能实际执行这些任务，真是太厉害了！"
         },
         {
           "id": "2038685338865221862",
@@ -297,7 +297,7 @@
           "replies": 11,
           "isQuote": true,
           "quotedTweetId": "2035962536474837019",
-          "summary_zh": "Codebase-to-course这个项目在GitHub上得到了2600个点赞（stars）。我刚刚对它进行了优化，让它更加高效和可靠。最初是为气氛编码者（vibe coders，喜欢随意编码的人）设计来学习计算机科学的，但也有人反馈说它非常适合开发人员的入职培训。"
+          "summary_zh": "Codebase-to-course在GitHub上获得了2600个点赞，最近做了优化，让它更加高效和可靠。最初这是为想学习计算机科学的普通程序员设计的，但现在也适合帮助新开发人员上手。"
         }
       ],
       "bio_zh": "AI 领域投资人和内容创作者，follow-builders 项目发起人",
@@ -319,7 +319,7 @@
           "replies": 1,
           "isQuote": true,
           "quotedTweetId": "2038670159259619644",
-          "summary_zh": "他说他第一次见到 @ivanhzhao 时，觉得他非常关心创造能让人们团聚的工具。还有 @zoink 总是谈论无尽的可能性，让未来的设计更加美好。现在大家对人工智能（AI）的看法有点狭隘，觉得它会取代人类，这种悲观的想法很流行。但他认为我们应该更关注一个充满可能性的未来，AI可以帮我们处理那些无聊的工作，让我们有更多时间去实现那些埋藏在心底的梦想。"
+          "summary_zh": "他回忆起12年前第一次见到一个非常关心如何创造让人们团结在一起工具的人。他认为现在对 AI 的看法太狭隘了，很多人担心 AI 会取代人类，但实际上我们应该更关注 AI 能帮助我们一起做更多事情，把那些一直搁置的梦想变成现实。总之，AI 可以处理我们不喜欢的琐事，让我们有更多时间去实现自己的想法和目标。"
         }
       ],
       "bio_zh": "Meta/前 Facebook AI 产品负责人",
@@ -341,7 +341,7 @@
           "replies": 27,
           "isQuote": false,
           "quotedTweetId": null,
-          "summary_zh": "他在说某公司在处理一个问题时，含糊其辞。实际上，他们的错误是把用户的私密数据错误地发送给了其他用户，这样做非常糟糕。"
+          "summary_zh": "这条推文是在说某个应用程序更新的说法很含糊，实际上是说他们把用户的私人数据错误地分享给了其他用户。这种情况非常不好。"
         }
       ],
       "bio_zh": "Every 联合创始人，AI 写作和知识管理领域的深度实践者",
@@ -363,7 +363,7 @@
           "replies": 369,
           "isQuote": true,
           "quotedTweetId": "2036503582166393240",
-          "summary_zh": "Claude 的自动模式现在在企业计划和 API 用户中可以使用了。想试试的话，更新你的安装，然后运行命令 `claude --enable-auto-mode`！"
+          "summary_zh": "Claude 现在在企业计划和 API 用户中推出了自动模式（可以让程序更智能化）。想试试的话，记得更新你的安装，然后运行相关命令哦！"
         }
       ],
       "bio_zh": "Anthropic 旗下 AI 助手 Claude 的官方账号",
@@ -2533,6 +2533,16 @@
   ],
   "podcasts": [
     {
+      "name": "Lenny's Podcast",
+      "title": "The OpenClaw unlock that changes the game",
+      "videoId": "47GHJZaF4Z8",
+      "url": "https://youtube.com/watch?v=47GHJZaF4Z8",
+      "publishedAt": "2026-03-31T11:00:07+00:00",
+      "isShort": false,
+      "fetchDate": "2026-03-31",
+      "summary_zh": "这个视频探讨了OpenClaw这一创新产品如何改变游戏规则。它展示了这款新工具在AI和创意设计领域带来的潜在影响，以及它如何帮助创业者和品牌提升效率和竞争力。\n\n🎯 推荐 Yves 观看 — OpenClaw的核心理念与Logic Labs的AI工具开发密切相关，可能为TexTale带来新的创意应用和电商运营思路。"
+    },
+    {
       "name": "TBPN",
       "title": "Is Meta Really Addictive?, Jetsons Prediction, Artemis II: Back to the Moon | Diet TBPN",
       "videoId": "i1Vqx9EB3vc",
@@ -3037,18 +3047,6 @@
       "durationSeconds": 557,
       "fetchDate": "2026-03-25",
       "summary_zh": "这个视频讨论了四个关于人工智能的重要真相，揭示了许多人在使用 AI 时未曾考虑的问题。这些观点强调了 AI 的潜力、局限性，以及在实践中可能遇到的挑战，特别适合对 AI 应用感兴趣的创意人士。\n\n🎯 推荐 Yves 观看 — 这个视频能够帮助您在创办 Logic Labs 和 TexTale 时更好地理解 AI 的实际应用与挑战，从而提升您在电商和创意设计中的决策能力。"
-    },
-    {
-      "name": "Lenny's Podcast",
-      "title": "Treat executives like customers",
-      "videoId": "Q20PyO63HiY",
-      "url": "https://youtube.com/watch?v=Q20PyO63HiY",
-      "publishedAt": "2026-03-24T11:00:53+00:00",
-      "isShort": true,
-      "fetchDate": "2026-03-25",
-      "summary_zh": "这期播客探讨了企业高管如何被视作客户，强调在管理时应优先考虑他们的需求和体验。通过这种方式，可以提高团队的士气和工作效率，从而实现更好的商业成果。\n\n🎯 推荐 Yves 观看 — 这个主题与创意设计中的客户体验息息相关，有助于提升 Logic Labs 和 TexTale 在产品开发和市场推广中的战略思考。",
-      "duration": "1m",
-      "durationSeconds": 60
     }
   ],
   "producthunt": [
@@ -3057,7 +3055,7 @@
       "name": "Stitch 2.0 by Google",
       "tagline": "Vibe design beautiful production-ready UI in seconds",
       "url": "https://www.producthunt.com/products/stitch-2-0-by-google-2?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Breakfeed+%28ID%3A+279433%29",
-      "votes": 825,
+      "votes": 827,
       "comments": 33,
       "topics": [
         "Design Tools",
@@ -3105,7 +3103,7 @@
       "name": "Claude Import Memory",
       "tagline": "Switch from ChatGPT to Claude with import memory feature",
       "url": "https://www.producthunt.com/products/claude/launches/claude-import-memory?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Breakfeed+%28ID%3A+279433%29",
-      "votes": 709,
+      "votes": 712,
       "comments": 25,
       "topics": [
         "Artificial Intelligence"
@@ -3119,8 +3117,8 @@
       "name": "Tobira.ai",
       "tagline": "A network where AI agents find deals for their humans",
       "url": "https://www.producthunt.com/products/tobira-ai?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Breakfeed+%28ID%3A+279433%29",
-      "votes": 703,
-      "comments": 173,
+      "votes": 708,
+      "comments": 174,
       "topics": [
         "Productivity",
         "Developer Tools",
@@ -3135,7 +3133,7 @@
       "name": "Agentplace AI Agents",
       "tagline": "Create specialized AI agents for real tasks and workflows",
       "url": "https://www.producthunt.com/products/agentplace?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Breakfeed+%28ID%3A+279433%29",
-      "votes": 699,
+      "votes": 701,
       "comments": 187,
       "topics": [
         "Productivity",
@@ -3150,7 +3148,7 @@
       "name": "Claude Dispatch",
       "tagline": "Text Claude from your phone using “Dispatch”",
       "url": "https://www.producthunt.com/products/claude?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Breakfeed+%28ID%3A+279433%29",
-      "votes": 699,
+      "votes": 700,
       "comments": 17,
       "topics": [
         "Android",
@@ -3179,26 +3177,10 @@
     },
     {
       "rank": 9,
-      "name": "MuleRun",
-      "tagline": "Raise an AI that actually learns how you work",
-      "url": "https://www.producthunt.com/products/mulerun/launches/mulerun?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Breakfeed+%28ID%3A+279433%29",
-      "votes": 682,
-      "comments": 139,
-      "topics": [
-        "Productivity",
-        "Artificial Intelligence",
-        "E-Commerce"
-      ],
-      "thumbnail": "https://ph-files.imgix.net/43c7869c-2c8f-48d6-98ad-0e1ac6f32304.png?auto=format",
-      "screenshot": "https://ph-files.imgix.net/c5c52249-5e01-4cb8-b001-267fc365d23c.png?auto=format",
-      "summary_zh": "MuleRun是一款智能助手，能够根据你的工作习惯进行学习和适应。它帮助你自动化日常任务，提高工作效率，从而节省时间和精力。通过持续的学习，MuleRun能更好地满足你的需求。"
-    },
-    {
-      "rank": 10,
       "name": "Littlebird",
       "tagline": "The AI assistant that already knows your work",
       "url": "https://www.producthunt.com/products/littlebird?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Breakfeed+%28ID%3A+279433%29",
-      "votes": 682,
+      "votes": 683,
       "comments": 129,
       "topics": [
         "Meetings",
@@ -3210,11 +3192,27 @@
       "summary_zh": "Littlebird是一款人工智能助手，可以自动了解你的工作内容和习惯。它能够帮助你整理信息、管理任务和提供智能建议，让工作更高效。"
     },
     {
+      "rank": 10,
+      "name": "MuleRun",
+      "tagline": "Raise an AI that actually learns how you work",
+      "url": "https://www.producthunt.com/products/mulerun/launches/mulerun?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Breakfeed+%28ID%3A+279433%29",
+      "votes": 683,
+      "comments": 139,
+      "topics": [
+        "Productivity",
+        "Artificial Intelligence",
+        "E-Commerce"
+      ],
+      "thumbnail": "https://ph-files.imgix.net/43c7869c-2c8f-48d6-98ad-0e1ac6f32304.png?auto=format",
+      "screenshot": "https://ph-files.imgix.net/c5c52249-5e01-4cb8-b001-267fc365d23c.png?auto=format",
+      "summary_zh": "MuleRun是一款智能助手，能够根据你的工作习惯进行学习和适应。它帮助你自动化日常任务，提高工作效率，从而节省时间和精力。通过持续的学习，MuleRun能更好地满足你的需求。"
+    },
+    {
       "rank": 11,
       "name": "Naoma AI Demo Agent",
       "tagline": "The video AI demo agent for B2B SaaS for immediate demos",
       "url": "https://www.producthunt.com/products/naoma/launches/naoma-ai-demo-agent?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Breakfeed+%28ID%3A+279433%29",
-      "votes": 663,
+      "votes": 664,
       "comments": 382,
       "topics": [
         "Marketing",
@@ -3230,7 +3228,7 @@
       "name": "Claude Computer Use",
       "tagline": "Enable Claude to use your computer to complete tasks ",
       "url": "https://www.producthunt.com/products/claude?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Breakfeed+%28ID%3A+279433%29",
-      "votes": 660,
+      "votes": 662,
       "comments": 23,
       "topics": [
         "Productivity",
@@ -3262,7 +3260,7 @@
       "name": "Lightfield",
       "tagline": "AI-native CRM that builds itself and does work for you",
       "url": "https://www.producthunt.com/products/lightfield?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Breakfeed+%28ID%3A+279433%29",
-      "votes": 647,
+      "votes": 646,
       "comments": 94,
       "topics": [
         "Sales",
@@ -3278,7 +3276,7 @@
       "name": "Claude Marketplace",
       "tagline": "Helping companies easily get the AI tools they need",
       "url": "https://www.producthunt.com/products/claude-marketplace/launches/claude-marketplace?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Breakfeed+%28ID%3A+279433%29",
-      "votes": 629,
+      "votes": 630,
       "comments": 20,
       "topics": [
         "Productivity",
@@ -3292,94 +3290,94 @@
   ],
   "github_trending": [
     {
+      "repo": "luongnv89/claude-howto",
+      "description": "A visual, example-driven guide to Claude Code — from basic concepts to advanced agents, with copy-paste templates that bring immediate value.",
+      "language": "Python",
+      "stars": 11409,
+      "starsToday": 2390,
+      "url": "https://github.com/luongnv89/claude-howto",
+      "summary_zh": "这个项目提供了一个关于Claude Code的视觉指南，包含基础概念到高级应用的实例和便捷的代码模板，适合快速上手和应用。对于Yves而言，这个项目对Logic Labs（AI 公司）将特别有帮助，因为它可以帮助他更好地理解和利用AI技术，从而推动创意项目和创新的实现。同时，掌握这些工具也能为他的设计工作提供强大的支持。"
+    },
+    {
       "repo": "microsoft/VibeVoice",
       "description": "Open-Source Frontier Voice AI",
       "language": "Python",
-      "stars": 31725,
-      "starsToday": 2492,
+      "stars": 32273,
+      "starsToday": 3862,
       "url": "https://github.com/microsoft/VibeVoice",
       "summary_zh": "这个项目是一个开源的语音人工智能工具，旨在帮助开发者创建更自然的语音交互应用，让机器能够更好地理解和回应人类的声音。对于Yves而言，VibeVoice可以为Logic Labs提供一个强大的AI语音交互解决方案，提升其在AI技术领域的创新能力，同时也可以为TexTale的电商平台添加语音搜索和交互功能，改善用户体验。作为创意设计从业者，VibeVoice的技术可以激发新的创意，并帮助他在品牌营销中创造更具吸引力的语音交互体验。"
     },
     {
-      "repo": "luongnv89/claude-howto",
-      "description": "A visual, example-driven guide to Claude Code — from basic concepts to advanced agents, with copy-paste templates that bring immediate value.",
-      "language": "Python",
-      "stars": 10861,
-      "starsToday": 4232,
-      "url": "https://github.com/luongnv89/claude-howto",
-      "summary_zh": "这个项目提供了一个关于Claude Code的视觉指南，包含基础概念到高级应用的实例和便捷的代码模板，适合快速上手和应用。对于Yves而言，这个项目对Logic Labs（AI 公司）将特别有帮助，因为它可以帮助他更好地理解和利用AI技术，从而推动创意项目和创新的实现。同时，掌握这些工具也能为他的设计工作提供强大的支持。"
+      "repo": "Yeachan-Heo/oh-my-claudecode",
+      "description": "Teams-first Multi-agent orchestration for Claude Code",
+      "language": "TypeScript",
+      "stars": 18065,
+      "starsToday": 1127,
+      "url": "https://github.com/Yeachan-Heo/oh-my-claudecode",
+      "summary_zh": "这个项目是一个多智能体协作的平台，旨在优化使用 Claude Code 工具的团队工作流程。对于 Yves 来说，这个项目可以帮助 Logic Labs 在 AI 领域提升团队协作效率，同时也能为 TexTale 提供更智能的设计和电商运营解决方案，增强其品牌营销的创意表现。"
     },
     {
       "repo": "shanraisshan/claude-code-best-practice",
       "description": "practice made claude perfect",
       "language": "HTML",
-      "stars": 26999,
-      "starsToday": 1108,
+      "stars": 27399,
+      "starsToday": 2408,
       "url": "https://github.com/shanraisshan/claude-code-best-practice",
       "summary_zh": "这个项目是关于如何更好地使用Claude，一个先进的AI代码助手，提供了一系列最佳实践和示例，旨在提高用户的编程效率。对于Yves而言，Logic Labs（AI公司）可以利用这些实践来提升团队对AI工具的运用，从而提高研发效率；而作为创意设计从业者，这些最佳实践也能启发他更好地结合AI技术与创意设计，推动创新。"
-    },
-    {
-      "repo": "hacksider/Deep-Live-Cam",
-      "description": "real time face swap and one-click video deepfake with only a single image",
-      "language": "Python",
-      "stars": 86688,
-      "starsToday": 1136,
-      "url": "https://github.com/hacksider/Deep-Live-Cam",
-      "summary_zh": "这个项目是一个实时面部替换和一键视频换脸工具，只需一张图片即可制作深度伪造视频。对于Yves来说，这个项目可以在TexTale的品牌营销和创意广告中提供富有创意的视觉效果，增强消费者的互动体验，同时也能激发AI在设计领域的更多应用可能。"
-    },
-    {
-      "repo": "OpenBB-finance/OpenBB",
-      "description": "Financial data platform for analysts, quants and AI agents.",
-      "language": "Python",
-      "stars": 64713,
-      "starsToday": 502,
-      "url": "https://github.com/OpenBB-finance/OpenBB",
-      "summary_zh": "这个项目是一个金融数据平台，专为分析师、量化研究人员和人工智能代理设计，提供各种金融数据和分析工具。对于Yves来说，Logic Labs（AI 公司）可以利用该平台进行金融数据分析和建模，从而增强AI应用的深度和准确性；同时，TexTale（科技服装电商）也可以借助该平台的市场数据洞察，帮助优化品牌营销策略和电商运营。作为创意设计从业者，Yves还能通过该平台获取金融趋势和市场动态，为创意设计提供灵感和支持。"
-    },
-    {
-      "repo": "freeCodeCamp/freeCodeCamp",
-      "description": "freeCodeCamp.org's open-source codebase and curriculum. Learn math, programming, and computer science for free.",
-      "language": "TypeScript",
-      "stars": 439984,
-      "starsToday": 368,
-      "url": "https://github.com/freeCodeCamp/freeCodeCamp",
-      "summary_zh": "这个项目是一个免费的在线学习平台，帮助人们学习数学、编程和计算机科学。在Yves的科技服装电商TexTale中，他可以利用这个平台提升团队的编程技能，进而推动与AI相关的创新设计。作为创意设计从业者，Yves也可以借助平台的学习资源，激发更多创意灵感和技术应用。"
-    },
-    {
-      "repo": "sherlock-project/sherlock",
-      "description": "Hunt down social media accounts by username across social networks",
-      "language": "Python",
-      "stars": 75003,
-      "starsToday": 76,
-      "url": "https://github.com/sherlock-project/sherlock",
-      "summary_zh": "这个项目是一个工具，可以通过用户名在不同的社交媒体网站上查找相关账户，帮助用户发现某个用户名在网络上的存在。对于Yves来说，这个工具对TexTale（科技服装电商）特别有帮助，因为它能够帮助品牌监测和挖掘潜在的社交媒体影响者，并加强品牌在社交平台上的曝光率。同时，对于创意设计工作，了解用户在社交媒体上的活动也有助于获取灵感和趋势分析。"
-    },
-    {
-      "repo": "apache/superset",
-      "description": "Apache Superset is a Data Visualization and Data Exploration Platform",
-      "language": "TypeScript",
-      "stars": 72073,
-      "starsToday": 49,
-      "url": "https://github.com/apache/superset",
-      "summary_zh": "Apache Superset 是一个数据可视化和探索平台，帮助用户轻松地将复杂的数据转化为直观的图表和仪表盘，以便更好地理解和分析数据。对 Yves 来说，这个项目可以在 Logic Labs 中用于分析 AI 模型的数据表现，帮助提升决策能力；同时也可以为 TexTale 提供重要的销售和市场数据可视化，优化电子商务运营和品牌营销策略。作为创意设计从业者，他可以利用该工具更直观地展示数据驱动的设计理念和成果。"
-    },
-    {
-      "repo": "fastfetch-cli/fastfetch",
-      "description": "A maintained, feature-rich and performance oriented, neofetch like system information tool.",
-      "language": "C",
-      "stars": 21489,
-      "starsToday": 276,
-      "url": "https://github.com/fastfetch-cli/fastfetch",
-      "summary_zh": "这个项目是一个快速且丰富的系统信息工具，类似于 Neofetch，可以帮助用户在终端上显示他们的计算机信息，如操作系统、CPU、内存等，通常用于展示个性化的计算机界面。对于 TexTale（科技服装电商），它可以提升网站或产品展示的专业性，吸引客户的注意；同时作为创意设计从业者，Yves 也可以借此获取灵感，了解技术趋势和系统性能，进而考虑将类似信息展示融入到品牌营销和产品设计中。"
     },
     {
       "repo": "NousResearch/hermes-agent",
       "description": "The agent that grows with you",
       "language": "Python",
-      "stars": 19224,
-      "starsToday": 1851,
+      "stars": 19517,
+      "starsToday": 1909,
       "url": "https://github.com/NousResearch/hermes-agent",
       "summary_zh": "这个项目是一个可以根据用户需求不断学习和成长的智能助手，主要用来帮助人们更高效地处理信息和任务。对Yves的Logic Labs（AI公司）有很大的帮助，因为这个工具可以提升AI产品的智能水平和用户体验，同时也能为TexTale提供更好的数据分析和市场洞察，辅助其电商运营和品牌营销。作为创意设计从业者，这个项目也能给他带来新的灵感和设计思路，助力其创意实现。"
+    },
+    {
+      "repo": "obra/superpowers",
+      "description": "An agentic skills framework & software development methodology that works.",
+      "language": "Shell",
+      "stars": 127159,
+      "starsToday": 2846,
+      "url": "https://github.com/obra/superpowers",
+      "summary_zh": "这个项目提供了一种灵活的技能框架和软件开发方法论，旨在帮助团队更有效地合作和创新。对Yves来说，特别是在Logic Labs（AI公司）方面，这个项目可以帮助团队更好地利用人工智能技术，提高创造力和开发效率，同时也能影响他在TexTale（科技服装电商）中的产品设计和用户体验。"
+    },
+    {
+      "repo": "microsoft/agent-lightning",
+      "description": "The absolute trainer to light up AI agents.",
+      "language": "Python",
+      "stars": 16078,
+      "starsToday": 251,
+      "url": "https://github.com/microsoft/agent-lightning",
+      "summary_zh": "这个项目是一个为 AI 代理（智能助手）提供训练的工具，可以帮助开发者更轻松地提升 AI 的能力，使其更加智能和实用。对于 Yves 的 Logic Labs（AI 公司）来说，这个项目能够帮助他们提高 AI 技术的应用效果；同时，作为创意设计从业者，他也可以利用这个工具提升设计过程中 AI 的创意生成能力，从而推动更具前瞻性的设计理念。"
+    },
+    {
+      "repo": "PaddlePaddle/PaddleOCR",
+      "description": "Turn any PDF or image document into structured data for your AI. A powerful, lightweight OCR toolkit that bridges the gap between images/PDFs and LLMs. Supports 100+ languages.",
+      "language": "Python",
+      "stars": 73831,
+      "starsToday": 440,
+      "url": "https://github.com/PaddlePaddle/PaddleOCR",
+      "summary_zh": "这个项目是一个强大的光学字符识别（OCR）工具，可以把任何PDF或图片文档转化为结构化的数据，帮助AI进行更高效的信息处理，支持100多种语言。对于Yves来说，PaddleOCR可以在Logic Labs中用于提取和分析大量文档信息，提高AI的决策能力，同时也能为TexTale提供更精准的商品描述和市场调研，提升电商运营效率。作为创意设计从业者，他也可以借助这个工具更快地获取设计灵感和素材。"
+    },
+    {
+      "repo": "Dimillian/Skills",
+      "description": "My Codex Skills",
+      "language": "Shell",
+      "stars": 2661,
+      "starsToday": 173,
+      "url": "https://github.com/Dimillian/Skills",
+      "summary_zh": "该项目是一个用于管理和展示个人技能的工具，旨在帮助用户以简单明了的方式展示自己的专业能力。对于Yves来说，这个项目可以帮助TexTale在招聘时更清晰地展示团队成员的技能，同时也能为Logic Labs的AI开发提供灵活的技能管理方式，以便于创意设计过程中的团队协作和资源分配。"
+    },
+    {
+      "repo": "sherlock-project/sherlock",
+      "description": "Hunt down social media accounts by username across social networks",
+      "language": "Python",
+      "stars": 75138,
+      "starsToday": 862,
+      "url": "https://github.com/sherlock-project/sherlock",
+      "summary_zh": "这个项目是一个工具，可以通过用户名在不同的社交媒体网站上查找相关账户，帮助用户发现某个用户名在网络上的存在。对于Yves来说，这个工具对TexTale（科技服装电商）特别有帮助，因为它能够帮助品牌监测和挖掘潜在的社交媒体影响者，并加强品牌在社交平台上的曝光率。同时，对于创意设计工作，了解用户在社交媒体上的活动也有助于获取灵感和趋势分析。"
     }
   ]
 }
