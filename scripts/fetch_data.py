@@ -232,6 +232,7 @@ def fetch_podcasts():
         "UCJIfeSCssxSC_Dhc5s7woww": "Matt Wolfe",
         "UCXUPKJO5MZQN11PqgIvyuvQ": "AI Explained",
         # Product / startup / media
+        "UCnpBg7yqNauHtlNSpOl5-cg": "Peter Yang",
         "UCjIMtrzxYc0lblGhmOgC_CA": "Every Inc",
         "UC6t1O76G0jYXOAoYCm153dA": "Lenny's Podcast",
         "UCPjNBjflYl0-HQtUvOx0Ibw": "Greg Isenberg",
