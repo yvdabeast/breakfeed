@@ -736,32 +736,43 @@ def fetch_aigc_rankings():
 
     def fetch_reddit_buzz(search_terms, subreddits):
         """Search Reddit for model mentions, return {canonical_name: {mentions, upvotes, top_post}}."""
+        import html as _html
         buzz = defaultdict(lambda: {"mentions": 0, "upvotes": 0, "top_post": None})
+        failures = 0
         for term, canonical in search_terms.items():
             for sub in subreddits[:2]:  # Limit to 2 subs per term to avoid rate limits
                 try:
                     url = f"https://www.reddit.com/r/{sub}/search.json?q={term}&sort=hot&t=month&restrict_sr=true&limit=5"
-                    resp = requests.get(url, headers=REDDIT_HEADERS, timeout=10)
-                    if resp.status_code == 200:
-                        posts = resp.json().get("data", {}).get("children", [])
-                        for p in posts:
-                            d = p["data"]
-                            buzz[canonical]["mentions"] += 1
-                            buzz[canonical]["upvotes"] += d.get("score", 0)
-                            if buzz[canonical]["top_post"] is None or d.get("score", 0) > (buzz[canonical]["top_post"].get("score", 0)):
-                                title = d.get("title", "")[:100]
-                                # Decode HTML entities from Reddit
-                                import html as _html
-                                title = _html.unescape(title)
-                                buzz[canonical]["top_post"] = {
-                                    "title": title,
-                                    "score": d.get("score", 0),
-                                    "subreddit": d.get("subreddit", ""),
-                                    "url": f"https://reddit.com{d.get('permalink', '')}",
-                                }
-                    _time.sleep(0.5)  # Reddit rate limit: ~1 req/sec
-                except Exception:
-                    pass
+                    for attempt in range(3):  # Retry up to 3 times on rate limit
+                        resp = requests.get(url, headers=REDDIT_HEADERS, timeout=10)
+                        if resp.status_code == 200:
+                            posts = resp.json().get("data", {}).get("children", [])
+                            for p in posts:
+                                d = p["data"]
+                                buzz[canonical]["mentions"] += 1
+                                buzz[canonical]["upvotes"] += d.get("score", 0)
+                                if buzz[canonical]["top_post"] is None or d.get("score", 0) > (buzz[canonical]["top_post"].get("score", 0)):
+                                    title = _html.unescape(d.get("title", "")[:100])
+                                    buzz[canonical]["top_post"] = {
+                                        "title": title,
+                                        "score": d.get("score", 0),
+                                        "subreddit": d.get("subreddit", ""),
+                                        "url": f"https://reddit.com{d.get('permalink', '')}",
+                                    }
+                            break  # Success, no retry needed
+                        elif resp.status_code == 429:
+                            wait = 2 ** (attempt + 1)  # 2s, 4s, 8s backoff
+                            print(f"  [Reddit] 429 rate limit for r/{sub} '{term}', retry in {wait}s", file=sys.stderr)
+                            _time.sleep(wait)
+                        else:
+                            print(f"  [Reddit] HTTP {resp.status_code} for r/{sub} '{term}'", file=sys.stderr)
+                            failures += 1
+                            break
+                    _time.sleep(1.0)  # Slower rate: 1 req/sec for CI environments
+                except Exception as e:
+                    print(f"  [Reddit][ERROR] r/{sub} '{term}': {e}", file=sys.stderr)
+                    failures += 1
+        print(f"  [Reddit] Done: {len(buzz)} models with data, {failures} failures", file=sys.stderr)
         return dict(buzz)
 
     # ── Source 3: HuggingFace model popularity (likes + downloads) ──
@@ -769,7 +780,9 @@ def fetch_aigc_rankings():
         """Fetch top models from HuggingFace by likes."""
         try:
             url = f"https://huggingface.co/api/models?pipeline_tag={pipeline_tag}&sort=likes&direction=-1&limit=20"
-            resp = requests.get(url, timeout=15)
+            hf_headers = {"User-Agent": "Breakfeed/1.0 (AI briefing aggregator)"}
+            resp = requests.get(url, headers=hf_headers, timeout=15)
+            print(f"  [HF] {pipeline_tag}: HTTP {resp.status_code}", file=sys.stderr)
             if resp.status_code == 200:
                 models = resp.json()
                 result = {}
@@ -780,8 +793,10 @@ def fetch_aigc_rankings():
                         "likes": m.get("likes", 0),
                         "downloads": m.get("downloads", 0),
                     }
-                print(f"  [HF] {pipeline_tag}: {len(result)} models", file=sys.stderr)
+                print(f"  [HF] {pipeline_tag}: {len(result)} models fetched", file=sys.stderr)
                 return result
+            else:
+                print(f"  [HF][WARN] {pipeline_tag}: HTTP {resp.status_code} - {resp.text[:200]}", file=sys.stderr)
         except Exception as e:
             print(f"  [HF][ERROR] {pipeline_tag}: {e}", file=sys.stderr)
         return {}
