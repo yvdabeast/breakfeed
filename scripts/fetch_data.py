@@ -712,7 +712,10 @@ def fetch_aigc_rankings():
         return []
 
     # ── Source 2: Reddit community buzz (mentions + upvotes) ──
-    REDDIT_HEADERS = {"User-Agent": "Breakfeed/1.0 (AI briefing aggregator)"}
+    REDDIT_HEADERS = {
+        "User-Agent": "Breakfeed/1.0 (AI briefing aggregator; contact: breakfeed@proton.me)",
+        "Accept": "application/json",
+    }
     # Search terms mapped to canonical model names
     IMAGE_SEARCH_TERMS = {
         "FLUX": "FLUX", "flux.2": "FLUX", "Midjourney": "Midjourney",
@@ -801,6 +804,35 @@ def fetch_aigc_rankings():
             print(f"  [HF][ERROR] {pipeline_tag}: {e}", file=sys.stderr)
         return {}
 
+    # ── Cache for Reddit/HF data (CI environments often blocked by Reddit) ──
+    CACHE_PATH = Path(__file__).parent / "aigc_community_cache.json"
+
+    def load_cache():
+        try:
+            if CACHE_PATH.exists():
+                with open(CACHE_PATH) as f:
+                    cache = json.load(f)
+                print(f"  [Cache] Loaded community data (cached at {cache.get('cached_at', '?')})", file=sys.stderr)
+                return cache
+        except Exception:
+            pass
+        return {}
+
+    def save_cache(reddit_img, reddit_vid, hf_img, hf_vid):
+        cache = {
+            "cached_at": datetime.now(timezone.utc).isoformat(),
+            "reddit_image": reddit_img,
+            "reddit_video": reddit_vid,
+            "hf_image": hf_img,
+            "hf_video": hf_vid,
+        }
+        try:
+            with open(CACHE_PATH, "w") as f:
+                json.dump(cache, f, ensure_ascii=False, indent=2)
+            print(f"  [Cache] Saved community data to {CACHE_PATH}", file=sys.stderr)
+        except Exception as e:
+            print(f"  [Cache][ERROR] {e}", file=sys.stderr)
+
     # ── Fetch all sources ──
     aa_image = fetch_aa("https://artificialanalysis.ai/image/leaderboard/text-to-image", "Image")
     aa_video = fetch_aa("https://artificialanalysis.ai/video/leaderboard/text-to-video", "Video")
@@ -813,14 +845,55 @@ def fetch_aigc_rankings():
     hf_image = fetch_hf_popularity("text-to-image")
     hf_video = fetch_hf_popularity("text-to-video")
 
+    # If live fetch got data, save cache. If empty, use cache as fallback.
+    has_reddit = bool(reddit_image or reddit_video)
+    has_hf = bool(hf_image or hf_video)
+    if has_reddit or has_hf:
+        save_cache(reddit_image, reddit_video, hf_image, hf_video)
+    else:
+        print("  [Cache] Live Reddit/HF fetch returned empty, trying cache...", file=sys.stderr)
+        cache = load_cache()
+        if cache:
+            reddit_image = cache.get("reddit_image", {})
+            reddit_video = cache.get("reddit_video", {})
+            hf_image = cache.get("hf_image", {})
+            hf_video = cache.get("hf_video", {})
+            print(f"  [Cache] Using cached: Reddit({len(reddit_image)}+{len(reddit_video)}) HF({len(hf_image)}+{len(hf_video)})", file=sys.stderr)
+
     # ── Cross-validate & merge ──
+    # ── HF brand keyword mapping: AA model name → HF search keywords ──
+    HF_BRAND_MAP = {
+        "flux": "flux", "midjourney": "midjourney", "dall-e": "dall-e",
+        "stable diffusion": "stable-diffusion", "sdxl": "sdxl",
+        "imagen": "imagen", "seedream": "seedream", "ideogram": "ideogram",
+        "recraft": "recraft", "grok": "grok", "nano banana": "gemini",
+        "gpt image": "gpt", "hunyuan": "hunyuan", "wan": "wan",
+        "sora": "sora", "kling": "kling", "veo": "veo",
+        "runway": "runway", "seedance": "seedance", "pixverse": "pixverse",
+        "pika": "pika", "happyhorse": "happyhorse", "skyreels": "skyreels",
+        "vidu": "vidu", "hailuo": "hailuo", "luma": "luma",
+        "cogvideo": "cogvideo", "mochi": "mochi",
+    }
+
     def merge_rankings(aa_models, reddit_buzz, hf_models, category):
         """Merge rankings from 3 sources. AA Elo is primary, Reddit/HF add signals."""
-        # Fuzzy match helper: check if a Reddit/HF name roughly matches an AA model
         def fuzzy_match(aa_name, term):
             aa_lower = aa_name.lower()
             term_lower = term.lower()
             return term_lower in aa_lower or aa_lower in term_lower
+
+        def hf_match(aa_name, hf_id, hf_name):
+            """Match AA model to HF model using brand keywords."""
+            aa_lower = aa_name.lower()
+            hf_lower = (hf_id + " " + hf_name).lower()
+            # Direct substring match
+            if hf_name.lower() in aa_lower or aa_lower in hf_lower:
+                return True
+            # Brand keyword match
+            for brand, hf_keyword in HF_BRAND_MAP.items():
+                if brand in aa_lower and hf_keyword in hf_lower:
+                    return True
+            return False
 
         for model in aa_models:
             name = model["name"]
@@ -835,13 +908,16 @@ def fetch_aigc_rankings():
                             model["reddit"]["topPost"] = buzz["top_post"]
                     break
 
-            # Match HuggingFace popularity
+            # Match HuggingFace popularity — pick best match by likes
             model["huggingface"] = {"likes": 0, "downloads": 0}
+            best_hf = None
             for hf_id, hf_data in hf_models.items():
-                if fuzzy_match(name, hf_data["name"]) or fuzzy_match(name, hf_id):
-                    model["huggingface"]["likes"] = hf_data["likes"]
-                    model["huggingface"]["downloads"] = hf_data["downloads"]
-                    break
+                if hf_match(name, hf_id, hf_data["name"]):
+                    if best_hf is None or hf_data["likes"] > best_hf["likes"]:
+                        best_hf = hf_data
+            if best_hf:
+                model["huggingface"]["likes"] = best_hf["likes"]
+                model["huggingface"]["downloads"] = best_hf["downloads"]
 
             # Composite score: AA Elo (primary) + Reddit/HF signals as tiebreakers
             # Normalize: Elo 1000-1400 → 0-100, Reddit upvotes 0-5000 → 0-20, HF likes 0-15000 → 0-10
