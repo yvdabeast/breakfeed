@@ -937,16 +937,23 @@ def fetch_aigc_rankings():
             return term_lower in aa_lower or aa_lower in term_lower
 
         def hf_match(aa_name, hf_id, hf_name):
-            """Match AA model to HF model using brand keywords."""
+            """Match AA model to HF model — strict version matching."""
             aa_lower = aa_name.lower()
-            hf_lower = (hf_id + " " + hf_name).lower()
-            # Direct substring match
-            if hf_name.lower() in aa_lower or aa_lower in hf_lower:
+            hf_lower = hf_name.lower()
+            hf_full = (hf_id + " " + hf_name).lower()
+            # Direct substring: HF name in AA name or vice versa
+            if len(hf_lower) > 3 and (hf_lower in aa_lower or aa_lower in hf_full):
                 return True
-            # Brand keyword match
+            # Version-aware brand match: extract version numbers and compare
+            import re as _re
+            aa_versions = set(_re.findall(r'[\d]+\.[\d]+|[\d]+', aa_lower))
+            hf_versions = set(_re.findall(r'[\d]+\.[\d]+|[\d]+', hf_lower))
             for brand, hf_keyword in HF_BRAND_MAP.items():
-                if brand in aa_lower and hf_keyword in hf_lower:
-                    return True
+                if brand in aa_lower and hf_keyword in hf_full:
+                    # Brand matches — require at least one version number overlap
+                    # or both have no version numbers
+                    if not aa_versions or not hf_versions or aa_versions & hf_versions:
+                        return True
             return False
 
         for model in aa_models:

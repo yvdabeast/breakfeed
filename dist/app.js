@@ -357,14 +357,7 @@
       const srcLines = [];
       srcLines.push(`<span class="src-line"><span class="src-badge src-arena">Elo</span> ${m.elo} <span class="src-meta">(${formatNum(m.appearances)} votes)</span></span>`);
       if (reddit.mentions > 0) {
-        let redditLine = `<span class="src-line"><span class="src-badge src-reddit">Reddit</span> \u2B06${formatNum(reddit.upvotes)} <span class="src-meta">${reddit.mentions} posts</span></span>`;
-        // Show top comment if available
-        const topComment = (reddit.topComments || [])[0];
-        if (topComment && topComment.body) {
-          const commentText = topComment.body.length > 80 ? topComment.body.slice(0, 80) + '...' : topComment.body;
-          redditLine += `<div class="aigc-comment">\u201C${esc(commentText)}\u201D <span class="src-meta">\u2014 u/${esc(topComment.author)} (${topComment.score} pts)</span></div>`;
-        }
-        srcLines.push(redditLine);
+        srcLines.push(`<span class="src-line"><span class="src-badge src-reddit">Reddit</span> \u2B06${formatNum(reddit.upvotes)} <span class="src-meta">${reddit.mentions} posts</span></span>`);
       }
       if (hf.likes > 0 || hf.downloads > 0) {
         srcLines.push(`<span class="src-line"><span class="src-badge src-hf">HF</span> \u2764${formatNum(hf.likes)} <span class="src-meta">\u2B07${formatNum(hf.downloads)}</span></span>`);
