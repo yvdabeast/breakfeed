@@ -1,75 +1,187 @@
 {
-  "cached_at": "2026-04-09T09:53:57.495254+00:00",
+  "cached_at": "2026-04-09T10:15:31.926305+00:00",
   "reddit_image": {
     "FLUX": {
       "mentions": 10,
-      "upvotes": 1890,
+      "upvotes": 1905,
       "top_post": {
         "title": "Last week in Generative Image & Video",
-        "score": 368,
+        "score": 369,
         "subreddit": "StableDiffusion",
-        "url": "https://reddit.com/r/StableDiffusion/comments/1sfj9dt/last_week_in_generative_image_video/"
-      }
+        "url": "https://reddit.com/r/StableDiffusion/comments/1sfj9dt/last_week_in_generative_image_video/",
+        "num_comments": 21,
+        "permalink": "/r/StableDiffusion/comments/1sfj9dt/last_week_in_generative_image_video/"
+      },
+      "top_comments": [
+        {
+          "body": "Please continue these posts. They are valuable and appreciated.",
+          "score": 103,
+          "author": "Enshitification"
+        },
+        {
+          "body": "Definitely missed Flux FaceIR and Flux Restoration. Will look them up later. Really love these posts.",
+          "score": 16,
+          "author": "DBacon1052"
+        },
+        {
+          "body": "![gif](giphy|gictytW9IIIkNGIMcs)\n\n",
+          "score": 13,
+          "author": "Aggressive_Collar135"
+        }
+      ]
     },
     "Midjourney": {
       "mentions": 8,
-      "upvotes": 394,
+      "upvotes": 391,
       "top_post": {
         "title": "I don’t want to rent my computer. I want to own it.",
         "score": 187,
         "subreddit": "StableDiffusion",
-        "url": "https://reddit.com/r/StableDiffusion/comments/1s16gh6/i_dont_want_to_rent_my_computer_i_want_to_own_it/"
-      }
+        "url": "https://reddit.com/r/StableDiffusion/comments/1s16gh6/i_dont_want_to_rent_my_computer_i_want_to_own_it/",
+        "num_comments": 103,
+        "permalink": "/r/StableDiffusion/comments/1s16gh6/i_dont_want_to_rent_my_computer_i_want_to_own_it/"
+      },
+      "top_comments": [
+        {
+          "body": "How are they meant to charge you subscription fees and enshittify their service if they allow you to own your own hardware?",
+          "score": 60,
+          "author": "CranberryDistinct941"
+        },
+        {
+          "body": "I mean, at least you have a 3090, the absolute best value gpu for local ai. Suckers like me have to settle for a poor 2060 6gb",
+          "score": 40,
+          "author": "Velocita84"
+        },
+        {
+          "body": "China will save the market, but it'll take some time.",
+          "score": 30,
+          "author": "Microtom_"
+        }
+      ]
     },
     "DALL-E": {
       "mentions": 1,
-      "upvotes": 39,
+      "upvotes": 43,
       "top_post": {
         "title": "Stanford CS 25 Transformers Course (OPEN TO ALL | Starts Tomorrow)",
-        "score": 39,
+        "score": 43,
         "subreddit": "StableDiffusion",
-        "url": "https://reddit.com/r/StableDiffusion/comments/1sa3ma1/stanford_cs_25_transformers_course_open_to_all/"
-      }
+        "url": "https://reddit.com/r/StableDiffusion/comments/1sa3ma1/stanford_cs_25_transformers_course_open_to_all/",
+        "num_comments": 0,
+        "permalink": "/r/StableDiffusion/comments/1sa3ma1/stanford_cs_25_transformers_course_open_to_all/"
+      },
+      "top_comments": []
     },
     "GPT Image": {
       "mentions": 6,
-      "upvotes": 707,
+      "upvotes": 704,
       "top_post": {
         "title": "AI News You Missed - March 2026",
-        "score": 588,
+        "score": 587,
         "subreddit": "StableDiffusion",
-        "url": "https://reddit.com/r/StableDiffusion/comments/1s96uot/ai_news_you_missed_march_2026/"
-      }
+        "url": "https://reddit.com/r/StableDiffusion/comments/1s96uot/ai_news_you_missed_march_2026/",
+        "num_comments": 27,
+        "permalink": "/r/StableDiffusion/comments/1s96uot/ai_news_you_missed_march_2026/"
+      },
+      "top_comments": [
+        {
+          "body": "Love this! Looks like your tracking larger labs but I also wanted to throw in this model I released this month.\n\nhttps://huggingface.co/RoyalCities/Foundation-1\n\nIt's a SOTA sample generator for music",
+          "score": 73,
+          "author": "RoyalCities"
+        },
+        {
+          "body": "We need to pin this for every month! ",
+          "score": 42,
+          "author": "RickyRickC137"
+        },
+        {
+          "body": "thanks for sharing",
+          "score": 13,
+          "author": "Space_Objective"
+        }
+      ]
     },
     "Stable Diffusion 3": {
       "mentions": 6,
-      "upvotes": 240,
+      "upvotes": 249,
       "top_post": {
         "title": "Pixelsmile works in comfyui -Enabling fine-grained microexpression control.  Workflow included.",
-        "score": 138,
+        "score": 141,
         "subreddit": "StableDiffusion",
-        "url": "https://reddit.com/r/StableDiffusion/comments/1sefy2t/pixelsmile_works_in_comfyui_enabling_finegrained/"
-      }
+        "url": "https://reddit.com/r/StableDiffusion/comments/1sefy2t/pixelsmile_works_in_comfyui_enabling_finegrained/",
+        "num_comments": 18,
+        "permalink": "/r/StableDiffusion/comments/1sefy2t/pixelsmile_works_in_comfyui_enabling_finegrained/"
+      },
+      "top_comments": [
+        {
+          "body": "Sleepy=2 is not what I expected",
+          "score": 13,
+          "author": "Huge-Refuse-2135"
+        },
+        {
+          "body": "Thanks, it works great, the problem though is that it destroys the likeness of the loaded image. Hope you can make one for Flux2 Klein 9b.",
+          "score": 5,
+          "author": "Electronic-Metal2391"
+        },
+        {
+          "body": "This looks useful, but I don't see a node file on the Github page.     \nEdit: nvm, it's there in the __init__.py gile.t",
+          "score": 3,
+          "author": "Enshitification"
+        }
+      ]
     },
     "SDXL": {
       "mentions": 5,
-      "upvotes": 425,
+      "upvotes": 423,
       "top_post": {
         "title": "Mugen - Modernized Anime SDXL Base, or how to make Bluvoll tiny bit less sane",
-        "score": 344,
+        "score": 343,
         "subreddit": "StableDiffusion",
-        "url": "https://reddit.com/r/StableDiffusion/comments/1s86i0v/mugen_modernized_anime_sdxl_base_or_how_to_make/"
-      }
+        "url": "https://reddit.com/r/StableDiffusion/comments/1s86i0v/mugen_modernized_anime_sdxl_base_or_how_to_make/",
+        "num_comments": 124,
+        "permalink": "/r/StableDiffusion/comments/1s86i0v/mugen_modernized_anime_sdxl_base_or_how_to_make/"
+      },
+      "top_comments": [
+        {
+          "body": "Hang on a sec, this isn't my fighting game engine...",
+          "score": 124,
+          "author": "Thin_Measurement_965"
+        },
+        {
+          "body": "It’s the year 2169, the 420th finetune for SDXL has been released cause people refuse to let it die **/j**",
+          "score": 74,
+          "author": "BlackSwanTW"
+        }
+      ]
     },
     "Imagen": {
       "mentions": 1,
-      "upvotes": 6,
+      "upvotes": 5,
       "top_post": {
         "title": "My experience testing LTX-2.3 in ComfyUI (on an RTX 5070 Ti)",
-        "score": 6,
+        "score": 5,
         "subreddit": "StableDiffusion",
-        "url": "https://reddit.com/r/StableDiffusion/comments/1rtxqzq/my_experience_testing_ltx23_in_comfyui_on_an_rtx/"
-      }
+        "url": "https://reddit.com/r/StableDiffusion/comments/1rtxqzq/my_experience_testing_ltx23_in_comfyui_on_an_rtx/",
+        "num_comments": 17,
+        "permalink": "/r/StableDiffusion/comments/1rtxqzq/my_experience_testing_ltx23_in_comfyui_on_an_rtx/"
+      },
+      "top_comments": [
+        {
+          "body": "Did you use AI to generate this review?",
+          "score": 12,
+          "author": "ImaginationKind9220"
+        },
+        {
+          "body": "You accidentally discovered I2V? Ok...",
+          "score": 5,
+          "author": "dry_garlic_boy"
+        },
+        {
+          "body": "What do you mean by \"a simplified power up prompt?\"  What did you do with the image?  Did you not use a text prompt at all, or did you use the image along with the text prompt that generated the image",
+          "score": 3,
+          "author": "Over-Map6529"
+        }
+      ]
     },
     "Seedream": {
       "mentions": 1,
@@ -78,70 +190,177 @@
         "title": "v2v style transfer",
         "score": 6,
         "subreddit": "StableDiffusion",
-        "url": "https://reddit.com/r/StableDiffusion/comments/1s3s49i/v2v_style_transfer/"
-      }
+        "url": "https://reddit.com/r/StableDiffusion/comments/1s3s49i/v2v_style_transfer/",
+        "num_comments": 0,
+        "permalink": "/r/StableDiffusion/comments/1s3s49i/v2v_style_transfer/"
+      },
+      "top_comments": []
     },
     "Grok Image": {
       "mentions": 3,
-      "upvotes": 63,
+      "upvotes": 65,
       "top_post": {
         "title": "SDXL and Anima prompt help composer",
-        "score": 31,
+        "score": 33,
         "subreddit": "StableDiffusion",
-        "url": "https://reddit.com/r/StableDiffusion/comments/1rtoxel/sdxl_and_anima_prompt_help_composer/"
-      }
+        "url": "https://reddit.com/r/StableDiffusion/comments/1rtoxel/sdxl_and_anima_prompt_help_composer/",
+        "num_comments": 5,
+        "permalink": "/r/StableDiffusion/comments/1rtoxel/sdxl_and_anima_prompt_help_composer/"
+      },
+      "top_comments": [
+        {
+          "body": "Is anima v2 better than SDXL or IL??",
+          "score": 2,
+          "author": "CupSure9806"
+        },
+        {
+          "body": "https://preview.redd.it/sn0dhx1lozpg1.png?width=287&format=png&auto=webp&s=6d994a2b1b1eb7c7c39ba0f8c3c5e7d7b33180a1\n\ni actually vibe coded something similar to this for my own forge (not n",
+          "score": 2,
+          "author": "Niwa-kun"
+        }
+      ]
     },
     "Nano Banana": {
       "mentions": 7,
-      "upvotes": 836,
+      "upvotes": 830,
       "top_post": {
         "title": "Last week in Generative Image & Video",
-        "score": 368,
+        "score": 366,
         "subreddit": "StableDiffusion",
-        "url": "https://reddit.com/r/StableDiffusion/comments/1sfj9dt/last_week_in_generative_image_video/"
-      }
+        "url": "https://reddit.com/r/StableDiffusion/comments/1sfj9dt/last_week_in_generative_image_video/",
+        "num_comments": 21,
+        "permalink": "/r/StableDiffusion/comments/1sfj9dt/last_week_in_generative_image_video/"
+      },
+      "top_comments": [
+        {
+          "body": "Please continue these posts. They are valuable and appreciated.",
+          "score": 104,
+          "author": "Enshitification"
+        },
+        {
+          "body": "Definitely missed Flux FaceIR and Flux Restoration. Will look them up later. Really love these posts.",
+          "score": 17,
+          "author": "DBacon1052"
+        },
+        {
+          "body": "![gif](giphy|gictytW9IIIkNGIMcs)\n\n",
+          "score": 13,
+          "author": "Aggressive_Collar135"
+        }
+      ]
     },
     "Wan": {
       "mentions": 5,
-      "upvotes": 704,
+      "upvotes": 700,
       "top_post": {
         "title": "I had fun testing out LTX's lipsync ability. Full open source Z-Image -> LTX-2.3 -> WanAnimate",
-        "score": 658,
+        "score": 653,
         "subreddit": "StableDiffusion",
-        "url": "https://reddit.com/r/StableDiffusion/comments/1sbh73i/i_had_fun_testing_out_ltxs_lipsync_ability_full/"
-      }
+        "url": "https://reddit.com/r/StableDiffusion/comments/1sbh73i/i_had_fun_testing_out_ltxs_lipsync_ability_full/",
+        "num_comments": 81,
+        "permalink": "/r/StableDiffusion/comments/1sbh73i/i_had_fun_testing_out_ltxs_lipsync_ability_full/"
+      },
+      "top_comments": [
+        {
+          "body": "I'm pretty impressed with LTX-2.3's ability to take audio and not only match the lipsyncing but also believable human motion to the music.  I created a full workflow that could take a random prompt fr",
+          "score": 65,
+          "author": "luckyyirish"
+        },
+        {
+          "body": "Hope you win first place for this! Great work! ",
+          "score": 16,
+          "author": "DoctorDiffusion"
+        },
+        {
+          "body": "this is damn impressive for a complete open source workflow. Nice job!",
+          "score": 8,
+          "author": "ShaneKaiGlenn"
+        }
+      ]
     },
     "HunyuanImage": {
       "mentions": 5,
-      "upvotes": 112,
+      "upvotes": 115,
       "top_post": {
         "title": "ComfyUI- Advanced Model Manager",
-        "score": 51,
+        "score": 53,
         "subreddit": "StableDiffusion",
-        "url": "https://reddit.com/r/StableDiffusion/comments/1s00977/comfyui_advanced_model_manager/"
-      }
+        "url": "https://reddit.com/r/StableDiffusion/comments/1s00977/comfyui_advanced_model_manager/",
+        "num_comments": 13,
+        "permalink": "/r/StableDiffusion/comments/1s00977/comfyui_advanced_model_manager/"
+      },
+      "top_comments": [
+        {
+          "body": "amazing. I tried making this kind of huggingface searcher a while ago but it gave me so many false links. \n\nI'm definitely going o try this. Thanks!",
+          "score": 2,
+          "author": "Eisegetical"
+        },
+        {
+          "body": "https://preview.redd.it/2zfn1liecgqg1.jpeg?width=1320&format=pjpg&auto=webp&s=1160988d2e7a899118036e345d15b36bf8f67df8\n\nHey, it looks like the link for your custom node is dead",
+          "score": 1,
+          "author": "GreedyRich96"
+        },
+        {
+          "body": "Installed but not found. How access and use it ?\n\n",
+          "score": 1,
+          "author": "Financial-Bottle-734"
+        }
+      ]
     }
   },
   "reddit_video": {
     "Sora": {
       "mentions": 7,
-      "upvotes": 934,
+      "upvotes": 929,
       "top_post": {
         "title": "No more Sora ..?",
-        "score": 469,
+        "score": 474,
         "subreddit": "StableDiffusion",
-        "url": "https://reddit.com/r/StableDiffusion/comments/1s2pjf0/no_more_sora/"
-      }
+        "url": "https://reddit.com/r/StableDiffusion/comments/1s2pjf0/no_more_sora/",
+        "num_comments": 331,
+        "permalink": "/r/StableDiffusion/comments/1s2pjf0/no_more_sora/"
+      },
+      "top_comments": [
+        {
+          "body": "well, that's **exactly exactly** the reason why local is the only serious way to go forward. And sure, it sucks we don't all have 1 million dollar computers to run these massive models, so we gotta ma",
+          "score": 332,
+          "author": "PwanaZana"
+        },
+        {
+          "body": "Doesn't make any money ",
+          "score": 237,
+          "author": "Ginzeen98"
+        },
+        {
+          "body": "Open source it then \"OpenAI\" really needs to change their name ",
+          "score": 223,
+          "author": "_BreakingGood_"
+        }
+      ]
     },
     "Kling": {
       "mentions": 10,
-      "upvotes": 344,
+      "upvotes": 341,
       "top_post": {
         "title": "Last week in Image & Video Generation",
-        "score": 168,
+        "score": 169,
         "subreddit": "StableDiffusion",
-        "url": "https://reddit.com/r/StableDiffusion/comments/1rwus6o/last_week_in_image_video_generation/"
-      }
+        "url": "https://reddit.com/r/StableDiffusion/comments/1rwus6o/last_week_in_image_video_generation/",
+        "num_comments": 9,
+        "permalink": "/r/StableDiffusion/comments/1rwus6o/last_week_in_image_video_generation/"
+      },
+      "top_comments": [
+        {
+          "body": "ViFeEdit looks pretty cool. I really want it to support LTX-2.3. Now the only question on my mind is.. is Claude Code up the to the task of attempting to port it? ",
+          "score": 5,
+          "author": "Loose_Object_8311"
+        },
+        {
+          "body": "Amazing post, keep it p",
+          "score": 4,
+          "author": "deadadventure"
+        }
+      ]
     },
     "Veo": {
       "mentions": 3,
@@ -150,58 +369,156 @@
         "title": "LTX2.3 | 720x1280 | Local Inference Test & A 6-Month Silence",
         "score": 34,
         "subreddit": "StableDiffusion",
-        "url": "https://reddit.com/r/StableDiffusion/comments/1rp1v4u/ltx23_720x1280_local_inference_test_a_6month/"
-      }
+        "url": "https://reddit.com/r/StableDiffusion/comments/1rp1v4u/ltx23_720x1280_local_inference_test_a_6month/",
+        "num_comments": 0,
+        "permalink": "/r/StableDiffusion/comments/1rp1v4u/ltx23_720x1280_local_inference_test_a_6month/"
+      },
+      "top_comments": []
     },
     "Seedance": {
       "mentions": 9,
-      "upvotes": 752,
+      "upvotes": 751,
       "top_post": {
         "title": "My only wish (as of right now)",
-        "score": 272,
+        "score": 278,
         "subreddit": "StableDiffusion",
-        "url": "https://reddit.com/r/StableDiffusion/comments/1sf4cxr/my_only_wish_as_of_right_now/"
-      }
+        "url": "https://reddit.com/r/StableDiffusion/comments/1sf4cxr/my_only_wish_as_of_right_now/",
+        "num_comments": 87,
+        "permalink": "/r/StableDiffusion/comments/1sf4cxr/my_only_wish_as_of_right_now/"
+      },
+      "top_comments": [
+        {
+          "body": "Who is reporting this meme for not being about open source? Did yall miss the 5th and 6th words of the first sentence? We have plenty in the mod queue already. Poor McMonkey…\n\n![gif](giphy|pPhyAv5t9V8",
+          "score": 1,
+          "author": "SandCheezy"
+        },
+        {
+          "body": "Same. I'd fork over for a RTX 6000 pro or two if a seedance 2 level video model was available, even pay a one time purchase to download the weights. But I'll never pay several dollars per gen. These m",
+          "score": 51,
+          "author": "Different_Fix_2217"
+        },
+        {
+          "body": "I’d be happy with what Grok was back in October 2025, wink wink 😉",
+          "score": 34,
+          "author": "razortapes"
+        }
+      ]
     },
     "HappyHorse": {
       "mentions": 2,
-      "upvotes": 334,
+      "upvotes": 341,
       "top_post": {
         "title": "A new SOTA local video model (HappyHorse 1.0) will be released in april 10th.",
-        "score": 265,
+        "score": 268,
         "subreddit": "StableDiffusion",
-        "url": "https://reddit.com/r/StableDiffusion/comments/1sfo3dq/a_new_sota_local_video_model_happyhorse_10_will/"
-      }
+        "url": "https://reddit.com/r/StableDiffusion/comments/1sfo3dq/a_new_sota_local_video_model_happyhorse_10_will/",
+        "num_comments": 122,
+        "permalink": "/r/StableDiffusion/comments/1sfo3dq/a_new_sota_local_video_model_happyhorse_10_will/"
+      },
+      "top_comments": [
+        {
+          "body": "Apparently he based this on a fake website that has a link to a fake hype github that has other junk like a fake deepseek v4 coding agent and openclaw bs. The vibecoded website even has a openclaw vid",
+          "score": 130,
+          "author": "Different_Fix_2217"
+        },
+        {
+          "body": "no freaking way. If this is real, western labs are in big trouble\n\nEDIT: Maybe the open-source version is nerfed in some way? It only has 60% WR against LTX 2.3. From what I've tested on the arena, it",
+          "score": 37,
+          "author": "Ok-Worldliness-9323"
+        },
+        {
+          "body": "Above SeedDance 2.0, It is kinda hard to believe. Looks too good to be true, especially for 15B, but lets wait & see.\n\nEDIT : Unfortunatly looks like a fake",
+          "score": 31,
+          "author": "MomentJolly3535"
+        }
+      ]
     },
     "SkyReels": {
       "mentions": 3,
-      "upvotes": 197,
+      "upvotes": 199,
       "top_post": {
         "title": "Diagnoal Distillation - A new distillation method for video models.",
         "score": 96,
         "subreddit": "StableDiffusion",
-        "url": "https://reddit.com/r/StableDiffusion/comments/1ru49cr/diagnoal_distillation_a_new_distillation_method/"
-      }
+        "url": "https://reddit.com/r/StableDiffusion/comments/1ru49cr/diagnoal_distillation_a_new_distillation_method/",
+        "num_comments": 6,
+        "permalink": "/r/StableDiffusion/comments/1ru49cr/diagnoal_distillation_a_new_distillation_method/"
+      },
+      "top_comments": [
+        {
+          "body": "So this means we're about to have new speed loras that gives us almost 2x more speed?",
+          "score": 19,
+          "author": "Sexiest_Man_Alive"
+        },
+        {
+          "body": "hope we hear from lightx on this paper ",
+          "score": 16,
+          "author": "Powerful_Evening5495"
+        },
+        {
+          "body": "I wonder what distillation method LTX 2.3 uses",
+          "score": 5,
+          "author": "Shockbum"
+        }
+      ]
     },
     "Wan Video": {
       "mentions": 5,
-      "upvotes": 278,
+      "upvotes": 281,
       "top_post": {
         "title": "[Release] Video Outpainting - easy, lightweight workflow",
-        "score": 209,
+        "score": 211,
         "subreddit": "StableDiffusion",
-        "url": "https://reddit.com/r/StableDiffusion/comments/1seeem7/release_video_outpainting_easy_lightweight/"
-      }
+        "url": "https://reddit.com/r/StableDiffusion/comments/1seeem7/release_video_outpainting_easy_lightweight/",
+        "num_comments": 27,
+        "permalink": "/r/StableDiffusion/comments/1seeem7/release_video_outpainting_easy_lightweight/"
+      },
+      "top_comments": [
+        {
+          "body": "Very nice.\n\nI wonder if this could be modified into creative fill of the digital video stabilization, the kind that leaves black borders around the frame.",
+          "score": 6,
+          "author": "KS-Wolf-1978"
+        },
+        {
+          "body": "That's pretty awesome, thanks for sharing! ",
+          "score": 3,
+          "author": "Maskwi2"
+        },
+        {
+          "body": "Thank u would love to try this out! ",
+          "score": 2,
+          "author": "OkTransportation7243"
+        }
+      ]
     },
     "Luma": {
       "mentions": 2,
-      "upvotes": 20,
+      "upvotes": 23,
       "top_post": {
         "title": "Running AI image generation locally on CPU only — what actually works in 2025/2026?",
-        "score": 13,
+        "score": 14,
         "subreddit": "StableDiffusion",
-        "url": "https://reddit.com/r/StableDiffusion/comments/1ry3vxi/running_ai_image_generation_locally_on_cpu_only/"
-      }
+        "url": "https://reddit.com/r/StableDiffusion/comments/1ry3vxi/running_ai_image_generation_locally_on_cpu_only/",
+        "num_comments": 27,
+        "permalink": "/r/StableDiffusion/comments/1ry3vxi/running_ai_image_generation_locally_on_cpu_only/"
+      },
+      "top_comments": [
+        {
+          "body": "This very much sounds like you are trying to create gooner material on a tablet",
+          "score": 27,
+          "author": "Puzzleheaded-Rope808"
+        },
+        {
+          "body": "oh oh me me. i ran stable diffusion on my intel celeron with 4gb ram and no gpu and a 2.5\" 120gb hd. i used pony realism and set it to 50x50 pixels and it only 2hours it generated an image. so much fu",
+          "score": 9,
+          "author": "tac0catzzz"
+        },
+        {
+          "body": "Still curious as to why this particular config. Cpu only and limited to 8gb ram, making 256x256 images. Is this an educational experiment? ",
+          "score": 8,
+          "author": "lacerating_aura"
+        }
+      ]
     }
   },
   "hf_image": {

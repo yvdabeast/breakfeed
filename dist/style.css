@@ -955,6 +955,16 @@ a:hover {
   font-size: 10px;
 }
 
+.aigc-comment {
+  font-size: 10.5px;
+  color: var(--text-secondary);
+  font-style: italic;
+  margin-top: 3px;
+  line-height: 1.4;
+  padding-left: 2px;
+  opacity: 0.85;
+}
+
 .src-badge {
   font-size: 9px;
   font-weight: 700;

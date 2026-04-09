@@ -737,10 +737,34 @@ def fetch_aigc_rankings():
     SUBREDDITS_IMAGE = ["StableDiffusion", "midjourney", "dalle2", "AIGenArt"]
     SUBREDDITS_VIDEO = ["aivideo", "StableDiffusion", "midjourney"]
 
-    def fetch_reddit_buzz(search_terms, subreddits):
-        """Search Reddit for model mentions, return {canonical_name: {mentions, upvotes, top_post}}."""
+    def fetch_top_comments(permalink, limit=3):
+        """Fetch top comments from a Reddit post."""
         import html as _html
-        buzz = defaultdict(lambda: {"mentions": 0, "upvotes": 0, "top_post": None})
+        comments = []
+        try:
+            url = f"https://www.reddit.com{permalink}.json?sort=top&limit={limit + 1}"
+            resp = requests.get(url, headers=REDDIT_HEADERS, timeout=10)
+            if resp.status_code == 200:
+                data = resp.json()
+                if len(data) > 1:
+                    for c in data[1].get("data", {}).get("children", [])[:limit]:
+                        cd = c.get("data", {})
+                        body = cd.get("body", "")
+                        if body and cd.get("author") != "AutoModerator":
+                            comments.append({
+                                "body": _html.unescape(body[:200]),
+                                "score": cd.get("score", 0),
+                                "author": cd.get("author", ""),
+                            })
+            _time.sleep(1.0)
+        except Exception:
+            pass
+        return comments
+
+    def fetch_reddit_buzz(search_terms, subreddits):
+        """Search Reddit for model mentions, return {canonical_name: {mentions, upvotes, top_post, top_comments}}."""
+        import html as _html
+        buzz = defaultdict(lambda: {"mentions": 0, "upvotes": 0, "top_post": None, "top_comments": []})
         failures = 0
         for term, canonical in search_terms.items():
             for sub in subreddits[:2]:  # Limit to 2 subs per term to avoid rate limits
@@ -756,11 +780,14 @@ def fetch_aigc_rankings():
                                 buzz[canonical]["upvotes"] += d.get("score", 0)
                                 if buzz[canonical]["top_post"] is None or d.get("score", 0) > (buzz[canonical]["top_post"].get("score", 0)):
                                     title = _html.unescape(d.get("title", "")[:100])
+                                    permalink = d.get("permalink", "")
                                     buzz[canonical]["top_post"] = {
                                         "title": title,
                                         "score": d.get("score", 0),
                                         "subreddit": d.get("subreddit", ""),
-                                        "url": f"https://reddit.com{d.get('permalink', '')}",
+                                        "url": f"https://reddit.com{permalink}",
+                                        "num_comments": d.get("num_comments", 0),
+                                        "permalink": permalink,
                                     }
                             break  # Success, no retry needed
                         elif resp.status_code == 429:
@@ -775,7 +802,17 @@ def fetch_aigc_rankings():
                 except Exception as e:
                     print(f"  [Reddit][ERROR] r/{sub} '{term}': {e}", file=sys.stderr)
                     failures += 1
-        print(f"  [Reddit] Done: {len(buzz)} models with data, {failures} failures", file=sys.stderr)
+
+        # Fetch top comments for the highest-voted post per model
+        comment_count = 0
+        for canonical, data in buzz.items():
+            if data["top_post"] and data["top_post"].get("permalink"):
+                comments = fetch_top_comments(data["top_post"]["permalink"], limit=3)
+                data["top_comments"] = comments
+                if comments:
+                    comment_count += 1
+
+        print(f"  [Reddit] Done: {len(buzz)} models, {comment_count} with comments, {failures} failures", file=sys.stderr)
         return dict(buzz)
 
     # ── Source 3: HuggingFace model popularity (likes + downloads) ──
@@ -845,20 +882,37 @@ def fetch_aigc_rankings():
     hf_image = fetch_hf_popularity("text-to-image")
     hf_video = fetch_hf_popularity("text-to-video")
 
-    # If live fetch got data, save cache. If empty, use cache as fallback.
+    # Per-source cache fallback: only use cache for sources that returned empty
+    cache = load_cache()
     has_reddit = bool(reddit_image or reddit_video)
     has_hf = bool(hf_image or hf_video)
-    if has_reddit or has_hf:
-        save_cache(reddit_image, reddit_video, hf_image, hf_video)
-    else:
-        print("  [Cache] Live Reddit/HF fetch returned empty, trying cache...", file=sys.stderr)
-        cache = load_cache()
-        if cache:
-            reddit_image = cache.get("reddit_image", {})
-            reddit_video = cache.get("reddit_video", {})
-            hf_image = cache.get("hf_image", {})
-            hf_video = cache.get("hf_video", {})
-            print(f"  [Cache] Using cached: Reddit({len(reddit_image)}+{len(reddit_video)}) HF({len(hf_image)}+{len(hf_video)})", file=sys.stderr)
+
+    if not has_reddit and cache:
+        reddit_image = cache.get("reddit_image", {})
+        reddit_video = cache.get("reddit_video", {})
+        print(f"  [Cache] Reddit empty, using cache: {len(reddit_image)} image + {len(reddit_video)} video", file=sys.stderr)
+    if not has_hf and cache:
+        hf_image = cache.get("hf_image", {})
+        hf_video = cache.get("hf_video", {})
+        print(f"  [Cache] HF empty, using cache: {len(hf_image)} image + {len(hf_video)} video", file=sys.stderr)
+
+    # Save cache only with sources that have fresh data (don't overwrite good data with empty)
+    save_data = {}
+    if has_reddit:
+        save_data["reddit_image"] = reddit_image
+        save_data["reddit_video"] = reddit_video
+    elif cache:
+        save_data["reddit_image"] = cache.get("reddit_image", {})
+        save_data["reddit_video"] = cache.get("reddit_video", {})
+    if has_hf:
+        save_data["hf_image"] = hf_image
+        save_data["hf_video"] = hf_video
+    elif cache:
+        save_data["hf_image"] = cache.get("hf_image", {})
+        save_data["hf_video"] = cache.get("hf_video", {})
+    if save_data:
+        save_cache(save_data.get("reddit_image", {}), save_data.get("reddit_video", {}),
+                   save_data.get("hf_image", {}), save_data.get("hf_video", {}))
 
     # ── Cross-validate & merge ──
     # ── HF brand keyword mapping: AA model name → HF search keywords ──
@@ -898,7 +952,7 @@ def fetch_aigc_rankings():
         for model in aa_models:
             name = model["name"]
             # Match Reddit buzz
-            model["reddit"] = {"mentions": 0, "upvotes": 0, "topPost": None}
+            model["reddit"] = {"mentions": 0, "upvotes": 0, "topPost": None, "topComments": []}
             for reddit_name, buzz in reddit_buzz.items():
                 if fuzzy_match(name, reddit_name):
                     model["reddit"]["mentions"] += buzz["mentions"]
@@ -906,6 +960,8 @@ def fetch_aigc_rankings():
                     if buzz.get("top_post"):
                         if model["reddit"]["topPost"] is None or buzz["top_post"]["score"] > model["reddit"]["topPost"].get("score", 0):
                             model["reddit"]["topPost"] = buzz["top_post"]
+                    if buzz.get("top_comments"):
+                        model["reddit"]["topComments"] = buzz["top_comments"]
                     break
 
             # Match HuggingFace popularity — pick best match by likes
