@@ -668,6 +668,82 @@ def merge_history(old_feed, new_twitter, new_podcasts):
     return podcasts, twitter_history
 
 
+def fetch_aigc_rankings():
+    """Fetch AIGC model rankings from Artificial Analysis leaderboards."""
+    print("Fetching AIGC model rankings...", file=sys.stderr)
+
+    def extract_rankings(html_text, category):
+        """Extract model rankings from Artificial Analysis leaderboard page."""
+        chunks = re.findall(r'self\.__next_f\.push\(\[1,"(.*?)"\]\)', html_text, re.DOTALL)
+        full = '\n'.join(c.replace('\\"', '"').replace('\\n', '\n') for c in chunks)
+
+        matches = re.finditer(
+            r'"values":\{"id":"([^"]*?)","name":"([^"]*?)","url":"([^"]*?)","rank":(\d+),"elo":([\d.]+),"appearances":(\d+),'
+            r'.*?"creator":\{"id":"[^"]*","name":"([^"]*?)","logoUrl":"([^"]*?)"',
+            full
+        )
+
+        entries = []
+        for m in matches:
+            entries.append({
+                "name": m.group(2),
+                "rank": int(m.group(4)),
+                "elo": round(float(m.group(5))),
+                "appearances": int(m.group(6)),
+                "creator": m.group(7),
+                "creatorLogo": m.group(8),
+            })
+
+        # Deduplicate by name, keeping the entry with highest appearances (main leaderboard)
+        from collections import defaultdict
+        by_name = defaultdict(list)
+        for e in entries:
+            by_name[e["name"]].append(e)
+
+        unique = []
+        for name, versions in by_name.items():
+            best = max(versions, key=lambda x: x["appearances"])
+            unique.append(best)
+
+        unique.sort(key=lambda x: x["elo"], reverse=True)
+        # Return top 15
+        for i, e in enumerate(unique[:15]):
+            e["rank"] = i + 1
+        return unique[:15]
+
+    results = {"image": [], "video": [], "fetchedAt": datetime.now(timezone.utc).isoformat()}
+
+    # Fetch Image (Text-to-Image) leaderboard
+    try:
+        resp = requests.get(
+            "https://artificialanalysis.ai/image/leaderboard/text-to-image",
+            headers=HEADERS, timeout=30
+        )
+        if resp.status_code == 200:
+            results["image"] = extract_rankings(resp.text, "image")
+            print(f"  Image models: {len(results['image'])}", file=sys.stderr)
+        else:
+            print(f"  [WARN] Image leaderboard HTTP {resp.status_code}", file=sys.stderr)
+    except Exception as e:
+        print(f"  [ERROR] Image leaderboard: {e}", file=sys.stderr)
+
+    # Fetch Video leaderboard
+    try:
+        resp = requests.get(
+            "https://artificialanalysis.ai/video/leaderboard/text-to-video",
+            headers=HEADERS, timeout=30
+        )
+        if resp.status_code == 200:
+            results["video"] = extract_rankings(resp.text, "video")
+            print(f"  Video models: {len(results['video'])}", file=sys.stderr)
+        else:
+            print(f"  [WARN] Video leaderboard HTTP {resp.status_code}", file=sys.stderr)
+    except Exception as e:
+        print(f"  [ERROR] Video leaderboard: {e}", file=sys.stderr)
+
+    return results
+
+
 def main():
     print("=" * 50, file=sys.stderr)
     print("Breakfeed — Daily Data Fetch", file=sys.stderr)
@@ -681,6 +757,7 @@ def main():
     podcasts = fetch_podcasts()
     producthunt = fetch_producthunt()
     github_trending = fetch_github_trending()
+    aigc_rankings = fetch_aigc_rankings()
 
     # Merge with history
     merged_podcasts, twitter_history = merge_history(old_feed, twitter, podcasts)
@@ -693,6 +770,7 @@ def main():
         "podcasts": merged_podcasts,   # Accumulated episodes
         "producthunt": producthunt,
         "github_trending": github_trending,
+        "aigc_rankings": aigc_rankings,
     }
 
     # Ensure output directory exists
@@ -711,6 +789,7 @@ def main():
     print(f"  Podcasts: {len(merged_podcasts)} episodes (accumulated)", file=sys.stderr)
     print(f"  Product Hunt: {len(producthunt)} products", file=sys.stderr)
     print(f"  GitHub: {len(github_trending)} repos", file=sys.stderr)
+    print(f"  AIGC Rankings: {len(aigc_rankings.get('image', []))} image + {len(aigc_rankings.get('video', []))} video models", file=sys.stderr)
     print(f"{'=' * 50}", file=sys.stderr)
 
 

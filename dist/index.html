@@ -42,6 +42,9 @@
       <button class="pill" data-section="github">
         <span class="pill-icon">&#9733;</span> GitHub
       </button>
+      <button class="pill" data-section="aigc">
+        <span class="pill-icon">&#127912;</span> AIGC Rank
+      </button>
     </nav>
 
     <!-- Twitter / Builders Section -->
@@ -76,9 +79,22 @@
       <div class="cards" id="githubCards"></div>
     </section>
 
+    <!-- AIGC Rankings Section -->
+    <section class="section hidden" id="section-aigc">
+      <div class="section-header">
+        <h2><span class="section-icon aigc-color">&#127912;</span> AIGC Model Arena</h2>
+        <p class="section-subtitle" id="aigcSource"></p>
+      </div>
+      <div class="aigc-tabs">
+        <button class="aigc-tab active" data-aigc="image">Image</button>
+        <button class="aigc-tab" data-aigc="video">Video</button>
+      </div>
+      <div class="cards" id="aigcCards"></div>
+    </section>
+
     <!-- Footer -->
     <footer class="footer">
-      <p>Data sources: <a href="https://github.com/zarazhangrui/follow-builders" target="_blank">follow-builders</a> &middot; Product Hunt &middot; GitHub Trending</p>
+      <p>Data sources: <a href="https://github.com/zarazhangrui/follow-builders" target="_blank">follow-builders</a> &middot; Product Hunt &middot; GitHub Trending &middot; <a href="https://artificialanalysis.ai" target="_blank">Artificial Analysis</a></p>
       <p class="update-time" id="updateTime"></p>
     </footer>
   </div>

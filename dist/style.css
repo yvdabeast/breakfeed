@@ -812,6 +812,125 @@ a:hover {
 }
 
 /* ============================================
+   AIGC Rankings
+   ============================================ */
+
+.aigc-color { color: #8b5cf6; }
+
+.section-subtitle {
+  font-size: 13px;
+  color: var(--text-tertiary);
+  margin-top: var(--space-xs);
+}
+
+.aigc-tabs {
+  display: flex;
+  gap: var(--space-sm);
+  margin-bottom: var(--space-lg);
+}
+
+.aigc-tab {
+  padding: 6px 16px;
+  border-radius: 100px;
+  border: 1px solid var(--border);
+  background: var(--bg-card);
+  color: var(--text-secondary);
+  font-family: 'Inter', -apple-system, sans-serif;
+  font-size: 13px;
+  font-weight: 500;
+  cursor: pointer;
+  transition: all 0.2s ease;
+}
+
+.aigc-tab:hover {
+  background: var(--bg-hover);
+}
+
+.aigc-tab.active {
+  background: #8b5cf6;
+  color: white;
+  border-color: #8b5cf6;
+}
+
+.aigc-card {
+  display: flex;
+  align-items: center;
+  gap: var(--space-md);
+}
+
+.aigc-rank-col {
+  flex-shrink: 0;
+  min-width: 36px;
+  text-align: center;
+  font-size: 18px;
+}
+
+.aigc-info {
+  flex: 1;
+  min-width: 0;
+}
+
+.aigc-model-name {
+  font-family: 'Inter', -apple-system, sans-serif;
+  font-size: 15px;
+  font-weight: 600;
+  line-height: 1.3;
+  letter-spacing: -0.2px;
+}
+
+.aigc-creator {
+  font-size: 12px;
+  color: var(--text-tertiary);
+  margin-top: 2px;
+}
+
+.aigc-bar-wrap {
+  height: 4px;
+  background: var(--bg-hover);
+  border-radius: 2px;
+  margin-top: 8px;
+  overflow: hidden;
+}
+
+.aigc-bar {
+  height: 100%;
+  border-radius: 2px;
+  transition: width 0.6s ease;
+}
+
+.aigc-bar.elo-top { background: #8b5cf6; }
+.aigc-bar.elo-mid { background: #a78bfa; }
+.aigc-bar.elo-low { background: #c4b5fd; }
+
+[data-theme="dark"] .aigc-bar.elo-top { background: #a78bfa; }
+[data-theme="dark"] .aigc-bar.elo-mid { background: #8b5cf6; }
+[data-theme="dark"] .aigc-bar.elo-low { background: #6d28d9; }
+
+.aigc-elo-col {
+  flex-shrink: 0;
+  text-align: right;
+  min-width: 60px;
+}
+
+.aigc-elo {
+  font-size: 18px;
+  font-weight: 700;
+  letter-spacing: -0.5px;
+}
+
+.aigc-elo.elo-top { color: #8b5cf6; }
+.aigc-elo.elo-mid { color: #a78bfa; }
+.aigc-elo.elo-low { color: var(--text-secondary); }
+
+[data-theme="dark"] .aigc-elo.elo-top { color: #a78bfa; }
+
+.aigc-votes {
+  font-size: 11px;
+  color: var(--text-tertiary);
+  margin-top: 2px;
+}
+
+/* ============================================
    Date Divider
    ============================================ */
 

@@ -4966,5 +4966,252 @@
       "url": "https://github.com/virattt/ai-hedge-fund",
       "summary_zh": "这个项目是一个利用人工智能进行投资管理的团队，旨在通过智能算法帮助用户在金融市场上做出更明智的决策。对于Yves来说，这个项目对Logic Labs（AI公司）可能更有帮助，因为它展示了如何将AI技术应用于实际业务中，提升效率和决策能力，同时也能为其在创意设计方面提供新的灵感与思路。"
     }
-  ]
+  ],
+  "aigc_rankings": {
+    "image": [
+      {
+        "name": "GPT Image 1.5 (high)",
+        "rank": 1,
+        "elo": 1265,
+        "appearances": 4709,
+        "creator": "OpenAI",
+        "creatorLogo": "/img/logos/openai_small.svg"
+      },
+      {
+        "name": "Nano Banana 2 (Gemini 3.1 Flash Image Preview)",
+        "rank": 2,
+        "elo": 1258,
+        "appearances": 6403,
+        "creator": "Google",
+        "creatorLogo": "/img/logos/google_small.svg"
+      },
+      {
+        "name": "Riverflow 2.0",
+        "rank": 3,
+        "elo": 1254,
+        "appearances": 4889,
+        "creator": "Sourceful",
+        "creatorLogo": "/img/logos/sourceful_small.svg"
+      },
+      {
+        "name": "Nano Banana Pro (Gemini 3 Pro Image)",
+        "rank": 4,
+        "elo": 1215,
+        "appearances": 3963,
+        "creator": "Google",
+        "creatorLogo": "/img/logos/google_small.svg"
+      },
+      {
+        "name": "FLUX.2 [max]",
+        "rank": 5,
+        "elo": 1201,
+        "appearances": 3902,
+        "creator": "Black Forest Labs",
+        "creatorLogo": "/img/logos/blackforestlabs_small.svg"
+      },
+      {
+        "name": "Seedream 4.0",
+        "rank": 6,
+        "elo": 1185,
+        "appearances": 10031,
+        "creator": "ByteDance Seed",
+        "creatorLogo": "/img/logos/bytedance_small.svg"
+      },
+      {
+        "name": "FLUX.2 [pro]",
+        "rank": 7,
+        "elo": 1182,
+        "appearances": 3494,
+        "creator": "Black Forest Labs",
+        "creatorLogo": "/img/logos/blackforestlabs_small.svg"
+      },
+      {
+        "name": "FLUX.2 [flex]",
+        "rank": 8,
+        "elo": 1180,
+        "appearances": 3570,
+        "creator": "Black Forest Labs",
+        "creatorLogo": "/img/logos/blackforestlabs_small.svg"
+      },
+      {
+        "name": "Imagen 4 Ultra Preview 0606",
+        "rank": 9,
+        "elo": 1174,
+        "appearances": 3583,
+        "creator": "Google",
+        "creatorLogo": "/img/logos/google_small.svg"
+      },
+      {
+        "name": "Seedream 4.5",
+        "rank": 10,
+        "elo": 1171,
+        "appearances": 5838,
+        "creator": "ByteDance Seed",
+        "creatorLogo": "/img/logos/bytedance_small.svg"
+      },
+      {
+        "name": "grok-imagine-image",
+        "rank": 11,
+        "elo": 1171,
+        "appearances": 6779,
+        "creator": "xAI",
+        "creatorLogo": "/img/logos/xai.svg"
+      },
+      {
+        "name": "Imagen 4 Preview 0606",
+        "rank": 12,
+        "elo": 1170,
+        "appearances": 3535,
+        "creator": "Google",
+        "creatorLogo": "/img/logos/google_small.svg"
+      },
+      {
+        "name": "Imagen 4 Ultra",
+        "rank": 13,
+        "elo": 1169,
+        "appearances": 3989,
+        "creator": "Google",
+        "creatorLogo": "/img/logos/google_small.svg"
+      },
+      {
+        "name": "Nano Banana (Gemini 2.5 Flash Image)",
+        "rank": 14,
+        "elo": 1163,
+        "appearances": 8942,
+        "creator": "Google",
+        "creatorLogo": "/img/logos/google_small.svg"
+      },
+      {
+        "name": "FLUX.2 [dev] Turbo",
+        "rank": 15,
+        "elo": 1163,
+        "appearances": 3627,
+        "creator": "Fal",
+        "creatorLogo": "/img/logos/fal_small.svg"
+      }
+    ],
+    "video": [
+      {
+        "name": "HappyHorse-1.0",
+        "rank": 1,
+        "elo": 1383,
+        "appearances": 9815,
+        "creator": "HappyHorse",
+        "creatorLogo": "/img/logos/happyhorse_small.svg"
+      },
+      {
+        "name": "Dreamina Seedance 2.0 720p",
+        "rank": 2,
+        "elo": 1273,
+        "appearances": 8320,
+        "creator": "ByteDance Seed",
+        "creatorLogo": "/img/logos/bytedance_small.svg"
+      },
+      {
+        "name": "SkyReels V4",
+        "rank": 3,
+        "elo": 1245,
+        "appearances": 5935,
+        "creator": "Skywork AI",
+        "creatorLogo": "/img/logos/skywork_small.svg"
+      },
+      {
+        "name": "Kling 3.0 1080p (Pro)",
+        "rank": 4,
+        "elo": 1243,
+        "appearances": 5388,
+        "creator": "KlingAI",
+        "creatorLogo": "/img/logos/klingai.svg"
+      },
+      {
+        "name": "Kling 3.0 Omni 1080p (Pro)",
+        "rank": 5,
+        "elo": 1230,
+        "appearances": 4888,
+        "creator": "KlingAI",
+        "creatorLogo": "/img/logos/klingai.svg"
+      },
+      {
+        "name": "grok-imagine-video",
+        "rank": 6,
+        "elo": 1229,
+        "appearances": 5861,
+        "creator": "xAI",
+        "creatorLogo": "/img/logos/xai.svg"
+      },
+      {
+        "name": "Veo 3.1 Preview",
+        "rank": 7,
+        "elo": 1227,
+        "appearances": 4525,
+        "creator": "Google",
+        "creatorLogo": "/img/logos/google_small.svg"
+      },
+      {
+        "name": "PixVerse V5.6",
+        "rank": 8,
+        "elo": 1225,
+        "appearances": 5459,
+        "creator": "PixVerse",
+        "creatorLogo": "/img/logos/pixverse_small.svg"
+      },
+      {
+        "name": "Vidu Q3 Pro",
+        "rank": 9,
+        "elo": 1224,
+        "appearances": 6248,
+        "creator": "Vidu",
+        "creatorLogo": "/img/logos/vidu_small.svg"
+      },
+      {
+        "name": "Runway Gen-4.5",
+        "rank": 10,
+        "elo": 1224,
+        "appearances": 8646,
+        "creator": "Runway",
+        "creatorLogo": "/img/logos/runway_small.svg"
+      },
+      {
+        "name": "Veo 3",
+        "rank": 11,
+        "elo": 1220,
+        "appearances": 3522,
+        "creator": "Google",
+        "creatorLogo": "/img/logos/google_small.svg"
+      },
+      {
+        "name": "Kling 3.0 Omni 720p (Standard)",
+        "rank": 12,
+        "elo": 1218,
+        "appearances": 4802,
+        "creator": "KlingAI",
+        "creatorLogo": "/img/logos/klingai.svg"
+      },
+      {
+        "name": "Kling 3.0 720p (Standard)",
+        "rank": 13,
+        "elo": 1216,
+        "appearances": 5173,
+        "creator": "KlingAI",
+        "creatorLogo": "/img/logos/klingai.svg"
+      },
+      {
+        "name": "Veo 3.1 Fast Preview",
+        "rank": 14,
+        "elo": 1216,
+        "appearances": 4585,
+        "creator": "Google",
+        "creatorLogo": "/img/logos/google_small.svg"
+      },
+      {
+        "name": "Veo 3 Preview",
+        "rank": 15,
+        "elo": 1215,
+        "appearances": 2859,
+        "creator": "Google",
+        "creatorLogo": "/img/logos/google_small.svg"
+      }
+    ],
+    "fetchedAt": "2026-04-09T08:50:08.838540+00:00"
+  }
 }

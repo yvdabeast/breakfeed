@@ -319,6 +319,74 @@
     }).join('');
   }
 
+  // --- AIGC Rankings Cards ---
+  let aigcData = null;
+  let aigcCurrentTab = 'image';
+
+  function renderAIGC(rankings) {
+    aigcData = rankings;
+    if (!rankings) return;
+
+    const sourceEl = document.getElementById('aigcSource');
+    if (sourceEl && rankings.fetchedAt) {
+      const d = new Date(rankings.fetchedAt);
+      sourceEl.textContent = 'Source: Artificial Analysis Arena \u00B7 Updated ' + d.toLocaleDateString();
+    }
+
+    // Init sub-tabs
+    document.querySelectorAll('.aigc-tab').forEach(tab => {
+      tab.addEventListener('click', () => {
+        document.querySelectorAll('.aigc-tab').forEach(t => t.classList.remove('active'));
+        tab.classList.add('active');
+        aigcCurrentTab = tab.getAttribute('data-aigc');
+        renderAIGCList(aigcCurrentTab);
+        requestAnimationFrame(() => requestAnimationFrame(applyAllMasonry));
+      });
+    });
+
+    renderAIGCList(aigcCurrentTab);
+  }
+
+  function renderAIGCList(type) {
+    const container = document.getElementById('aigcCards');
+    const models = aigcData[type] || [];
+
+    if (models.length === 0) {
+      container.innerHTML = emptyState('\uD83C\uDFA8', 'No ranking data available');
+      return;
+    }
+
+    const topElo = models[0].elo;
+    const typeLabel = type === 'image' ? 'Text-to-Image' : 'Text-to-Video';
+
+    container.innerHTML =
+      `<div class="date-divider"><span>${typeLabel} Arena \u2014 Top ${models.length}</span></div>` +
+      models.map((m, i) => {
+        const barWidth = Math.max(20, (m.elo / topElo) * 100);
+        const medal = i === 0 ? '\uD83E\uDD47' : i === 1 ? '\uD83E\uDD48' : i === 2 ? '\uD83E\uDD49' : '';
+        const eloClass = i < 3 ? 'elo-top' : i < 10 ? 'elo-mid' : 'elo-low';
+
+        return `
+          <div class="card aigc-card">
+            <div class="aigc-rank-col">
+              <div class="card-rank">${medal || '#' + (i + 1)}</div>
+            </div>
+            <div class="aigc-info">
+              <div class="aigc-model-name">${esc(m.name)}</div>
+              <div class="aigc-creator">${esc(m.creator)}</div>
+              <div class="aigc-bar-wrap">
+                <div class="aigc-bar ${eloClass}" style="width:${barWidth}%"></div>
+              </div>
+            </div>
+            <div class="aigc-elo-col">
+              <div class="aigc-elo ${eloClass}">${m.elo}</div>
+              <div class="aigc-votes">${formatNum(m.appearances)} votes</div>
+            </div>
+          </div>
+        `;
+      }).join('');
+  }
+
   // --- Helpers ---
   function formatDateLabel(dateStr) {
     if (!dateStr || dateStr === 'unknown') return '';
@@ -491,6 +559,7 @@
       renderPodcasts(data.podcasts);
       renderProductHunt(data.producthunt);
       renderGitHub(data.github_trending);
+      renderAIGC(data.aigc_rankings);
 
       // Apply masonry after images load
       requestAnimationFrame(() => {
