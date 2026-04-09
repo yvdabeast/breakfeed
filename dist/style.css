@@ -976,12 +976,12 @@ a:hover {
 }
 
 .src-arena { background: #ede9fe; color: #6d28d9; }
+.src-lm { background: #ecfdf5; color: #047857; }
 .src-reddit { background: #fef2f2; color: #dc2626; }
-.src-hf { background: #fefce8; color: #a16207; }
 
 [data-theme="dark"] .src-arena { background: #2e1065; color: #c4b5fd; }
+[data-theme="dark"] .src-lm { background: #022c22; color: #6ee7b7; }
 [data-theme="dark"] .src-reddit { background: #450a0a; color: #fca5a5; }
-[data-theme="dark"] .src-hf { background: #422006; color: #fde68a; }
 
 /* ============================================
    Date Divider

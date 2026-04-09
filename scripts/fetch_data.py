@@ -815,31 +815,53 @@ def fetch_aigc_rankings():
         print(f"  [Reddit] Done: {len(buzz)} models, {comment_count} with comments, {failures} failures", file=sys.stderr)
         return dict(buzz)
 
-    # ── Source 3: HuggingFace model popularity (likes + downloads) ──
-    def fetch_hf_popularity(pipeline_tag):
-        """Fetch top models from HuggingFace by likes."""
-        try:
-            url = f"https://huggingface.co/api/models?pipeline_tag={pipeline_tag}&sort=likes&direction=-1&limit=20"
-            hf_headers = {"User-Agent": "Breakfeed/1.0 (AI briefing aggregator)"}
-            resp = requests.get(url, headers=hf_headers, timeout=15)
-            print(f"  [HF] {pipeline_tag}: HTTP {resp.status_code}", file=sys.stderr)
-            if resp.status_code == 200:
-                models = resp.json()
-                result = {}
-                for m in models:
-                    name = m.get("id", "").split("/")[-1]  # e.g. "FLUX.1-dev"
-                    result[m.get("id", "")] = {
-                        "name": name,
-                        "likes": m.get("likes", 0),
-                        "downloads": m.get("downloads", 0),
-                    }
-                print(f"  [HF] {pipeline_tag}: {len(result)} models fetched", file=sys.stderr)
-                return result
-            else:
-                print(f"  [HF][WARN] {pipeline_tag}: HTTP {resp.status_code} - {resp.text[:200]}", file=sys.stderr)
-        except Exception as e:
-            print(f"  [HF][ERROR] {pipeline_tag}: {e}", file=sys.stderr)
-        return {}
+    # ── Source 3: LM Arena leaderboard (second blind Elo source) ──
+    LM_ARENA_CATEGORIES = {
+        "image": ["text-to-image", "image-edit"],
+        "video": ["text-to-video", "image-to-video", "video-edit"],
+    }
+
+    def extract_lm_rankings(html_text):
+        """Extract model rankings from LM Arena Next.js RSC payload."""
+        chunks = re.findall(r'self\.__next_f\.push\(\[1,"(.*?)"\]\)', html_text, re.DOTALL)
+        full = '\n'.join(c.replace('\\"', '"').replace('\\n', '\n') for c in chunks)
+        # Match leaderboard entries
+        matches = re.finditer(
+            r'"modelDisplayName":"([^"]+)".*?"rating":([\d.]+).*?"votes":(\d+)',
+            full
+        )
+        entries = {}
+        for m in matches:
+            name = m.group(1)
+            rating = round(float(m.group(2)))
+            votes = int(m.group(3))
+            if name not in entries or votes > entries[name]["votes"]:
+                entries[name] = {"name": name, "elo": rating, "votes": votes}
+        return list(entries.values())
+
+    def fetch_lm_arena(category_group):
+        """Fetch LM Arena rankings for a group of categories, merge by model name."""
+        all_models = {}
+        for cat in LM_ARENA_CATEGORIES.get(category_group, []):
+            try:
+                url = f"https://arena.ai/leaderboard/{cat}"
+                resp = requests.get(url, headers=HEADERS, timeout=30)
+                if resp.status_code == 200:
+                    models = extract_lm_rankings(resp.text)
+                    for m in models:
+                        name = m["name"]
+                        if name not in all_models or m["elo"] > all_models[name]["elo"]:
+                            all_models[name] = m
+                            all_models[name]["category"] = cat
+                    print(f"  [LM] {cat}: {len(models)} models", file=sys.stderr)
+                else:
+                    print(f"  [LM] {cat}: HTTP {resp.status_code}", file=sys.stderr)
+            except Exception as e:
+                print(f"  [LM][ERROR] {cat}: {e}", file=sys.stderr)
+        # Return sorted by Elo, top 20
+        result = sorted(all_models.values(), key=lambda x: x["elo"], reverse=True)[:20]
+        print(f"  [LM] {category_group}: {len(result)} unique models (merged)", file=sys.stderr)
+        return result
 
     # ── Cache for Reddit/HF data (CI environments often blocked by Reddit) ──
     CACHE_PATH = Path(__file__).parent / "aigc_community_cache.json"
@@ -855,18 +877,14 @@ def fetch_aigc_rankings():
             pass
         return {}
 
-    def save_cache(reddit_img, reddit_vid, hf_img, hf_vid):
-        cache = {
-            "cached_at": datetime.now(timezone.utc).isoformat(),
-            "reddit_image": reddit_img,
-            "reddit_video": reddit_vid,
-            "hf_image": hf_img,
-            "hf_video": hf_vid,
-        }
+    def save_cache(**kwargs):
+        existing = load_cache()
+        existing["cached_at"] = datetime.now(timezone.utc).isoformat()
+        existing.update(kwargs)
         try:
             with open(CACHE_PATH, "w") as f:
-                json.dump(cache, f, ensure_ascii=False, indent=2)
-            print(f"  [Cache] Saved community data to {CACHE_PATH}", file=sys.stderr)
+                json.dump(existing, f, ensure_ascii=False, indent=2)
+            print(f"  [Cache] Saved to {CACHE_PATH}", file=sys.stderr)
         except Exception as e:
             print(f"  [Cache][ERROR] {e}", file=sys.stderr)
 
@@ -879,87 +897,65 @@ def fetch_aigc_rankings():
     reddit_video = fetch_reddit_buzz(VIDEO_SEARCH_TERMS, SUBREDDITS_VIDEO)
     print(f"  [Reddit] Image: {len(reddit_image)} models, Video: {len(reddit_video)} models", file=sys.stderr)
 
-    hf_image = fetch_hf_popularity("text-to-image")
-    hf_video = fetch_hf_popularity("text-to-video")
+    print("  Fetching LM Arena rankings...", file=sys.stderr)
+    lm_image = fetch_lm_arena("image")
+    lm_video = fetch_lm_arena("video")
 
-    # Per-source cache fallback: only use cache for sources that returned empty
+    # Per-source cache fallback
     cache = load_cache()
     has_reddit = bool(reddit_image or reddit_video)
-    has_hf = bool(hf_image or hf_video)
+    has_lm = bool(lm_image or lm_video)
 
     if not has_reddit and cache:
         reddit_image = cache.get("reddit_image", {})
         reddit_video = cache.get("reddit_video", {})
         print(f"  [Cache] Reddit empty, using cache: {len(reddit_image)} image + {len(reddit_video)} video", file=sys.stderr)
-    if not has_hf and cache:
-        hf_image = cache.get("hf_image", {})
-        hf_video = cache.get("hf_video", {})
-        print(f"  [Cache] HF empty, using cache: {len(hf_image)} image + {len(hf_video)} video", file=sys.stderr)
+    if not has_lm and cache:
+        lm_image = cache.get("lm_image", [])
+        lm_video = cache.get("lm_video", [])
+        print(f"  [Cache] LM Arena empty, using cache: {len(lm_image)} image + {len(lm_video)} video", file=sys.stderr)
 
-    # Save cache only with sources that have fresh data (don't overwrite good data with empty)
-    save_data = {}
+    # Save cache — only overwrite sources that have fresh data
+    save_kwargs = {}
     if has_reddit:
-        save_data["reddit_image"] = reddit_image
-        save_data["reddit_video"] = reddit_video
-    elif cache:
-        save_data["reddit_image"] = cache.get("reddit_image", {})
-        save_data["reddit_video"] = cache.get("reddit_video", {})
-    if has_hf:
-        save_data["hf_image"] = hf_image
-        save_data["hf_video"] = hf_video
-    elif cache:
-        save_data["hf_image"] = cache.get("hf_image", {})
-        save_data["hf_video"] = cache.get("hf_video", {})
-    if save_data:
-        save_cache(save_data.get("reddit_image", {}), save_data.get("reddit_video", {}),
-                   save_data.get("hf_image", {}), save_data.get("hf_video", {}))
+        save_kwargs["reddit_image"] = reddit_image
+        save_kwargs["reddit_video"] = reddit_video
+    if has_lm:
+        save_kwargs["lm_image"] = lm_image
+        save_kwargs["lm_video"] = lm_video
+    if save_kwargs:
+        save_cache(**save_kwargs)
 
     # ── Cross-validate & merge ──
-    # ── HF brand keyword mapping: AA model name → HF search keywords ──
-    HF_BRAND_MAP = {
-        "flux": "flux", "midjourney": "midjourney", "dall-e": "dall-e",
-        "stable diffusion": "stable-diffusion", "sdxl": "sdxl",
-        "imagen": "imagen", "seedream": "seedream", "ideogram": "ideogram",
-        "recraft": "recraft", "grok": "grok", "nano banana": "gemini",
-        "gpt image": "gpt", "hunyuan": "hunyuan", "wan": "wan",
-        "sora": "sora", "kling": "kling", "veo": "veo",
-        "runway": "runway", "seedance": "seedance", "pixverse": "pixverse",
-        "pika": "pika", "happyhorse": "happyhorse", "skyreels": "skyreels",
-        "vidu": "vidu", "hailuo": "hailuo", "luma": "luma",
-        "cogvideo": "cogvideo", "mochi": "mochi",
-    }
-
-    def merge_rankings(aa_models, reddit_buzz, hf_models, category):
-        """Merge rankings from 3 sources. AA Elo is primary, Reddit/HF add signals."""
+    def merge_rankings(aa_models, reddit_buzz, lm_models, category):
+        """Merge rankings from 3 sources: AA Elo + LM Arena Elo + Reddit buzz."""
         def fuzzy_match(aa_name, term):
             aa_lower = aa_name.lower()
             term_lower = term.lower()
             return term_lower in aa_lower or aa_lower in term_lower
 
-        def hf_match(aa_name, hf_id, hf_name):
-            """Match AA model to HF model — strict version matching."""
-            aa_lower = aa_name.lower()
-            hf_lower = hf_name.lower()
-            hf_full = (hf_id + " " + hf_name).lower()
-            # Direct substring: HF name in AA name or vice versa
-            if len(hf_lower) > 3 and (hf_lower in aa_lower or aa_lower in hf_full):
+        def lm_match(aa_name, lm_name):
+            """Match AA model to LM Arena model by brand/name keywords."""
+            aa_lower = aa_name.lower().replace(" ", "-").replace("[", "").replace("]", "").replace("(", "").replace(")", "")
+            lm_lower = lm_name.lower()
+            # Direct substring
+            if lm_lower in aa_lower or aa_lower in lm_lower:
                 return True
-            # Version-aware brand match: extract version numbers and compare
-            import re as _re
-            aa_versions = set(_re.findall(r'[\d]+\.[\d]+|[\d]+', aa_lower))
-            hf_versions = set(_re.findall(r'[\d]+\.[\d]+|[\d]+', hf_lower))
-            for brand, hf_keyword in HF_BRAND_MAP.items():
-                if brand in aa_lower and hf_keyword in hf_full:
-                    # Brand matches — require at least one version number overlap
-                    # or both have no version numbers
-                    if not aa_versions or not hf_versions or aa_versions & hf_versions:
-                        return True
+            # Normalize and compare key parts
+            aa_clean = re.sub(r'[^a-z0-9.]', '', aa_lower)
+            lm_clean = re.sub(r'[^a-z0-9.]', '', lm_lower)
+            if len(lm_clean) > 5 and (lm_clean in aa_clean or aa_clean in lm_clean):
+                return True
             return False
+
+        # Build LM Arena lookup
+        lm_lookup = {m["name"]: m for m in lm_models}
 
         for model in aa_models:
             name = model["name"]
+
             # Match Reddit buzz
-            model["reddit"] = {"mentions": 0, "upvotes": 0, "topPost": None, "topComments": []}
+            model["reddit"] = {"mentions": 0, "upvotes": 0, "topPost": None}
             for reddit_name, buzz in reddit_buzz.items():
                 if fuzzy_match(name, reddit_name):
                     model["reddit"]["mentions"] += buzz["mentions"]
@@ -967,34 +963,33 @@ def fetch_aigc_rankings():
                     if buzz.get("top_post"):
                         if model["reddit"]["topPost"] is None or buzz["top_post"]["score"] > model["reddit"]["topPost"].get("score", 0):
                             model["reddit"]["topPost"] = buzz["top_post"]
-                    if buzz.get("top_comments"):
-                        model["reddit"]["topComments"] = buzz["top_comments"]
                     break
 
-            # Match HuggingFace popularity — pick best match by likes
-            model["huggingface"] = {"likes": 0, "downloads": 0}
-            best_hf = None
-            for hf_id, hf_data in hf_models.items():
-                if hf_match(name, hf_id, hf_data["name"]):
-                    if best_hf is None or hf_data["likes"] > best_hf["likes"]:
-                        best_hf = hf_data
-            if best_hf:
-                model["huggingface"]["likes"] = best_hf["likes"]
-                model["huggingface"]["downloads"] = best_hf["downloads"]
+            # Match LM Arena Elo
+            model["lmArena"] = {"elo": 0, "votes": 0, "name": ""}
+            for lm_name, lm_data in lm_lookup.items():
+                if lm_match(name, lm_name):
+                    model["lmArena"] = {
+                        "elo": lm_data["elo"],
+                        "votes": lm_data["votes"],
+                        "name": lm_data["name"],
+                        "category": lm_data.get("category", ""),
+                    }
+                    break
 
-            # Composite score: AA Elo (primary) + Reddit/HF signals as tiebreakers
-            # Normalize: Elo 1000-1400 → 0-100, Reddit upvotes 0-5000 → 0-20, HF likes 0-15000 → 0-10
-            elo_norm = max(0, min(100, (model["elo"] - 1000) / 4))
-            reddit_norm = min(20, model["reddit"]["upvotes"] / 250)
-            hf_norm = min(10, model["huggingface"]["likes"] / 1500)
-            model["compositeScore"] = round(elo_norm + reddit_norm + hf_norm, 1)
+            # Composite score: AA Elo (primary) + LM Arena Elo (secondary) + Reddit
+            # Normalize: AA Elo 1000-1400 → 0-70, LM Elo 1000-1400 → 0-20, Reddit upvotes → 0-10
+            aa_norm = max(0, min(70, (model["elo"] - 1000) / 5.71))
+            lm_norm = max(0, min(20, (model["lmArena"]["elo"] - 1000) / 20)) if model["lmArena"]["elo"] else 0
+            reddit_norm = min(10, model["reddit"]["upvotes"] / 500)
+            model["compositeScore"] = round(aa_norm + lm_norm + reddit_norm, 1)
 
             # Source badges
-            sources = ["Arena"]
+            sources = ["AA"]
+            if model["lmArena"]["elo"] > 0:
+                sources.append("LM Arena")
             if model["reddit"]["mentions"] > 0:
                 sources.append("Reddit")
-            if model["huggingface"]["likes"] > 0:
-                sources.append("HuggingFace")
             model["sources"] = sources
 
         # Re-sort by composite score
@@ -1004,10 +999,10 @@ def fetch_aigc_rankings():
         return aa_models[:15]
 
     results = {
-        "image": merge_rankings(aa_image, reddit_image, hf_image, "image"),
-        "video": merge_rankings(aa_video, reddit_video, hf_video, "video"),
+        "image": merge_rankings(aa_image, reddit_image, lm_image, "image"),
+        "video": merge_rankings(aa_video, reddit_video, lm_video, "video"),
         "fetchedAt": datetime.now(timezone.utc).isoformat(),
-        "sources": ["Artificial Analysis Arena", "Reddit (r/StableDiffusion, r/midjourney, r/aivideo)", "HuggingFace"],
+        "sources": ["Artificial Analysis", "LM Arena", "Reddit (r/StableDiffusion, r/midjourney, r/aivideo)"],
     }
     return results
 

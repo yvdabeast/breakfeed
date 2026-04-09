@@ -353,14 +353,14 @@
 
       // Source data lines
       const reddit = m.reddit || {};
-      const hf = m.huggingface || {};
+      const lm = m.lmArena || {};
       const srcLines = [];
-      srcLines.push(`<span class="src-line"><span class="src-badge src-arena">Elo</span> ${m.elo} <span class="src-meta">(${formatNum(m.appearances)} votes)</span></span>`);
+      srcLines.push(`<span class="src-line"><span class="src-badge src-arena">AA</span> ${m.elo} <span class="src-meta">(${formatNum(m.appearances)} votes)</span></span>`);
+      if (lm.elo > 0) {
+        srcLines.push(`<span class="src-line"><span class="src-badge src-lm">LM</span> ${lm.elo} <span class="src-meta">(${formatNum(lm.votes)} votes)</span></span>`);
+      }
       if (reddit.mentions > 0) {
         srcLines.push(`<span class="src-line"><span class="src-badge src-reddit">Reddit</span> \u2B06${formatNum(reddit.upvotes)} <span class="src-meta">${reddit.mentions} posts</span></span>`);
-      }
-      if (hf.likes > 0 || hf.downloads > 0) {
-        srcLines.push(`<span class="src-line"><span class="src-badge src-hf">HF</span> \u2764${formatNum(hf.likes)} <span class="src-meta">\u2B07${formatNum(hf.downloads)}</span></span>`);
       }
 
       return `
