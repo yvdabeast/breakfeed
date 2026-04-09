@@ -669,78 +669,192 @@ def merge_history(old_feed, new_twitter, new_podcasts):
 
 
 def fetch_aigc_rankings():
-    """Fetch AIGC model rankings from Artificial Analysis leaderboards."""
-    print("Fetching AIGC model rankings...", file=sys.stderr)
+    """Fetch AIGC model rankings from multiple sources and cross-validate."""
+    print("Fetching AIGC model rankings (multi-source)...", file=sys.stderr)
+    from collections import defaultdict
+    import time as _time
 
-    def extract_rankings(html_text, category):
-        """Extract model rankings from Artificial Analysis leaderboard page."""
+    # ── Source 1: Artificial Analysis Arena (blind Elo voting) ──
+    def extract_aa_rankings(html_text):
         chunks = re.findall(r'self\.__next_f\.push\(\[1,"(.*?)"\]\)', html_text, re.DOTALL)
         full = '\n'.join(c.replace('\\"', '"').replace('\\n', '\n') for c in chunks)
-
         matches = re.finditer(
             r'"values":\{"id":"([^"]*?)","name":"([^"]*?)","url":"([^"]*?)","rank":(\d+),"elo":([\d.]+),"appearances":(\d+),'
             r'.*?"creator":\{"id":"[^"]*","name":"([^"]*?)","logoUrl":"([^"]*?)"',
             full
         )
-
         entries = []
         for m in matches:
             entries.append({
                 "name": m.group(2),
-                "rank": int(m.group(4)),
                 "elo": round(float(m.group(5))),
                 "appearances": int(m.group(6)),
                 "creator": m.group(7),
-                "creatorLogo": m.group(8),
             })
-
-        # Deduplicate by name, keeping the entry with highest appearances (main leaderboard)
-        from collections import defaultdict
         by_name = defaultdict(list)
         for e in entries:
             by_name[e["name"]].append(e)
-
         unique = []
         for name, versions in by_name.items():
-            best = max(versions, key=lambda x: x["appearances"])
-            unique.append(best)
-
+            unique.append(max(versions, key=lambda x: x["appearances"]))
         unique.sort(key=lambda x: x["elo"], reverse=True)
-        # Return top 15
-        for i, e in enumerate(unique[:15]):
-            e["rank"] = i + 1
-        return unique[:15]
+        return unique[:20]
 
-    results = {"image": [], "video": [], "fetchedAt": datetime.now(timezone.utc).isoformat()}
+    def fetch_aa(url, label):
+        try:
+            resp = requests.get(url, headers=HEADERS, timeout=30)
+            if resp.status_code == 200:
+                result = extract_aa_rankings(resp.text)
+                print(f"  [AA] {label}: {len(result)} models", file=sys.stderr)
+                return result
+        except Exception as e:
+            print(f"  [AA][ERROR] {label}: {e}", file=sys.stderr)
+        return []
 
-    # Fetch Image (Text-to-Image) leaderboard
-    try:
-        resp = requests.get(
-            "https://artificialanalysis.ai/image/leaderboard/text-to-image",
-            headers=HEADERS, timeout=30
-        )
-        if resp.status_code == 200:
-            results["image"] = extract_rankings(resp.text, "image")
-            print(f"  Image models: {len(results['image'])}", file=sys.stderr)
-        else:
-            print(f"  [WARN] Image leaderboard HTTP {resp.status_code}", file=sys.stderr)
-    except Exception as e:
-        print(f"  [ERROR] Image leaderboard: {e}", file=sys.stderr)
+    # ── Source 2: Reddit community buzz (mentions + upvotes) ──
+    REDDIT_HEADERS = {"User-Agent": "Breakfeed/1.0 (AI briefing aggregator)"}
+    # Search terms mapped to canonical model names
+    IMAGE_SEARCH_TERMS = {
+        "FLUX": "FLUX", "flux.2": "FLUX", "Midjourney": "Midjourney",
+        "DALL-E": "DALL-E", "dall-e 3": "DALL-E", "GPT Image": "GPT Image",
+        "Stable Diffusion 3": "Stable Diffusion 3", "SDXL": "SDXL",
+        "Imagen": "Imagen", "Seedream": "Seedream", "Ideogram": "Ideogram",
+        "Recraft": "Recraft", "grok image": "Grok Image",
+        "Nano Banana": "Nano Banana", "Wan image": "Wan",
+        "HunyuanImage": "HunyuanImage",
+    }
+    VIDEO_SEARCH_TERMS = {
+        "Sora": "Sora", "Kling": "Kling", "Veo": "Veo",
+        "Runway Gen": "Runway", "runway gen-4": "Runway",
+        "Seedance": "Seedance", "PixVerse": "PixVerse",
+        "Pika": "Pika", "HappyHorse": "HappyHorse",
+        "SkyReels": "SkyReels", "Wan video": "Wan Video",
+        "Vidu": "Vidu", "Hailuo": "Hailuo", "Luma Dream Machine": "Luma",
+    }
+    SUBREDDITS_IMAGE = ["StableDiffusion", "midjourney", "dalle2", "AIGenArt"]
+    SUBREDDITS_VIDEO = ["aivideo", "StableDiffusion", "midjourney"]
 
-    # Fetch Video leaderboard
-    try:
-        resp = requests.get(
-            "https://artificialanalysis.ai/video/leaderboard/text-to-video",
-            headers=HEADERS, timeout=30
-        )
-        if resp.status_code == 200:
-            results["video"] = extract_rankings(resp.text, "video")
-            print(f"  Video models: {len(results['video'])}", file=sys.stderr)
-        else:
-            print(f"  [WARN] Video leaderboard HTTP {resp.status_code}", file=sys.stderr)
-    except Exception as e:
-        print(f"  [ERROR] Video leaderboard: {e}", file=sys.stderr)
+    def fetch_reddit_buzz(search_terms, subreddits):
+        """Search Reddit for model mentions, return {canonical_name: {mentions, upvotes, top_post}}."""
+        buzz = defaultdict(lambda: {"mentions": 0, "upvotes": 0, "top_post": None})
+        for term, canonical in search_terms.items():
+            for sub in subreddits[:2]:  # Limit to 2 subs per term to avoid rate limits
+                try:
+                    url = f"https://www.reddit.com/r/{sub}/search.json?q={term}&sort=hot&t=month&restrict_sr=true&limit=5"
+                    resp = requests.get(url, headers=REDDIT_HEADERS, timeout=10)
+                    if resp.status_code == 200:
+                        posts = resp.json().get("data", {}).get("children", [])
+                        for p in posts:
+                            d = p["data"]
+                            buzz[canonical]["mentions"] += 1
+                            buzz[canonical]["upvotes"] += d.get("score", 0)
+                            if buzz[canonical]["top_post"] is None or d.get("score", 0) > (buzz[canonical]["top_post"].get("score", 0)):
+                                title = d.get("title", "")[:100]
+                                # Decode HTML entities from Reddit
+                                import html as _html
+                                title = _html.unescape(title)
+                                buzz[canonical]["top_post"] = {
+                                    "title": title,
+                                    "score": d.get("score", 0),
+                                    "subreddit": d.get("subreddit", ""),
+                                    "url": f"https://reddit.com{d.get('permalink', '')}",
+                                }
+                    _time.sleep(0.5)  # Reddit rate limit: ~1 req/sec
+                except Exception:
+                    pass
+        return dict(buzz)
 
+    # ── Source 3: HuggingFace model popularity (likes + downloads) ──
+    def fetch_hf_popularity(pipeline_tag):
+        """Fetch top models from HuggingFace by likes."""
+        try:
+            url = f"https://huggingface.co/api/models?pipeline_tag={pipeline_tag}&sort=likes&direction=-1&limit=20"
+            resp = requests.get(url, timeout=15)
+            if resp.status_code == 200:
+                models = resp.json()
+                result = {}
+                for m in models:
+                    name = m.get("id", "").split("/")[-1]  # e.g. "FLUX.1-dev"
+                    result[m.get("id", "")] = {
+                        "name": name,
+                        "likes": m.get("likes", 0),
+                        "downloads": m.get("downloads", 0),
+                    }
+                print(f"  [HF] {pipeline_tag}: {len(result)} models", file=sys.stderr)
+                return result
+        except Exception as e:
+            print(f"  [HF][ERROR] {pipeline_tag}: {e}", file=sys.stderr)
+        return {}
+
+    # ── Fetch all sources ──
+    aa_image = fetch_aa("https://artificialanalysis.ai/image/leaderboard/text-to-image", "Image")
+    aa_video = fetch_aa("https://artificialanalysis.ai/video/leaderboard/text-to-video", "Video")
+
+    print("  Fetching Reddit community buzz...", file=sys.stderr)
+    reddit_image = fetch_reddit_buzz(IMAGE_SEARCH_TERMS, SUBREDDITS_IMAGE)
+    reddit_video = fetch_reddit_buzz(VIDEO_SEARCH_TERMS, SUBREDDITS_VIDEO)
+    print(f"  [Reddit] Image: {len(reddit_image)} models, Video: {len(reddit_video)} models", file=sys.stderr)
+
+    hf_image = fetch_hf_popularity("text-to-image")
+    hf_video = fetch_hf_popularity("text-to-video")
+
+    # ── Cross-validate & merge ──
+    def merge_rankings(aa_models, reddit_buzz, hf_models, category):
+        """Merge rankings from 3 sources. AA Elo is primary, Reddit/HF add signals."""
+        # Fuzzy match helper: check if a Reddit/HF name roughly matches an AA model
+        def fuzzy_match(aa_name, term):
+            aa_lower = aa_name.lower()
+            term_lower = term.lower()
+            return term_lower in aa_lower or aa_lower in term_lower
+
+        for model in aa_models:
+            name = model["name"]
+            # Match Reddit buzz
+            model["reddit"] = {"mentions": 0, "upvotes": 0, "topPost": None}
+            for reddit_name, buzz in reddit_buzz.items():
+                if fuzzy_match(name, reddit_name):
+                    model["reddit"]["mentions"] += buzz["mentions"]
+                    model["reddit"]["upvotes"] += buzz["upvotes"]
+                    if buzz.get("top_post"):
+                        if model["reddit"]["topPost"] is None or buzz["top_post"]["score"] > model["reddit"]["topPost"].get("score", 0):
+                            model["reddit"]["topPost"] = buzz["top_post"]
+                    break
+
+            # Match HuggingFace popularity
+            model["huggingface"] = {"likes": 0, "downloads": 0}
+            for hf_id, hf_data in hf_models.items():
+                if fuzzy_match(name, hf_data["name"]) or fuzzy_match(name, hf_id):
+                    model["huggingface"]["likes"] = hf_data["likes"]
+                    model["huggingface"]["downloads"] = hf_data["downloads"]
+                    break
+
+            # Composite score: AA Elo (primary) + Reddit/HF signals as tiebreakers
+            # Normalize: Elo 1000-1400 → 0-100, Reddit upvotes 0-5000 → 0-20, HF likes 0-15000 → 0-10
+            elo_norm = max(0, min(100, (model["elo"] - 1000) / 4))
+            reddit_norm = min(20, model["reddit"]["upvotes"] / 250)
+            hf_norm = min(10, model["huggingface"]["likes"] / 1500)
+            model["compositeScore"] = round(elo_norm + reddit_norm + hf_norm, 1)
+
+            # Source badges
+            sources = ["Arena"]
+            if model["reddit"]["mentions"] > 0:
+                sources.append("Reddit")
+            if model["huggingface"]["likes"] > 0:
+                sources.append("HuggingFace")
+            model["sources"] = sources
+
+        # Re-sort by composite score
+        aa_models.sort(key=lambda x: x["compositeScore"], reverse=True)
+        for i, m in enumerate(aa_models[:15]):
+            m["rank"] = i + 1
+        return aa_models[:15]
+
+    results = {
+        "image": merge_rankings(aa_image, reddit_image, hf_image, "image"),
+        "video": merge_rankings(aa_video, reddit_video, hf_video, "video"),
+        "fetchedAt": datetime.now(timezone.utc).isoformat(),
+        "sources": ["Artificial Analysis Arena", "Reddit (r/StableDiffusion, r/midjourney, r/aivideo)", "HuggingFace"],
+    }
     return results
 
 

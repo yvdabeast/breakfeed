@@ -328,12 +328,12 @@
     if (!rankings) return;
 
     const sourceEl = document.getElementById('aigcSource');
-    if (sourceEl && rankings.fetchedAt) {
-      const d = new Date(rankings.fetchedAt);
-      sourceEl.textContent = 'Source: Artificial Analysis Arena \u00B7 Updated ' + d.toLocaleDateString();
+    if (sourceEl) {
+      const sources = (rankings.sources || []).join(' + ');
+      const d = rankings.fetchedAt ? new Date(rankings.fetchedAt).toLocaleDateString() : '';
+      sourceEl.textContent = sources + (d ? ' \u00B7 ' + d : '');
     }
 
-    // Init sub-tabs
     document.querySelectorAll('.aigc-tab').forEach(tab => {
       tab.addEventListener('click', () => {
         document.querySelectorAll('.aigc-tab').forEach(t => t.classList.remove('active'));
@@ -356,15 +356,40 @@
       return;
     }
 
-    const topElo = models[0].elo;
+    const topScore = models[0].compositeScore || models[0].elo;
     const typeLabel = type === 'image' ? 'Text-to-Image' : 'Text-to-Video';
 
     container.innerHTML =
-      `<div class="date-divider"><span>${typeLabel} Arena \u2014 Top ${models.length}</span></div>` +
+      `<div class="date-divider"><span>${typeLabel} \u2014 Cross-validated Top ${models.length}</span></div>` +
       models.map((m, i) => {
-        const barWidth = Math.max(20, (m.elo / topElo) * 100);
+        const score = m.compositeScore || m.elo;
+        const barWidth = Math.max(20, (score / topScore) * 100);
         const medal = i === 0 ? '\uD83E\uDD47' : i === 1 ? '\uD83E\uDD48' : i === 2 ? '\uD83E\uDD49' : '';
         const eloClass = i < 3 ? 'elo-top' : i < 10 ? 'elo-mid' : 'elo-low';
+
+        // Source badges
+        const sources = m.sources || ['Arena'];
+        const badges = sources.map(s => {
+          if (s === 'Arena') return '<span class="src-badge src-arena">Arena</span>';
+          if (s === 'Reddit') return '<span class="src-badge src-reddit">Reddit</span>';
+          if (s === 'HuggingFace') return '<span class="src-badge src-hf">HF</span>';
+          return '';
+        }).join('');
+
+        // Reddit & HF details
+        const reddit = m.reddit || {};
+        const hf = m.huggingface || {};
+        let details = [];
+        if (reddit.upvotes > 0) details.push('\u2B06 ' + formatNum(reddit.upvotes) + ' Reddit');
+        if (hf.likes > 0) details.push('\u2764 ' + formatNum(hf.likes) + ' HF');
+        if (hf.downloads > 0) details.push('\u2B07 ' + formatNum(hf.downloads) + ' DL');
+        const detailStr = details.join(' \u00B7 ');
+
+        // Top Reddit post
+        const topPost = reddit.topPost;
+        const postHtml = topPost
+          ? `<a class="aigc-reddit-post" href="${esc(topPost.url)}" target="_blank" rel="noopener">\uD83D\uDDE3 r/${esc(topPost.subreddit)}: ${esc(topPost.title)}</a>`
+          : '';
 
         return `
           <div class="card aigc-card">
@@ -372,15 +397,21 @@
               <div class="card-rank">${medal || '#' + (i + 1)}</div>
             </div>
             <div class="aigc-info">
-              <div class="aigc-model-name">${esc(m.name)}</div>
+              <div class="aigc-model-header">
+                <div class="aigc-model-name">${esc(m.name)}</div>
+                <div class="aigc-badges">${badges}</div>
+              </div>
               <div class="aigc-creator">${esc(m.creator)}</div>
               <div class="aigc-bar-wrap">
                 <div class="aigc-bar ${eloClass}" style="width:${barWidth}%"></div>
               </div>
+              ${detailStr ? `<div class="aigc-details">${detailStr}</div>` : ''}
+              ${postHtml}
             </div>
             <div class="aigc-elo-col">
               <div class="aigc-elo ${eloClass}">${m.elo}</div>
               <div class="aigc-votes">${formatNum(m.appearances)} votes</div>
+              ${m.compositeScore ? `<div class="aigc-composite">${m.compositeScore}</div>` : ''}
             </div>
           </div>
         `;
