@@ -85,11 +85,16 @@
         <h2><span class="section-icon aigc-color">&#127912;</span> AIGC Model Arena</h2>
         <p class="section-subtitle" id="aigcSource"></p>
       </div>
-      <div class="aigc-tabs">
-        <button class="aigc-tab active" data-aigc="image">Image</button>
-        <button class="aigc-tab" data-aigc="video">Video</button>
+      <div class="aigc-split">
+        <div class="aigc-column">
+          <div class="aigc-col-header">Image</div>
+          <div class="aigc-list" id="aigcImageList"></div>
+        </div>
+        <div class="aigc-column">
+          <div class="aigc-col-header">Video</div>
+          <div class="aigc-list" id="aigcVideoList"></div>
+        </div>
       </div>
-      <div class="cards" id="aigcCards"></div>
     </section>
 
     <!-- Footer -->

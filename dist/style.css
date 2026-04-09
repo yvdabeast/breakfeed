@@ -823,129 +823,95 @@ a:hover {
   margin-top: var(--space-xs);
 }
 
-.aigc-tabs {
-  display: flex;
-  gap: var(--space-sm);
-  margin-bottom: var(--space-lg);
+/* Split layout: Image left, Video right */
+.aigc-split {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: var(--space-lg);
 }
 
-.aigc-tab {
-  padding: 6px 16px;
-  border-radius: 100px;
-  border: 1px solid var(--border);
-  background: var(--bg-card);
-  color: var(--text-secondary);
-  font-family: 'Inter', -apple-system, sans-serif;
-  font-size: 13px;
-  font-weight: 500;
-  cursor: pointer;
-  transition: all 0.2s ease;
+@media (max-width: 768px) {
+  .aigc-split {
+    grid-template-columns: 1fr;
+  }
 }
 
-.aigc-tab:hover {
-  background: var(--bg-hover);
+.aigc-column {
+  min-width: 0;
 }
 
-.aigc-tab.active {
-  background: #8b5cf6;
-  color: white;
-  border-color: #8b5cf6;
-}
-
-.aigc-card {
-  display: flex;
-  align-items: center;
-  gap: var(--space-md);
-}
-
-.aigc-rank-col {
-  flex-shrink: 0;
-  min-width: 36px;
-  text-align: center;
+.aigc-col-header {
+  font-family: 'Playfair Display', Georgia, serif;
   font-size: 18px;
+  font-weight: 600;
+  letter-spacing: -0.3px;
+  padding-bottom: var(--space-sm);
+  margin-bottom: var(--space-md);
+  border-bottom: 2px solid #8b5cf6;
+  color: var(--text);
 }
 
-.aigc-info {
+.aigc-list {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+/* Compact ranking item */
+.aigc-item {
+  display: flex;
+  align-items: flex-start;
+  gap: 10px;
+  padding: 10px 12px;
+  background: var(--bg-card);
+  border: 1px solid var(--border);
+  border-radius: var(--radius-sm);
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.aigc-item:hover {
+  box-shadow: var(--shadow-hover);
+  transform: translateY(-1px);
+}
+
+.aigc-item.elo-top {
+  border-left: 3px solid #8b5cf6;
+}
+
+.aigc-rank {
+  font-size: 16px;
+  font-weight: 700;
+  color: var(--text-tertiary);
+  min-width: 28px;
+  text-align: center;
+  flex-shrink: 0;
+  padding-top: 1px;
+}
+
+.aigc-item-body {
   flex: 1;
   min-width: 0;
 }
 
-.aigc-model-header {
-  display: flex;
-  align-items: center;
-  gap: var(--space-sm);
-  flex-wrap: wrap;
-}
-
 .aigc-model-name {
   font-family: 'Inter', -apple-system, sans-serif;
-  font-size: 15px;
+  font-size: 13px;
   font-weight: 600;
   line-height: 1.3;
   letter-spacing: -0.2px;
 }
 
-.aigc-badges {
-  display: flex;
-  gap: 4px;
-}
-
-.src-badge {
-  font-size: 10px;
-  font-weight: 600;
-  padding: 1px 6px;
-  border-radius: 4px;
-  letter-spacing: 0.3px;
-  text-transform: uppercase;
-}
-
-.src-arena { background: #ede9fe; color: #6d28d9; }
-.src-reddit { background: #fef2f2; color: #dc2626; }
-.src-hf { background: #fefce8; color: #a16207; }
-
-[data-theme="dark"] .src-arena { background: #2e1065; color: #c4b5fd; }
-[data-theme="dark"] .src-reddit { background: #450a0a; color: #fca5a5; }
-[data-theme="dark"] .src-hf { background: #422006; color: #fde68a; }
-
 .aigc-creator {
-  font-size: 12px;
-  color: var(--text-tertiary);
-  margin-top: 2px;
-}
-
-.aigc-details {
   font-size: 11px;
   color: var(--text-tertiary);
-  margin-top: 4px;
-}
-
-.aigc-reddit-post {
-  display: block;
-  font-size: 12px;
-  color: var(--text-secondary);
-  margin-top: 4px;
-  line-height: 1.4;
-  overflow: hidden;
-  text-overflow: ellipsis;
-  white-space: nowrap;
-}
-
-.aigc-reddit-post:hover {
-  color: var(--accent);
-}
-
-.aigc-composite {
-  font-size: 11px;
-  color: var(--text-tertiary);
-  margin-top: 2px;
-  font-weight: 500;
+  margin-top: 1px;
 }
 
 .aigc-bar-wrap {
-  height: 4px;
+  height: 3px;
   background: var(--bg-hover);
   border-radius: 2px;
-  margin-top: 8px;
+  margin-top: 6px;
   overflow: hidden;
 }
 
@@ -963,29 +929,44 @@ a:hover {
 [data-theme="dark"] .aigc-bar.elo-mid { background: #8b5cf6; }
 [data-theme="dark"] .aigc-bar.elo-low { background: #6d28d9; }
 
-.aigc-elo-col {
-  flex-shrink: 0;
-  text-align: right;
-  min-width: 60px;
+/* Source lines under each model */
+.aigc-src-lines {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 4px 8px;
+  margin-top: 5px;
 }
 
-.aigc-elo {
-  font-size: 18px;
-  font-weight: 700;
-  letter-spacing: -0.5px;
-}
-
-.aigc-elo.elo-top { color: #8b5cf6; }
-.aigc-elo.elo-mid { color: #a78bfa; }
-.aigc-elo.elo-low { color: var(--text-secondary); }
-
-[data-theme="dark"] .aigc-elo.elo-top { color: #a78bfa; }
-
-.aigc-votes {
+.src-line {
   font-size: 11px;
-  color: var(--text-tertiary);
-  margin-top: 2px;
+  color: var(--text-secondary);
+  display: flex;
+  align-items: center;
+  gap: 3px;
 }
+
+.src-meta {
+  color: var(--text-tertiary);
+  font-size: 10px;
+}
+
+.src-badge {
+  font-size: 9px;
+  font-weight: 700;
+  padding: 1px 5px;
+  border-radius: 3px;
+  letter-spacing: 0.3px;
+  text-transform: uppercase;
+  flex-shrink: 0;
+}
+
+.src-arena { background: #ede9fe; color: #6d28d9; }
+.src-reddit { background: #fef2f2; color: #dc2626; }
+.src-hf { background: #fefce8; color: #a16207; }
+
+[data-theme="dark"] .src-arena { background: #2e1065; color: #c4b5fd; }
+[data-theme="dark"] .src-reddit { background: #450a0a; color: #fca5a5; }
+[data-theme="dark"] .src-hf { background: #422006; color: #fde68a; }
 
 /* ============================================
    Date Divider
