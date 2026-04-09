@@ -847,7 +847,7 @@ a:hover {
   letter-spacing: -0.3px;
   padding-bottom: var(--space-sm);
   margin-bottom: var(--space-md);
-  border-bottom: 2px solid #8b5cf6;
+  border-bottom: none;
   color: var(--text);
 }
 
@@ -875,17 +875,22 @@ a:hover {
 }
 
 .aigc-item.elo-top {
-  border-left: 3px solid #8b5cf6;
+  border-left: none;
 }
 
 .aigc-rank {
   font-size: 16px;
   font-weight: 700;
   color: var(--text-tertiary);
-  min-width: 28px;
+  min-width: 32px;
   text-align: center;
   flex-shrink: 0;
   padding-top: 1px;
+}
+
+.aigc-item.elo-top .aigc-rank {
+  font-size: 24px;
+  line-height: 1;
 }
 
 .aigc-item-body {
