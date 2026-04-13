@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-04-12T22:30:14.893915+00:00",
+  "generatedAt": "2026-04-13T06:14:17.752970+00:00",
   "twitter": [
     {
       "source": "x",
@@ -33,7 +33,7 @@
         }
       ],
       "bio_zh": "AI 开发者社区意见领袖，Latent Space 播客主理人，前 AWS/Netlify 工程师",
-      "fetchDate": "2026-04-12"
+      "fetchDate": "2026-04-13"
     },
     {
       "source": "x",
@@ -55,7 +55,7 @@
         }
       ],
       "bio_zh": "Roblox 产品经理，14 万订阅的 AI 实操教程作者",
-      "fetchDate": "2026-04-12"
+      "fetchDate": "2026-04-13"
     },
     {
       "source": "x",
@@ -77,7 +77,7 @@
         }
       ],
       "bio_zh": "Anthropic 工程师，Claude Code（AI 编程工具）核心开发者",
-      "fetchDate": "2026-04-12"
+      "fetchDate": "2026-04-13"
     },
     {
       "source": "x",
@@ -99,7 +99,7 @@
         }
       ],
       "bio_zh": "Vercel CEO，Next.js 创造者，v0 AI 代码生成工具的幕后推手",
-      "fetchDate": "2026-04-12"
+      "fetchDate": "2026-04-13"
     },
     {
       "source": "x",
@@ -133,7 +133,7 @@
         }
       ],
       "bio_zh": "Box CEO，企业 AI 应用的坚定推动者，科技圈知名段子手",
-      "fetchDate": "2026-04-12"
+      "fetchDate": "2026-04-13"
     },
     {
       "source": "x",
@@ -179,7 +179,7 @@
         }
       ],
       "bio_zh": "Y Combinator 现任 CEO，早期投资了 Coinbase、Instacart 等",
-      "fetchDate": "2026-04-12"
+      "fetchDate": "2026-04-13"
     },
     {
       "source": "x",
@@ -201,7 +201,7 @@
         }
       ],
       "bio_zh": "FirstMark Capital 合伙人，每年发布最权威的 AI/大数据行业全景图",
-      "fetchDate": "2026-04-12"
+      "fetchDate": "2026-04-13"
     },
     {
       "source": "x",
@@ -235,7 +235,7 @@
         }
       ],
       "bio_zh": "AI 领域投资人和内容创作者，follow-builders 项目发起人",
-      "fetchDate": "2026-04-12"
+      "fetchDate": "2026-04-13"
     },
     {
       "source": "x",
@@ -257,7 +257,7 @@
         }
       ],
       "bio_zh": "Meta/前 Facebook AI 产品负责人",
-      "fetchDate": "2026-04-12"
+      "fetchDate": "2026-04-13"
     },
     {
       "source": "x",
@@ -303,7 +303,7 @@
         }
       ],
       "bio_zh": "前 PSPDFKit 创始人，现专注 AI 开发工具和工作流优化",
-      "fetchDate": "2026-04-12"
+      "fetchDate": "2026-04-13"
     },
     {
       "source": "x",
@@ -325,7 +325,7 @@
         }
       ],
       "bio_zh": "South Park Commons 创始人，前 Facebook 工程副总裁",
-      "fetchDate": "2026-04-12"
+      "fetchDate": "2026-04-13"
     }
   ],
   "twitter_history": [
@@ -3821,320 +3821,29 @@
           "fetchDate": "2026-04-06"
         }
       ]
-    },
-    {
-      "date": "2026-04-05",
-      "builders": [
-        {
-          "source": "x",
-          "name": "Andrej Karpathy",
-          "handle": "karpathy",
-          "bio": "I like to train large deep neural nets. Previously Director of AI @ Tesla, founding team @ OpenAI, PhD @ Stanford.",
-          "tweets": [
-            {
-              "id": "2040572272944324650",
-              "text": "Farzapedia, personal wikipedia of Farza, good example following my Wiki LLM tweet.\n\nI really like this approach to personalization in a number of ways, compared to \"status quo\" of an AI that allegedly gets better the more you use it or something:\n\n1. Explicit. The memory artifact is explicit and navigable (the wiki), you can see exactly what the AI does and does not know and you can inspect and manage this artifact, even if you don't do the direct text writing (the LLM does). The knowledge of you is not implicit and unknown, it's explicit and viewable.\n2. Yours. Your data is yours, on your local computer, it's not in some particular AI provider's system without the ability to extract it. You're in control of your information. \n3. File over app. The memory here is a simple collection of files in universal formats (images, markdown). This means the data is interoperable: you can use a very large collection of tools/CLIs or whatever you want over this information because it's just files. The agents can apply the entire Unix toolkit over them. They can natively read and understand them. Any kind of data can be imported into files as input, and any kind of interface can be used to view them as the output. E.g. you can use Obsidian to view them or vibe code something of your own. Search \"File over app\" for an article on this philosophy.\n4. BYOAI. You can use whatever AI you want to \"plug into\" this information - Claude, Codex, OpenCode, whatever. You can even think about taking an open source AI and finetuning it on your wiki - in principle, this AI could \"know\" you in its weights, not just attend over your data.\n\nSo this approach to personalization puts *you* in full control. The data is yours. In Universal formats. Explicit and inspectable. Use whatever AI you want over it, keep the AI companies on their toes! :)\n\nCertainly this is not the simplest way to get an AI to know you - it does require you to manage file directories and so on, but agents also make it quite simple and they can help you a lot. I imagine a number of products might come out to make this all easier, but imo \"agent proficiency\" is a CORE SKILL of the 21st century. These are extremely powerful tools - they speak English and they do all the computer stuff for you. Try this opportunity to play with one.",
-              "createdAt": "2026-04-04T23:28:36.000Z",
-              "url": "https://x.com/karpathy/status/2040572272944324650",
-              "likes": 4186,
-              "retweets": 392,
-              "replies": 189,
-              "isQuote": true,
-              "quotedTweetId": "2040563939797504467",
-              "summary_zh": "Farzapedia 是一个个人维基百科的例子，展示了比传统 AI 更好的个性化方法。这个方法让你的数据完全掌控在自己手中（你能看到 AI 知道什么和不知道什么），而且用简单的文件格式保存，方便你选择使用任何 AI 工具。\n\n这样一来，你不仅能掌握自己的信息，还能轻松管理和操作这些数据。虽然这需要一些文件管理的知识，但未来会有更多的产品来简化这个过程。总之，了解和使用这些 AI 工具是21世纪的一项重要技能，值得尝试！"
-            },
-            {
-              "id": "2040549459193704852",
-              "text": "Something I've been thinking about - I am bullish on people (empowered by AI) increasing the visibility, legibility and accountability of their governments.\n\nHistorically, it is the governments that act to make society legible (e.g. \"Seeing like a state\" is the common reference), but with AI, society can dramatically improve its ability to do this in reverse. Government accountability has not been constrained by access (the various branches of government publish an enormous amount of data), it has been constrained by intelligence - the ability to process a lot of raw data, combine it with domain expertise and derive insights. As an example, the 4000-page omnibus bill is \"transparent\" in principle and in a legal sense, but certainly not in a practical sense for most people. There's a lot more like it: laws, spending bills, federal budgets, freedom of information act responses, lobbying disclosures... Only a few highly trained professionals (investigative journalists) could historically process this information. This bottleneck might dissolve - not only are the professionals further empowered, but a lot more people can participate.\n\nSome examples to be precise: Detailed accounting of spending and budgets, diff tracking of legislation, individual voting trends w.r.t. stated positions or speeches, lobbying and influence (e.g. graph of lobbyist -> firm -> client -> legislator -> committee -> vote -> regulation), procurement and contracting, regulatory capture warning lights, judicial and legal patterns, campaign finance... Local governments might be even more interesting because the governed population is smaller so there is less national coverage: city council meetings, decisions around zoning, policing, schools, utilities...\n\nCertainly, the same tools can easily cut the other way and it's worth being very mindful of that, but I lean optimistic overall that added participation, transparency and accountability will improve democratic, free societies.\n\n(the quoted tweet is half-ish related, but inspired me to post some recent thoughts)",
-              "createdAt": "2026-04-04T21:57:57.000Z",
-              "url": "https://x.com/karpathy/status/2040549459193704852",
-              "likes": 3029,
-              "retweets": 364,
-              "replies": 249,
-              "isQuote": true,
-              "quotedTweetId": "2040406616806179001",
-              "summary_zh": "他在说，借助 AI，普通人有机会更好地了解和监督政府的行为。过去，政府会让社会变得清晰，但现在，大家也能利用 AI 从大量数据中提取有用的信息，比如预算和法律，这样更多人可以参与到政治和决策中来。他相信，这种透明和参与会让民主社会变得更好，尽管也要注意工具被滥用的风险。"
-            },
-            {
-              "id": "2040470801506541998",
-              "text": "Wow, this tweet went very viral!\n\nI wanted share a possibly slightly improved version of the tweet in an \"idea file\". The idea of the idea file is that in this era of LLM agents, there is less of a point/need of sharing the specific code/app, you just share the idea, then the other person's agent customizes & builds it for your specific needs.\n\nSo here's the idea in a gist format: https://t.co/NlAfEJjtJV\n\nYou can give this to your agent and it can build you your own LLM wiki and guide you on how to use it etc. It's intentionally kept a little bit abstract/vague because there are so many directions to take this in. And ofc, people can adjust the idea or contribute their own in the Discussion which is cool.",
-              "createdAt": "2026-04-04T16:45:23.000Z",
-              "url": "https://x.com/karpathy/status/2040470801506541998",
-              "likes": 17282,
-              "retweets": 1659,
-              "replies": 621,
-              "isQuote": true,
-              "quotedTweetId": "2039805659525644595",
-              "summary_zh": "这条推文提到，最近他分享的一个推文很受欢迎，他想分享一个更好的想法。这个想法是，随着 AI 变得更加智能，我们不需要分享具体的代码或应用，而只需要分享一个基本的点子，其他的 AI 可以根据个人需求进行定制和实现。简而言之，他提供了一个可以给你的 AI 代理使用的创意，帮助你创建自己的知识库和使用指南，重点是让这个想法保持灵活，以便大家可以自由调整和贡献自己的想法。"
-            }
-          ],
-          "bio_zh": "前 Tesla AI 总监、前 OpenAI 创始成员，斯坦福 CS PhD，现创办 Eureka Labs 做 AI 教育",
-          "fetchDate": "2026-04-05"
-        },
-        {
-          "source": "x",
-          "name": "Peter Yang",
-          "handle": "petergyang",
-          "bio": "I share extremely practical AI tutorials and interviews | Join 140K+ readers at https://t.co/XYKTmGVH14 | Product at Roblox",
-          "tweets": [
-            {
-              "id": "2040501833899364494",
-              "text": "Up at 3 am Shanghai time wondering one thing - should I buy a new MacBook Pro or go for the Mac Studio to vibe code and also run local models?",
-              "createdAt": "2026-04-04T18:48:42.000Z",
-              "url": "https://x.com/petergyang/status/2040501833899364494",
-              "likes": 14,
-              "retweets": 1,
-              "replies": 30,
-              "isQuote": false,
-              "quotedTweetId": null,
-              "summary_zh": "凌晨 3 点在上海思考一个问题——我是买新款 MacBook Pro 还是 Mac Studio 更好？我想用它来编程，还要能运行本地模型（就是在自己电脑上进行一些 AI 相关的操作）。"
-            },
-            {
-              "id": "2040416994789613713",
-              "text": "An incredible deep dive on Disneyland from my friend @TrungTPhan  https://t.co/yHMHnOBbJ6",
-              "createdAt": "2026-04-04T13:11:35.000Z",
-              "url": "https://x.com/petergyang/status/2040416994789613713",
-              "likes": 18,
-              "retweets": 2,
-              "replies": 2,
-              "isQuote": false,
-              "quotedTweetId": null,
-              "summary_zh": "这个推文推荐了一篇关于迪士尼乐园的深度分析文章，发推人觉得这篇文章很棒。"
-            },
-            {
-              "id": "2040414021091037685",
-              "text": "Can someone share a screenshot of what OpenClaw with GPT looks like - how much personality is there?",
-              "createdAt": "2026-04-04T12:59:46.000Z",
-              "url": "https://x.com/petergyang/status/2040414021091037685",
-              "likes": 63,
-              "retweets": 0,
-              "replies": 85,
-              "isQuote": false,
-              "quotedTweetId": null,
-              "summary_zh": "有人能分享一下用 GPT 的 OpenClaw 的界面截图吗？我想看看它的个性表现得如何。"
-            }
-          ],
-          "bio_zh": "Roblox 产品经理，14 万订阅的 AI 实操教程作者",
-          "fetchDate": "2026-04-05"
-        },
-        {
-          "source": "x",
-          "name": "Nan Yu",
-          "handle": "thenanyu",
-          "bio": "head of product @linear",
-          "tweets": [
-            {
-              "id": "2040659521337504215",
-              "text": "Design engineers https://t.co/dZeLybBMJq",
-              "createdAt": "2026-04-05T05:15:18.000Z",
-              "url": "https://x.com/thenanyu/status/2040659521337504215",
-              "likes": 3,
-              "retweets": 0,
-              "replies": 0,
-              "isQuote": true,
-              "quotedTweetId": "2040297547974291463",
-              "summary_zh": "在这条推文里，Nan Yu 提到了一篇与设计工程师（负责产品设计和开发的人）有关的文章，可能是想分享一些技术上的见解或经验。简单来说，就是在讨论设计工程师的重要性和他们的工作。"
-            },
-            {
-              "id": "2040602311148404890",
-              "text": "https://t.co/zzfwvC3401",
-              "createdAt": "2026-04-05T01:27:58.000Z",
-              "url": "https://x.com/thenanyu/status/2040602311148404890",
-              "likes": 0,
-              "retweets": 0,
-              "replies": 0,
-              "isQuote": true,
-              "quotedTweetId": "2028309081581297675",
-              "summary_zh": ""
-            },
-            {
-              "id": "2040597900502135059",
-              "text": "https://t.co/kv205MYqCC https://t.co/fvee5JZe9i",
-              "createdAt": "2026-04-05T01:10:26.000Z",
-              "url": "https://x.com/thenanyu/status/2040597900502135059",
-              "likes": 9,
-              "retweets": 0,
-              "replies": 2,
-              "isQuote": true,
-              "quotedTweetId": "2040565177343467861",
-              "summary_zh": ""
-            }
-          ],
-          "bio_zh": "AI 产品经理和创业者，关注 AI 产品化落地",
-          "fetchDate": "2026-04-05"
-        },
-        {
-          "source": "x",
-          "name": "Thariq",
-          "handle": "trq212",
-          "bio": "Claude Code @anthropicai.   prev YC W20, mit media lab. \n\ntowards machines of loving grace",
-          "tweets": [
-            {
-              "id": "2040557561464885382",
-              "text": "POV: you're cooking https://t.co/Aw546zNBq7",
-              "createdAt": "2026-04-04T22:30:09.000Z",
-              "url": "https://x.com/trq212/status/2040557561464885382",
-              "likes": 722,
-              "retweets": 10,
-              "replies": 68,
-              "isQuote": false,
-              "quotedTweetId": null,
-              "summary_zh": "想象一下，你正在做饭。这个推文可能在表达使用 AI 工具（比如 Claude Code）来帮助你更简单高效地解决问题，就像做饭时用好工具一样。"
-            }
-          ],
-          "bio_zh": "Anthropic 工程师，Claude Code（AI 编程工具）核心开发者",
-          "fetchDate": "2026-04-05"
-        },
-        {
-          "source": "x",
-          "name": "Aaron Levie",
-          "handle": "levie",
-          "bio": "ceo @box - your business lives in content. unleash it with AI",
-          "tweets": [
-            {
-              "id": "2040650799550722243",
-              "text": "One of the core things we’re going to have to contend with in AI is that even the most advanced models in the word can’t have all the relevant knowledge needed to be useful, because everyone has different use-cases and ways they’ve designed their workflows. \n\nPerhaps most importantly, as you get into the enterprise, everyone has entirely different access levels to corporate knowledge and information. Continual learning at the model layer, even at a single enterprise level, is near impossible because every user knows and has access to something different than another user.  \n\nThis isn’t like coding where by and large most developers can access all the relevant stuff to their job. On a single banking team, bankers have entirely different sets of documents they’re ever allowed to see. Sanitizing this is hard and having the model keep secrets is impossible.\n\nThis is why the context layer is going to always be the core part of the AI stack for applied use cases to turn general models turn into useful agents. Can’t fight the physics on this one.",
-              "createdAt": "2026-04-05T04:40:38.000Z",
-              "url": "https://x.com/levie/status/2040650799550722243",
-              "likes": 99,
-              "retweets": 12,
-              "replies": 21,
-              "isQuote": true,
-              "quotedTweetId": "2040467997022884194",
-              "summary_zh": "在人工智能应用中，最先进的模型其实不能满足所有人的需求，因为每个人的工作方式和所需的信息都不同。企业内部的员工各自可以访问的信息也大相径庭，因此让AI不断学习并适应每个用户的特定情况非常困难。这就是为什么“上下文层”（也就是理解具体情况的层面）在AI应用中如此重要了。"
-            },
-            {
-              "id": "2040528801386361128",
-              "text": "As AI models get better at handling tools, and as context windows get bigger without as much rot, you can start to design agents more similar to how people work instead of having to mitigate the model limitations with weird hacks.\n\nFor instance, even a year ago, if you were to build an agent to process large amounts of documents, the state of the art was to do embeddings on the data, then do a similarity search and pull out the chunks of content that matched (as well as surrounding chunks). This was necessary because context windows could only accurately handle a small amount of information at a time.\n\nThis worked surprisingly well given the constraints (at least assuming you were working with authoritative data only), but had a lot of tricky limitations because it’s not how humans work.\n\nFor instance, what do you do if the chunks you sent to the model were the most relevant semantically, but actually rendered irrelevant by some other part of the document. For instance, if at the top of the document it says “do not use this” but on page 3 there is information that’s relevant, that data will be sent to the model as the top hit. Similarly, chunked data is difficult when you need various parts of a document or many documents to be understood for answering a problem. \n\nToday, increasingly, you can begin to have agents effectively use tools and work with information far more similar to how people work. This unlocks a qualitatively different set of use-cases and capability level that agents can now handle. \n\nAs we were designing the Box Agent, these improvements allowed us to rethink our entire architecture for AI. The agent can now search data similar to how a user searches, but with the benefit of being able to expand their queries, do semantic search, and process results nearly instantly. Then the agent can either read many documents at a time or at least much larger amounts of context. Again, much more similar to people, but now at hyperspeed. \n\nImportantly, beyond tool calling and context windows, the reasoning of models has also gone up enormously. This means the agent can also know when it needs to search for information again when it didn’t find something it was looking for or if something feels off. \n\nAs model progress continues on the dimensions of context accuracy, tool calling, advanced reasoning, and coding, agents are going to become insanely powerful.",
-              "createdAt": "2026-04-04T20:35:52.000Z",
-              "url": "https://x.com/levie/status/2040528801386361128",
-              "likes": 98,
-              "retweets": 12,
-              "replies": 15,
-              "isQuote": false,
-              "quotedTweetId": null,
-              "summary_zh": "随着 AI 模型在处理工具和更大信息上下文方面变得更强大，我们可以设计出更像人类工作方式的智能助手，不再需要用奇怪的方法来解决模型的局限性。\n\n举个例子，之前为了处理大量文档，我们需要通过复杂的方式来找出相关的信息，因为 AI 只能同时处理一点点内容。而现在，智能助手可以像人一样有效地使用工具和处理信息，能快速找到更相关的内容，也能理解更多上下文。这样，智能助手的能力会变得非常强大，能处理更多复杂任务。"
-            }
-          ],
-          "bio_zh": "Box CEO，企业 AI 应用的坚定推动者，科技圈知名段子手",
-          "fetchDate": "2026-04-05"
-        },
-        {
-          "source": "x",
-          "name": "Garry Tan",
-          "handle": "garrytan",
-          "bio": "President & CEO @ycombinator —Founder @garryslist—Creator of GStack—designer/engineer who helps founders—SF Dem accelerating the boom loop—Loves using emdashes",
-          "tweets": [
-            {
-              "id": "2040667535490863254",
-              "text": "Also trying to make reviews adaptive and smarter. More work towards L8 software factory. Slow and steady. https://t.co/k8VR3v497U",
-              "createdAt": "2026-04-05T05:47:08.000Z",
-              "url": "https://x.com/garrytan/status/2040667535490863254",
-              "likes": 5,
-              "retweets": 2,
-              "replies": 1,
-              "isQuote": false,
-              "quotedTweetId": null,
-              "summary_zh": "正在努力让评论功能更智能、更灵活。这是朝着 L8 软件工厂（一个高效软件生产方式）迈进的一步，虽然进展慢，但稳扎稳打。"
-            },
-            {
-              "id": "2040658880586522783",
-              "text": "14 security bug fixes just landed for GStack, half of which were community PR's. https://t.co/98jmCzQ38i",
-              "createdAt": "2026-04-05T05:12:45.000Z",
-              "url": "https://x.com/garrytan/status/2040658880586522783",
-              "likes": 61,
-              "retweets": 1,
-              "replies": 11,
-              "isQuote": false,
-              "quotedTweetId": null,
-              "summary_zh": "GStack刚刚修复了14个安全漏洞，其中一半是社区成员提出的改进建议。也就是说，大家一起帮忙让这个工具变得更安全了！"
-            },
-            {
-              "id": "2040581964156342768",
-              "text": "We are fighting to stop this\n\nJoin @garryslist if you want to help us https://t.co/2iKxFtZbtE",
-              "createdAt": "2026-04-05T00:07:07.000Z",
-              "url": "https://x.com/garrytan/status/2040581964156342768",
-              "likes": 61,
-              "retweets": 5,
-              "replies": 6,
-              "isQuote": true,
-              "quotedTweetId": "2040442297519685972",
-              "summary_zh": "我们在努力阻止一些不好的事情。如果你想加入我们，可以来看看 @garryslist。"
-            }
-          ],
-          "bio_zh": "Y Combinator 现任 CEO，早期投资了 Coinbase、Instacart 等",
-          "fetchDate": "2026-04-05"
-        },
-        {
-          "source": "x",
-          "name": "Zara Zhang",
-          "handle": "zarazhangrui",
-          "bio": "Builder. Dangerously skips permissions. Harvard’17. GitHub: https://t.co/KCuEajezlL YouTube: https://t.co/8xzbGWtf6w",
-          "tweets": [
-            {
-              "id": "2040565939100676382",
-              "text": "Prompting tip from @steipete:\n\nI always ask the model, \"Do you have any questions?\"",
-              "createdAt": "2026-04-04T23:03:26.000Z",
-              "url": "https://x.com/zarazhangrui/status/2040565939100676382",
-              "likes": 71,
-              "retweets": 2,
-              "replies": 14,
-              "isQuote": false,
-              "quotedTweetId": null,
-              "summary_zh": "你可以试试在和 AI 聊天的时候，问它“你有什么问题吗？”这样可以帮助你更好地得到你想要的信息。"
-            }
-          ],
-          "bio_zh": "AI 领域投资人和内容创作者，follow-builders 项目发起人",
-          "fetchDate": "2026-04-05"
-        },
-        {
-          "source": "x",
-          "name": "Nikunj Kothari",
-          "handle": "nikunj",
-          "bio": "partner @fpvventures - investing in seed/A. previous: early hire @meter, @opendoor, @atlassian & others. love @shimoleejhaveri + 👦👧",
-          "tweets": [
-            {
-              "id": "2040513012440895664",
-              "text": "Don’t forget to smell the flowers 💐 https://t.co/p8qjJhOcQQ",
-              "createdAt": "2026-04-04T19:33:07.000Z",
-              "url": "https://x.com/nikunj/status/2040513012440895664",
-              "likes": 30,
-              "retweets": 0,
-              "replies": 4,
-              "isQuote": false,
-              "quotedTweetId": null,
-              "summary_zh": "别忘了享受生活中的美好时刻哦！🌸"
-            }
-          ],
-          "bio_zh": "Meta/前 Facebook AI 产品负责人",
-          "fetchDate": "2026-04-05"
-        },
-        {
-          "source": "x",
-          "name": "Peter Steinberger",
-          "handle": "steipete",
-          "bio": "Polyagentmorous ClawFather. Came back from retirement to mess with AI and help a lobster take over the world @openclaw🦞",
-          "tweets": [
-            {
-              "id": "2040492573819904026",
-              "text": "\"There’s a big wave coming\" https://t.co/sbGnugb3Hz",
-              "createdAt": "2026-04-04T18:11:54.000Z",
-              "url": "https://x.com/steipete/status/2040492573819904026",
-              "likes": 1043,
-              "retweets": 83,
-              "replies": 93,
-              "isQuote": false,
-              "quotedTweetId": null,
-              "summary_zh": "有一个巨大的变化即将来临！意思是说，未来会有很重要的事情发生，尤其是在 AI（人工智能）领域，希望大家关注一下。"
-            }
-          ],
-          "bio_zh": "前 PSPDFKit 创始人，现专注 AI 开发工具和工作流优化",
-          "fetchDate": "2026-04-05"
-        }
-      ]
     }
   ],
   "podcasts": [
+    {
+      "name": "Matt Wolfe",
+      "title": "Lex Fridman on the penguin: But why?",
+      "videoId": "8Rkysb_uv1w",
+      "url": "https://youtube.com/watch?v=8Rkysb_uv1w",
+      "publishedAt": "2026-04-13T04:00:05+00:00",
+      "isShort": false,
+      "fetchDate": "2026-04-13",
+      "summary_zh": "视频中，Lex Fridman 探讨了企鹅的特性以及它们在自然界中的独特地位，使用幽默和深入的方式分析了这些可爱动物的生活习性和生存策略，最终引发了对科学探索与人类思维的更深层次反思。\n\n💡 值得一看 — 虽然这个视频的主题是企鹅，但Lex的思考方式和对科学的热爱可以激发创意灵感，适合从事创意设计的你拓展思维。"
+    },
+    {
+      "name": "Matt Wolfe",
+      "title": "The secret weapon of the Vikings | Lars Brownworth and Lex Fridman",
+      "videoId": "pbw5smttuwI",
+      "url": "https://youtube.com/watch?v=pbw5smttuwI",
+      "publishedAt": "2026-04-13T00:00:05+00:00",
+      "isShort": false,
+      "fetchDate": "2026-04-13",
+      "summary_zh": "视频主要讨论了维京人的秘密武器，通过 Lars Brownworth 和 Lex Fridman 的对话，探讨了维京人如何利用创新和技术在其历史中获得优势。这些策略不仅影响了他们的军事力量，也对他们的贸易和文化交流产生了深远影响。\n\n💡 值得一看 — 维京人的策略和创新能够启发在 AI 产品开发和创意设计中的新思路，对品牌营销和电商运营也有一定的借鉴意义。"
+    },
     {
       "name": "Matt Wolfe",
       "title": "Lessons from the Vikings and the Roman Empire - Historian explains | Lars Brownworth and Lex Fridman",
@@ -4754,30 +4463,6 @@
       "summary_zh": "这个视频探讨了正式验证在解决通用人工智能（AGI）问题上的局限性。讨论中提到，尽管正式验证是一种强有力的工具，但它不能完全保证 AI 的安全性或可控性，特别是在复杂的 AGI 系统中。\n\n💡 值得一看 — 该视频提供了有关 AI 安全和验证的重要见解，这些观点可能对 Logic Labs 的产品开发和 TexTale 的品牌营销战略有所启发。",
       "duration": "50s",
       "durationSeconds": 50
-    },
-    {
-      "name": "Every Inc",
-      "title": "How to Promote Yourself With AI",
-      "videoId": "VDressz8fJ0",
-      "url": "https://youtube.com/watch?v=VDressz8fJ0",
-      "publishedAt": "2026-04-07T15:19:17+00:00",
-      "isShort": true,
-      "fetchDate": "2026-04-07",
-      "summary_zh": "这个视频探讨了如何利用人工智能来提升个人品牌形象，具体讲解了不同的AI工具和方法，可以帮助人们在社交媒体和职业发展中更好地展示自己。通过实用的案例和建议，观众可以学习如何运用AI增强个人影响力。\n\n🎯 推荐 Yves 观看 — 这个内容与Logic Labs在AI工具开发和TexTale的品牌营销策略密切相关，可以帮助他在创意设计中更有效地推广自己。",
-      "duration": "38s",
-      "durationSeconds": 38
-    },
-    {
-      "name": "Greg Isenberg",
-      "title": "How to turn iMessage into an AI executive assistant with Lindy",
-      "videoId": "DirGcMXm4zw",
-      "url": "https://youtube.com/watch?v=DirGcMXm4zw",
-      "publishedAt": "2026-04-07T15:00:20+00:00",
-      "isShort": true,
-      "duration": "41s",
-      "durationSeconds": 41,
-      "fetchDate": "2026-04-08",
-      "summary_zh": "这个视频简要介绍了如何将iMessage转变为一个AI执行助理，通过名为Lindy的工具，可以帮助用户更高效地管理日常任务和沟通。内容简单易懂，展示了AI如何实际应用于生活中，提高工作效率。\n\n🎯 推荐 Yves 观看 — 这个视频展示了AI工具在日常任务管理中的潜力，尤其适合于Logic Labs和TexTale的运营和创意设计。"
     }
   ],
   "producthunt": [
@@ -4786,7 +4471,7 @@
       "name": "Brila",
       "tagline": "One-page websites from real Google Maps reviews",
       "url": "https://www.producthunt.com/products/brila-2?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Breakfeed+%28ID%3A+279433%29",
-      "votes": 1210,
+      "votes": 1213,
       "comments": 238,
       "topics": [
         "Website Builder",
@@ -4802,7 +4487,7 @@
       "name": "Stitch 2.0 by Google",
       "tagline": "Vibe design beautiful production-ready UI in seconds",
       "url": "https://www.producthunt.com/products/stitch-2-0-by-google-2/launches/stitch-2-0-by-google-2?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Breakfeed+%28ID%3A+279433%29",
-      "votes": 842,
+      "votes": 841,
       "comments": 33,
       "topics": [
         "Design Tools",
@@ -4819,7 +4504,7 @@
       "tagline": "A network where AI agents find deals for their humans",
       "url": "https://www.producthunt.com/products/tobira-ai/launches/tobira-ai?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Breakfeed+%28ID%3A+279433%29",
       "votes": 732,
-      "comments": 191,
+      "comments": 192,
       "topics": [
         "Productivity",
         "Developer Tools",
@@ -4881,7 +4566,7 @@
       "name": "ProdShort",
       "tagline": "Turn meetings into ready-to-post shorts and posts",
       "url": "https://www.producthunt.com/products/prodshort?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Breakfeed+%28ID%3A+279433%29",
-      "votes": 678,
+      "votes": 679,
       "comments": 143,
       "topics": [
         "Social Media",
@@ -4897,8 +4582,8 @@
       "name": "Jupid",
       "tagline": "File your taxes with Claude Code",
       "url": "https://www.producthunt.com/products/jupid?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Breakfeed+%28ID%3A+279433%29",
-      "votes": 673,
-      "comments": 124,
+      "votes": 675,
+      "comments": 125,
       "topics": [
         "Fintech",
         "Accounting"
@@ -4976,7 +4661,7 @@
       "name": "ProductBridge",
       "tagline": "Agent that collects feedback across multiple platforms",
       "url": "https://www.producthunt.com/products/productbridge/launches/productbridge?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Breakfeed+%28ID%3A+279433%29",
-      "votes": 593,
+      "votes": 592,
       "comments": 76,
       "topics": [
         "Productivity",
@@ -5008,7 +4693,7 @@
       "name": "Offsite",
       "tagline": "Build teams of humans and agents, watch them work.",
       "url": "https://www.producthunt.com/products/offsite-2?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Breakfeed+%28ID%3A+279433%29",
-      "votes": 579,
+      "votes": 582,
       "comments": 83,
       "topics": [
         "Web App",
@@ -5025,8 +4710,8 @@
       "repo": "NousResearch/hermes-agent",
       "description": "The agent that grows with you",
       "language": "Python",
-      "stars": 65889,
-      "starsToday": 7450,
+      "stars": 70487,
+      "starsToday": 7454,
       "url": "https://github.com/NousResearch/hermes-agent",
       "summary_zh": "这个项目是一个智能代理，可以根据用户的需求和使用习惯不断学习和进化，提供个性化的服务和建议。对Yves来说，它可以为Logic Labs的AI开发提供有价值的工具，帮助提升智能产品的用户体验，同时也能够为TexTale在电商运营和用户互动中提供更精准的个性化推荐，从而提高销售转化率。作为创意设计从业者，Yves可以利用这个项目探索如何将AI融入设计流程，以实现更具创意和个性化的产品设计。"
     },
@@ -5034,8 +4719,8 @@
       "repo": "shiyu-coder/Kronos",
       "description": "Kronos: A Foundation Model for the Language of Financial Markets",
       "language": "Python",
-      "stars": 15676,
-      "starsToday": 1998,
+      "stars": 16193,
+      "starsToday": 1985,
       "url": "https://github.com/shiyu-coder/Kronos",
       "summary_zh": "Kronos 是一个专注于金融市场语言的基础模型，旨在帮助用户更好地理解和分析金融数据，以及在相关领域进行智能决策。对于 Yves 来说，这个项目可以增强 Logic Labs 在金融科技领域的 AI 应用，特别是在开发与金融相关的智能产品或服务时，提供深度的自然语言理解能力。同时，这也能为 TexTale 提供市场趋势分析的支持，从而优化营销策略和产品设计。"
     },
@@ -5043,8 +4728,8 @@
       "repo": "forrestchang/andrej-karpathy-skills",
       "description": "A single CLAUDE.md file to improve Claude Code behavior, derived from Andrej Karpathy's observations on LLM coding pitfalls.",
       "language": "",
-      "stars": 16418,
-      "starsToday": 2351,
+      "stars": 18265,
+      "starsToday": 2369,
       "url": "https://github.com/forrestchang/andrej-karpathy-skills",
       "summary_zh": "这个项目旨在通过一个名为 CLAUDE.md 的文件，帮助改善 Claude 代码生成工具的表现，主要是基于 Andrej Karpathy 对大型语言模型在编程时常见错误的观察。对于 Yves 来说，Logic Labs（AI 公司）可能会从中受益，因为项目涉及的 AI 工具改进能够提升他们在开发智能产品时的效率和准确性。同时，该项目的见解也可以激发他作为创意设计者的思考，从而在设计过程中更好地利用 AI 技术。"
     },
@@ -5052,7 +4737,7 @@
       "repo": "microsoft/markitdown",
       "description": "Python tool for converting files and office documents to Markdown.",
       "language": "Python",
-      "stars": 104475,
+      "stars": 105533,
       "starsToday": 2513,
       "url": "https://github.com/microsoft/markitdown",
       "summary_zh": "这个项目是一个Python工具，可以将文件和Office文档转换为Markdown格式，这样便于在不同平台上分享和编辑文本内容。对Yves来说，这个工具可以帮助Logic Labs在处理项目文档和创意资料时，提高工作效率，特别是在需要频繁调整内容格式时。这也能够为TexTale的电商运营提供更便捷的文档管理和营销素材编辑，帮助他更好地进行品牌推广。"
@@ -5061,8 +4746,8 @@
       "repo": "multica-ai/multica",
       "description": "The open-source managed agents platform. Turn coding agents into real teammates — assign tasks, track progress, compound skills.",
       "language": "TypeScript",
-      "stars": 9273,
-      "starsToday": 1626,
+      "stars": 9859,
+      "starsToday": 1609,
       "url": "https://github.com/multica-ai/multica",
       "summary_zh": "这个项目是一个开源管理智能代理的平台，旨在将编码代理变成真实的团队成员，可以分配任务、跟踪进度和提升技能。对Yves的Logic Labs（AI公司）特别有帮助，因为它能够提升团队协作效率，利用AI技术更好地管理和组织创意项目，进而推动产品创新和开发效率。"
     },
@@ -5070,7 +4755,7 @@
       "repo": "coleam00/Archon",
       "description": "The first open-source harness builder for AI coding. Make AI coding deterministic and repeatable.",
       "language": "TypeScript",
-      "stars": 16991,
+      "stars": 17245,
       "starsToday": 612,
       "url": "https://github.com/coleam00/Archon",
       "summary_zh": "这个项目是一个开源工具，可以帮助开发者构建更可靠和可重复的AI编程环境，确保AI在编码时的结果是确定性的。对于Yves的Logic Labs（AI公司），这个项目可以提升AI开发的效率和质量，对创意设计工具的开发也有潜在的帮助，同时为推动基于AI的电商运营提供坚实的技术支持。"
@@ -5079,8 +4764,8 @@
       "repo": "shanraisshan/claude-code-best-practice",
       "description": "practice made claude perfect",
       "language": "HTML",
-      "stars": 38876,
-      "starsToday": 1537,
+      "stars": 39636,
+      "starsToday": 1548,
       "url": "https://github.com/shanraisshan/claude-code-best-practice",
       "summary_zh": "这个项目主要是为使用 Claude AI 的开发者提供最佳实践和示例代码，以帮助他们更有效地利用这项技术。对Yves来说，这个项目对Logic Labs（AI 公司）更具帮助，可以促进AI技术在创意和设计中的应用，同时也能为TexTale（科技服装电商）提供灵感，以提升产品营销和用户体验。作为创意设计从业者，Yves可以借鉴这些实践，优化设计流程和工具使用。"
     },
@@ -5088,8 +4773,8 @@
       "repo": "OpenBMB/VoxCPM",
       "description": "VoxCPM2: Tokenizer-Free TTS for Multilingual Speech Generation, Creative Voice Design, and True-to-Life Cloning",
       "language": "Python",
-      "stars": 11179,
-      "starsToday": 1276,
+      "stars": 11595,
+      "starsToday": 1278,
       "url": "https://github.com/OpenBMB/VoxCPM",
       "summary_zh": "这个项目是一个多语言文本转语音（TTS）系统，可以生成逼真的语音，并支持创意语音设计和语音克隆，使用起来不需要复杂的编码。对Yves的Logic Labs（AI公司）有很大帮助，因为他可以利用这个工具开发更智能的语音交互应用，提升用户体验。同时，对TexTale（科技服装电商）也有价值，可以在客户服务或营销中提供个性化的语音助手。作为创意设计从业者，他可以借助这个项目激发更多创意，探索全新的音频内容创作方式。"
     },
@@ -5097,8 +4782,8 @@
       "repo": "thedotmack/claude-mem",
       "description": "A Claude Code plugin that automatically captures everything Claude does during your coding sessions, compresses it with AI (using Claude's agent-sdk), and injects relevant context back into future sessions.",
       "language": "TypeScript",
-      "stars": 49754,
-      "starsToday": 814,
+      "stars": 50771,
+      "starsToday": 753,
       "url": "https://github.com/thedotmack/claude-mem",
       "summary_zh": "这个项目是一个Claude代码插件，可以自动记录你在编程过程中Claude所做的事情，并利用AI压缩这些信息，然后在未来的编码会话中提供相关的上下文。 \n\n对Yves而言，这个工具可以帮助Logic Labs提高团队在AI项目开发中的效率，能够更好地整理和应用之前的编程信息，从而推动创新和创意设计。同时，这种技术也有可能为TexTale在产品开发过程中提供灵感来源。"
     },
@@ -5106,8 +4791,8 @@
       "repo": "ahujasid/blender-mcp",
       "description": "",
       "language": "Python",
-      "stars": 19116,
-      "starsToday": 228,
+      "stars": 19223,
+      "starsToday": 215,
       "url": "https://github.com/ahujasid/blender-mcp",
       "summary_zh": "这个项目是一个基于 Blender 的工具，用于机器学习和计算机图形学的创作，可以帮助用户在三维空间中进行更复杂的设计和动画制作。对 Yves 的 TexTale 电商业务具有帮助，因为它可以提升他在科技服装设计中的创意表现力，同时作为创意设计从业者也能够更有效地利用 AI 技术实现创新设计。"
     }
@@ -5117,7 +4802,7 @@
       {
         "name": "GPT Image 1.5 (high)",
         "elo": 1264,
-        "appearances": 4746,
+        "appearances": 4747,
         "creator": "OpenAI",
         "reddit": {
           "mentions": 6,
@@ -5148,7 +4833,7 @@
       {
         "name": "Nano Banana 2 (Gemini 3.1 Flash Image Preview)",
         "elo": 1258,
-        "appearances": 6473,
+        "appearances": 6477,
         "creator": "Google",
         "reddit": {
           "mentions": 7,
@@ -5177,7 +4862,7 @@
       {
         "name": "grok-imagine-image",
         "elo": 1171,
-        "appearances": 6813,
+        "appearances": 6816,
         "creator": "xAI",
         "reddit": {
           "mentions": 0,
@@ -5200,7 +4885,7 @@
       {
         "name": "Seedream 4.5",
         "elo": 1171,
-        "appearances": 5879,
+        "appearances": 5881,
         "creator": "ByteDance Seed",
         "reddit": {
           "mentions": 1,
@@ -5231,7 +4916,7 @@
       {
         "name": "Riverflow 2.0",
         "elo": 1255,
-        "appearances": 4942,
+        "appearances": 4943,
         "creator": "Sourceful",
         "reddit": {
           "mentions": 0,
@@ -5252,7 +4937,7 @@
       {
         "name": "Nano Banana Pro (Gemini 3 Pro Image)",
         "elo": 1215,
-        "appearances": 4012,
+        "appearances": 4015,
         "creator": "Google",
         "reddit": {
           "mentions": 7,
@@ -5281,7 +4966,7 @@
       {
         "name": "FLUX.2 [max]",
         "elo": 1201,
-        "appearances": 3956,
+        "appearances": 3960,
         "creator": "Black Forest Labs",
         "reddit": {
           "mentions": 10,
@@ -5310,7 +4995,7 @@
       {
         "name": "FLUX.2 [pro]",
         "elo": 1182,
-        "appearances": 3538,
+        "appearances": 3539,
         "creator": "Black Forest Labs",
         "reddit": {
           "mentions": 10,
@@ -5339,7 +5024,7 @@
       {
         "name": "FLUX.2 [flex]",
         "elo": 1180,
-        "appearances": 3618,
+        "appearances": 3622,
         "creator": "Black Forest Labs",
         "reddit": {
           "mentions": 10,
@@ -5368,7 +5053,7 @@
       {
         "name": "Seedream 4.0",
         "elo": 1185,
-        "appearances": 10073,
+        "appearances": 10074,
         "creator": "ByteDance Seed",
         "reddit": {
           "mentions": 1,
@@ -5397,7 +5082,7 @@
       {
         "name": "FLUX.2 [dev] Turbo",
         "elo": 1163,
-        "appearances": 3672,
+        "appearances": 3674,
         "creator": "Fal",
         "reddit": {
           "mentions": 10,
@@ -5426,7 +5111,7 @@
       {
         "name": "Imagen 4 Ultra Preview 0606",
         "elo": 1173,
-        "appearances": 3633,
+        "appearances": 3637,
         "creator": "Google",
         "reddit": {
           "mentions": 1,
@@ -5455,7 +5140,7 @@
       {
         "name": "Nano Banana (Gemini 2.5 Flash Image)",
         "elo": 1163,
-        "appearances": 8992,
+        "appearances": 8995,
         "creator": "Google",
         "reddit": {
           "mentions": 7,
@@ -5483,8 +5168,8 @@
       },
       {
         "name": "FLUX.2 [dev]",
-        "elo": 1148,
-        "appearances": 3033,
+        "elo": 1149,
+        "appearances": 3035,
         "creator": "Black Forest Labs",
         "reddit": {
           "mentions": 10,
@@ -5503,7 +5188,7 @@
           "votes": 0,
           "name": ""
         },
-        "compositeScore": 29.7,
+        "compositeScore": 29.9,
         "sources": [
           "AA",
           "Reddit"
@@ -5513,7 +5198,7 @@
       {
         "name": "Imagen 4 Preview 0606",
         "elo": 1169,
-        "appearances": 3579,
+        "appearances": 3580,
         "creator": "Google",
         "reddit": {
           "mentions": 1,
@@ -5544,7 +5229,7 @@
       {
         "name": "Dreamina Seedance 2.0 720p",
         "elo": 1273,
-        "appearances": 8474,
+        "appearances": 8506,
         "creator": "ByteDance Seed",
         "reddit": {
           "mentions": 9,
@@ -5574,8 +5259,8 @@
       },
       {
         "name": "HappyHorse-1.0",
-        "elo": 1384,
-        "appearances": 13983,
+        "elo": 1381,
+        "appearances": 14332,
         "creator": "Alibaba-ATH",
         "reddit": {
           "mentions": 2,
@@ -5594,7 +5279,7 @@
           "votes": 0,
           "name": ""
         },
-        "compositeScore": 67.9,
+        "compositeScore": 67.4,
         "sources": [
           "AA",
           "Reddit"
@@ -5603,8 +5288,8 @@
       },
       {
         "name": "grok-imagine-video",
-        "elo": 1228,
-        "appearances": 6019,
+        "elo": 1227,
+        "appearances": 6174,
         "creator": "xAI",
         "reddit": {
           "mentions": 0,
@@ -5617,7 +5302,7 @@
           "name": "grok-imagine-video-720p",
           "category": "image-to-video"
         },
-        "compositeScore": 59.9,
+        "compositeScore": 59.8,
         "sources": [
           "AA",
           "LM Arena"
@@ -5626,8 +5311,8 @@
       },
       {
         "name": "Veo 3",
-        "elo": 1219,
-        "appearances": 3661,
+        "elo": 1217,
+        "appearances": 3815,
         "creator": "Google",
         "reddit": {
           "mentions": 3,
@@ -5647,7 +5332,7 @@
           "name": "veo-3.1-audio-1080p",
           "category": "image-to-video"
         },
-        "compositeScore": 58.5,
+        "compositeScore": 58.1,
         "sources": [
           "AA",
           "LM Arena",
@@ -5656,40 +5341,9 @@
         "rank": 4
       },
       {
-        "name": "Veo 3.1",
-        "elo": 1210,
-        "appearances": 5280,
-        "creator": "Google",
-        "reddit": {
-          "mentions": 3,
-          "upvotes": 58,
-          "topPost": {
-            "title": "LTX2.3 | 720x1280 | Local Inference Test & A 6-Month Silence",
-            "score": 33,
-            "subreddit": "StableDiffusion",
-            "url": "https://reddit.com/r/StableDiffusion/comments/1rp1v4u/ltx23_720x1280_local_inference_test_a_6month/",
-            "num_comments": 0,
-            "permalink": "/r/StableDiffusion/comments/1rp1v4u/ltx23_720x1280_local_inference_test_a_6month/"
-          }
-        },
-        "lmArena": {
-          "elo": 1404,
-          "votes": 10976,
-          "name": "veo-3.1-audio-1080p",
-          "category": "image-to-video"
-        },
-        "compositeScore": 56.9,
-        "sources": [
-          "AA",
-          "LM Arena",
-          "Reddit"
-        ],
-        "rank": 5
-      },
-      {
         "name": "Vidu Q3 Pro",
         "elo": 1222,
-        "appearances": 6385,
+        "appearances": 6541,
         "creator": "Vidu",
         "reddit": {
           "mentions": 0,
@@ -5707,12 +5361,43 @@
           "AA",
           "LM Arena"
         ],
+        "rank": 5
+      },
+      {
+        "name": "Veo 3.1",
+        "elo": 1208,
+        "appearances": 5438,
+        "creator": "Google",
+        "reddit": {
+          "mentions": 3,
+          "upvotes": 58,
+          "topPost": {
+            "title": "LTX2.3 | 720x1280 | Local Inference Test & A 6-Month Silence",
+            "score": 33,
+            "subreddit": "StableDiffusion",
+            "url": "https://reddit.com/r/StableDiffusion/comments/1rp1v4u/ltx23_720x1280_local_inference_test_a_6month/",
+            "num_comments": 0,
+            "permalink": "/r/StableDiffusion/comments/1rp1v4u/ltx23_720x1280_local_inference_test_a_6month/"
+          }
+        },
+        "lmArena": {
+          "elo": 1404,
+          "votes": 10976,
+          "name": "veo-3.1-audio-1080p",
+          "category": "image-to-video"
+        },
+        "compositeScore": 56.5,
+        "sources": [
+          "AA",
+          "LM Arena",
+          "Reddit"
+        ],
         "rank": 6
       },
       {
         "name": "Veo 3.1 Fast",
-        "elo": 1209,
-        "appearances": 4798,
+        "elo": 1208,
+        "appearances": 4946,
         "creator": "Google",
         "reddit": {
           "mentions": 3,
@@ -5732,7 +5417,7 @@
           "name": "veo-3.1-fast-audio",
           "category": "image-to-video"
         },
-        "compositeScore": 55.9,
+        "compositeScore": 55.7,
         "sources": [
           "AA",
           "LM Arena",
@@ -5742,8 +5427,8 @@
       },
       {
         "name": "PixVerse V5.6",
-        "elo": 1220,
-        "appearances": 5630,
+        "elo": 1221,
+        "appearances": 5758,
         "creator": "PixVerse",
         "reddit": {
           "mentions": 0,
@@ -5756,7 +5441,7 @@
           "name": "pixverse-v5.6",
           "category": "image-to-video"
         },
-        "compositeScore": 53.7,
+        "compositeScore": 53.9,
         "sources": [
           "AA",
           "LM Arena"
@@ -5765,8 +5450,8 @@
       },
       {
         "name": "Kling 2.5 Turbo 1080p",
-        "elo": 1211,
-        "appearances": 4424,
+        "elo": 1210,
+        "appearances": 4579,
         "creator": "KlingAI",
         "reddit": {
           "mentions": 10,
@@ -5786,7 +5471,7 @@
           "name": "kling-2.5-turbo-1080p",
           "category": "image-to-video"
         },
-        "compositeScore": 51.3,
+        "compositeScore": 51.2,
         "sources": [
           "AA",
           "LM Arena",
@@ -5795,9 +5480,38 @@
         "rank": 9
       },
       {
+        "name": "Kling 3.0 1080p (Pro)",
+        "elo": 1241,
+        "appearances": 5701,
+        "creator": "KlingAI",
+        "reddit": {
+          "mentions": 10,
+          "upvotes": 340,
+          "topPost": {
+            "title": "Last week in Image & Video Generation",
+            "score": 165,
+            "subreddit": "StableDiffusion",
+            "url": "https://reddit.com/r/StableDiffusion/comments/1rwus6o/last_week_in_image_video_generation/",
+            "num_comments": 9,
+            "permalink": "/r/StableDiffusion/comments/1rwus6o/last_week_in_image_video_generation/"
+          }
+        },
+        "lmArena": {
+          "elo": 0,
+          "votes": 0,
+          "name": ""
+        },
+        "compositeScore": 42.9,
+        "sources": [
+          "AA",
+          "Reddit"
+        ],
+        "rank": 10
+      },
+      {
         "name": "SkyReels V4",
         "elo": 1242,
-        "appearances": 6184,
+        "appearances": 6451,
         "creator": "Skywork AI",
         "reddit": {
           "mentions": 3,
@@ -5821,41 +5535,12 @@
           "AA",
           "Reddit"
         ],
-        "rank": 10
-      },
-      {
-        "name": "Kling 3.0 1080p (Pro)",
-        "elo": 1240,
-        "appearances": 5565,
-        "creator": "KlingAI",
-        "reddit": {
-          "mentions": 10,
-          "upvotes": 340,
-          "topPost": {
-            "title": "Last week in Image & Video Generation",
-            "score": 165,
-            "subreddit": "StableDiffusion",
-            "url": "https://reddit.com/r/StableDiffusion/comments/1rwus6o/last_week_in_image_video_generation/",
-            "num_comments": 9,
-            "permalink": "/r/StableDiffusion/comments/1rwus6o/last_week_in_image_video_generation/"
-          }
-        },
-        "lmArena": {
-          "elo": 0,
-          "votes": 0,
-          "name": ""
-        },
-        "compositeScore": 42.7,
-        "sources": [
-          "AA",
-          "Reddit"
-        ],
         "rank": 11
       },
       {
         "name": "Kling 3.0 Omni 1080p (Pro)",
-        "elo": 1228,
-        "appearances": 5033,
+        "elo": 1227,
+        "appearances": 5147,
         "creator": "KlingAI",
         "reddit": {
           "mentions": 10,
@@ -5874,7 +5559,7 @@
           "votes": 0,
           "name": ""
         },
-        "compositeScore": 40.6,
+        "compositeScore": 40.4,
         "sources": [
           "AA",
           "Reddit"
@@ -5884,7 +5569,7 @@
       {
         "name": "Veo 3.1 Preview",
         "elo": 1225,
-        "appearances": 4668,
+        "appearances": 4702,
         "creator": "Google",
         "reddit": {
           "mentions": 3,
@@ -5912,8 +5597,8 @@
       },
       {
         "name": "Runway Gen-4.5",
-        "elo": 1223,
-        "appearances": 8769,
+        "elo": 1222,
+        "appearances": 8916,
         "creator": "Runway",
         "reddit": {
           "mentions": 0,
@@ -5925,7 +5610,7 @@
           "votes": 0,
           "name": ""
         },
-        "compositeScore": 39.1,
+        "compositeScore": 38.9,
         "sources": [
           "AA"
         ],
@@ -5934,7 +5619,7 @@
       {
         "name": "Kling 3.0 Omni 720p (Standard)",
         "elo": 1218,
-        "appearances": 4998,
+        "appearances": 5150,
         "creator": "KlingAI",
         "reddit": {
           "mentions": 10,
@@ -5961,7 +5646,7 @@
         "rank": 15
       }
     ],
-    "fetchedAt": "2026-04-12T22:29:19.245714+00:00",
+    "fetchedAt": "2026-04-13T06:13:11.225828+00:00",
     "sources": [
       "Artificial Analysis",
       "LM Arena",
