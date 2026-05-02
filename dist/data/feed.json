@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-05-02T16:42:29.623239+00:00",
+  "generatedAt": "2026-05-02T22:36:27.452029+00:00",
   "twitter": [
     {
       "source": "x",
@@ -4494,6 +4494,16 @@
   ],
   "podcasts": [
     {
+      "name": "Y Combinator",
+      "title": "Software for Agents",
+      "videoId": "515J0QD9p6w",
+      "url": "https://youtube.com/watch?v=515J0QD9p6w",
+      "publishedAt": "2026-05-02T17:20:18+00:00",
+      "isShort": false,
+      "fetchDate": "2026-05-02",
+      "summary_zh": "这个视频探讨了如何运用软件工具来增强代理者的能力，尤其是在人工智能领域。它介绍了各种可以帮助代理有效工作的应用，包括自动化任务、处理数据和简化决策过程，从而提升工作效率。\n\n🎯 推荐 Yves 观看 — 视频中的软件工具及其在代理工作中的应用，对 Logic Labs 和 TexTale 在 AI 驱动的产品开发和电商运营中的创意设计至关重要。"
+    },
+    {
       "name": "Lenny's Podcast",
       "title": "Why cultivating agency matters more than cultivating skills in the AI era | Max Schoening (Notion)",
       "videoId": "mCO-D3pkviM",
@@ -5086,16 +5096,6 @@
       "isShort": false,
       "fetchDate": "2026-04-27",
       "summary_zh": "这个视频探讨了创业者在成长过程中为什么需要主动迎接挑战和痛苦。创始人们在面对困难时，反而能够找到更多的机会和灵感，从而推动他们的事业向前发展。\n\n🎯 推荐 Yves 观看 — 该视频深入探讨了创始人在创业旅程中如何面对困难，这对在 Logic Labs 和 TexTale 中推动创意设计和创新是非常有启发意义的。"
-    },
-    {
-      "name": "The AI Daily Brief",
-      "title": "Where the Economy Thrives After AI",
-      "videoId": "M2-hytpxccg",
-      "url": "https://youtube.com/watch?v=M2-hytpxccg",
-      "publishedAt": "2026-04-26T21:09:26+00:00",
-      "isShort": false,
-      "fetchDate": "2026-04-26",
-      "summary_zh": "这个视频探讨了人工智能对经济的影响，分析了哪些行业在AI的推动下表现出强劲的增长潜力。它强调了在新技术环境下，企业如何调整策略以保持竞争力。\n\n🎯 推荐 Yves 观看 — 这个视频将为 Logic Labs 和 TexTale 提供有关如何利用AI提升品牌和电商运营的见解，同时让您了解创意设计中的新趋势。"
     }
   ],
   "producthunt": [
@@ -5120,7 +5120,7 @@
       "name": "Fathom 3.0",
       "tagline": "AI meeting notes: now bot-free, in ChatGPT & Claude + more",
       "url": "https://www.producthunt.com/products/fathom/launches/fathom-3-0?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Breakfeed+%28ID%3A+279433%29",
-      "votes": 759,
+      "votes": 760,
       "comments": 235,
       "topics": [
         "Productivity",
@@ -5152,7 +5152,7 @@
       "name": "Plurai",
       "tagline": "Vibe-train evals and guardrails tailored to your use case",
       "url": "https://www.producthunt.com/products/plurai?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Breakfeed+%28ID%3A+279433%29",
-      "votes": 694,
+      "votes": 695,
       "comments": 219,
       "topics": [
         "API",
@@ -5184,7 +5184,7 @@
       "name": "Clera",
       "tagline": "An AI agent matching candidates to the right roles.",
       "url": "https://www.producthunt.com/products/clera?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Breakfeed+%28ID%3A+279433%29",
-      "votes": 634,
+      "votes": 636,
       "comments": 232,
       "topics": [
         "Hiring",
@@ -5200,7 +5200,7 @@
       "name": "Dune",
       "tagline": "Context-aware Mac keypad to automate workflows + meetings",
       "url": "https://www.producthunt.com/products/dune-4?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Breakfeed+%28ID%3A+279433%29",
-      "votes": 625,
+      "votes": 626,
       "comments": 62,
       "topics": [
         "Productivity",
@@ -5249,7 +5249,7 @@
       "name": "RankAI",
       "tagline": "RankAI autonomously gets you buyers from Google & AI Search",
       "url": "https://www.producthunt.com/products/rankai-2?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Breakfeed+%28ID%3A+279433%29",
-      "votes": 589,
+      "votes": 590,
       "comments": 108,
       "topics": [
         "Marketing",
@@ -5281,7 +5281,7 @@
       "name": "Claude Code Routines",
       "tagline": "Put Claude Code tasks on autopilot with smart routines",
       "url": "https://www.producthunt.com/products/claude/launches/claude-code-routines?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Breakfeed+%28ID%3A+279433%29",
-      "votes": 587,
+      "votes": 588,
       "comments": 16,
       "topics": [
         "Productivity",
@@ -5346,7 +5346,7 @@
       "repo": "TauricResearch/TradingAgents",
       "description": "TradingAgents: Multi-Agents LLM Financial Trading Framework",
       "language": "Python",
-      "stars": 61570,
+      "stars": 62395,
       "starsToday": 2227,
       "url": "https://github.com/TauricResearch/TradingAgents",
       "summary_zh": "这个项目是一个金融交易框架，利用多代理系统和大语言模型（LLM）来进行自动化交易，帮助用户在金融市场中做出更智能的决策。对Yves的Logic Labs（AI公司）有重要帮助，因为可以借助这个项目的技术，提升AI在金融领域的应用潜力，同时增强公司在AI行业趋势中的竞争力。"
@@ -5355,7 +5355,7 @@
       "repo": "ruvnet/ruflo",
       "description": "🌊 The leading agent orchestration platform for Claude. Deploy intelligent multi-agent swarms, coordinate autonomous workflows, and build conversational AI systems. Features enterprise-grade architecture, distributed swarm intelligence, RAG integration, and native Claude Code / Codex Integration",
       "language": "TypeScript",
-      "stars": 36181,
+      "stars": 36702,
       "starsToday": 1258,
       "url": "https://github.com/ruvnet/ruflo",
       "summary_zh": "这个项目是一个智能代理协作平台，可以帮助用户部署智能团队，协调自主工作流，并构建对话式人工智能系统。对于Yves的Logic Labs（AI公司），这个项目可以提供强大的AI工具和资源，使其在开发智能应用时更加高效。同时，这也能为TexTale（科技服装电商）提供更加智能的客户互动和个性化服务，增强品牌营销效果。"
@@ -5364,7 +5364,7 @@
       "repo": "browserbase/skills",
       "description": "Claude Agent SDK with a web browsing tool",
       "language": "JavaScript",
-      "stars": 1405,
+      "stars": 1483,
       "starsToday": 347,
       "url": "https://github.com/browserbase/skills",
       "summary_zh": "这个项目提供了一种智能代理的开发工具，可以让机器在网络上浏览信息并进行操作，帮助开发者构建更智能的应用。对于Yves的Logic Labs，使用这个工具可以提升AI产品的智能化水平，而对于TexTale，它可以增强电商平台的客户互动体验，进而推动销售。此外，作为创意设计从业者，Yves可以利用这个工具挖掘创意灵感，提升设计效率。"
@@ -5373,7 +5373,7 @@
       "repo": "soxoj/maigret",
       "description": "🕵️‍♂️ Collect a dossier on a person by username from 3000+ sites",
       "language": "Python",
-      "stars": 22355,
+      "stars": 22601,
       "starsToday": 1065,
       "url": "https://github.com/soxoj/maigret",
       "summary_zh": "这个项目名为 Maigret，可以通过用户的用户名从3000多个网站收集该用户的相关信息，类似于网络侦探。对于Yves来说，这个工具可以帮助他在Logic Labs中进行市场分析和用户研究，了解潜在用户的行为和偏好，从而更好地设计和开发AI产品。同时，在TexTale方面，Maigret也有助于挖掘竞争对手和目标消费者的信息，为品牌营销策略提供支持。"
@@ -5382,7 +5382,7 @@
       "repo": "Flowseal/zapret-discord-youtube",
       "description": "",
       "language": "Batchfile",
-      "stars": 27061,
+      "stars": 27112,
       "starsToday": 179,
       "url": "https://github.com/Flowseal/zapret-discord-youtube",
       "summary_zh": "这个项目是一个可以通过 Discord 发送 YouTube 视频的工具，旨在简化视频分享的过程。对于 Yves 来说，这个工具可以帮助 TexTale 在电商平台上通过互动分享视频内容，提升品牌营销和用户参与度，同时也能为 Logic Labs 提供一个创意灵感源泉，探索如何利用 AI 技术优化视频内容的传播。"
@@ -5391,7 +5391,7 @@
       "repo": "1jehuang/jcode",
       "description": "Coding Agent Harness",
       "language": "Rust",
-      "stars": 2670,
+      "stars": 2803,
       "starsToday": 482,
       "url": "https://github.com/1jehuang/jcode",
       "summary_zh": "这个项目是一个基于 Rust 语言开发的编码助手，旨在帮助用户更高效地进行编程工作。对 Yves 的 Logic Labs（AI 公司）有帮助，因为它可以提升开发人员的工作效率，使他们能够更专注于创新和创意设计，而不是琐碎的编码任务。"
@@ -5400,7 +5400,7 @@
       "repo": "ShareX/ShareX",
       "description": "ShareX is a free and open-source application that enables users to capture or record any area of their screen with a single keystroke. It also supports uploading images, text, and various file types to a wide range of destinations.",
       "language": "C#",
-      "stars": 36647,
+      "stars": 36765,
       "starsToday": 129,
       "url": "https://github.com/ShareX/ShareX",
       "summary_zh": "这个项目是一个免费的开源工具，允许用户通过简单的快捷键快速捕捉或录制屏幕上的任何区域，还可以将图片、文本和各种文件类型上传到多个地方。对于Yves来说，这个工具可以在TexTale的电商运营中帮助快速制作产品宣传材料和分享创意设计，提升工作效率。作为创意设计从业者，他也可以利用这个工具快速记录和分享灵感或设计过程。"
@@ -5409,7 +5409,7 @@
       "repo": "jwasham/coding-interview-university",
       "description": "A complete computer science study plan to become a software engineer.",
       "language": "",
-      "stars": 344348,
+      "stars": 344515,
       "starsToday": 717,
       "url": "https://github.com/jwasham/coding-interview-university",
       "summary_zh": "这个项目提供了一个全面的计算机科学学习计划，帮助想要成为软件工程师的人系统地学习相关知识和技能。对于Yves来说，它可能对Logic Labs（AI公司）更有帮助，因为掌握计算机科学基础和编程知识能够让他更好地理解AI技术的应用，同时也有助于他的团队在产品设计和开发中更有效地利用AI工具。"
@@ -5420,7 +5420,7 @@
       {
         "name": "GPT Image 1.5 (high)",
         "elo": 1272,
-        "appearances": 5038,
+        "appearances": 5039,
         "creator": "OpenAI",
         "reddit": {
           "mentions": 6,
@@ -5451,7 +5451,7 @@
       {
         "name": "GPT Image 2 (high)",
         "elo": 1336,
-        "appearances": 8481,
+        "appearances": 8493,
         "creator": "OpenAI",
         "reddit": {
           "mentions": 6,
@@ -5480,7 +5480,7 @@
       {
         "name": "grok-imagine-image",
         "elo": 1181,
-        "appearances": 7131,
+        "appearances": 7133,
         "creator": "xAI",
         "reddit": {
           "mentions": 0,
@@ -5502,8 +5502,8 @@
       },
       {
         "name": "Nano Banana 2 (Gemini 3.1 Flash Image Preview)",
-        "elo": 1261,
-        "appearances": 6821,
+        "elo": 1262,
+        "appearances": 6825,
         "creator": "Google",
         "reddit": {
           "mentions": 7,
@@ -5522,7 +5522,7 @@
           "votes": 0,
           "name": ""
         },
-        "compositeScore": 47.4,
+        "compositeScore": 47.6,
         "sources": [
           "AA",
           "Reddit"
@@ -5532,7 +5532,7 @@
       {
         "name": "Riverflow 2.0",
         "elo": 1258,
-        "appearances": 5215,
+        "appearances": 5216,
         "creator": "Sourceful",
         "reddit": {
           "mentions": 0,
@@ -5553,7 +5553,7 @@
       {
         "name": "Seedream 4.5",
         "elo": 1168,
-        "appearances": 6181,
+        "appearances": 6185,
         "creator": "ByteDance Seed",
         "reddit": {
           "mentions": 1,
@@ -5584,7 +5584,7 @@
       {
         "name": "Nano Banana Pro (Gemini 3 Pro Image)",
         "elo": 1217,
-        "appearances": 4289,
+        "appearances": 4292,
         "creator": "Google",
         "reddit": {
           "mentions": 7,
@@ -5612,8 +5612,8 @@
       },
       {
         "name": "FLUX.2 [max]",
-        "elo": 1201,
-        "appearances": 4295,
+        "elo": 1200,
+        "appearances": 4299,
         "creator": "Black Forest Labs",
         "reddit": {
           "mentions": 10,
@@ -5632,7 +5632,7 @@
           "votes": 0,
           "name": ""
         },
-        "compositeScore": 39.0,
+        "compositeScore": 38.8,
         "sources": [
           "AA",
           "Reddit"
@@ -5642,7 +5642,7 @@
       {
         "name": "FLUX.2 [pro]",
         "elo": 1186,
-        "appearances": 3866,
+        "appearances": 3870,
         "creator": "Black Forest Labs",
         "reddit": {
           "mentions": 10,
@@ -5671,7 +5671,7 @@
       {
         "name": "FLUX.2 [flex]",
         "elo": 1181,
-        "appearances": 3904,
+        "appearances": 3905,
         "creator": "Black Forest Labs",
         "reddit": {
           "mentions": 10,
@@ -5700,7 +5700,7 @@
       {
         "name": "Seedream 4.0",
         "elo": 1201,
-        "appearances": 10357,
+        "appearances": 10363,
         "creator": "ByteDance Seed",
         "reddit": {
           "mentions": 1,
@@ -5729,7 +5729,7 @@
       {
         "name": "MAI-Image-2",
         "elo": 1197,
-        "appearances": 2998,
+        "appearances": 3017,
         "creator": "Microsoft",
         "reddit": {
           "mentions": 0,
@@ -5750,7 +5750,7 @@
       {
         "name": "Imagen 4 Ultra Preview 0606",
         "elo": 1186,
-        "appearances": 3889,
+        "appearances": 3892,
         "creator": "Google",
         "reddit": {
           "mentions": 1,
@@ -5779,7 +5779,7 @@
       {
         "name": "FLUX.2 [dev] Turbo",
         "elo": 1163,
-        "appearances": 3990,
+        "appearances": 3991,
         "creator": "Fal",
         "reddit": {
           "mentions": 10,
@@ -5808,7 +5808,7 @@
       {
         "name": "FLUX.2 [dev]",
         "elo": 1160,
-        "appearances": 3334,
+        "appearances": 3336,
         "creator": "Black Forest Labs",
         "reddit": {
           "mentions": 10,
@@ -5839,7 +5839,7 @@
       {
         "name": "HappyHorse-1.0",
         "elo": 1354,
-        "appearances": 8308,
+        "appearances": 8311,
         "creator": "Alibaba-ATH",
         "reddit": {
           "mentions": 2,
@@ -5870,7 +5870,7 @@
       {
         "name": "Dreamina Seedance 2.0 720p",
         "elo": 1270,
-        "appearances": 8615,
+        "appearances": 8619,
         "creator": "ByteDance Seed",
         "reddit": {
           "mentions": 9,
@@ -5901,7 +5901,7 @@
       {
         "name": "grok-imagine-video",
         "elo": 1232,
-        "appearances": 6150,
+        "appearances": 6152,
         "creator": "xAI",
         "reddit": {
           "mentions": 0,
@@ -5978,7 +5978,7 @@
       {
         "name": "Veo 3.1",
         "elo": 1207,
-        "appearances": 5528,
+        "appearances": 5529,
         "creator": "Google",
         "reddit": {
           "mentions": 3,
@@ -6009,7 +6009,7 @@
       {
         "name": "PixVerse V5.6",
         "elo": 1220,
-        "appearances": 5906,
+        "appearances": 5911,
         "creator": "PixVerse",
         "reddit": {
           "mentions": 0,
@@ -6032,7 +6032,7 @@
       {
         "name": "Kling 3.0 1080p (Pro)",
         "elo": 1248,
-        "appearances": 5743,
+        "appearances": 5746,
         "creator": "KlingAI",
         "reddit": {
           "mentions": 10,
@@ -6061,7 +6061,7 @@
       {
         "name": "SkyReels V4",
         "elo": 1238,
-        "appearances": 6767,
+        "appearances": 6768,
         "creator": "Skywork AI",
         "reddit": {
           "mentions": 3,
@@ -6148,7 +6148,7 @@
       {
         "name": "Veo 3.1 Preview",
         "elo": 1224,
-        "appearances": 4772,
+        "appearances": 4775,
         "creator": "Google",
         "reddit": {
           "mentions": 3,
@@ -6177,7 +6177,7 @@
       {
         "name": "Veo 3 Preview",
         "elo": 1221,
-        "appearances": 3058,
+        "appearances": 3062,
         "creator": "Google",
         "reddit": {
           "mentions": 3,
@@ -6206,7 +6206,7 @@
       {
         "name": "PixVerse V6",
         "elo": 1221,
-        "appearances": 9122,
+        "appearances": 9123,
         "creator": "PixVerse",
         "reddit": {
           "mentions": 0,
@@ -6227,7 +6227,7 @@
       {
         "name": "Runway Gen-4.5",
         "elo": 1218,
-        "appearances": 9022,
+        "appearances": 9025,
         "creator": "Runway",
         "reddit": {
           "mentions": 0,
@@ -6246,7 +6246,7 @@
         "rank": 15
       }
     ],
-    "fetchedAt": "2026-05-02T16:41:07.041268+00:00",
+    "fetchedAt": "2026-05-02T22:35:10.721190+00:00",
     "sources": [
       "Artificial Analysis",
       "LM Arena",
