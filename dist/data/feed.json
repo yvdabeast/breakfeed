@@ -1,211 +1,6 @@
 {
-  "generatedAt": "2026-05-13T06:45:33.854636+00:00",
-  "twitter": [
-    {
-      "source": "x",
-      "name": "Andrej Karpathy",
-      "handle": "karpathy",
-      "bio": "I like to train large deep neural nets. Previously Director of AI @ Tesla, founding team @ OpenAI, PhD @ Stanford.",
-      "tweets": [
-        {
-          "id": "2053872850101285137",
-          "text": "This works really well btw, at the end of your query ask your LLM to \"structure your response as HTML\", then view the generated file in your browser. I've also had some success asking the LLM to present its output as slideshows, etc.\n\nMore generally, imo audio is the human-preferred input to AIs but vision (images/animations/video) is the preferred output from them. Around a ~third of our brains are a massively parallel processor dedicated to vision, it is the 10-lane superhighway of information into brain. As AI improves, I think we'll see a progression that takes advantage:\n\n1) raw text (hard/effortful to read)\n2) markdown (bold, italic, headings, tables, a bit easier on the eyes) <-- current default\n3) HTML (still procedural with underlying code, but a lot more flexibility on the graphics, layout, even interactivity) <-- early but forming new good default\n...4,5,6,...\nn) interactive neural videos/simulations\n\nImo the extrapolation (though the technology doesn't exist just yet) ends in some kind of interactive videos generated directly by a diffusion neural net. Many open questions as to how exact/procedural \"Software 1.0\" artifacts (e.g. interactive simulations) may be woven together with neural artifacts (diffusion grids), but generally something in the direction of the recently viral https://t.co/z21CP5iQfu\n\nThere are also improvements necessary and pending at the input. Audio nor text nor video alone are not enough, e.g. I feel a need to point/gesture to things on the screen, similar to all the things you would do with a person physically next to you and your computer screen.\n\nTLDR The input/output mind meld between humans and AIs is ongoing and there is a lot of work to do and significant progress to be made, way before jumping all the way into neuralink-esque BCIs and all that. For what's worth exploring at the current stage, hot tip try ask for HTML.",
-          "createdAt": "2026-05-11T16:20:21.000Z",
-          "url": "https://x.com/karpathy/status/2053872850101285137",
-          "likes": 13038,
-          "retweets": 1338,
-          "replies": 662,
-          "isQuote": true,
-          "quotedTweetId": "2052809885763747935",
-          "summary_zh": "跟 AI 聊天的时候，你可以在最后请求它把答案格式化成 HTML（网页代码），这样你可以在浏览器里更好地查看结果。未来，音频是人跟 AI 的最佳输入方式，而视觉（比如图像和视频）会是它们的最佳输出形式。AI 会不断进步，从简单文本到更复杂的 HTML，甚至未来可能会有互动视频。虽然现在的技术还不够成熟，但探索这些新方式会让我们和 AI 的互动变得更有趣、更直观。记得试试看让 AI 生成 HTML 哦！"
-        }
-      ],
-      "bio_zh": "前 Tesla AI 总监、前 OpenAI 创始成员，斯坦福 CS PhD，现创办 Eureka Labs 做 AI 教育",
-      "fetchDate": "2026-05-13"
-    },
-    {
-      "source": "x",
-      "name": "Swyx",
-      "handle": "swyx",
-      "bio": "achieve ambition with intentionality, intensity, integrity & insanity.\n\naffiliations:\n- @dxtipshq \n- @cognition\n- @temporalio\n- @aidotengineer\n- @latentspacepod",
-      "tweets": [
-        {
-          "id": "2054057995492061651",
-          "text": "my highlights\n\nhttps://t.co/aIfwZMvDSt",
-          "createdAt": "2026-05-12T04:36:03.000Z",
-          "url": "https://x.com/swyx/status/2054057995492061651",
-          "likes": 1,
-          "retweets": 0,
-          "replies": 0,
-          "isQuote": true,
-          "quotedTweetId": "2054057835043139834",
-          "summary_zh": "这是一个人分享了他的一些精彩片段或感悟，链接里可能有详细内容让大家看。简单来说，就是他推荐的有趣或重要的 AI 相关内容。"
-        },
-        {
-          "id": "2053989439945498934",
-          "text": "https://t.co/vT9CDBhJQE",
-          "createdAt": "2026-05-12T00:03:38.000Z",
-          "url": "https://x.com/swyx/status/2053989439945498934",
-          "likes": 7,
-          "retweets": 0,
-          "replies": 4,
-          "isQuote": true,
-          "quotedTweetId": "2053940218747842619",
-          "summary_zh": ""
-        },
-        {
-          "id": "2053960011748098462",
-          "text": "I believe the kids call this \"@thinkymachines just brutally framemogged gdm and oai\". \n\nbasically everyone's definition of \"realtime\" just got a massive frciking upgrade https://t.co/a5fzSV9Yec https://t.co/29N7XIF6F9",
-          "createdAt": "2026-05-11T22:06:42.000Z",
-          "url": "https://x.com/swyx/status/2053960011748098462",
-          "likes": 798,
-          "retweets": 31,
-          "replies": 33,
-          "isQuote": true,
-          "quotedTweetId": "2053958016719020223",
-          "summary_zh": "@thinkymachines 的新技术让大家对“实时”（就是能马上反应和处理事情）这个概念有了全新的理解，提升得很厉害！"
-        }
-      ],
-      "bio_zh": "AI 开发者社区意见领袖，Latent Space 播客主理人，前 AWS/Netlify 工程师",
-      "fetchDate": "2026-05-13"
-    },
-    {
-      "source": "x",
-      "name": "Kevin Weil",
-      "handle": "kevinweil",
-      "bio": "VP Science @OpenAI, BoD @Cisco @nature_org, LTC @USArmyReserve\nEx: Pres @Planet, Head of Product @Instagram @Twitter\n❤️ @elizabeth ultramarathons kids cats math",
-      "tweets": [
-        {
-          "id": "2054063509869306204",
-          "text": "This from @tdrobbo is gold. https://t.co/8J44zVQW2X",
-          "createdAt": "2026-05-12T04:57:58.000Z",
-          "url": "https://x.com/kevinweil/status/2054063509869306204",
-          "likes": 12,
-          "retweets": 1,
-          "replies": 2,
-          "isQuote": true,
-          "quotedTweetId": "2053836764997959898",
-          "summary_zh": "这条推文是在夸赞一个叫 @tdrobbo 的人的内容，觉得内容很有价值，称之为“黄金”（就是意思非常好、很珍贵）。"
-        }
-      ],
-      "bio_zh": "OpenAI 产品副总裁，前 Instagram/Twitter 产品负责人",
-      "fetchDate": "2026-05-13"
-    },
-    {
-      "source": "x",
-      "name": "Peter Yang",
-      "handle": "petergyang",
-      "bio": "Practical AI tutorials and interviews for busy people | Join 140K+ readers at https://t.co/XYKTmGVH14 | Product at Roblox",
-      "tweets": [
-        {
-          "id": "2054038194547777993",
-          "text": "Why does SoCal have so much world class kids stuff (Disney, Legoland, Universal, Zoo, etc) but in the Bay Area we can't keep our only amusement park alive",
-          "createdAt": "2026-05-12T03:17:22.000Z",
-          "url": "https://x.com/petergyang/status/2054038194547777993",
-          "likes": 317,
-          "retweets": 3,
-          "replies": 48,
-          "isQuote": false,
-          "quotedTweetId": null,
-          "summary_zh": "南加州有很多世界级的儿童游乐设施（比如迪士尼乐园、乐高乐园、环球影城和动物园），但在旧金山湾区却无法维持住唯一的游乐园，真让人费解。"
-        },
-        {
-          "id": "2054036372215025962",
-          "text": "\"omg this is taking forever I hate AI\" 😅",
-          "createdAt": "2026-05-12T03:10:07.000Z",
-          "url": "https://x.com/petergyang/status/2054036372215025962",
-          "likes": 1,
-          "retweets": 0,
-          "replies": 1,
-          "isQuote": false,
-          "quotedTweetId": null,
-          "summary_zh": "哎呀，这个事情真是要等到天荒地老了，真让人讨厌 AI！😅"
-        },
-        {
-          "id": "2054036027791294696",
-          "text": "Turns out everyone just loves shipping https://t.co/bsqtEXA2ID",
-          "createdAt": "2026-05-12T03:08:45.000Z",
-          "url": "https://x.com/petergyang/status/2054036027791294696",
-          "likes": 1,
-          "retweets": 0,
-          "replies": 0,
-          "isQuote": true,
-          "quotedTweetId": "2054023219611676795",
-          "summary_zh": "大家似乎都很喜欢快速发布新产品呀！这可能是在说人们对快速推出新功能或项目（“shipping”）的热情。"
-        }
-      ],
-      "bio_zh": "Roblox 产品经理，14 万订阅的 AI 实操教程作者",
-      "fetchDate": "2026-05-13"
-    },
-    {
-      "source": "x",
-      "name": "Amanda Askell",
-      "handle": "AmandaAskell",
-      "bio": "Philosopher & ethicist trying to make AI be good @AnthropicAI.\nPersonal account. All opinions come from my training data.",
-      "tweets": [
-        {
-          "id": "2054010971765805486",
-          "text": "You can now listen to me and Joe read out Claude's constitution as an audiobook. Working on adding the option of listening to it on fast mode :) https://t.co/jxIy7Jjnlk",
-          "createdAt": "2026-05-12T01:29:12.000Z",
-          "url": "https://x.com/AmandaAskell/status/2054010971765805486",
-          "likes": 416,
-          "retweets": 22,
-          "replies": 61,
-          "isQuote": true,
-          "quotedTweetId": "2053881827396653207",
-          "summary_zh": "现在你可以听我和 Joe 朗读 Claude 的宪法（就是关于 AI 行为和价值观的基本规则）的有声书了！我们还在加快听的速度选项哦 :)"
-        }
-      ],
-      "bio_zh": "Anthropic 对齐研究员，负责 Claude 的性格和价值观设计",
-      "fetchDate": "2026-05-13"
-    },
-    {
-      "source": "x",
-      "name": "Cat Wu",
-      "handle": "_catwu",
-      "bio": "claude code + cowork @anthropicai, prev: @dagster, @scale_ai",
-      "tweets": [
-        {
-          "id": "2053999857799672111",
-          "text": "run `claude agents` for a control plane in your terminal!  \n\nafter, hit `&lt;-` from any cli session to register that with the control plane\n\npersonally, i like to run `claude agents` from my root code dir to manage all my claude code agents in one place https://t.co/umLJ5tZ5ug",
-          "createdAt": "2026-05-12T00:45:02.000Z",
-          "url": "https://x.com/_catwu/status/2053999857799672111",
-          "likes": 327,
-          "retweets": 25,
-          "replies": 27,
-          "isQuote": true,
-          "quotedTweetId": "2053940934736228454",
-          "summary_zh": "可以在你的电脑终端运行一个叫“claude agents”的程序，这样你就能更方便地管理你的AI代码。作者自己喜欢在自己的代码文件夹里运行这个程序，这样能把所有的AI代码集中管理。"
-        },
-        {
-          "id": "2053874851824419056",
-          "text": "https://t.co/YHW4oSmch8",
-          "createdAt": "2026-05-11T16:28:18.000Z",
-          "url": "https://x.com/_catwu/status/2053874851824419056",
-          "likes": 4,
-          "retweets": 0,
-          "replies": 0,
-          "isQuote": true,
-          "quotedTweetId": "2053868710595887523",
-          "summary_zh": ""
-        },
-        {
-          "id": "2053873949646405879",
-          "text": "We'd love to hear your feedback for Claude Code in the cloud across Desktop (cloud option), iOS app, and Android app\n\nSign up for our office hours below: https://t.co/DhH9rl3nvV",
-          "createdAt": "2026-05-11T16:24:43.000Z",
-          "url": "https://x.com/_catwu/status/2053873949646405879",
-          "likes": 71,
-          "retweets": 2,
-          "replies": 10,
-          "isQuote": true,
-          "quotedTweetId": "2053868665108664631",
-          "summary_zh": "他们希望听到大家对“Claude Code”这个在云端的工具（可以在电脑和手机上用）反馈的意见。想参加讨论的朋友可以注册他们的办公室时间。"
-        }
-      ],
-      "bio_zh": "Anthropic 早期员工，AI 安全研究者",
-      "fetchDate": "2026-05-13"
-    }
-  ],
+  "generatedAt": "2026-05-13T12:01:58.281941+00:00",
+  "twitter": [],
   "twitter_history": [
     {
       "date": "2026-05-12",
@@ -3031,6 +2826,56 @@
   ],
   "podcasts": [
     {
+      "name": "Lenny's Podcast",
+      "title": "Mission protection can't wait",
+      "videoId": "piECgduPrRA",
+      "url": "https://youtube.com/watch?v=piECgduPrRA",
+      "publishedAt": "2026-05-13T11:01:17+00:00",
+      "isShort": false,
+      "fetchDate": "2026-05-13",
+      "summary_zh": "这个视频探讨了在当今快速变化的商业环境中，对企业保护和风险管理的紧迫性。节目中邀请的嘉宾分享了他们如何看待技术与企业责任之间的关系，以及在面对不断变化的市场时，企业如何通过创新和高效的策略来保证生存和发展。\n\n💡 值得一看 — 视频中涉及的企业保护和风险管理与Logic Labs的AI产品开发有间接联系，可能为你在电商和创意设计领域提供一些启示。"
+    },
+    {
+      "name": "Google DeepMind",
+      "title": "Reimagining a 50-year-old interface (the mouse pointer) with AI",
+      "videoId": "pZNzfQLgGsA",
+      "url": "https://youtube.com/watch?v=pZNzfQLgGsA",
+      "publishedAt": "2026-05-13T09:07:06+00:00",
+      "isShort": false,
+      "fetchDate": "2026-05-13",
+      "summary_zh": "这个视频探讨了如何利用人工智能重新构想已有50年的鼠标指针界面。通过展示AI在界面设计中的创新应用，DeepMind团队提出了让人机交互更加自然和高效的想法，旨在改进我们日常使用的工具。\n\n🎯 推荐 Yves 观看 — 该视频涉及AI在设计界面的应用，相关于Logic Labs和TexTale的创意设计和产品开发。"
+    },
+    {
+      "name": "TBPN",
+      "title": "Altman’s Testimony, AI SPV Drama, Ebay Rejects $GME Bid | Diet TBPN",
+      "videoId": "XZ5D1NUb4yE",
+      "url": "https://youtube.com/watch?v=XZ5D1NUb4yE",
+      "publishedAt": "2026-05-13T06:02:16+00:00",
+      "isShort": false,
+      "fetchDate": "2026-05-13",
+      "summary_zh": "该视频讨论了OpenAI首席执行官山姆·阿尔特曼在国会作证的内容，分析了AI风险投资公司的动态以及eBay拒绝了GameStop的收购提案。这些话题涉及当前AI技术和投资环境的重大变化。\n\n🎯 推荐 Yves 观看 — 这个视频能帮助你了解AI行业的最新动态和投资趋势，这对Logic Labs和TexTale的战略决策和品牌发展都非常有参考价值。"
+    },
+    {
+      "name": "Matt Wolfe",
+      "title": "How controversy on Twitter/X helps solve problems | Lex Fridman Podcast",
+      "videoId": "1vJyN6cQuF8",
+      "url": "https://youtube.com/watch?v=1vJyN6cQuF8",
+      "publishedAt": "2026-05-13T04:00:07+00:00",
+      "isShort": false,
+      "fetchDate": "2026-05-13",
+      "summary_zh": "在这期播客中，Lex Fridman 与 Matt Wolfe 探讨了社交媒体上争议如何能够推动问题的解决。他们分析了当今社交平台如何作为讨论和思想碰撞的空间，甚至在某些情况下能激发创新和变革。通过引入不同的视角，争议可以促使人们深入思考，并形成新的解决方案。\n\n💡 值得一看 — 这段对社交媒体争议的讨论与品牌营销和行业趋势密切相关，可以为 TexTale 在提升品牌影响力和创新营销策略方面提供启示。"
+    },
+    {
+      "name": "Matt Wolfe",
+      "title": "Regret is a tax on your mind - I regret nothing | Lex Fridman Podcast",
+      "videoId": "IWz3ZagX1_w",
+      "url": "https://youtube.com/watch?v=IWz3ZagX1_w",
+      "publishedAt": "2026-05-13T00:00:07+00:00",
+      "isShort": false,
+      "fetchDate": "2026-05-13",
+      "summary_zh": "这个视频是 Lex Fridman 与一位嘉宾的对话，探讨了如何面对后悔以及这一情绪对我们思维和决策的影响。嘉宾分享了自己对后悔的看法，强调了无悔的生活态度如何帮助人们更好地创造和行动。\n\n💡 值得一看 — 该视频提供了关于心理学和创意的重要见解，能够启发 Yves 在品牌营销和创意设计中如何更好地应对困难与挑战。"
+    },
+    {
       "name": "TBPN",
       "title": "Condé Nast CEO Explains Why Human Journalism Wins in the AI Era",
       "videoId": "0AuD76FK3u4",
@@ -3579,56 +3424,6 @@
       "isShort": false,
       "fetchDate": "2026-05-07",
       "summary_zh": "这个视频讨论了OpenAI和Anthropic之间的竞争关系，深入分析了两家公司在人工智能领域的不同战略和目标。通过对比它们的技术、价值观和市场定位，观众可以更清楚地了解当前AI行业的动态和未来趋势。\n\n🎯 推荐 Yves 观看 — 该视频提供了有关AI工具和产品开发的深度见解，对Logic Labs在AI领域的应用和TexTale在电商中如何利用AI技术有直接的启发作用。"
-    },
-    {
-      "name": "TBPN",
-      "title": "One second, just need to refuel my laptop",
-      "videoId": "WWpwj0THSu0",
-      "url": "https://youtube.com/watch?v=WWpwj0THSu0",
-      "publishedAt": "2026-05-07T20:57:30+00:00",
-      "isShort": false,
-      "fetchDate": "2026-05-07",
-      "summary_zh": "这个视频分享了一位创意工作者的日常，重点描绘了他使用 AI 工具提升工作效率的过程。在短短的一秒钟内，他展示了如何快速获取灵感并续航自己的创作，不仅展现了技术与创意结合的魅力，也反映了现代创作环境的节奏和变化。\n\n🎯 推荐 Yves 观看 — 该视频中的创作灵感获取方式与 Logic Labs 和 TexTale 的产品设计与运营有直接联系，对于提升创意设计能力尤为重要。"
-    },
-    {
-      "name": "TBPN",
-      "title": "Chat, give me your craziest ideas for a sci-fi novel",
-      "videoId": "c4dsWSpP1a0",
-      "url": "https://youtube.com/watch?v=c4dsWSpP1a0",
-      "publishedAt": "2026-05-07T20:56:02+00:00",
-      "isShort": false,
-      "fetchDate": "2026-05-07",
-      "summary_zh": "这个视频讨论了如何利用 ChatGPT 等 AI 工具产生科幻小说的创造性构思。主持人与观众互动，分享了一些有趣的想法，展现了 AI 在创意写作中的潜力和灵感来源。\n\n💡 值得一看 — 视频中展示了AI如何激发创意思维，这对Yves在Logic Labs和TexTale的创意设计工作有一定的启发意义。"
-    },
-    {
-      "name": "Fireship",
-      "title": "Every operating system concept in one video…",
-      "videoId": "MtxP2pyCvYA",
-      "url": "https://youtube.com/watch?v=MtxP2pyCvYA",
-      "publishedAt": "2026-05-07T17:32:34+00:00",
-      "isShort": false,
-      "fetchDate": "2026-05-08",
-      "summary_zh": "这个视频涵盖了操作系统的基本概念，通过简单易懂的方式介绍了各类操作系统的工作原理和功能，包括进程管理、内存管理和文件系统等。对于任何想要理解计算机内部运作的人来说，这是一场快速而全面的讲解。\n\n💡 值得一看 — 这段视频能帮助 Yves 更好地理解操作系统在开发 AI 工具时的背后原理，对 Logic Labs 和 TexTale 的技术实现提供思路。"
-    },
-    {
-      "name": "South Park Commons",
-      "title": "tldraw's Steve Ruiz: The Infinite Canvas & the Death of Traditional Design",
-      "videoId": "hNUEaFmPAwc",
-      "url": "https://youtube.com/watch?v=hNUEaFmPAwc",
-      "publishedAt": "2026-05-07T16:23:17+00:00",
-      "isShort": false,
-      "fetchDate": "2026-05-07",
-      "summary_zh": "视频中，Steve Ruiz 讨论了 tldraw 这款工具如何改变传统设计的方式，强调了无限画布的概念和数字工具在创意设计中的重要性。他认为这一变革将影响设计师的工作流程，使创作变得更加灵活和便捷。\n\n🎯 推荐 Yves 观看 — 这个视频关注数字工具在设计中的应用，可能对 Logic Labs 的产品开发和 TexTale 的创意设计提供启发。"
-    },
-    {
-      "name": "Data Driven NYC",
-      "title": "OpenAI Board Member Zico Kolter on the Real Risks of Frontier AI",
-      "videoId": "DvyZcCfepeI",
-      "url": "https://youtube.com/watch?v=DvyZcCfepeI",
-      "publishedAt": "2026-05-07T12:30:30+00:00",
-      "isShort": false,
-      "fetchDate": "2026-05-07",
-      "summary_zh": "视频讨论了OpenAI董事会成员Zico Kolter对前沿人工智能技术的真实风险的看法。他强调了AI发展带来的潜在威胁，以及在推进技术创新的同时，如何更好地管理这些风险，以确保科技进步不会对社会造成负面影响。\n\n🎯 推荐 Yves 观看 — 这个视频对于理解前沿AI技术的风险及其对创意设计和电商运营的影响非常重要，尤其是作为Logic Labs和TexTale的联合创始人，能够更深入地洞悉行业动向。"
     }
   ],
   "producthunt": [
@@ -3637,7 +3432,7 @@
       "name": "Fathom 3.0",
       "tagline": "AI meeting notes: now bot-free, in ChatGPT & Claude + more",
       "url": "https://www.producthunt.com/products/fathom/launches/fathom-3-0?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Breakfeed+%28ID%3A+279433%29",
-      "votes": 779,
+      "votes": 781,
       "comments": 234,
       "topics": [
         "Productivity",
@@ -3652,8 +3447,8 @@
       "rank": 2,
       "name": "Plurai",
       "tagline": "Vibe-train evals and guardrails tailored to your use case",
-      "url": "https://www.producthunt.com/products/plurai?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Breakfeed+%28ID%3A+279433%29",
-      "votes": 749,
+      "url": "https://www.producthunt.com/products/plurai/launches/plurai?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Breakfeed+%28ID%3A+279433%29",
+      "votes": 751,
       "comments": 228,
       "topics": [
         "API",
@@ -3669,7 +3464,7 @@
       "name": "Clera",
       "tagline": "An AI agent matching candidates to the right roles.",
       "url": "https://www.producthunt.com/products/clera/launches/clera?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Breakfeed+%28ID%3A+279433%29",
-      "votes": 716,
+      "votes": 719,
       "comments": 238,
       "topics": [
         "Hiring",
@@ -3685,7 +3480,7 @@
       "name": "Kilo Code v7 for VS Code",
       "tagline": "Parallel agents, diff reviewer, and multi-model comparisons",
       "url": "https://www.producthunt.com/products/kilocode?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Breakfeed+%28ID%3A+279433%29",
-      "votes": 661,
+      "votes": 667,
       "comments": 143,
       "topics": [
         "Open Source",
@@ -3699,6 +3494,23 @@
     },
     {
       "rank": 5,
+      "name": "Open Wearables",
+      "tagline": "Open infrastructure for wearable-powered health products.",
+      "url": "https://www.producthunt.com/products/open-wearables/launches/open-wearables-3?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Breakfeed+%28ID%3A+279433%29",
+      "votes": 635,
+      "comments": 316,
+      "topics": [
+        "Open Source",
+        "Wearables",
+        "Developer Tools",
+        "GitHub"
+      ],
+      "thumbnail": "https://ph-files.imgix.net/4c2418e7-e7e9-48f3-8b7a-61b173e034c1.svg?auto=format",
+      "screenshot": "https://ph-files.imgix.net/14b76f8f-e685-4794-841a-287ea15b556e.jpeg?auto=format",
+      "summary_zh": "Open Wearables是一种开放的基础设施，旨在支持可穿戴健康产品的开发。它提供一系列工具和资源，帮助开发者设计和构建基于可穿戴设备的健康监测应用。用户可以通过这些产品实时跟踪健康数据，提升健康意识。"
+    },
+    {
+      "rank": 6,
       "name": "Dune",
       "tagline": "Context-aware Mac keypad to automate workflows + meetings",
       "url": "https://www.producthunt.com/products/dune-4/launches/dune-5?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Breakfeed+%28ID%3A+279433%29",
@@ -3714,29 +3526,12 @@
       "summary_zh": "Dune是一款智能的Mac键盘，可以根据上下文智能自动化工作流程和会议管理。它能够简化操作，提高效率，让你更专注于重要的任务。"
     },
     {
-      "rank": 6,
-      "name": "Open Wearables",
-      "tagline": "Open infrastructure for wearable-powered health products.",
-      "url": "https://www.producthunt.com/products/open-wearables?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Breakfeed+%28ID%3A+279433%29",
-      "votes": 633,
-      "comments": 316,
-      "topics": [
-        "Open Source",
-        "Wearables",
-        "Developer Tools",
-        "GitHub"
-      ],
-      "thumbnail": "https://ph-files.imgix.net/4c2418e7-e7e9-48f3-8b7a-61b173e034c1.svg?auto=format",
-      "screenshot": "https://ph-files.imgix.net/14b76f8f-e685-4794-841a-287ea15b556e.jpeg?auto=format",
-      "summary_zh": "Open Wearables是一种开放的基础设施，旨在支持可穿戴健康产品的开发。它提供一系列工具和资源，帮助开发者设计和构建基于可穿戴设备的健康监测应用。用户可以通过这些产品实时跟踪健康数据，提升健康意识。"
-    },
-    {
       "rank": 7,
       "name": "RankSpot",
       "tagline": "AI SEO Blog driven by deep competitor intelligence",
       "url": "https://www.producthunt.com/products/rankspot?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Breakfeed+%28ID%3A+279433%29",
-      "votes": 625,
-      "comments": 100,
+      "votes": 631,
+      "comments": 101,
       "topics": [
         "Marketing",
         "SEO",
@@ -3767,7 +3562,7 @@
       "name": "Velo 2.0",
       "tagline": "Instantly turn your voice and screen into shareable videos",
       "url": "https://www.producthunt.com/products/velo-4?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Breakfeed+%28ID%3A+279433%29",
-      "votes": 596,
+      "votes": 598,
       "comments": 91,
       "topics": [
         "Productivity",
@@ -3863,7 +3658,7 @@
       "name": "Postiz",
       "tagline": "Agentic social media scheduler for agents like OpenClaw",
       "url": "https://www.producthunt.com/products/postiz?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Breakfeed+%28ID%3A+279433%29",
-      "votes": 554,
+      "votes": 555,
       "comments": 57,
       "topics": [
         "Social Media",
@@ -3880,8 +3675,8 @@
       "repo": "tinyhumansai/openhuman",
       "description": "Your Personal AI super intelligence. Private, Simple and extremely powerful.",
       "language": "Rust",
-      "stars": 3200,
-      "starsToday": 1014,
+      "stars": 3707,
+      "starsToday": 1595,
       "url": "https://github.com/tinyhumansai/openhuman",
       "summary_zh": "这个项目是一个个人智能助手，可以帮助用户处理复杂的任务，使用方便并且注重隐私保护。对于Yves来说，这个项目可能对Logic Labs（AI公司）特别有帮助，因为它能为他们的AI解决方案提供新的灵感和技术支持，同时也可以提升他在创意设计方面的工作效率。"
     },
@@ -3889,82 +3684,82 @@
       "repo": "rohitg00/agentmemory",
       "description": "#1 Persistent memory for AI coding agents based on real-world benchmarks",
       "language": "TypeScript",
-      "stars": 6269,
-      "starsToday": 1048,
+      "stars": 6633,
+      "starsToday": 1335,
       "url": "https://github.com/rohitg00/agentmemory",
       "summary_zh": "这个项目致力于为人工智能编码代理提供持久内存，帮助它们在实际应用中更好地记住和利用历史信息，以提高编程效率和准确性。对Yves来说，Logic Labs的AI项目能够利用这个技术提升AI模型的智能水平和用户体验，从而更好地服务于客户需求。作为创意设计从业者，他也可以借此了解如何将智能记忆功能应用于设计过程，提升创意迸发的效率。"
     },
     {
-      "repo": "CloakHQ/CloakBrowser",
-      "description": "Stealth Chromium that passes every bot detection test. Drop-in Playwright replacement with source-level fingerprint patches. 30/30 tests passed.",
-      "language": "Python",
-      "stars": 8366,
-      "starsToday": 1606,
-      "url": "https://github.com/CloakHQ/CloakBrowser",
-      "summary_zh": "这个项目是一个基于 Chromium 的浏览器，能够通过所有的机器人检测测试，帮助用户保持匿名和安全，适合作为 Playwright 的替代品。对于 Yves 来说，这个工具可以帮助 TexTale 提高电商网站的数据抓取和分析能力，同时在品牌营销方面保持数据的私密性，对于提升创意设计和优化用户体验也具有一定的价值。"
-    },
-    {
-      "repo": "apernet/hysteria",
-      "description": "Hysteria is a powerful, lightning fast and censorship resistant proxy.",
-      "language": "Go",
-      "stars": 20358,
-      "starsToday": 51,
-      "url": "https://github.com/apernet/hysteria",
-      "summary_zh": "Hysteria 是一个快速且抗审查的代理工具，可以帮助用户更安全地访问互联网，保护个人隐私。对于 Yves 来说，这个项目可能对 Logic Labs 更有帮助，因为它可以确保AI模型的安全访问与数据传输，避免潜在的网络限制。作为创意设计从业者，他也能利用这个工具了解行业动态和浏览国外创意资源。"
-    },
-    {
-      "repo": "mattpocock/skills",
-      "description": "Skills for Real Engineers. Straight from my .claude directory.",
+      "repo": "obra/superpowers",
+      "description": "An agentic skills framework & software development methodology that works.",
       "language": "Shell",
-      "stars": 76989,
-      "starsToday": 3867,
-      "url": "https://github.com/mattpocock/skills",
-      "summary_zh": "这个项目提供了一些实用的脚本和工具，可以帮助开发者更高效地管理和使用他们的技能。对Yves来说，这个项目可以为Logic Labs的AI开发工作提供支持，帮助团队更好地构建和维护AI应用，同时也能激发其在创意设计领域的技术应用灵感。"
-    },
-    {
-      "repo": "anonfaded/FadCam",
-      "description": "Open-source, ad-free Android multimedia recorder with background video recording, screen recording, live streaming, and remote camera control",
-      "language": "Java",
-      "stars": 2306,
-      "starsToday": 116,
-      "url": "https://github.com/anonfaded/FadCam",
-      "summary_zh": "这个项目是一个开源的多媒体录制工具，可以在安卓设备上进行背景视频录制、屏幕录制、直播和远程摄像头控制，且没有广告。对于Yves来说，这个项目对TexTale（科技服装电商）可能更有帮助，因为他可以用它来制作产品宣传视频和直播，以吸引顾客。此外，作为创意设计从业者，他也可以利用这个工具捕捉灵感，记录创意过程。"
-    },
-    {
-      "repo": "millionco/react-doctor",
-      "description": "Your agent writes bad React. This catches it",
-      "language": "TypeScript",
-      "stars": 8907,
-      "starsToday": 788,
-      "url": "https://github.com/millionco/react-doctor",
-      "summary_zh": "这个项目是一个工具，可以帮助开发者识别和改进他们在编写 React 代码时的错误。对于Yves来说，Logic Labs（AI公司）可以利用该工具提升开发团队的代码质量，从而提高AI产品的稳定性和性能。同时，对于他在TexTale（科技服装电商）的业务，良好的代码基础也能够支持更创新的电商平台功能和用户体验。"
-    },
-    {
-      "repo": "rasbt/LLMs-from-scratch",
-      "description": "Implement a ChatGPT-like LLM in PyTorch from scratch, step by step",
-      "language": "Jupyter Notebook",
-      "stars": 94003,
-      "starsToday": 772,
-      "url": "https://github.com/rasbt/LLMs-from-scratch",
-      "summary_zh": "这个项目是一个逐步实现类似于 ChatGPT 的大型语言模型，使用 PyTorch 框架，并且通过 Jupyter Notebook 进行展示和讲解。对 Yves 的 Logic Labs（AI 公司）有帮助，因为该项目增强了他对 AI 模型开发的理解，从而可以更好地应用于创造性设计和产品开发中。同时，这也能为 TexTale 提供更智能的客户互动和个性化推荐策略。"
-    },
-    {
-      "repo": "datawhalechina/hello-agents",
-      "description": "📚 《从零开始构建智能体》——从零开始的智能体原理与实践教程",
-      "language": "Python",
-      "stars": 48569,
-      "starsToday": 599,
-      "url": "https://github.com/datawhalechina/hello-agents",
-      "summary_zh": "这个项目是一个教程，旨在帮助用户从零开始学习如何构建智能体，也就是可以自动完成任务的程序，主要使用 Python 编程语言。对于 Yves 来说，这个项目对 Logic Labs（AI 公司）尤其有帮助，因为它提供了构建和应用智能体的实用知识，可以启发新的 AI 项目和创意设计。"
+      "stars": 188821,
+      "starsToday": 1419,
+      "url": "https://github.com/obra/superpowers",
+      "summary_zh": "这个项目是一个关于技能框架和软件开发方法论的平台，旨在帮助人们更有效地开发和管理软件。对于Yves来说，这个项目对其Logic Labs（AI公司）尤其有帮助，因为它可以提供更好的项目管理和技能培养方法，提升团队的开发效率，同时对于创意设计也有助于建立跨学科团队协作。"
     },
     {
       "repo": "yikart/AiToEarn",
       "description": "Let's use AI to Earn!",
       "language": "TypeScript",
-      "stars": 12172,
-      "starsToday": 1282,
+      "stars": 12471,
+      "starsToday": 987,
       "url": "https://github.com/yikart/AiToEarn",
       "summary_zh": "这个项目旨在利用人工智能技术帮助用户通过各种方式赚钱，比如提供服务或参与任务。对于Yves来说，这个项目对Logic Labs（AI公司）尤为有帮助，因为可以更深入地探索AI在商业应用中的潜力，同时也可以帮助TexTale在电商运营中利用AI提升用户体验和收益。作为创意设计从业者，Yves可以从中获取灵感，寻找新的创意方向和设计工具。"
+    },
+    {
+      "repo": "influxdata/telegraf",
+      "description": "Agent for collecting, processing, aggregating, and writing metrics, logs, and other arbitrary data.",
+      "language": "Go",
+      "stars": 16894,
+      "starsToday": 6,
+      "url": "https://github.com/influxdata/telegraf",
+      "summary_zh": "这个项目是一个数据收集代理，可以从不同来源收集、处理和存储数据，包括指标和日志信息。对于Yves来说，这个项目对Logic Labs（AI公司）特别有帮助，能够帮助他们更好地分析和监控AI模型的表现和运行状态，从而提升产品的质量和效率。同时，Telegraf也可以为TexTale提供宝贵的数据洞察，帮助优化电商运营和用户体验。"
+    },
+    {
+      "repo": "millionco/react-doctor",
+      "description": "Your agent writes bad React. This catches it",
+      "language": "TypeScript",
+      "stars": 9029,
+      "starsToday": 620,
+      "url": "https://github.com/millionco/react-doctor",
+      "summary_zh": "这个项目是一个工具，可以帮助开发者识别和改进他们在编写 React 代码时的错误。对于Yves来说，Logic Labs（AI公司）可以利用该工具提升开发团队的代码质量，从而提高AI产品的稳定性和性能。同时，对于他在TexTale（科技服装电商）的业务，良好的代码基础也能够支持更创新的电商平台功能和用户体验。"
+    },
+    {
+      "repo": "K-Dense-AI/scientific-agent-skills",
+      "description": "A set of ready to use Agent Skills for research, science, engineering, analysis, finance and writing.",
+      "language": "Python",
+      "stars": 20842,
+      "starsToday": 83,
+      "url": "https://github.com/K-Dense-AI/scientific-agent-skills",
+      "summary_zh": "这个项目提供了一系列现成的智能助手技能，适用于研究、科学、工程、分析、金融和写作等领域，可以帮助用户快速完成复杂任务。对于Yves来说，这个项目对Logic Labs（AI 公司）特别有帮助，因为它能够提升公司的AI应用能力，促进创新研究和开发，同时也能为TexTale（科技服装电商）在产品描述和市场分析方面提供支持，增强品牌营销的效率。作为创意设计从业者，他可以利用这些工具来快速获取信息和灵感，从而提高设计创作的效率。"
+    },
+    {
+      "repo": "danielmiessler/Personal_AI_Infrastructure",
+      "description": "Agentic AI Infrastructure for magnifying HUMAN capabilities.",
+      "language": "TypeScript",
+      "stars": 13056,
+      "starsToday": 620,
+      "url": "https://github.com/danielmiessler/Personal_AI_Infrastructure",
+      "summary_zh": "这个项目旨在构建一个智能的人工智能基础设施，通过增强人类的能力来提升工作效率。对Yves来说，这个项目可以帮助Logic Labs在AI领域开发更具创意和实用性的解决方案，同时也能为TexTale提供更智能的电商运营工具，以提升客户体验和品牌营销效果。作为创意设计从业者，Yves可以利用该项目的工具来激发设计灵感和提高设计效率。"
+    },
+    {
+      "repo": "supertone-inc/supertonic",
+      "description": "Lightning-Fast, On-Device, Multilingual TTS — running natively via ONNX.",
+      "language": "Swift",
+      "stars": 3798,
+      "starsToday": 53,
+      "url": "https://github.com/supertone-inc/supertonic",
+      "summary_zh": "这个项目是一个快速的、支持多种语言的文本转语音（TTS）系统，可以在设备上本地运行，提升语音合成的效率和质量。对于Yves而言，这个工具可以帮助Logic Labs在AI应用中提升用户体验，尤其是在语音交互方面，同时也能为TexTale的电商平台提供更自然的语音导购或客服功能，增强用户互动体验。作为创意设计从业者，这项技术能够启发他在产品设计和营销中融入更具吸引力的语音元素。"
+    },
+    {
+      "repo": "CloakHQ/CloakBrowser",
+      "description": "Stealth Chromium that passes every bot detection test. Drop-in Playwright replacement with source-level fingerprint patches. 30/30 tests passed.",
+      "language": "Python",
+      "stars": 8879,
+      "starsToday": 1829,
+      "url": "https://github.com/CloakHQ/CloakBrowser",
+      "summary_zh": "这个项目是一个基于 Chromium 的浏览器，能够通过所有的机器人检测测试，帮助用户保持匿名和安全，适合作为 Playwright 的替代品。对于 Yves 来说，这个工具可以帮助 TexTale 提高电商网站的数据抓取和分析能力，同时在品牌营销方面保持数据的私密性，对于提升创意设计和优化用户体验也具有一定的价值。"
     }
   ],
   "aigc_rankings": {
@@ -3972,7 +3767,7 @@
       {
         "name": "GPT Image 1.5 (high)",
         "elo": 1268,
-        "appearances": 5226,
+        "appearances": 5227,
         "creator": "OpenAI",
         "reddit": {
           "mentions": 6,
@@ -4003,7 +3798,7 @@
       {
         "name": "GPT Image 2 (high)",
         "elo": 1337,
-        "appearances": 9474,
+        "appearances": 9479,
         "creator": "OpenAI",
         "reddit": {
           "mentions": 6,
@@ -4055,7 +3850,7 @@
       {
         "name": "Nano Banana 2 (Gemini 3.1 Flash Image Preview)",
         "elo": 1263,
-        "appearances": 6979,
+        "appearances": 6978,
         "creator": "Google",
         "reddit": {
           "mentions": 7,
@@ -4084,7 +3879,7 @@
       {
         "name": "Riverflow 2.0",
         "elo": 1256,
-        "appearances": 5409,
+        "appearances": 5410,
         "creator": "Sourceful",
         "reddit": {
           "mentions": 0,
@@ -4105,7 +3900,7 @@
       {
         "name": "Seedream 4.5",
         "elo": 1166,
-        "appearances": 6370,
+        "appearances": 6371,
         "creator": "ByteDance Seed",
         "reddit": {
           "mentions": 1,
@@ -4136,7 +3931,7 @@
       {
         "name": "Nano Banana Pro (Gemini 3 Pro Image)",
         "elo": 1220,
-        "appearances": 4482,
+        "appearances": 4483,
         "creator": "Google",
         "reddit": {
           "mentions": 7,
@@ -4223,7 +4018,7 @@
       {
         "name": "FLUX.2 [flex]",
         "elo": 1181,
-        "appearances": 4095,
+        "appearances": 4099,
         "creator": "Black Forest Labs",
         "reddit": {
           "mentions": 10,
@@ -4252,7 +4047,7 @@
       {
         "name": "Seedream 4.0",
         "elo": 1198,
-        "appearances": 10542,
+        "appearances": 10543,
         "creator": "ByteDance Seed",
         "reddit": {
           "mentions": 1,
@@ -4281,7 +4076,7 @@
       {
         "name": "MAI-Image-2",
         "elo": 1196,
-        "appearances": 3953,
+        "appearances": 3956,
         "creator": "Microsoft",
         "reddit": {
           "mentions": 0,
@@ -4331,7 +4126,7 @@
       {
         "name": "FLUX.2 [dev] Turbo",
         "elo": 1161,
-        "appearances": 4178,
+        "appearances": 4179,
         "creator": "Fal",
         "reddit": {
           "mentions": 10,
@@ -4359,8 +4154,8 @@
       },
       {
         "name": "FLUX.2 [dev]",
-        "elo": 1159,
-        "appearances": 3522,
+        "elo": 1160,
+        "appearances": 3524,
         "creator": "Black Forest Labs",
         "reddit": {
           "mentions": 10,
@@ -4379,7 +4174,7 @@
           "votes": 0,
           "name": ""
         },
-        "compositeScore": 31.6,
+        "compositeScore": 31.8,
         "sources": [
           "AA",
           "Reddit"
@@ -4453,7 +4248,7 @@
       {
         "name": "grok-imagine-video",
         "elo": 1232,
-        "appearances": 6232,
+        "appearances": 6231,
         "creator": "xAI",
         "reddit": {
           "mentions": 0,
@@ -4476,7 +4271,7 @@
       {
         "name": "Veo 3",
         "elo": 1218,
-        "appearances": 3910,
+        "appearances": 3911,
         "creator": "Google",
         "reddit": {
           "mentions": 3,
@@ -4507,7 +4302,7 @@
       {
         "name": "Vidu Q3 Pro",
         "elo": 1224,
-        "appearances": 6649,
+        "appearances": 6648,
         "creator": "Vidu",
         "reddit": {
           "mentions": 0,
@@ -4530,7 +4325,7 @@
       {
         "name": "PixVerse V5.6",
         "elo": 1220,
-        "appearances": 6001,
+        "appearances": 6002,
         "creator": "PixVerse",
         "reddit": {
           "mentions": 0,
@@ -4553,7 +4348,7 @@
       {
         "name": "Kling 3.0 1080p (Pro)",
         "elo": 1250,
-        "appearances": 5838,
+        "appearances": 5839,
         "creator": "KlingAI",
         "reddit": {
           "mentions": 10,
@@ -4582,7 +4377,7 @@
       {
         "name": "SkyReels V4",
         "elo": 1239,
-        "appearances": 6970,
+        "appearances": 6971,
         "creator": "Skywork AI",
         "reddit": {
           "mentions": 3,
@@ -4611,7 +4406,7 @@
       {
         "name": "Kling 3.0 Omni 1080p (Pro)",
         "elo": 1232,
-        "appearances": 5263,
+        "appearances": 5265,
         "creator": "KlingAI",
         "reddit": {
           "mentions": 10,
@@ -4669,7 +4464,7 @@
       {
         "name": "Bach-1.0 Preview",
         "elo": 1224,
-        "appearances": 4884,
+        "appearances": 4934,
         "creator": "Video Rebirth",
         "reddit": {
           "mentions": 0,
@@ -4690,7 +4485,7 @@
       {
         "name": "Veo 3.1 Preview",
         "elo": 1222,
-        "appearances": 4847,
+        "appearances": 4850,
         "creator": "Google",
         "reddit": {
           "mentions": 3,
@@ -4719,7 +4514,7 @@
       {
         "name": "Veo 3 Preview",
         "elo": 1222,
-        "appearances": 3136,
+        "appearances": 3139,
         "creator": "Google",
         "reddit": {
           "mentions": 3,
@@ -4748,7 +4543,7 @@
       {
         "name": "PixVerse V6",
         "elo": 1221,
-        "appearances": 9192,
+        "appearances": 9191,
         "creator": "PixVerse",
         "reddit": {
           "mentions": 0,
@@ -4769,7 +4564,7 @@
       {
         "name": "Runway Gen-4.5",
         "elo": 1220,
-        "appearances": 9104,
+        "appearances": 9108,
         "creator": "Runway",
         "reddit": {
           "mentions": 0,
@@ -4788,7 +4583,7 @@
         "rank": 15
       }
     ],
-    "fetchedAt": "2026-05-13T06:43:58.113117+00:00",
+    "fetchedAt": "2026-05-13T12:00:16.354224+00:00",
     "sources": [
       "Artificial Analysis",
       "LM Arena",
