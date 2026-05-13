@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-05-13T18:03:19.136942+00:00",
+  "generatedAt": "2026-05-13T23:02:36.520636+00:00",
   "twitter": [],
   "twitter_history": [
     {
@@ -2826,6 +2826,16 @@
   ],
   "podcasts": [
     {
+      "name": "Matt Wolfe",
+      "title": "Linus Torvalds built Git in 10 days | Lex Fridman Podcast",
+      "videoId": "UrSE4c1Ls7g",
+      "url": "https://youtube.com/watch?v=UrSE4c1Ls7g",
+      "publishedAt": "2026-05-13T20:00:07+00:00",
+      "isShort": false,
+      "fetchDate": "2026-05-13",
+      "summary_zh": "这个视频中，Linus Torvalds分享了他在短短10天内构建Git的经历，讲述了背后的思考过程和他对版本控制系统的看法。这个过程不仅展示了技术的快速迭代，也反映了Torvalds的创造力和专注力。\n\n💡 值得一看 — 这个视频提供了关于快速开发和创新思维的深刻见解，对于Yves在Logic Labs和TexTale中的创意设计及产品开发有启发意义。"
+    },
+    {
       "name": "TBPN",
       "title": "Trump-Xi Summit, Inflation Bad, Space Data Centers, Malaysian Fugitive",
       "videoId": "K1n3n3A5eCs",
@@ -3416,16 +3426,6 @@
       "isShort": false,
       "fetchDate": "2026-05-08",
       "summary_zh": "这个视频主要讨论视频压缩技术，包括 H.264、AV1 和 ProRes 等编码标准。通过深入分析这些技术，嘉宾分享了它们在视频质量、压缩效率和播放流畅性方面的优缺点，帮助观众理解如何选择合适的编码方案。\n\n💡 值得一看 — 该视频提供对视频压缩技术的深入见解，对电商中的产品视频制作和创意设计可能带来启发，助于 Yves 在 TexTale 的创意应用中做出更好的选择。"
-    },
-    {
-      "name": "Y Combinator",
-      "title": "Startup School Paris",
-      "videoId": "FHAaGxvGii4",
-      "url": "https://youtube.com/watch?v=FHAaGxvGii4",
-      "publishedAt": "2026-05-08T06:13:57+00:00",
-      "isShort": false,
-      "fetchDate": "2026-05-08",
-      "summary_zh": "视频讲述了在巴黎举行的创业学校活动，分享了一些创业者的故事和经验教训，探讨了如何在竞争激烈的环境中建立成功的初创公司。参与者们讨论了产品开发、市场定位以及如何利用技术和创新来驱动增长。\n\n🎯 推荐 Yves 观看 — 该视频能够帮助您更好地理解创业过程中的挑战和机遇，对于 Logic Labs 和 TexTale 的发展都极具启发性，尤其在结合 AI 和创意设计方面。"
     }
   ],
   "producthunt": [
@@ -3466,7 +3466,7 @@
       "name": "Clera",
       "tagline": "An AI agent matching candidates to the right roles.",
       "url": "https://www.producthunt.com/products/clera/launches/clera?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Breakfeed+%28ID%3A+279433%29",
-      "votes": 722,
+      "votes": 721,
       "comments": 239,
       "topics": [
         "Hiring",
@@ -3483,7 +3483,7 @@
       "tagline": "Parallel agents, diff reviewer, and multi-model comparisons",
       "url": "https://www.producthunt.com/products/kilocode?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Breakfeed+%28ID%3A+279433%29",
       "votes": 669,
-      "comments": 143,
+      "comments": 144,
       "topics": [
         "Open Source",
         "Software Engineering",
@@ -3513,6 +3513,22 @@
     },
     {
       "rank": 6,
+      "name": "RankSpot",
+      "tagline": "AI SEO Blog driven by deep competitor intelligence",
+      "url": "https://www.producthunt.com/products/rankspot?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Breakfeed+%28ID%3A+279433%29",
+      "votes": 634,
+      "comments": 101,
+      "topics": [
+        "Marketing",
+        "SEO",
+        "YC Application"
+      ],
+      "thumbnail": "https://ph-files.imgix.net/f216213c-b209-4651-ad21-a7a60d635c46.png?auto=format",
+      "screenshot": "https://ph-files.imgix.net/31783f12-5478-4bf9-a08a-0e4e1efb0345.png?auto=format",
+      "summary_zh": "RankSpot是一个基于人工智能的SEO博客工具，利用深度竞争对手分析帮助用户优化网站排名。它提供关键字建议、内容优化和竞争分析，助力用户提升搜索引擎可见性。通过RankSpot，用户可以更有效地制定内容策略，获得更多流量。"
+    },
+    {
+      "rank": 7,
       "name": "Dune",
       "tagline": "Context-aware Mac keypad to automate workflows + meetings",
       "url": "https://www.producthunt.com/products/dune-4/launches/dune-5?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Breakfeed+%28ID%3A+279433%29",
@@ -3528,28 +3544,12 @@
       "summary_zh": "Dune是一款智能的Mac键盘，可以根据上下文智能自动化工作流程和会议管理。它能够简化操作，提高效率，让你更专注于重要的任务。"
     },
     {
-      "rank": 7,
-      "name": "RankSpot",
-      "tagline": "AI SEO Blog driven by deep competitor intelligence",
-      "url": "https://www.producthunt.com/products/rankspot?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Breakfeed+%28ID%3A+279433%29",
-      "votes": 633,
-      "comments": 101,
-      "topics": [
-        "Marketing",
-        "SEO",
-        "YC Application"
-      ],
-      "thumbnail": "https://ph-files.imgix.net/f216213c-b209-4651-ad21-a7a60d635c46.png?auto=format",
-      "screenshot": "https://ph-files.imgix.net/31783f12-5478-4bf9-a08a-0e4e1efb0345.png?auto=format",
-      "summary_zh": "RankSpot是一个基于人工智能的SEO博客工具，利用深度竞争对手分析帮助用户优化网站排名。它提供关键字建议、内容优化和竞争分析，助力用户提升搜索引擎可见性。通过RankSpot，用户可以更有效地制定内容策略，获得更多流量。"
-    },
-    {
       "rank": 8,
       "name": "Velo 2.0",
       "tagline": "Instantly turn your voice and screen into shareable videos",
       "url": "https://www.producthunt.com/products/velo-4?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Breakfeed+%28ID%3A+279433%29",
       "votes": 603,
-      "comments": 91,
+      "comments": 92,
       "topics": [
         "Productivity",
         "Sales",
@@ -3596,7 +3596,7 @@
       "name": "Claude Code Routines",
       "tagline": "Put Claude Code tasks on autopilot with smart routines",
       "url": "https://www.producthunt.com/products/claude/launches/claude-code-routines?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Breakfeed+%28ID%3A+279433%29",
-      "votes": 588,
+      "votes": 589,
       "comments": 16,
       "topics": [
         "Productivity",
@@ -3612,7 +3612,7 @@
       "name": "Ask Product Hunt AI",
       "tagline": "Find the right product, just ask",
       "url": "https://www.producthunt.com/products/producthunt/launches/ask-product-hunt-ai?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Breakfeed+%28ID%3A+279433%29",
-      "votes": 587,
+      "votes": 588,
       "comments": 34,
       "topics": [
         "Productivity",
@@ -3677,7 +3677,7 @@
       "repo": "tinyhumansai/openhuman",
       "description": "Your Personal AI super intelligence. Private, Simple and extremely powerful.",
       "language": "Rust",
-      "stars": 4783,
+      "stars": 5342,
       "starsToday": 1595,
       "url": "https://github.com/tinyhumansai/openhuman",
       "summary_zh": "这个项目是一个个人智能助手，可以帮助用户处理复杂的任务，使用方便并且注重隐私保护。对于Yves来说，这个项目可能对Logic Labs（AI公司）特别有帮助，因为它能为他们的AI解决方案提供新的灵感和技术支持，同时也可以提升他在创意设计方面的工作效率。"
@@ -3686,7 +3686,7 @@
       "repo": "rohitg00/agentmemory",
       "description": "#1 Persistent memory for AI coding agents based on real-world benchmarks",
       "language": "TypeScript",
-      "stars": 7240,
+      "stars": 7535,
       "starsToday": 1335,
       "url": "https://github.com/rohitg00/agentmemory",
       "summary_zh": "这个项目致力于为人工智能编码代理提供持久内存，帮助它们在实际应用中更好地记住和利用历史信息，以提高编程效率和准确性。对Yves来说，Logic Labs的AI项目能够利用这个技术提升AI模型的智能水平和用户体验，从而更好地服务于客户需求。作为创意设计从业者，他也可以借此了解如何将智能记忆功能应用于设计过程，提升创意迸发的效率。"
@@ -3695,7 +3695,7 @@
       "repo": "obra/superpowers",
       "description": "An agentic skills framework & software development methodology that works.",
       "language": "Shell",
-      "stars": 189279,
+      "stars": 189440,
       "starsToday": 1506,
       "url": "https://github.com/obra/superpowers",
       "summary_zh": "这个项目是一个关于技能框架和软件开发方法论的平台，旨在帮助人们更有效地开发和管理软件。对于Yves来说，这个项目对其Logic Labs（AI公司）尤其有帮助，因为它可以提供更好的项目管理和技能培养方法，提升团队的开发效率，同时对于创意设计也有助于建立跨学科团队协作。"
@@ -3704,7 +3704,7 @@
       "repo": "yikart/AiToEarn",
       "description": "Let's use AI to Earn!",
       "language": "TypeScript",
-      "stars": 12772,
+      "stars": 12870,
       "starsToday": 987,
       "url": "https://github.com/yikart/AiToEarn",
       "summary_zh": "这个项目旨在利用人工智能技术帮助用户通过各种方式赚钱，比如提供服务或参与任务。对于Yves来说，这个项目对Logic Labs（AI公司）尤为有帮助，因为可以更深入地探索AI在商业应用中的潜力，同时也可以帮助TexTale在电商运营中利用AI提升用户体验和收益。作为创意设计从业者，Yves可以从中获取灵感，寻找新的创意方向和设计工具。"
@@ -3713,7 +3713,7 @@
       "repo": "influxdata/telegraf",
       "description": "Agent for collecting, processing, aggregating, and writing metrics, logs, and other arbitrary data.",
       "language": "Go",
-      "stars": 16946,
+      "stars": 16985,
       "starsToday": 6,
       "url": "https://github.com/influxdata/telegraf",
       "summary_zh": "这个项目是一个数据收集代理，可以从不同来源收集、处理和存储数据，包括指标和日志信息。对于Yves来说，这个项目对Logic Labs（AI公司）特别有帮助，能够帮助他们更好地分析和监控AI模型的表现和运行状态，从而提升产品的质量和效率。同时，Telegraf也可以为TexTale提供宝贵的数据洞察，帮助优化电商运营和用户体验。"
@@ -3722,7 +3722,7 @@
       "repo": "millionco/react-doctor",
       "description": "Your agent writes bad React. This catches it",
       "language": "TypeScript",
-      "stars": 9167,
+      "stars": 9251,
       "starsToday": 620,
       "url": "https://github.com/millionco/react-doctor",
       "summary_zh": "这个项目是一个工具，可以帮助开发者识别和改进他们在编写 React 代码时的错误。对于Yves来说，Logic Labs（AI公司）可以利用该工具提升开发团队的代码质量，从而提高AI产品的稳定性和性能。同时，对于他在TexTale（科技服装电商）的业务，良好的代码基础也能够支持更创新的电商平台功能和用户体验。"
@@ -3731,7 +3731,7 @@
       "repo": "K-Dense-AI/scientific-agent-skills",
       "description": "A set of ready to use Agent Skills for research, science, engineering, analysis, finance and writing.",
       "language": "Python",
-      "stars": 20995,
+      "stars": 21092,
       "starsToday": 83,
       "url": "https://github.com/K-Dense-AI/scientific-agent-skills",
       "summary_zh": "这个项目提供了一系列现成的智能助手技能，适用于研究、科学、工程、分析、金融和写作等领域，可以帮助用户快速完成复杂任务。对于Yves来说，这个项目对Logic Labs（AI 公司）特别有帮助，因为它能够提升公司的AI应用能力，促进创新研究和开发，同时也能为TexTale（科技服装电商）在产品描述和市场分析方面提供支持，增强品牌营销的效率。作为创意设计从业者，他可以利用这些工具来快速获取信息和灵感，从而提高设计创作的效率。"
@@ -3740,7 +3740,7 @@
       "repo": "danielmiessler/Personal_AI_Infrastructure",
       "description": "Agentic AI Infrastructure for magnifying HUMAN capabilities.",
       "language": "TypeScript",
-      "stars": 13239,
+      "stars": 13327,
       "starsToday": 439,
       "url": "https://github.com/danielmiessler/Personal_AI_Infrastructure",
       "summary_zh": "这个项目旨在构建一个智能的人工智能基础设施，通过增强人类的能力来提升工作效率。对Yves来说，这个项目可以帮助Logic Labs在AI领域开发更具创意和实用性的解决方案，同时也能为TexTale提供更智能的电商运营工具，以提升客户体验和品牌营销效果。作为创意设计从业者，Yves可以利用该项目的工具来激发设计灵感和提高设计效率。"
@@ -3749,7 +3749,7 @@
       "repo": "supertone-inc/supertonic",
       "description": "Lightning-Fast, On-Device, Multilingual TTS — running natively via ONNX.",
       "language": "Swift",
-      "stars": 4100,
+      "stars": 4290,
       "starsToday": 1048,
       "url": "https://github.com/supertone-inc/supertonic",
       "summary_zh": "这个项目是一个快速的、支持多种语言的文本转语音（TTS）系统，可以在设备上本地运行，提升语音合成的效率和质量。对于Yves而言，这个工具可以帮助Logic Labs在AI应用中提升用户体验，尤其是在语音交互方面，同时也能为TexTale的电商平台提供更自然的语音导购或客服功能，增强用户互动体验。作为创意设计从业者，这项技术能够启发他在产品设计和营销中融入更具吸引力的语音元素。"
@@ -3758,7 +3758,7 @@
       "repo": "CloakHQ/CloakBrowser",
       "description": "Stealth Chromium that passes every bot detection test. Drop-in Playwright replacement with source-level fingerprint patches. 30/30 tests passed.",
       "language": "Python",
-      "stars": 9253,
+      "stars": 9437,
       "starsToday": 1829,
       "url": "https://github.com/CloakHQ/CloakBrowser",
       "summary_zh": "这个项目是一个基于 Chromium 的浏览器，能够通过所有的机器人检测测试，帮助用户保持匿名和安全，适合作为 Playwright 的替代品。对于 Yves 来说，这个工具可以帮助 TexTale 提高电商网站的数据抓取和分析能力，同时在品牌营销方面保持数据的私密性，对于提升创意设计和优化用户体验也具有一定的价值。"
@@ -3769,7 +3769,7 @@
       {
         "name": "GPT Image 1.5 (high)",
         "elo": 1268,
-        "appearances": 5228,
+        "appearances": 5229,
         "creator": "OpenAI",
         "reddit": {
           "mentions": 6,
@@ -3800,7 +3800,7 @@
       {
         "name": "GPT Image 2 (high)",
         "elo": 1337,
-        "appearances": 9504,
+        "appearances": 9510,
         "creator": "OpenAI",
         "reddit": {
           "mentions": 6,
@@ -3852,7 +3852,7 @@
       {
         "name": "Nano Banana 2 (Gemini 3.1 Flash Image Preview)",
         "elo": 1263,
-        "appearances": 6984,
+        "appearances": 6986,
         "creator": "Google",
         "reddit": {
           "mentions": 7,
@@ -3902,7 +3902,7 @@
       {
         "name": "Seedream 4.5",
         "elo": 1166,
-        "appearances": 6374,
+        "appearances": 6375,
         "creator": "ByteDance Seed",
         "reddit": {
           "mentions": 1,
@@ -3933,7 +3933,7 @@
       {
         "name": "Nano Banana Pro (Gemini 3 Pro Image)",
         "elo": 1220,
-        "appearances": 4487,
+        "appearances": 4488,
         "creator": "Google",
         "reddit": {
           "mentions": 7,
@@ -3962,7 +3962,7 @@
       {
         "name": "FLUX.2 [max]",
         "elo": 1197,
-        "appearances": 4499,
+        "appearances": 4501,
         "creator": "Black Forest Labs",
         "reddit": {
           "mentions": 10,
@@ -4020,7 +4020,7 @@
       {
         "name": "FLUX.2 [flex]",
         "elo": 1181,
-        "appearances": 4106,
+        "appearances": 4107,
         "creator": "Black Forest Labs",
         "reddit": {
           "mentions": 10,
@@ -4049,7 +4049,7 @@
       {
         "name": "Seedream 4.0",
         "elo": 1197,
-        "appearances": 10546,
+        "appearances": 10547,
         "creator": "ByteDance Seed",
         "reddit": {
           "mentions": 1,
@@ -4078,7 +4078,7 @@
       {
         "name": "MAI-Image-2",
         "elo": 1196,
-        "appearances": 3975,
+        "appearances": 3979,
         "creator": "Microsoft",
         "reddit": {
           "mentions": 0,
@@ -4099,7 +4099,7 @@
       {
         "name": "Imagen 4 Ultra Preview 0606",
         "elo": 1184,
-        "appearances": 4080,
+        "appearances": 4082,
         "creator": "Google",
         "reddit": {
           "mentions": 1,
@@ -4127,8 +4127,8 @@
       },
       {
         "name": "FLUX.2 [dev] Turbo",
-        "elo": 1161,
-        "appearances": 4183,
+        "elo": 1162,
+        "appearances": 4184,
         "creator": "Fal",
         "reddit": {
           "mentions": 10,
@@ -4147,7 +4147,7 @@
           "votes": 0,
           "name": ""
         },
-        "compositeScore": 32.0,
+        "compositeScore": 32.2,
         "sources": [
           "AA",
           "Reddit"
@@ -4186,40 +4186,9 @@
     ],
     "video": [
       {
-        "name": "HappyHorse-1.0",
-        "elo": 1353,
-        "appearances": 8653,
-        "creator": "Alibaba-ATH",
-        "reddit": {
-          "mentions": 2,
-          "upvotes": 334,
-          "topPost": {
-            "title": "A new SOTA local video model (HappyHorse 1.0) will be released in april 10th.",
-            "score": 265,
-            "subreddit": "StableDiffusion",
-            "url": "https://reddit.com/r/StableDiffusion/comments/1sfo3dq/a_new_sota_local_video_model_happyhorse_10_will/",
-            "num_comments": 123,
-            "permalink": "/r/StableDiffusion/comments/1sfo3dq/a_new_sota_local_video_model_happyhorse_10_will/"
-          }
-        },
-        "lmArena": {
-          "elo": 1445,
-          "votes": 14889,
-          "name": "happyhorse-1.0",
-          "category": "image-to-video"
-        },
-        "compositeScore": 82.5,
-        "sources": [
-          "AA",
-          "LM Arena",
-          "Reddit"
-        ],
-        "rank": 1
-      },
-      {
         "name": "Dreamina Seedance 2.0 720p",
-        "elo": 1273,
-        "appearances": 8723,
+        "elo": 1222,
+        "appearances": 8181,
         "creator": "ByteDance Seed",
         "reddit": {
           "mentions": 9,
@@ -4239,7 +4208,38 @@
           "name": "dreamina-seedance-2.0-720p",
           "category": "image-to-video"
         },
-        "compositeScore": 69.3,
+        "compositeScore": 60.4,
+        "sources": [
+          "AA",
+          "LM Arena",
+          "Reddit"
+        ],
+        "rank": 1
+      },
+      {
+        "name": "HappyHorse-1.0",
+        "elo": 1214,
+        "appearances": 7362,
+        "creator": "Alibaba-ATH",
+        "reddit": {
+          "mentions": 2,
+          "upvotes": 334,
+          "topPost": {
+            "title": "A new SOTA local video model (HappyHorse 1.0) will be released in april 10th.",
+            "score": 265,
+            "subreddit": "StableDiffusion",
+            "url": "https://reddit.com/r/StableDiffusion/comments/1sfo3dq/a_new_sota_local_video_model_happyhorse_10_will/",
+            "num_comments": 123,
+            "permalink": "/r/StableDiffusion/comments/1sfo3dq/a_new_sota_local_video_model_happyhorse_10_will/"
+          }
+        },
+        "lmArena": {
+          "elo": 1445,
+          "votes": 14889,
+          "name": "happyhorse-1.0",
+          "category": "image-to-video"
+        },
+        "compositeScore": 58.1,
         "sources": [
           "AA",
           "LM Arena",
@@ -4248,32 +4248,9 @@
         "rank": 2
       },
       {
-        "name": "grok-imagine-video",
-        "elo": 1232,
-        "appearances": 6238,
-        "creator": "xAI",
-        "reddit": {
-          "mentions": 0,
-          "upvotes": 0,
-          "topPost": null
-        },
-        "lmArena": {
-          "elo": 1423,
-          "votes": 333111,
-          "name": "grok-imagine-video-720p",
-          "category": "image-to-video"
-        },
-        "compositeScore": 60.6,
-        "sources": [
-          "AA",
-          "LM Arena"
-        ],
-        "rank": 3
-      },
-      {
-        "name": "Veo 3",
-        "elo": 1218,
-        "appearances": 3917,
+        "name": "Veo 3.1",
+        "elo": 1102,
+        "appearances": 6130,
         "creator": "Google",
         "reddit": {
           "mentions": 3,
@@ -4293,7 +4270,38 @@
           "name": "veo-3.1-audio",
           "category": "image-to-video"
         },
-        "compositeScore": 58.1,
+        "compositeScore": 37.8,
+        "sources": [
+          "AA",
+          "LM Arena",
+          "Reddit"
+        ],
+        "rank": 3
+      },
+      {
+        "name": "Veo 3.1 Fast",
+        "elo": 1100,
+        "appearances": 5085,
+        "creator": "Google",
+        "reddit": {
+          "mentions": 3,
+          "upvotes": 58,
+          "topPost": {
+            "title": "LTX2.3 | 720x1280 | Local Inference Test & A 6-Month Silence",
+            "score": 33,
+            "subreddit": "StableDiffusion",
+            "url": "https://reddit.com/r/StableDiffusion/comments/1rp1v4u/ltx23_720x1280_local_inference_test_a_6month/",
+            "num_comments": 0,
+            "permalink": "/r/StableDiffusion/comments/1rp1v4u/ltx23_720x1280_local_inference_test_a_6month/"
+          }
+        },
+        "lmArena": {
+          "elo": 1384,
+          "votes": 99882,
+          "name": "veo-3.1-fast-audio",
+          "category": "image-to-video"
+        },
+        "compositeScore": 36.8,
         "sources": [
           "AA",
           "LM Arena",
@@ -4302,9 +4310,94 @@
         "rank": 4
       },
       {
+        "name": "Sora 2 Pro",
+        "elo": 1081,
+        "appearances": 4319,
+        "creator": "OpenAI",
+        "reddit": {
+          "mentions": 7,
+          "upvotes": 920,
+          "topPost": {
+            "title": "No more Sora ..?",
+            "score": 467,
+            "subreddit": "StableDiffusion",
+            "url": "https://reddit.com/r/StableDiffusion/comments/1s2pjf0/no_more_sora/",
+            "num_comments": 331,
+            "permalink": "/r/StableDiffusion/comments/1s2pjf0/no_more_sora/"
+          }
+        },
+        "lmArena": {
+          "elo": 1368,
+          "votes": 33475,
+          "name": "sora-2-pro",
+          "category": "text-to-video"
+        },
+        "compositeScore": 34.4,
+        "sources": [
+          "AA",
+          "LM Arena",
+          "Reddit"
+        ],
+        "rank": 5
+      },
+      {
+        "name": "grok-imagine-video",
+        "elo": 1081,
+        "appearances": 6604,
+        "creator": "xAI",
+        "reddit": {
+          "mentions": 0,
+          "upvotes": 0,
+          "topPost": null
+        },
+        "lmArena": {
+          "elo": 1423,
+          "votes": 333111,
+          "name": "grok-imagine-video-720p",
+          "category": "image-to-video"
+        },
+        "compositeScore": 34.2,
+        "sources": [
+          "AA",
+          "LM Arena"
+        ],
+        "rank": 6
+      },
+      {
+        "name": "Sora 2 (December)",
+        "elo": 1087,
+        "appearances": 4545,
+        "creator": "OpenAI",
+        "reddit": {
+          "mentions": 7,
+          "upvotes": 920,
+          "topPost": {
+            "title": "No more Sora ..?",
+            "score": 467,
+            "subreddit": "StableDiffusion",
+            "url": "https://reddit.com/r/StableDiffusion/comments/1s2pjf0/no_more_sora/",
+            "num_comments": 331,
+            "permalink": "/r/StableDiffusion/comments/1s2pjf0/no_more_sora/"
+          }
+        },
+        "lmArena": {
+          "elo": 1339,
+          "votes": 44913,
+          "name": "sora-2",
+          "category": "text-to-video"
+        },
+        "compositeScore": 34.0,
+        "sources": [
+          "AA",
+          "LM Arena",
+          "Reddit"
+        ],
+        "rank": 7
+      },
+      {
         "name": "Vidu Q3 Pro",
-        "elo": 1224,
-        "appearances": 6653,
+        "elo": 1086,
+        "appearances": 6397,
         "creator": "Vidu",
         "reddit": {
           "mentions": 0,
@@ -4317,69 +4410,17 @@
           "name": "vidu-q3-pro",
           "category": "image-to-video"
         },
-        "compositeScore": 57.3,
+        "compositeScore": 33.1,
         "sources": [
           "AA",
           "LM Arena"
         ],
-        "rank": 5
-      },
-      {
-        "name": "PixVerse V5.6",
-        "elo": 1220,
-        "appearances": 6006,
-        "creator": "PixVerse",
-        "reddit": {
-          "mentions": 0,
-          "upvotes": 0,
-          "topPost": null
-        },
-        "lmArena": {
-          "elo": 1302,
-          "votes": 81425,
-          "name": "pixverse-v5.6",
-          "category": "image-to-video"
-        },
-        "compositeScore": 53.6,
-        "sources": [
-          "AA",
-          "LM Arena"
-        ],
-        "rank": 6
-      },
-      {
-        "name": "Kling 3.0 1080p (Pro)",
-        "elo": 1249,
-        "appearances": 5848,
-        "creator": "KlingAI",
-        "reddit": {
-          "mentions": 10,
-          "upvotes": 340,
-          "topPost": {
-            "title": "Last week in Image & Video Generation",
-            "score": 165,
-            "subreddit": "StableDiffusion",
-            "url": "https://reddit.com/r/StableDiffusion/comments/1rwus6o/last_week_in_image_video_generation/",
-            "num_comments": 9,
-            "permalink": "/r/StableDiffusion/comments/1rwus6o/last_week_in_image_video_generation/"
-          }
-        },
-        "lmArena": {
-          "elo": 0,
-          "votes": 0,
-          "name": ""
-        },
-        "compositeScore": 44.3,
-        "sources": [
-          "AA",
-          "Reddit"
-        ],
-        "rank": 7
+        "rank": 8
       },
       {
         "name": "SkyReels V4",
-        "elo": 1239,
-        "appearances": 6976,
+        "elo": 1135,
+        "appearances": 6229,
         "creator": "Skywork AI",
         "reddit": {
           "mentions": 3,
@@ -4398,36 +4439,7 @@
           "votes": 0,
           "name": ""
         },
-        "compositeScore": 42.3,
-        "sources": [
-          "AA",
-          "Reddit"
-        ],
-        "rank": 8
-      },
-      {
-        "name": "Kling 3.0 Omni 1080p (Pro)",
-        "elo": 1232,
-        "appearances": 5273,
-        "creator": "KlingAI",
-        "reddit": {
-          "mentions": 10,
-          "upvotes": 340,
-          "topPost": {
-            "title": "Last week in Image & Video Generation",
-            "score": 165,
-            "subreddit": "StableDiffusion",
-            "url": "https://reddit.com/r/StableDiffusion/comments/1rwus6o/last_week_in_image_video_generation/",
-            "num_comments": 9,
-            "permalink": "/r/StableDiffusion/comments/1rwus6o/last_week_in_image_video_generation/"
-          }
-        },
-        "lmArena": {
-          "elo": 0,
-          "votes": 0,
-          "name": ""
-        },
-        "compositeScore": 41.3,
+        "compositeScore": 24.0,
         "sources": [
           "AA",
           "Reddit"
@@ -4435,9 +4447,61 @@
         "rank": 9
       },
       {
-        "name": "Kling 3.0 Omni 720p (Standard)",
-        "elo": 1224,
-        "appearances": 5300,
+        "name": "Wan 2.6",
+        "elo": 1033,
+        "appearances": 5198,
+        "creator": "Alibaba",
+        "reddit": {
+          "mentions": 0,
+          "upvotes": 0,
+          "topPost": null
+        },
+        "lmArena": {
+          "elo": 1341,
+          "votes": 24738,
+          "name": "wan2.6-t2v",
+          "category": "text-to-video"
+        },
+        "compositeScore": 22.8,
+        "sources": [
+          "AA",
+          "LM Arena"
+        ],
+        "rank": 10
+      },
+      {
+        "name": "Veo 3.1 Preview",
+        "elo": 1111,
+        "appearances": 5842,
+        "creator": "Google",
+        "reddit": {
+          "mentions": 3,
+          "upvotes": 58,
+          "topPost": {
+            "title": "LTX2.3 | 720x1280 | Local Inference Test & A 6-Month Silence",
+            "score": 33,
+            "subreddit": "StableDiffusion",
+            "url": "https://reddit.com/r/StableDiffusion/comments/1rp1v4u/ltx23_720x1280_local_inference_test_a_6month/",
+            "num_comments": 0,
+            "permalink": "/r/StableDiffusion/comments/1rp1v4u/ltx23_720x1280_local_inference_test_a_6month/"
+          }
+        },
+        "lmArena": {
+          "elo": 0,
+          "votes": 0,
+          "name": ""
+        },
+        "compositeScore": 19.6,
+        "sources": [
+          "AA",
+          "Reddit"
+        ],
+        "rank": 11
+      },
+      {
+        "name": "Kling 3.0 Omni 1080p (Pro)",
+        "elo": 1105,
+        "appearances": 6024,
         "creator": "KlingAI",
         "reddit": {
           "mentions": 10,
@@ -4456,57 +4520,7 @@
           "votes": 0,
           "name": ""
         },
-        "compositeScore": 39.9,
-        "sources": [
-          "AA",
-          "Reddit"
-        ],
-        "rank": 10
-      },
-      {
-        "name": "Bach-1.0 Preview",
-        "elo": 1225,
-        "appearances": 5186,
-        "creator": "Video Rebirth",
-        "reddit": {
-          "mentions": 0,
-          "upvotes": 0,
-          "topPost": null
-        },
-        "lmArena": {
-          "elo": 0,
-          "votes": 0,
-          "name": ""
-        },
-        "compositeScore": 39.4,
-        "sources": [
-          "AA"
-        ],
-        "rank": 11
-      },
-      {
-        "name": "Veo 3.1 Preview",
-        "elo": 1222,
-        "appearances": 4860,
-        "creator": "Google",
-        "reddit": {
-          "mentions": 3,
-          "upvotes": 58,
-          "topPost": {
-            "title": "LTX2.3 | 720x1280 | Local Inference Test & A 6-Month Silence",
-            "score": 33,
-            "subreddit": "StableDiffusion",
-            "url": "https://reddit.com/r/StableDiffusion/comments/1rp1v4u/ltx23_720x1280_local_inference_test_a_6month/",
-            "num_comments": 0,
-            "permalink": "/r/StableDiffusion/comments/1rp1v4u/ltx23_720x1280_local_inference_test_a_6month/"
-          }
-        },
-        "lmArena": {
-          "elo": 0,
-          "votes": 0,
-          "name": ""
-        },
-        "compositeScore": 39.0,
+        "compositeScore": 19.1,
         "sources": [
           "AA",
           "Reddit"
@@ -4514,9 +4528,38 @@
         "rank": 12
       },
       {
-        "name": "Veo 3 Preview",
-        "elo": 1222,
-        "appearances": 3143,
+        "name": "Kling 3.0 1080p (Pro)",
+        "elo": 1103,
+        "appearances": 5821,
+        "creator": "KlingAI",
+        "reddit": {
+          "mentions": 10,
+          "upvotes": 340,
+          "topPost": {
+            "title": "Last week in Image & Video Generation",
+            "score": 165,
+            "subreddit": "StableDiffusion",
+            "url": "https://reddit.com/r/StableDiffusion/comments/1rwus6o/last_week_in_image_video_generation/",
+            "num_comments": 9,
+            "permalink": "/r/StableDiffusion/comments/1rwus6o/last_week_in_image_video_generation/"
+          }
+        },
+        "lmArena": {
+          "elo": 0,
+          "votes": 0,
+          "name": ""
+        },
+        "compositeScore": 18.7,
+        "sources": [
+          "AA",
+          "Reddit"
+        ],
+        "rank": 13
+      },
+      {
+        "name": "Veo 3.1 Fast Preview",
+        "elo": 1100,
+        "appearances": 4294,
         "creator": "Google",
         "reddit": {
           "mentions": 3,
@@ -4535,57 +4578,44 @@
           "votes": 0,
           "name": ""
         },
-        "compositeScore": 39.0,
+        "compositeScore": 17.6,
         "sources": [
           "AA",
           "Reddit"
         ],
-        "rank": 13
-      },
-      {
-        "name": "PixVerse V6",
-        "elo": 1222,
-        "appearances": 9196,
-        "creator": "PixVerse",
-        "reddit": {
-          "mentions": 0,
-          "upvotes": 0,
-          "topPost": null
-        },
-        "lmArena": {
-          "elo": 0,
-          "votes": 0,
-          "name": ""
-        },
-        "compositeScore": 38.9,
-        "sources": [
-          "AA"
-        ],
         "rank": 14
       },
       {
-        "name": "Runway Gen-4.5",
-        "elo": 1220,
-        "appearances": 9117,
-        "creator": "Runway",
+        "name": "Kling 3.0 720p (Standard)",
+        "elo": 1090,
+        "appearances": 5628,
+        "creator": "KlingAI",
         "reddit": {
-          "mentions": 0,
-          "upvotes": 0,
-          "topPost": null
+          "mentions": 10,
+          "upvotes": 340,
+          "topPost": {
+            "title": "Last week in Image & Video Generation",
+            "score": 165,
+            "subreddit": "StableDiffusion",
+            "url": "https://reddit.com/r/StableDiffusion/comments/1rwus6o/last_week_in_image_video_generation/",
+            "num_comments": 9,
+            "permalink": "/r/StableDiffusion/comments/1rwus6o/last_week_in_image_video_generation/"
+          }
         },
         "lmArena": {
           "elo": 0,
           "votes": 0,
           "name": ""
         },
-        "compositeScore": 38.5,
+        "compositeScore": 16.4,
         "sources": [
-          "AA"
+          "AA",
+          "Reddit"
         ],
         "rank": 15
       }
     ],
-    "fetchedAt": "2026-05-13T18:01:51.667334+00:00",
+    "fetchedAt": "2026-05-13T23:01:41.243405+00:00",
     "sources": [
       "Artificial Analysis",
       "LM Arena",
