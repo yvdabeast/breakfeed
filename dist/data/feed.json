@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-05-17T16:53:21.874549+00:00",
+  "generatedAt": "2026-05-17T22:49:48.471810+00:00",
   "twitter": [
     {
       "source": "x",
@@ -3078,6 +3078,16 @@
   ],
   "podcasts": [
     {
+      "name": "South Park Commons",
+      "title": "Nikesh Arora: Why ChatGPT Won",
+      "videoId": "MRvCQJCisFo",
+      "url": "https://youtube.com/watch?v=MRvCQJCisFo",
+      "publishedAt": "2026-05-17T18:25:28+00:00",
+      "isShort": false,
+      "fetchDate": "2026-05-17",
+      "summary_zh": "这段视频中，Nikesh Arora 探讨了 ChatGPT 成功的原因，以及它在人工智能领域带来的深远影响。他分析了 ChatGPT 如何满足用户需求，从而在竞争中脱颖而出，并分享了对未来AI发展的见解。\n\n🎯 推荐 Yves 观看 — 这段讨论与人工智能工具的成功机制密切相关，能够帮助 Logic Labs 和 TexTale 在创意设计和产品开发中找到灵感。"
+    },
+    {
       "name": "Data Driven NYC",
       "title": "Customer Support Is Go-To-Market #ai #podcast",
       "videoId": "QgD96iO6XZY",
@@ -3670,16 +3680,6 @@
       "isShort": false,
       "fetchDate": "2026-05-11",
       "summary_zh": "在这期视频中，Matt Wolfe 与 Lex Fridman 探讨了 AI 技术和开源社区之间的关系，他们分析了当前一些 AI 应用中存在的质量问题，以及这些问题如何影响开源项目的整体发展。此外，视频还讨论了 AI 产业在未来可能带来的变化和挑战。\n\n💡 值得一看 — 这个视频对 AI 行业趋势有深入的分析，可能对 Yves 在 Logic Labs 和 TexTale 工作中关注的 AI 发展动态有所启发。"
-    },
-    {
-      "name": "The AI Daily Brief",
-      "title": "The New Jobs AI Will Create",
-      "videoId": "WhAAKxPlMhw",
-      "url": "https://youtube.com/watch?v=WhAAKxPlMhw",
-      "publishedAt": "2026-05-11T12:34:46+00:00",
-      "isShort": false,
-      "fetchDate": "2026-05-11",
-      "summary_zh": "这个视频讨论了人工智能将创造的新工作机会，探讨了未来职业市场的变化和需求。它强调了随着AI技术的进步，新兴行业和职位将如何改变我们的工作方式，尤其是在各种行业中的应用和影响。\n\n🎯 推荐 Yves 观看 — 这个话题与 Logic Labs 的AI产品开发紧密相关，能够启发他思考未来的工作形式，并可能为 TexTale 在电商运营中的人才需求提供灵感。"
     }
   ],
   "producthunt": [
@@ -3720,7 +3720,7 @@
       "name": "Kilo Code v7 for VS Code",
       "tagline": "Parallel agents, diff reviewer, and multi-model comparisons",
       "url": "https://www.producthunt.com/products/kilocode?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Breakfeed+%28ID%3A+279433%29",
-      "votes": 694,
+      "votes": 695,
       "comments": 147,
       "topics": [
         "Open Source",
@@ -3737,7 +3737,7 @@
       "name": "RankSpot",
       "tagline": "AI SEO Blog driven by deep competitor intelligence",
       "url": "https://www.producthunt.com/products/rankspot?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Breakfeed+%28ID%3A+279433%29",
-      "votes": 655,
+      "votes": 657,
       "comments": 103,
       "topics": [
         "Marketing",
@@ -3786,7 +3786,7 @@
       "name": "Velo 2.0",
       "tagline": "Instantly turn your voice and screen into shareable videos",
       "url": "https://www.producthunt.com/products/velo-4?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Breakfeed+%28ID%3A+279433%29",
-      "votes": 618,
+      "votes": 620,
       "comments": 93,
       "topics": [
         "Productivity",
@@ -3834,7 +3834,7 @@
       "name": "Postiz",
       "tagline": "Agentic social media scheduler for agents like OpenClaw",
       "url": "https://www.producthunt.com/products/postiz/launches/postiz-3?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Breakfeed+%28ID%3A+279433%29",
-      "votes": 563,
+      "votes": 562,
       "comments": 57,
       "topics": [
         "Social Media",
@@ -3847,6 +3847,23 @@
     },
     {
       "rank": 11,
+      "name": "OpenHuman",
+      "tagline": "An open source AI harness built with the human in mind",
+      "url": "https://www.producthunt.com/products/openhuman?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Breakfeed+%28ID%3A+279433%29",
+      "votes": 548,
+      "comments": 67,
+      "topics": [
+        "Productivity",
+        "Open Source",
+        "Artificial Intelligence",
+        "GitHub"
+      ],
+      "thumbnail": "https://ph-files.imgix.net/918b11cd-52e9-4f01-8f82-de1b756957cd.png?auto=format",
+      "screenshot": "https://ph-files.imgix.net/534c3ee9-9932-4108-a526-e4904069291e.png?auto=format",
+      "summary_zh": "OpenHuman是一款开源的人工智能工具，专为人类需求设计。它能够分析数据、提供智能建议，帮助用户更好地理解和使用信息。通过开放的社区合作，用户可以参与改进和自定义这个工具。"
+    },
+    {
+      "rank": 12,
       "name": "Claude Design by Anthropic Labs",
       "tagline": "Make prototypes, slides & one-pagers by talking to Claude",
       "url": "https://www.producthunt.com/products/claude/launches/claude-design-by-anthropic-labs-2?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Breakfeed+%28ID%3A+279433%29",
@@ -3862,44 +3879,11 @@
       "summary_zh": "Claude Design 是一个由 Anthropic Labs 开发的工具，用户可以通过与 Claude 对话来创建原型、幻灯片和单页文档。这款产品简化了设计流程，让用户能够快速实现创意。只需文字交流，Claude 就能帮助你完成设计任务。"
     },
     {
-      "rank": 12,
-      "name": "OpenHuman",
-      "tagline": "An open source AI harness built with the human in mind",
-      "url": "https://www.producthunt.com/products/openhuman?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Breakfeed+%28ID%3A+279433%29",
-      "votes": 543,
-      "comments": 67,
-      "topics": [
-        "Productivity",
-        "Open Source",
-        "Artificial Intelligence",
-        "GitHub"
-      ],
-      "thumbnail": "https://ph-files.imgix.net/918b11cd-52e9-4f01-8f82-de1b756957cd.png?auto=format",
-      "screenshot": "https://ph-files.imgix.net/534c3ee9-9932-4108-a526-e4904069291e.png?auto=format",
-      "summary_zh": "OpenHuman是一款开源的人工智能工具，专为人类需求设计。它能够分析数据、提供智能建议，帮助用户更好地理解和使用信息。通过开放的社区合作，用户可以参与改进和自定义这个工具。"
-    },
-    {
       "rank": 13,
-      "name": "Spellar 3.0",
-      "tagline": "AI Meeting companion with cross-meeting memory",
-      "url": "https://www.producthunt.com/products/spellar?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Breakfeed+%28ID%3A+279433%29",
-      "votes": 543,
-      "comments": 115,
-      "topics": [
-        "Productivity",
-        "Meetings",
-        "Artificial Intelligence"
-      ],
-      "thumbnail": "https://ph-files.imgix.net/06ff0df7-631d-44e8-8951-92f5147a43fe.gif?auto=format",
-      "screenshot": "https://ph-files.imgix.net/be87f9fe-48eb-4943-9117-4bac178607f3.png?auto=format",
-      "summary_zh": "Spellar 3.0是一款人工智能会议助手，能够记录和管理多次会议的信息。它具备跨会议记忆功能，帮助用户轻松回顾之前的讨论内容和决策，提升会议效率。"
-    },
-    {
-      "rank": 14,
       "name": "Shadow 2.0",
       "tagline": "The work your meetings create, done before they end",
       "url": "https://www.producthunt.com/products/shadow-6?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Breakfeed+%28ID%3A+279433%29",
-      "votes": 543,
+      "votes": 545,
       "comments": 171,
       "topics": [
         "Productivity",
@@ -3909,6 +3893,22 @@
       "thumbnail": "https://ph-files.imgix.net/169bd775-58a9-4e8c-a870-3343b2450b26.png?auto=format",
       "screenshot": "https://ph-files.imgix.net/1d5af0b2-19d4-46e4-979d-8eabbd5b5478.png?auto=format",
       "summary_zh": "Shadow 2.0 是一款会议管理工具，能够实时记录和整理会议内容。它可以在会议进行时自动生成任务和行动项，帮助团队更高效地落实决策和计划。"
+    },
+    {
+      "rank": 14,
+      "name": "Spellar 3.0",
+      "tagline": "AI Meeting companion with cross-meeting memory",
+      "url": "https://www.producthunt.com/products/spellar?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Breakfeed+%28ID%3A+279433%29",
+      "votes": 544,
+      "comments": 115,
+      "topics": [
+        "Productivity",
+        "Meetings",
+        "Artificial Intelligence"
+      ],
+      "thumbnail": "https://ph-files.imgix.net/06ff0df7-631d-44e8-8951-92f5147a43fe.gif?auto=format",
+      "screenshot": "https://ph-files.imgix.net/be87f9fe-48eb-4943-9117-4bac178607f3.png?auto=format",
+      "summary_zh": "Spellar 3.0是一款人工智能会议助手，能够记录和管理多次会议的信息。它具备跨会议记忆功能，帮助用户轻松回顾之前的讨论内容和决策，提升会议效率。"
     },
     {
       "rank": 15,
@@ -3932,7 +3932,7 @@
       "repo": "tinyhumansai/openhuman",
       "description": "Your Personal AI super intelligence. Private, Simple and extremely powerful.",
       "language": "Rust",
-      "stars": 12404,
+      "stars": 12993,
       "starsToday": 1694,
       "url": "https://github.com/tinyhumansai/openhuman",
       "summary_zh": "这个项目是一个个人智能助手，可以帮助用户处理复杂的任务，使用方便并且注重隐私保护。对于Yves来说，这个项目可能对Logic Labs（AI公司）特别有帮助，因为它能为他们的AI解决方案提供新的灵感和技术支持，同时也可以提升他在创意设计方面的工作效率。"
@@ -3941,7 +3941,7 @@
       "repo": "HKUDS/CLI-Anything",
       "description": "\"CLI-Anything: Making ALL Software Agent-Native\" -- CLI-Hub:https://clianything.cc/",
       "language": "Python",
-      "stars": 35413,
+      "stars": 35531,
       "starsToday": 306,
       "url": "https://github.com/HKUDS/CLI-Anything",
       "summary_zh": "这个项目旨在让所有软件都能够通过命令行接口（CLI）进行操作，使得用户可以更加灵活和高效地使用各种工具和应用。对于Yves来说，这个项目对Logic Labs（AI 公司）尤其有帮助，因为它可以提高AI工具的可用性和整合性，帮助团队更好地开发和应用创新的解决方案。同时，作为创意设计从业者，他也能利用这个工具提升设计工作流程的效率。"
@@ -3950,7 +3950,7 @@
       "repo": "calcom/cal.diy",
       "description": "Scheduling infrastructure for absolutely everyone.",
       "language": "TypeScript",
-      "stars": 43119,
+      "stars": 43229,
       "starsToday": 425,
       "url": "https://github.com/calcom/cal.diy",
       "summary_zh": "这个项目是一个调度基础设施，帮助用户更轻松地安排和管理时间，如预约和会议。对Yves的TexTale（科技服装电商）业务可能更有帮助，因为它可以优化客户预约和服务流程，提高用户体验。同时，对于Yves作为创意设计从业者，也能借助此工具提升项目管理效率，促进创意工作的推进。"
@@ -3959,7 +3959,7 @@
       "repo": "oven-sh/bun",
       "description": "Incredibly fast JavaScript runtime, bundler, test runner, and package manager – all in one",
       "language": "Rust",
-      "stars": 91646,
+      "stars": 91696,
       "starsToday": 908,
       "url": "https://github.com/oven-sh/bun",
       "summary_zh": "这个项目是一个快速的JavaScript运行环境，它可以打包代码、运行测试和管理软件包，所有功能都集成在一起，简化了开发过程。对于Yves而言，这个工具可以帮助TexTale在开发电商平台时提高效率，并为创意设计提供更好的技术支持，同时也可能增强Logic Labs在AI产品开发中的技术能力。"
@@ -3968,7 +3968,7 @@
       "repo": "Anil-matcha/Open-Generative-AI",
       "description": "Open-source alternative to AI video platforms — Free AI image & video generation studio with 200+ models (Flux, Midjourney, Kling, Sora, Veo). No content filters. Self-hosted, MIT licensed.",
       "language": "JavaScript",
-      "stars": 14900,
+      "stars": 15047,
       "starsToday": 704,
       "url": "https://github.com/Anil-matcha/Open-Generative-AI",
       "summary_zh": "这个项目是一个开源的AI视频和图像生成平台，提供超过200种模型，允许用户自由创建内容，无需付费或处理内容过滤。对于Yves来说，这个项目可以帮助Logic Labs开发创意AI工具，从而推动他们在AI领域的创新，同时也能够为TexTale提供丰富的图像和视频素材，用于品牌营销和产品展示。"
@@ -3977,7 +3977,7 @@
       "repo": "BigBodyCobain/Shadowbroker",
       "description": "Open-source intelligence for the global theater. Track everything from the corporate/private jets of the wealthy, and spy satellites, to seismic events in one unified interface. Hook an AI agent up to have it parse through data and find previously unseen correlations. The knowledge is available to all but rarely aggregated in the open, until now.",
       "language": "Python",
-      "stars": 6871,
+      "stars": 7022,
       "starsToday": 405,
       "url": "https://github.com/BigBodyCobain/Shadowbroker",
       "summary_zh": "这个项目是一个开源情报平台，可以统一追踪无论是富人的私人飞机、间谍卫星还是地震事件等各种数据。它能够连接一个AI代理，帮助分析数据并发现之前未曾察觉的关联。\n\n对于Yves来说，这个项目可能对Logic Labs（AI公司）更有帮助，因为它提供了一个强大的数据分析工具，可以通过AI对海量信息进行挖掘，从而为AI驱动的决策提供支持。同时，这种数据也能激发创意设计灵感。"
@@ -3986,7 +3986,7 @@
       "repo": "tech-leads-club/agent-skills",
       "description": "The secure, validated skill registry for professional AI coding agents. Extend Antigravity, Claude Code, Cursor, Copilot and more with absolute confidence.",
       "language": "TypeScript",
-      "stars": 3364,
+      "stars": 3479,
       "starsToday": 923,
       "url": "https://github.com/tech-leads-club/agent-skills",
       "summary_zh": "这个项目是一个安全且经过验证的技能注册平台，专门为专业的 AI 编码助手提供支持，用户可以放心地扩展现有的 AI 工具功能。对于Yves来说，这个项目对Logic Labs（AI公司）有很大的帮助，因为它能够增强他们在AI应用开发上的信心和效率，同时也能为未来的创意设计项目提供更多的技术支持。"
@@ -3995,7 +3995,7 @@
       "repo": "NirDiamant/agents-towards-production",
       "description": "End-to-end, code-first tutorials for building production-grade GenAI agents. From prototype to enterprise deployment.",
       "language": "Jupyter Notebook",
-      "stars": 19806,
+      "stars": 19881,
       "starsToday": 225,
       "url": "https://github.com/NirDiamant/agents-towards-production",
       "summary_zh": "这个项目是一个以代码为基础的教程，指导用户从零开始构建生产级的生成式人工智能代理，涵盖从原型设计到企业部署的完整过程。对Yves来说，这个项目对Logic Labs（AI 公司）更有帮助，因为它能够深入理解如何创造和应用先进的AI代理，进而推动其AI产品的开发与落地，同时也可以为TexTale的电商运营注入创新的科技元素，从而提升用户体验和品牌效应。"
@@ -4004,7 +4004,7 @@
       "repo": "dograh-hq/dograh",
       "description": "Open Source Voice Agent Platform",
       "language": "Python",
-      "stars": 1498,
+      "stars": 1613,
       "starsToday": 236,
       "url": "https://github.com/dograh-hq/dograh",
       "summary_zh": "这个项目是一个开源的语音助手平台，允许开发者创建可以通过语音与用户互动的智能应用程序。对于Yves来说，这个项目可以帮助Logic Labs（AI 公司）开发更加人性化的AI助手，同时提升TexTale在电商领域的用户体验，通过语音交互增强购物的便捷性和趣味性，也能够为他的创意设计提供新的互动方式。"
@@ -4013,7 +4013,7 @@
       "repo": "K-Dense-AI/scientific-agent-skills",
       "description": "A set of ready to use Agent Skills for research, science, engineering, analysis, finance and writing.",
       "language": "Python",
-      "stars": 23682,
+      "stars": 23783,
       "starsToday": 764,
       "url": "https://github.com/K-Dense-AI/scientific-agent-skills",
       "summary_zh": "这个项目提供了一系列现成的智能助手技能，适用于研究、科学、工程、分析、金融和写作等领域，可以帮助用户快速完成复杂任务。对于Yves来说，这个项目对Logic Labs（AI 公司）特别有帮助，因为它能够提升公司的AI应用能力，促进创新研究和开发，同时也能为TexTale（科技服装电商）在产品描述和市场分析方面提供支持，增强品牌营销的效率。作为创意设计从业者，他可以利用这些工具来快速获取信息和灵感，从而提高设计创作的效率。"
@@ -4024,7 +4024,7 @@
       {
         "name": "GPT Image 1.5 (high)",
         "elo": 1266,
-        "appearances": 5331,
+        "appearances": 5335,
         "creator": "OpenAI",
         "reddit": {
           "mentions": 6,
@@ -4055,7 +4055,7 @@
       {
         "name": "GPT Image 2 (high)",
         "elo": 1338,
-        "appearances": 9763,
+        "appearances": 9774,
         "creator": "OpenAI",
         "reddit": {
           "mentions": 6,
@@ -4084,7 +4084,7 @@
       {
         "name": "grok-imagine-image",
         "elo": 1180,
-        "appearances": 7420,
+        "appearances": 7422,
         "creator": "xAI",
         "reddit": {
           "mentions": 0,
@@ -4107,7 +4107,7 @@
       {
         "name": "Nano Banana 2 (Gemini 3.1 Flash Image Preview)",
         "elo": 1264,
-        "appearances": 7109,
+        "appearances": 7113,
         "creator": "Google",
         "reddit": {
           "mentions": 7,
@@ -4136,7 +4136,7 @@
       {
         "name": "Riverflow 2.0",
         "elo": 1255,
-        "appearances": 5509,
+        "appearances": 5510,
         "creator": "Sourceful",
         "reddit": {
           "mentions": 0,
@@ -4157,7 +4157,7 @@
       {
         "name": "Seedream 4.5",
         "elo": 1165,
-        "appearances": 6488,
+        "appearances": 6489,
         "creator": "ByteDance Seed",
         "reddit": {
           "mentions": 1,
@@ -4188,7 +4188,7 @@
       {
         "name": "Nano Banana Pro (Gemini 3 Pro Image)",
         "elo": 1221,
-        "appearances": 4609,
+        "appearances": 4610,
         "creator": "Google",
         "reddit": {
           "mentions": 7,
@@ -4217,7 +4217,7 @@
       {
         "name": "FLUX.2 [max]",
         "elo": 1194,
-        "appearances": 4603,
+        "appearances": 4606,
         "creator": "Black Forest Labs",
         "reddit": {
           "mentions": 10,
@@ -4246,7 +4246,7 @@
       {
         "name": "FLUX.2 [pro]",
         "elo": 1185,
-        "appearances": 4166,
+        "appearances": 4171,
         "creator": "Black Forest Labs",
         "reddit": {
           "mentions": 10,
@@ -4275,7 +4275,7 @@
       {
         "name": "FLUX.2 [flex]",
         "elo": 1180,
-        "appearances": 4210,
+        "appearances": 4212,
         "creator": "Black Forest Labs",
         "reddit": {
           "mentions": 10,
@@ -4300,6 +4300,27 @@
           "Reddit"
         ],
         "rank": 10
+      },
+      {
+        "name": "MAI-Image-2",
+        "elo": 1195,
+        "appearances": 4240,
+        "creator": "Microsoft",
+        "reddit": {
+          "mentions": 0,
+          "upvotes": 0,
+          "topPost": null
+        },
+        "lmArena": {
+          "elo": 0,
+          "votes": 0,
+          "name": ""
+        },
+        "compositeScore": 34.2,
+        "sources": [
+          "AA"
+        ],
+        "rank": 11
       },
       {
         "name": "Seedream 4.0",
@@ -4328,33 +4349,12 @@
           "AA",
           "Reddit"
         ],
-        "rank": 11
-      },
-      {
-        "name": "MAI-Image-2",
-        "elo": 1195,
-        "appearances": 4226,
-        "creator": "Microsoft",
-        "reddit": {
-          "mentions": 0,
-          "upvotes": 0,
-          "topPost": null
-        },
-        "lmArena": {
-          "elo": 0,
-          "votes": 0,
-          "name": ""
-        },
-        "compositeScore": 34.2,
-        "sources": [
-          "AA"
-        ],
         "rank": 12
       },
       {
         "name": "Imagen 4 Ultra Preview 0606",
         "elo": 1185,
-        "appearances": 4189,
+        "appearances": 4192,
         "creator": "Google",
         "reddit": {
           "mentions": 1,
@@ -4383,7 +4383,7 @@
       {
         "name": "HiDream-O1-Image-Dev-2604",
         "elo": 1184,
-        "appearances": 3466,
+        "appearances": 3470,
         "creator": "HiDream",
         "reddit": {
           "mentions": 0,
@@ -4434,7 +4434,7 @@
     "video": [
       {
         "name": "Dreamina Seedance 2.0 720p",
-        "elo": 1223,
+        "elo": 1222,
         "appearances": 8194,
         "creator": "ByteDance Seed",
         "reddit": {
@@ -4455,7 +4455,7 @@
           "name": "dreamina-seedance-2.0-720p",
           "category": "image-to-video"
         },
-        "compositeScore": 60.5,
+        "compositeScore": 60.4,
         "sources": [
           "AA",
           "LM Arena",
@@ -4466,7 +4466,7 @@
       {
         "name": "HappyHorse-1.0",
         "elo": 1214,
-        "appearances": 7355,
+        "appearances": 7352,
         "creator": "Alibaba-ATH",
         "reddit": {
           "mentions": 2,
@@ -4497,7 +4497,7 @@
       {
         "name": "Veo 3.1",
         "elo": 1102,
-        "appearances": 6143,
+        "appearances": 6141,
         "creator": "Google",
         "reddit": {
           "mentions": 3,
@@ -4527,8 +4527,8 @@
       },
       {
         "name": "Veo 3.1 Fast",
-        "elo": 1099,
-        "appearances": 5093,
+        "elo": 1098,
+        "appearances": 5092,
         "creator": "Google",
         "reddit": {
           "mentions": 3,
@@ -4548,7 +4548,7 @@
           "name": "veo-3.1-fast-audio",
           "category": "image-to-video"
         },
-        "compositeScore": 36.7,
+        "compositeScore": 36.5,
         "sources": [
           "AA",
           "LM Arena",
@@ -4559,7 +4559,7 @@
       {
         "name": "Sora 2 Pro",
         "elo": 1082,
-        "appearances": 4326,
+        "appearances": 4325,
         "creator": "OpenAI",
         "reddit": {
           "mentions": 7,
@@ -4590,7 +4590,7 @@
       {
         "name": "grok-imagine-video",
         "elo": 1083,
-        "appearances": 6615,
+        "appearances": 6610,
         "creator": "xAI",
         "reddit": {
           "mentions": 0,
@@ -4613,7 +4613,7 @@
       {
         "name": "Sora 2 (December)",
         "elo": 1088,
-        "appearances": 4555,
+        "appearances": 4556,
         "creator": "OpenAI",
         "reddit": {
           "mentions": 7,
@@ -4644,7 +4644,7 @@
       {
         "name": "Vidu Q3 Pro",
         "elo": 1086,
-        "appearances": 6409,
+        "appearances": 6408,
         "creator": "Vidu",
         "reddit": {
           "mentions": 0,
@@ -4667,7 +4667,7 @@
       {
         "name": "Wan 2.6",
         "elo": 1033,
-        "appearances": 5205,
+        "appearances": 5204,
         "creator": "Alibaba",
         "reddit": {
           "mentions": 0,
@@ -4719,7 +4719,7 @@
       {
         "name": "Kling 3.0 Omni 1080p (Pro)",
         "elo": 1106,
-        "appearances": 6032,
+        "appearances": 6030,
         "creator": "KlingAI",
         "reddit": {
           "mentions": 10,
@@ -4806,7 +4806,7 @@
       {
         "name": "Kling 3.0 720p (Standard)",
         "elo": 1090,
-        "appearances": 5639,
+        "appearances": 5636,
         "creator": "KlingAI",
         "reddit": {
           "mentions": 10,
@@ -4835,7 +4835,7 @@
       {
         "name": "Kling 3.0 Omni 720p (Standard)",
         "elo": 1086,
-        "appearances": 5701,
+        "appearances": 5698,
         "creator": "KlingAI",
         "reddit": {
           "mentions": 10,
@@ -4862,7 +4862,7 @@
         "rank": 15
       }
     ],
-    "fetchedAt": "2026-05-17T16:51:55.321749+00:00",
+    "fetchedAt": "2026-05-17T22:48:10.567090+00:00",
     "sources": [
       "Artificial Analysis",
       "LM Arena",
