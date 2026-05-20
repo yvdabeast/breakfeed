@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-05-19T23:02:38.845720+00:00",
+  "generatedAt": "2026-05-20T07:40:12.302584+00:00",
   "twitter": [
     {
       "source": "x",
@@ -45,7 +45,7 @@
         }
       ],
       "bio_zh": "AI 开发者社区意见领袖，Latent Space 播客主理人，前 AWS/Netlify 工程师",
-      "fetchDate": "2026-05-19"
+      "fetchDate": "2026-05-20"
     },
     {
       "source": "x",
@@ -67,7 +67,7 @@
         }
       ],
       "bio_zh": "Roblox 产品经理，14 万订阅的 AI 实操教程作者",
-      "fetchDate": "2026-05-19"
+      "fetchDate": "2026-05-20"
     },
     {
       "source": "x",
@@ -113,7 +113,7 @@
         }
       ],
       "bio_zh": "AI 产品经理和创业者，关注 AI 产品化落地",
-      "fetchDate": "2026-05-19"
+      "fetchDate": "2026-05-20"
     },
     {
       "source": "x",
@@ -159,7 +159,7 @@
         }
       ],
       "bio_zh": "Anthropic 工程师，Claude Code（AI 编程工具）核心开发者",
-      "fetchDate": "2026-05-19"
+      "fetchDate": "2026-05-20"
     },
     {
       "source": "x",
@@ -181,7 +181,7 @@
         }
       ],
       "bio_zh": "Google 实验性 AI 产品官方账号，发布最新 AI 工具和功能",
-      "fetchDate": "2026-05-19"
+      "fetchDate": "2026-05-20"
     },
     {
       "source": "x",
@@ -215,7 +215,7 @@
         }
       ],
       "bio_zh": "Vercel CEO，Next.js 创造者，v0 AI 代码生成工具的幕后推手",
-      "fetchDate": "2026-05-19"
+      "fetchDate": "2026-05-20"
     },
     {
       "source": "x",
@@ -237,7 +237,7 @@
         }
       ],
       "bio_zh": "Box CEO，企业 AI 应用的坚定推动者，科技圈知名段子手",
-      "fetchDate": "2026-05-19"
+      "fetchDate": "2026-05-20"
     },
     {
       "source": "x",
@@ -271,7 +271,7 @@
         }
       ],
       "bio_zh": "Cursor 联合创始人，AI 代码编辑器赛道领跑者",
-      "fetchDate": "2026-05-19"
+      "fetchDate": "2026-05-20"
     },
     {
       "source": "x",
@@ -317,7 +317,7 @@
         }
       ],
       "bio_zh": "Y Combinator 现任 CEO，早期投资了 Coinbase、Instacart 等",
-      "fetchDate": "2026-05-19"
+      "fetchDate": "2026-05-20"
     },
     {
       "source": "x",
@@ -351,7 +351,7 @@
         }
       ],
       "bio_zh": "AI 领域投资人和内容创作者，follow-builders 项目发起人",
-      "fetchDate": "2026-05-19"
+      "fetchDate": "2026-05-20"
     },
     {
       "source": "x",
@@ -385,7 +385,7 @@
         }
       ],
       "bio_zh": "Meta/前 Facebook AI 产品负责人",
-      "fetchDate": "2026-05-19"
+      "fetchDate": "2026-05-20"
     },
     {
       "source": "x",
@@ -431,7 +431,7 @@
         }
       ],
       "bio_zh": "Every 联合创始人，AI 写作和知识管理领域的深度实践者",
-      "fetchDate": "2026-05-19"
+      "fetchDate": "2026-05-20"
     },
     {
       "source": "x",
@@ -453,7 +453,7 @@
         }
       ],
       "bio_zh": "OpenAI CEO，Y Combinator 前总裁，硅谷最有影响力的 AI 推动者之一",
-      "fetchDate": "2026-05-19"
+      "fetchDate": "2026-05-20"
     },
     {
       "source": "x",
@@ -487,7 +487,7 @@
         }
       ],
       "bio_zh": "Anthropic 旗下 AI 助手 Claude 的官方账号",
-      "fetchDate": "2026-05-19"
+      "fetchDate": "2026-05-20"
     }
   ],
   "twitter_history": [
@@ -3123,218 +3123,49 @@
           "fetchDate": "2026-05-14"
         }
       ]
-    },
-    {
-      "date": "2026-05-12",
-      "builders": [
-        {
-          "source": "x",
-          "name": "Andrej Karpathy",
-          "handle": "karpathy",
-          "bio": "I like to train large deep neural nets. Previously Director of AI @ Tesla, founding team @ OpenAI, PhD @ Stanford.",
-          "tweets": [
-            {
-              "id": "2053872850101285137",
-              "text": "This works really well btw, at the end of your query ask your LLM to \"structure your response as HTML\", then view the generated file in your browser. I've also had some success asking the LLM to present its output as slideshows, etc.\n\nMore generally, imo audio is the human-preferred input to AIs but vision (images/animations/video) is the preferred output from them. Around a ~third of our brains are a massively parallel processor dedicated to vision, it is the 10-lane superhighway of information into brain. As AI improves, I think we'll see a progression that takes advantage:\n\n1) raw text (hard/effortful to read)\n2) markdown (bold, italic, headings, tables, a bit easier on the eyes) <-- current default\n3) HTML (still procedural with underlying code, but a lot more flexibility on the graphics, layout, even interactivity) <-- early but forming new good default\n...4,5,6,...\nn) interactive neural videos/simulations\n\nImo the extrapolation (though the technology doesn't exist just yet) ends in some kind of interactive videos generated directly by a diffusion neural net. Many open questions as to how exact/procedural \"Software 1.0\" artifacts (e.g. interactive simulations) may be woven together with neural artifacts (diffusion grids), but generally something in the direction of the recently viral https://t.co/z21CP5iQfu\n\nThere are also improvements necessary and pending at the input. Audio nor text nor video alone are not enough, e.g. I feel a need to point/gesture to things on the screen, similar to all the things you would do with a person physically next to you and your computer screen.\n\nTLDR The input/output mind meld between humans and AIs is ongoing and there is a lot of work to do and significant progress to be made, way before jumping all the way into neuralink-esque BCIs and all that. For what's worth exploring at the current stage, hot tip try ask for HTML.",
-              "createdAt": "2026-05-11T16:20:21.000Z",
-              "url": "https://x.com/karpathy/status/2053872850101285137",
-              "likes": 13038,
-              "retweets": 1338,
-              "replies": 662,
-              "isQuote": true,
-              "quotedTweetId": "2052809885763747935",
-              "summary_zh": "跟 AI 聊天的时候，你可以在最后请求它把答案格式化成 HTML（网页代码），这样你可以在浏览器里更好地查看结果。未来，音频是人跟 AI 的最佳输入方式，而视觉（比如图像和视频）会是它们的最佳输出形式。AI 会不断进步，从简单文本到更复杂的 HTML，甚至未来可能会有互动视频。虽然现在的技术还不够成熟，但探索这些新方式会让我们和 AI 的互动变得更有趣、更直观。记得试试看让 AI 生成 HTML 哦！"
-            }
-          ],
-          "bio_zh": "前 Tesla AI 总监、前 OpenAI 创始成员，斯坦福 CS PhD，现创办 Eureka Labs 做 AI 教育",
-          "fetchDate": "2026-05-12"
-        },
-        {
-          "source": "x",
-          "name": "Swyx",
-          "handle": "swyx",
-          "bio": "achieve ambition with intentionality, intensity, integrity & insanity.\n\naffiliations:\n- @dxtipshq \n- @cognition\n- @temporalio\n- @aidotengineer\n- @latentspacepod",
-          "tweets": [
-            {
-              "id": "2054057995492061651",
-              "text": "my highlights\n\nhttps://t.co/aIfwZMvDSt",
-              "createdAt": "2026-05-12T04:36:03.000Z",
-              "url": "https://x.com/swyx/status/2054057995492061651",
-              "likes": 1,
-              "retweets": 0,
-              "replies": 0,
-              "isQuote": true,
-              "quotedTweetId": "2054057835043139834",
-              "summary_zh": "这是一个人分享了他的一些精彩片段或感悟，链接里可能有详细内容让大家看。简单来说，就是他推荐的有趣或重要的 AI 相关内容。"
-            },
-            {
-              "id": "2053989439945498934",
-              "text": "https://t.co/vT9CDBhJQE",
-              "createdAt": "2026-05-12T00:03:38.000Z",
-              "url": "https://x.com/swyx/status/2053989439945498934",
-              "likes": 7,
-              "retweets": 0,
-              "replies": 4,
-              "isQuote": true,
-              "quotedTweetId": "2053940218747842619",
-              "summary_zh": ""
-            },
-            {
-              "id": "2053960011748098462",
-              "text": "I believe the kids call this \"@thinkymachines just brutally framemogged gdm and oai\". \n\nbasically everyone's definition of \"realtime\" just got a massive frciking upgrade https://t.co/a5fzSV9Yec https://t.co/29N7XIF6F9",
-              "createdAt": "2026-05-11T22:06:42.000Z",
-              "url": "https://x.com/swyx/status/2053960011748098462",
-              "likes": 798,
-              "retweets": 31,
-              "replies": 33,
-              "isQuote": true,
-              "quotedTweetId": "2053958016719020223",
-              "summary_zh": "@thinkymachines 的新技术让大家对“实时”（就是能马上反应和处理事情）这个概念有了全新的理解，提升得很厉害！"
-            }
-          ],
-          "bio_zh": "AI 开发者社区意见领袖，Latent Space 播客主理人，前 AWS/Netlify 工程师",
-          "fetchDate": "2026-05-12"
-        },
-        {
-          "source": "x",
-          "name": "Kevin Weil",
-          "handle": "kevinweil",
-          "bio": "VP Science @OpenAI, BoD @Cisco @nature_org, LTC @USArmyReserve\nEx: Pres @Planet, Head of Product @Instagram @Twitter\n❤️ @elizabeth ultramarathons kids cats math",
-          "tweets": [
-            {
-              "id": "2054063509869306204",
-              "text": "This from @tdrobbo is gold. https://t.co/8J44zVQW2X",
-              "createdAt": "2026-05-12T04:57:58.000Z",
-              "url": "https://x.com/kevinweil/status/2054063509869306204",
-              "likes": 12,
-              "retweets": 1,
-              "replies": 2,
-              "isQuote": true,
-              "quotedTweetId": "2053836764997959898",
-              "summary_zh": "这条推文是在夸赞一个叫 @tdrobbo 的人的内容，觉得内容很有价值，称之为“黄金”（就是意思非常好、很珍贵）。"
-            }
-          ],
-          "bio_zh": "OpenAI 产品副总裁，前 Instagram/Twitter 产品负责人",
-          "fetchDate": "2026-05-12"
-        },
-        {
-          "source": "x",
-          "name": "Peter Yang",
-          "handle": "petergyang",
-          "bio": "Practical AI tutorials and interviews for busy people | Join 140K+ readers at https://t.co/XYKTmGVH14 | Product at Roblox",
-          "tweets": [
-            {
-              "id": "2054038194547777993",
-              "text": "Why does SoCal have so much world class kids stuff (Disney, Legoland, Universal, Zoo, etc) but in the Bay Area we can't keep our only amusement park alive",
-              "createdAt": "2026-05-12T03:17:22.000Z",
-              "url": "https://x.com/petergyang/status/2054038194547777993",
-              "likes": 317,
-              "retweets": 3,
-              "replies": 48,
-              "isQuote": false,
-              "quotedTweetId": null,
-              "summary_zh": "南加州有很多世界级的儿童游乐设施（比如迪士尼乐园、乐高乐园、环球影城和动物园），但在旧金山湾区却无法维持住唯一的游乐园，真让人费解。"
-            },
-            {
-              "id": "2054036372215025962",
-              "text": "\"omg this is taking forever I hate AI\" 😅",
-              "createdAt": "2026-05-12T03:10:07.000Z",
-              "url": "https://x.com/petergyang/status/2054036372215025962",
-              "likes": 1,
-              "retweets": 0,
-              "replies": 1,
-              "isQuote": false,
-              "quotedTweetId": null,
-              "summary_zh": "哎呀，这个事情真是要等到天荒地老了，真让人讨厌 AI！😅"
-            },
-            {
-              "id": "2054036027791294696",
-              "text": "Turns out everyone just loves shipping https://t.co/bsqtEXA2ID",
-              "createdAt": "2026-05-12T03:08:45.000Z",
-              "url": "https://x.com/petergyang/status/2054036027791294696",
-              "likes": 1,
-              "retweets": 0,
-              "replies": 0,
-              "isQuote": true,
-              "quotedTweetId": "2054023219611676795",
-              "summary_zh": "大家似乎都很喜欢快速发布新产品呀！这可能是在说人们对快速推出新功能或项目（“shipping”）的热情。"
-            }
-          ],
-          "bio_zh": "Roblox 产品经理，14 万订阅的 AI 实操教程作者",
-          "fetchDate": "2026-05-12"
-        },
-        {
-          "source": "x",
-          "name": "Amanda Askell",
-          "handle": "AmandaAskell",
-          "bio": "Philosopher & ethicist trying to make AI be good @AnthropicAI.\nPersonal account. All opinions come from my training data.",
-          "tweets": [
-            {
-              "id": "2054010971765805486",
-              "text": "You can now listen to me and Joe read out Claude's constitution as an audiobook. Working on adding the option of listening to it on fast mode :) https://t.co/jxIy7Jjnlk",
-              "createdAt": "2026-05-12T01:29:12.000Z",
-              "url": "https://x.com/AmandaAskell/status/2054010971765805486",
-              "likes": 416,
-              "retweets": 22,
-              "replies": 61,
-              "isQuote": true,
-              "quotedTweetId": "2053881827396653207",
-              "summary_zh": "现在你可以听我和 Joe 朗读 Claude 的宪法（就是关于 AI 行为和价值观的基本规则）的有声书了！我们还在加快听的速度选项哦 :)"
-            }
-          ],
-          "bio_zh": "Anthropic 对齐研究员，负责 Claude 的性格和价值观设计",
-          "fetchDate": "2026-05-12"
-        },
-        {
-          "source": "x",
-          "name": "Cat Wu",
-          "handle": "_catwu",
-          "bio": "claude code + cowork @anthropicai, prev: @dagster, @scale_ai",
-          "tweets": [
-            {
-              "id": "2053999857799672111",
-              "text": "run `claude agents` for a control plane in your terminal!  \n\nafter, hit `&lt;-` from any cli session to register that with the control plane\n\npersonally, i like to run `claude agents` from my root code dir to manage all my claude code agents in one place https://t.co/umLJ5tZ5ug",
-              "createdAt": "2026-05-12T00:45:02.000Z",
-              "url": "https://x.com/_catwu/status/2053999857799672111",
-              "likes": 327,
-              "retweets": 25,
-              "replies": 27,
-              "isQuote": true,
-              "quotedTweetId": "2053940934736228454",
-              "summary_zh": "可以在你的电脑终端运行一个叫“claude agents”的程序，这样你就能更方便地管理你的AI代码。作者自己喜欢在自己的代码文件夹里运行这个程序，这样能把所有的AI代码集中管理。"
-            },
-            {
-              "id": "2053874851824419056",
-              "text": "https://t.co/YHW4oSmch8",
-              "createdAt": "2026-05-11T16:28:18.000Z",
-              "url": "https://x.com/_catwu/status/2053874851824419056",
-              "likes": 4,
-              "retweets": 0,
-              "replies": 0,
-              "isQuote": true,
-              "quotedTweetId": "2053868710595887523",
-              "summary_zh": ""
-            },
-            {
-              "id": "2053873949646405879",
-              "text": "We'd love to hear your feedback for Claude Code in the cloud across Desktop (cloud option), iOS app, and Android app\n\nSign up for our office hours below: https://t.co/DhH9rl3nvV",
-              "createdAt": "2026-05-11T16:24:43.000Z",
-              "url": "https://x.com/_catwu/status/2053873949646405879",
-              "likes": 71,
-              "retweets": 2,
-              "replies": 10,
-              "isQuote": true,
-              "quotedTweetId": "2053868665108664631",
-              "summary_zh": "他们希望听到大家对“Claude Code”这个在云端的工具（可以在电脑和手机上用）反馈的意见。想参加讨论的朋友可以注册他们的办公室时间。"
-            }
-          ],
-          "bio_zh": "Anthropic 早期员工，AI 安全研究者",
-          "fetchDate": "2026-05-12"
-        }
-      ]
     }
   ],
   "podcasts": [
+    {
+      "name": "The AI Daily Brief",
+      "title": "9 Codex Tips from the Codex Team",
+      "videoId": "dB-Kbylgrdk",
+      "url": "https://youtube.com/watch?v=dB-Kbylgrdk",
+      "publishedAt": "2026-05-20T02:15:46+00:00",
+      "isShort": false,
+      "fetchDate": "2026-05-20",
+      "summary_zh": "这个视频分享了来自 Codex 团队的九个实用技巧，帮助用户更高效地使用 Codex 工具。这些技巧涵盖了从基本功能到进阶用法，为想要提升 AI 项目效率的用户提供了很好的参考。\n\n🎯 推荐 Yves 观看 — 这些技巧可以帮助 Logic Labs 更好地利用 AI 工具优化产品开发，同时对 TexTale 的电商运营和创意设计也有直接的指导意义。"
+    },
+    {
+      "name": "Stanford GSB",
+      "title": "Private Equity and the Future of American Capitalism",
+      "videoId": "kpyge0vaM6E",
+      "url": "https://youtube.com/watch?v=kpyge0vaM6E",
+      "publishedAt": "2026-05-20T00:42:48+00:00",
+      "isShort": false,
+      "fetchDate": "2026-05-20",
+      "summary_zh": "这个视频讨论了私人股权投资如何影响美国资本主义的未来。它探讨了私人股权在推动经济变革、创造就业以及对社会的潜在影响等方面的角色，分析了当前的趋势及其对未来的启示。\n\n💡 值得一看 — 虽然该主题与 AI 工具不直接相关，但视频中的行业洞察和资本运作的趋势对创意设计和电商运营的战略思考可能提供有益的视角。"
+    },
+    {
+      "name": "TBPN",
+      "title": "Google I/O, Fertility Decline, Spotify Logo Drama | Diet TBPN",
+      "videoId": "LlC_XM7_Hfw",
+      "url": "https://youtube.com/watch?v=LlC_XM7_Hfw",
+      "publishedAt": "2026-05-20T00:35:13+00:00",
+      "isShort": false,
+      "fetchDate": "2026-05-20",
+      "summary_zh": "这个视频讨论了谷歌I/O大会的最新动态、全球生育率下降的趋势以及Spotify的标志变动事件。通过这些话题，视频探讨了科技公司在市场中的影响力以及如何应对社会变化。\n\n💡 值得一看 — 这些话题涉及到科技趋势和品牌战略，对于理解市场动向和设计创意具有启发性。"
+    },
+    {
+      "name": "Google DeepMind",
+      "title": "Build your next story with Gemini Omni.",
+      "videoId": "u3T_0HmNbHM",
+      "url": "https://youtube.com/watch?v=u3T_0HmNbHM",
+      "publishedAt": "2026-05-20T00:21:16+00:00",
+      "isShort": false,
+      "fetchDate": "2026-05-20",
+      "summary_zh": "这段视频介绍了 Google DeepMind 的 Gemini Omni，一个新的AI工具，旨在帮助用户创建和讲述更加生动的故事。它结合了前沿的自然语言处理和视觉生成技术，让内容创作者能够更加高效地表达创意。\n\n🎯 推荐 Yves 观看 — 这个视频展示了一个与创意设计密切相关的AI工具，特别适合您在 Logic Labs 和 TexTale 中利用AI提升产品叙述和品牌故事的能力。"
+    },
     {
       "name": "TBPN",
       "title": "Google I/O 2026, Birth Rate Debates, SpaceX IPO, Karpathy Joins Anthropic",
@@ -3884,36 +3715,6 @@
       "isShort": false,
       "fetchDate": "2026-05-13",
       "summary_zh": "这个视频探讨了如何利用人工智能重新构想已有50年的鼠标指针界面。通过展示AI在界面设计中的创新应用，DeepMind团队提出了让人机交互更加自然和高效的想法，旨在改进我们日常使用的工具。\n\n🎯 推荐 Yves 观看 — 该视频涉及AI在设计界面的应用，相关于Logic Labs和TexTale的创意设计和产品开发。"
-    },
-    {
-      "name": "TBPN",
-      "title": "Altman’s Testimony, AI SPV Drama, Ebay Rejects $GME Bid | Diet TBPN",
-      "videoId": "XZ5D1NUb4yE",
-      "url": "https://youtube.com/watch?v=XZ5D1NUb4yE",
-      "publishedAt": "2026-05-13T06:02:16+00:00",
-      "isShort": false,
-      "fetchDate": "2026-05-13",
-      "summary_zh": "该视频讨论了OpenAI首席执行官山姆·阿尔特曼在国会作证的内容，分析了AI风险投资公司的动态以及eBay拒绝了GameStop的收购提案。这些话题涉及当前AI技术和投资环境的重大变化。\n\n🎯 推荐 Yves 观看 — 这个视频能帮助你了解AI行业的最新动态和投资趋势，这对Logic Labs和TexTale的战略决策和品牌发展都非常有参考价值。"
-    },
-    {
-      "name": "Matt Wolfe",
-      "title": "How controversy on Twitter/X helps solve problems | Lex Fridman Podcast",
-      "videoId": "1vJyN6cQuF8",
-      "url": "https://youtube.com/watch?v=1vJyN6cQuF8",
-      "publishedAt": "2026-05-13T04:00:07+00:00",
-      "isShort": false,
-      "fetchDate": "2026-05-13",
-      "summary_zh": "在这期播客中，Lex Fridman 与 Matt Wolfe 探讨了社交媒体上争议如何能够推动问题的解决。他们分析了当今社交平台如何作为讨论和思想碰撞的空间，甚至在某些情况下能激发创新和变革。通过引入不同的视角，争议可以促使人们深入思考，并形成新的解决方案。\n\n💡 值得一看 — 这段对社交媒体争议的讨论与品牌营销和行业趋势密切相关，可以为 TexTale 在提升品牌影响力和创新营销策略方面提供启示。"
-    },
-    {
-      "name": "Matt Wolfe",
-      "title": "Regret is a tax on your mind - I regret nothing | Lex Fridman Podcast",
-      "videoId": "IWz3ZagX1_w",
-      "url": "https://youtube.com/watch?v=IWz3ZagX1_w",
-      "publishedAt": "2026-05-13T00:00:07+00:00",
-      "isShort": false,
-      "fetchDate": "2026-05-13",
-      "summary_zh": "这个视频是 Lex Fridman 与一位嘉宾的对话，探讨了如何面对后悔以及这一情绪对我们思维和决策的影响。嘉宾分享了自己对后悔的看法，强调了无悔的生活态度如何帮助人们更好地创造和行动。\n\n💡 值得一看 — 该视频提供了关于心理学和创意的重要见解，能够启发 Yves 在品牌营销和创意设计中如何更好地应对困难与挑战。"
     }
   ],
   "producthunt": [
@@ -3922,7 +3723,7 @@
       "name": "Plurai",
       "tagline": "Vibe-train evals and guardrails tailored to your use case",
       "url": "https://www.producthunt.com/products/plurai/launches/plurai?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Breakfeed+%28ID%3A+279433%29",
-      "votes": 764,
+      "votes": 766,
       "comments": 228,
       "topics": [
         "API",
@@ -3954,7 +3755,7 @@
       "name": "Kilo Code v7 for VS Code",
       "tagline": "Parallel agents, diff reviewer, and multi-model comparisons",
       "url": "https://www.producthunt.com/products/kilocode/launches/kilo-code-v7-for-vs-code?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Breakfeed+%28ID%3A+279433%29",
-      "votes": 714,
+      "votes": 715,
       "comments": 158,
       "topics": [
         "Open Source",
@@ -3971,7 +3772,7 @@
       "name": "RankSpot",
       "tagline": "AI SEO Blog driven by deep competitor intelligence",
       "url": "https://www.producthunt.com/products/rankspot?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Breakfeed+%28ID%3A+279433%29",
-      "votes": 657,
+      "votes": 659,
       "comments": 103,
       "topics": [
         "Marketing",
@@ -4001,22 +3802,6 @@
     },
     {
       "rank": 6,
-      "name": "Dune",
-      "tagline": "Context-aware Mac keypad to automate workflows + meetings",
-      "url": "https://www.producthunt.com/products/dune-4/launches/dune-5?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Breakfeed+%28ID%3A+279433%29",
-      "votes": 640,
-      "comments": 121,
-      "topics": [
-        "Productivity",
-        "Artificial Intelligence",
-        "Development"
-      ],
-      "thumbnail": "https://ph-files.imgix.net/56eb5fd7-684a-4fe5-aa2a-5333fd5b579b.jpeg?auto=format",
-      "screenshot": "https://ph-files.imgix.net/935e98e5-ac12-47a2-888e-5d5af8a57b26.png?auto=format",
-      "summary_zh": "Dune是一款智能的Mac键盘，可以根据上下文智能自动化工作流程和会议管理。它能够简化操作，提高效率，让你更专注于重要的任务。"
-    },
-    {
-      "rank": 7,
       "name": "Velo 2.0",
       "tagline": "Instantly turn your voice and screen into shareable videos",
       "url": "https://www.producthunt.com/products/velo-4/launches/velo-2-0?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Breakfeed+%28ID%3A+279433%29",
@@ -4032,11 +3817,11 @@
       "summary_zh": "Velo 2.0 是一款可以将你的声音和屏幕内容实时转化为可分享视频的工具。用户只需简单操作，就能快速创建生动的演示或教程视频，方便与他人分享。"
     },
     {
-      "rank": 8,
+      "rank": 7,
       "name": "OpenHuman",
       "tagline": "An open source AI harness built with the human in mind",
       "url": "https://www.producthunt.com/products/openhuman?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Breakfeed+%28ID%3A+279433%29",
-      "votes": 608,
+      "votes": 611,
       "comments": 69,
       "topics": [
         "Productivity",
@@ -4049,7 +3834,7 @@
       "summary_zh": "OpenHuman是一款开源的人工智能工具，专为人类需求设计。它能够分析数据、提供智能建议，帮助用户更好地理解和使用信息。通过开放的社区合作，用户可以参与改进和自定义这个工具。"
     },
     {
-      "rank": 9,
+      "rank": 8,
       "name": "RankAI",
       "tagline": "RankAI autonomously gets you buyers from Google & AI Search",
       "url": "https://www.producthunt.com/products/rankai-2/launches/rankai-2?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Breakfeed+%28ID%3A+279433%29",
@@ -4065,7 +3850,7 @@
       "summary_zh": "RankAI 是一款智能工具，能够自动优化您的网站，让它在 Google 和 AI 搜索中排名更高。通过提升搜索排名，RankAI 帮助您获取更多潜在客户。"
     },
     {
-      "rank": 10,
+      "rank": 9,
       "name": "Ask Product Hunt AI",
       "tagline": "Find the right product, just ask",
       "url": "https://www.producthunt.com/products/producthunt/launches/ask-product-hunt-ai?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Breakfeed+%28ID%3A+279433%29",
@@ -4081,7 +3866,7 @@
       "summary_zh": "Ask Product Hunt AI 是一个智能问答平台，用户可以通过提问找到适合自己的产品。只需描述你的需求，系统会迅速推荐相关的产品信息，帮助你做出选择。"
     },
     {
-      "rank": 11,
+      "rank": 10,
       "name": "Postiz",
       "tagline": "Agentic social media scheduler for agents like OpenClaw",
       "url": "https://www.producthunt.com/products/postiz/launches/postiz-3?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Breakfeed+%28ID%3A+279433%29",
@@ -4097,11 +3882,11 @@
       "summary_zh": "Postiz 是一个专为代理商设计的社交媒体排程工具。它可以帮助用户轻松安排、发布和管理多平台的社交媒体内容，提高工作效率。通过 Postiz，代理商可以集中管理社交媒体活动，节省时间和精力。"
     },
     {
-      "rank": 12,
+      "rank": 11,
       "name": "Spellar 3.0",
       "tagline": "AI Meeting companion with cross-meeting memory",
       "url": "https://www.producthunt.com/products/spellar?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Breakfeed+%28ID%3A+279433%29",
-      "votes": 553,
+      "votes": 554,
       "comments": 115,
       "topics": [
         "Productivity",
@@ -4113,11 +3898,11 @@
       "summary_zh": "Spellar 3.0是一款人工智能会议助手，能够记录和管理多次会议的信息。它具备跨会议记忆功能，帮助用户轻松回顾之前的讨论内容和决策，提升会议效率。"
     },
     {
-      "rank": 13,
+      "rank": 12,
       "name": "Shadow 2.0",
       "tagline": "The work your meetings create, done before they end",
-      "url": "https://www.producthunt.com/products/shadow-6?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Breakfeed+%28ID%3A+279433%29",
-      "votes": 546,
+      "url": "https://www.producthunt.com/products/shadow-6/launches/shadow-2-0-2?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Breakfeed+%28ID%3A+279433%29",
+      "votes": 544,
       "comments": 176,
       "topics": [
         "Productivity",
@@ -4129,11 +3914,11 @@
       "summary_zh": "Shadow 2.0 是一款会议管理工具，能够实时记录和整理会议内容。它可以在会议进行时自动生成任务和行动项，帮助团队更高效地落实决策和计划。"
     },
     {
-      "rank": 14,
+      "rank": 13,
       "name": "Naptick AI",
       "tagline": "Al sleep companion that helps fall asleep without struggle",
       "url": "https://www.producthunt.com/products/naptick-ai-sleep-companion?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Breakfeed+%28ID%3A+279433%29",
-      "votes": 530,
+      "votes": 533,
       "comments": 120,
       "topics": [
         "Health & Fitness",
@@ -4145,11 +3930,11 @@
       "summary_zh": "Naptick AI是一款智能睡眠助手，通过提供舒缓的声音、引导冥想和呼吸技巧，帮助用户快速入睡。它可以分析你的睡眠模式，优化休息体验，让你更轻松地进入梦乡。"
     },
     {
-      "rank": 15,
+      "rank": 14,
       "name": "articuler.ai",
       "tagline": "Describe your goal. Meet the right professional.",
       "url": "https://www.producthunt.com/products/articuler-ai?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Breakfeed+%28ID%3A+279433%29",
-      "votes": 521,
+      "votes": 523,
       "comments": 88,
       "topics": [
         "Social Network",
@@ -4159,6 +3944,22 @@
       "thumbnail": "https://ph-files.imgix.net/c9c49bb8-f788-45ee-893c-f91f5df05bb4.png?auto=format",
       "screenshot": "https://ph-files.imgix.net/3cc5ce32-f73c-4e51-859b-7476f86a249e.jpeg?auto=format",
       "summary_zh": "articuler.ai 是一个在线平台，用户可以描述他们的目标或需求。通过智能匹配，平台会推荐合适的专业人士，帮助用户实现目标。它简化了寻找专业服务的过程，让连接更高效。"
+    },
+    {
+      "rank": 15,
+      "name": "Kelviq",
+      "tagline": "Payments, tax, and billing for SaaS & AI companies",
+      "url": "https://www.producthunt.com/products/kelviq?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Breakfeed+%28ID%3A+279433%29",
+      "votes": 520,
+      "comments": 96,
+      "topics": [
+        "Payments",
+        "SaaS",
+        "Developer Tools"
+      ],
+      "thumbnail": "https://ph-files.imgix.net/32ae2061-842f-4d89-8368-d892a7290a3c.x-icon?auto=format",
+      "screenshot": "https://ph-files.imgix.net/463397a2-5105-404d-941e-acda5b72d01e.png?auto=format",
+      "summary_zh": "Kelviq是一款专为软件即服务（SaaS）和人工智能公司设计的支付、税务和账单处理工具。它简化了财务管理，自动计算税费，轻松生成账单，帮助公司高效管理资金流动。"
     }
   ],
   "github_trending": [
@@ -4166,8 +3967,8 @@
       "repo": "tinyhumansai/openhuman",
       "description": "Your Personal AI super intelligence. Private, Simple and extremely powerful.",
       "language": "Rust",
-      "stars": 21030,
-      "starsToday": 3991,
+      "stars": 22373,
+      "starsToday": 3973,
       "url": "https://github.com/tinyhumansai/openhuman",
       "summary_zh": "这个项目是一个个人智能助手，可以帮助用户处理复杂的任务，使用方便并且注重隐私保护。对于Yves来说，这个项目可能对Logic Labs（AI公司）特别有帮助，因为它能为他们的AI解决方案提供新的灵感和技术支持，同时也可以提升他在创意设计方面的工作效率。"
     },
@@ -4175,8 +3976,8 @@
       "repo": "HKUDS/CLI-Anything",
       "description": "\"CLI-Anything: Making ALL Software Agent-Native\" -- CLI-Hub:https://clianything.cc/",
       "language": "Python",
-      "stars": 37657,
-      "starsToday": 1027,
+      "stars": 38046,
+      "starsToday": 1038,
       "url": "https://github.com/HKUDS/CLI-Anything",
       "summary_zh": "这个项目旨在让所有软件都能够通过命令行接口（CLI）进行操作，使得用户可以更加灵活和高效地使用各种工具和应用。对于Yves来说，这个项目对Logic Labs（AI 公司）尤其有帮助，因为它可以提高AI工具的可用性和整合性，帮助团队更好地开发和应用创新的解决方案。同时，作为创意设计从业者，他也能利用这个工具提升设计工作流程的效率。"
     },
@@ -4184,8 +3985,8 @@
       "repo": "Imbad0202/academic-research-skills",
       "description": "Academic Research Skills for Claude Code: research → write → review → revise → finalize",
       "language": "Python",
-      "stars": 14051,
-      "starsToday": 3184,
+      "stars": 14683,
+      "starsToday": 3164,
       "url": "https://github.com/Imbad0202/academic-research-skills",
       "summary_zh": "这个项目主要是帮助用户提升学术研究能力，涵盖从研究、写作到审查和修改的整个过程，目标是提高研究效率和质量。对于Yves来说，这个项目对于Logic Labs（AI 公司）更为有助，可以在AI相关的学术研究和产品开发中提升团队的研究能力和创新水平，同时也能为TexTale在科技服装领域的市场调研提供支持。作为创意设计从业者，使用这个工具可以更有效地整合研究成果，激发新的设计灵感。"
     },
@@ -4193,8 +3994,8 @@
       "repo": "obra/superpowers",
       "description": "An agentic skills framework & software development methodology that works.",
       "language": "Shell",
-      "stars": 198317,
-      "starsToday": 1620,
+      "stars": 199027,
+      "starsToday": 1623,
       "url": "https://github.com/obra/superpowers",
       "summary_zh": "这个项目是一个技能框架和软件开发方法论，旨在提高团队的效率和协作，让开发过程更顺畅。对Yves的Logic Labs有帮助，可以提升AI项目的开发管理效率，同时作为创意设计从业者，能够帮助他更好地组织和实施创意设计项目。"
     },
@@ -4202,8 +4003,8 @@
       "repo": "anthropics/claude-plugins-official",
       "description": "Official, Anthropic-managed directory of high quality Claude Code Plugins.",
       "language": "Python",
-      "stars": 20143,
-      "starsToday": 127,
+      "stars": 20402,
+      "starsToday": 171,
       "url": "https://github.com/anthropics/claude-plugins-official",
       "summary_zh": "这个项目是一个由Anthropic团队管理的高质量Claude代码插件的目录，允许开发者为Claude这一AI模型添加各种功能和扩展。对于Yves来说，这个项目对Logic Labs（AI公司）非常有帮助，因为它能够为他们的AI产品提供更多的功能和应用场景，同时作为创意设计者，也能激发他在项目中应用AI进行创新设计的想法。"
     },
@@ -4211,8 +4012,8 @@
       "repo": "rohitg00/agentmemory",
       "description": "#1 Persistent memory for AI coding agents based on real-world benchmarks",
       "language": "TypeScript",
-      "stars": 14101,
-      "starsToday": 1626,
+      "stars": 14495,
+      "starsToday": 1609,
       "url": "https://github.com/rohitg00/agentmemory",
       "summary_zh": "这个项目旨在为AI编码代理提供持久性记忆，帮助它们更有效地处理任务并提高编程效率。对于Yves来说，这个项目对Logic Labs（AI公司）特别有价值，因为它可以提升AI工具的智能化，使得在创意设计和解决问题时更加高效，从而推动创新和产品开发。"
     },
@@ -4220,8 +4021,8 @@
       "repo": "CloakHQ/CloakBrowser",
       "description": "Stealth Chromium that passes every bot detection test. Drop-in Playwright replacement with source-level fingerprint patches. 30/30 tests passed.",
       "language": "Python",
-      "stars": 16518,
-      "starsToday": 1466,
+      "stars": 17000,
+      "starsToday": 1463,
       "url": "https://github.com/CloakHQ/CloakBrowser",
       "summary_zh": "这个项目是一个能够隐蔽身份的浏览器，能避开各种机器人检测，适合需要匿名访问网站的场景。对Yves而言，这个工具可以帮助TexTale在电商运营中更有效地进行市场调研和竞争对手分析，同时对于Logic Labs在开发AI产品时保护数据安全和隐私也有一定价值。作为创意设计从业者，使用这种工具能够激发新的创意思路，探索用户行为分析的潜在方向。"
     },
@@ -4229,8 +4030,8 @@
       "repo": "rtk-ai/rtk",
       "description": "CLI proxy that reduces LLM token consumption by 60-90% on common dev commands. Single Rust binary, zero dependencies",
       "language": "Rust",
-      "stars": 50821,
-      "starsToday": 667,
+      "stars": 51312,
+      "starsToday": 704,
       "url": "https://github.com/rtk-ai/rtk",
       "summary_zh": "这个项目是一个命令行工具，可以通过优化开发命令的方式，大幅减少大语言模型（LLM）的令牌消耗，从而提高效率。对于Yves的Logic Labs（AI公司），这个工具可以帮助他们更有效地管理和使用AI资源，从而降低成本和提升开发效率；同时，对TexTale的电商业务也能在AI驱动的设计和营销中节省资源，提升运营效能。"
     },
@@ -4238,8 +4039,8 @@
       "repo": "msitarzewski/agency-agents",
       "description": "A complete AI agency at your fingertips - From frontend wizards to Reddit community ninjas, from whimsy injectors to reality checkers. Each agent is a specialized expert with personality, processes, and proven deliverables.",
       "language": "Shell",
-      "stars": 101508,
-      "starsToday": 983,
+      "stars": 102083,
+      "starsToday": 1120,
       "url": "https://github.com/msitarzewski/agency-agents",
       "summary_zh": "这个项目是一个完整的人工智能代理系统，提供各种专门的 AI 工具和服务，帮助用户高效完成不同的任务和操作。对 Yves 来说，这个项目可以在 Logic Labs 提供更强大的 AI 支持，助力他们在创新和设计过程中提升效率，同时也可以在 TexTale 为电商运营提供个性化营销和客户服务解决方案。作为创意设计从业者，它能够激发他的创意灵感，帮助他实现更具吸引力的设计方案。"
     },
@@ -4247,8 +4048,8 @@
       "repo": "colbymchenry/codegraph",
       "description": "Pre-indexed code knowledge graph for Claude Code, Codex, Cursor, and OpenCode — fewer tokens, fewer tool calls, 100% local",
       "language": "TypeScript",
-      "stars": 6506,
-      "starsToday": 1869,
+      "stars": 7137,
+      "starsToday": 1850,
       "url": "https://github.com/colbymchenry/codegraph",
       "summary_zh": "这个项目是一个预先索引的代码知识图谱，旨在提高代码生成和理解的效率，减少所需的编码和工具调用，全部在本地进行。对于Yves来说，这个项目对Logic Labs（AI公司）可能更有帮助，因为它能够提升AI工具在代码生成和分析方面的能力，进而推动创新和创意设计的进一步发展。"
     }
@@ -4258,7 +4059,7 @@
       {
         "name": "GPT Image 1.5 (high)",
         "elo": 1266,
-        "appearances": 5344,
+        "appearances": 5346,
         "creator": "OpenAI",
         "reddit": {
           "mentions": 6,
@@ -4289,7 +4090,7 @@
       {
         "name": "GPT Image 2 (high)",
         "elo": 1338,
-        "appearances": 9847,
+        "appearances": 9864,
         "creator": "OpenAI",
         "reddit": {
           "mentions": 6,
@@ -4317,8 +4118,8 @@
       },
       {
         "name": "grok-imagine-image",
-        "elo": 1179,
-        "appearances": 7441,
+        "elo": 1180,
+        "appearances": 7442,
         "creator": "xAI",
         "reddit": {
           "mentions": 0,
@@ -4331,7 +4132,7 @@
           "name": "grok-imagine-image-quality",
           "category": "image-edit"
         },
-        "compositeScore": 49.1,
+        "compositeScore": 49.3,
         "sources": [
           "AA",
           "LM Arena"
@@ -4341,7 +4142,7 @@
       {
         "name": "Nano Banana 2 (Gemini 3.1 Flash Image Preview)",
         "elo": 1263,
-        "appearances": 7125,
+        "appearances": 7131,
         "creator": "Google",
         "reddit": {
           "mentions": 7,
@@ -4370,7 +4171,7 @@
       {
         "name": "Riverflow 2.0",
         "elo": 1254,
-        "appearances": 5529,
+        "appearances": 5530,
         "creator": "Sourceful",
         "reddit": {
           "mentions": 0,
@@ -4391,7 +4192,7 @@
       {
         "name": "Seedream 4.5",
         "elo": 1165,
-        "appearances": 6502,
+        "appearances": 6505,
         "creator": "ByteDance Seed",
         "reddit": {
           "mentions": 1,
@@ -4422,7 +4223,7 @@
       {
         "name": "Nano Banana Pro (Gemini 3 Pro Image)",
         "elo": 1221,
-        "appearances": 4634,
+        "appearances": 4639,
         "creator": "Google",
         "reddit": {
           "mentions": 7,
@@ -4450,8 +4251,8 @@
       },
       {
         "name": "FLUX.2 [max]",
-        "elo": 1195,
-        "appearances": 4621,
+        "elo": 1196,
+        "appearances": 4623,
         "creator": "Black Forest Labs",
         "reddit": {
           "mentions": 10,
@@ -4470,7 +4271,7 @@
           "votes": 0,
           "name": ""
         },
-        "compositeScore": 37.9,
+        "compositeScore": 38.1,
         "sources": [
           "AA",
           "Reddit"
@@ -4480,7 +4281,7 @@
       {
         "name": "FLUX.2 [pro]",
         "elo": 1186,
-        "appearances": 4184,
+        "appearances": 4187,
         "creator": "Black Forest Labs",
         "reddit": {
           "mentions": 10,
@@ -4508,8 +4309,8 @@
       },
       {
         "name": "FLUX.2 [flex]",
-        "elo": 1181,
-        "appearances": 4226,
+        "elo": 1180,
+        "appearances": 4228,
         "creator": "Black Forest Labs",
         "reddit": {
           "mentions": 10,
@@ -4528,7 +4329,7 @@
           "votes": 0,
           "name": ""
         },
-        "compositeScore": 35.5,
+        "compositeScore": 35.3,
         "sources": [
           "AA",
           "Reddit"
@@ -4538,7 +4339,7 @@
       {
         "name": "MAI-Image-2",
         "elo": 1196,
-        "appearances": 4334,
+        "appearances": 4336,
         "creator": "Microsoft",
         "reddit": {
           "mentions": 0,
@@ -4559,7 +4360,7 @@
       {
         "name": "Seedream 4.0",
         "elo": 1194,
-        "appearances": 10665,
+        "appearances": 10669,
         "creator": "ByteDance Seed",
         "reddit": {
           "mentions": 1,
@@ -4588,7 +4389,7 @@
       {
         "name": "Imagen 4 Ultra Preview 0606",
         "elo": 1184,
-        "appearances": 4199,
+        "appearances": 4205,
         "creator": "Google",
         "reddit": {
           "mentions": 1,
@@ -4617,7 +4418,7 @@
       {
         "name": "HiDream-O1-Image-Dev-2604",
         "elo": 1183,
-        "appearances": 3545,
+        "appearances": 3562,
         "creator": "HiDream",
         "reddit": {
           "mentions": 0,
@@ -4638,7 +4439,7 @@
       {
         "name": "FLUX.2 [dev] Turbo",
         "elo": 1159,
-        "appearances": 4297,
+        "appearances": 4296,
         "creator": "Fal",
         "reddit": {
           "mentions": 10,
@@ -4700,7 +4501,7 @@
       {
         "name": "HappyHorse-1.0",
         "elo": 1209,
-        "appearances": 7149,
+        "appearances": 7153,
         "creator": "Alibaba-ATH",
         "reddit": {
           "mentions": 2,
@@ -4731,7 +4532,7 @@
       {
         "name": "Veo 3.1",
         "elo": 1095,
-        "appearances": 6171,
+        "appearances": 6176,
         "creator": "Google",
         "reddit": {
           "mentions": 3,
@@ -4762,7 +4563,7 @@
       {
         "name": "Veo 3.1 Fast",
         "elo": 1091,
-        "appearances": 5108,
+        "appearances": 5112,
         "creator": "Google",
         "reddit": {
           "mentions": 3,
@@ -4793,7 +4594,7 @@
       {
         "name": "grok-imagine-video",
         "elo": 1078,
-        "appearances": 6625,
+        "appearances": 6627,
         "creator": "xAI",
         "reddit": {
           "mentions": 0,
@@ -4816,7 +4617,7 @@
       {
         "name": "Sora 2 Pro",
         "elo": 1075,
-        "appearances": 4337,
+        "appearances": 4339,
         "creator": "OpenAI",
         "reddit": {
           "mentions": 7,
@@ -4847,7 +4648,7 @@
       {
         "name": "Sora 2 (December)",
         "elo": 1083,
-        "appearances": 4701,
+        "appearances": 4706,
         "creator": "OpenAI",
         "reddit": {
           "mentions": 7,
@@ -4878,7 +4679,7 @@
       {
         "name": "Vidu Q3 Pro",
         "elo": 1078,
-        "appearances": 6430,
+        "appearances": 6432,
         "creator": "Vidu",
         "reddit": {
           "mentions": 0,
@@ -4901,7 +4702,7 @@
       {
         "name": "Wan 2.6",
         "elo": 1023,
-        "appearances": 5252,
+        "appearances": 5258,
         "creator": "Alibaba",
         "reddit": {
           "mentions": 0,
@@ -4924,7 +4725,7 @@
       {
         "name": "Veo 3.1 Preview",
         "elo": 1101,
-        "appearances": 5879,
+        "appearances": 5881,
         "creator": "Google",
         "reddit": {
           "mentions": 3,
@@ -4953,7 +4754,7 @@
       {
         "name": "Kling 3.0 Omni 1080p (Pro)",
         "elo": 1098,
-        "appearances": 6063,
+        "appearances": 6064,
         "creator": "KlingAI",
         "reddit": {
           "mentions": 10,
@@ -4982,7 +4783,7 @@
       {
         "name": "Kling 3.0 1080p (Pro)",
         "elo": 1094,
-        "appearances": 5861,
+        "appearances": 5865,
         "creator": "KlingAI",
         "reddit": {
           "mentions": 10,
@@ -5011,7 +4812,7 @@
       {
         "name": "Veo 3.1 Fast Preview",
         "elo": 1093,
-        "appearances": 4340,
+        "appearances": 4344,
         "creator": "Google",
         "reddit": {
           "mentions": 3,
@@ -5040,7 +4841,7 @@
       {
         "name": "Kling 3.0 720p (Standard)",
         "elo": 1085,
-        "appearances": 5638,
+        "appearances": 5641,
         "creator": "KlingAI",
         "reddit": {
           "mentions": 10,
@@ -5069,7 +4870,7 @@
       {
         "name": "Kling 2.6 Pro (January)",
         "elo": 981,
-        "appearances": 5685,
+        "appearances": 5687,
         "creator": "KlingAI",
         "reddit": {
           "mentions": 10,
@@ -5098,7 +4899,7 @@
         "rank": 15
       }
     ],
-    "fetchedAt": "2026-05-19T23:00:58.564791+00:00",
+    "fetchedAt": "2026-05-20T07:39:19.684723+00:00",
     "sources": [
       "Artificial Analysis",
       "LM Arena",
