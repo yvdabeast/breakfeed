@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-05-29T07:51:54.965561+00:00",
+  "generatedAt": "2026-05-29T12:47:12.060701+00:00",
   "twitter": [],
   "twitter_history": [
     {
@@ -2467,6 +2467,16 @@
   ],
   "podcasts": [
     {
+      "name": "Lenny's Podcast",
+      "title": "AI makes great PMs more powerful",
+      "videoId": "Gfe0qFmEamo",
+      "url": "https://youtube.com/watch?v=Gfe0qFmEamo",
+      "publishedAt": "2026-05-29T11:00:04+00:00",
+      "isShort": false,
+      "fetchDate": "2026-05-29",
+      "summary_zh": "这个视频探讨了人工智能如何增强优秀产品经理（PM）的能力，使他们在决策和项目管理中更为高效。主持人与嘉宾分享了具体的案例和工具，以及AI如何帮助PM更好地理解用户需求，从而推动产品创新。\n\n🎯 推荐 Yves 观看 — 这个话题与Logic Labs的产品开发紧密相关，可以为创意设计中如何结合AI提供实用的见解。"
+    },
+    {
       "name": "Y Combinator",
       "title": "Inference, Diffusion, World Models, and More | YC Paper Club",
       "videoId": "wE1ZgJdt4uM",
@@ -2925,7 +2935,7 @@
       "name": "Kilo Code v7 for VS Code",
       "tagline": "Parallel agents, diff reviewer, and multi-model comparisons",
       "url": "https://www.producthunt.com/products/kilocode/launches/kilo-code-v7-for-vs-code?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Breakfeed+%28ID%3A+279433%29",
-      "votes": 857,
+      "votes": 862,
       "comments": 234,
       "topics": [
         "Open Source",
@@ -2942,7 +2952,7 @@
       "name": "StoreClaw",
       "tagline": "Grow your store profits with agents that know how to sell",
       "url": "https://www.producthunt.com/products/storeclaw?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Breakfeed+%28ID%3A+279433%29",
-      "votes": 839,
+      "votes": 840,
       "comments": 294,
       "topics": [
         "Artificial Intelligence",
@@ -2974,7 +2984,7 @@
       "name": "Brew ",
       "tagline": "Like Claude design for email marketing",
       "url": "https://www.producthunt.com/products/brew-5?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Breakfeed+%28ID%3A+279433%29",
-      "votes": 759,
+      "votes": 766,
       "comments": 126,
       "topics": [
         "Design Tools",
@@ -2990,7 +3000,7 @@
       "name": "Unabyss",
       "tagline": "MCP-native self-updating context layer for your AI",
       "url": "https://www.producthunt.com/products/unabyss?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Breakfeed+%28ID%3A+279433%29",
-      "votes": 707,
+      "votes": 710,
       "comments": 133,
       "topics": [
         "Productivity",
@@ -3038,7 +3048,7 @@
       "name": "Velo 2.0",
       "tagline": "Instantly turn your voice and screen into shareable videos",
       "url": "https://www.producthunt.com/products/velo-4/launches/velo-2-0?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Breakfeed+%28ID%3A+279433%29",
-      "votes": 635,
+      "votes": 636,
       "comments": 94,
       "topics": [
         "Productivity",
@@ -3054,7 +3064,7 @@
       "name": "own.page",
       "tagline": "Make your own personal website with bento tiles",
       "url": "https://www.producthunt.com/products/own-page?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Breakfeed+%28ID%3A+279433%29",
-      "votes": 616,
+      "votes": 620,
       "comments": 85,
       "topics": [
         "Social Network",
@@ -3070,7 +3080,7 @@
       "name": "Spellar 3.0",
       "tagline": "AI Meeting companion with cross-meeting memory",
       "url": "https://www.producthunt.com/products/spellar/launches/spellar-3-0-5?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Breakfeed+%28ID%3A+279433%29",
-      "votes": 584,
+      "votes": 587,
       "comments": 118,
       "topics": [
         "Productivity",
@@ -3167,91 +3177,91 @@
       "repo": "harry0703/MoneyPrinterTurbo",
       "description": "利用AI大模型，一键生成高清短视频 Generate short videos with one click using AI LLM.",
       "language": "Python",
-      "stars": 67678,
-      "starsToday": 4698,
+      "stars": 68502,
+      "starsToday": 3563,
       "url": "https://github.com/harry0703/MoneyPrinterTurbo",
       "summary_zh": "这个项目可以一键生成高质量的短视频，利用人工智能大模型来简化视频制作过程，适合需要快速内容创作的用户。对Yves作为TexTale的创始人特别有帮助，因为他可以利用这一工具为电商平台制作吸引人的产品宣传视频，同时提升品牌营销效果。作为创意设计从业者，这个项目也能激发他在视觉内容创作上的灵感，帮助他更好地表现产品特点和品牌形象。"
-    },
-    {
-      "repo": "affaan-m/ECC",
-      "description": "The agent harness performance optimization system. Skills, instincts, memory, security, and research-first development for Claude Code, Codex, Opencode, Cursor and beyond.",
-      "language": "JavaScript",
-      "stars": 197800,
-      "starsToday": 1385,
-      "url": "https://github.com/affaan-m/ECC",
-      "summary_zh": "这个项目是一个优化系统，旨在提升人工智能代理的性能，涉及技能、直觉、记忆和安全等方面的增强，适用于多种代码生成工具。对Yves来说，这个项目对Logic Labs（AI公司）更有帮助，可以帮助提升AI的开发效率和功能，进而更好地支持其在创意设计和产品开发中的应用。"
-    },
-    {
-      "repo": "Leonxlnx/taste-skill",
-      "description": "Taste-Skill - gives your AI good taste. stops the AI from generating boring, generic slop",
-      "language": "Shell",
-      "stars": 27105,
-      "starsToday": 2234,
-      "url": "https://github.com/Leonxlnx/taste-skill",
-      "summary_zh": "这个项目旨在提高人工智能生成内容的质量，让其产生更有创意和吸引力的作品。对Yves来说，这个项目可以帮助Logic Labs提升AI模型的创作能力，同时也能够为TexTale在品牌营销和产品设计上带来更具吸引力的创意灵感。"
-    },
-    {
-      "repo": "hardikpandya/stop-slop",
-      "description": "A skill file for removing AI tells from prose",
-      "language": "",
-      "stars": 6611,
-      "starsToday": 761,
-      "url": "https://github.com/hardikpandya/stop-slop",
-      "summary_zh": "这个项目是一个工具，旨在帮助用户消除文本中可能表明是人工智能生成的痕迹，使文本听起来更自然、更人性化。对Yves来说，这个工具对Logic Labs（AI 公司）尤其有帮助，因为它可以提升他们开发的AI产品生成内容的自然度，为用户提供更好的体验。同时，提升TexTale的品牌内容质量，帮助其在电商平台上更具吸引力。"
-    },
-    {
-      "repo": "twentyhq/twenty",
-      "description": "The open alternative to Salesforce, designed for AI.",
-      "language": "TypeScript",
-      "stars": 48047,
-      "starsToday": 493,
-      "url": "https://github.com/twentyhq/twenty",
-      "summary_zh": "这个项目是一个开源的客户关系管理（CRM）工具，可以帮助企业管理客户数据和销售流程，专门为人工智能的使用而设计。对于Yves来说，Logic Labs可以利用这个工具来提升客户关系管理的效率，而TexTale则可以借助其数据分析能力优化电商运营和品牌营销策略，同时作为一个创意设计从业者，Yves可以从中获取灵感和工具以提升客户互动体验。"
-    },
-    {
-      "repo": "DigitalPlatDev/FreeDomain",
-      "description": "DigitalPlat FreeDomain: Free Domain For Everyone",
-      "language": "HTML",
-      "stars": 171089,
-      "starsToday": 1761,
-      "url": "https://github.com/DigitalPlatDev/FreeDomain",
-      "summary_zh": "这个项目提供一个免费的域名注册平台，让用户能轻松获得自己的域名。对于Yves来说，这个项目对TexTale（科技服装电商）特别有帮助，有助于提升品牌在线形象，便于开展数字营销和电商活动。同时，作为创意设计从业者，理解如何轻松创建和管理在线品牌也具有重要的价值。"
-    },
-    {
-      "repo": "byoungd/English-level-up-tips",
-      "description": "An advanced guide to learn English which might benefit you a lot 🎉 . 离谱的英语学习指南/英语学习教程/英语学习/学英语",
-      "language": "",
-      "stars": 49035,
-      "starsToday": 2019,
-      "url": "https://github.com/byoungd/English-level-up-tips",
-      "summary_zh": "这个项目是一个高级英语学习指南，旨在帮助人们提高英语水平，提供实用的学习技巧和资源。对于Yves来说，这个项目可以帮助他在Logic Labs提升团队的英语沟通能力，进而更好地与国际客户和合作伙伴进行交流，同时也能增强TexTale在全球市场的品牌传播能力。作为创意设计从业者，掌握更好的英语能力能够帮助他更有效地获取灵感和趋势信息。"
     },
     {
       "repo": "microsoft/markitdown",
       "description": "Python tool for converting files and office documents to Markdown.",
       "language": "Python",
-      "stars": 128241,
-      "starsToday": 1410,
+      "stars": 128686,
+      "starsToday": 1876,
       "url": "https://github.com/microsoft/markitdown",
       "summary_zh": "这个项目是一个工具，可以将文件和办公文档转换成 Markdown 格式，这种格式方便用于写作和编程。对 Yves 来说，特别是对于 TexTale 来说，可以帮助更轻松地处理产品描述和在线内容，同时支持他的创意设计工作，使文档的组织和分享变得更加高效。"
     },
     {
-      "repo": "obra/superpowers",
-      "description": "An agentic skills framework & software development methodology that works.",
-      "language": "Shell",
-      "stars": 211599,
-      "starsToday": 1730,
-      "url": "https://github.com/obra/superpowers",
-      "summary_zh": "这个项目提供了一种技能框架和软件开发方法论，旨在帮助团队更高效地协作并提升工作效率。对于Yves来说，这个项目能够为Logic Labs的AI研发提供更好的协作方式，同时也能帮助TexTale在电商平台上更高效地管理和优化技术开发流程，对他的创意设计工作具有积极的支持作用。"
+      "repo": "EveryInc/compound-engineering-plugin",
+      "description": "Official Compound Engineering plugin for Claude Code, Codex, Cursor, and more",
+      "language": "TypeScript",
+      "stars": 17959,
+      "starsToday": 354,
+      "url": "https://github.com/EveryInc/compound-engineering-plugin",
+      "summary_zh": "这个项目是一个官方的插件，旨在增强一些编程工具的功能，使开发者能够更高效地进行编程和代码处理。对于Yves来说，这个工具可能对Logic Labs（AI公司）特别有帮助，因为它可以加速AI模型的开发与部署，提升团队的工作效率。同时，作为创意设计从业者，这个项目也能启发他在设计过程中更好地利用AI工具，推动创意理念的实现。"
     },
     {
-      "repo": "revfactory/harness",
-      "description": "A meta-skill that designs domain-specific agent teams, defines specialized agents, and generates the skills they use.",
-      "language": "HTML",
-      "stars": 4021,
-      "starsToday": 65,
-      "url": "https://github.com/revfactory/harness",
-      "summary_zh": "这个项目是一个智能工具，可以帮助用户设计和管理特定领域的智能代理团队，并生成它们所需的技能。对于Yves来说，这个项目可以为Logic Labs提供先进的AI团队组合方案，提升其在AI行业的竞争力，同时也能为TexTale在电商运营中引入智能化元素，优化品牌营销策略。作为创意设计从业者，这个工具能够激发新创意，拓展设计思路。"
+      "repo": "twentyhq/twenty",
+      "description": "The open alternative to Salesforce, designed for AI.",
+      "language": "TypeScript",
+      "stars": 48154,
+      "starsToday": 575,
+      "url": "https://github.com/twentyhq/twenty",
+      "summary_zh": "这个项目是一个开源的客户关系管理（CRM）工具，可以帮助企业管理客户数据和销售流程，专门为人工智能的使用而设计。对于Yves来说，Logic Labs可以利用这个工具来提升客户关系管理的效率，而TexTale则可以借助其数据分析能力优化电商运营和品牌营销策略，同时作为一个创意设计从业者，Yves可以从中获取灵感和工具以提升客户互动体验。"
+    },
+    {
+      "repo": "anthropics/claude-code",
+      "description": "Claude Code is an agentic coding tool that lives in your terminal, understands your codebase, and helps you code faster by executing routine tasks, explaining complex code, and handling git workflows - all through natural language commands.",
+      "language": "Python",
+      "stars": 127612,
+      "starsToday": 319,
+      "url": "https://github.com/anthropics/claude-code",
+      "summary_zh": "这个项目 Claude Code 是一个智能编码工具，能够在你的终端中运行，理解代码库，并通过自然语言命令帮你更快地编写代码，执行常见任务，解释复杂代码和管理 git 工作流程。  \n\n对于 Yves 来说，这个工具可以助力 Logic Labs 的 AI 开发，加快项目进度，提高团队效率，同时也有助于他在创意设计中更好地利用 AI 技术，从而提升整体创意流程。"
+    },
+    {
+      "repo": "Leonxlnx/taste-skill",
+      "description": "Taste-Skill - gives your AI good taste. stops the AI from generating boring, generic slop",
+      "language": "Shell",
+      "stars": 27498,
+      "starsToday": 2066,
+      "url": "https://github.com/Leonxlnx/taste-skill",
+      "summary_zh": "这个项目旨在提高人工智能生成内容的质量，让其产生更有创意和吸引力的作品。对Yves来说，这个项目可以帮助Logic Labs提升AI模型的创作能力，同时也能够为TexTale在品牌营销和产品设计上带来更具吸引力的创意灵感。"
+    },
+    {
+      "repo": "cursor/plugins",
+      "description": "Cursor plugin specification and official plugins",
+      "language": "TypeScript",
+      "stars": 1169,
+      "starsToday": 129,
+      "url": "https://github.com/cursor/plugins",
+      "summary_zh": "这个项目主要是提供 Cursor 插件的规范和官方插件，让开发者能够扩展 Cursor 编辑器的功能。对于 Yves 来说，尤其是在 Logic Labs 的 AI 公司中，可以利用这些插件创建出更加智能和高效的设计工具，从而提升创意设计的工作流程。与此同时，TexTale 也可以借助这些插件强化电商平台的用户体验和互动性。"
+    },
+    {
+      "repo": "run-llama/liteparse",
+      "description": "A fast, helpful, and open-source document parser",
+      "language": "Rust",
+      "stars": 6748,
+      "starsToday": 932,
+      "url": "https://github.com/run-llama/liteparse",
+      "summary_zh": "这个项目是一个快速且实用的开源文档解析工具，可以帮助用户更高效地处理各种文档数据。对于Yves来说，这个工具可以在Logic Labs中提升数据分析和处理的效率，让AI的应用更加顺畅，同时也可以为TexTale在管理产品信息和客户反馈时提供支持，增强电商运营的灵活性。作为创意设计从业者，liteparse也能帮助他快速提取灵感和创意素材，提升设计工作的效率。"
+    },
+    {
+      "repo": "galilai-group/stable-worldmodel",
+      "description": "A platform for reproducible world model research and evaluation",
+      "language": "Python",
+      "stars": 1053,
+      "starsToday": 346,
+      "url": "https://github.com/galilai-group/stable-worldmodel",
+      "summary_zh": "这个项目是一个用来研究和评估可重复世界模型的平台，旨在帮助科研人员更好地理解和建模真实世界的复杂性。对于Yves来说，这个项目对Logic Labs（AI 公司）会更有帮助，因为它能够为AI模型的开发和应用提供更可靠的基础，从而提升AI在实际应用中的表现。作为创意设计从业者，Yves也可以借助这些技术探索更具创意和智能的设计工具。"
+    },
+    {
+      "repo": "byoungd/English-level-up-tips",
+      "description": "An advanced guide to learn English which might benefit you a lot 🎉 . 离谱的英语学习指南/英语学习教程/英语学习/学英语",
+      "language": "",
+      "stars": 49313,
+      "starsToday": 1564,
+      "url": "https://github.com/byoungd/English-level-up-tips",
+      "summary_zh": "这个项目是一个高级英语学习指南，旨在帮助人们提高英语水平，提供实用的学习技巧和资源。对于Yves来说，这个项目可以帮助他在Logic Labs提升团队的英语沟通能力，进而更好地与国际客户和合作伙伴进行交流，同时也能增强TexTale在全球市场的品牌传播能力。作为创意设计从业者，掌握更好的英语能力能够帮助他更有效地获取灵感和趋势信息。"
     }
   ],
   "aigc_rankings": {
@@ -3290,7 +3300,7 @@
       {
         "name": "GPT Image 2 (high)",
         "elo": 1338,
-        "appearances": 10251,
+        "appearances": 10253,
         "creator": "OpenAI",
         "reddit": {
           "mentions": 6,
@@ -3319,7 +3329,7 @@
       {
         "name": "grok-imagine-image-quality",
         "elo": 1203,
-        "appearances": 3123,
+        "appearances": 3126,
         "creator": "xAI",
         "reddit": {
           "mentions": 0,
@@ -3341,8 +3351,8 @@
       },
       {
         "name": "grok-imagine-image",
-        "elo": 1179,
-        "appearances": 7747,
+        "elo": 1180,
+        "appearances": 7752,
         "creator": "xAI",
         "reddit": {
           "mentions": 0,
@@ -3355,7 +3365,7 @@
           "name": "grok-imagine-image-quality (20260519)",
           "category": "image-edit"
         },
-        "compositeScore": 50.7,
+        "compositeScore": 50.9,
         "sources": [
           "AA",
           "LM Arena"
@@ -3365,7 +3375,7 @@
       {
         "name": "Nano Banana 2 (Gemini 3.1 Flash Image Preview)",
         "elo": 1260,
-        "appearances": 7404,
+        "appearances": 7408,
         "creator": "Google",
         "reddit": {
           "mentions": 7,
@@ -3502,7 +3512,7 @@
       {
         "name": "FLUX.2 [flex]",
         "elo": 1182,
-        "appearances": 4465,
+        "appearances": 4464,
         "creator": "Black Forest Labs",
         "reddit": {
           "mentions": 10,
@@ -3531,7 +3541,7 @@
       {
         "name": "Recraft V4.1 Utility Pro",
         "elo": 1203,
-        "appearances": 2166,
+        "appearances": 2169,
         "creator": "Recraft",
         "reddit": {
           "mentions": 0,
@@ -3551,8 +3561,8 @@
       },
       {
         "name": "Seedream 4.0",
-        "elo": 1195,
-        "appearances": 10925,
+        "elo": 1196,
+        "appearances": 10927,
         "creator": "ByteDance Seed",
         "reddit": {
           "mentions": 1,
@@ -3571,7 +3581,7 @@
           "votes": 0,
           "name": ""
         },
-        "compositeScore": 34.2,
+        "compositeScore": 34.3,
         "sources": [
           "AA",
           "Reddit"
@@ -3581,7 +3591,7 @@
       {
         "name": "MAI-Image-2",
         "elo": 1194,
-        "appearances": 4699,
+        "appearances": 4708,
         "creator": "Microsoft",
         "reddit": {
           "mentions": 0,
@@ -3602,7 +3612,7 @@
       {
         "name": "Recraft V4.1 Utility",
         "elo": 1192,
-        "appearances": 2456,
+        "appearances": 2462,
         "creator": "Recraft",
         "reddit": {
           "mentions": 0,
@@ -3623,7 +3633,7 @@
       {
         "name": "HiDream-O1-Image-Dev-2604",
         "elo": 1190,
-        "appearances": 4109,
+        "appearances": 4114,
         "creator": "HiDream",
         "reddit": {
           "mentions": 0,
@@ -3646,7 +3656,7 @@
       {
         "name": "Dreamina Seedance 2.0 720p",
         "elo": 1213,
-        "appearances": 8157,
+        "appearances": 8160,
         "creator": "ByteDance Seed",
         "reddit": {
           "mentions": 9,
@@ -3677,7 +3687,7 @@
       {
         "name": "HappyHorse-1.0",
         "elo": 1212,
-        "appearances": 6906,
+        "appearances": 6908,
         "creator": "Alibaba-ATH",
         "reddit": {
           "mentions": 2,
@@ -3708,7 +3718,7 @@
       {
         "name": "Veo 3.1",
         "elo": 1095,
-        "appearances": 5771,
+        "appearances": 5773,
         "creator": "Google",
         "reddit": {
           "mentions": 3,
@@ -3801,7 +3811,7 @@
       {
         "name": "Sora 2 Pro",
         "elo": 1076,
-        "appearances": 4483,
+        "appearances": 4486,
         "creator": "OpenAI",
         "reddit": {
           "mentions": 7,
@@ -3832,7 +3842,7 @@
       {
         "name": "Vidu Q3 Pro",
         "elo": 1082,
-        "appearances": 6300,
+        "appearances": 6301,
         "creator": "Vidu",
         "reddit": {
           "mentions": 0,
@@ -3855,7 +3865,7 @@
       {
         "name": "grok-imagine-video",
         "elo": 1069,
-        "appearances": 6198,
+        "appearances": 6200,
         "creator": "xAI",
         "reddit": {
           "mentions": 0,
@@ -3877,8 +3887,8 @@
       },
       {
         "name": "Wan 2.6",
-        "elo": 1018,
-        "appearances": 4606,
+        "elo": 1017,
+        "appearances": 4609,
         "creator": "Alibaba",
         "reddit": {
           "mentions": 0,
@@ -3891,7 +3901,7 @@
           "name": "wan2.6-t2v",
           "category": "text-to-video"
         },
-        "compositeScore": 20.2,
+        "compositeScore": 20.0,
         "sources": [
           "AA",
           "LM Arena"
@@ -3901,7 +3911,7 @@
       {
         "name": "Veo 3.1 Preview",
         "elo": 1111,
-        "appearances": 5711,
+        "appearances": 5712,
         "creator": "Google",
         "reddit": {
           "mentions": 3,
@@ -3930,7 +3940,7 @@
       {
         "name": "Kling 3.0 1080p (Pro)",
         "elo": 1102,
-        "appearances": 5802,
+        "appearances": 5804,
         "creator": "KlingAI",
         "reddit": {
           "mentions": 10,
@@ -3958,8 +3968,8 @@
       },
       {
         "name": "Kling 3.0 Omni 1080p (Pro)",
-        "elo": 1099,
-        "appearances": 5596,
+        "elo": 1098,
+        "appearances": 5597,
         "creator": "KlingAI",
         "reddit": {
           "mentions": 10,
@@ -3978,7 +3988,7 @@
           "votes": 0,
           "name": ""
         },
-        "compositeScore": 18.0,
+        "compositeScore": 17.8,
         "sources": [
           "AA",
           "Reddit"
@@ -3988,7 +3998,7 @@
       {
         "name": "Kling 3.0 Omni 720p (Standard)",
         "elo": 1094,
-        "appearances": 5529,
+        "appearances": 5530,
         "creator": "KlingAI",
         "reddit": {
           "mentions": 10,
@@ -4017,7 +4027,7 @@
       {
         "name": "Veo 3.1 Fast Preview",
         "elo": 1091,
-        "appearances": 4380,
+        "appearances": 4381,
         "creator": "Google",
         "reddit": {
           "mentions": 3,
@@ -4045,8 +4055,8 @@
       },
       {
         "name": "Kling 3.0 720p (Standard)",
-        "elo": 1088,
-        "appearances": 5753,
+        "elo": 1087,
+        "appearances": 5755,
         "creator": "KlingAI",
         "reddit": {
           "mentions": 10,
@@ -4065,7 +4075,7 @@
           "votes": 0,
           "name": ""
         },
-        "compositeScore": 16.1,
+        "compositeScore": 15.9,
         "sources": [
           "AA",
           "Reddit"
@@ -4073,7 +4083,7 @@
         "rank": 15
       }
     ],
-    "fetchedAt": "2026-05-29T07:50:50.091604+00:00",
+    "fetchedAt": "2026-05-29T12:46:01.851958+00:00",
     "sources": [
       "Artificial Analysis",
       "LM Arena",
