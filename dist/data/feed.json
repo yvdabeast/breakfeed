@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-05-30T16:57:15.896776+00:00",
+  "generatedAt": "2026-05-30T22:55:12.893456+00:00",
   "twitter": [
     {
       "source": "x",
@@ -2899,6 +2899,16 @@
   ],
   "podcasts": [
     {
+      "name": "No Priors",
+      "title": "Claude Code can destroy your database",
+      "videoId": "2Xxr3XtOA0A",
+      "url": "https://youtube.com/watch?v=2Xxr3XtOA0A",
+      "publishedAt": "2026-05-30T22:35:42+00:00",
+      "isShort": false,
+      "fetchDate": "2026-05-30",
+      "summary_zh": "这段视频讨论了Claude Code可能对数据库造成的潜在破坏，重点在于它可能引发的数据安全和完整性问题。通过分析各种数据库管理的风险，视频提示观众在使用Claude Code时务必谨慎，避免对业务数据造成负面影响。\n\n🎯 推荐 Yves 观看 — 这个视频与AI工具的潜在风险直接相关，能够帮助Logic Labs和TexTale在产品开发和运营中更好地把握数据安全的问题。"
+    },
+    {
       "name": "Data Driven NYC",
       "title": "One AI Prompt Can Cost $1,000 #ai #podcast",
       "videoId": "cMexHjHMAkA",
@@ -3379,16 +3389,6 @@
       "isShort": false,
       "fetchDate": "2026-05-24",
       "summary_zh": "这个视频讨论了人工智能在加速发展的新阶段，介绍了最近的技术进展和行业趋势如何推动AI应用的普及和演变。它还探讨了各个领域如何利用AI工具提高效率和创造力，为创业者和企业提供了重要的洞察。\n\n🎯 推荐 Yves 观看 — 这个视频的内容直接与AI行业趋势相关，对于Logic Labs和TexTale在产品开发和创意设计中的应用非常有帮助。"
-    },
-    {
-      "name": "Greg Isenberg",
-      "title": "Hermes Agent Explained",
-      "videoId": "ecm2ZUOQSTg",
-      "url": "https://youtube.com/watch?v=ecm2ZUOQSTg",
-      "publishedAt": "2026-05-23T22:31:16+00:00",
-      "isShort": false,
-      "fetchDate": "2026-05-24",
-      "summary_zh": "这个视频介绍了Hermes Agent，这是一种基于AI的虚拟助手，能够帮助用户在日常决策中提供智能建议。视频深入探讨了它的工作原理，以及如何利用这种新技术改善用户体验和提升效率。\n\n🎯 推荐 Yves 观看 — Hermes Agent的应用可能对Logic Labs和TexTale的创意设计和电商运营带来启示，帮助你进一步发掘AI工具在品牌营销中的潜力。"
     }
   ],
   "producthunt": [
@@ -3397,7 +3397,7 @@
       "name": "Kilo Code v7 for VS Code",
       "tagline": "Parallel agents, diff reviewer, and multi-model comparisons",
       "url": "https://www.producthunt.com/products/kilocode/launches/kilo-code-v7-for-vs-code?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Breakfeed+%28ID%3A+279433%29",
-      "votes": 886,
+      "votes": 888,
       "comments": 242,
       "topics": [
         "Open Source",
@@ -3414,7 +3414,7 @@
       "name": "StoreClaw",
       "tagline": "Grow your store profits with agents that know how to sell",
       "url": "https://www.producthunt.com/products/storeclaw?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Breakfeed+%28ID%3A+279433%29",
-      "votes": 844,
+      "votes": 846,
       "comments": 296,
       "topics": [
         "Artificial Intelligence",
@@ -3430,8 +3430,8 @@
       "name": "PollyReach",
       "tagline": "Give your agent a real number and voice to make calls.",
       "url": "https://www.producthunt.com/products/pollyreach?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Breakfeed+%28ID%3A+279433%29",
-      "votes": 830,
-      "comments": 221,
+      "votes": 832,
+      "comments": 223,
       "topics": [
         "Productivity",
         "Artificial Intelligence",
@@ -3446,7 +3446,7 @@
       "name": "Brew ",
       "tagline": "Like Claude design for email marketing",
       "url": "https://www.producthunt.com/products/brew-5?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Breakfeed+%28ID%3A+279433%29",
-      "votes": 794,
+      "votes": 799,
       "comments": 128,
       "topics": [
         "Design Tools",
@@ -3462,7 +3462,7 @@
       "name": "Unabyss",
       "tagline": "MCP-native self-updating context layer for your AI",
       "url": "https://www.producthunt.com/products/unabyss?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Breakfeed+%28ID%3A+279433%29",
-      "votes": 724,
+      "votes": 727,
       "comments": 135,
       "topics": [
         "Productivity",
@@ -3477,7 +3477,7 @@
       "name": "RankSpot",
       "tagline": "AI SEO Blog driven by deep competitor intelligence",
       "url": "https://www.producthunt.com/products/rankspot/launches/rankspot?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Breakfeed+%28ID%3A+279433%29",
-      "votes": 666,
+      "votes": 668,
       "comments": 103,
       "topics": [
         "Marketing",
@@ -3526,7 +3526,7 @@
       "name": "own.page",
       "tagline": "Make your own personal website with bento tiles",
       "url": "https://www.producthunt.com/products/own-page?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Breakfeed+%28ID%3A+279433%29",
-      "votes": 622,
+      "votes": 624,
       "comments": 86,
       "topics": [
         "Social Network",
@@ -3622,7 +3622,7 @@
       "name": "Shadow 2.0",
       "tagline": "The work your meetings create, done before they end",
       "url": "https://www.producthunt.com/products/shadow-6/launches/shadow-2-0-2?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Breakfeed+%28ID%3A+279433%29",
-      "votes": 554,
+      "votes": 555,
       "comments": 176,
       "topics": [
         "Productivity",
@@ -3639,7 +3639,7 @@
       "repo": "microsoft/markitdown",
       "description": "Python tool for converting files and office documents to Markdown.",
       "language": "Python",
-      "stars": 131655,
+      "stars": 132233,
       "starsToday": 2473,
       "url": "https://github.com/microsoft/markitdown",
       "summary_zh": "这个项目是一个工具，可以将文件和办公文档转换成 Markdown 格式，这种格式方便用于写作和编程。对 Yves 来说，特别是对于 TexTale 来说，可以帮助更轻松地处理产品描述和在线内容，同时支持他的创意设计工作，使文档的组织和分享变得更加高效。"
@@ -3648,7 +3648,7 @@
       "repo": "harry0703/MoneyPrinterTurbo",
       "description": "利用AI大模型，一键生成高清短视频 Generate short videos with one click using AI LLM.",
       "language": "Python",
-      "stars": 71597,
+      "stars": 71877,
       "starsToday": 2775,
       "url": "https://github.com/harry0703/MoneyPrinterTurbo",
       "summary_zh": "这个项目可以一键生成高质量的短视频，利用人工智能大模型来简化视频制作过程，适合需要快速内容创作的用户。对Yves作为TexTale的创始人特别有帮助，因为他可以利用这一工具为电商平台制作吸引人的产品宣传视频，同时提升品牌营销效果。作为创意设计从业者，这个项目也能激发他在视觉内容创作上的灵感，帮助他更好地表现产品特点和品牌形象。"
@@ -3657,7 +3657,7 @@
       "repo": "anthropics/claude-code",
       "description": "Claude Code is an agentic coding tool that lives in your terminal, understands your codebase, and helps you code faster by executing routine tasks, explaining complex code, and handling git workflows - all through natural language commands.",
       "language": "Python",
-      "stars": 128284,
+      "stars": 128375,
       "starsToday": 595,
       "url": "https://github.com/anthropics/claude-code",
       "summary_zh": "这个项目 Claude Code 是一个智能编码工具，能够在你的终端中运行，理解代码库，并通过自然语言命令帮你更快地编写代码，执行常见任务，解释复杂代码和管理 git 工作流程。  \n\n对于 Yves 来说，这个工具可以助力 Logic Labs 的 AI 开发，加快项目进度，提高团队效率，同时也有助于他在创意设计中更好地利用 AI 技术，从而提升整体创意流程。"
@@ -3666,7 +3666,7 @@
       "repo": "cursor/plugins",
       "description": "Cursor plugin specification and official plugins",
       "language": "TypeScript",
-      "stars": 1403,
+      "stars": 1443,
       "starsToday": 206,
       "url": "https://github.com/cursor/plugins",
       "summary_zh": "这个项目主要是提供 Cursor 插件的规范和官方插件，让开发者能够扩展 Cursor 编辑器的功能。对于 Yves 来说，尤其是在 Logic Labs 的 AI 公司中，可以利用这些插件创建出更加智能和高效的设计工具，从而提升创意设计的工作流程。与此同时，TexTale 也可以借助这些插件强化电商平台的用户体验和互动性。"
@@ -3675,7 +3675,7 @@
       "repo": "revfactory/harness",
       "description": "A meta-skill that designs domain-specific agent teams, defines specialized agents, and generates the skills they use.",
       "language": "HTML",
-      "stars": 4165,
+      "stars": 4234,
       "starsToday": 80,
       "url": "https://github.com/revfactory/harness",
       "summary_zh": "这个项目旨在创建一种能够设计特定领域代理团队的元技能，定义专门的代理及其使用的技能，简化了开发和管理智能代理的过程。对于Yves来说，这个项目可以帮助Logic Labs在AI领域提供更专业和高效的解决方案，同时也能够丰富他在创意设计中的应用，提升电商平台的智能化程度。"
@@ -3684,7 +3684,7 @@
       "repo": "EveryInc/compound-engineering-plugin",
       "description": "Official Compound Engineering plugin for Claude Code, Codex, Cursor, and more",
       "language": "TypeScript",
-      "stars": 18352,
+      "stars": 18405,
       "starsToday": 348,
       "url": "https://github.com/EveryInc/compound-engineering-plugin",
       "summary_zh": "这个项目是一个官方的插件，旨在增强一些编程工具的功能，使开发者能够更高效地进行编程和代码处理。对于Yves来说，这个工具可能对Logic Labs（AI公司）特别有帮助，因为它可以加速AI模型的开发与部署，提升团队的工作效率。同时，作为创意设计从业者，这个项目也能启发他在设计过程中更好地利用AI工具，推动创意理念的实现。"
@@ -3693,7 +3693,7 @@
       "repo": "affaan-m/ECC",
       "description": "The agent harness performance optimization system. Skills, instincts, memory, security, and research-first development for Claude Code, Codex, Opencode, Cursor and beyond.",
       "language": "JavaScript",
-      "stars": 199104,
+      "stars": 199239,
       "starsToday": 918,
       "url": "https://github.com/affaan-m/ECC",
       "summary_zh": "这个项目是一个智能代理系统，旨在提升性能优化，结合技能、直觉、记忆和安全性来支持各种代码编写工具。对于Yves来说，这个项目对Logic Labs（AI公司）尤为有帮助，因为它可以提供更高效的AI开发工具，助力创意设计和算法优化，同时也能提高TexTale在电商运营中对AI的融合和应用效率。"
@@ -3702,7 +3702,7 @@
       "repo": "OpenBMB/VoxCPM",
       "description": "VoxCPM2: Tokenizer-Free TTS for Multilingual Speech Generation, Creative Voice Design, and True-to-Life Cloning",
       "language": "Python",
-      "stars": 22651,
+      "stars": 22728,
       "starsToday": 658,
       "url": "https://github.com/OpenBMB/VoxCPM",
       "summary_zh": "这个项目是一个用于多语言语音生成的文本转语音系统，可以让机器模仿不同的人的声音，甚至实现逼真的声音克隆，支持无分词处理。对Yves的Logic Labs（AI公司）尤其有帮助，因为可以用于开发创新的语音交互工具，提高用户体验，同时也能激发创意设计的灵感，适用于广告和品牌营销的声音塑造。"
@@ -3711,7 +3711,7 @@
       "repo": "galilai-group/stable-worldmodel",
       "description": "A platform for reproducible world model research and evaluation",
       "language": "Python",
-      "stars": 1403,
+      "stars": 1446,
       "starsToday": 319,
       "url": "https://github.com/galilai-group/stable-worldmodel",
       "summary_zh": "这个项目是一个用来研究和评估可重复世界模型的平台，旨在帮助科研人员更好地理解和建模真实世界的复杂性。对于Yves来说，这个项目对Logic Labs（AI 公司）会更有帮助，因为它能够为AI模型的开发和应用提供更可靠的基础，从而提升AI在实际应用中的表现。作为创意设计从业者，Yves也可以借助这些技术探索更具创意和智能的设计工具。"
@@ -3720,7 +3720,7 @@
       "repo": "Crosstalk-Solutions/project-nomad",
       "description": "Project N.O.M.A.D, is a self-contained, offline survival computer packed with critical tools, knowledge, and AI to keep you informed and empowered—anytime, anywhere.",
       "language": "TypeScript",
-      "stars": 27228,
+      "stars": 27325,
       "starsToday": 473,
       "url": "https://github.com/Crosstalk-Solutions/project-nomad",
       "summary_zh": "这个项目是一个集成的离线生存计算机，里面包含了重要的工具和知识，以及人工智能，可以随时随地为用户提供信息和支持。对于Yves来说，Project N.O.M.A.D可以帮助Logic Labs探索新的人机交互方式及其在极端环境中的应用，同时也可以为TexTale的科技服装设计提供灵感，结合AI和生存技巧，创造出更具实用性和创新性的产品。作为创意设计从业者，该项目的多功能性和实用性可以激发出更多的创意和设计理念。"
@@ -3731,7 +3731,7 @@
       {
         "name": "GPT Image 1.5 (high)",
         "elo": 1268,
-        "appearances": 5607,
+        "appearances": 5610,
         "creator": "OpenAI",
         "reddit": {
           "mentions": 6,
@@ -3762,7 +3762,7 @@
       {
         "name": "GPT Image 2 (high)",
         "elo": 1338,
-        "appearances": 10281,
+        "appearances": 10287,
         "creator": "OpenAI",
         "reddit": {
           "mentions": 6,
@@ -3791,7 +3791,7 @@
       {
         "name": "grok-imagine-image-quality",
         "elo": 1203,
-        "appearances": 3158,
+        "appearances": 3169,
         "creator": "xAI",
         "reddit": {
           "mentions": 0,
@@ -3814,7 +3814,7 @@
       {
         "name": "grok-imagine-image",
         "elo": 1180,
-        "appearances": 7774,
+        "appearances": 7785,
         "creator": "xAI",
         "reddit": {
           "mentions": 0,
@@ -3836,8 +3836,8 @@
       },
       {
         "name": "Nano Banana 2 (Gemini 3.1 Flash Image Preview)",
-        "elo": 1261,
-        "appearances": 7432,
+        "elo": 1260,
+        "appearances": 7446,
         "creator": "Google",
         "reddit": {
           "mentions": 7,
@@ -3856,7 +3856,7 @@
           "votes": 0,
           "name": ""
         },
-        "compositeScore": 47.4,
+        "compositeScore": 47.2,
         "sources": [
           "AA",
           "Reddit"
@@ -3865,8 +3865,8 @@
       },
       {
         "name": "Riverflow 2.0",
-        "elo": 1255,
-        "appearances": 5813,
+        "elo": 1256,
+        "appearances": 5816,
         "creator": "Sourceful",
         "reddit": {
           "mentions": 0,
@@ -3878,7 +3878,7 @@
           "votes": 0,
           "name": ""
         },
-        "compositeScore": 44.7,
+        "compositeScore": 44.8,
         "sources": [
           "AA"
         ],
@@ -3887,7 +3887,7 @@
       {
         "name": "Nano Banana Pro (Gemini 3 Pro Image)",
         "elo": 1219,
-        "appearances": 4872,
+        "appearances": 4878,
         "creator": "Google",
         "reddit": {
           "mentions": 7,
@@ -3916,7 +3916,7 @@
       {
         "name": "FLUX.2 [max]",
         "elo": 1194,
-        "appearances": 4886,
+        "appearances": 4889,
         "creator": "Black Forest Labs",
         "reddit": {
           "mentions": 10,
@@ -3945,7 +3945,7 @@
       {
         "name": "FLUX.2 [pro]",
         "elo": 1187,
-        "appearances": 4440,
+        "appearances": 4444,
         "creator": "Black Forest Labs",
         "reddit": {
           "mentions": 10,
@@ -3974,7 +3974,7 @@
       {
         "name": "Recraft V4.1 Utility Pro",
         "elo": 1205,
-        "appearances": 2193,
+        "appearances": 2204,
         "creator": "Recraft",
         "reddit": {
           "mentions": 0,
@@ -3995,7 +3995,7 @@
       {
         "name": "FLUX.2 [flex]",
         "elo": 1182,
-        "appearances": 4470,
+        "appearances": 4471,
         "creator": "Black Forest Labs",
         "reddit": {
           "mentions": 10,
@@ -4023,8 +4023,8 @@
       },
       {
         "name": "Seedream 4.0",
-        "elo": 1196,
-        "appearances": 10934,
+        "elo": 1195,
+        "appearances": 10937,
         "creator": "ByteDance Seed",
         "reddit": {
           "mentions": 1,
@@ -4043,7 +4043,7 @@
           "votes": 0,
           "name": ""
         },
-        "compositeScore": 34.3,
+        "compositeScore": 34.2,
         "sources": [
           "AA",
           "Reddit"
@@ -4053,7 +4053,7 @@
       {
         "name": "MAI-Image-2",
         "elo": 1194,
-        "appearances": 4742,
+        "appearances": 4748,
         "creator": "Microsoft",
         "reddit": {
           "mentions": 0,
@@ -4074,7 +4074,7 @@
       {
         "name": "Recraft V4.1 Utility",
         "elo": 1193,
-        "appearances": 2490,
+        "appearances": 2503,
         "creator": "Recraft",
         "reddit": {
           "mentions": 0,
@@ -4095,7 +4095,7 @@
       {
         "name": "HiDream-O1-Image-Dev-2604",
         "elo": 1191,
-        "appearances": 4132,
+        "appearances": 4143,
         "creator": "HiDream",
         "reddit": {
           "mentions": 0,
@@ -4118,7 +4118,7 @@
       {
         "name": "Dreamina Seedance 2.0 720p",
         "elo": 1215,
-        "appearances": 8175,
+        "appearances": 8188,
         "creator": "ByteDance Seed",
         "reddit": {
           "mentions": 9,
@@ -4149,7 +4149,7 @@
       {
         "name": "HappyHorse-1.0",
         "elo": 1212,
-        "appearances": 6911,
+        "appearances": 6919,
         "creator": "Alibaba-ATH",
         "reddit": {
           "mentions": 2,
@@ -4180,7 +4180,7 @@
       {
         "name": "Veo 3.1",
         "elo": 1094,
-        "appearances": 5778,
+        "appearances": 5789,
         "creator": "Google",
         "reddit": {
           "mentions": 3,
@@ -4210,8 +4210,8 @@
       },
       {
         "name": "Veo 3.1 Fast",
-        "elo": 1091,
-        "appearances": 5236,
+        "elo": 1092,
+        "appearances": 5241,
         "creator": "Google",
         "reddit": {
           "mentions": 3,
@@ -4231,7 +4231,7 @@
           "name": "veo-3.1-fast-audio",
           "category": "image-to-video"
         },
-        "compositeScore": 35.3,
+        "compositeScore": 35.4,
         "sources": [
           "AA",
           "LM Arena",
@@ -4242,7 +4242,7 @@
       {
         "name": "Sora 2 (December)",
         "elo": 1092,
-        "appearances": 4455,
+        "appearances": 4457,
         "creator": "OpenAI",
         "reddit": {
           "mentions": 7,
@@ -4272,8 +4272,8 @@
       },
       {
         "name": "Sora 2 Pro",
-        "elo": 1077,
-        "appearances": 4482,
+        "elo": 1076,
+        "appearances": 4485,
         "creator": "OpenAI",
         "reddit": {
           "mentions": 7,
@@ -4293,7 +4293,7 @@
           "name": "sora-2-pro",
           "category": "text-to-video"
         },
-        "compositeScore": 33.7,
+        "compositeScore": 33.5,
         "sources": [
           "AA",
           "LM Arena",
@@ -4303,8 +4303,8 @@
       },
       {
         "name": "Vidu Q3 Pro",
-        "elo": 1082,
-        "appearances": 6298,
+        "elo": 1081,
+        "appearances": 6306,
         "creator": "Vidu",
         "reddit": {
           "mentions": 0,
@@ -4317,7 +4317,7 @@
           "name": "vidu-q3-pro",
           "category": "image-to-video"
         },
-        "compositeScore": 32.4,
+        "compositeScore": 32.2,
         "sources": [
           "AA",
           "LM Arena"
@@ -4327,7 +4327,7 @@
       {
         "name": "grok-imagine-video",
         "elo": 1068,
-        "appearances": 6196,
+        "appearances": 6198,
         "creator": "xAI",
         "reddit": {
           "mentions": 0,
@@ -4349,8 +4349,8 @@
       },
       {
         "name": "Wan 2.6",
-        "elo": 1017,
-        "appearances": 4602,
+        "elo": 1018,
+        "appearances": 4609,
         "creator": "Alibaba",
         "reddit": {
           "mentions": 0,
@@ -4363,7 +4363,7 @@
           "name": "wan2.6-t2v",
           "category": "text-to-video"
         },
-        "compositeScore": 19.9,
+        "compositeScore": 20.1,
         "sources": [
           "AA",
           "LM Arena"
@@ -4373,7 +4373,7 @@
       {
         "name": "Veo 3.1 Preview",
         "elo": 1110,
-        "appearances": 5708,
+        "appearances": 5717,
         "creator": "Google",
         "reddit": {
           "mentions": 3,
@@ -4402,7 +4402,7 @@
       {
         "name": "Kling 3.0 1080p (Pro)",
         "elo": 1103,
-        "appearances": 5810,
+        "appearances": 5817,
         "creator": "KlingAI",
         "reddit": {
           "mentions": 10,
@@ -4431,7 +4431,7 @@
       {
         "name": "Kling 3.0 Omni 1080p (Pro)",
         "elo": 1099,
-        "appearances": 5596,
+        "appearances": 5601,
         "creator": "KlingAI",
         "reddit": {
           "mentions": 10,
@@ -4459,8 +4459,8 @@
       },
       {
         "name": "Kling 3.0 Omni 720p (Standard)",
-        "elo": 1094,
-        "appearances": 5536,
+        "elo": 1093,
+        "appearances": 5547,
         "creator": "KlingAI",
         "reddit": {
           "mentions": 10,
@@ -4479,7 +4479,7 @@
           "votes": 0,
           "name": ""
         },
-        "compositeScore": 17.1,
+        "compositeScore": 17.0,
         "sources": [
           "AA",
           "Reddit"
@@ -4487,9 +4487,38 @@
         "rank": 13
       },
       {
+        "name": "Kling 3.0 720p (Standard)",
+        "elo": 1089,
+        "appearances": 5761,
+        "creator": "KlingAI",
+        "reddit": {
+          "mentions": 10,
+          "upvotes": 340,
+          "topPost": {
+            "title": "Last week in Image & Video Generation",
+            "score": 165,
+            "subreddit": "StableDiffusion",
+            "url": "https://reddit.com/r/StableDiffusion/comments/1rwus6o/last_week_in_image_video_generation/",
+            "num_comments": 9,
+            "permalink": "/r/StableDiffusion/comments/1rwus6o/last_week_in_image_video_generation/"
+          }
+        },
+        "lmArena": {
+          "elo": 0,
+          "votes": 0,
+          "name": ""
+        },
+        "compositeScore": 16.3,
+        "sources": [
+          "AA",
+          "Reddit"
+        ],
+        "rank": 14
+      },
+      {
         "name": "Veo 3.1 Fast Preview",
         "elo": 1092,
-        "appearances": 4377,
+        "appearances": 4380,
         "creator": "Google",
         "reddit": {
           "mentions": 3,
@@ -4513,39 +4542,10 @@
           "AA",
           "Reddit"
         ],
-        "rank": 14
-      },
-      {
-        "name": "Kling 3.0 720p (Standard)",
-        "elo": 1088,
-        "appearances": 5753,
-        "creator": "KlingAI",
-        "reddit": {
-          "mentions": 10,
-          "upvotes": 340,
-          "topPost": {
-            "title": "Last week in Image & Video Generation",
-            "score": 165,
-            "subreddit": "StableDiffusion",
-            "url": "https://reddit.com/r/StableDiffusion/comments/1rwus6o/last_week_in_image_video_generation/",
-            "num_comments": 9,
-            "permalink": "/r/StableDiffusion/comments/1rwus6o/last_week_in_image_video_generation/"
-          }
-        },
-        "lmArena": {
-          "elo": 0,
-          "votes": 0,
-          "name": ""
-        },
-        "compositeScore": 16.1,
-        "sources": [
-          "AA",
-          "Reddit"
-        ],
         "rank": 15
       }
     ],
-    "fetchedAt": "2026-05-30T16:56:28.842891+00:00",
+    "fetchedAt": "2026-05-30T22:54:06.826344+00:00",
     "sources": [
       "Artificial Analysis",
       "LM Arena",
