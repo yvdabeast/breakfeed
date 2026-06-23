@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-23T17:51:02.712261+00:00",
+  "generatedAt": "2026-06-23T23:05:18.212641+00:00",
   "twitter": [
     {
       "source": "x",
@@ -4454,6 +4454,16 @@
   ],
   "podcasts": [
     {
+      "name": "Greg Isenberg",
+      "title": "GLM 5.2: Set Up Local AI with Cursor/Codex etc",
+      "videoId": "xa-9O5cDm3c",
+      "url": "https://youtube.com/watch?v=xa-9O5cDm3c",
+      "publishedAt": "2026-06-23T17:40:14+00:00",
+      "isShort": false,
+      "fetchDate": "2026-06-23",
+      "summary_zh": "这个视频主要介绍了如何使用 Cursor 和 Codex 等工具在本地搭建 AI 环境，适合那些对 AI 开发感兴趣的用户。通过具体的步骤和操作示例，Greg Isenberg 教授了如何在自己的设备上实现这些功能，提升个人或团队的工作效率。\n\n🎯 推荐 Yves 观看 — 这个视频可以帮助你更好地理解如何在项目中应用 AI 工具，特别是对 Logic Labs 和 TexTale 的技术开发有重要参考价值。"
+    },
+    {
       "name": "Fireship",
       "title": "Midjourney's next product wants to get inside you...",
       "videoId": "a2i9h2ip-nY",
@@ -4519,9 +4529,11 @@
       "videoId": "Dh50sbzOXfE",
       "url": "https://youtube.com/watch?v=Dh50sbzOXfE",
       "publishedAt": "2026-06-23T00:50:01+00:00",
-      "isShort": false,
+      "isShort": true,
       "fetchDate": "2026-06-23",
-      "summary_zh": "在这个视频中，Fiona Fung 分享了她如何让 Claude 这个 AI 工具自动读取她每个早晨的 Slack 消息，展示了 AI 在日常工作中的便利性和效率提升。她还讨论了 Claude 的功能与潜力，尤其在团队沟通和信息处理方面的应用。\n\n🎯 推荐 Yves 观看 — 这个视频展示了如何利用 AI 工具高效管理日常工作，尤其对 Logic Labs 和 TexTale 在科技设计与电商运营的应用有启发。"
+      "summary_zh": "在这个视频中，Fiona Fung 分享了她如何让 Claude 这个 AI 工具自动读取她每个早晨的 Slack 消息，展示了 AI 在日常工作中的便利性和效率提升。她还讨论了 Claude 的功能与潜力，尤其在团队沟通和信息处理方面的应用。\n\n🎯 推荐 Yves 观看 — 这个视频展示了如何利用 AI 工具高效管理日常工作，尤其对 Logic Labs 和 TexTale 在科技设计与电商运营的应用有启发。",
+      "duration": "52s",
+      "durationSeconds": 52
     },
     {
       "name": "Stanford GSB",
@@ -5010,26 +5022,6 @@
       "isShort": false,
       "fetchDate": "2026-06-17",
       "summary_zh": "这个视频主要讲述了SpaceX的最新发射动态、Cursor公司市值的快速增长，以及Snap对增强现实眼镜的投资策略。这些内容涉及科技公司在创新和市场竞争中的举措，展现了未来科技发展的趋势和方向。\n\n💡 值得一看 — 这些科技企业的动态和市场策略对AI行业和创意设计的未来发展提供了重要的行业洞察，对Yves在Logic Labs和TexTale的创业思维也很有启发。"
-    },
-    {
-      "name": "TBPN",
-      "title": "Jordi is in the pocket of Big Mosquito.",
-      "videoId": "BLn8rZoueZI",
-      "url": "https://youtube.com/watch?v=BLn8rZoueZI",
-      "publishedAt": "2026-06-16T20:31:52+00:00",
-      "isShort": false,
-      "fetchDate": "2026-06-16",
-      "summary_zh": "视频讨论了“大蚊子”的概念，探讨了如何一些大型企业通过利用数据和用户个人信息来获取利益，犹如蚊子从人类身上吸取血液一样。视频中通过幽默而引人深思的方式揭示了隐私和数据安全的问题。\n\n💡 值得一看 — 这个话题与数字隐私和用户信任密切相关，对于任何关注电商运营和品牌营销的人来说，这些都是重要的因素。"
-    },
-    {
-      "name": "TBPN",
-      "title": "YC Demo Day Lightning Round, New Snap AR Glasses, SpaceX Rips, Threads hits 500M Users",
-      "videoId": "iocamj899O0",
-      "url": "https://youtube.com/watch?v=iocamj899O0",
-      "publishedAt": "2026-06-16T18:07:23+00:00",
-      "isShort": false,
-      "fetchDate": "2026-06-16",
-      "summary_zh": "视频主要讲述了YC Demo Day上的一些亮点，包括新的Snap AR眼镜、SpaceX的最新动态，以及Threads用户达到5亿的消息。这些内容展示了当前科技行业的一些创新趋势和变化，为观众提供了行业内最新的动态信息。\n\n🎯 推荐 Yves 观看 — 该视频涉及到新兴科技产品和行业趋势，能够帮助Logic Labs和TexTale了解市场动态，并为创意设计提供新的灵感和参考。"
     }
   ],
   "producthunt": [
@@ -5070,7 +5062,7 @@
       "name": "Upstream",
       "tagline": "The inbox designed for humans and agents",
       "url": "https://www.producthunt.com/products/upstream-3?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Breakfeed+%28ID%3A+279433%29",
-      "votes": 860,
+      "votes": 862,
       "comments": 563,
       "topics": [
         "Email",
@@ -5086,7 +5078,7 @@
       "name": "Goldfish",
       "tagline": "Press Option. It knows your work and replies like you",
       "url": "https://www.producthunt.com/products/goldfish-early-access?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Breakfeed+%28ID%3A+279433%29",
-      "votes": 854,
+      "votes": 857,
       "comments": 293,
       "topics": [
         "Mac",
@@ -5103,7 +5095,7 @@
       "name": "Unabyss",
       "tagline": "MCP-native self-updating context layer for your AI",
       "url": "https://www.producthunt.com/products/unabyss/launches/unabyss?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Breakfeed+%28ID%3A+279433%29",
-      "votes": 786,
+      "votes": 788,
       "comments": 145,
       "topics": [
         "Productivity",
@@ -5224,22 +5216,6 @@
     },
     {
       "rank": 13,
-      "name": "InsForge Backend Branching",
-      "tagline": "Git style branching for your backend",
-      "url": "https://www.producthunt.com/products/insforge-alpha/launches/insforge-backend-branching?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Breakfeed+%28ID%3A+279433%29",
-      "votes": 583,
-      "comments": 186,
-      "topics": [
-        "Open Source",
-        "Developer Tools",
-        "GitHub"
-      ],
-      "thumbnail": "https://ph-files.imgix.net/00c129e1-f3ee-4be7-a3cb-ff09fcc4313e.vnd.microsoft.icon?auto=format",
-      "screenshot": "https://ph-files.imgix.net/45ded048-c032-426f-8361-2763497d4070.png?auto=format",
-      "summary_zh": "InsForge Backend Branching 是一个后端开发工具，采用 Git 样式的分支管理方式。开发者可以轻松创建、管理和合并不同版本的代码，便于协作和版本控制，提高开发效率。"
-    },
-    {
-      "rank": 14,
       "name": "Honen",
       "tagline": "Automated teaching + learning infrastructure for any company",
       "url": "https://www.producthunt.com/products/honen/launches/honen?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Breakfeed+%28ID%3A+279433%29",
@@ -5255,11 +5231,27 @@
       "summary_zh": "Honen是一种自动化的教学与学习系统，适用于各类公司。它通过智能化的方式帮助企业提供高效的培训和知识共享，让员工更轻松地学习和提升技能。利用这一平台，公司可以更好地管理和优化内部培训流程。"
     },
     {
+      "rank": 14,
+      "name": "InsForge Backend Branching",
+      "tagline": "Git style branching for your backend",
+      "url": "https://www.producthunt.com/products/insforge-alpha/launches/insforge-backend-branching?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Breakfeed+%28ID%3A+279433%29",
+      "votes": 583,
+      "comments": 186,
+      "topics": [
+        "Open Source",
+        "Developer Tools",
+        "GitHub"
+      ],
+      "thumbnail": "https://ph-files.imgix.net/00c129e1-f3ee-4be7-a3cb-ff09fcc4313e.vnd.microsoft.icon?auto=format",
+      "screenshot": "https://ph-files.imgix.net/45ded048-c032-426f-8361-2763497d4070.png?auto=format",
+      "summary_zh": "InsForge Backend Branching 是一个后端开发工具，采用 Git 样式的分支管理方式。开发者可以轻松创建、管理和合并不同版本的代码，便于协作和版本控制，提高开发效率。"
+    },
+    {
       "rank": 15,
       "name": "Honestly",
       "tagline": "See what Reddit and TikTok honestly think about your product",
       "url": "https://www.producthunt.com/products/honestly?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Breakfeed+%28ID%3A+279433%29",
-      "votes": 572,
+      "votes": 574,
       "comments": 142,
       "topics": [
         "Social Media",
@@ -5276,7 +5268,7 @@
       "repo": "calesthio/OpenMontage",
       "description": "World's first open-source, agentic video production system. 12 pipelines, 52 tools, 500+ agent skills. Turn your AI coding assistant into a full video production studio.",
       "language": "Python",
-      "stars": 14974,
+      "stars": 15484,
       "starsToday": 3590,
       "url": "https://github.com/calesthio/OpenMontage",
       "summary_zh": "这个项目是一个开源的视频制作系统，提供了多个工具和技能，用户可以通过 AI 助手来实现完整的视频制作流程。对于Yves来说，OpenMontage可以帮助他在TexTale的品牌营销中制作高质量的宣传视频，提升视觉效果，从而吸引更多消费者。同时，它也为Logic Labs的产品展示和推广提供了创意和技术支持。"
@@ -5285,7 +5277,7 @@
       "repo": "ZhuLinsen/daily_stock_analysis",
       "description": "LLM 驱动的多市场股票智能分析系统：多源行情、实时新闻、决策看板与自动推送，支持零成本定时运行。 LLM-powered multi-market stock analysis system with multi-source market data, real-time news, decision dashboard, automated notifications, and cost-free scheduled runs.",
       "language": "Python",
-      "stars": 46864,
+      "stars": 46978,
       "starsToday": 1121,
       "url": "https://github.com/ZhuLinsen/daily_stock_analysis",
       "summary_zh": "这个项目是一个利用大语言模型（LLM）进行股票分析的系统，它可以整合多种市场数据和实时新闻，为用户提供决策支持和自动化通知。对Yves来说，这个项目对Logic Labs（AI公司）可能更有帮助，因为它展示了AI在财经领域的实际应用，同时也提供了创意设计方面的灵感，可以启发他在AI驱动的产品和服务设计上寻找新的突破。"
@@ -5294,7 +5286,7 @@
       "repo": "mukul975/Anthropic-Cybersecurity-Skills",
       "description": "817 structured cybersecurity skills for AI agents · Mapped to 6 frameworks: MITRE ATT&CK, NIST CSF 2.0, MITRE ATLAS, D3FEND, NIST AI RMF & MITRE F3 (Fight Fraud) · agentskills.io standard · Works with Claude Code, GitHub Copilot, Codex CLI, Cursor, Gemini CLI & 20+ platforms · 29 security domains · Apache 2.0",
       "language": "Python",
-      "stars": 19450,
+      "stars": 19628,
       "starsToday": 1040,
       "url": "https://github.com/mukul975/Anthropic-Cybersecurity-Skills",
       "summary_zh": "这个项目提供了754种与网络安全相关的技能，专为AI代理而设计，并与多个安全框架相对应，旨在帮助开发者更安全地使用AI工具。对于Yves来说，这个项目对Logic Labs（AI公司）特别有帮助，因为它可以帮助他们在开发AI应用时强化网络安全防护，确保AI解决方案的安全性。作为创意设计从业者，他也可以借助这些技能在创意和设计阶段更好地理解安全风险，从而提升产品设计的全面性和可信度。"
@@ -5303,7 +5295,7 @@
       "repo": "garrytan/gstack",
       "description": "Use Garry Tan's exact Claude Code setup: 23 opinionated tools that serve as CEO, Designer, Eng Manager, Release Manager, Doc Engineer, and QA",
       "language": "TypeScript",
-      "stars": 113887,
+      "stars": 114022,
       "starsToday": 1012,
       "url": "https://github.com/garrytan/gstack",
       "summary_zh": "这个项目是一个集合了23种工具的工作流设置，旨在帮助用户更高效地管理团队、项目和文档，适合CEO、设计师、工程经理等多种角色使用。\n\n对Yves来说，这个项目在Logic Labs（AI公司）中可以帮助优化团队协作与项目管理，提高工作效率；而在TexTale（科技服装电商）方面，则能够在品牌营销和产品开发过程中提供有价值的工具支持。作为创意设计从业者，使用这些工具也能激发更多创意和提升工作效果。"
@@ -5312,7 +5304,7 @@
       "repo": "bytedance/deer-flow",
       "description": "An open-source long-horizon SuperAgent harness that researches, codes, and creates. With the help of sandboxes, memories, tools, skill, subagents and message gateway, it handles different levels of tasks that could take minutes to hours.",
       "language": "Python",
-      "stars": 73807,
+      "stars": 73875,
       "starsToday": 741,
       "url": "https://github.com/bytedance/deer-flow",
       "summary_zh": "这个项目是一个开源的超级智能代理系统，能够在不同的沙盒环境中执行复杂的任务，帮助用户进行研究、编码和创造，处理从几分钟到几小时不等的任务。对于Yves来说，该项目可以为Logic Labs（AI公司）提供强大的AI工具，助力其在创意和技术方面的研发。同时，它也可能为TexTale（科技服装电商）提供灵活的解决方案，优化电商运营和客户体验。"
@@ -5321,7 +5313,7 @@
       "repo": "koala73/worldmonitor",
       "description": "Real-time global intelligence dashboard. AI-powered news aggregation, geopolitical monitoring, and infrastructure tracking in a unified situational awareness interface",
       "language": "TypeScript",
-      "stars": 58926,
+      "stars": 59048,
       "starsToday": 279,
       "url": "https://github.com/koala73/worldmonitor",
       "summary_zh": "这个项目是一个实时全球智能仪表板，利用人工智能聚合新闻、监测地缘政治动态和基础设施，提供一个统一的 situational awareness 界面，让用户能够随时了解世界各地发生的重大事件。对 Yves 来说，这个项目可以帮助 Logic Labs 深入分析全球市场动态和趋势，同时也能为 TexTale 提供关于时尚科技领域的洞察，有助于品牌营销和产品设计。作为创意设计从业者，他可以运用该工具获取灵感，跟踪新兴趋势。"
@@ -5330,7 +5322,7 @@
       "repo": "palmier-io/palmier-pro",
       "description": "macOS video editor built for AI",
       "language": "Swift",
-      "stars": 8308,
+      "stars": 8391,
       "starsToday": 1631,
       "url": "https://github.com/palmier-io/palmier-pro",
       "summary_zh": "这个项目是一个专为 macOS 设计的视频编辑工具，利用人工智能技术来简化和提升视频制作的过程。对于Yves而言，这个工具可以帮助他在Logic Labs中更高效地制作宣传视频，或为TexTale设计视频广告素材，从而提升品牌营销的效果，同时也能激发他的创意设计灵感。"
@@ -5339,7 +5331,7 @@
       "repo": "anthropics/claude-plugins-official",
       "description": "Official, Anthropic-managed directory of high quality Claude Code Plugins.",
       "language": "Python",
-      "stars": 30769,
+      "stars": 30819,
       "starsToday": 66,
       "url": "https://github.com/anthropics/claude-plugins-official",
       "summary_zh": "这个项目是一个由Anthropic团队管理的高质量Claude代码插件的官方目录，旨在扩展和增强Claude这个人工智能工具的功能。对于Yves来说，这个项目对Logic Labs（AI公司）非常有帮助，因为它可以为AI应用开发提供丰富的插件支持，从而提升公司的创新能力和产品质量。同时，这也能够激发他在创意设计上的灵感，帮助他更好地利用AI工具。"
@@ -5348,7 +5340,7 @@
       "repo": "shanraisshan/claude-code-best-practice",
       "description": "from vibe coding to agentic engineering - practice makes claude perfect",
       "language": "HTML",
-      "stars": 59256,
+      "stars": 59392,
       "starsToday": 329,
       "url": "https://github.com/shanraisshan/claude-code-best-practice",
       "summary_zh": "这个项目是关于优化和提升与Claude AI相关的编程实践，旨在帮助开发者更好地使用AI，提高效率和效果。对于Yves而言，这个项目可能对Logic Labs（AI 公司）更有帮助，因为它能够为AI开发提供最佳实践，促进创意设计工具的应用，同时也可能间接提升电商运营的效率。"
@@ -5357,7 +5349,7 @@
       "repo": "revfactory/harness",
       "description": "A meta-skill that designs domain-specific agent teams, defines specialized agents, and generates the skills they use.",
       "language": "HTML",
-      "stars": 7376,
+      "stars": 7428,
       "starsToday": 123,
       "url": "https://github.com/revfactory/harness",
       "summary_zh": "这个项目是一种能够设计特定领域智能代理团队的工具，它定义了专业的代理和他们所需的技能，帮助在特定行业中提升效率和创造力。对于Yves来说，这个项目对Logic Labs特别有价值，因为它能够推动AI技术的应用与创新，同时也可以为TexTale带来更智能的电商解决方案，提升品牌营销效果。作为创意设计从业者，Yves可以利用这个工具来激发新设计思路和策略。"
@@ -5366,7 +5358,7 @@
   "aigc_rankings": {
     "image": [],
     "video": [],
-    "fetchedAt": "2026-06-23T17:49:32.212587+00:00",
+    "fetchedAt": "2026-06-23T23:04:07.501013+00:00",
     "sources": [
       "Artificial Analysis",
       "LM Arena",
