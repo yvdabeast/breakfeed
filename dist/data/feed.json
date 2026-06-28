@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-28T17:05:16.509352+00:00",
+  "generatedAt": "2026-06-28T23:00:30.499646+00:00",
   "twitter": [
     {
       "source": "x",
@@ -4351,6 +4351,16 @@
   "podcasts": [
     {
       "name": "Peter Yang",
+      "title": "How Anthropic PMs use agents internally",
+      "videoId": "mvFDvGEU6Sg",
+      "url": "https://youtube.com/watch?v=mvFDvGEU6Sg",
+      "publishedAt": "2026-06-28T18:00:37+00:00",
+      "isShort": false,
+      "fetchDate": "2026-06-28",
+      "summary_zh": "这段视频讲述了Anthropic公司的产品经理如何在内部运用智能代理，以提升工作效率和决策能力。视频分享了智能代理在产品开发过程中的实际应用案例，以及如何通过代理来处理复杂任务、优化团队协作。\n\n🎯 推荐 Yves 观看 — 这个视频展示了AI代理在产品管理中的具体应用，可能为Logic Labs和TexTale在利用AI提升效率和创新设计提供灵感。"
+    },
+    {
+      "name": "Peter Yang",
       "title": "Inside Anthropic’s Bet on Claude Agents that Work While You Sleep | Jess Yan",
       "videoId": "Xu5gz2qsaz8",
       "url": "https://youtube.com/watch?v=Xu5gz2qsaz8",
@@ -4834,16 +4844,6 @@
       "isShort": false,
       "fetchDate": "2026-06-22",
       "summary_zh": "这个视频讨论了 HeyGen 为什么选择在 HTML 上构建他们的 AI 视频代理。视频深入探讨了这一选择的技术背景以及其在功能性和可扩展性上的优势，展示了如何利用简单而强大的工具来实现复杂的 AI 功能。\n\n🎯 推荐 Yves 观看 — 这个视频可以帮助您理解将 AI 与网页技术结合的思路，对 Logic Labs 的技术开发和 TexTale 的电商策略都具有启发性。"
-    },
-    {
-      "name": "Latent Space",
-      "title": "⚡️Every product of the future will be a living system  — Ronak Malde, Trajectory.ai",
-      "videoId": "DcvgPEApHT8",
-      "url": "https://youtube.com/watch?v=DcvgPEApHT8",
-      "publishedAt": "2026-06-21T22:10:55+00:00",
-      "isShort": false,
-      "fetchDate": "2026-06-21",
-      "summary_zh": "这个视频探讨了未来产品将如何变成“活系统”，即它们能够自我学习和适应用户需求。Ronak Malde 分享了对这一趋势的见解，并阐述AI在产品设计和用户体验中的重要作用。\n\n🎯 推荐 Yves 观看 — 这个话题与 Logic Labs 在 AI 方面的创新密切相关，也能为 TexTale 提供关于未来科技服装的创意灵感。"
     }
   ],
   "producthunt": [
@@ -4852,8 +4852,8 @@
       "name": "Fundraisly",
       "tagline": "AI fundraising agent that finds investors and books meetings",
       "url": "https://www.producthunt.com/products/fundraisly/launches/fundraisly-4?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Breakfeed+%28ID%3A+279433%29",
-      "votes": 1469,
-      "comments": 411,
+      "votes": 1472,
+      "comments": 412,
       "topics": [
         "Venture Capital",
         "Artificial Intelligence",
@@ -4917,7 +4917,7 @@
       "name": "Tencent EdgeOne Makers",
       "tagline": "Ship AI agents like web apps, in minutes.",
       "url": "https://www.producthunt.com/products/tencent-edgeone-2?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Breakfeed+%28ID%3A+279433%29",
-      "votes": 703,
+      "votes": 711,
       "comments": 168,
       "topics": [
         "Website Builder",
@@ -4965,7 +4965,7 @@
       "tagline": "The rails AI agents use to find and pay you",
       "url": "https://www.producthunt.com/products/bluerails-discovery?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Breakfeed+%28ID%3A+279433%29",
       "votes": 666,
-      "comments": 190,
+      "comments": 191,
       "topics": [
         "Fintech",
         "SEO",
@@ -5010,7 +5010,7 @@
       "name": "Honestly",
       "tagline": "See what Reddit and TikTok honestly think about your product",
       "url": "https://www.producthunt.com/products/honestly?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Breakfeed+%28ID%3A+279433%29",
-      "votes": 598,
+      "votes": 600,
       "comments": 144,
       "topics": [
         "Social Media",
@@ -5023,22 +5023,6 @@
     },
     {
       "rank": 12,
-      "name": "InsForge Backend Branching",
-      "tagline": "Git style branching for your backend",
-      "url": "https://www.producthunt.com/products/insforge-alpha/launches/insforge-backend-branching?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Breakfeed+%28ID%3A+279433%29",
-      "votes": 594,
-      "comments": 186,
-      "topics": [
-        "Open Source",
-        "Developer Tools",
-        "GitHub"
-      ],
-      "thumbnail": "https://ph-files.imgix.net/00c129e1-f3ee-4be7-a3cb-ff09fcc4313e.vnd.microsoft.icon?auto=format",
-      "screenshot": "https://ph-files.imgix.net/45ded048-c032-426f-8361-2763497d4070.png?auto=format",
-      "summary_zh": "InsForge Backend Branching 是一款用于后端开发的工具，采用类似Git的分支管理方式。它让开发者可以轻松创建、切换和管理不同的代码版本，便于团队协作和代码整合。通过这种方式，开发者可以在不影响主代码的情况下进行实验和迭代。"
-    },
-    {
-      "rank": 13,
       "name": "Honen",
       "tagline": "Automated teaching + learning infrastructure for any company",
       "url": "https://www.producthunt.com/products/honen/launches/honen?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Breakfeed+%28ID%3A+279433%29",
@@ -5054,27 +5038,43 @@
       "summary_zh": "Honen是一种自动化的教学与学习系统，适用于各类公司。它通过智能化的方式帮助企业提供高效的培训和知识共享，让员工更轻松地学习和提升技能。利用这一平台，公司可以更好地管理和优化内部培训流程。"
     },
     {
-      "rank": 14,
-      "name": "AgentX",
-      "tagline": "Evaluate AI agent, pinpoint issues, and fix with one click.",
-      "url": "https://www.producthunt.com/products/agentx?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Breakfeed+%28ID%3A+279433%29",
-      "votes": 579,
-      "comments": 175,
+      "rank": 13,
+      "name": "InsForge Backend Branching",
+      "tagline": "Git style branching for your backend",
+      "url": "https://www.producthunt.com/products/insforge-alpha/launches/insforge-backend-branching?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Breakfeed+%28ID%3A+279433%29",
+      "votes": 594,
+      "comments": 186,
       "topics": [
-        "Analytics",
+        "Open Source",
         "Developer Tools",
-        "Artificial Intelligence"
+        "GitHub"
       ],
-      "thumbnail": "https://ph-files.imgix.net/3569abf9-5c75-44f2-8b6e-d7af7caaad97.gif?auto=format",
-      "screenshot": "https://ph-files.imgix.net/c0274766-9f1d-41a3-8e28-486a5fd306c5.jpeg?auto=format",
-      "summary_zh": "AgentX 是一款智能工具，可以快速评估 AI 代理的表现，自动识别问题并通过一键操作进行修复。用户可以轻松管理和优化 AI 系统，提高工作效率。"
+      "thumbnail": "https://ph-files.imgix.net/00c129e1-f3ee-4be7-a3cb-ff09fcc4313e.vnd.microsoft.icon?auto=format",
+      "screenshot": "https://ph-files.imgix.net/45ded048-c032-426f-8361-2763497d4070.png?auto=format",
+      "summary_zh": "InsForge Backend Branching 是一款用于后端开发的工具，采用类似Git的分支管理方式。它让开发者可以轻松创建、切换和管理不同的代码版本，便于团队协作和代码整合。通过这种方式，开发者可以在不影响主代码的情况下进行实验和迭代。"
+    },
+    {
+      "rank": 14,
+      "name": "BrowserAct",
+      "tagline": "Web browser automation for AI agents",
+      "url": "https://www.producthunt.com/products/browseract?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Breakfeed+%28ID%3A+279433%29",
+      "votes": 590,
+      "comments": 114,
+      "topics": [
+        "Productivity",
+        "Artificial Intelligence",
+        "GitHub"
+      ],
+      "thumbnail": "https://ph-files.imgix.net/c9e555c2-6581-437c-ae70-c96d62b3ee48.jpeg?auto=format",
+      "screenshot": "https://ph-files.imgix.net/249e2a89-5b62-48fa-b4fb-48b47cf2b4cd.png?auto=format",
+      "summary_zh": "BrowserAct是一款用于Web浏览器自动化的工具，专为人工智能代理设计。它可以自动执行网站上的任务，帮助用户快速完成重复性的网络操作，提高效率。通过简单的设置，用户可以轻松实现自动化的浏览体验。"
     },
     {
       "rank": 15,
       "name": "Framer 3.0",
       "tagline": "With Agents, Branching, Community, and an all-new design",
       "url": "https://www.producthunt.com/products/framer?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Breakfeed+%28ID%3A+279433%29",
-      "votes": 579,
+      "votes": 581,
       "comments": 26,
       "topics": [
         "Design Tools",
@@ -5091,7 +5091,7 @@
       "repo": "simplex-chat/simplex-chat",
       "description": "SimpleX - the first messaging network operating without user identifiers of any kind - 100% private by design! iOS, Android and desktop apps 📱!",
       "language": "Haskell",
-      "stars": 14667,
+      "stars": 14933,
       "starsToday": 1183,
       "url": "https://github.com/simplex-chat/simplex-chat",
       "summary_zh": "这个项目是一个即时通讯网络，设计上完全不使用用户身份信息，因此能够保护用户隐私。对于Yves来说，这个项目可以为Logic Labs提供一个隐私保护的通讯工具，帮助团队在创意设计和技术开发中安全地交流，同时也可以提升TexTale在处理客户信息时的隐私保护能力，增强品牌形象。"
@@ -5100,7 +5100,7 @@
       "repo": "ripienaar/free-for-dev",
       "description": "A list of SaaS, PaaS and IaaS offerings that have free tiers of interest to devops and infradev",
       "language": "HTML",
-      "stars": 124781,
+      "stars": 125126,
       "starsToday": 472,
       "url": "https://github.com/ripienaar/free-for-dev",
       "summary_zh": "这个项目是一个汇总列表，列出了许多有免费使用额度的云服务，主要供开发运维人员使用。对Yves来说，这个项目对Logic Labs（AI 公司）尤其有帮助，因为它可以帮助团队在开发和部署AI相关项目时，找到合适的云服务，从而节省成本并提高效率。同时，作为创意设计从业者，他也可以使用这些工具来迅速实现创意和实验。"
@@ -5109,7 +5109,7 @@
       "repo": "commaai/openpilot",
       "description": "openpilot is an operating system for robotics. Currently, it upgrades the driver assistance system on 300+ supported cars.",
       "language": "Python",
-      "stars": 62285,
+      "stars": 62353,
       "starsToday": 265,
       "url": "https://github.com/commaai/openpilot",
       "summary_zh": "这个项目是一个用于改进汽车驾驶辅助系统的开源软件，它可以让超过300款支持的汽车拥有更智能的驾驶体验。对Yves来说，这个项目的技术可以为Logic Labs提供在自动驾驶和AI领域的创新灵感，同时也能为TexTale的科技服装项目开辟智能穿戴设备设计的新方向，提升用户体验。作为创意设计从业者，openpilot展示了如何通过技术提高日常生活中的便捷性，为他在创意设计上带来更多想象空间。"
@@ -5118,7 +5118,7 @@
       "repo": "xbtlin/ai-berkshire",
       "description": "AI 时代的伯克希尔：基于 Claude Code / Codex 的价值投资研究框架。巴菲特·芒格·段永平·李录四大师方法论 + 多Agent并行研究。| AI-era Berkshire: a value investing research framework built for Claude Code / Codex. 4 masters' methodologies + multi-agent adversarial analysis.",
       "language": "Python",
-      "stars": 5151,
+      "stars": 5245,
       "starsToday": 1456,
       "url": "https://github.com/xbtlin/ai-berkshire",
       "summary_zh": "这个项目是一个研究框架，旨在利用 AI 技术进行价值投资的分析，结合了巴菲特、芒格等投资大师的投资方法。对于Yves来说，这个项目对Logic Labs（AI 公司）的业务有帮助，因为它能够为AI技术的应用提供新的视角和工具，同时提升其在金融领域的创造性应用能力。"
@@ -5127,7 +5127,7 @@
       "repo": "Robbyant/lingbot-map",
       "description": "A feed-forward 3D foundation model for reconstructing scenes from streaming data",
       "language": "Python",
-      "stars": 8094,
+      "stars": 8191,
       "starsToday": 372,
       "url": "https://github.com/Robbyant/lingbot-map",
       "summary_zh": "这个项目是一个用于从实时数据中重建三维场景的人工智能模型，可以帮助我们更好地理解和可视化环境。对于Yves来说，这个技术对于Logic Labs（AI 公司）特别有价值，因为它可以提升场景重建和数据分析的能力，从而在AI项目中提供更丰富的视角，同时也有助于在TexTale（科技服装电商）的品牌营销中，通过更生动的视觉体验吸引消费者。"
@@ -5136,7 +5136,7 @@
       "repo": "DeusData/codebase-memory-mcp",
       "description": "High-performance code intelligence MCP server. Indexes codebases into a persistent knowledge graph — average repo in milliseconds. 158 languages, sub-ms queries, 99% fewer tokens. Single static binary, zero dependencies.",
       "language": "C",
-      "stars": 19071,
+      "stars": 19525,
       "starsToday": 2162,
       "url": "https://github.com/DeusData/codebase-memory-mcp",
       "summary_zh": "这个项目是一个高性能的代码智能服务器，可以快速将代码库索引成持久的知识图谱，支持多达158种编程语言，并能在毫秒级别内进行查询。这对于Logic Labs（AI 公司）非常有帮助，因为它可以加速代码理解和开发过程，提高AI模型的训练效率，同时也能为Yves作为创意设计从业者提供更丰富的数据支持，促进创意生成和产品迭代。"
@@ -5145,7 +5145,7 @@
       "repo": "cupy/cupy",
       "description": "NumPy & SciPy for GPU",
       "language": "Python",
-      "stars": 11418,
+      "stars": 11495,
       "starsToday": 172,
       "url": "https://github.com/cupy/cupy",
       "summary_zh": "这个项目是一个用于GPU（图形处理单元）加速的数学计算库，类似于NumPy和SciPy，但能让计算速度更快，适合处理大规模数据。对Yves的Logic Labs（AI公司）将特别有帮助，因为它可以加速机器学习和深度学习模型的训练，提高AI项目的效率。在创意设计方面，使用CUDA加速的计算工具可以快速处理和生成设计素材，从而激发更多创意灵感。"
@@ -5154,8 +5154,8 @@
       "repo": "altic-dev/FluidVoice",
       "description": "FluidVoice - Fastest macOS Offline Dictation app - Voice to Text fully Local. One ⭐ takes us a long way :))",
       "language": "Swift",
-      "stars": 3464,
-      "starsToday": 264,
+      "stars": 3688,
+      "starsToday": 491,
       "url": "https://github.com/altic-dev/FluidVoice",
       "summary_zh": "FluidVoice 是一款快速的 macOS 离线语音识别应用，可以将语音转换为文本，完全在本地运行。对于 Yves 来说，这个项目有助于 Logic Labs，因为它展示了语音识别技术在提高人机交互效率和创造力方面的应用潜力，同时也可以用于提升电商内容创作的效率，比如撰写产品描述或市场营销文案。"
     },
@@ -5163,7 +5163,7 @@
       "repo": "opendatalab/MinerU",
       "description": "Transforms complex documents like PDFs and Office docs into LLM-ready markdown/JSON for your Agentic workflows.",
       "language": "Python",
-      "stars": 71383,
+      "stars": 71526,
       "starsToday": 426,
       "url": "https://github.com/opendatalab/MinerU",
       "summary_zh": "这个项目可以将复杂的文档（如PDF和Office文档）转换为适合大型语言模型使用的markdown或JSON格式，方便在自动化工作流程中利用。对于Yves来说，这个工具可以帮助Logic Labs在处理和分析文档数据时更高效，使得AI模型的应用更为便捷；同时也可以提升TexTale在电商运营中的文档处理能力，利用AI更好地支持创意设计和营销策略。"
@@ -5172,7 +5172,7 @@
       "repo": "HKUDS/Vibe-Trading",
       "description": "\"Vibe-Trading: Your Personal Trading Agent\"",
       "language": "Python",
-      "stars": 14146,
+      "stars": 14266,
       "starsToday": 490,
       "url": "https://github.com/HKUDS/Vibe-Trading",
       "summary_zh": "这个项目是一个个人交易助手，可以帮助用户在金融市场上分析数据和做出交易决策，使用 AI 技术提升交易效率。对 Yves 来说，这个项目更有利于 Logic Labs，因为可以利用 AI 技术优化决策过程，提升产品的智能化水平。同时，它也能激发他在创意设计领域的灵感，通过数据驱动的方式为用户提供个性化的体验。"
@@ -5181,7 +5181,7 @@
   "aigc_rankings": {
     "image": [],
     "video": [],
-    "fetchedAt": "2026-06-28T17:03:52.003064+00:00",
+    "fetchedAt": "2026-06-28T22:59:14.157948+00:00",
     "sources": [
       "Artificial Analysis",
       "LM Arena",
