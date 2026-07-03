@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-03T17:20:55.367287+00:00",
+  "generatedAt": "2026-07-03T23:01:36.083520+00:00",
   "twitter": [
     {
       "source": "x",
@@ -4861,6 +4861,16 @@
   ],
   "podcasts": [
     {
+      "name": "Matt Wolfe",
+      "title": "The revolutionary idea that changed the Roman Empire | Anthony Kaldellis and Lex Fridman",
+      "videoId": "cNH_djxfAuU",
+      "url": "https://youtube.com/watch?v=cNH_djxfAuU",
+      "publishedAt": "2026-07-03T20:00:08+00:00",
+      "isShort": false,
+      "fetchDate": "2026-07-03",
+      "summary_zh": "视频探讨了改变罗马帝国的一项革命性理念，深入分析了这种思想如何影响了当时的文化、技术和社会结构。通过对话，Anthony Kaldellis和Lex Fridman探讨了这一理念的历史背景和新兴的影响，让观众更好地理解历史对现代社会的启示。\n\n💡 值得一看 — 本视频虽然聚焦于历史，但能为理解设计思维和品牌营销提供有益的视角，尤其是在如何将创新理念应用于当代商业和创意设计中。"
+    },
+    {
       "name": "Tiago Forte",
       "title": "The Connector Trap That's Destroying Your AI Security #shorts #claudeai #claude",
       "videoId": "3uRoOAMLDyk",
@@ -5453,16 +5463,6 @@
       "summary_zh": "这个视频探讨了如何在快速变化的市场中建立一个灵活的AI许可体系。通过分析不同企业在应用AI技术时所面临的挑战，视频提出了一些实用的策略，帮助企业有效管理AI工具的使用和相关法律问题。\n\n🎯 推荐 Yves 观看 — 这个视频对Logic Labs在开发AI产品和TexTale在电商运营中的法律合规性具有重要启示。",
       "duration": "10m",
       "durationSeconds": 656
-    },
-    {
-      "name": "Y Combinator",
-      "title": "India Can Create The Largest AI Companies",
-      "videoId": "Ju8LVdvuxGM",
-      "url": "https://youtube.com/watch?v=Ju8LVdvuxGM",
-      "publishedAt": "2026-06-27T12:30:39+00:00",
-      "isShort": false,
-      "fetchDate": "2026-06-27",
-      "summary_zh": "这个视频探讨了印度在人工智能领域的潜力，分析了该国如何能够成为世界上最大的 AI 公司创始地。内容涵盖了印度的技术基础设施、创新生态系统以及如何利用本地人才和市场需求来推动 AI 产业的发展。\n\n🎯 推荐 Yves 观看 — 这个视频提供了关于 AI 创业和行业趋势的重要见解，对 Logic Labs 在 AI 领域的发展以及 TexTale 在电商上的创新策略都有启示。"
     }
   ],
   "producthunt": [
@@ -5504,7 +5504,7 @@
       "name": "Tencent EdgeOne Makers",
       "tagline": "Ship AI agents like web apps, in minutes.",
       "url": "https://www.producthunt.com/products/tencent-edgeone-2?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Breakfeed+%28ID%3A+279433%29",
-      "votes": 873,
+      "votes": 874,
       "comments": 180,
       "topics": [
         "Website Builder",
@@ -5517,10 +5517,26 @@
     },
     {
       "rank": 4,
+      "name": "Context.dev",
+      "tagline": "One API to scrape, enrich, and extract the internet",
+      "url": "https://www.producthunt.com/products/context-dev?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Breakfeed+%28ID%3A+279433%29",
+      "votes": 825,
+      "comments": 136,
+      "topics": [
+        "API",
+        "Artificial Intelligence",
+        "Data"
+      ],
+      "thumbnail": "https://ph-files.imgix.net/e4e57b87-7bf9-4662-93d2-30c9f778eb68.png?auto=format",
+      "screenshot": "https://ph-files.imgix.net/32a94a26-3db3-49c0-8b04-6ddd8ce5b479.png?auto=format",
+      "summary_zh": "Context.dev 是一个API工具，能够从互联网上抓取、丰富和提取数据。用户可以通过它轻松获取网站上的信息，并将这些数据进行整理和分析。它适用于各种数据集成和自动化需求。"
+    },
+    {
+      "rank": 5,
       "name": "Acti",
       "tagline": "Agentic keyboard for mobile commands and search",
       "url": "https://www.producthunt.com/products/acti-2?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Breakfeed+%28ID%3A+279433%29",
-      "votes": 785,
+      "votes": 787,
       "comments": 232,
       "topics": [
         "Productivity",
@@ -5532,7 +5548,7 @@
       "summary_zh": "Acti是一款专为移动设备设计的智能键盘，能够快速输入命令和进行搜索。它简化了用户在手机上执行操作的过程，提高了效率。用户可以通过触击键盘，轻松调用各种功能和信息。"
     },
     {
-      "rank": 5,
+      "rank": 6,
       "name": "Bond",
       "tagline": "The AI to-do list that does itself",
       "url": "https://www.producthunt.com/products/bond-12/launches/bond-717?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Breakfeed+%28ID%3A+279433%29",
@@ -5546,22 +5562,6 @@
       "thumbnail": "https://ph-files.imgix.net/c2f45b4d-48ee-4f11-8c1b-8c873f032545.png?auto=format",
       "screenshot": "https://ph-files.imgix.net/48c7311f-c697-48cf-b57f-806feda15896.png?auto=format",
       "summary_zh": "Bond是一款智能待办事项应用，能够自动管理和完成任务。用户只需输入任务，Bond会利用人工智能技术安排和执行，省去手动操作的时间和精力。"
-    },
-    {
-      "rank": 6,
-      "name": "Context.dev",
-      "tagline": "One API to scrape, enrich, and extract the internet",
-      "url": "https://www.producthunt.com/products/context-dev?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Breakfeed+%28ID%3A+279433%29",
-      "votes": 752,
-      "comments": 137,
-      "topics": [
-        "API",
-        "Artificial Intelligence",
-        "Data"
-      ],
-      "thumbnail": "https://ph-files.imgix.net/e4e57b87-7bf9-4662-93d2-30c9f778eb68.png?auto=format",
-      "screenshot": "https://ph-files.imgix.net/32a94a26-3db3-49c0-8b04-6ddd8ce5b479.png?auto=format",
-      "summary_zh": "Context.dev 是一个API工具，能够从互联网上抓取、丰富和提取数据。用户可以通过它轻松获取网站上的信息，并将这些数据进行整理和分析。它适用于各种数据集成和自动化需求。"
     },
     {
       "rank": 7,
@@ -5583,7 +5583,7 @@
       "name": "Fypro",
       "tagline": "Convert your TikTok followers into paying customers",
       "url": "https://www.producthunt.com/products/fypro?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Breakfeed+%28ID%3A+279433%29",
-      "votes": 702,
+      "votes": 708,
       "comments": 246,
       "topics": [
         "Social Media",
@@ -5631,7 +5631,7 @@
       "name": "BrowserAct",
       "tagline": "Web browser automation for AI agents",
       "url": "https://www.producthunt.com/products/browseract?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Breakfeed+%28ID%3A+279433%29",
-      "votes": 626,
+      "votes": 628,
       "comments": 123,
       "topics": [
         "Productivity",
@@ -5663,7 +5663,7 @@
       "name": "AgentX",
       "tagline": "Evaluate AI agent, pinpoint issues, and fix with one click.",
       "url": "https://www.producthunt.com/products/agentx?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Breakfeed+%28ID%3A+279433%29",
-      "votes": 614,
+      "votes": 615,
       "comments": 175,
       "topics": [
         "Analytics",
@@ -5711,7 +5711,7 @@
       "repo": "usestrix/strix",
       "description": "Open-source AI penetration testing tool to find and fix your app’s vulnerabilities.",
       "language": "Python",
-      "stars": 34134,
+      "stars": 34531,
       "starsToday": 2804,
       "url": "https://github.com/usestrix/strix",
       "summary_zh": "这个项目是一个开源的人工智能渗透测试工具，旨在帮助开发者发现和修复应用程序中的安全漏洞，确保应用的安全性。对Yves来说，这个项目可以帮助Logic Labs增强其AI产品的安全性，避免潜在的安全风险，同时在TexTale的电商平台上提供用户更加安全的购物体验。作为创意设计从业者，他也可以利用这个工具了解安全性在创意和产品开发中的重要性，从而提升产品的整体质量与用户信任。"
@@ -5720,7 +5720,7 @@
       "repo": "openai/codex-plugin-cc",
       "description": "Use Codex from Claude Code to review code or delegate tasks.",
       "language": "JavaScript",
-      "stars": 23049,
+      "stars": 23176,
       "starsToday": 629,
       "url": "https://github.com/openai/codex-plugin-cc",
       "summary_zh": "这个项目使用 Codex 技术来审查代码或委派任务，帮助开发者更高效地进行编程工作。对于 Yves 来说，Logic Labs 作为一家 AI 公司，可以利用这个工具提升团队的编程效率和项目管理，而作为创意设计从业者，他也能借助这种 AI 工具增强创意实现的速度和质量。"
@@ -5729,7 +5729,7 @@
       "repo": "JuliusBrussee/caveman",
       "description": "🪨 why use many token when few token do trick — Claude Code skill that cuts 65% of tokens by talking like caveman",
       "language": "JavaScript",
-      "stars": 82672,
+      "stars": 82883,
       "starsToday": 2851,
       "url": "https://github.com/JuliusBrussee/caveman",
       "summary_zh": "这个项目是一个用简单的方式来减少编程中使用的词汇量的工具，帮助开发者写出更简洁的代码。对Yves的Logic Labs（AI公司）有很大帮助，因为它可以提高代码的效率，同时也能为创意设计提供更快速的开发支持。"
@@ -5738,7 +5738,7 @@
       "repo": "elastic/elasticsearch",
       "description": "Free and Open Source, Distributed, RESTful Search Engine",
       "language": "Java",
-      "stars": 77283,
+      "stars": 77327,
       "starsToday": 77,
       "url": "https://github.com/elastic/elasticsearch",
       "summary_zh": "这个项目是一个免费的开源搜索引擎，可以帮助用户快速有效地搜索和分析大量数据。对于Yves的TexTale（科技服装电商），它可以提升用户的搜索体验，让顾客更容易找到他们想要的商品；同时，对于Logic Labs（AI 公司），它也可以用于处理和检索数据，为AI模型提供支持，提升创意设计的质量和效率。"
@@ -5747,7 +5747,7 @@
       "repo": "actions/checkout",
       "description": "Action for checking out a repo",
       "language": "TypeScript",
-      "stars": 8240,
+      "stars": 8257,
       "starsToday": 129,
       "url": "https://github.com/actions/checkout",
       "summary_zh": "这个项目是一个 GitHub Action，用于在自动化工作流程中快速检出代码库的内容，帮助开发者更高效地管理和运行代码。对 Yves 来说，这个项目可以提升 Logic Labs 在 AI 开发过程中的效率，尤其是在自动化测试和持续集成方面，也能为 TexTale 的电商平台提供更好的代码管理支持，帮助实现创意设计与技术协同。"
@@ -5756,7 +5756,7 @@
       "repo": "ChromeDevTools/chrome-devtools-mcp",
       "description": "Chrome DevTools for coding agents",
       "language": "TypeScript",
-      "stars": 45419,
+      "stars": 45464,
       "starsToday": 404,
       "url": "https://github.com/ChromeDevTools/chrome-devtools-mcp",
       "summary_zh": "这个项目是 Chrome 开发者工具的一个扩展，专门用于为编码代理提供便利，使开发者能够更高效地调试和优化代码。对于 Yves 的 Logic Labs（AI 公司），这个工具可以帮助团队更好地开发和测试 AI 相关应用，而对于 TexTale（科技服装电商），它可以提升技术团队的工作效率，帮助在电商平台中实现更流畅的用户体验，有助于品牌营销和用户满意度的提升。作为创意设计从业者，这个项目也能启发他在设计过程中更好地理解技术与创意的结合。"
@@ -5765,7 +5765,7 @@
       "repo": "ansible/ansible",
       "description": "Ansible is a radically simple IT automation platform that makes your applications and systems easier to deploy and maintain. Automate everything from code deployment to network configuration to cloud management, in a language that approaches plain English, using SSH, with no agents to install on remote systems.https://docs.ansible.com.",
       "language": "Python",
-      "stars": 69143,
+      "stars": 69187,
       "starsToday": 50,
       "url": "https://github.com/ansible/ansible",
       "summary_zh": "Ansible 是一个简单易用的 IT 自动化平台，可以帮助用户更轻松地部署和维护应用程序和系统，使用起来接近于普通英语的语言来完成操作。对于 Yves 来说，这个项目可以帮助 Logic Labs 在 AI 项目部署和管理上实现自动化，从而提高效率，同时也能为 TexTale 提供更高效的电商平台管理。作为创意设计从业者，Ansible 提供的自动化工具可以让他更专注于创意设计，而不是技术细节。"
@@ -5774,7 +5774,7 @@
       "repo": "facebook/astryx",
       "description": "An open source design system that's fully customizable and agent ready",
       "language": "TypeScript",
-      "stars": 4363,
+      "stars": 4565,
       "starsToday": 943,
       "url": "https://github.com/facebook/astryx",
       "summary_zh": "这个项目是一个开源设计系统，可以完全自定义并且适用于智能代理，帮助用户轻松创建和管理设计界面。对Yves的TexTale（科技服装电商）业务非常有帮助，因为它能提升网站和应用的用户体验，同时在创意设计过程中提供更多灵活性和效率，支持他更好地运用AI工具进行创作。"
@@ -5783,7 +5783,7 @@
       "repo": "rommapp/romm",
       "description": "A beautiful, powerful, self-hosted rom manager and player.",
       "language": "Python",
-      "stars": 9688,
+      "stars": 9785,
       "starsToday": 236,
       "url": "https://github.com/rommapp/romm",
       "summary_zh": "这个项目是一个自托管的 ROM 管理器和播放器，可以帮助用户更好地管理和播放他们的 ROM 文件，提供美观且强大的界面。对于 Yves 来说，这个项目对 TexTale（科技服装电商）可能并不是直接相关，但作为一名创意设计从业者，它体现了用户体验优化和界面设计的重要性，可能激发他在创意设计中运用 AI 提升产品界面的灵感。"
@@ -5792,7 +5792,7 @@
       "repo": "harvard-edge/cs249r_book",
       "description": "Machine Learning Systems",
       "language": "Python",
-      "stars": 26047,
+      "stars": 26137,
       "starsToday": 792,
       "url": "https://github.com/harvard-edge/cs249r_book",
       "summary_zh": "这个项目是关于机器学习系统的，提供了一系列关于如何构建和优化机器学习模型的资源和教程，帮助开发者深入理解相关技术。对于Yves来说，这个项目对Logic Labs（AI公司）会特别有帮助，因为可以借助这些知识提升AI产品开发的质量和效率。此外，这些机器学习技术也可以为TexTale（科技服装电商）的个性化推荐和用户体验优化提供支持，从而增强品牌竞争力。"
@@ -5801,7 +5801,7 @@
   "aigc_rankings": {
     "image": [],
     "video": [],
-    "fetchedAt": "2026-07-03T17:19:02.946850+00:00",
+    "fetchedAt": "2026-07-03T22:59:53.993762+00:00",
     "sources": [
       "Artificial Analysis",
       "LM Arena",
