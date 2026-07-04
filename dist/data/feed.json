@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-04T17:00:42.110965+00:00",
+  "generatedAt": "2026-07-04T22:55:10.355259+00:00",
   "twitter": [
     {
       "source": "x",
@@ -4982,6 +4982,16 @@
   ],
   "podcasts": [
     {
+      "name": "Matt Wolfe",
+      "title": "How powerful were Roman Emperors? | Anthony Kaldellis and Lex Fridman",
+      "videoId": "BJsQezcOv6k",
+      "url": "https://youtube.com/watch?v=BJsQezcOv6k",
+      "publishedAt": "2026-07-04T20:00:28+00:00",
+      "isShort": false,
+      "fetchDate": "2026-07-04",
+      "summary_zh": "本视频讨论了罗马皇帝的权力和影响力，Anthony Kaldellis 和 Lex Fridman 通过历史分析，探讨这些统治者是如何塑造古罗马社会及其对现代的影响。讨论内容深入，揭示了皇帝们的决策如何改变了历史进程。\n\n💡 值得一看 — 本视频提供对权力和领导力的历史洞察，对品牌营销和创意设计有间接启发，能激发 Yves 在科技服装电商中的创新思考。"
+    },
+    {
       "name": "Data Driven NYC",
       "title": "Why Open Source AI Won't Be Killed by Distillation Bans #ai #podcast",
       "videoId": "uWixErmigGI",
@@ -5574,25 +5584,31 @@
       "isShort": false,
       "fetchDate": "2026-06-29",
       "summary_zh": "这个视频探讨了当前AI和机器人的发展状况，特别是提到目前机器人数量已经超过人类。这一现象带来了许多影响，包括对劳动力市场、社会结构以及科技行业的深远影响。\n\n🎯 推荐 Yves 观看 — 视频讨论的AI趋势和机器人对未来社会的影响，与Logic Labs的AI产品开发以及TexTale在科技服装电商的潜在应用密切相关。"
-    },
-    {
-      "name": "No Priors",
-      "title": "AI benchmark scores don’t tell you what you think they do",
-      "videoId": "ta3Y6AdfGxI",
-      "url": "https://youtube.com/watch?v=ta3Y6AdfGxI",
-      "publishedAt": "2026-06-29T14:53:07+00:00",
-      "isShort": false,
-      "fetchDate": "2026-06-29",
-      "summary_zh": "这段视频讨论了AI基准测试分数的局限性及其对实际性能的误导性。尽管这些分数在比较算法性能时被广泛使用，但它们并不能全面代表AI系统在真实应用中的表现，因此应谨慎解读。\n\n🎯 推荐 Yves 观看 — 这个视频能帮助 Logic Labs 在产品开发时更好地评估和应用AI技术，从而提高创意设计的准确性和有效性。"
     }
   ],
   "producthunt": [
     {
       "rank": 1,
+      "name": "Tencent EdgeOne Makers",
+      "tagline": "Ship AI agents like web apps, in minutes.",
+      "url": "https://www.producthunt.com/products/tencent-edgeone-2?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Breakfeed+%28ID%3A+279433%29",
+      "votes": 942,
+      "comments": 180,
+      "topics": [
+        "Website Builder",
+        "Artificial Intelligence",
+        "Development"
+      ],
+      "thumbnail": "https://ph-files.imgix.net/c11fffc5-d44a-45f8-a3a3-67a0f5f6ef17.jpeg?auto=format",
+      "screenshot": "https://ph-files.imgix.net/693d0df2-dfcb-4422-bc89-c6a86a5f120a.jpeg?auto=format",
+      "summary_zh": "Tencent EdgeOne Makers 是一款工具，允许用户快速创建和部署 AI 代理，就像使用网页应用一样简单。用户可以在几分钟内开发出具备智能交互功能的应用程序，提升工作效率。该产品支持多种场景，适合不同的应用需求。"
+    },
+    {
+      "rank": 2,
       "name": "Upstream",
       "tagline": "The inbox designed for humans and agents",
       "url": "https://www.producthunt.com/products/upstream-3/launches/upstream-5?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Breakfeed+%28ID%3A+279433%29",
-      "votes": 928,
+      "votes": 929,
       "comments": 644,
       "topics": [
         "Email",
@@ -5604,11 +5620,11 @@
       "summary_zh": "Upstream是一款专为用户和客服人员设计的收件箱工具。它通过智能整理消息，让信息更清晰，帮助用户和代理快速找到重要内容，提升沟通效率。"
     },
     {
-      "rank": 2,
+      "rank": 3,
       "name": "Goldfish",
       "tagline": "Press Option. It knows your work and replies like you",
       "url": "https://www.producthunt.com/products/goldfish-early-access/launches/goldfish?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Breakfeed+%28ID%3A+279433%29",
-      "votes": 923,
+      "votes": 924,
       "comments": 302,
       "topics": [
         "Mac",
@@ -5621,27 +5637,11 @@
       "summary_zh": "Goldfish是一款智能助手工具，通过按下选项按钮，它可以根据你的工作习惯和风格，自动生成回复信息。无论是邮件、消息还是文档，它都能像你一样进行智能回应，提升你的工作效率。"
     },
     {
-      "rank": 3,
-      "name": "Tencent EdgeOne Makers",
-      "tagline": "Ship AI agents like web apps, in minutes.",
-      "url": "https://www.producthunt.com/products/tencent-edgeone-2?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Breakfeed+%28ID%3A+279433%29",
-      "votes": 916,
-      "comments": 180,
-      "topics": [
-        "Website Builder",
-        "Artificial Intelligence",
-        "Development"
-      ],
-      "thumbnail": "https://ph-files.imgix.net/c11fffc5-d44a-45f8-a3a3-67a0f5f6ef17.jpeg?auto=format",
-      "screenshot": "https://ph-files.imgix.net/693d0df2-dfcb-4422-bc89-c6a86a5f120a.jpeg?auto=format",
-      "summary_zh": "Tencent EdgeOne Makers 是一款工具，允许用户快速创建和部署 AI 代理，就像使用网页应用一样简单。用户可以在几分钟内开发出具备智能交互功能的应用程序，提升工作效率。该产品支持多种场景，适合不同的应用需求。"
-    },
-    {
       "rank": 4,
       "name": "Context.dev",
       "tagline": "One API to scrape, enrich, and extract the internet",
       "url": "https://www.producthunt.com/products/context-dev?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Breakfeed+%28ID%3A+279433%29",
-      "votes": 845,
+      "votes": 858,
       "comments": 136,
       "topics": [
         "API",
@@ -5657,7 +5657,7 @@
       "name": "Acti",
       "tagline": "Agentic keyboard for mobile commands and search",
       "url": "https://www.producthunt.com/products/acti-2?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Breakfeed+%28ID%3A+279433%29",
-      "votes": 822,
+      "votes": 837,
       "comments": 232,
       "topics": [
         "Productivity",
@@ -5673,7 +5673,7 @@
       "name": "Bond",
       "tagline": "The AI to-do list that does itself",
       "url": "https://www.producthunt.com/products/bond-12/launches/bond-717?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Breakfeed+%28ID%3A+279433%29",
-      "votes": 776,
+      "votes": 778,
       "comments": 188,
       "topics": [
         "Productivity",
@@ -5689,8 +5689,8 @@
       "name": "Fypro",
       "tagline": "Convert your TikTok followers into paying customers",
       "url": "https://www.producthunt.com/products/fypro?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Breakfeed+%28ID%3A+279433%29",
-      "votes": 708,
-      "comments": 250,
+      "votes": 710,
+      "comments": 251,
       "topics": [
         "Social Media",
         "E-Commerce",
@@ -5702,26 +5702,10 @@
     },
     {
       "rank": 8,
-      "name": "Publora",
-      "tagline": "A publishing API for agents to post on 10 social platforms",
-      "url": "https://www.producthunt.com/products/publora/launches/publora-2?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Breakfeed+%28ID%3A+279433%29",
-      "votes": 681,
-      "comments": 114,
-      "topics": [
-        "API",
-        "Social Media",
-        "Developer Tools"
-      ],
-      "thumbnail": "https://ph-files.imgix.net/25c54a33-603b-463a-b97a-89ec5e830d34.png?auto=format",
-      "screenshot": "https://ph-files.imgix.net/712e199b-0dbc-44f3-8668-f02d03d35df6.png?auto=format",
-      "summary_zh": "产品名：Publora  \nPublora是一个发布API，允许用户将内容同时发布到10个社交平台。通过这个工具，用户可以轻松管理多个社交媒体账号，并提高内容发布的效率。"
-    },
-    {
-      "rank": 9,
       "name": "Bluerails Discovery ",
       "tagline": "The rails AI agents use to find and pay you",
       "url": "https://www.producthunt.com/products/bluerails-discovery?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Breakfeed+%28ID%3A+279433%29",
-      "votes": 680,
+      "votes": 681,
       "comments": 192,
       "topics": [
         "Fintech",
@@ -5733,11 +5717,27 @@
       "summary_zh": "Bluerails Discovery 是一款智能代理工具，能够自动分析和发现合适的机会来为用户赚取收入。它利用人工智能技术，帮助用户快速找到并支付相关资源，简化了收入获取的过程。"
     },
     {
+      "rank": 9,
+      "name": "Publora",
+      "tagline": "A publishing API for agents to post on 10 social platforms",
+      "url": "https://www.producthunt.com/products/publora/launches/publora-2?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Breakfeed+%28ID%3A+279433%29",
+      "votes": 678,
+      "comments": 114,
+      "topics": [
+        "API",
+        "Social Media",
+        "Developer Tools"
+      ],
+      "thumbnail": "https://ph-files.imgix.net/25c54a33-603b-463a-b97a-89ec5e830d34.png?auto=format",
+      "screenshot": "https://ph-files.imgix.net/712e199b-0dbc-44f3-8668-f02d03d35df6.png?auto=format",
+      "summary_zh": "产品名：Publora  \nPublora是一个发布API，允许用户将内容同时发布到10个社交平台。通过这个工具，用户可以轻松管理多个社交媒体账号，并提高内容发布的效率。"
+    },
+    {
       "rank": 10,
       "name": "BrowserAct",
       "tagline": "Web browser automation for AI agents",
       "url": "https://www.producthunt.com/products/browseract?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Breakfeed+%28ID%3A+279433%29",
-      "votes": 636,
+      "votes": 651,
       "comments": 124,
       "topics": [
         "Productivity",
@@ -5753,7 +5753,7 @@
       "name": "AgentX",
       "tagline": "Evaluate AI agent, pinpoint issues, and fix with one click.",
       "url": "https://www.producthunt.com/products/agentx?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Breakfeed+%28ID%3A+279433%29",
-      "votes": 616,
+      "votes": 620,
       "comments": 175,
       "topics": [
         "Analytics",
@@ -5769,7 +5769,7 @@
       "name": "Framer 3.0",
       "tagline": "With Agents, Branching, Community, and an all-new design",
       "url": "https://www.producthunt.com/products/framer/launches/framer-3-0-2?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Breakfeed+%28ID%3A+279433%29",
-      "votes": 616,
+      "votes": 617,
       "comments": 28,
       "topics": [
         "Design Tools",
@@ -5833,7 +5833,7 @@
       "repo": "openai/codex-plugin-cc",
       "description": "Use Codex from Claude Code to review code or delegate tasks.",
       "language": "JavaScript",
-      "stars": 23980,
+      "stars": 24315,
       "starsToday": 716,
       "url": "https://github.com/openai/codex-plugin-cc",
       "summary_zh": "这个项目使用 Codex 技术来审查代码或委派任务，帮助开发者更高效地进行编程工作。对于 Yves 来说，Logic Labs 作为一家 AI 公司，可以利用这个工具提升团队的编程效率和项目管理，而作为创意设计从业者，他也能借助这种 AI 工具增强创意实现的速度和质量。"
@@ -5842,7 +5842,7 @@
       "repo": "JuliusBrussee/caveman",
       "description": "🪨 why use many token when few token do trick — Claude Code skill that cuts 65% of tokens by talking like caveman",
       "language": "JavaScript",
-      "stars": 83671,
+      "stars": 83900,
       "starsToday": 1089,
       "url": "https://github.com/JuliusBrussee/caveman",
       "summary_zh": "这个项目是一个用简单的方式来减少编程中使用的词汇量的工具，帮助开发者写出更简洁的代码。对Yves的Logic Labs（AI公司）有很大帮助，因为它可以提高代码的效率，同时也能为创意设计提供更快速的开发支持。"
@@ -5851,7 +5851,7 @@
       "repo": "alibaba/page-agent",
       "description": "JavaScript in-page GUI agent. Control web interfaces with natural language.",
       "language": "TypeScript",
-      "stars": 22895,
+      "stars": 23068,
       "starsToday": 726,
       "url": "https://github.com/alibaba/page-agent",
       "summary_zh": "这个项目是一个基于JavaScript的网页界面控制工具，可以通过自然语言与网页进行互动，简化用户操作。对Yves的Logic Labs（AI公司）可能更有帮助，因为它可以助力开发更直观的AI应用界面，提升用户体验，同时也能激发他在创意设计方面的灵感。"
@@ -5860,7 +5860,7 @@
       "repo": "usestrix/strix",
       "description": "Open-source AI penetration testing tool to find and fix your app’s vulnerabilities.",
       "language": "Python",
-      "stars": 35744,
+      "stars": 35973,
       "starsToday": 1910,
       "url": "https://github.com/usestrix/strix",
       "summary_zh": "这个项目是一个开源的人工智能渗透测试工具，旨在帮助开发者发现和修复应用程序中的安全漏洞，确保应用的安全性。对Yves来说，这个项目可以帮助Logic Labs增强其AI产品的安全性，避免潜在的安全风险，同时在TexTale的电商平台上提供用户更加安全的购物体验。作为创意设计从业者，他也可以利用这个工具了解安全性在创意和产品开发中的重要性，从而提升产品的整体质量与用户信任。"
@@ -5869,7 +5869,7 @@
       "repo": "ChromeDevTools/chrome-devtools-mcp",
       "description": "Chrome DevTools for coding agents",
       "language": "TypeScript",
-      "stars": 45710,
+      "stars": 45751,
       "starsToday": 303,
       "url": "https://github.com/ChromeDevTools/chrome-devtools-mcp",
       "summary_zh": "这个项目是 Chrome 开发者工具的一个扩展，专门用于为编码代理提供便利，使开发者能够更高效地调试和优化代码。对于 Yves 的 Logic Labs（AI 公司），这个工具可以帮助团队更好地开发和测试 AI 相关应用，而对于 TexTale（科技服装电商），它可以提升技术团队的工作效率，帮助在电商平台中实现更流畅的用户体验，有助于品牌营销和用户满意度的提升。作为创意设计从业者，这个项目也能启发他在设计过程中更好地理解技术与创意的结合。"
@@ -5878,7 +5878,7 @@
       "repo": "Zackriya-Solutions/meetily",
       "description": "Privacy first, AI meeting assistant with 4x faster Parakeet/Whisper live transcription, speaker diarization, and Ollama summarization built on Rust. 100% local processing. no cloud required. Meetily (Meetly Ai -https://meetily.ai) is the #1 Self-hosted, Open-source Ai meeting note taker for macOS & Windows.",
       "language": "Rust",
-      "stars": 14822,
+      "stars": 15185,
       "starsToday": 865,
       "url": "https://github.com/Zackriya-Solutions/meetily",
       "summary_zh": "这个项目是一个隐私优先的AI会议助手，能够快速记录会议内容，并将讲话者的发言进行分类，所有处理都在本地完成，不需要云服务。对于Yves来说，这个工具可能对Logic Labs的AI开发和团队协作极为有帮助，同时也能提升他在创意设计过程中组织和管理会议记录的效率。"
@@ -5887,7 +5887,7 @@
       "repo": "asgeirtj/system_prompts_leaks",
       "description": "Extracted system prompts from Anthropic - Claude Fable 5, Opus 4.8, Claude Code, Claude Design. OpenAI - ChatGPT 5.5 Thinking, GPT 5.5 Instant, Codex. Google - Gemini 3.5 Flash, 3.1 Pro, Antigravity. xAI - Grok, Cursor, Copilot, VS Code, Perplexity, and more. Updated regularly.",
       "language": "JavaScript",
-      "stars": 48609,
+      "stars": 48867,
       "starsToday": 432,
       "url": "https://github.com/asgeirtj/system_prompts_leaks",
       "summary_zh": "这个项目提取了多个著名AI系统的提示信息，帮助用户更好地理解和利用这些AI在不同应用场景中的表现。对于Yves来说，这个项目可以帮助Logic Labs在AI工具的开发和应用上获得灵感，同时也可以提升他在TexTale品牌营销中的创意思维，增强电商平台的用户体验。"
@@ -5896,7 +5896,7 @@
       "repo": "harvard-edge/cs249r_book",
       "description": "Machine Learning Systems",
       "language": "Python",
-      "stars": 26463,
+      "stars": 26541,
       "starsToday": 446,
       "url": "https://github.com/harvard-edge/cs249r_book",
       "summary_zh": "这个项目是关于机器学习系统的，提供了一系列关于如何构建和优化机器学习模型的资源和教程，帮助开发者深入理解相关技术。对于Yves来说，这个项目对Logic Labs（AI公司）会特别有帮助，因为可以借助这些知识提升AI产品开发的质量和效率。此外，这些机器学习技术也可以为TexTale（科技服装电商）的个性化推荐和用户体验优化提供支持，从而增强品牌竞争力。"
@@ -5905,7 +5905,7 @@
       "repo": "rommapp/romm",
       "description": "A beautiful, powerful, self-hosted rom manager and player.",
       "language": "Python",
-      "stars": 10063,
+      "stars": 10179,
       "starsToday": 400,
       "url": "https://github.com/rommapp/romm",
       "summary_zh": "这个项目是一个自托管的 ROM 管理器和播放器，可以帮助用户更好地管理和播放他们的 ROM 文件，提供美观且强大的界面。对于 Yves 来说，这个项目对 TexTale（科技服装电商）可能并不是直接相关，但作为一名创意设计从业者，它体现了用户体验优化和界面设计的重要性，可能激发他在创意设计中运用 AI 提升产品界面的灵感。"
@@ -5914,7 +5914,7 @@
       "repo": "ogulcancelik/herdr",
       "description": "agent multiplexer that lives in your terminal.",
       "language": "Rust",
-      "stars": 11237,
+      "stars": 11398,
       "starsToday": 706,
       "url": "https://github.com/ogulcancelik/herdr",
       "summary_zh": "这个项目是一个智能代理多路复用工具，可以在命令行界面中帮助用户同时管理多个人工智能代理，提高工作效率。对Yves来说，这个工具可以为Logic Labs的AI开发和管理提供便利，帮助团队更快速地进行实验和调试，同时也能为他的创意设计工作提供更好的流程支持。"
@@ -5923,7 +5923,7 @@
   "aigc_rankings": {
     "image": [],
     "video": [],
-    "fetchedAt": "2026-07-04T16:58:40.421907+00:00",
+    "fetchedAt": "2026-07-04T22:53:33.515932+00:00",
     "sources": [
       "Artificial Analysis",
       "LM Arena",
