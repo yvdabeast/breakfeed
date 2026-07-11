@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-11T16:49:59.340083+00:00",
+  "generatedAt": "2026-07-11T22:43:59.640550+00:00",
   "twitter": [],
   "twitter_history": [
     {
@@ -4064,6 +4064,16 @@
   ],
   "podcasts": [
     {
+      "name": "Latent Space",
+      "title": "Why AI Agents Don't Actually Understand You — Danielle Perszyk, Amazon AGI Lab",
+      "videoId": "K796MYUgt0k",
+      "url": "https://youtube.com/watch?v=K796MYUgt0k",
+      "publishedAt": "2026-07-11T17:00:06+00:00",
+      "isShort": false,
+      "fetchDate": "2026-07-11",
+      "summary_zh": "视频探讨了人工智能代理为何不能真正理解人类的思维和情感。演讲者 Danielle Perszyk，来自亚马逊 AGI 实验室，分析了 AI 如何在表面上模拟理解，但实际上缺乏深层次的情感和认知能力。\n\n💡 值得一看 — 这个视频可以帮助 Yves 更好地理解 AI 技术的局限性，以便在 Logic Labs 和 TexTale 的创意设计中，避免过度依赖 AI 的假象理解。"
+    },
+    {
       "name": "Data Driven NYC",
       "title": "Why AI Agents Make Microtransactions Viable #ai #podcast",
       "videoId": "emAby3k8YwI",
@@ -4660,16 +4670,6 @@
       "isShort": false,
       "fetchDate": "2026-07-07",
       "summary_zh": "这段视频由Anthony Kaldellis与Lex Fridman探讨了罗马帝国的敌人，他们在历史上几乎摧毁了这个强大的帝国。视频深入分析了这些敌对势力的策略、影响，以及其对罗马的长期影响，展现了一段鲜为人知的历史。\n\n💡 值得一看 — 本视频对历史的深度解析有助于理解文化与品牌如何在竞争激烈的环境中生存与发展，这对Logic Labs和TexTale在调研市场趋势时可能提供启发。"
-    },
-    {
-      "name": "TBPN",
-      "title": "XBOX Layoffs, Tesla's New Model Y, $12.8M Lottery Dispute | Diet TBPN",
-      "videoId": "p6oniGpzzds",
-      "url": "https://youtube.com/watch?v=p6oniGpzzds",
-      "publishedAt": "2026-07-07T01:33:28+00:00",
-      "isShort": false,
-      "fetchDate": "2026-07-07",
-      "summary_zh": "本期视频讨论了XBOX裁员消息、特斯拉新推出的Model Y，以及一桩价值1280万美元的彩票争议。视频分析了这些事件背后的原因及其对相关行业的影响。\n\n🎯 推荐 Yves 观看 — 此视频探讨的科技公司动态与Logic Labs和TexTale的市场策略息息相关，有助于观察行业趋势和竞争环境。"
     }
   ],
   "producthunt": [
@@ -4678,7 +4678,7 @@
       "name": "Acti",
       "tagline": "Agentic keyboard for mobile commands and search",
       "url": "https://www.producthunt.com/products/acti-2?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Breakfeed+%28ID%3A+279433%29",
-      "votes": 1353,
+      "votes": 1392,
       "comments": 266,
       "topics": [
         "Productivity",
@@ -4694,7 +4694,7 @@
       "name": "Tencent EdgeOne Makers",
       "tagline": "Ship AI agents like web apps, in minutes.",
       "url": "https://www.producthunt.com/products/tencent-edgeone-2/launches/tencent-edgeone-makers?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Breakfeed+%28ID%3A+279433%29",
-      "votes": 1154,
+      "votes": 1159,
       "comments": 164,
       "topics": [
         "Website Builder",
@@ -4710,7 +4710,7 @@
       "name": "Context.dev",
       "tagline": "One API to scrape, enrich, and extract the internet",
       "url": "https://www.producthunt.com/products/context-dev?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Breakfeed+%28ID%3A+279433%29",
-      "votes": 1092,
+      "votes": 1097,
       "comments": 138,
       "topics": [
         "API",
@@ -4743,7 +4743,7 @@
       "name": "Upstream",
       "tagline": "The inbox designed for humans and agents",
       "url": "https://www.producthunt.com/products/upstream-3/launches/upstream-5?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Breakfeed+%28ID%3A+279433%29",
-      "votes": 957,
+      "votes": 956,
       "comments": 645,
       "topics": [
         "Email",
@@ -4759,7 +4759,7 @@
       "name": "AnySearch",
       "tagline": "Real-time structured search trusted by agents and developers",
       "url": "https://www.producthunt.com/products/anysearch?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Breakfeed+%28ID%3A+279433%29",
-      "votes": 877,
+      "votes": 879,
       "comments": 126,
       "topics": [
         "Developer Tools",
@@ -4775,7 +4775,7 @@
       "name": "ExploreYC",
       "tagline": "Open-source API for Y Combinator & a16z company data",
       "url": "https://www.producthunt.com/products/yc-company-explorer?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Breakfeed+%28ID%3A+279433%29",
-      "votes": 795,
+      "votes": 800,
       "comments": 71,
       "topics": [
         "API",
@@ -4821,6 +4821,22 @@
     },
     {
       "rank": 10,
+      "name": "Auriko ",
+      "tagline": "Trading desk for LLM calls",
+      "url": "https://www.producthunt.com/products/auriko?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Breakfeed+%28ID%3A+279433%29",
+      "votes": 720,
+      "comments": 78,
+      "topics": [
+        "API",
+        "Developer Tools",
+        "Artificial Intelligence"
+      ],
+      "thumbnail": "https://ph-files.imgix.net/38ee31cc-b90f-4e48-b1bf-1f7c4194672a.png?auto=format",
+      "screenshot": "https://ph-files.imgix.net/1a860255-a7b5-4306-b74c-51b644cb42db.png?auto=format",
+      "summary_zh": "Auriko是一款针对大型语言模型（LLM）的交易平台，用户可以便捷地进行各种API调用和数据交互。它提供了简化的界面，帮助用户高效管理和执行相关的交易任务。通过Auriko，用户可以更轻松地利用语言模型的功能。"
+    },
+    {
+      "rank": 11,
       "name": "Bluerails Discovery ",
       "tagline": "The rails AI agents use to find and pay you",
       "url": "https://www.producthunt.com/products/bluerails-discovery/launches/bluerails-discovery-3?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Breakfeed+%28ID%3A+279433%29",
@@ -4836,11 +4852,11 @@
       "summary_zh": "Bluerails Discovery 是一款智能代理工具，能够自动分析和发现合适的机会来为用户赚取收入。它利用人工智能技术，帮助用户快速找到并支付相关资源，简化了收入获取的过程。"
     },
     {
-      "rank": 11,
+      "rank": 12,
       "name": "ChatCut",
       "tagline": "Your AI video editor in ChatGPT, desktop, and web",
       "url": "https://www.producthunt.com/products/chatcut-ai-video-editor?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Breakfeed+%28ID%3A+279433%29",
-      "votes": 688,
+      "votes": 698,
       "comments": 92,
       "topics": [
         "Marketing",
@@ -4852,7 +4868,7 @@
       "summary_zh": "ChatCut是一款智能视频编辑工具，集成在ChatGPT、桌面和网页上。它可以自动剪辑、制作和编辑视频，用户只需输入指令，即可轻松创建专业效果的视频。"
     },
     {
-      "rank": 12,
+      "rank": 13,
       "name": "Framer 3.0",
       "tagline": "With Agents, Branching, Community, and an all-new design",
       "url": "https://www.producthunt.com/products/framer/launches/framer-3-0-2?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Breakfeed+%28ID%3A+279433%29",
@@ -4868,11 +4884,11 @@
       "summary_zh": "Framer 3.0是一款全新的设计和原型制作工具，新增了智能代理、分支功能和社区支持。用户可以轻松创建互动原型，进行项目协作，并与其他用户分享和交流设计思路。它的设计界面简洁易用，适合快速实现创意。"
     },
     {
-      "rank": 13,
+      "rank": 14,
       "name": "AgentX",
       "tagline": "Evaluate AI agent, pinpoint issues, and fix with one click.",
       "url": "https://www.producthunt.com/products/agentx/launches/agentx-4?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Breakfeed+%28ID%3A+279433%29",
-      "votes": 663,
+      "votes": 661,
       "comments": 175,
       "topics": [
         "Analytics",
@@ -4884,7 +4900,7 @@
       "summary_zh": "AgentX 是一款智能工具，可以评估人工智能代理的表现，快速识别问题，并通过一键修复功能解决这些问题。它旨在简化 AI 系统的管理和优化过程。"
     },
     {
-      "rank": 14,
+      "rank": 15,
       "name": "Glaze by Raycast",
       "tagline": "Create your own Mac apps by chatting with AI",
       "url": "https://www.producthunt.com/products/glaze-4?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Breakfeed+%28ID%3A+279433%29",
@@ -4898,22 +4914,6 @@
       "thumbnail": "https://ph-files.imgix.net/85150caf-3a40-490f-ad86-32e3e5a88afa.png?auto=format",
       "screenshot": "https://ph-files.imgix.net/2375fc04-8d88-4b49-9412-58872203cbe8.png?auto=format",
       "summary_zh": "Glaze by Raycast 是一款让用户通过与人工智能对话来创建自己的 Mac 应用程序的工具。用户可以简单输入需求，AI 会帮你生成相应的应用，实现个性化定制。它使得开发应用变得更加简单快捷，无需编程基础。"
-    },
-    {
-      "rank": 15,
-      "name": "Sim",
-      "tagline": "Open-source workspace for AI agents and workflows",
-      "url": "https://www.producthunt.com/products/sim-studio?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Breakfeed+%28ID%3A+279433%29",
-      "votes": 632,
-      "comments": 107,
-      "topics": [
-        "Open Source",
-        "Developer Tools",
-        "Artificial Intelligence"
-      ],
-      "thumbnail": "https://ph-files.imgix.net/5029d16f-7b85-4364-aae4-f770cfab1fc1.png?auto=format",
-      "screenshot": "https://ph-files.imgix.net/0b90e707-2674-4c35-9085-14d354983621.png?auto=format",
-      "summary_zh": "Sim是一个开源工作空间，专为人工智能代理和工作流程设计。用户可以在这个平台上创建、管理和优化AI模型和任务，让工作变得更加高效。通过简单的界面，用户可以轻松构建和调整自己的AI应用。"
     }
   ],
   "github_trending": [
@@ -4921,7 +4921,7 @@
       "repo": "catchorg/Catch2",
       "description": "A modern, C++-native, test framework for unit-tests, TDD and BDD - using C++14, C++17 and later (C++11 support is in v2.x branch, and C++03 on the Catch1.x branch)",
       "language": "C++",
-      "stars": 20867,
+      "stars": 21003,
       "starsToday": 117,
       "url": "https://github.com/catchorg/Catch2",
       "summary_zh": "这个项目是一个现代化的C++测试框架，主要用于软件开发中的单元测试、测试驱动开发（TDD）和行为驱动开发（BDD），帮助开发者更有效地验证代码的正确性。对于Yves来说，虽然这个项目与电商直接关联不大，但它在AI公司的软件开发过程中可以提高团队的效率和代码质量，间接推动AI相关产品的创新与设计。"
@@ -4930,7 +4930,7 @@
       "repo": "abseil/abseil-cpp",
       "description": "Abseil Common Libraries (C++)",
       "language": "C++",
-      "stars": 17687,
+      "stars": 17779,
       "starsToday": 120,
       "url": "https://github.com/abseil/abseil-cpp",
       "summary_zh": "Abseil 是一个提供常用 C++ 库的开源项目，旨在帮助开发者更高效地构建软件应用。对于 Yves 来说，这个项目可以为 Logic Labs 提供强大的编程工具，以支持其 AI 应用的开发，提升技术基础；同时也可以为 TexTale 的电商平台提供底层支持，帮助实现更流畅的用户体验。作为创意设计从业者，Abseil 中的工具和库还可以为他的创意实现过程提供灵活性和高效性。"
@@ -4939,7 +4939,7 @@
       "repo": "davila7/claude-code-templates",
       "description": "CLI tool for configuring and monitoring Claude Code",
       "language": "Python",
-      "stars": 28940,
+      "stars": 29001,
       "starsToday": 230,
       "url": "https://github.com/davila7/claude-code-templates",
       "summary_zh": "这个项目是一个命令行工具，用于配置和监测 Claude Code，帮助用户更方便地使用和管理 Claude 的功能。对于 Yves 来说，这个工具可能对 Logic Labs 的 AI 开发尤为有帮助，因为他可以利用它来优化与 AI 相关的项目，提高工作效率。而对于 TexTale，虽然直接相关性较小，但如果他希望在电商中引入 AI 技术，这个工具也能为他提供技术支持和灵感。"
@@ -4948,7 +4948,7 @@
       "repo": "google-labs-code/stitch-skills",
       "description": "A library of Agent Skills designed to work with the Stitch MCP server. Each skill follows the Agent Skills open standard, for compatibility with coding agents such as Antigravity, Gemini CLI, Claude Code, Cursor.",
       "language": "TypeScript",
-      "stars": 6966,
+      "stars": 7039,
       "starsToday": 338,
       "url": "https://github.com/google-labs-code/stitch-skills",
       "summary_zh": "这个项目是一个为Stitch MCP服务器设计的代理技能库，允许用户通过多种编码代理（如Antigravity、Gemini CLI等）来简化和增强其功能。对于Yves来说，这个项目能够帮助Logic Labs提升AI应用开发的效率，同时也可以为TexTale在电商平台上提供更智能的客户交互和服务，从而优化用户体验。作为创意设计从业者，Yves可以利用这些技能来激发更多创新灵感和设计思路。"
@@ -4957,7 +4957,7 @@
       "repo": "hashicorp/terraform",
       "description": "Terraform enables you to safely and predictably create, change, and improve infrastructure. It is a source-available tool that codifies APIs into declarative configuration files that can be shared amongst team members, treated as code, edited, reviewed, and versioned.",
       "language": "Go",
-      "stars": 49309,
+      "stars": 49350,
       "starsToday": 229,
       "url": "https://github.com/hashicorp/terraform",
       "summary_zh": "这个项目 Terraform 是一个基础设施管理工具，可以帮助用户以代码的形式创建和管理服务器、网络等资源，确保操作的安全性和可预测性。对于 Yves 来说，这个工具在 Logic Labs（AI 公司）中可以帮助快速构建和调整 AI 模型所需的基础设施，而在 TexTale（科技服装电商）中也能支持快速上线和调整电商平台的技术需求，增强运营效率。作为创意设计从业者，Terraform 能助力 Yves 更加便捷地管理技术资源，从而更专注于创意设计的发挥。"
@@ -4966,7 +4966,7 @@
       "repo": "zeux/meshoptimizer",
       "description": "Mesh optimization library that makes meshes smaller and faster to render",
       "language": "C++",
-      "stars": 8100,
+      "stars": 8130,
       "starsToday": 111,
       "url": "https://github.com/zeux/meshoptimizer",
       "summary_zh": "这个项目是一个网格优化库，可以让三维模型变得更小、更快渲染，提升游戏和动画等视觉效果的效率。对于Yves来说，这有助于Logic Labs（AI 公司）在开发与三维图形相关的AI应用时提高性能，同时也可以为TexTale（科技服装电商）在展示服装产品时提供更流畅的视觉体验，从而吸引消费者。作为创意设计从业者，这个项目为他提供了一个重要的工具，帮助他提升作品的表现力和技术质量。"
@@ -4975,8 +4975,8 @@
       "repo": "openai/plugins",
       "description": "OpenAI Plugins",
       "language": "JavaScript",
-      "stars": 4344,
-      "starsToday": 112,
+      "stars": 4389,
+      "starsToday": 75,
       "url": "https://github.com/openai/plugins",
       "summary_zh": "这个项目是关于 OpenAI 插件的，意味着开发者可以创建和使用可以与 OpenAI 的语言模型交互的功能扩展，从而提升 AI 的应用场景和实用性。对于 Yves 来说，Logic Labs 作为 AI 公司，可以利用这些插件来增强其 AI 应用的功能，提高产品竞争力；而在 TexTale 的电商运营中，这些插件能为客户提供更智能的购物体验，提升品牌的吸引力。作为创意设计从业者，Yves 可以使用这些插件为设计工作提供新思路和灵感。"
     },
@@ -4984,7 +4984,7 @@
       "repo": "wonderwhy-er/DesktopCommanderMCP",
       "description": "This is MCP server for Claude that gives it terminal control, file system search and diff file editing capabilities",
       "language": "TypeScript",
-      "stars": 7709,
+      "stars": 7754,
       "starsToday": 900,
       "url": "https://github.com/wonderwhy-er/DesktopCommanderMCP",
       "summary_zh": "这个项目是一个为 Claude 设计的服务，让它能够控制终端、搜索文件系统并编辑文件。对于 Yves 来说，这个项目对 Logic Labs（AI 公司）会更有帮助，因为它可以提升 AI 在操作和管理文件方面的能力，增强 AI 技术的应用效果。同时，这样的工具对于创意设计的工作流程也能提供便利，尤其是在需要处理和管理大量文件和数据时。"
@@ -4993,7 +4993,7 @@
       "repo": "chriskohlhoff/asio",
       "description": "Asio C++ Library",
       "language": "C++",
-      "stars": 6117,
+      "stars": 6134,
       "starsToday": 75,
       "url": "https://github.com/chriskohlhoff/asio",
       "summary_zh": "Asio 是一个用于 C++ 的库，主要用于支持异步编程，使得开发者可以更高效地处理网络和输入输出操作。对 Yves 来说，这个项目可以为 Logic Labs 提供强大的网络通信能力，帮助其在 AI 项目中更好地处理数据传输和实时交互，提升整体开发效率。同时，作为创意设计从业者，了解这个库也能激发他在产品设计中对技术的思考。"
@@ -5002,7 +5002,7 @@
       "repo": "oven-sh/bun",
       "description": "Incredibly fast JavaScript runtime, bundler, test runner, and package manager – all in one",
       "language": "Rust",
-      "stars": 94519,
+      "stars": 94545,
       "starsToday": 654,
       "url": "https://github.com/oven-sh/bun",
       "summary_zh": "这个项目是一个快速的JavaScript运行环境，同时兼具打包工具、测试运行器和软件包管理器，旨在简化开发过程。对Yves的科技服装电商TexTale而言，这个项目可以帮助提升网站和应用的加载速度，从而改善用户体验，促进产品销售。同时，对于他作为创意设计从业者，这个工具也能加速创意流程，实现更高效的设计迭代。"
@@ -5011,7 +5011,7 @@
   "aigc_rankings": {
     "image": [],
     "video": [],
-    "fetchedAt": "2026-07-11T16:48:14.801793+00:00",
+    "fetchedAt": "2026-07-11T22:42:29.105429+00:00",
     "sources": [
       "Artificial Analysis",
       "LM Arena",
