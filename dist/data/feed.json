@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-12T16:54:17.180995+00:00",
+  "generatedAt": "2026-07-12T22:44:00.285053+00:00",
   "twitter": [
     {
       "source": "x",
@@ -4340,6 +4340,16 @@
   ],
   "podcasts": [
     {
+      "name": "Peter Yang",
+      "title": "I got my AI agents to manage each other",
+      "videoId": "ZkgZlvm9qQ4",
+      "url": "https://youtube.com/watch?v=ZkgZlvm9qQ4",
+      "publishedAt": "2026-07-12T19:15:18+00:00",
+      "isShort": false,
+      "fetchDate": "2026-07-12",
+      "summary_zh": "这个视频展示了如何让多个AI代理相互管理，包括如何设定规则和策略，使它们能在不同任务中协同工作。视频中分享了实践经验，强调了这些AI代理如何在没有人类干预的情况下，完成复杂的决策和管理。\n\n🎯 推荐 Yves 观看 — 这个内容对Logic Labs在AI工具开发的思考很有启发，特别是如何设计AI代理以提高效率和自动化管理的能力。"
+    },
+    {
       "name": "Data Driven NYC",
       "title": "The Shift From Vibe Coding to Vibe Deploying #ai #podcast",
       "videoId": "w-Za4900JLg",
@@ -4938,16 +4948,6 @@
       "isShort": false,
       "fetchDate": "2026-07-07",
       "summary_zh": "该视频讨论了Codex如何帮助用户有效管理会议，提高效率。通过展示具体的使用案例，视频让观众了解到这一AI工具如何在日常工作中解决时间管理的问题。\n\n🎯 推荐 Yves 观看 — 这个视频展示了Codex在项目管理中的实际应用，可能为Logic Labs的AI开发和TexTale的电商运营提供启示。"
-    },
-    {
-      "name": "No Priors",
-      "title": "Priscilla Chan: There are Diseases Nobody is Trying to Cure",
-      "videoId": "-XAkew33hns",
-      "url": "https://youtube.com/watch?v=-XAkew33hns",
-      "publishedAt": "2026-07-07T16:12:06+00:00",
-      "isShort": false,
-      "fetchDate": "2026-07-07",
-      "summary_zh": "视频讨论了普莉西拉·陈（Priscilla Chan）关于未被重视的疾病及其潜在的影响，她强调许多疾病虽然严重，但却缺乏足够的研究和治疗支持。她呼吁人们关注这些被忽视的健康问题，尤其是在科技与医疗交融的时代，AI和创新能够为这些领域带来新的解决方案。\n\n🎯 推荐 Yves 观看 — 这个视频探讨了AI在医疗领域的应用和潜力，可能为Logic Labs和TexTale在跨界设计上提供新的灵感和思路。"
     }
   ],
   "producthunt": [
@@ -4956,7 +4956,7 @@
       "name": "Acti",
       "tagline": "Agentic keyboard for mobile commands and search",
       "url": "https://www.producthunt.com/products/acti-2?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Breakfeed+%28ID%3A+279433%29",
-      "votes": 1406,
+      "votes": 1415,
       "comments": 266,
       "topics": [
         "Productivity",
@@ -4972,7 +4972,7 @@
       "name": "Tencent EdgeOne Makers",
       "tagline": "Ship AI agents like web apps, in minutes.",
       "url": "https://www.producthunt.com/products/tencent-edgeone-2/launches/tencent-edgeone-makers?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Breakfeed+%28ID%3A+279433%29",
-      "votes": 1176,
+      "votes": 1178,
       "comments": 164,
       "topics": [
         "Website Builder",
@@ -4988,7 +4988,7 @@
       "name": "Context.dev",
       "tagline": "One API to scrape, enrich, and extract the internet",
       "url": "https://www.producthunt.com/products/context-dev?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Breakfeed+%28ID%3A+279433%29",
-      "votes": 1100,
+      "votes": 1104,
       "comments": 139,
       "topics": [
         "API",
@@ -5037,7 +5037,7 @@
       "name": "AnySearch",
       "tagline": "Real-time structured search trusted by agents and developers",
       "url": "https://www.producthunt.com/products/anysearch?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Breakfeed+%28ID%3A+279433%29",
-      "votes": 885,
+      "votes": 887,
       "comments": 126,
       "topics": [
         "Developer Tools",
@@ -5053,7 +5053,7 @@
       "name": "ExploreYC",
       "tagline": "Open-source API for Y Combinator & a16z company data",
       "url": "https://www.producthunt.com/products/yc-company-explorer?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Breakfeed+%28ID%3A+279433%29",
-      "votes": 817,
+      "votes": 820,
       "comments": 71,
       "topics": [
         "API",
@@ -5070,7 +5070,7 @@
       "name": "Fypro",
       "tagline": "Convert your TikTok followers into paying customers",
       "url": "https://www.producthunt.com/products/fypro?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Breakfeed+%28ID%3A+279433%29",
-      "votes": 761,
+      "votes": 764,
       "comments": 254,
       "topics": [
         "Social Media",
@@ -5102,7 +5102,7 @@
       "name": "Auriko ",
       "tagline": "Trading desk for LLM calls",
       "url": "https://www.producthunt.com/products/auriko?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Breakfeed+%28ID%3A+279433%29",
-      "votes": 727,
+      "votes": 729,
       "comments": 78,
       "topics": [
         "API",
@@ -5118,8 +5118,8 @@
       "name": "ChatCut",
       "tagline": "Your AI video editor in ChatGPT, desktop, and web",
       "url": "https://www.producthunt.com/products/chatcut-ai-video-editor?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Breakfeed+%28ID%3A+279433%29",
-      "votes": 720,
-      "comments": 95,
+      "votes": 727,
+      "comments": 101,
       "topics": [
         "Marketing",
         "Artificial Intelligence",
@@ -5150,7 +5150,7 @@
       "name": "Framer 3.0",
       "tagline": "With Agents, Branching, Community, and an all-new design",
       "url": "https://www.producthunt.com/products/framer/launches/framer-3-0-2?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Breakfeed+%28ID%3A+279433%29",
-      "votes": 668,
+      "votes": 669,
       "comments": 28,
       "topics": [
         "Design Tools",
@@ -5163,26 +5163,10 @@
     },
     {
       "rank": 14,
-      "name": "AgentX",
-      "tagline": "Evaluate AI agent, pinpoint issues, and fix with one click.",
-      "url": "https://www.producthunt.com/products/agentx/launches/agentx-4?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Breakfeed+%28ID%3A+279433%29",
-      "votes": 663,
-      "comments": 175,
-      "topics": [
-        "Analytics",
-        "Developer Tools",
-        "Artificial Intelligence"
-      ],
-      "thumbnail": "https://ph-files.imgix.net/3569abf9-5c75-44f2-8b6e-d7af7caaad97.gif?auto=format",
-      "screenshot": "https://ph-files.imgix.net/c0274766-9f1d-41a3-8e28-486a5fd306c5.jpeg?auto=format",
-      "summary_zh": "AgentX 是一款智能工具，可以评估人工智能代理的表现，快速识别问题，并通过一键修复功能解决这些问题。它旨在简化 AI 系统的管理和优化过程。"
-    },
-    {
-      "rank": 15,
       "name": "Glaze by Raycast",
       "tagline": "Create your own Mac apps by chatting with AI",
       "url": "https://www.producthunt.com/products/glaze-4?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Breakfeed+%28ID%3A+279433%29",
-      "votes": 663,
+      "votes": 665,
       "comments": 106,
       "topics": [
         "Mac",
@@ -5192,6 +5176,22 @@
       "thumbnail": "https://ph-files.imgix.net/85150caf-3a40-490f-ad86-32e3e5a88afa.png?auto=format",
       "screenshot": "https://ph-files.imgix.net/2375fc04-8d88-4b49-9412-58872203cbe8.png?auto=format",
       "summary_zh": "Glaze by Raycast 是一款让用户通过与人工智能对话来创建自己的 Mac 应用程序的工具。用户可以简单输入需求，AI 会帮你生成相应的应用，实现个性化定制。它使得开发应用变得更加简单快捷，无需编程基础。"
+    },
+    {
+      "rank": 15,
+      "name": "AgentX",
+      "tagline": "Evaluate AI agent, pinpoint issues, and fix with one click.",
+      "url": "https://www.producthunt.com/products/agentx/launches/agentx-4?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Breakfeed+%28ID%3A+279433%29",
+      "votes": 661,
+      "comments": 175,
+      "topics": [
+        "Analytics",
+        "Developer Tools",
+        "Artificial Intelligence"
+      ],
+      "thumbnail": "https://ph-files.imgix.net/3569abf9-5c75-44f2-8b6e-d7af7caaad97.gif?auto=format",
+      "screenshot": "https://ph-files.imgix.net/c0274766-9f1d-41a3-8e28-486a5fd306c5.jpeg?auto=format",
+      "summary_zh": "AgentX 是一款智能工具，可以评估人工智能代理的表现，快速识别问题，并通过一键修复功能解决这些问题。它旨在简化 AI 系统的管理和优化过程。"
     }
   ],
   "github_trending": [
@@ -5199,7 +5199,7 @@
       "repo": "Dicklesworthstone/destructive_command_guard",
       "description": "The Destructive Command Guard (dcg) is for blocking dangerous git and shell commands from being executed by agents.",
       "language": "Rust",
-      "stars": 2578,
+      "stars": 2796,
       "starsToday": 444,
       "url": "https://github.com/Dicklesworthstone/destructive_command_guard",
       "summary_zh": "这个项目的主要目的是阻止一些危险的 Git 和 shell 命令被意外执行，从而保护代码和系统的安全。对于 Yves 来说，这个工具在 Logic Labs（AI 公司）的研发过程中能够帮助团队提高安全性，防止潜在的错误和损失，同时也能在 TexTale（科技服装电商）的技术运营中增加安全保障，维护业务的稳定性。作为创意设计从业者，了解这种安全工具的存在，可以激发他对安全设计的思考，以确保创意实现的过程中不被技术问题所影响。"
@@ -5208,7 +5208,7 @@
       "repo": "wonderwhy-er/DesktopCommanderMCP",
       "description": "This is MCP server for Claude that gives it terminal control, file system search and diff file editing capabilities",
       "language": "TypeScript",
-      "stars": 7910,
+      "stars": 7965,
       "starsToday": 207,
       "url": "https://github.com/wonderwhy-er/DesktopCommanderMCP",
       "summary_zh": "这个项目是一个为 Claude 设计的服务，让它能够控制终端、搜索文件系统并编辑文件。对于 Yves 来说，这个项目对 Logic Labs（AI 公司）会更有帮助，因为它可以提升 AI 在操作和管理文件方面的能力，增强 AI 技术的应用效果。同时，这样的工具对于创意设计的工作流程也能提供便利，尤其是在需要处理和管理大量文件和数据时。"
@@ -5217,7 +5217,7 @@
       "repo": "HKUDS/Vibe-Trading",
       "description": "\"Vibe-Trading: Your Personal Trading Agent\"",
       "language": "Python",
-      "stars": 20286,
+      "stars": 20486,
       "starsToday": 776,
       "url": "https://github.com/HKUDS/Vibe-Trading",
       "summary_zh": "这个项目名为Vibe-Trading，是一个个人交易助手，利用人工智能帮助用户进行金融市场的交易决策。对Yves来说，这个项目可能对Logic Labs（AI公司）更有帮助，通过学习和应用其中的AI模型与算法，可以提升公司在智能交易领域的研究和开发能力。同时，作为创意设计从业者，他也可以借鉴这种智能化工具的设计思路，应用于电商或品牌营销的相关创意项目中。"
@@ -5226,7 +5226,7 @@
       "repo": "PrefectHQ/prefect",
       "description": "Prefect is a workflow orchestration framework for building resilient data pipelines in Python.",
       "language": "Python",
-      "stars": 23070,
+      "stars": 23123,
       "starsToday": 55,
       "url": "https://github.com/PrefectHQ/prefect",
       "summary_zh": "这个项目是一个工作流管理框架，用于在 Python 中构建强健的数据处理流程，帮助用户自动化和监控数据任务。对于Yves来说，这个项目对Logic Labs（AI 公司）会更有帮助，因为它能够帮助公司更高效地处理数据，提高AI模型的训练和部署效率。同时，作为创意设计从业者，他也可以借助这些数据处理流程来分析用户行为，优化设计决策。"
@@ -5235,7 +5235,7 @@
       "repo": "Shubhamsaboo/awesome-llm-apps",
       "description": "100+ AI Agent & RAG apps you can actually run — clone, customize, ship.",
       "language": "Python",
-      "stars": 118359,
+      "stars": 118473,
       "starsToday": 450,
       "url": "https://github.com/Shubhamsaboo/awesome-llm-apps",
       "summary_zh": "这个项目汇集了超过100个可以实际运行的AI代理和检索增强生成（RAG）应用，用户可以轻松克隆、定制和部署它们。这对于Yves的Logic Labs（AI公司）非常有帮助，因为他们可以利用这些现成的AI工具进行创新开发，同时提升公司在AI领域的竞争力。此外，这些应用也能为TexTale的电商运营提供新的创意解决方案，改善用户体验。"
@@ -5244,7 +5244,7 @@
       "repo": "anthropics/claude-cookbooks",
       "description": "A collection of notebooks/recipes showcasing some fun and effective ways of using Claude.",
       "language": "Jupyter Notebook",
-      "stars": 48239,
+      "stars": 48355,
       "starsToday": 464,
       "url": "https://github.com/anthropics/claude-cookbooks",
       "summary_zh": "这个项目是一个集合，展示了如何有趣且有效地使用 Claude 这个 AI 工具的各种示例和技巧，主要通过 Jupyter Notebook 的形式呈现。对于 Yves 来说，Logic Labs 作为 AI 公司可以从中获得灵感，帮助团队更好地利用 Claude 进行创意设计和开发，而 TexTale 则可以借鉴其中的 AI 应用案例，提升电商运营和品牌营销的创新性。作为创意设计从业者，他也能通过这些示例获得新的思路，探索 AI 在设计领域的多种可能性。"
@@ -5253,7 +5253,7 @@
       "repo": "home-assistant/core",
       "description": "🏡 Open source home automation that puts local control and privacy first.",
       "language": "Python",
-      "stars": 88927,
+      "stars": 89028,
       "starsToday": 404,
       "url": "https://github.com/home-assistant/core",
       "summary_zh": "这个项目是一个开源的家庭自动化平台，用户可以通过它控制家中的各种设备，并且重视本地控制和隐私保护。对Yves来说，这个项目可以帮助TexTale（科技服装电商）提升智能家居产品的集成和用户体验，同时也为创意设计提供灵感，探索如何将智能科技融入现代生活。"
@@ -5262,7 +5262,7 @@
       "repo": "Crosstalk-Solutions/project-nomad",
       "description": "Project N.O.M.A.D, is a self-contained, offline survival computer packed with critical tools, knowledge, and AI to keep you informed and empowered—anytime, anywhere.",
       "language": "TypeScript",
-      "stars": 33670,
+      "stars": 33768,
       "starsToday": 122,
       "url": "https://github.com/Crosstalk-Solutions/project-nomad",
       "summary_zh": "这个项目是一个自给自足的离线求生计算机，内置关键工具和知识，用于在任何时间和地点为用户提供信息和支持。对于Yves来说，这个项目可能对Logic Labs（AI公司）更有帮助，因为它展示了如何将AI应用于实际场景，提升用户体验和自我管理能力，同时也能激发创意设计的灵感。"
@@ -5271,7 +5271,7 @@
       "repo": "ColeMurray/background-agents",
       "description": "An open-source background agents coding system",
       "language": "TypeScript",
-      "stars": 2197,
+      "stars": 2240,
       "starsToday": 9,
       "url": "https://github.com/ColeMurray/background-agents",
       "summary_zh": "这个项目是一个开源的后台代理系统，可以帮助开发者更高效地处理后台任务和服务。对于Yves来说，这个项目可能对Logic Labs（AI公司）更有帮助，因为它可以提升其AI应用的后台处理能力，进而优化产品性能和用户体验。同时，作为一个创意设计从业者，Yves也可以借鉴该项目的系统架构和代码组织方式，提升其在AI和设计结合方面的开发效率。"
@@ -5280,7 +5280,7 @@
       "repo": "k1tbyte/Wand-Enhancer",
       "description": "Advanced UX and interoperability extension for Wand (WeMod) app",
       "language": "C#",
-      "stars": 6730,
+      "stars": 6915,
       "starsToday": 603,
       "url": "https://github.com/k1tbyte/Wand-Enhancer",
       "summary_zh": "这个项目是一个为 Wand（WeMod 应用）提供高级用户体验和互操作性扩展的工具，旨在提升游戏和软件的使用效果。对于 Yves 来说，这个项目可以帮助他在 Logic Labs 中探索如何通过改进用户体验来提高 AI 应用的互动性，同时也能为 TexTale 的电商平台提供灵感，提升用户在购物过程中的体验。作为一名创意设计从业者，他可以从中学习到用户体验设计的先进方法和思路。"
@@ -5289,7 +5289,7 @@
   "aigc_rankings": {
     "image": [],
     "video": [],
-    "fetchedAt": "2026-07-12T16:52:45.497248+00:00",
+    "fetchedAt": "2026-07-12T22:42:30.736390+00:00",
     "sources": [
       "Artificial Analysis",
       "LM Arena",
