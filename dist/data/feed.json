@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-09T16:29:02.658819+00:00",
+  "generatedAt": "2026-08-09T22:26:04.938799+00:00",
   "twitter": [
     {
       "source": "x",
@@ -4472,6 +4472,26 @@
   "podcasts": [
     {
       "name": "Data Driven NYC",
+      "title": "Your AI got the right answer. It still failed #ai #podcast",
+      "videoId": "EKEM4s85kAo",
+      "url": "https://youtube.com/watch?v=EKEM4s85kAo",
+      "publishedAt": "2026-08-09T20:00:03+00:00",
+      "isShort": false,
+      "fetchDate": "2026-08-09",
+      "summary_zh": "这期播客讨论了人工智能在解决问题时可能出现的失误，即使它给出了正确的答案，但仍然无法满足用户的实际需求。主持人分析了AI模型的局限性，以及在设计和产品开发中，如何看待AI的回答与用户期望之间的差距。\n\n🎯 推荐 Yves 观看 — 这个视频适合你，因为它探讨了AI在创意设计和产品开发中的实际应用与局限性，可以为Logic Labs和TexTale的业务提供重要的见解。"
+    },
+    {
+      "name": "Peter Yang",
+      "title": "How to make your AI agent report its own gaps",
+      "videoId": "FGnKVRMfOek",
+      "url": "https://youtube.com/watch?v=FGnKVRMfOek",
+      "publishedAt": "2026-08-09T19:15:17+00:00",
+      "isShort": false,
+      "fetchDate": "2026-08-09",
+      "summary_zh": "这个视频讲述了如何使 AI 代理能够自我识别并报告其知识或能力的缺口。通过这种方式，用户可以更好地理解 AI 的局限性，从而有效调整其应用和开发。\n\n🎯 推荐 Yves 观看 — 这个内容与 Logic Labs 和 TexTale 在 AI 工具和产品开发中的应用密切相关，将有助于提升其团队对 AI 代理能力的认识与优化。"
+    },
+    {
+      "name": "Data Driven NYC",
       "title": "OpenAI's Model Hacked Us — to Cheat on a Test  #ai #podcast",
       "videoId": "iXHaNz5qnjI",
       "url": "https://youtube.com/watch?v=iXHaNz5qnjI",
@@ -5051,26 +5071,6 @@
       "isShort": false,
       "fetchDate": "2026-08-03",
       "summary_zh": "这个视频探讨了人工智能如何改变了工作方式，而不是职业发展的路线。它强调了AI在各个行业中的应用，展示了AI如何帮助人们更高效地完成任务，并且鼓励我们重新审视传统职场角色的定义。\n\n🎯 推荐 Yves 观看 — 这个视频与AI在设计和电商运营中的应用相关，能够帮助你在Logic Labs和TexTale的业务策略中更好地理解AI的影响。"
-    },
-    {
-      "name": "Every Inc",
-      "title": "Ask Yourself This Question When You Feel Stuck",
-      "videoId": "NMpufqG3MxU",
-      "url": "https://youtube.com/watch?v=NMpufqG3MxU",
-      "publishedAt": "2026-08-03T22:19:32+00:00",
-      "isShort": false,
-      "fetchDate": "2026-08-03",
-      "summary_zh": "这个视频探讨了在创意或职业瓶颈期时，如何通过自我反思找到方向。它鼓励观众提出深刻的问题，以便更好地理解自己的目标和动机，进而激发新的思路和解决方案。\n\n🎯 推荐 Yves 观看 — 这个视频中的反思技巧可以帮助在 Logic Labs 或 TexTale 的项目中克服创意瓶颈，促进更好的产品开发和品牌营销策略。"
-    },
-    {
-      "name": "Latent Space",
-      "title": "The Inference Frontier: 10x Faster Models to Self-Optimizing AI — Philip Kiely & Ali Taha, Baseten",
-      "videoId": "7PSXtru6mmY",
-      "url": "https://youtube.com/watch?v=7PSXtru6mmY",
-      "publishedAt": "2026-08-03T21:35:42+00:00",
-      "isShort": false,
-      "fetchDate": "2026-08-03",
-      "summary_zh": "这个视频讨论了如何开发出速度提升十倍的自我优化人工智能模型，探讨了这一技术带来的潜在影响和应用。Philip Kiely 和 Ali Taha 深入剖析了这一领域的新趋势，适合关注AI技术前沿的人士。\n\n🎯 推荐 Yves 观看 — 这个视频中的自我优化AI模型能够为 Logic Labs 和 TexTale 提供更高效的工具，帮助提升创意设计和电商运营的效率。"
     }
   ],
   "producthunt": [
@@ -5095,7 +5095,7 @@
       "name": "OpenSEO",
       "tagline": "The open source Ahrefs alternative",
       "url": "https://www.producthunt.com/products/openseo/launches/openseo?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Breakfeed+%28ID%3A+279433%29",
-      "votes": 944,
+      "votes": 945,
       "comments": 76,
       "topics": [
         "Open Source",
@@ -5173,22 +5173,6 @@
     },
     {
       "rank": 7,
-      "name": "SKI",
-      "tagline": "Free voice coding for Claude Code, Codex and more",
-      "url": "https://www.producthunt.com/products/ski?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Breakfeed+%28ID%3A+279433%29",
-      "votes": 639,
-      "comments": 317,
-      "topics": [
-        "Productivity",
-        "Developer Tools",
-        "Artificial Intelligence"
-      ],
-      "thumbnail": "https://ph-files.imgix.net/4936ae7e-f021-4b98-860e-a5bc9ade7829.png?auto=format",
-      "screenshot": "https://ph-files.imgix.net/9e7fefdc-964d-4b38-9c8a-0bc89eb64bc2.png?auto=format",
-      "summary_zh": "SKI是一款免费语音编程工具，支持Claude Code、Codex等多种编程语言。用户可以通过语音输入代码，简化编程过程，提高效率。该产品旨在让编程变得更便捷。"
-    },
-    {
-      "rank": 8,
       "name": "Velo 3.0",
       "tagline": "AI video infrastructure to explain, train, and sell faster.",
       "url": "https://www.producthunt.com/products/velo-4/launches/velo-3-0?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Breakfeed+%28ID%3A+279433%29",
@@ -5202,6 +5186,22 @@
       "thumbnail": "https://ph-files.imgix.net/5a395b78-27ac-4662-9eac-cb5ce89d165c.png?auto=format",
       "screenshot": "https://ph-files.imgix.net/080a8ea7-9366-4e90-bf2d-871ca5f9a7d2.gif?auto=format",
       "summary_zh": "Velo 3.0 是一个基于人工智能的视频基础设施。它可以快速创建视频内容，用于说明产品、进行培训和销售，从而提升信息传递的效率。通过智能化的方式，用户可以更轻松地制作专业视频。"
+    },
+    {
+      "rank": 8,
+      "name": "SKI",
+      "tagline": "Free voice coding for Claude Code, Codex and more",
+      "url": "https://www.producthunt.com/products/ski?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Breakfeed+%28ID%3A+279433%29",
+      "votes": 639,
+      "comments": 317,
+      "topics": [
+        "Productivity",
+        "Developer Tools",
+        "Artificial Intelligence"
+      ],
+      "thumbnail": "https://ph-files.imgix.net/4936ae7e-f021-4b98-860e-a5bc9ade7829.png?auto=format",
+      "screenshot": "https://ph-files.imgix.net/9e7fefdc-964d-4b38-9c8a-0bc89eb64bc2.png?auto=format",
+      "summary_zh": "SKI是一款免费语音编程工具，支持Claude Code、Codex等多种编程语言。用户可以通过语音输入代码，简化编程过程，提高效率。该产品旨在让编程变得更便捷。"
     },
     {
       "rank": 9,
@@ -5257,7 +5257,7 @@
       "name": "Memmy Agent",
       "tagline": "Let every AI remember the same you.",
       "url": "https://www.producthunt.com/products/memmy?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Breakfeed+%28ID%3A+279433%29",
-      "votes": 585,
+      "votes": 584,
       "comments": 214,
       "topics": [
         "Productivity",
@@ -5270,6 +5270,22 @@
     },
     {
       "rank": 13,
+      "name": "Adomate",
+      "tagline": "Turn data into winning ads. At scale.",
+      "url": "https://www.producthunt.com/products/adomate?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Breakfeed+%28ID%3A+279433%29",
+      "votes": 575,
+      "comments": 109,
+      "topics": [
+        "Design Tools",
+        "Marketing",
+        "Artificial Intelligence"
+      ],
+      "thumbnail": "https://ph-files.imgix.net/0b1dc26d-34c2-4318-b041-3b690a4f5a48.png?auto=format",
+      "screenshot": "https://ph-files.imgix.net/cb2c9bab-22c9-40c4-83c4-3bedf88219f1.png?auto=format",
+      "summary_zh": "Adomate是一款广告自动化工具，能够将数据转化为高效的广告。它帮助用户在大规模上创造和优化广告，提高投放效果。通过智能分析和实时调整，Adomate让广告投放更加精准和省时。"
+    },
+    {
+      "rank": 14,
       "name": "Wispr Flow Notetaker",
       "tagline": "Meeting notes that get the details right.",
       "url": "https://www.producthunt.com/products/wisprflow?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Breakfeed+%28ID%3A+279433%29",
@@ -5285,27 +5301,11 @@
       "summary_zh": "Wispr Flow Notetaker是一款会议记录工具，能够自动整理和记录会议内容。它精准捕捉关键信息，帮助用户轻松回顾会议细节。使用简便，提升会议记录效率。"
     },
     {
-      "rank": 14,
-      "name": "Adomate",
-      "tagline": "Turn data into winning ads. At scale.",
-      "url": "https://www.producthunt.com/products/adomate?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Breakfeed+%28ID%3A+279433%29",
-      "votes": 574,
-      "comments": 109,
-      "topics": [
-        "Design Tools",
-        "Marketing",
-        "Artificial Intelligence"
-      ],
-      "thumbnail": "https://ph-files.imgix.net/0b1dc26d-34c2-4318-b041-3b690a4f5a48.png?auto=format",
-      "screenshot": "https://ph-files.imgix.net/cb2c9bab-22c9-40c4-83c4-3bedf88219f1.png?auto=format",
-      "summary_zh": "Adomate是一款广告自动化工具，能够将数据转化为高效的广告。它帮助用户在大规模上创造和优化广告，提高投放效果。通过智能分析和实时调整，Adomate让广告投放更加精准和省时。"
-    },
-    {
       "rank": 15,
       "name": "Hey Noah",
       "tagline": "A proactive AI executive assistant for founders",
       "url": "https://www.producthunt.com/products/hey-noah?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Breakfeed+%28ID%3A+279433%29",
-      "votes": 568,
+      "votes": 569,
       "comments": 97,
       "topics": [
         "Productivity",
@@ -5322,7 +5322,7 @@
       "repo": "PrimeIntellect-ai/prime-agent",
       "description": "A self-improving RLM agent for coding workflows and long-running autonomous tasks.",
       "language": "TypeScript",
-      "stars": 10392,
+      "stars": 10895,
       "starsToday": 2319,
       "url": "https://github.com/PrimeIntellect-ai/prime-agent",
       "summary_zh": "这个项目是一个自我改进的智能代理，旨在提高编程工作流程的效率，并能够自主完成长时间运行的任务。对于Yves来说，这个工具可以帮助Logic Labs在AI开发上提升效率，同时也能为TexTale的电商运营和自动化任务提供支持，增强其技术和运营能力。作为创意设计从业者，他还可以利用这个代理来优化设计过程，令创意工作更加高效顺畅。"
@@ -5331,7 +5331,7 @@
       "repo": "vitali87/code-graph-rag",
       "description": "The ultimate RAG for your monorepo. Query, understand, and edit multi-language codebases with the power of AI and knowledge graphs",
       "language": "Python",
-      "stars": 2802,
+      "stars": 2946,
       "starsToday": 59,
       "url": "https://github.com/vitali87/code-graph-rag",
       "summary_zh": "这个项目旨在通过人工智能和知识图谱，帮助用户查询、理解和编辑多种编程语言的代码库，尤其是大型项目的代码管理。对Yves而言，Logic Labs（AI 公司）可以利用该项目提升团队在开发和维护AI工具时的效率，而作为创意设计师，此工具可以帮助他更好地理解技术和代码，为创意设计过程提供支持。"
@@ -5340,8 +5340,8 @@
       "repo": "msitarzewski/agency-agents",
       "description": "A complete AI agency at your fingertips - From frontend wizards to Reddit community ninjas, from whimsy injectors to reality checkers. Each agent is a specialized expert with personality, processes, and proven deliverables.",
       "language": "Shell",
-      "stars": 140350,
-      "starsToday": 446,
+      "stars": 140588,
+      "starsToday": 932,
       "url": "https://github.com/msitarzewski/agency-agents",
       "summary_zh": "这个项目创建了一个完整的 AI 代理，能够提供各种专业服务，比如网页设计、社交媒体管理和创意插画等。对于 Yves 来说，这个项目可以帮助 Logic Labs 提供更高效的 AI 解决方案，同时也能为 TexTale 提供创意设计和品牌营销的支持。作为一名创意设计从业者，利用这些 AI 代理将极大提升他的创意工作效率。"
     },
@@ -5349,8 +5349,8 @@
       "repo": "pranshuparmar/witr",
       "description": "Why is this running? Trace any process, port, container, or file back to what started it - CLI + TUI.",
       "language": "Go",
-      "stars": 20403,
-      "starsToday": 556,
+      "stars": 20577,
+      "starsToday": 342,
       "url": "https://github.com/pranshuparmar/witr",
       "summary_zh": "这个项目旨在帮助用户追踪某个进程、端口、容器或文件的来源，提供命令行和图形界面的信息。对于Yves而言，这个工具可以在Logic Labs中用于调试和监控AI应用程序的运行状态，帮助提升开发和创作效率，同时也能够为TexTale在电商平台上提供更好的后端支持，优化系统性能。"
     },
@@ -5358,7 +5358,7 @@
       "repo": "google-deepmind/weathernext",
       "description": "",
       "language": "Python",
-      "stars": 6965,
+      "stars": 7050,
       "starsToday": 105,
       "url": "https://github.com/google-deepmind/weathernext",
       "summary_zh": "这个项目 WeatherNext 是一个利用人工智能预测天气变化的工具，通过分析气象数据，帮助用户做出更精准的天气预报。对 Yves 来说，这个项目可以帮助 Logic Labs 提升 AI 在气象领域的应用，同时也能为 TexTale 在科技服装电商中提供更准确的天气预测，优化产品推荐和库存管理，进而提升品牌营销效果。作为创意设计从业者，Yves 也能从中获得关于数据驱动设计的新启发。"
@@ -5367,7 +5367,7 @@
       "repo": "addyosmani/agent-skills",
       "description": "Production-grade engineering skills for AI coding agents.",
       "language": "JavaScript",
-      "stars": 84954,
+      "stars": 85080,
       "starsToday": 670,
       "url": "https://github.com/addyosmani/agent-skills",
       "summary_zh": "这个项目主要为人工智能编程代理提供高水平的工程技能，使其能够更有效地进行代码编写和开发。对于Yves来说，这个项目对Logic Labs（AI 公司）最有帮助，可以提升他们在AI领域的技术能力，同时也可以为TexTale提供更智能的电商运营解决方案，帮助自动化任务并优化用户体验。作为创意设计从业者，Yves可以借助这些工具提高创作效率，从而集中于更具创意的工作。"
@@ -5376,7 +5376,7 @@
       "repo": "ZhuLinsen/daily_stock_analysis",
       "description": "LLM 驱动的多市场股票智能分析系统：多源行情、实时新闻、决策看板与自动推送，支持零成本定时运行。 LLM-powered multi-market stock analysis system with multi-source market data, real-time news, decision dashboard, automated notifications, and cost-free scheduled runs.",
       "language": "Python",
-      "stars": 61027,
+      "stars": 61141,
       "starsToday": 287,
       "url": "https://github.com/ZhuLinsen/daily_stock_analysis",
       "summary_zh": "这个项目是一个智能股票分析系统，可以通过实时市场数据和新闻，帮助用户做出更好的投资决策，并且能够定时自动运行，不需要额外的成本。对Yves来说，这个项目可以为Logic Labs（AI公司）提供数据分析的思路和工具，帮助其在AI领域更好地运用技术，同时也能为TexTale提供市场趋势的洞察，优化电商运营和品牌营销策略。作为创意设计从业者，Yves可以借助这个系统的分析能力，获得灵感，提升设计决策的准确性。"
@@ -5385,7 +5385,7 @@
       "repo": "goauthentik/authentik",
       "description": "The authentication glue you need.",
       "language": "Python",
-      "stars": 24175,
+      "stars": 24242,
       "starsToday": 312,
       "url": "https://github.com/goauthentik/authentik",
       "summary_zh": "这个项目提供了一种简单易用的身份验证解决方案，可以帮助网站和应用程序管理用户登录和权限。对Yves而言，这个工具将对他在TexTale的电商运营提供帮助，确保用户的安全登录体验，从而提升客户信任度和购物便利性。作为创意设计从业者，使用这种工具也可以让他更专注于设计和创意，而不必花时间在复杂的身份验证系统上。"
@@ -5394,7 +5394,7 @@
       "repo": "google/skills",
       "description": "Agent Skills for Google products and technologies",
       "language": "Python",
-      "stars": 17082,
+      "stars": 17188,
       "starsToday": 532,
       "url": "https://github.com/google/skills",
       "summary_zh": "这个项目是一个帮助开发者为谷歌产品和技术创建智能助手功能的工具集，简化了与谷歌服务的交互过程。对于Yves来说，这个项目可以增强Logic Labs在AI方面的应用能力，推动更多创意设计工具的开发，也帮助TexTale在电商平台上更好地与消费者互动，提高用户体验。"
@@ -5403,7 +5403,7 @@
       "repo": "Comfy-Org/ComfyUI",
       "description": "The most powerful and modular diffusion model GUI, api and backend with a graph/nodes interface.",
       "language": "Python",
-      "stars": 125286,
+      "stars": 125437,
       "starsToday": 333,
       "url": "https://github.com/Comfy-Org/ComfyUI",
       "summary_zh": "这个项目是一个强大且模块化的扩散模型图形用户界面，允许用户通过图形化的方式创建和管理AI模型，以便于生成图像或其他创意内容。对Yves来说，这个工具可以帮助Logic Labs更高效地开发和调整AI算法，同时也能为TexTale在创意设计和产品展示上提供灵活的AI支持，提升用户体验。作为创意设计从业者，使用这个项目可以激发更多创新灵感，简化设计流程。"
@@ -5412,7 +5412,7 @@
   "aigc_rankings": {
     "image": [],
     "video": [],
-    "fetchedAt": "2026-08-09T16:27:24.177479+00:00",
+    "fetchedAt": "2026-08-09T22:24:30.441601+00:00",
     "sources": [
       "Artificial Analysis",
       "LM Arena",
