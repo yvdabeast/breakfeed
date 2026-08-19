@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-19T10:24:14.714912+00:00",
+  "generatedAt": "2026-08-19T16:25:51.877248+00:00",
   "twitter": [
     {
       "source": "x",
@@ -17,7 +17,7 @@
           "replies": 34,
           "isQuote": false,
           "quotedTweetId": null,
-          "summary_zh": "我们最近在测试 YouTube 缩略图的设计，感觉这个过程总是很复杂。这次我们决定公开分享我们的经验，希望大家也能分享他们的想法。最终目标是让优质的教育内容能在网上脱颖而出，欢迎大家反馈！"
+          "summary_zh": "最近我们在做很多关于 YouTube 视频缩略图的A/B测试（就是比较不同版本，看看哪个更受欢迎）。我一直觉得这个过程很复杂不透明。\n\n今天我们决定把我们的经验开源（分享给大家）！希望大家能分享自己的经验，或者从我们的经验中学习。最终我们只是想让优质的教育内容在网络上脱颖而出。如果你有想法，欢迎告诉我哦！"
         }
       ],
       "bio_zh": "AI 开发者社区意见领袖，Latent Space 播客主理人，前 AWS/Netlify 工程师",
@@ -39,7 +39,7 @@
           "replies": 84,
           "isQuote": true,
           "quotedTweetId": "2089860955266228548",
-          "summary_zh": "最近有一些小功能的提升正在进行中，特别是对于每天使用桌面版的人来说，启动速度慢会让整个应用感觉很卡顿。他们正在努力进一步优化这一点！"
+          "summary_zh": "每天使用电脑的人都会觉得，如果启动速度慢，软件就会显得卡顿。现在正努力让这个问题得到进一步改善，提升用户体验。"
         }
       ],
       "fetchDate": "2026-08-19"
@@ -60,7 +60,7 @@
           "replies": 1780,
           "isQuote": false,
           "quotedTweetId": null,
-          "summary_zh": "今天我收到了一个超级高大上的重置按钮！"
+          "summary_zh": "今天收到了一个超级高级的新重置按钮！这听起来像是科技产品里的新玩意儿，也许是用来恢复设备或者系统的功能。"
         },
         {
           "id": "2089891927659585918",
@@ -72,7 +72,7 @@
           "replies": 857,
           "isQuote": false,
           "quotedTweetId": null,
-          "summary_zh": "最近，我们对Codex进行了更新，以减少它在工作中可能导致破坏性操作的风险。我们发现一些潜在问题，比如在清理临时文件时，它可能误删用户文件。因此，我们增加了一些保护措施，确保在删除文件之前进行确认，并不会随便使用系统变量，避免误操作。\n\n建议大家保持Codex应用更新，并在安全模式下使用，比如“请求批准”或“为我批准”，不要随便使用完全访问权限。希望大家使用愉快！"
+          "summary_zh": "最近，我们对Codex进行了更新，减少了它在处理工作时可能造成的误操作。之前发现Codex在清理临时文件时，有可能误删用户的重要文件。为了避免这种情况，我们增加了一些保护措施，比如让Codex在删除文件前先检查，并且不再随便使用系统文件夹。大家在使用Codex时，记得保持应用更新，并在安全的环境中使用“完全访问”功能。祝你使用Codex愉快！"
         }
       ],
       "fetchDate": "2026-08-19"
@@ -93,7 +93,7 @@
           "replies": 13,
           "isQuote": false,
           "quotedTweetId": null,
-          "summary_zh": "想做一个应用程序，帮助大家记录在多少天不把手机带进卧室。自己坚持了三天，发现睡眠质量明显提高了。保持这个习惯真不容易，总是能找到借口。"
+          "summary_zh": "他在想要开发一个应用，帮助人们记录和保持多久不把手机带进卧室。他自己已经坚持了三天，感觉睡眠质量有明显改善。克制使用手机真的挺难，总是有借口想要拿手机。"
         },
         {
           "id": "2089877083510235328",
@@ -105,7 +105,7 @@
           "replies": 0,
           "isQuote": false,
           "quotedTweetId": null,
-          "summary_zh": "现在的AI更多是帮我们处理工作，而不是完全取代我们。大家花了更多时间和AI聊天、分配任务，但并没有减少原本的工作量。这是因为大家对AI的期望值提高了，觉得它应该能做更多事情。"
+          "summary_zh": "AI 现在已经成为我们工作的一部分，但并没有取代我们的工作。团队们花更多时间和 AI 聊天或者让 AI 助手去做事，但并没有因此减少原本的工作时间。这是因为大家对能做的事情有了更高的期待。"
         },
         {
           "id": "2089877068188471545",
@@ -117,7 +117,7 @@
           "replies": 1,
           "isQuote": false,
           "quotedTweetId": null,
-          "summary_zh": "越来越多的非工程师开始参与代码开发了！在过去两年间，产品经理（PM）提交代码的比例从3%升到了10%，设计师也从1%增加到了8%。创始人的比例则是仅次于工程师，达到了23%。我有点意外设计师的比例居然还没超过产品经理，因为现在设计工程师的职位越来越多。"
+          "summary_zh": "越来越多的非工程师在编写代码。过去两年，产品经理（PM）提交代码的比例从3%升到10%，设计师的比例从1%升到8%，而创始人提交的代码比例紧随工程师之后，达到了23%。我其实有点惊讶设计师提交的代码比PM少，尤其是现在设计工程师角色越来越普遍。"
         }
       ],
       "bio_zh": "Roblox 产品经理，14 万订阅的 AI 实操教程作者",
@@ -139,7 +139,7 @@
           "replies": 0,
           "isQuote": true,
           "quotedTweetId": "2089780453964443711",
-          "summary_zh": "更多的例子分享啦！这个链接里有一些新的案例，让我们更好地理解AI是怎么运作的。"
+          "summary_zh": "这个推文就是分享了一些关于人工智能（AI）应用的更多例子。发推人想让大家看到AI在实际生活中是怎么运作的，可能会引发一些有趣的讨论呢！"
         },
         {
           "id": "2089692801537560610",
@@ -151,7 +151,7 @@
           "replies": 5,
           "isQuote": true,
           "quotedTweetId": "2089646882389713264",
-          "summary_zh": "他在说希望这个手表能做得更好，可能在吐槽某款手表的功能或者设计不够满意。"
+          "summary_zh": "他觉得这款手表的表现不尽如人意，希望能更好。"
         }
       ],
       "bio_zh": "AI 产品经理和创业者，关注 AI 产品化落地",
@@ -173,7 +173,7 @@
           "replies": 9,
           "isQuote": true,
           "quotedTweetId": "2089480958571331623",
-          "summary_zh": "关于评估 AI 产品的成本，建议先关注评估质量，再考虑成本。开始时要明确什么是“好”，写下标准，然后找到最好的评估方法，可以请人帮忙、用大型语言模型（LLM）进行判断，或者用自动化方式验证。一开始可以花更多的钱来确保评估过程的准确性。当评估能可靠地区分出好与坏后，再开始考虑降低成本，比如更多自动化、使用更小的评估模型等。质量最重要，成本其次。有什么问题可以问我，我会在日常帖子中回答。"
+          "summary_zh": "要评估你的 AI 产品表现，首先要确定什么是“优质”的。你可以先花钱请专业人士或者用最好的方法进行评估，确保结果可信。等评估方法可靠了再考虑如何降低成本，比如使用更便宜的评估工具或自动化手段。记住，质量是第一位的，成本是第二位的。有什么问题可以问我，我会在日常更新中回答。"
         }
       ],
       "bio_zh": "AI 创业者和投资人，关注 AI 基础设施",
@@ -195,7 +195,7 @@
           "replies": 204,
           "isQuote": false,
           "quotedTweetId": null,
-          "summary_zh": "有种奇怪的感觉，居然有一个可以“轻松赚钱”的按钮，但没人去按它。  \n\n（他说的“headless”就是把软件的前端和后端分开，让用户可以更灵活地使用，特别是面向企业的时候，按每次使用收费。）"
+          "summary_zh": "有个“赚钱按钮”大家却不去按，真奇怪。可以把你的SaaS（软件即服务）变得更灵活，让智能代理（AI程序）去使用，然后按每次互动收费，尤其是对大企业来说。"
         }
       ],
       "bio_zh": "Anthropic 工程师，Claude Code（AI 编程工具）核心开发者",
@@ -217,7 +217,7 @@
           "replies": 14,
           "isQuote": true,
           "quotedTweetId": "2000991052480831854",
-          "summary_zh": "谷歌的实验性 AI 助手 CC 现在在澳大利亚和新西兰开放了预约名单，也在美国和加拿大扩大了服务。如果你在预约名单上，今天开始会陆续收到访问邀请。CC 还升级了功能，可以帮你管理日历，自动把 Gmail 中的事件添加到 Google 日历并保持更新。想了解更多可以点击链接。"
+          "summary_zh": "嘿，Google的实验性AI助手“CC”在澳大利亚和新西兰开放了预约名单！🇦🇺🇳🇿 在美国和加拿大也开始提供访问权限，如果你在等候名单上，今天会陆续发出邀请哦。 \n\nCC现在可以帮你管理日历，它会自动把Gmail里的活动创建到专用的谷歌日历中，并随着变化保持更新。想了解更多，可以点链接看看！"
         }
       ],
       "bio_zh": "Google 实验性 AI 产品官方账号，发布最新 AI 工具和功能",
@@ -239,7 +239,7 @@
           "replies": 55,
           "isQuote": true,
           "quotedTweetId": "2089828083415355806",
-          "summary_zh": "最近我在用一个新的代码工具，它非常轻巧，比大多数主流的代码命令行工具小10到20倍，而且启动速度超级快，使用起来感觉就像用更简单的终端而不是复杂的开发环境。这个工具可以在任何地方使用，包括浏览器哦。而且它是开源的，支持不同的模型。虽然还在实验阶段，但真心推荐大家试试看，看看效果如何！"
+          "summary_zh": "他在推荐一个有趣的编程工具，体验起来比传统的代码工具快且轻便，启动超快，像用命令行一样简单，还可以放在任何地方使用，包括浏览器。而且这个工具是开放源代码的，意味着大家都可以免费使用和改进。听起来很值得一试！"
         },
         {
           "id": "2089804717337817514",
@@ -251,7 +251,7 @@
           "replies": 104,
           "isQuote": true,
           "quotedTweetId": "2089798525261631562",
-          "summary_zh": "如果你想让软件开发更加高效，最好把所有的项目放在一个“单一代码库”（monorepo）里，这样不同团队（比如设计、市场、销售等）可以更方便地协作，共享信息。这样可以让开发者更轻松地工作！"
+          "summary_zh": "你的软件开发应该使用单一代码库（monorepo），这样设计、营销、销售、工程和客服等所有公司的信息都能集中在一个地方，方便开发者使用。"
         },
         {
           "id": "2089747453004468339",
@@ -263,7 +263,7 @@
           "replies": 61,
           "isQuote": true,
           "quotedTweetId": "2089744789982069006",
-          "summary_zh": "我们要投入100万美元来公开验证Vercel Sandbox的安全性。大家可以自由测试任何模型，看看能不能找到漏洞。\n\n我期待能够让大家清楚了解尖端模型在现实世界中能做什么、不能做什么，特别是安全方面。如果发现漏洞，我们会及时修复，并与大家分享我们的发现，以提升全球网络安全。"
+          "summary_zh": "我们要投入100万美元，用来公开验证Vercel Sandbox（一个安全的代码测试环境）的安全性。你可以随意测试各种模型，看看是否能找到安全漏洞。\n\n我期待能够让大家更清楚前沿技术在现实中有哪些安全风险。如果发现漏洞，我们会及时修复，并和大家分享这些发现，以加强网络安全。"
         }
       ],
       "bio_zh": "Vercel CEO，Next.js 创造者，v0 AI 代码生成工具的幕后推手",
@@ -285,7 +285,7 @@
           "replies": 24,
           "isQuote": false,
           "quotedTweetId": null,
-          "summary_zh": "越来越多的案例表明，AI模型和最终用户工作流程之间能创造的价值比很多人想象的要大得多。虽然AI技术在这些产品中发挥了重要作用，但将AI真正融入企业仍需更多努力。\n\n他提到了一些关键点：有效的AI助手需要根据不同的业务流程来调整，有些需要聊天功能，有些则要在后台无缝运行；不同的工作流程需要不同的数据和专业知识，尤其是在医疗、金融和法律等领域；另外，实施技术的方法因行业而异，银行和律师事务所的做法就大相径庭。通过对多种模型的灵活使用，可以优化工作流程的成本和效果。评估AI效果的方法也非常重要，因为无法评估的AI基本上毫无用处。而且，不同行业还需要根据各自的需求来定价。总的来说，这些要素构成了AI在"
+          "summary_zh": "越来越多的案例显示，AI 模型和最终用户之间能够创造的价值远超许多人之前的预期。虽然 AI 模型的能力帮助了很多产品，但要真正把 AI 融入企业，还需要做大量工作。\n\n简单来说，要让 AI 和人一起有效地工作，必须根据不同的业务流程调整它的表现，而这涉及到很多具体的应用方式，比如聊天界面或在后台自动运行的助手。不同的工作流程需要访问不同的数据，处理时也得非常清楚数据的内容和使用体验。\n\n此外，在金融、法律等不同行业中，使用技术的方式也各不相同，所以需要合适的人才来管理这些变化。最后，AI 系统还需要根据具体任务进行评估，以提高性能，不同的行业也要有符合自己特点的定价模式。\n\n总的来说，把 AI 应用到实际中，需要考虑很多细节，但这也是持续创新和"
         }
       ],
       "bio_zh": "Box CEO，企业 AI 应用的坚定推动者，科技圈知名段子手",
@@ -307,7 +307,7 @@
           "replies": 60,
           "isQuote": false,
           "quotedTweetId": null,
-          "summary_zh": "Ryo要搬到亚洲了，他在旧金山希望能有人来帮他清空公寓。如果你能去他那儿取东西，可以提前下单，约下周见面！这条推文还提到用了一些智能工具制作的。"
+          "summary_zh": "Ryo要搬到亚洲了，想找人帮忙把他的公寓清空，如果你在旧金山，可以下单并下周见面。他用了一些工具来帮助自己。"
         }
       ],
       "bio_zh": "Cursor 联合创始人，AI 代码编辑器赛道领跑者",
@@ -329,7 +329,7 @@
           "replies": 23,
           "isQuote": true,
           "quotedTweetId": "2089389978094576034",
-          "summary_zh": "如果你希望旧金山一室一厅的租金高达每月1万美元（意味着你是一个反对新人的房东），那么你才会支持Connie Chan。现在的政治手段真是无耻，必须抵制。"
+          "summary_zh": "如果你希望旧金山的单间租金涨到每月一万块（说明你是个不希望新来的人和年轻人入住的房东），那你就会支持 Connie Chan。文中提到的政治势力在试图让她进入国会，这种做法很无耻，应该被抵制。"
         },
         {
           "id": "2089850288840794596",
@@ -341,7 +341,7 @@
           "replies": 10,
           "isQuote": true,
           "quotedTweetId": "2089847099160748196",
-          "summary_zh": "“很多这样的案例。” 这里的意思是说，有很多类似的情况，可能是在讨论某些现象或问题，虽然链接里可能有具体的例子但没有详细说明。总之，就是强调这种情况很普遍。"
+          "summary_zh": "这句话传达的是“这样的情况还很多呢”，暗示有很多类似的例子或问题存在。具体情况得去链接看看哦！"
         }
       ],
       "bio_zh": "Y Combinator 现任 CEO，早期投资了 Coinbase、Instacart 等",
@@ -363,7 +363,7 @@
           "replies": 34,
           "isQuote": false,
           "quotedTweetId": null,
-          "summary_zh": "为什么有人会通过读书来学习Claude Code（这是一个用于AI编程的系统），我真不明白，不过在日本好像挺流行的。"
+          "summary_zh": "其实不太明白为什么有人选择通过读书来学习Claude Code（这是一种编程语言），不过在日本似乎真的有人这么做。"
         }
       ],
       "bio_zh": "AI 领域投资人和内容创作者，follow-builders 项目发起人",
@@ -385,7 +385,7 @@
           "replies": 6,
           "isQuote": false,
           "quotedTweetId": null,
-          "summary_zh": "如果你认为生活中没有人欠你什么，事情会变得简单得多。很多人一直在玩有限的游戏（就像在争夺名次），其实有很多无限的游戏（可以不断发展的机会）可以去参与。做好事，生活和因果法则（因果关系）会自然而然带来回报。"
+          "summary_zh": "生活其实很简单，关键是要明白没有人欠你什么。很多人只想着短期内的利益，但其实还有很多无尽的可能性等着我们去探索。对人好，生活和因果（即我们的行为会得到相应的回报）自然会照顾好你。"
         }
       ],
       "bio_zh": "Meta/前 Facebook AI 产品负责人",
@@ -407,7 +407,7 @@
           "replies": 196,
           "isQuote": false,
           "quotedTweetId": null,
-          "summary_zh": "苹果公司给了我们512GB内存的工作室支持，感觉真不错！ 🦞（512GB内存意味着可以处理很多数据，工作更高效）"
+          "summary_zh": "听说有个工作室的电脑配备了512GB的内存，这可真是牛啊！苹果公司对他们挺不错的呢。🦞"
         },
         {
           "id": "2089804281331548280",
@@ -419,7 +419,7 @@
           "replies": 23,
           "isQuote": true,
           "quotedTweetId": "2089592149385822686",
-          "summary_zh": "嘿，别惊动那些喜欢命令行（cli）的人，他们会告诉你为什么这个方法行不通。我之前也是这么想的，但后来我改变了看法。"
+          "summary_zh": "有人会跳出来告诉你为什么这个想法行不通，尤其是那些喜欢命令行工具（cli，指通过输入命令来操作的软件的人）。我之前也是这样想的，但后来我改变了看法。"
         },
         {
           "id": "2089801681014043122",
@@ -431,7 +431,7 @@
           "replies": 21,
           "isQuote": true,
           "quotedTweetId": "2089777725385109784",
-          "summary_zh": "这条推文提到了一些有趣的矛盾或讽刺的事情，可能是在谈论 AI 相关的内容，链接里可能有更详细的信息。感觉他在用幽默的方式提醒大家对 AI 现状的一些思考。"
+          "summary_zh": "这条推文提到了一种有趣的讽刺（反转的幽默），虽然具体内容在链接里，但可能是与AI相关的话题，带有一些意想不到的对比或惊喜。感觉像是在调侃行业里的某种现象，挺有意思的！"
         }
       ],
       "bio_zh": "前 PSPDFKit 创始人，现专注 AI 开发工具和工作流优化",
@@ -453,7 +453,7 @@
           "replies": 2,
           "isQuote": true,
           "quotedTweetId": "2089353508118319471",
-          "summary_zh": "如果在冥想的时候鼻子完全通了，说明我真的进入了更深层次的状态。这是有道理的。"
+          "summary_zh": "在冥想时，如果感觉鼻子完全通畅，就说明自己进入了更深的境界。他分享了一个链接，提到了这个体验。"
         },
         {
           "id": "2089788656445734922",
@@ -465,7 +465,7 @@
           "replies": 3,
           "isQuote": true,
           "quotedTweetId": "2089778289648812509",
-          "summary_zh": "他请一个朋友分享关于自动化后未来工作的看法，朋友只用一个词回答：“tibo”。这个词的意思可能需要根据上下文来理解，听起来像是在争取某种新变化或创新的意思。"
+          "summary_zh": "我们请 @ajambrosino 分享他对自动化之后工作未来的看法，他只回复了一个词：“tibo”。这听起来像是他觉得未来的工作会有个新趋势或新的名字。"
         }
       ],
       "bio_zh": "Every 联合创始人，AI 写作和知识管理领域的深度实践者",
@@ -487,7 +487,7 @@
           "replies": 19,
           "isQuote": false,
           "quotedTweetId": null,
-          "summary_zh": "今天我和人谈到 Travis，我突然觉得他真是个了不起的人。没有其他人能像他那样有毅力，帮助我在世界各地的城市中顺利前行。硅谷没有其他人能像他那样勇敢，他就是这样的人。谢谢他！"
+          "summary_zh": "今天跟某人聊到@travisk，我突然意识到，世上没有其他人能像他那样有韧性，确保我能在几乎每个全球城市之间顺利移动。在硅谷里，没有人敢这样做，他做到了。谢谢你！"
         }
       ],
       "bio_zh": "South Park Commons 创始人，前 Facebook 工程副总裁",
@@ -509,7 +509,7 @@
           "replies": 196,
           "isQuote": false,
           "quotedTweetId": null,
-          "summary_zh": "我们很快会发布一些很棒的新模型，不过这可能会影响到之后的发布时间。"
+          "summary_zh": "很快会推出一些很棒的新模型，但这可能会影响到后续产品的发布计划。"
         },
         {
           "id": "2089787807611195475",
@@ -521,7 +521,7 @@
           "replies": 1303,
           "isQuote": false,
           "quotedTweetId": null,
-          "summary_zh": "我们暂停了一些先进的强化学习训练，以确保新技术的安全性和监控标准能够跟上。我们非常重视人工智能的安全，未来希望大家能在安全标准上共同协作，但在此之前，我们会先行行动。总之，安全是推动人工智能进步的重要因素，我们对目前的工作感到乐观。"
+          "summary_zh": "我们暂时停止了一些高级强化学习（RL，关注如何通过试错来优化决策）训练，确保能满足新的安全和监控标准。因为模型的发展速度非常快，我们一定会在觉得安全跟不上技术进步时采取措施。我们很关心人工智能的安全，希望行业能共同制定安全标准，但在此之前，我们会单独采取行动。总的来说，我们对我们的安全工作充满信心，并且致力于让先进技术更广泛可用。"
         },
         {
           "id": "2089758522678657212",
@@ -533,7 +533,7 @@
           "replies": 277,
           "isQuote": true,
           "quotedTweetId": "2089331487342829862",
-          "summary_zh": "听起来Sam Altman很兴奋要和某个叫Jensen的人一起合作呢！他还对对方表示了感谢。总之，就是在为即将到来的合作感到期待！"
+          "summary_zh": "很高兴能和Jensen一起合作！谢谢你！"
         }
       ],
       "bio_zh": "OpenAI CEO，Y Combinator 前总裁，硅谷最有影响力的 AI 推动者之一",
@@ -555,7 +555,7 @@
           "replies": 373,
           "isQuote": false,
           "quotedTweetId": null,
-          "summary_zh": "Claude 现在可以在 Gmail 里发送邮件，还能管理 Google Drive（谷歌云盘）里的文件。你只需要让 Claude 回复某个邮件主题，它会帮你草拟并发送回复，你随时可以决定是否要确认。想试试的话，可以在连接菜单里把 Gmail 或 Google Drive 连接上，这个功能对所有付费用户开放哦！"
+          "summary_zh": "Claude 现在可以帮你在 Gmail 发邮件和管理 Google Drive 的文件了。你只需让 Claude 回复邮件，它会草拟并发送回复，当然你能随时审查。现在所有付费用户都可以试试这个功能！"
         },
         {
           "id": "2089756371570900999",
@@ -567,7 +567,7 @@
           "replies": 410,
           "isQuote": true,
           "quotedTweetId": "2074525815820169320",
-          "summary_zh": "Claude Cowork 现在可以在手机和网页上使用，所有付费用户都能享受这个新功能了！"
+          "summary_zh": "Claude Cowork 现在可以在手机和电脑上使用了，只要你订阅了付费计划！"
         }
       ],
       "bio_zh": "Anthropic 旗下 AI 助手 Claude 的官方账号",
@@ -4773,6 +4773,56 @@
   "podcasts": [
     {
       "name": "Matt Wolfe",
+      "title": "Khabib on Sheikh Hamdan and Dubai: UAE has become a second home for us | Khabib Nurmagomedov",
+      "videoId": "ZE265IfPPAc",
+      "url": "https://youtube.com/watch?v=ZE265IfPPAc",
+      "publishedAt": "2026-08-19T16:00:30+00:00",
+      "isShort": false,
+      "fetchDate": "2026-08-19",
+      "summary_zh": "视频中，Khabib Nurmagomedov 谈到了他与沙特阿拉伯王子哈姆丹的关系以及阿联酋作为他第二家园的感受。他分享了对阿联酋文化的理解，以及这片土地对他职业生涯和生活方式的影响，表达了对这个国家的深厚情感和归属感。\n\n💡 值得一看 — Khabib 的故事展现了品牌营销和文化认同在创业中的重要性，能够激发对创意设计与市场运作的思考。"
+    },
+    {
+      "name": "Data Driven NYC",
+      "title": "AI Is Starting to Speak a Language We Can't Read #ai #startup",
+      "videoId": "8x-gvkwGJhQ",
+      "url": "https://youtube.com/watch?v=8x-gvkwGJhQ",
+      "publishedAt": "2026-08-19T16:00:26+00:00",
+      "isShort": false,
+      "fetchDate": "2026-08-19",
+      "summary_zh": "这个视频探讨了人工智能如何逐渐发展出人类难以理解的“语言”，并且可能会对创业和科技行业产生深远影响。讲者强调了这种趋势对于企业和产品开发的潜在影响，以及如何应对这一变化。\n\n🎯 推荐 Yves 观看 — 这个内容与 Logic Labs 的 AI 产品开发及 TexTale 在电商中的创新应用密切相关，能够帮助你了解行业前沿动态。"
+    },
+    {
+      "name": "Tiago Forte",
+      "title": "Claude Connectors Deep Dive: 3 Demos (Calendar, Readwise, Notion and More)",
+      "videoId": "4yQw6N-lLPA",
+      "url": "https://youtube.com/watch?v=4yQw6N-lLPA",
+      "publishedAt": "2026-08-19T16:00:26+00:00",
+      "isShort": false,
+      "fetchDate": "2026-08-19",
+      "summary_zh": "视频主要探讨了Claude Connectors的功能，展示了如何将其与日历、Readwise和Notion等工具集成。通过三个演示，观众可以了解到Claude如何帮助提升工作效率和信息管理。\n\n🎯 推荐 Yves 观看 — 这个视频可以帮助你更好地利用AI工具来优化Logic Labs和TexTale的运营效率，尤其是在创意设计及信息整理方面。"
+    },
+    {
+      "name": "No Priors",
+      "title": "The Model that Taught Itself Antibodies",
+      "videoId": "yK682jTa7Dc",
+      "url": "https://youtube.com/watch?v=yK682jTa7Dc",
+      "publishedAt": "2026-08-19T15:25:17+00:00",
+      "isShort": false,
+      "fetchDate": "2026-08-19",
+      "summary_zh": "这个视频讨论了一种能够自我学习抗体的模型，这个模型通过模拟免疫系统的工作原理，展示了如何利用机器学习来发现和优化抗体。这一创新方法不仅在医学研究中具有重要意义，也为 AI 在生物领域的应用打开了新的可能性。\n\n💡 值得一看 — 这个视频探讨了 AI 在生物科学中的前沿应用，虽然与创意设计不直接相关，但作为 AI 的新兴应用领域，可能会给逻辑实验室和 TexTale 的未来创新带来启发。"
+    },
+    {
+      "name": "Every Inc",
+      "title": "$4M in 4 Weeks: How This AI Alien Companion App Took Off (Best of the Pod)",
+      "videoId": "ngTS4gUINVk",
+      "url": "https://youtube.com/watch?v=ngTS4gUINVk",
+      "publishedAt": "2026-08-19T15:16:10+00:00",
+      "isShort": false,
+      "fetchDate": "2026-08-19",
+      "summary_zh": "这个视频讲述了一款名为“AI外星伴侣”的应用如何在短短四周内获得400万美元的创收。通过分析其成功要素，视频探讨了在产品开发、市场营销和用户体验方面的创新。\n\n🎯 推荐 Yves 观看 — 这段内容能为你在 Logic Labs 和 TexTale 的创意设计中提供启发，尤其在如何利用 AI 工具提升用户体验和市场反应速度上。"
+    },
+    {
+      "name": "Matt Wolfe",
       "title": "Hard training in Dagestan: Comfort is the enemy of a champion | Khabib Nurmagomedov and Lex Fridman",
       "videoId": "lIvobGWbk6M",
       "url": "https://youtube.com/watch?v=lIvobGWbk6M",
@@ -5320,56 +5370,6 @@
       "isShort": false,
       "fetchDate": "2026-08-14",
       "summary_zh": "这个视频探讨了对待人工智能模型的方式，强调了将其视为人类的必要性，尤其是在处理情感和社会互动时。通过这个视角，视频鼓励观众思考如何在设计和使用AI时更加人性化，以提升用户体验和信任。\n\n🎯 推荐 Yves 观看 — 这个讨论与 Logic Labs 在AI工具开发中对人机关系的重视，以及 TexTale 在科技服装电商中的用户体验优化密切相关。"
-    },
-    {
-      "name": "Lenny's Podcast",
-      "title": "Why companies need to change how they think about hiring",
-      "videoId": "wM63YhjdQ9c",
-      "url": "https://youtube.com/watch?v=wM63YhjdQ9c",
-      "publishedAt": "2026-08-14T11:00:11+00:00",
-      "isShort": false,
-      "fetchDate": "2026-08-14",
-      "summary_zh": "这个视频讨论了企业在招聘时需要改变思维方式，强调了传统招聘方法的局限性以及如何通过更新策略吸引和留住更优秀的人才。主持人与嘉宾分享了他们在招聘过程中观察到的趋势和成功案例，建议公司应关注候选人的潜力而非单一经验。\n\n💡 值得一看 — 这个话题与关于人才招聘的创新思维相关，对 Logic Labs 和 TexTale 的发展及团队建设会有启发。"
-    },
-    {
-      "name": "Every Inc",
-      "title": "Process vs. Outcome: The Real Debate With Microsoft CTO",
-      "videoId": "2eWHVSZTkRY",
-      "url": "https://youtube.com/watch?v=2eWHVSZTkRY",
-      "publishedAt": "2026-08-14T04:00:17+00:00",
-      "isShort": false,
-      "fetchDate": "2026-08-14",
-      "summary_zh": "这段视频探讨了过程与结果之间的真正辩论，特别聚焦于在科技公司中如何平衡创新的过程与最终成果。微软首席技术官分享了他对产品开发和团队协作的看法，强调了在追求结果的同时，关注创造性的过程同样重要。\n\n🎯 推荐 Yves 观看 — 这个话题与 Logic Labs 和 TexTale 的产品开发密切相关，有助于理解如何在创意设计中取得成功。"
-    },
-    {
-      "name": "TBPN",
-      "title": "North Korea’s Secret US Workforce, Canceling the SaaSpocalypse, MSL’s Latest Exits | Diet TBPN",
-      "videoId": "aZN8Jy0akYg",
-      "url": "https://youtube.com/watch?v=aZN8Jy0akYg",
-      "publishedAt": "2026-08-14T02:24:31+00:00",
-      "isShort": false,
-      "fetchDate": "2026-08-14",
-      "summary_zh": "这个视频探讨了朝鲜如何在美国找工作机会，涉及一些关于SaaS行业未来的看法，并讨论了MSL公司的最新动态。在内容中，分析了职场的变化和一些企业的退出，为观众提供了对当前行业动向的深刻见解。\n\n💡 值得一看 — 这个视频虽然不是专直接涉及AI或创意设计，但其中关于SaaS行业的趋势和职场动态，可能对Yves在Logic Labs和TexTale的相关决策有所启发。"
-    },
-    {
-      "name": "Matt Wolfe",
-      "title": "Why Khabib beat up Lex in training",
-      "videoId": "8zdtEaFLcSk",
-      "url": "https://youtube.com/watch?v=8zdtEaFLcSk",
-      "publishedAt": "2026-08-14T00:41:48+00:00",
-      "isShort": false,
-      "fetchDate": "2026-08-14",
-      "summary_zh": "视频讲述了前综合格斗选手哈比布·努尔马哥美德夫与知名科技评论员莱克斯在训练中发生冲突的原因。这场冲突揭示了两人性格的对比及其在训练中的不同风格，尤其是哈比布在教学与指导中的严格性。\n\n💡 值得一看 — 这个视频虽然主要聚焦于体育，但可以从中观察到如何在团队中进行有效的指导与反馈，这对创意设计和团队合作同样适用。"
-    },
-    {
-      "name": "Lenny's Podcast",
-      "title": "\"If you build a great product and no one knows about it, did you even build a product?\"",
-      "videoId": "oBKLB45mM5A",
-      "url": "https://youtube.com/watch?v=oBKLB45mM5A",
-      "publishedAt": "2026-08-13T21:30:13+00:00",
-      "isShort": false,
-      "fetchDate": "2026-08-13",
-      "summary_zh": "这个视频探讨了在创建优秀产品时，市场推广和品牌知名度的重要性。尽管一个产品可能功能卓越，但如果没有适当的宣传和用户引流，就算它再好也难以成功。\n\n🎯 推荐 Yves 观看 — 这个话题与 Logic Labs 的产品开发和 TexTale 的品牌营销战略密切相关，能为你提供关于如何提高产品可见性的宝贵见解。"
     }
   ],
   "producthunt": [
@@ -5378,7 +5378,7 @@
       "name": "Fuzzy AI",
       "tagline": "We warm your prospects before reaching out",
       "url": "https://www.producthunt.com/products/fuzzy-ai-2/launches/fuzzy-ai-2?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Breakfeed+%28ID%3A+279433%29",
-      "votes": 648,
+      "votes": 646,
       "comments": 108,
       "topics": [
         "Sales",
@@ -5396,7 +5396,7 @@
       "name": "Prelint",
       "tagline": "Prevent product drift in AI-written code",
       "url": "https://www.producthunt.com/products/prelint/launches/prelint?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Breakfeed+%28ID%3A+279433%29",
-      "votes": 626,
+      "votes": 625,
       "comments": 135,
       "topics": [
         "Software Engineering",
@@ -5412,7 +5412,7 @@
       "name": "SKI",
       "tagline": "Free voice coding for Claude Code, Codex and more",
       "url": "https://www.producthunt.com/products/ski/launches/ski?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Breakfeed+%28ID%3A+279433%29",
-      "votes": 610,
+      "votes": 608,
       "comments": 317,
       "topics": [
         "Productivity",
@@ -5428,7 +5428,7 @@
       "name": "AdAnt AI",
       "tagline": "Claude for viral, high-converting social ads",
       "url": "https://www.producthunt.com/products/adant-ai/launches/adant-ai?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Breakfeed+%28ID%3A+279433%29",
-      "votes": 609,
+      "votes": 608,
       "comments": 88,
       "topics": [
         "Advertising",
@@ -5444,7 +5444,7 @@
       "name": "Prefactor",
       "tagline": "Evaluate your AI Agents in real-time",
       "url": "https://www.producthunt.com/products/prefactor/launches/prefactor?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Breakfeed+%28ID%3A+279433%29",
-      "votes": 608,
+      "votes": 607,
       "comments": 195,
       "topics": [
         "SaaS",
@@ -5460,7 +5460,7 @@
       "name": "Hey Noah",
       "tagline": "A proactive AI executive assistant for founders",
       "url": "https://www.producthunt.com/products/hey-noah/launches/hey-noah?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Breakfeed+%28ID%3A+279433%29",
-      "votes": 604,
+      "votes": 600,
       "comments": 101,
       "topics": [
         "Productivity",
@@ -5476,7 +5476,7 @@
       "name": "Wispr Flow Notetaker",
       "tagline": "Meeting notes that get the details right.",
       "url": "https://www.producthunt.com/products/wisprflow/launches/wispr-flow-notetaker?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Breakfeed+%28ID%3A+279433%29",
-      "votes": 584,
+      "votes": 583,
       "comments": 73,
       "topics": [
         "Notes",
@@ -5525,7 +5525,7 @@
       "name": "Memmy Agent",
       "tagline": "Let every AI remember the same you.",
       "url": "https://www.producthunt.com/products/memmy/launches/memmy-agent?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Breakfeed+%28ID%3A+279433%29",
-      "votes": 549,
+      "votes": 548,
       "comments": 214,
       "topics": [
         "Productivity",
@@ -5541,7 +5541,7 @@
       "name": "Adomate",
       "tagline": "Turn data into winning ads. At scale.",
       "url": "https://www.producthunt.com/products/adomate/launches/adomate?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Breakfeed+%28ID%3A+279433%29",
-      "votes": 539,
+      "votes": 537,
       "comments": 109,
       "topics": [
         "Design Tools",
@@ -5573,7 +5573,7 @@
       "name": "Grok Bot",
       "tagline": "AI teammates that you can give real work to",
       "url": "https://www.producthunt.com/products/grok?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Breakfeed+%28ID%3A+279433%29",
-      "votes": 518,
+      "votes": 519,
       "comments": 23,
       "topics": [
         "Productivity",
@@ -5602,19 +5602,19 @@
     },
     {
       "rank": 15,
-      "name": "Humalike x Hermes",
-      "tagline": "Social intelligence plugin for Hermes Agent",
-      "url": "https://www.producthunt.com/products/humalike-2/launches/humalike-x-hermes?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Breakfeed+%28ID%3A+279433%29",
-      "votes": 483,
-      "comments": 93,
+      "name": "Soloop",
+      "tagline": "Approval-first Agent OS for solo founders",
+      "url": "https://www.producthunt.com/products/soloop?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Breakfeed+%28ID%3A+279433%29",
+      "votes": 484,
+      "comments": 67,
       "topics": [
-        "API",
-        "Developer Tools",
-        "Artificial Intelligence"
+        "Productivity",
+        "Artificial Intelligence",
+        "Maker Tools"
       ],
-      "thumbnail": "https://ph-files.imgix.net/f99fe9c9-c6a2-497a-b662-fc757f179a17.gif?auto=format",
-      "screenshot": "https://ph-files.imgix.net/2e1752a9-79f2-478f-b854-680a99398217.jpeg?auto=format",
-      "summary_zh": "Humalike x Hermes 是一个社交智能插件，专为 Hermes 智能助手设计。它能实时分析用户的社交行为和偏好，从而提供个性化的建议和信息，提升用户的互动体验。这个插件让 Hermes 更懂你，让沟通更顺畅。"
+      "thumbnail": "https://ph-files.imgix.net/206a6062-9874-4dfc-9dbb-87366bd3d63b.svg?auto=format",
+      "screenshot": "https://ph-files.imgix.net/a0447098-b73c-4c40-8ffa-e82c06a61145.png?auto=format",
+      "summary_zh": "Soloop是一款专为独立创始人打造的操作系统，旨在帮助他们高效管理项目和获取审批。这个平台集中整合了任务管理、进度追踪和团队协作功能，使得创始人能够在早期阶段快速推进业务。通过简单明了的界面，用户可以轻松掌控各项工作进展。"
     }
   ],
   "github_trending": [
@@ -5622,97 +5622,97 @@
       "repo": "harry0703/MoneyPrinterTurbo",
       "description": "利用 AI 大模型和自动化工作流，根据主题或关键词一键生成高清短视频。Generate HD short videos from a topic or keyword with an automated AI workflow.",
       "language": "Python",
-      "stars": 109518,
-      "starsToday": 2304,
+      "stars": 110094,
+      "starsToday": 2221,
       "url": "https://github.com/harry0703/MoneyPrinterTurbo",
       "summary_zh": "这个项目可以帮助用户通过输入主题或关键词，快速生成高清短视频，省去了繁琐的视频制作流程。对于Yves来说，这个工具可以在TexTale的品牌营销中用于快速创作宣传视频，也能为Logic Labs的AI产品开发提供创意灵感和示范，助力创意设计的实现。"
-    },
-    {
-      "repo": "chaitanyagiri/munder-difflin",
-      "description": "local multi-agent harness",
-      "language": "TypeScript",
-      "stars": 2385,
-      "starsToday": 306,
-      "url": "https://github.com/chaitanyagiri/munder-difflin",
-      "summary_zh": "这个项目是一个本地的多智能体框架，允许开发者创建和管理多个“智能代理”，这些代理可以在一起协作执行任务。对Yves来说，这个项目可以帮助Logic Labs在AI领域进行更复杂的智能体协作实验，进而推动创新设计。与此同时，也可以为TexTale提供灵活的智能化解决方案，提升电商运营效率。"
-    },
-    {
-      "repo": "akitaonrails/ai-memory",
-      "description": "Solution for long term memory for agent coding CLIs and to facilitate handoff between different agent vendors",
-      "language": "Rust",
-      "stars": 3003,
-      "starsToday": 648,
-      "url": "https://github.com/akitaonrails/ai-memory",
-      "summary_zh": "这个项目提供了一种解决方案，可以让智能代理（例如聊天机器人）更好地记住用户的长期信息，并支持不同代理之间的交接。这对于需要个性化服务与持续用户互动的业务非常有帮助。\n\n对于Yves的Logic Labs（AI公司），这个项目能够提升AI模型在与用户互动中的记忆能力，从而增强用户体验与满意度；同时，对TexTale（科技服装电商）也有帮助，可以通过更深入的客户洞察来改善品牌营销策略。作为创意设计从业者，Yves可以利用这样的技术来探索如何将AI融入到设计过程，提升创作灵感与效率。"
     },
     {
       "repo": "volcengine/OpenViking",
       "description": "Self-evolving Context Database for AI Agents. Unify Agent Memory, Knowledge RAG and Skills.",
       "language": "Python",
-      "stars": 29772,
-      "starsToday": 213,
+      "stars": 29976,
+      "starsToday": 803,
       "url": "https://github.com/volcengine/OpenViking",
       "summary_zh": "这个项目是一个自我进化的上下文数据库，旨在帮助人工智能代理更有效地存储和管理信息、知识以及技能。对于Yves来说，这个项目可以帮助Logic Labs提升AI的智能化水平，从而提升其产品和服务的创新能力，也能为TexTale的电商运营提供更精准的用户洞察和个性化推荐。作为创意设计从业者，Yves可以利用该项目的技术支持，开发出更具创意和个性化的设计方案。"
+    },
+    {
+      "repo": "chaitanyagiri/munder-difflin",
+      "description": "local multi-agent harness",
+      "language": "TypeScript",
+      "stars": 2556,
+      "starsToday": 797,
+      "url": "https://github.com/chaitanyagiri/munder-difflin",
+      "summary_zh": "这个项目是一个本地的多智能体框架，允许开发者创建和管理多个“智能代理”，这些代理可以在一起协作执行任务。对Yves来说，这个项目可以帮助Logic Labs在AI领域进行更复杂的智能体协作实验，进而推动创新设计。与此同时，也可以为TexTale提供灵活的智能化解决方案，提升电商运营效率。"
     },
     {
       "repo": "mukul975/Anthropic-Cybersecurity-Skills",
       "description": "817 structured cybersecurity skills for AI agents · Mapped to 6 frameworks: MITRE ATT&CK, NIST CSF 2.0, MITRE ATLAS, D3FEND, NIST AI RMF & MITRE F3 (Fight Fraud) · agentskills.io standard · Works with Claude Code, GitHub Copilot, Codex CLI, Cursor, Gemini CLI & 20+ platforms · 29 security domains · Apache 2.0",
       "language": "Python",
-      "stars": 29487,
-      "starsToday": 730,
+      "stars": 29654,
+      "starsToday": 767,
       "url": "https://github.com/mukul975/Anthropic-Cybersecurity-Skills",
       "summary_zh": "这个项目提供了817种结构化的网络安全技能，专门为AI代理设计，并将这些技能与多个安全框架进行了映射，帮助AI更好地识别和应对网络安全风险。对Yves来说，这个项目对于Logic Labs（AI公司）特别有帮助，可以提升其AI产品在安全领域的能力，同时也能为TexTale（科技服装电商）提供有关保护客户数据和在线交易的安全策略。作为创意设计从业者，了解这些安全技能也能提升他在技术和创意结合方面的视野。"
     },
     {
-      "repo": "public-apis/public-apis",
-      "description": "A collective list of free APIs",
-      "language": "Python",
-      "stars": 465248,
-      "starsToday": 1005,
-      "url": "https://github.com/public-apis/public-apis",
-      "summary_zh": "这个项目是一个免费的 API 集合，方便开发者查找和使用各种公共接口，以便在他们的应用中集成不同的服务和数据。对 Yves 来说，这个项目能够帮助 Logic Labs 在开发 AI 工具时快速获取外部数据源，同时也可以为 TexTale 提供丰富的 API 选择，用于提升电商平台的用户体验和功能。作为创意设计从业者，他可以利用这些 API 整合不同的数据和服务，激发更多创意设计灵感。"
-    },
-    {
-      "repo": "basecamp/omarchy",
-      "description": "Beautiful, Modern & Opinionated Linux",
-      "language": "Shell",
-      "stars": 26617,
-      "starsToday": 356,
-      "url": "https://github.com/basecamp/omarchy",
-      "summary_zh": "这个项目是一个美观、现代且富有个性化的Linux操作系统，旨在提供更好的用户体验，特别是在视觉和使用上。对于Yves来说，这个项目可以帮助TexTale提升科技服装电商平台的用户体验设计，也可以激发他在Logic Labs的创意灵感，尤其是在利用AI进行界面设计和用户交互方面。"
-    },
-    {
-      "repo": "agalwood/Motrix",
-      "description": "A full-featured download manager.",
-      "language": "TypeScript",
-      "stars": 53934,
+      "repo": "akitaonrails/ai-memory",
+      "description": "Solution for long term memory for agent coding CLIs and to facilitate handoff between different agent vendors",
+      "language": "Rust",
+      "stars": 3141,
       "starsToday": 609,
-      "url": "https://github.com/agalwood/Motrix",
-      "summary_zh": "这个项目是一个功能齐全的下载管理器，可以帮助用户更高效地下载文件，包括视频、音乐和文档等。对Yves来说，这个工具对于TexTale（科技服装电商）的运营非常有帮助，因为它可以加速产品素材的下载，提高工作效率，同时也有助于管理和存储创意设计资源。作为创意设计从业者，Motrix 也能简化素材获取的流程，使他能够更专注于创作和设计。"
+      "url": "https://github.com/akitaonrails/ai-memory",
+      "summary_zh": "这个项目提供了一种解决方案，可以让智能代理（例如聊天机器人）更好地记住用户的长期信息，并支持不同代理之间的交接。这对于需要个性化服务与持续用户互动的业务非常有帮助。\n\n对于Yves的Logic Labs（AI公司），这个项目能够提升AI模型在与用户互动中的记忆能力，从而增强用户体验与满意度；同时，对TexTale（科技服装电商）也有帮助，可以通过更深入的客户洞察来改善品牌营销策略。作为创意设计从业者，Yves可以利用这样的技术来探索如何将AI融入到设计过程，提升创作灵感与效率。"
     },
     {
-      "repo": "NawfalMotii79/PLFM_RADAR",
-      "description": "Open-source, low-cost 10.5 GHz PLFM phased array RADAR system",
-      "language": "PLSQL",
-      "stars": 24473,
-      "starsToday": 192,
-      "url": "https://github.com/NawfalMotii79/PLFM_RADAR",
-      "summary_zh": "这个项目是一个开源的低成本10.5 GHz相控阵雷达系统，旨在为用户提供一种便宜且易用的雷达技术。对于Yves来说，这个项目可能对Logic Labs（AI公司）更有帮助，因为它可以用于开发与雷达数据相关的AI应用，推动创新和研究，同时也能激发创意设计的新思路。"
+      "repo": "nautechsystems/nautilus_trader",
+      "description": "Production-grade Rust-native trading engine with deterministic event-driven architecture",
+      "language": "Rust",
+      "stars": 26326,
+      "starsToday": 79,
+      "url": "https://github.com/nautechsystems/nautilus_trader",
+      "summary_zh": "这个项目是一个高性能的交易引擎，使用 Rust 语言开发，旨在实现高效、可预测的交易操作，适合用于金融市场的自动化交易。对于 Yves 来说，虽然直接与 TexTale 的电商业务关联不大，但可以为 Logic Labs 提供关于算法交易和数据处理的灵感，帮助他在创意设计过程中更好地运用 AI 技术和数据分析。"
+    },
+    {
+      "repo": "mattpocock/skills",
+      "description": "Skills for Real Engineers. Straight from my .agents directory.",
+      "language": "Shell",
+      "stars": 223218,
+      "starsToday": 1214,
+      "url": "https://github.com/mattpocock/skills",
+      "summary_zh": "这个项目提供了一些实用的技能和工具，主要是针对工程师在技术开发和解决问题时的需求，适用于各种编程和开发场景。对于Yves来说，这个项目可以帮助Logic Labs（AI公司）提升团队在工程和技术开发方面的能力，同时也可为TexTale（科技服装电商）在技术实现和电商平台的优化提供支持，助力其品牌营销和用户体验的提升。"
+    },
+    {
+      "repo": "obra/superpowers",
+      "description": "An agentic skills framework & software development methodology that works.",
+      "language": "Shell",
+      "stars": 274085,
+      "starsToday": 514,
+      "url": "https://github.com/obra/superpowers",
+      "summary_zh": "这个项目提供了一种有效的技能框架和软件开发方法论，旨在提升团队的工作效率和协作能力。对Yves来说，这个项目可以帮助Logic Labs在AI项目开发中优化流程，同时也能为TexTale在技术与创意的结合中提供新的思路和工具，提高电商平台的创新能力。作为创意设计从业者，他能够通过这个框架更好地组织和实现创意想法。"
     },
     {
       "repo": "jundot/omlx",
       "description": "LLM inference server with continuous batching & SSD caching for Apple Silicon — managed from the macOS menu bar",
       "language": "Python",
-      "stars": 19614,
-      "starsToday": 370,
+      "stars": 19731,
+      "starsToday": 467,
       "url": "https://github.com/jundot/omlx",
       "summary_zh": "这个项目是一个为苹果硅芯片优化的大型语言模型推理服务器，能够高效处理大量数据并提供快速响应，同时可以通过 macOS 菜单栏进行管理。对Yves的Logic Labs（AI公司）特别有帮助，因为它能够提升AI模型的运行效率，帮助团队更快地进行创意设计和产品开发，同时也可以为TexTale的电商平台提供更智能的客户服务和个性化推荐。作为创意设计从业者，这个工具可以加速创意生成和设计方案的验证，提高工作效率。"
+    },
+    {
+      "repo": "santifer/career-ops",
+      "description": "Open-source AI job search: scan job portals, evaluate listings with a structured A-F rubric into a 1.0-5.0 score, tailor your CV, track applications — runs locally in your AI coding CLI (Claude Code, Codex, OpenCode, Antigravity…)",
+      "language": "JavaScript",
+      "stars": 65556,
+      "starsToday": 193,
+      "url": "https://github.com/santifer/career-ops",
+      "summary_zh": "这个项目是一个开源的求职助手，能够扫描招聘网站，按照评分标准对职位进行评估，帮助用户量身定制简历并跟踪申请进度，所有操作都可以在本地的AI编程界面中完成。对Yves的Logic Labs（AI公司）会很有帮助，因为它可以提升团队成员的求职效率和招聘质量，助力公司招募到更合适的AI人才。同时，也能为他作为创意设计从业者提供一些实用的求职工具，帮助他或团队成员更好地展示和推广个人能力。"
     }
   ],
   "aigc_rankings": {
     "image": [],
     "video": [],
-    "fetchedAt": "2026-08-19T10:22:56.733415+00:00",
+    "fetchedAt": "2026-08-19T16:24:17.555988+00:00",
     "sources": [
       "Artificial Analysis",
       "LM Arena",
