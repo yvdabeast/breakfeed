@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-30T19:02:25.488064+00:00",
+  "generatedAt": "2026-08-31T00:09:14.078697+00:00",
   "twitter": [
     {
       "source": "x",
@@ -44,7 +44,7 @@
           "summary_zh": "明天下午2:30（太平洋时间）将有重要的活动或发布。可以关注一下！"
         }
       ],
-      "fetchDate": "2026-08-30"
+      "fetchDate": "2026-08-31"
     },
     {
       "source": "x",
@@ -90,7 +90,7 @@
         }
       ],
       "bio_zh": "Roblox 产品经理，14 万订阅的 AI 实操教程作者",
-      "fetchDate": "2026-08-30"
+      "fetchDate": "2026-08-31"
     },
     {
       "source": "x",
@@ -112,7 +112,7 @@
         }
       ],
       "bio_zh": "AI 产品经理和创业者，关注 AI 产品化落地",
-      "fetchDate": "2026-08-30"
+      "fetchDate": "2026-08-31"
     },
     {
       "source": "x",
@@ -146,7 +146,7 @@
         }
       ],
       "bio_zh": "Vercel CEO，Next.js 创造者，v0 AI 代码生成工具的幕后推手",
-      "fetchDate": "2026-08-30"
+      "fetchDate": "2026-08-31"
     },
     {
       "source": "x",
@@ -168,7 +168,7 @@
         }
       ],
       "bio_zh": "FirstMark Capital 合伙人，每年发布最权威的 AI/大数据行业全景图",
-      "fetchDate": "2026-08-30"
+      "fetchDate": "2026-08-31"
     },
     {
       "source": "x",
@@ -214,7 +214,7 @@
         }
       ],
       "bio_zh": "AI 领域投资人和内容创作者，follow-builders 项目发起人",
-      "fetchDate": "2026-08-30"
+      "fetchDate": "2026-08-31"
     },
     {
       "source": "x",
@@ -260,7 +260,7 @@
         }
       ],
       "bio_zh": "Meta/前 Facebook AI 产品负责人",
-      "fetchDate": "2026-08-30"
+      "fetchDate": "2026-08-31"
     },
     {
       "source": "x",
@@ -294,7 +294,7 @@
         }
       ],
       "bio_zh": "Every 联合创始人，AI 写作和知识管理领域的深度实践者",
-      "fetchDate": "2026-08-30"
+      "fetchDate": "2026-08-31"
     }
   ],
   "twitter_history": [
@@ -3508,331 +3508,19 @@
           "fetchDate": "2026-08-24"
         }
       ]
-    },
-    {
-      "date": "2026-08-23",
-      "builders": [
-        {
-          "source": "x",
-          "name": "Thibault Sottiaux",
-          "handle": "thsottiaux",
-          "bio": "Codex & ChatGPT @OpenAI",
-          "tweets": [
-            {
-              "id": "2091407991736332689",
-              "text": "Update on rate limits in Codex. \n\nWe’ve found (a) some inefficiencies when using images in long sessions with multiple compactions (b) high p95+ usage for Computer History (c) a feature that was meant to generate conversation titles that was draining a bit more usage than intended. And we have a tiger team combing through everything and shipping fixes tomorrow. We also found a novel approach to drive efficiency up significantly that is completely unrelated and we will be working on next week.\n\nAs part of some of the fixes tomorrow, we will also do a full reset of the usage for all paid subscriptions.\n\nSee you then.",
-              "createdAt": "2026-08-23T06:11:36.000Z",
-              "url": "https://x.com/thsottiaux/status/2091407991736332689",
-              "likes": 1382,
-              "retweets": 113,
-              "replies": 248,
-              "isQuote": true,
-              "quotedTweetId": "2091033630147854385",
-              "summary_zh": "关于Codex的一些更新！我们发现，在长时间使用图像时有点不顺畅，计算机历史功能使用量也很高，还有一个本该生成对话标题的功能用得有点过头。现在有个特别小组在处理这些问题，明天就会发布修复方案。我们还找到了一种新的方法，可以大幅提升效率，计划下周开始着手。明天发布修复后，所有付费订阅的使用量会重置哦，敬请期待！"
-            }
-          ],
-          "fetchDate": "2026-08-23"
-        },
-        {
-          "source": "x",
-          "name": "Peter Yang",
-          "handle": "petergyang",
-          "bio": "Practical AI tutorials and interviews for busy people | Get my best AI skills and guides at https://t.co/6VAA6p81x6",
-          "tweets": [
-            {
-              "id": "2091331251211059468",
-              "text": "If you care about your privacy:\n\n1. Go to https://t.co/yICN6WAe9R in Chrome\n2. Run this prompt in Codex or Claude Code and tell it there's an open tab in your browser\n3. Then pick the ones you want to remove and tell AI to do it\n\nJust disconnected half the apps that should no longer have my Google info.",
-              "createdAt": "2026-08-23T01:06:40.000Z",
-              "url": "https://x.com/petergyang/status/2091331251211059468",
-              "likes": 447,
-              "retweets": 23,
-              "replies": 20,
-              "isQuote": false,
-              "quotedTweetId": null,
-              "summary_zh": "如果你在意自己的隐私，可以按照以下步骤操作： \n\n1. 在 Chrome 浏览器中打开一个链接。\n2. 使用一个叫 Codex 或 Claude 的 AI 工具，告诉它你浏览器里有一个打开的标签。\n3. 然后选择你想要删除的应用，让 AI 来帮你处理。\n\n我刚刚切断了一半不该有我 Google 信息的应用连接，感觉不错！"
-            },
-            {
-              "id": "2091239339204415969",
-              "text": "I’m working on a new AI skill. \n\nIt’s called /fuck-cancer\n\nGoal is to help patients and their family navigate this whole process and stay informed. \n\nWhat should I include in it?",
-              "createdAt": "2026-08-22T19:01:26.000Z",
-              "url": "https://x.com/petergyang/status/2091239339204415969",
-              "likes": 188,
-              "retweets": 5,
-              "replies": 39,
-              "isQuote": false,
-              "quotedTweetId": null,
-              "summary_zh": "Peter Yang正在开发一项新的AI技能，叫做“/fuck-cancer”。这个技能的目的是帮助癌症患者和他们的家属更好地了解和应对整个治疗过程。他想知道大家认为应该包含哪些内容。"
-            },
-            {
-              "id": "2091187611507499321",
-              "text": "Looks like you can now delete external data (like my 36 Gmail records) if you go to https://t.co/iZVklVswyI and scroll down to Data Privacy.\n\nKudos to the Instinct team for listening and shipping this quickly. \n\nI will always say it like it is, especially when it comes to privacy & trust.",
-              "createdAt": "2026-08-22T15:35:53.000Z",
-              "url": "https://x.com/petergyang/status/2091187611507499321",
-              "likes": 13,
-              "retweets": 0,
-              "replies": 1,
-              "isQuote": false,
-              "quotedTweetId": null,
-              "summary_zh": "现在你可以删除一些外部数据，比如我保留的36条Gmail记录，只需访问链接并往下滚动到数据隐私部分。对Instinct团队迅速响应表示赞赏！我一直会坦诚地说，尤其是关于隐私和信任的问题。"
-            }
-          ],
-          "bio_zh": "Roblox 产品经理，14 万订阅的 AI 实操教程作者",
-          "fetchDate": "2026-08-23"
-        },
-        {
-          "source": "x",
-          "name": "Madhu Guru",
-          "handle": "realmadhuguru",
-          "bio": "Sr Director, AI at Meta; Prev: Google - Led Gemini, Veo, Nano Banana.",
-          "tweets": [
-            {
-              "id": "2091278899711967441",
-              "text": "Part 1\nhttps://t.co/9PCxjUITL6\n\nPart 2\nhttps://t.co/oMkXFWt9m7\n\nPart 3\nhttps://t.co/dwQ8cOzIrR\n\nPart 4\nhttps://t.co/NeaJzD7dry\n\nPart 5\nhttps://t.co/G0R7ZlEVDt",
-              "createdAt": "2026-08-22T21:38:38.000Z",
-              "url": "https://x.com/realmadhuguru/status/2091278899711967441",
-              "likes": 2,
-              "retweets": 0,
-              "replies": 0,
-              "isQuote": true,
-              "quotedTweetId": "2090930137885774324",
-              "summary_zh": "这位朋友分享了一系列推文，讲述了和 AI（人工智能）相关的话题，可能是他的见解或者最新趋势。虽然具体内容不太清楚，但从上下文看起来，他在分几个部分讨论一些重要的AI基础设施知识和想法。如果你对AI感兴趣，可以看看这些链接里都说了些什么！"
-            },
-            {
-              "id": "2091278653435072523",
-              "text": "How to build great evals - part 6\n\nHill climbing on evals is just a fancy way of saying: pick a dimension that matters and optimize for it.\n\nThis could be improving the quality of existing features based on your latest production data on high value user journeys, expanding to adjacent use cases, lowering cost or latency.\n\nThe actual work boils down to better harnesses and model selection through methods like prompt eng, context eng, memory, post training, deterministic old school code etc.\n\nYour failure mode taxonomy (from part 3) is a good compass for where your product struggles and needs some love.\n\nE.g. maybe tool calling failures are your most common problem. You dig in and notice you stuff 20 tools in context, when each task really only needs 3-5. hill climbing here involves context eng to give it the right tools at the right stage and iterate until you get it to good.\n\nOr take the cost reduction goal..\nI’ve written about how I advise launching your product with the best model first. Get the quality as high as you can. Once you know users love the experience, hill climb to get similar quality with a smaller, cheaper, faster model. Same methods - harness, models.\n\nThe important thing is to have evals that tell you whether you are actually moving in the right direction.\n\nMore tomorrow. \n\nSend this to your teammates!\n\nDrop your questions in the comments and I will answer in future posts.",
-              "createdAt": "2026-08-22T21:37:39.000Z",
-              "url": "https://x.com/realmadhuguru/status/2091278653435072523",
-              "likes": 143,
-              "retweets": 8,
-              "replies": 11,
-              "isQuote": true,
-              "quotedTweetId": "2090930137885774324",
-              "summary_zh": "要做好评估（evals），就是找一个重要的指标来优化，简单来说就是提高产品的质量、降低成本或者减少响应时间等。\n\n比如说，如果你发现你的工具调用出错是个大问题，可以通过调整给每个任务提供合适数量的工具，来改善这个问题。或者，你可以先用质量最好的模型推出产品，当用户喜欢后，再逐步优化到更便宜、更快的模型。\n\n关键是要有评估来判断你是否在朝着正确的方向前进。有任何问题可以在评论区问我，我会在之后的帖子里回答。"
-            }
-          ],
-          "bio_zh": "AI 创业者和投资人，关注 AI 基础设施",
-          "fetchDate": "2026-08-23"
-        },
-        {
-          "source": "x",
-          "name": "Amjad Masad",
-          "handle": "amasad",
-          "bio": "ceo @replit. civilizationist",
-          "tweets": [
-            {
-              "id": "2091346778746757204",
-              "text": "A week has 7 days\n\nThat means 7 ships https://t.co/DFGoTnEy5G",
-              "createdAt": "2026-08-23T02:08:22.000Z",
-              "url": "https://x.com/amasad/status/2091346778746757204",
-              "likes": 70,
-              "retweets": 4,
-              "replies": 12,
-              "isQuote": true,
-              "quotedTweetId": "2091311652494803424",
-              "summary_zh": "一周有七天，所以就有七艘船。推特上的这句话可能在幽默地提醒我们，时间有限，要好好利用每一天。"
-            },
-            {
-              "id": "2091217410615644349",
-              "text": "“Pretty soon” turned out to be 3 months. https://t.co/LC19TuXUuP",
-              "createdAt": "2026-08-22T17:34:18.000Z",
-              "url": "https://x.com/amasad/status/2091217410615644349",
-              "likes": 643,
-              "retweets": 43,
-              "replies": 37,
-              "isQuote": false,
-              "quotedTweetId": null,
-              "summary_zh": "“很快”变成了3个月。看起来他们的想法需要一些时间才能实现。"
-            }
-          ],
-          "bio_zh": "Replit CEO，致力于让所有人都能用 AI 写代码和部署应用",
-          "fetchDate": "2026-08-23"
-        },
-        {
-          "source": "x",
-          "name": "Guillermo Rauch",
-          "handle": "rauchg",
-          "bio": "@vercel CEO",
-          "tweets": [
-            {
-              "id": "2091338152791474331",
-              "text": "AI can do many wonderful things and grant many wishes, but we have only one earth, one California, one Patagonia, one Mendoza. USA and Argentina are two of the freest countries that also happen to have the most glorious land and geography. I'm very long 🇺🇸🇦🇷. We're so early.",
-              "createdAt": "2026-08-23T01:34:05.000Z",
-              "url": "https://x.com/rauchg/status/2091338152791474331",
-              "likes": 735,
-              "retweets": 30,
-              "replies": 27,
-              "isQuote": false,
-              "quotedTweetId": null,
-              "summary_zh": "AI可以实现很多美好的事情，但我们只有一片地球、一块加州、一片巴塔哥尼亚和一座门多萨。美国和阿根廷是两个非常自由的国家，还有着壮丽的自然风光。我对这两国充满信心，未来还有很长的路要走。"
-            },
-            {
-              "id": "2091265836719956474",
-              "text": "cc @windows https://t.co/jwb1iekgRg",
-              "createdAt": "2026-08-22T20:46:43.000Z",
-              "url": "https://x.com/rauchg/status/2091265836719956474",
-              "likes": 57,
-              "retweets": 0,
-              "replies": 2,
-              "isQuote": false,
-              "quotedTweetId": null,
-              "summary_zh": "Guillermo 发了一条推文，可能是在提及与 Windows 相关的内容或合作。链接里可能有一些信息，具体内容就得点进去看看啦！"
-            },
-            {
-              "id": "2091263423359389951",
-              "text": "San Francisco is a paradise on Earth https://t.co/NqAfgzAnTB",
-              "createdAt": "2026-08-22T20:37:08.000Z",
-              "url": "https://x.com/rauchg/status/2091263423359389951",
-              "likes": 1084,
-              "retweets": 20,
-              "replies": 80,
-              "isQuote": false,
-              "quotedTweetId": null,
-              "summary_zh": "旧金山真是人间仙境啊！"
-            }
-          ],
-          "bio_zh": "Vercel CEO，Next.js 创造者，v0 AI 代码生成工具的幕后推手",
-          "fetchDate": "2026-08-23"
-        },
-        {
-          "source": "x",
-          "name": "Aaron Levie",
-          "handle": "levie",
-          "bio": "ceo @box - your business lives in content. unleash it with AI",
-          "tweets": [
-            {
-              "id": "2091359223368315050",
-              "text": "AI diffusion is far more rate limited by having good evals than most realize. The kind of evals that you see for every model release are incredibly helpful, but only tell you the shape of general AI progress and the relative capability level of models.\n\nThe far bigger space over time are evals on all the major workflows that enterprises do, down to the specifics of an individual company. \n\nThis will be a huge space over time because you can’t automate what you can’t assess the progress on. Enterprises will not be able to go just on vibes.",
-              "createdAt": "2026-08-23T02:57:49.000Z",
-              "url": "https://x.com/levie/status/2091359223368315050",
-              "likes": 138,
-              "retweets": 12,
-              "replies": 25,
-              "isQuote": true,
-              "quotedTweetId": "2090500944979243181",
-              "summary_zh": "AI的发展速度主要受限于评估（评估模型性能的方法）是否够好。这些评估虽然能帮助我们了解AI的整体进展和不同模型的能力，但更重要的是要评估企业在实际工作流程中的表现。只有这样，企业才能更有效地自动化流程，否则光靠感觉是没用的。"
-            }
-          ],
-          "bio_zh": "Box CEO，企业 AI 应用的坚定推动者，科技圈知名段子手",
-          "fetchDate": "2026-08-23"
-        },
-        {
-          "source": "x",
-          "name": "Zara Zhang",
-          "handle": "zarazhangrui",
-          "bio": "Builder. Make something people want, then make people want it. Harvard’17. GitHub: https://t.co/KCuEaje1wd \nYouTube: https://t.co/8xzbGWsHgY",
-          "tweets": [
-            {
-              "id": "2091379220257603593",
-              "text": "There’s a phenomenon where talented individuals can achieve 10x their potential thanks to AI when working on their own thing \n\nBut when the same individual is put into a large organization, they at most increase their potential by 20% (and sometimes it’s even decreased)\n\nThis is why I’m seeing more and more talented people leave large companies. (The only exceptions are probably top AI labs like OpenAI/Anthropic)",
-              "createdAt": "2026-08-23T04:17:16.000Z",
-              "url": "https://x.com/zarazhangrui/status/2091379220257603593",
-              "likes": 147,
-              "retweets": 7,
-              "replies": 14,
-              "isQuote": true,
-              "quotedTweetId": "2090815767180656839",
-              "summary_zh": "有些非常有才华的人，利用 AI（人工智能）自己做项目时，能让自己的能力提升十倍。但如果他们进入大公司，最多只能提升20%，有时候甚至还会下降。这就是为什么越来越多的人选择离开大公司，只有像OpenAI和Anthropic这样的顶尖AI实验室可能是个例外。"
-            },
-            {
-              "id": "2091338374447763481",
-              "text": "Everyone who’s ahead in using AI thinks they’re behind",
-              "createdAt": "2026-08-23T01:34:58.000Z",
-              "url": "https://x.com/zarazhangrui/status/2091338374447763481",
-              "likes": 336,
-              "retweets": 20,
-              "replies": 53,
-              "isQuote": false,
-              "quotedTweetId": null,
-              "summary_zh": "在使用 AI 的路上，很多走在前面的人反而觉得自己落后了。意思是，有些人觉得自己还不够好，其实他们已经领先了。"
-            }
-          ],
-          "bio_zh": "AI 领域投资人和内容创作者，follow-builders 项目发起人",
-          "fetchDate": "2026-08-23"
-        },
-        {
-          "source": "x",
-          "name": "Nikunj Kothari",
-          "handle": "nikunj",
-          "bio": "partner @fpvventures - investing in seed/A. previous: early hire @meter, @opendoor, @atlassian & others. love @shimoleejhaveri + 👦👧",
-          "tweets": [
-            {
-              "id": "2091403643815604629",
-              "text": "Few things:\n1) These are Twitter DMs. I try to be helpful to as many cold DMs as I can. This one shouldn’t have passed the bar. \n\n2) Doxxing someone is not my style. I hope they learned their lesson. \n\n3) I can’t stress enough how important it is to find the right people to take advice from. It boils my blood to see many talented young people who actually have substance play these stupid games.",
-              "createdAt": "2026-08-23T05:54:19.000Z",
-              "url": "https://x.com/nikunj/status/2091403643815604629",
-              "likes": 23,
-              "retweets": 0,
-              "replies": 0,
-              "isQuote": false,
-              "quotedTweetId": null,
-              "summary_zh": "有几点想说的：\n1) 这是推特上的私信（DM）。我尽量帮忙回复很多陌生私信，但这个内容真的不行。\n2) 把某人私事公开（doxxing）不是我的风格。希望他们能吸取教训。\n3) 我非常重视找对的人来听取建议。看到很多有才华的年轻人参与这些幼稚游戏，真让我很生气。"
-            },
-            {
-              "id": "2091381756012511244",
-              "text": "Kids, I don't know what advice you are getting, but ragebaiting investors and then sending them SAFE docs to just wire you money is NOT how investing works.. https://t.co/MSXm6S85Vd",
-              "createdAt": "2026-08-23T04:27:21.000Z",
-              "url": "https://x.com/nikunj/status/2091381756012511244",
-              "likes": 370,
-              "retweets": 4,
-              "replies": 73,
-              "isQuote": false,
-              "quotedTweetId": null,
-              "summary_zh": "听着，小朋友们，别被人误导了，想通过激怒投资者来让他们给你钱是行不通的，投资可不是这么玩的！"
-            },
-            {
-              "id": "2091220881590927441",
-              "text": "We complain about slop at X, but LinkedIn has stooped to unimaginable levels of slop 🤮 https://t.co/ULMk7CdxGL https://t.co/MP3lxxhTQ5",
-              "createdAt": "2026-08-22T17:48:05.000Z",
-              "url": "https://x.com/nikunj/status/2091220881590927441",
-              "likes": 40,
-              "retweets": 1,
-              "replies": 12,
-              "isQuote": true,
-              "quotedTweetId": "2090886423574688058",
-              "summary_zh": "我们常常抱怨一些平台糟糕的内容，但LinkedIn最近的内容更是让人无法想象地糟糕。😷"
-            }
-          ],
-          "bio_zh": "Meta/前 Facebook AI 产品负责人",
-          "fetchDate": "2026-08-23"
-        },
-        {
-          "source": "x",
-          "name": "Dan Shipper",
-          "handle": "danshipper",
-          "bio": "ceo @every | the only subscription you need to stay at the edge of AI",
-          "tweets": [
-            {
-              "id": "2091361962068254840",
-              "text": "we’re hiring @every!\n\nhttps://t.co/UVzy1MRevu https://t.co/QLoIrG8K5Z",
-              "createdAt": "2026-08-23T03:08:42.000Z",
-              "url": "https://x.com/danshipper/status/2091361962068254840",
-              "likes": 131,
-              "retweets": 3,
-              "replies": 5,
-              "isQuote": true,
-              "quotedTweetId": "2090853094082945216",
-              "summary_zh": "我们在 Every 招聘新员工啦！如果你对 AI 写作和知识管理感兴趣，快来看看这个机会！"
-            },
-            {
-              "id": "2091162447029608735",
-              "text": "agent native ftw https://t.co/C1mGoNcXpO",
-              "createdAt": "2026-08-22T13:55:53.000Z",
-              "url": "https://x.com/danshipper/status/2091162447029608735",
-              "likes": 149,
-              "retweets": 1,
-              "replies": 11,
-              "isQuote": true,
-              "quotedTweetId": "2090889137062826240",
-              "summary_zh": "这条推文是在说“原生代理”（agent native）这个概念很给力，可能是指一种在AI应用中优化表现的方式。简单来说，就是把某些功能内置到AI里面，让它工作得更好、更顺畅。"
-            }
-          ],
-          "bio_zh": "Every 联合创始人，AI 写作和知识管理领域的深度实践者",
-          "fetchDate": "2026-08-23"
-        }
-      ]
     }
   ],
   "podcasts": [
+    {
+      "name": "Lenny's Podcast",
+      "title": "Speed Without Data Is Just Faster Failure",
+      "videoId": "KmhuMFcKAzw",
+      "url": "https://youtube.com/watch?v=KmhuMFcKAzw",
+      "publishedAt": "2026-08-30T21:26:46+00:00",
+      "isShort": false,
+      "fetchDate": "2026-08-31",
+      "summary_zh": "这个视频讨论了在没有数据支持的情况下加快运营速度可能导致的失败。嘉宾强调了数据在决策过程中的重要性，指出即使是快速行动，也需要依赖可靠的数据来指引方向，以避免资源的浪费和错误的判断。\n\n💡 值得一看 — 视频中的见解关于数据驱动决策的必要性，对你在 Logic Labs 和 TexTale 中如何利用AI工具提升创意设计和运营策略非常有帮助。"
+    },
     {
       "name": "Data Driven NYC",
       "title": "What Zuckerberg Gets Wrong About Superintelligence  #ai #podcast",
@@ -4322,7 +4010,7 @@
       "name": "Hey Noah",
       "tagline": "A proactive AI executive assistant for founders",
       "url": "https://www.producthunt.com/products/hey-noah/launches/hey-noah?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Breakfeed+%28ID%3A+279433%29",
-      "votes": 620,
+      "votes": 621,
       "comments": 103,
       "topics": [
         "Productivity",
@@ -4338,7 +4026,7 @@
       "name": "Clipto MCP",
       "tagline": "Let agents source clips from terabytes of your local video",
       "url": "https://www.producthunt.com/products/clipto-ai?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Breakfeed+%28ID%3A+279433%29",
-      "votes": 616,
+      "votes": 618,
       "comments": 164,
       "topics": [
         "Productivity",
@@ -4354,7 +4042,7 @@
       "name": "AdAnt AI",
       "tagline": "Claude for viral, high-converting social ads",
       "url": "https://www.producthunt.com/products/adant-ai/launches/adant-ai?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Breakfeed+%28ID%3A+279433%29",
-      "votes": 589,
+      "votes": 590,
       "comments": 91,
       "topics": [
         "Social Media",
@@ -4496,6 +4184,21 @@
     },
     {
       "rank": 12,
+      "name": "Clara AI SDR",
+      "tagline": "Turn website visitors into qualified pipeline",
+      "url": "https://www.producthunt.com/products/clara-ai-sdr?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Breakfeed+%28ID%3A+279433%29",
+      "votes": 460,
+      "comments": 44,
+      "topics": [
+        "Developer Tools",
+        "Artificial Intelligence"
+      ],
+      "thumbnail": "https://ph-files.imgix.net/b9165beb-a873-4975-bb5f-6fcd2fa4c76f.svg?auto=format",
+      "screenshot": "https://ph-files.imgix.net/245b5448-ea2d-4cc7-b363-6e795e8bd5ee.png?auto=format",
+      "summary_zh": "Clara AI SDR 是一款自动化的软件工具，可以将访问网站的访客转化为潜在客户。通过智能分析和交互，它能够识别有意向的访客并收集相关信息，帮助企业建立更高效的客户销售漏斗。"
+    },
+    {
+      "rank": 13,
       "name": "Cloudflare OS",
       "tagline": "Build the AI operating system for your company",
       "url": "https://www.producthunt.com/products/cloudflare/launches/cloudflare-os-2?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Breakfeed+%28ID%3A+279433%29",
@@ -4512,26 +4215,11 @@
       "summary_zh": "Cloudflare OS是一款人工智能操作系统，旨在为企业构建智能化的工作环境。它可以整合企业的数据和应用，自动化日常任务，提高团队的工作效率。用户可以通过简单的界面管理和优化业务流程。"
     },
     {
-      "rank": 13,
-      "name": "Clara AI SDR",
-      "tagline": "Turn website visitors into qualified pipeline",
-      "url": "https://www.producthunt.com/products/clara-ai-sdr?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Breakfeed+%28ID%3A+279433%29",
-      "votes": 460,
-      "comments": 44,
-      "topics": [
-        "Developer Tools",
-        "Artificial Intelligence"
-      ],
-      "thumbnail": "https://ph-files.imgix.net/b9165beb-a873-4975-bb5f-6fcd2fa4c76f.svg?auto=format",
-      "screenshot": "https://ph-files.imgix.net/245b5448-ea2d-4cc7-b363-6e795e8bd5ee.png?auto=format",
-      "summary_zh": "Clara AI SDR 是一款自动化的软件工具，可以将访问网站的访客转化为潜在客户。通过智能分析和交互，它能够识别有意向的访客并收集相关信息，帮助企业建立更高效的客户销售漏斗。"
-    },
-    {
       "rank": 14,
       "name": "PaymentKit",
       "tagline": "Billing that survives a processor shutdown",
       "url": "https://www.producthunt.com/products/paymentkit?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Breakfeed+%28ID%3A+279433%29",
-      "votes": 456,
+      "votes": 455,
       "comments": 106,
       "topics": [
         "Fintech",
@@ -4564,8 +4252,8 @@
       "repo": "THU-MAIC/OpenMAIC",
       "description": "Open Multi-Agent Interactive Classroom — Get an immersive, multi-agent learning experience in just one click",
       "language": "TypeScript",
-      "stars": 23633,
-      "starsToday": 907,
+      "stars": 23926,
+      "starsToday": 1370,
       "url": "https://github.com/THU-MAIC/OpenMAIC",
       "summary_zh": "这个项目名为 OpenMAIC，旨在提供一个多-agent 互动课堂，让用户通过一键操作体验沉浸式学习，适合用于教育和培训场合。对于 Yves 来说，这个项目可能对 Logic Labs（AI 公司）特别有帮助，因为它展示了如何利用 AI 技术为学习提供全新的互动体验，能够激发更多创意设计的灵感，同时也可能为他们的产品开发带来新的视角。而在 TexTale 的电商运营中，虽然直接关联不大，但该项目所蕴含的创意和技术思维可以启发他在品牌营销与用户体验方面的创新策略。"
     },
@@ -4573,8 +4261,8 @@
       "repo": "K-Dense-AI/scientific-agent-skills",
       "description": "Turn any AI agent into an AI Scientist. The #1 Agent Skills library for science, used by 190,000+ scientists worldwide. 165 ready-to-use validated skills plus 100+ scientific databases covering biology, chemistry, medicine, and drug discovery. Compatible with Cursor, Claude Code, Codex, Pi, Antigravity, and the open Agent Skills standard.",
       "language": "Python",
-      "stars": 38939,
-      "starsToday": 1113,
+      "stars": 39193,
+      "starsToday": 1114,
       "url": "https://github.com/K-Dense-AI/scientific-agent-skills",
       "summary_zh": "这个项目旨在将任何人工智能代理转变为一个“科学家”，提供了大量经过验证的技能和科学数据库，帮助科学家更高效地进行研究。对于Yves来说，该项目对Logic Labs（AI公司）特别有帮助，因为它能够提供先进的AI工具和相关知识，支持其在人工智能领域的创新和应用，同时也可以激发其在创意设计方面的灵感。"
     },
@@ -4582,8 +4270,8 @@
       "repo": "Lakr233/vphone-cli",
       "description": "",
       "language": "Swift",
-      "stars": 9515,
-      "starsToday": 341,
+      "stars": 9594,
+      "starsToday": 361,
       "url": "https://github.com/Lakr233/vphone-cli",
       "summary_zh": "这个项目是一个命令行工具，允许用户通过虚拟手机快速进行应用测试和开发，支持多个平台和设备。对Yves的TexTale项目可能特别有帮助，因为它能够帮助进行移动应用的开发和测试，提升用户体验。同时，作为创意设计从业者，Yves可以利用这个工具更高效地实现和验证创意构想。"
     },
@@ -4591,8 +4279,8 @@
       "repo": "tt-a1i/archify",
       "description": "Agent skill for beautiful, verifiable architecture, workflow, sequence, data-flow, and lifecycle diagrams—self-contained HTML with motion and crisp export.",
       "language": "JavaScript",
-      "stars": 33979,
-      "starsToday": 3730,
+      "stars": 34466,
+      "starsToday": 3722,
       "url": "https://github.com/tt-a1i/archify",
       "summary_zh": "这个项目是一个帮助用户创建美观且可验证的建筑、工作流程、序列、数据流和生命周期图表的工具，生成的图表以HTML格式自包含，支持动画效果和清晰的导出。对Yves来说，这个工具可以帮助Logic Labs提升AI项目的可视化表现，同时也能为TexTale的创意设计提供灵感，帮助更好地展现产品和品牌故事。"
     },
@@ -4600,8 +4288,8 @@
       "repo": "p-e-w/heretic",
       "description": "Fully automatic censorship removal for language models",
       "language": "Python",
-      "stars": 29061,
-      "starsToday": 150,
+      "stars": 29155,
+      "starsToday": 369,
       "url": "https://github.com/p-e-w/heretic",
       "summary_zh": "这个项目旨在为语言模型提供自动化的审查去除功能，使其能够更自由地生成和处理文本内容。对于Yves来说，这个工具可以在Logic Labs的AI开发中提升模型的表达能力，帮助创造更具创意的内容，同时也能为TexTale在电商平台上提升产品描述和营销文案的质量。作为创意设计从业者，这个项目也能激发他在品牌营销上更具创意的想法和表现方式。"
     },
@@ -4609,8 +4297,8 @@
       "repo": "unclecode/crawl4ai",
       "description": "🚀🤖 Crawl4AI: Open-source LLM Friendly Web Crawler & Scraper. Don't be shy, join here:https://discord.gg/jP8KfhDhyN",
       "language": "Python",
-      "stars": 80148,
-      "starsToday": 229,
+      "stars": 80222,
+      "starsToday": 221,
       "url": "https://github.com/unclecode/crawl4ai",
       "summary_zh": "这个项目是一个开源的网络爬虫和数据抓取工具，能够帮助用户轻松地从互联网获取数据，特别是针对大语言模型（LLM）的使用。对于Yves来说，这个工具对Logic Labs（AI公司）非常有帮助，因为它可以为AI模型提供丰富的数据源，从而推动AI产品的开发和创新。同时，Yves作为创意设计从业者，也可以利用这个工具获取行业趋势和消费者反馈，为创意设计提供数据支持。"
     },
@@ -4618,8 +4306,8 @@
       "repo": "mvanhorn/last30days-skill",
       "description": "AI agent skill that researches any topic across Reddit, X, YouTube, HN, Polymarket, and the web - then synthesizes a grounded summary",
       "language": "Python",
-      "stars": 60432,
-      "starsToday": 271,
+      "stars": 60496,
+      "starsToday": 230,
       "url": "https://github.com/mvanhorn/last30days-skill",
       "summary_zh": "这个项目是一个人工智能工具，可以在 Reddit、Twitter、YouTube、Hacker News、Polymarket 和网络上研究任何主题，并综合出一个有依据的总结。对于 Yves 来说，这个项目对 Logic Labs（AI 公司）特别有帮助，可以借助该工具进行市场调研，掌握行业趋势；同时也能为 TexTale 提供创意灵感，帮助其在男士科技服装领域更好地了解消费者需求。"
     },
@@ -4627,8 +4315,8 @@
       "repo": "majd/ipatool",
       "description": "Command-line tool that allows searching and downloading app packages (known as ipa files) for iOS, iPadOS, tvOS, and visionOS from the App Store.",
       "language": "Go",
-      "stars": 10137,
-      "starsToday": 56,
+      "stars": 10195,
+      "starsToday": 58,
       "url": "https://github.com/majd/ipatool",
       "summary_zh": "这个项目是一个命令行工具，可以帮助用户搜索并下载 iOS、iPadOS、tvOS 和 visionOS 应用的安装包（ipa 文件），方便用户获取需要的应用程序。对于Yves来说，这个工具可以为他在Logic Labs的AI项目开发中提供测试和分析应用的便利，提升其对移动应用市场的理解，也可能为TexTale在选择合适的品牌合作应用时提供数据支持。"
     },
@@ -4636,8 +4324,8 @@
       "repo": "punkpeye/awesome-mcp-servers",
       "description": "A collection of MCP servers.",
       "language": "",
-      "stars": 93238,
-      "starsToday": 65,
+      "stars": 93304,
+      "starsToday": 96,
       "url": "https://github.com/punkpeye/awesome-mcp-servers",
       "summary_zh": "这个项目是一个关于MCP（Minecraft修补程序）服务器的集合，可以让用户更加轻松地找到各种合适的Minecraft服务器。对于Yves来说，这个项目可能对Logic Labs（AI公司）没有直接帮助，但可以为其在创意设计方面提供灵感，激发一些关于如何利用游戏元素提升用户互动和品牌营销策略的创意想法。"
     },
@@ -4645,8 +4333,8 @@
       "repo": "checkstyle/checkstyle",
       "description": "Checkstyle is a development tool to help programmers write Java code that adheres to a coding standard. By default it supports the Google Java Style Guide and Sun Code Conventions, but is highly configurable. It can be invoked with an ANT task and a command line program.",
       "language": "Java",
-      "stars": 9162,
-      "starsToday": 78,
+      "stars": 9192,
+      "starsToday": 115,
       "url": "https://github.com/checkstyle/checkstyle",
       "summary_zh": "这个项目是一个开发工具，帮助程序员编写符合特定编码标准的Java代码，确保代码的质量和一致性。对Yves来说，Logic Labs（AI公司）在软件开发上可以借助这个工具提高开发效率和代码质量，而作为创意设计从业者，他也能通过关注代码标准化来提升团队的协作能力和项目实施的顺畅度。"
     }
@@ -4654,7 +4342,7 @@
   "aigc_rankings": {
     "image": [],
     "video": [],
-    "fetchedAt": "2026-08-30T19:00:57.209004+00:00",
+    "fetchedAt": "2026-08-31T00:07:49.091294+00:00",
     "sources": [
       "Artificial Analysis",
       "LM Arena",
