@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-01T19:08:13.122217+00:00",
+  "generatedAt": "2026-09-01T23:45:43.189389+00:00",
   "twitter": [
     {
       "source": "x",
@@ -3936,6 +3936,26 @@
   ],
   "podcasts": [
     {
+      "name": "Matt Wolfe",
+      "title": "Why Linux will win over MacOS/Windows: Linux is best for AI agents | DHH and Lex Fridman",
+      "videoId": "dja1V5Y9igI",
+      "url": "https://youtube.com/watch?v=dja1V5Y9igI",
+      "publishedAt": "2026-09-01T20:21:39+00:00",
+      "isShort": false,
+      "fetchDate": "2026-09-01",
+      "summary_zh": "这个视频讨论了为什么Linux在AI代理领域中有可能超越MacOS和Windows。通过深入分析Linux的开放性和灵活性，视频论证了Linux如何为AI开发提供更强的工具和环境，吸引了越来越多的开发者和创客选择它作为首选平台。\n\n🎯 推荐 Yves 观看 — 这个视频提供了有关AI开发环境的重要见解，可能对Logic Labs的产品开发和TexTale的创意设计工具选择有所启发。"
+    },
+    {
+      "name": "Data Driven NYC",
+      "title": "A Thousand More GPUs Would Change the World #ai #podcast",
+      "videoId": "4qvzh0_rR04",
+      "url": "https://youtube.com/watch?v=4qvzh0_rR04",
+      "publishedAt": "2026-09-01T20:00:23+00:00",
+      "isShort": false,
+      "fetchDate": "2026-09-01",
+      "summary_zh": "这期播客讨论了当前GPU的需求与供应状况，探讨了如果再增加1000个GPU，可能对AI技术以及整个世界带来的重要影响。嘉宾们分享了他们对AI计算能力提升后的应用场景的看法，以及在这种变革中可能出现的新机会。\n\n🎯 推荐 Yves 观看 — 此视频深入探讨了AI技术的未来，可能与Logic Labs和TexTale在创意设计和电商运营中的发展密切相关。"
+    },
+    {
       "name": "The AI Daily Brief",
       "title": "How To Navigate the Next Wave of AI Competition",
       "videoId": "mLaO3L0dLlw",
@@ -4419,26 +4439,10 @@
   "producthunt": [
     {
       "rank": 1,
-      "name": "Hey Noah",
-      "tagline": "A proactive AI executive assistant for founders",
-      "url": "https://www.producthunt.com/products/hey-noah/launches/hey-noah?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Breakfeed+%28ID%3A+279433%29",
-      "votes": 638,
-      "comments": 103,
-      "topics": [
-        "Productivity",
-        "Calendar",
-        "Artificial Intelligence"
-      ],
-      "thumbnail": "https://ph-files.imgix.net/683a6add-051e-41db-bdd2-b7f76c07c261.png?auto=format",
-      "screenshot": "https://ph-files.imgix.net/26e4fcaa-a567-4f35-a82f-3f4e3f0ee446.png?auto=format",
-      "summary_zh": "Hey Noah是一款主动智能助手，专为创始人设计。它能够管理日程安排、处理邮件和提供业务建议，让用户更高效地专注于公司的发展。通过AI技术，Hey Noah帮助用户简化日常管理任务。"
-    },
-    {
-      "rank": 2,
       "name": "Clipto MCP",
       "tagline": "Let agents source clips from terabytes of your local video",
       "url": "https://www.producthunt.com/products/clipto-ai?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Breakfeed+%28ID%3A+279433%29",
-      "votes": 638,
+      "votes": 639,
       "comments": 165,
       "topics": [
         "Productivity",
@@ -4448,6 +4452,22 @@
       "thumbnail": "https://ph-files.imgix.net/307c181c-9d5c-4825-b49b-a2ccf4f23c2a.png?auto=format",
       "screenshot": "https://ph-files.imgix.net/0af3e036-edaf-4650-8638-1b78a44b6dde.png?auto=format",
       "summary_zh": "Clipto MCP 是一款视频剪辑工具，允许用户从本地海量视频中快速提取片段。它支持高效整理和查找视频素材，方便用户在创作中使用。"
+    },
+    {
+      "rank": 2,
+      "name": "Hey Noah",
+      "tagline": "A proactive AI executive assistant for founders",
+      "url": "https://www.producthunt.com/products/hey-noah/launches/hey-noah?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Breakfeed+%28ID%3A+279433%29",
+      "votes": 639,
+      "comments": 103,
+      "topics": [
+        "Productivity",
+        "Calendar",
+        "Artificial Intelligence"
+      ],
+      "thumbnail": "https://ph-files.imgix.net/683a6add-051e-41db-bdd2-b7f76c07c261.png?auto=format",
+      "screenshot": "https://ph-files.imgix.net/26e4fcaa-a567-4f35-a82f-3f4e3f0ee446.png?auto=format",
+      "summary_zh": "Hey Noah是一款主动智能助手，专为创始人设计。它能够管理日程安排、处理邮件和提供业务建议，让用户更高效地专注于公司的发展。通过AI技术，Hey Noah帮助用户简化日常管理任务。"
     },
     {
       "rank": 3,
@@ -4471,7 +4491,7 @@
       "tagline": "The open source VAPI alternative",
       "url": "https://www.producthunt.com/products/dograh/launches/dograh-3?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Breakfeed+%28ID%3A+279433%29",
       "votes": 589,
-      "comments": 202,
+      "comments": 203,
       "topics": [
         "Open Source",
         "Developer Tools",
@@ -4503,7 +4523,7 @@
       "name": "Wispr Flow Notetaker",
       "tagline": "Meeting notes that get the details right.",
       "url": "https://www.producthunt.com/products/wisprflow/launches/wispr-flow-notetaker?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Breakfeed+%28ID%3A+279433%29",
-      "votes": 573,
+      "votes": 574,
       "comments": 74,
       "topics": [
         "Notes",
@@ -4599,7 +4619,7 @@
       "name": "PaymentKit",
       "tagline": "Billing that survives a processor shutdown",
       "url": "https://www.producthunt.com/products/paymentkit?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Breakfeed+%28ID%3A+279433%29",
-      "votes": 464,
+      "votes": 465,
       "comments": 106,
       "topics": [
         "Fintech",
@@ -4615,7 +4635,7 @@
       "name": "Cloudflare OS",
       "tagline": "Build the AI operating system for your company",
       "url": "https://www.producthunt.com/products/cloudflare/launches/cloudflare-os-2?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Breakfeed+%28ID%3A+279433%29",
-      "votes": 458,
+      "votes": 459,
       "comments": 3,
       "topics": [
         "Open Source",
@@ -4664,7 +4684,7 @@
       "repo": "Gitlawb/openclaude",
       "description": "runs anywhere. uses anything",
       "language": "TypeScript",
-      "stars": 31181,
+      "stars": 31261,
       "starsToday": 37,
       "url": "https://github.com/Gitlawb/openclaude",
       "summary_zh": "这个项目是一个开源的人工智能工具，旨在让用户能够方便地在各种环境中运行和使用 AI 模型。对于 Yves 来说，这个项目可以帮助 Logic Labs 提升 AI 项目的开发效率，并且可以为 TexTale 在电商运营中提供更加智能化的推荐和用户体验，增强品牌竞争力。作为创意设计从业者，他也可以利用这个工具探索新的设计概念和创意灵感。"
@@ -4673,7 +4693,7 @@
       "repo": "Imbad0202/academic-research-skills",
       "description": "Academic Research Skills for Claude Code: research → write → review → revise → finalize",
       "language": "Python",
-      "stars": 44775,
+      "stars": 44859,
       "starsToday": 161,
       "url": "https://github.com/Imbad0202/academic-research-skills",
       "summary_zh": "这个项目主要帮助用户进行学术研究，包括研究资料的收集、写作、审核和修改等步骤。对于Yves来说，这个项目对Logic Labs（AI公司）尤为有帮助，因为它能够提供高效的研究和写作工具，支持团队在AI领域的创新和开发。同时，这些技能也能为TexTale在产品设计和市场营销方面的研究和内容创作提供支持。"
@@ -4682,7 +4702,7 @@
       "repo": "THU-MAIC/OpenMAIC",
       "description": "Open Multi-Agent Interactive Classroom — Get an immersive, multi-agent learning experience in just one click",
       "language": "TypeScript",
-      "stars": 29281,
+      "stars": 29440,
       "starsToday": 3122,
       "url": "https://github.com/THU-MAIC/OpenMAIC",
       "summary_zh": "这个项目名为 OpenMAIC，旨在提供一个多-agent 互动课堂，让用户通过一键操作体验沉浸式学习，适合用于教育和培训场合。对于 Yves 来说，这个项目可能对 Logic Labs（AI 公司）特别有帮助，因为它展示了如何利用 AI 技术为学习提供全新的互动体验，能够激发更多创意设计的灵感，同时也可能为他们的产品开发带来新的视角。而在 TexTale 的电商运营中，虽然直接关联不大，但该项目所蕴含的创意和技术思维可以启发他在品牌营销与用户体验方面的创新策略。"
@@ -4691,7 +4711,7 @@
       "repo": "iv-org/invidious",
       "description": "Invidious is an alternative front-end to YouTube",
       "language": "Crystal",
-      "stars": 23709,
+      "stars": 23754,
       "starsToday": 583,
       "url": "https://github.com/iv-org/invidious",
       "summary_zh": "Invidious 是一个替代YouTube的前端界面，用户可以通过这个平台更私密、去广告地观看视频内容。对于Yves来说，这个项目可以帮助TexTale提升电商平台的视频营销效果，例如通过创意视频展示产品，吸引更多消费者，也能为他提供关于用户行为与偏好的洞察，以便更好地设计品牌营销策略。"
@@ -4700,25 +4720,16 @@
       "repo": "jingyaogong/minimind",
       "description": "🧠 Train a 64M-parameter LLM from scratch in just 2h!",
       "language": "Python",
-      "stars": 56936,
+      "stars": 57029,
       "starsToday": 1005,
       "url": "https://github.com/jingyaogong/minimind",
       "summary_zh": "这个项目是一个开源工具，可以在短短两小时内，从零开始训练一个64万个参数的语言模型。对于Yves来说，这个项目的价值在于Logic Labs（AI公司），因为它可以帮助他快速生成和优化与AI相关的创意设计内容，提高工作效率。同时，这种技术也可能为TexTale（科技服装电商）带来更智能的客户互动和个性化推荐。"
     },
     {
-      "repo": "debpalash/VoiceStudio",
-      "description": "VoiceStudio is the open-source, fully-local ElevenLabs alternative — voice cloning, voice design, video dubbing, dictation, transcription & audiobook creation in 646 languages.",
-      "language": "Python",
-      "stars": 13597,
-      "starsToday": 745,
-      "url": "https://github.com/debpalash/VoiceStudio",
-      "summary_zh": "这个项目是一个开源的语音处理工具，可以用来生成和克隆语音、配音视频、进行听写、转录以及制作有声书，支持646种语言。对于Yves来说，这个工具可以在Logic Labs的AI项目中用于创造更生动的语音合成应用，或在TexTale的电商平台上用作产品介绍和广告视频的配音，提升品牌的吸引力和用户体验。此外，作为创意设计从业者，VoiceStudio可以帮助他在设计项目中为内容创作带来更多的声音元素和互动体验。"
-    },
-    {
       "repo": "3b1b/manim",
       "description": "Animation engine for explanatory math videos",
       "language": "Python",
-      "stars": 92493,
+      "stars": 92540,
       "starsToday": 74,
       "url": "https://github.com/3b1b/manim",
       "summary_zh": "这个项目是一个动画引擎，专门用于制作解释数学概念的视频，帮助用户以生动的方式呈现复杂的数学内容。对Yves来说，这个项目可以帮助Logic Labs在创意设计和教育内容创作方面提高视觉表达能力，同时也能为TexTale制作产品宣传视频或品牌故事增添创意元素。作为创意设计从业者，使用这个工具可以极大地丰富他的创作方式和表达手段。"
@@ -4727,7 +4738,7 @@
       "repo": "firecrawl/pdf-inspector",
       "description": "Fast Rust library for PDF inspection, classification, and text extraction. Intelligently detects scanned vs text-based PDFs to enable smart routing decisions.",
       "language": "Rust",
-      "stars": 17823,
+      "stars": 17902,
       "starsToday": 545,
       "url": "https://github.com/firecrawl/pdf-inspector",
       "summary_zh": "这个项目是一个快速的 Rust 库，用于检查、分类和提取 PDF 文件中的文本。它能够智能识别扫描和文本基础的 PDF，从而帮助用户做出更智能的处理决策。\n\n对于 Yves 来说，这个项目可以帮助 Logic Labs 在处理和分析大量文档或数据时提高效率，同时也可以为 TexTale 提供更精准的市场调研和内容创建支持，助力电商运营和品牌营销。在创意设计方面，利用有效的 PDF 文档分析工具可以激发新的创意灵感。"
@@ -4736,7 +4747,7 @@
       "repo": "browser-use/video-use",
       "description": "Edit videos with coding agents",
       "language": "Python",
-      "stars": 22782,
+      "stars": 22910,
       "starsToday": 509,
       "url": "https://github.com/browser-use/video-use",
       "summary_zh": "这个项目的目的是通过代码代理来编辑视频，使视频制作变得更加智能和高效。对于Yves来说，这个工具可以帮助Logic Labs在视频内容创作上提升效率，同时也能为TexTale的品牌宣传和市场营销提供创新的视觉素材，提升广告效果。作为创意设计从业者，使用这个项目可以激发更多灵感，拓展视频创作的可能性。"
@@ -4745,16 +4756,25 @@
       "repo": "K-Dense-AI/scientific-agent-skills",
       "description": "Turn any AI agent into an AI Scientist. The #1 Agent Skills library for science, used by 190,000+ scientists worldwide. 165 ready-to-use validated skills plus 100+ scientific databases covering biology, chemistry, medicine, and drug discovery. Compatible with Cursor, Claude Code, Codex, Pi, Antigravity, and the open Agent Skills standard.",
       "language": "Python",
-      "stars": 41429,
+      "stars": 41517,
       "starsToday": 914,
       "url": "https://github.com/K-Dense-AI/scientific-agent-skills",
       "summary_zh": "这个项目旨在将任何人工智能代理转变为一个“科学家”，提供了大量经过验证的技能和科学数据库，帮助科学家更高效地进行研究。对于Yves来说，该项目对Logic Labs（AI公司）特别有帮助，因为它能够提供先进的AI工具和相关知识，支持其在人工智能领域的创新和应用，同时也可以激发其在创意设计方面的灵感。"
+    },
+    {
+      "repo": "handsomestWei/patent-disclosure-skill",
+      "description": "中国专利.skill：专利点挖掘与交底书（发明/实用/外观）编写，通俗解读专利，嗅探政策动向，辅助审查答复。",
+      "language": "Python",
+      "stars": 6676,
+      "starsToday": 502,
+      "url": "https://github.com/handsomestWei/patent-disclosure-skill",
+      "summary_zh": "这个项目帮助用户挖掘并编写专利相关的内容，包括发明、实用新型和外观专利，能够通俗易懂地解读专利信息，并追踪政策变化，从而辅助专利审查和答复。对于Yves来说，该项目可以为Logic Labs提供AI相关专利的深入解读与分析支持，同时在TexTale的创新设计和产品开发过程中，也有助于了解科技服装领域的专利动态，促进创意的实施。"
     }
   ],
   "aigc_rankings": {
     "image": [],
     "video": [],
-    "fetchedAt": "2026-09-01T19:06:55.133631+00:00",
+    "fetchedAt": "2026-09-01T23:44:57.167039+00:00",
     "sources": [
       "Artificial Analysis",
       "LM Arena",
