@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-05T17:55:00.721425+00:00",
+  "generatedAt": "2026-09-05T23:33:30.214844+00:00",
   "twitter": [
     {
       "source": "x",
@@ -4248,6 +4248,26 @@
   ],
   "podcasts": [
     {
+      "name": "Matt Wolfe",
+      "title": "Is programming dead? | DHH and Lex Fridman",
+      "videoId": "Nrz5cJwBW9A",
+      "url": "https://youtube.com/watch?v=Nrz5cJwBW9A",
+      "publishedAt": "2026-09-05T22:50:26+00:00",
+      "isShort": false,
+      "fetchDate": "2026-09-05",
+      "summary_zh": "这个视频讨论了编程在现代科技和商业环境中的地位，特别是由 DHH（Basecamp 的联合创始人）和 Lex Fridman 的对话引导，提出了编程是否仍然是未来的必要技能的问题。两位嘉宾探讨了无代码工具的崛起以及这些工具如何改变开发和创作方式，特别是对于非技术人员来说的影响。\n\n🎯 推荐 Yves 观看 — 该视频对零代码工具的讨论与 Logic Labs 和 TexTale 的创意设计和运营策略密切相关，能够为您提供关于如何利用这些工具推动业务发展的新思路。"
+    },
+    {
+      "name": "The AI Daily Brief",
+      "title": "How AI Changed This Summer",
+      "videoId": "5MMFeibSkqc",
+      "url": "https://youtube.com/watch?v=5MMFeibSkqc",
+      "publishedAt": "2026-09-05T21:12:36+00:00",
+      "isShort": false,
+      "fetchDate": "2026-09-05",
+      "summary_zh": "这个视频探讨了人工智能如何在夏季期间影响各个行业，包括科技、商业和日常生活。它具体分析了AI技术在不同领域的应用，以及这些变化如何推动创新和提升效率。\n\n🎯 推荐 Yves 观看 — 这个视频涵盖了AI对商业运营的影响，可以为Logic Labs和TexTale的发展提供新的思路，帮助你在创意设计和电商策略中更好地利用AI工具。"
+    },
+    {
       "name": "Y Combinator",
       "title": "Paul Graham on what motivates founders",
       "videoId": "Wxq7ZIEodJg",
@@ -4826,26 +4846,6 @@
       "isShort": false,
       "fetchDate": "2026-09-01",
       "summary_zh": "这段视频介绍了最新版的 FABLE 5.1 ，强调了其强大的功能和创新设计。视频展示了 FABLE 在处理复杂 AI 任务时的卓越性能，适合那些希望在创意设计和技术开发中提升效率的用户。\n\n🎯 推荐 Yves 观看 — 这款工具的强大功能将有助于 Logic Labs 和 TexTale 在 AI 产品开发和创意设计中获得更多灵感和实用技巧。"
-    },
-    {
-      "name": "Every Inc",
-      "title": "We Tested Anthropic's Fable 5.1 for a Week",
-      "videoId": "yZddAiz4HP8",
-      "url": "https://youtube.com/watch?v=yZddAiz4HP8",
-      "publishedAt": "2026-09-01T18:05:41+00:00",
-      "isShort": false,
-      "fetchDate": "2026-09-01",
-      "summary_zh": "视频介绍了 Anthropic 的最新 AI 语言模型 Fable 5.1 的一周使用体验，通过实际测试展示了其在理解自然语言、生成文本和任务完成方面的表现和局限。视频中还探讨了该模型在用户交互中的可靠性及应用场景。\n\n🎯 推荐 Yves 观看 — Fable 5.1 的功能可以为 Logic Labs 和 TexTale 的创意设计工作提供有价值的洞察，帮助提升品牌营销及电商运营的效率。"
-    },
-    {
-      "name": "Fireship",
-      "title": "A mysterious new model just took over the internet...",
-      "videoId": "r-tzcMlQISk",
-      "url": "https://youtube.com/watch?v=r-tzcMlQISk",
-      "publishedAt": "2026-09-01T17:31:27+00:00",
-      "isShort": false,
-      "fetchDate": "2026-09-01",
-      "summary_zh": "这个视频讨论了一个新出现的AI模型，该模型在网络上迅速走红，引发了广泛关注。它的能力和应用潜力正在改变人们对AI的看法，尤其是在创意和设计领域。\n\n🎯 推荐 Yves 观看 — 这个模型可能为 Logic Labs 和 TexTale 提供新的创意设计思路和工具，帮助提升产品的创新性与市场竞争力。"
     }
   ],
   "producthunt": [
@@ -4903,7 +4903,7 @@
       "name": "Grok Bot",
       "tagline": "AI teammates that you can give real work to",
       "url": "https://www.producthunt.com/products/grok/launches/grok-bot?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Breakfeed+%28ID%3A+279433%29",
-      "votes": 548,
+      "votes": 549,
       "comments": 23,
       "topics": [
         "Productivity",
@@ -5016,7 +5016,7 @@
       "name": "PaymentKit",
       "tagline": "Billing that survives a processor shutdown",
       "url": "https://www.producthunt.com/products/paymentkit?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Breakfeed+%28ID%3A+279433%29",
-      "votes": 466,
+      "votes": 465,
       "comments": 69,
       "topics": [
         "Fintech",
@@ -5095,7 +5095,7 @@
       "repo": "mattpocock/skills",
       "description": "Skills for Real Engineers. Straight from my .agents directory.",
       "language": "Shell",
-      "stars": 252074,
+      "stars": 252543,
       "starsToday": 2666,
       "url": "https://github.com/mattpocock/skills",
       "summary_zh": "这个项目提供了一系列实用的技能和工具，旨在帮助工程师更高效地进行开发和管理工作。对于Yves来说，虽然这个项目主要面向工程师，但它可以作为Logic Labs在AI领域工具整合的参考，帮助优化技术流程，并为TexTale的电商平台提供潜在的技术支持，提升运营效率。作为创意设计从业者，Yves也可以从中获取灵感，了解技术与创意结合的方式。"
@@ -5104,7 +5104,7 @@
       "repo": "affaan-m/ECC",
       "description": "The agent harness performance optimization system. Skills, instincts, memory, security, and research-first development for Claude Code, Codex, Opencode, Cursor and beyond.",
       "language": "JavaScript",
-      "stars": 249512,
+      "stars": 249847,
       "starsToday": 1325,
       "url": "https://github.com/affaan-m/ECC",
       "summary_zh": "这个项目是一个性能优化系统，旨在提升 AI 工具（如 Claude Code 和 Codex）的效率和智能，帮助开发者更好地利用这些技术。对于 Yves 来说，Logic Labs 可以通过这个系统提升 AI 应用的性能，进而提高其在行业中的竞争力，同时也能为 TexTale 提供更智能的电商运营和品牌营销支持。作为创意设计从业者，他可以借助这个工具来更好地整合 AI 技术，实现创意灵感的快速转化。"
@@ -5113,7 +5113,7 @@
       "repo": "DietrichGebert/ponytail",
       "description": "Makes your AI agent think like the laziest senior dev in the room. The best code is the code you never wrote.",
       "language": "JavaScript",
-      "stars": 127598,
+      "stars": 127891,
       "starsToday": 2813,
       "url": "https://github.com/DietrichGebert/ponytail",
       "summary_zh": "这个项目名为 ponytail，旨在让你的 AI 助手以一种懒散的高级开发者的方式思考，强调“最好的代码就是你从未编写的代码”，也就是尽量减少人工编写的代码量。 \n\n对 Yves 来说，这个项目可能会对 Logic Labs（AI 公司）产生帮助，因为它可以优化 AI 助手的效率，提升工作流程，使创意设计过程更加流畅高效。"
@@ -5122,7 +5122,7 @@
       "repo": "NousResearch/hermes-agent",
       "description": "The agent that grows with you",
       "language": "Python",
-      "stars": 241884,
+      "stars": 241982,
       "starsToday": 573,
       "url": "https://github.com/NousResearch/hermes-agent",
       "summary_zh": "这个项目是一个智能代理，能够根据用户的需求和习惯进行不断学习和适应，从而提供个性化的服务和支持。对于Yves来说，这个项目可以在Logic Labs（AI公司）中帮助提升AI模型的智能化和用户体验，也能为TexTale（科技服装电商）提供更好的客户洞察和个性化营销策略，增强品牌竞争力。作为创意设计从业者，这个工具还可以激发新的创意灵感，提升设计效率。"
@@ -5131,7 +5131,7 @@
       "repo": "fmtlib/fmt",
       "description": "A modern formatting library",
       "language": "C++",
-      "stars": 25554,
+      "stars": 25567,
       "starsToday": 133,
       "url": "https://github.com/fmtlib/fmt",
       "summary_zh": "这个项目是一个现代化的格式化库，主要用于简化和优化文本的输出和显示，比如格式化字符串。对Yves的TexTale电商业务特别有帮助，因为在电商平台上，良好的文本格式可以提升产品展示的专业性和吸引力，同时作为创意设计从业者，他也可以利用这个工具来创建更个性化和吸引人的品牌内容。"
@@ -5140,7 +5140,7 @@
       "repo": "anthropics/skills",
       "description": "Public repository for Agent Skills",
       "language": "Python",
-      "stars": 174469,
+      "stars": 174544,
       "starsToday": 472,
       "url": "https://github.com/anthropics/skills",
       "summary_zh": "这个项目是一个公开的代码库，主要用于开发和提升人工智能代理的技能，帮助 AI 更好地理解和完成任务。对于Yves而言，这个项目对Logic Labs（AI 公司）尤其有帮助，因为它可以为他的AI产品提供更先进的技能和能力，从而提升公司在 AI 领域的竞争力。同时，作为创意设计从业者，他可以借助这些技能生成更具创意和智能的设计方案。"
@@ -5149,7 +5149,7 @@
       "repo": "cathrynlavery/diagram-design",
       "description": "38 editorial diagram types for Claude Code, Codex, and Pi. Self-contained HTML + SVG. No shadows. No Mermaid slop.",
       "language": "HTML",
-      "stars": 31551,
+      "stars": 31666,
       "starsToday": 852,
       "url": "https://github.com/cathrynlavery/diagram-design",
       "summary_zh": "这个项目提供了38种不同的编辑图表类型，用户可以用它们来创建清晰的视觉内容，主要用于展示和说明信息。对Yves的Logic Labs（AI公司）有帮助，因为这些图表可以有效地展示AI解决方案的思路和结果，并提升沟通效果；同时也能为他在创意设计领域提供灵感，帮助他更好地构思和呈现自己的创意。"
@@ -5158,7 +5158,7 @@
       "repo": "anomalyco/opencode",
       "description": "The open source coding agent.",
       "language": "TypeScript",
-      "stars": 204559,
+      "stars": 204664,
       "starsToday": 725,
       "url": "https://github.com/anomalyco/opencode",
       "summary_zh": "这个项目是一个开源的编码助手，可以帮助用户更轻松地编写和优化代码。对于Yves来说，这个工具可以在Logic Labs（AI公司）中提高开发效率，帮助团队更快地实现创意与技术的结合。同时作为创意设计从业者，使用这个工具也能为他提供编程方面的支持，推动他的创意落地。"
@@ -5167,7 +5167,7 @@
       "repo": "ruvnet/ruflo",
       "description": "🌊 The original agent meta-harness. Deploy intelligent multi-player swarms, coordinate autonomous workflows, and build conversational AI systems. Features adaptive memory, self-learning intelligence, RAG integration, and native Claude Code / Codex / Hermes and many more Integrated",
       "language": "TypeScript",
-      "stars": 70626,
+      "stars": 70686,
       "starsToday": 127,
       "url": "https://github.com/ruvnet/ruflo",
       "summary_zh": "这个项目是一个智能代理框架，可以部署多玩家协作，协调自主工作流程，并构建对话式 AI 系统。它具备自适应记忆、自学习智能和丰富的集成功能，适合需要高效沟通及自动化处理的场景。\n\n对 Yves 的 Logic Labs（AI 公司）会非常有帮助，因为这个项目可以用于开发更智能的 AI 应用，提升团队协作和工作效率，同时也为 TexTale 提供思考如何运用 AI 优化电商运营和客户互动的灵感。"
@@ -5176,7 +5176,7 @@
       "repo": "humanlayer/skills",
       "description": "",
       "language": "TypeScript",
-      "stars": 2610,
+      "stars": 2679,
       "starsToday": 408,
       "url": "https://github.com/humanlayer/skills",
       "summary_zh": "这个项目是一个用于识别和处理人类技能的库，可以帮助开发者创建更智能的应用，让机器更好地理解和应用人类的能力。对Yves来说，这个项目对于Logic Labs（AI 公司）非常有帮助，因为它可以为他们的AI产品提供更精准的人才技能识别，助力创意设计和品牌营销。同时，这种技能识别能力也可以增强TexTale的客户分析和个性化推荐。"
@@ -5185,7 +5185,7 @@
   "aigc_rankings": {
     "image": [],
     "video": [],
-    "fetchedAt": "2026-09-05T17:53:03.668490+00:00",
+    "fetchedAt": "2026-09-05T23:31:40.266044+00:00",
     "sources": [
       "Artificial Analysis",
       "LM Arena",
