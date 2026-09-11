@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-11T14:02:51.580257+00:00",
+  "generatedAt": "2026-09-11T18:58:41.094246+00:00",
   "twitter": [
     {
       "source": "x",
@@ -4024,6 +4024,26 @@
   ],
   "podcasts": [
     {
+      "name": "TBPN",
+      "title": "Fruitfly Hard Takeoff, Parker's Vineyard, Personal Agents",
+      "videoId": "0VEqt0pwpFI",
+      "url": "https://youtube.com/watch?v=0VEqt0pwpFI",
+      "publishedAt": "2026-09-11T17:57:15+00:00",
+      "isShort": false,
+      "fetchDate": "2026-09-11",
+      "summary_zh": "这段视频讨论了多个有趣的AI应用实例，包括Fruitfly的快速启动技术、Parker的葡萄园项目以及个人代理的概念。这些内容展示了AI在各个领域的创新应用，并探讨了未来的潜力和趋势。\n\n💡 值得一看 — 视频中涉及的AI概念和应用可以为Yves在Logic Labs和TexTale的工作提供灵感，特别是在探讨如何将AI技术嵌入到创意设计和电商运营中。"
+    },
+    {
+      "name": "Fireship",
+      "title": "OpenAI's biggest math breakthrough is getting ugly...",
+      "videoId": "aspmNhKAFMc",
+      "url": "https://youtube.com/watch?v=aspmNhKAFMc",
+      "publishedAt": "2026-09-11T17:24:40+00:00",
+      "isShort": false,
+      "fetchDate": "2026-09-11",
+      "summary_zh": "这个视频探讨了OpenAI在数学领域的最新突破，尤其关注其背后出现的问题和挑战。内容详细分析了这些数学进展如何影响AI的性能，以及在实际应用中可能遇到的困难。\n\n🎯 推荐 Yves 观看 — 这个视频提供了对AI行业趋势的深入分析，这与Logic Labs和TexTale在创意设计和产品开发中的应用密切相关。"
+    },
+    {
       "name": "Lenny's Podcast",
       "title": "AI's Gap Is a Product Design Failure",
       "videoId": "Pzwy48dQFEM",
@@ -4602,26 +4622,6 @@
       "isShort": false,
       "fetchDate": "2026-09-07",
       "summary_zh": "视频探讨了自我改进的智能系统、地方性个人AI以及Y Combinator为工作提供的代理工具，重点介绍如何利用这些AI技术提升工作效率和创造力。节目的嘉宾分享了一些实际案例，展示了AI如何在多个行业中发挥作用，特别是在开发更智能的、响应用户需求的工具上。\n\n🎯 推荐 Yves 观看 — 作为Logic Labs和TexTale的创始人，您将从中获得关于AI工具在创意设计和电商运营中的应用的重要见解。"
-    },
-    {
-      "name": "The AI Daily Brief",
-      "title": "The Multiplayer AI Sprint: Build Your Team’s First Shared Agent",
-      "videoId": "1BqWLLkJym0",
-      "url": "https://youtube.com/watch?v=1BqWLLkJym0",
-      "publishedAt": "2026-09-07T12:05:51+00:00",
-      "isShort": false,
-      "fetchDate": "2026-09-07",
-      "summary_zh": "这段视频讨论了如何在团队中共同构建一个AI代理，让团队成员可以高效地协作并共享创意。视频介绍了多人AI合作的优势，以及在实践中如何实现这一目标。\n\n💡 值得一看 — 这个内容涉及到团队协作和创意交流，可能对Logic Labs和TexTale在AI应用和设计方面的思考有所启发。"
-    },
-    {
-      "name": "Lenny's Podcast",
-      "title": "The Productivity Frontier Pointed Us Backwards",
-      "videoId": "gfXDIf3zYgo",
-      "url": "https://youtube.com/watch?v=gfXDIf3zYgo",
-      "publishedAt": "2026-09-07T05:40:58+00:00",
-      "isShort": false,
-      "fetchDate": "2026-09-07",
-      "summary_zh": "这个视频探讨了生产力的边界如何影响我们的工作方式，并讨论了在追求效率的过程中，有些传统做法反而被重新审视。通过分析当今社会对生产力的期望，节目主持人提出了一些洞察，帮助人们理解如何更好地适应变化。\n\n💡 值得一看 — 此视频涉及生产力与效率的关系，与创意设计和电商运营都有所关联，可以为 Yves 提供思考和灵感。"
     }
   ],
   "producthunt": [
@@ -4711,7 +4711,7 @@
       "name": "Kilo Code for JetBrains",
       "tagline": "Fully native, open-source coding agent built for JetBrains",
       "url": "https://www.producthunt.com/products/kilocode?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Breakfeed+%28ID%3A+279433%29",
-      "votes": 533,
+      "votes": 534,
       "comments": 99,
       "topics": [
         "Open Source",
@@ -4744,8 +4744,8 @@
       "name": "Switch",
       "tagline": "Bring any AI agent into Slack, Teams & Discord",
       "url": "https://www.producthunt.com/products/switch-11?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Breakfeed+%28ID%3A+279433%29",
-      "votes": 518,
-      "comments": 82,
+      "votes": 519,
+      "comments": 83,
       "topics": [
         "Open Source",
         "Developer Tools",
@@ -4760,7 +4760,7 @@
       "name": "Mastra Factory",
       "tagline": "From issue to production, run by agents.",
       "url": "https://www.producthunt.com/products/mastra?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Breakfeed+%28ID%3A+279433%29",
-      "votes": 496,
+      "votes": 499,
       "comments": 118,
       "topics": [
         "Open Source",
@@ -4777,7 +4777,7 @@
       "name": "Monid",
       "tagline": "OpenRouter for agent tools",
       "url": "https://www.producthunt.com/products/monid?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Breakfeed+%28ID%3A+279433%29",
-      "votes": 494,
+      "votes": 495,
       "comments": 57,
       "topics": [
         "API",
@@ -4793,7 +4793,7 @@
       "name": "GPT-6 Astra",
       "tagline": "OpenAI's most capable model for end-to-end work",
       "url": "https://www.producthunt.com/products/openai?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Breakfeed+%28ID%3A+279433%29",
-      "votes": 491,
+      "votes": 493,
       "comments": 20,
       "topics": [
         "Productivity",
@@ -4873,7 +4873,7 @@
       "repo": "ayghri/i-have-adhd",
       "description": "A skill to stop your coding agent from burying the answer. ADHD-friendly output.",
       "language": "Python",
-      "stars": 40270,
+      "stars": 41147,
       "starsToday": 3440,
       "url": "https://github.com/ayghri/i-have-adhd",
       "summary_zh": "这个项目旨在创建一个能够以简洁明了的方式输出信息的工具，帮助用户更容易获取他们需要的答案，尤其适合ADHD（注意力缺陷多动障碍）患者。对于Yves来说，这个项目可以在Logic Labs（AI 公司）中作为一个创意设计工具，提升团队在开发AI产品时的沟通效率和信息提取能力。在TexTale（科技服装电商）方面，融合这种工具也有助于理解用户反馈和优化客户体验。"
@@ -4882,7 +4882,7 @@
       "repo": "bilawalsidhu/gods-eye-view",
       "description": "A spy satellite simulator in your browser, except the data is real. Live open source spatial intelligence on a photorealistic 3D globe.",
       "language": "JavaScript",
-      "stars": 26086,
+      "stars": 26605,
       "starsToday": 3642,
       "url": "https://github.com/bilawalsidhu/gods-eye-view",
       "summary_zh": "这个项目提供了一个可以在浏览器中使用的卫星模拟器，用户可以在一个高度真实的3D地球上查看实时的空间数据。对于Yves来说，Logic Labs（AI公司）可以利用这个工具进行空间数据分析与可视化，从而探索AI应用的新可能性；而作为创意设计从业者，这个项目也能激发他在创意展示和设计概念方面的灵感。"
@@ -4891,7 +4891,7 @@
       "repo": "nab138/iloader",
       "description": "User friendly sideloader",
       "language": "TypeScript",
-      "stars": 2807,
+      "stars": 2860,
       "starsToday": 36,
       "url": "https://github.com/nab138/iloader",
       "summary_zh": "这个项目是一个用户友好的侧载工具，可以帮助用户轻松安装应用程序，特别是在尚未正式发布的情况下。对Yves的TexTale电商业务可能更有帮助，因为它可以优化手机应用的安装体验，从而提升顾客在购买科技服装时的便捷性。此外，这种技术的应用也能为Yves作为创意设计从业者提供灵感，助力他在产品展示和客户互动方面的创新。"
@@ -4900,7 +4900,7 @@
       "repo": "melgarafael/DeskcommCRM",
       "description": "Open-source AI sales OS — self-hosted CRM with native AI agents + WhatsApp (WAHA). Open alternative to Kommo, Octadesk & Intercom for any business that sells by chat. MCP-ready, multi-tenant, LGPD.",
       "language": "TypeScript",
-      "stars": 1129,
+      "stars": 1240,
       "starsToday": 126,
       "url": "https://github.com/melgarafael/DeskcommCRM",
       "summary_zh": "这个项目是一个开源的客户关系管理系统，专为通过聊天销售的企业设计，内置了人工智能代理和WhatsApp功能，帮助商家更好地管理客户互动。对Yves来说，这个工具可以帮助TexTale提升电商运营效率，利用AI增强客户互动和服务体验，同时也为Logic Labs提供了一个优秀的案例，可以探索AI在销售领域的应用价值。"
@@ -4909,7 +4909,7 @@
       "repo": "vastsa/PI-Desktop",
       "description": "Local-first AI coding agent desktop: Electron + Rust host core + pi Agent Harness + user-installable plugins",
       "language": "TypeScript",
-      "stars": 2633,
+      "stars": 2723,
       "starsToday": 545,
       "url": "https://github.com/vastsa/PI-Desktop",
       "summary_zh": "这个项目是一个本地优先的人工智能编程助手，用户可以在桌面上使用它来辅助编写代码，并且支持安装插件以扩展功能。对于Yves来说，这个工具可以帮助Logic Labs提升AI应用的开发效率，同时也为TexTale提供关于电商平台的技术支持，改善客户体验。作为创意设计从业者，PI-Desktop让Yves能够更加高效地将创意转化为技术实现。"
@@ -4918,7 +4918,7 @@
       "repo": "armory3d/armorpaint",
       "description": "Graphics Creation Tools",
       "language": "C",
-      "stars": 4621,
+      "stars": 4673,
       "starsToday": 354,
       "url": "https://github.com/armory3d/armorpaint",
       "summary_zh": "这个项目名为 ArmorPaint，是一个用于图形创作的工具，主要帮助用户制作和编辑高质量的3D纹理和材质。对于Yves来说，这个工具可以为TexTale的科技服装设计提供创意支持，帮助他在产品展示和市场推广中提升视觉效果，增强品牌吸引力。作为创意设计从业者，ArmorPaint 还能激发他的创意灵感，提高作品的视觉效果。"
@@ -4927,7 +4927,7 @@
       "repo": "alsk1992/CloddsBot",
       "description": "Open Source AI trading agent that operates autonomously across 1000+ markets - Polymarket, Kalshi, Binance, Hyperliquid, Solana DEXs, 5 EVM chains. Scans for edge, executes instantly, manages risk while you sleep. Agent commerce protocol for machine-to-machine payments. Self-hosted. Built on Claude.",
       "language": "TypeScript",
-      "stars": 1976,
+      "stars": 2069,
       "starsToday": 627,
       "url": "https://github.com/alsk1992/CloddsBot",
       "summary_zh": "这个项目是一个开源的人工智能交易代理，可以在1000多个市场上自动进行交易，帮助用户在睡觉时也能管理投资风险并获取收益。对于Yves来说，这个项目可能对Logic Labs（AI公司）更有帮助，因为它展示了AI在金融领域的应用，能够激发出更多创意的AI工具和解决方案。同时，这也可以为他在电商和品牌营销中探索基于AI的智能化服务提供启发。"
@@ -4936,7 +4936,7 @@
       "repo": "nashsu/llm_wiki",
       "description": "LLM Wiki is a cross-platform desktop application that turns your documents into an organized, interlinked knowledge base — automatically. Instead of traditional RAG (retrieve-and-answer from scratch every time), the LLM incrementally builds and maintains a persistent wiki from your sources。",
       "language": "TypeScript",
-      "stars": 18496,
+      "stars": 18638,
       "starsToday": 640,
       "url": "https://github.com/nashsu/llm_wiki",
       "summary_zh": "这个项目是一个桌面应用程序，可以将你的文件自动整理成一个互联的知识库，而不是每次都从头开始回答问题。它通过自动维护的方式，帮助用户高效地从文档中提取信息。\n\n对Yves来说，这个项目可以为Logic Labs（AI公司）提供灵活的知识管理工具，有助于提升团队协作和信息整合效率。同时，它也能为创意设计提供灵感和信息支持。"
@@ -4945,7 +4945,7 @@
       "repo": "obra/superpowers",
       "description": "An agentic skills framework & software development methodology that works.",
       "language": "Shell",
-      "stars": 285125,
+      "stars": 285262,
       "starsToday": 731,
       "url": "https://github.com/obra/superpowers",
       "summary_zh": "这个项目旨在提供一个灵活的技能框架和软件开发方法，帮助团队更高效地协作和创新。对Yves来说，这个项目可以在Logic Labs（AI公司）中提升团队的开发效率，从而加速AI相关产品的落地。作为创意设计从业者，它还能够激发新的创意设计流程，提高产品开发的灵活性和创新性。"
@@ -4954,7 +4954,7 @@
       "repo": "Sonarr/Sonarr",
       "description": "Smart PVR for newsgroup and bittorrent users.",
       "language": "C#",
-      "stars": 15627,
+      "stars": 15693,
       "starsToday": 174,
       "url": "https://github.com/Sonarr/Sonarr",
       "summary_zh": "这个项目是一个智能的个人录影机，主要为使用新闻组和种子下载的用户提供自动下载和管理电视节目的功能。对 TexTale（科技服装电商）可能有帮助，因为可以借助数据管理工具更好地分析市场趋势和用户偏好，从而优化营销策略；此外，作为创意设计从业者，Yves 可以从中获得关于如何整合技术与创意的启发。"
@@ -4963,7 +4963,7 @@
   "aigc_rankings": {
     "image": [],
     "video": [],
-    "fetchedAt": "2026-09-11T14:01:05.583868+00:00",
+    "fetchedAt": "2026-09-11T18:56:56.129419+00:00",
     "sources": [
       "Artificial Analysis",
       "LM Arena",
