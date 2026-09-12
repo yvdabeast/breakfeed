@@ -1,73 +1,6 @@
 {
-  "generatedAt": "2026-09-11T23:48:53.865211+00:00",
+  "generatedAt": "2026-09-12T08:19:38.311170+00:00",
   "twitter": [
-    {
-      "source": "x",
-      "name": "Josh Woodward",
-      "handle": "joshwoodward",
-      "bio": "VP, @Google @GoogleLabs @GeminiApp @GoogleAIStudio",
-      "tweets": [
-        {
-          "id": "2098131750660772342",
-          "text": "Gemini, now on Windows!\n\nGet it: https://t.co/mKpROGeCl3 https://t.co/59jHumlY0X",
-          "createdAt": "2026-09-10T19:29:25.000Z",
-          "url": "https://x.com/joshwoodward/status/2098131750660772342",
-          "likes": 459,
-          "retweets": 26,
-          "replies": 61,
-          "isQuote": true,
-          "quotedTweetId": "2098080062570721619",
-          "summary_zh": "Gemini 现在可以在 Windows 上使用了！大家可以去下载试试。"
-        }
-      ],
-      "bio_zh": "Google Labs 产品负责人，推动 Google AI 产品创新",
-      "fetchDate": "2026-09-11"
-    },
-    {
-      "source": "x",
-      "name": "Boris Cherny",
-      "handle": "bcherny",
-      "bio": "Claude Code @anthropicai",
-      "tweets": [
-        {
-          "id": "2098281805770309686",
-          "text": "The latest Threat Intelligence report is an absolutely terrifying and important read. \n\nAs models become more intelligent, without the right safeguards and monitoring they also become more dangerous. Many capabilities are dual use: a model that codes well can be used to hack critical infrastructure; a model that assists with biology research can also be used to engineer the next pandemic. \n\nThese issues are complex, thorny, and increasingly important for everyone to understand so that the world can weigh in and respond to rapidly escalating risks.\n\nhttps://t.co/0rnV2HjPP6",
-          "createdAt": "2026-09-11T05:25:41.000Z",
-          "url": "https://x.com/bcherny/status/2098281805770309686",
-          "likes": 338,
-          "retweets": 43,
-          "replies": 62,
-          "isQuote": false,
-          "quotedTweetId": null,
-          "summary_zh": "最新的威胁情报报告让人感到很恐慌，但又非常重要。随着人工智能变得越来越聪明，如果没有适当的保护措施，它们可能会带来危险。有些技术既可以用来做好事，也可以用来做坏事，比如帮助编程的AI可能被用来黑客入侵关键设施，而用于生物研究的AI可能被滥用来制造新的疫情。了解这些复杂的问题对我们每个人都变得越来越重要，这样我们才能一起应对迅速上升的风险。"
-        },
-        {
-          "id": "2098217573276131577",
-          "text": "Hey ████,\n\nI think there is room for both.\n\n1. Prototypes and other throw-away code can be treated as totally black box. If you’re going to throw it away anyway, and if the blast radius of it breaking is low, it doesn’t need to be perfect.\n2. Production code written by Claude should have a higher bar than if it was written by a human. At Anthropic, we have many guardrails in place to make sure this is happening: lots of lint rules, lots of tests, Claude-driven end to end tests, Claude-powered fuzzers running daily, automated code reviews and security reviews, automated code refactoring, and so on. Without these, you can end up with a mess that is hard to maintain down the line. Luckily, the model makes it increasingly easy to do these well — run a few daily routines, use Claude Code Review, etc.\n\nYour job is to hold the bar on code quality. If Claude’s code doesn’t meet the bar, try:\n- Using the latest frontier model (Opus 5 or Fable 5.1)\n- Increase effort to high or xhigh\n- Invest in your CLAUDE.md and skills to succinctly teach Claude how to work in your codebase\n\nIf all else fails, steer Claude more when you work with it, or have Claude fix accumulated debt and rewrite your codebase to make it easier to work with. Or, wait for the next model.\n\nBest,\nBoris",
-          "createdAt": "2026-09-11T01:10:27.000Z",
-          "url": "https://x.com/bcherny/status/2098217573276131577",
-          "likes": 1155,
-          "retweets": 47,
-          "replies": 70,
-          "isQuote": false,
-          "quotedTweetId": null,
-          "summary_zh": "对于开发者来说，试用的原型代码可以简单处理，不必追求完美，但正式使用的代码必须更高标准。为了确保代码质量，使用自动化工具和测试很重要。如果Claude（一个AI程序）的代码质量不合格，可以尝试更新模型或调整工作方式来提高效果。总之，保持代码质量是你的责任，必要时让AI帮助修复问题。"
-        },
-        {
-          "id": "2098217571153838124",
-          "text": "Every day, I get a lot of of emails and messages like this one. I try to respond to as many as I can.\n\nSharing my response below, for anyone else in a similar situation. What do you think? https://t.co/z1GtgK14RM",
-          "createdAt": "2026-09-11T01:10:26.000Z",
-          "url": "https://x.com/bcherny/status/2098217571153838124",
-          "likes": 1737,
-          "retweets": 55,
-          "replies": 110,
-          "isQuote": false,
-          "quotedTweetId": null,
-          "summary_zh": "他每天收到很多类似的邮件和信息，尽量回复尽可能多的人。分享了他的回复，希望能帮助到有类似情况的人。你觉得怎么样？"
-        }
-      ],
-      "fetchDate": "2026-09-11"
-    },
     {
       "source": "x",
       "name": "Thibault Sottiaux",
@@ -75,43 +8,43 @@
       "bio": "Codex & ChatGPT @OpenAI",
       "tweets": [
         {
-          "id": "2098238138334548260",
-          "text": "Scaled agents on demand.\n\nThis is pretty much the infrastructure that runs under the hood for ChatGPT Work, all wrapped up in an API which you can use to get started in &lt; 1 min. Happy building. https://t.co/GhmuBkfjP1",
-          "createdAt": "2026-09-11T02:32:10.000Z",
-          "url": "https://x.com/thsottiaux/status/2098238138334548260",
-          "likes": 2715,
-          "retweets": 60,
-          "replies": 483,
-          "isQuote": true,
-          "quotedTweetId": "2098130889486274820",
-          "summary_zh": "有一个新系统可以快速创建和使用智能助手，比如ChatGPT，开发者只要简单几步就能开始使用。这个技术让大家可以更容易地构建自己的应用程序。"
+          "id": "2098639827084480864",
+          "text": "Astra powered ships this week\n\n- Images 2.5\n- GPT-Live-1\n- Agents API\n- Data Agent\n- ChatGPT for Financial Services\n\nand yet it’s not yet DevDay. Busy plans for next week too.",
+          "createdAt": "2026-09-12T05:08:20.000Z",
+          "url": "https://x.com/thsottiaux/status/2098639827084480864",
+          "likes": 4233,
+          "retweets": 175,
+          "replies": 400,
+          "isQuote": false,
+          "quotedTweetId": null,
+          "summary_zh": "这周的Astra（一个新技术平台）推动了一些船只的进展，包括新的功能和工具，比如图像生成和金融服务中的ChatGPT。听起来下周也会有更多事情要忙呢！"
         },
         {
-          "id": "2098165551554240764",
-          "text": "Do you pronounce it data or data? This is the way everyone makes dashboards and learns about the business at OpenAI. Can't live without it. https://t.co/9NAremYs1h",
-          "createdAt": "2026-09-10T21:43:44.000Z",
-          "url": "https://x.com/thsottiaux/status/2098165551554240764",
-          "likes": 1951,
-          "retweets": 61,
-          "replies": 521,
-          "isQuote": true,
-          "quotedTweetId": "2098065296968011853",
-          "summary_zh": "是说大家对“数据”这个词的发音有不同看法，有人说“data”（发音为‘黛塔’），有人说“data”（发音为‘达塔’）。在OpenAI，大家用这些数据做仪表盘（展示信息的工具）和了解业务，觉得少了它们就不行！"
+          "id": "2098612714704891959",
+          "text": "Hi Astra users. A reset and a quick update on quality issues that have been posted around.\n\nWorking with some of you, we have found and fixed the following issues:\n- Some skills written for previous models were triggering too often or preventing the model from checking its work.\n- An opt-in context management experiment that could cause early stops or replies to older messages. We've disabled it. Our rough estimate is that 4-5k users were affected by this experiment.\n- We've also removed some badly configured engines that resulted in a measured quality degradation for a long tail of traffic flowing through them.\n\nWe’ve also made some more minor improvements and things should feel significantly better across the board. More consistent follow-through, better tracking of your latest message, and better checks on the work as it’s going through the motions.\n\nThe examples posted and all the users who worked directly with us were incredibly useful in helping fix things quickly. Always grateful for this incredible community.\n\nAnd of course, a reset is also landing by midnight today.",
+          "createdAt": "2026-09-12T03:20:36.000Z",
+          "url": "https://x.com/thsottiaux/status/2098612714704891959",
+          "likes": 15758,
+          "retweets": 1125,
+          "replies": 2247,
+          "isQuote": false,
+          "quotedTweetId": null,
+          "summary_zh": "Astra 用户们好，最近我们对一些质量问题进行了修复。目前已解决的一些问题包括：之前模型的某些技能触发太频繁，还有一个实验导致模型在和老消息互动时出现问题，我们已经关闭了这个实验。大约有4,000到5,000用户受到了影响。另外，我们还移除了一些配置不当的引擎，这些引擎让使用体验变差。\n\n我们还进行了其他一些小改进，现在整体体验会好很多，比如信息跟进更一致、最新消息的追踪更准确、工作检查也更仔细了。非常感谢那些直接与我们合作的用户，你们的反馈帮助我们快速修复问题。今晚午夜之前还会有一个重置上线。"
         },
         {
-          "id": "2098113585683808624",
-          "text": "To make sure our current users have an incredible experience and continued access to Astra, we are going to pause subscriptions to our $200 Pro plan. These put the most strain on our systems and we wanted to take the smallest step that allows us to continue giving the broadest access possible. All other plans and the api remain available.\n\nThere is no impact to existing accounts and we are working on adding more capacity as fast as we can. Thanks!",
-          "createdAt": "2026-09-10T18:17:14.000Z",
-          "url": "https://x.com/thsottiaux/status/2098113585683808624",
-          "likes": 15157,
-          "retweets": 929,
-          "replies": 2518,
-          "isQuote": true,
-          "quotedTweetId": "2097559315150426222",
-          "summary_zh": "为了给现有用户更好的体验，OpenAI决定暂停$200的Pro计划订阅，因为这个计划对系统压力最大。其他计划和API（应用程序接口）仍然可以使用，已经注册的账号不受影响，他们也在努力提升系统的容量。"
+          "id": "2098569976143806918",
+          "text": "Excited to welcome Aidan & @\nSasha from the Git AI team to OpenAI! \n\nThey are building in the open and have developed an open-source tool that helps developers understand how coding agents contribute to their codebase. \n\nTogether, we’ll make it easier for businesses to see where Codex is making a difference when working through problems for individuals and teams. We’ll also keep Git AI open source and continue investing in it.",
+          "createdAt": "2026-09-12T00:30:46.000Z",
+          "url": "https://x.com/thsottiaux/status/2098569976143806918",
+          "likes": 3042,
+          "retweets": 73,
+          "replies": 428,
+          "isQuote": false,
+          "quotedTweetId": null,
+          "summary_zh": "欢迎Aidan和Sasha加入OpenAI的团队！他们开发了一个开源工具，帮助开发者理解编程助手（coding agents）如何影响他们的代码。我们会一起让企业更容易看到Codex在解决问题时的贡献，同时也会继续支持这个开源项目。"
         }
       ],
-      "fetchDate": "2026-09-11"
+      "fetchDate": "2026-09-12"
     },
     {
       "source": "x",
@@ -120,54 +53,44 @@
       "bio": "Practical AI tutorials and interviews for busy people | Get my best AI skills and guides at https://t.co/6VAA6p81x6",
       "tweets": [
         {
-          "id": "2098215935467544604",
-          "text": "In my humble opinion, for getting shit done Sol &gt; Astra",
-          "createdAt": "2026-09-11T01:03:56.000Z",
-          "url": "https://x.com/petergyang/status/2098215935467544604",
-          "likes": 401,
-          "retweets": 10,
-          "replies": 67,
+          "id": "2098614492066435228",
+          "text": "I have decided to do this after much deliberation: \n\nAll local scheduled tasks live in Codex. All cloud tasks I’m porting over to Grok Bot. \n\nMakes it a clean split.",
+          "createdAt": "2026-09-12T03:27:39.000Z",
+          "url": "https://x.com/petergyang/status/2098614492066435228",
+          "likes": 91,
+          "retweets": 2,
+          "replies": 19,
           "isQuote": false,
           "quotedTweetId": null,
-          "summary_zh": "我认为在完成任务方面，Sol 更强于 Astra。 Sol和Astra 可能是两个工具或平台的名称，作者觉得 Sol 更有效。"
+          "summary_zh": "经过深思熟虑，我决定将所有本地计划的任务留在Codex上，而把云端任务转移到Grok Bot上。这样划分比较清晰。 \n\n简单来说，就是他把不同的任务分开管理，让事情更加有条理。"
+        },
+        {
+          "id": "2098573992097657135",
+          "text": "Read why here: https://t.co/qMkuBOwSKk",
+          "createdAt": "2026-09-12T00:46:43.000Z",
+          "url": "https://x.com/petergyang/status/2098573992097657135",
+          "likes": 1,
+          "retweets": 2,
+          "replies": 0,
+          "isQuote": false,
+          "quotedTweetId": null,
+          "summary_zh": "这条推文发了个链接，并且说“在这里看看原因”。大概是在引导大家去点击链接了解一些事情的详情。"
+        },
+        {
+          "id": "2098565668241334366",
+          "text": "I am skeptical of \"software factories.\"\n\nOther than for verification & testing, I don't think AI is at a point where it can self-improve a product or build a new feature end-to-end without human in the loop.\n\nWhenever I loop something overnight to build something new = if it makes one wrong assumption the whole thing becomes a waste of tokens. \n\nWhat products or features have been built end-to-end with a software factory and no human defining the requirements or checking the work?",
+          "createdAt": "2026-09-12T00:13:39.000Z",
+          "url": "https://x.com/petergyang/status/2098565668241334366",
+          "likes": 179,
+          "retweets": 9,
+          "replies": 82,
+          "isQuote": false,
+          "quotedTweetId": null,
+          "summary_zh": "对“软件工厂”（一种专门开发软件的流程）持怀疑态度。除了验证和测试，他觉得现在的AI还不能完全独立改进产品或创建新功能，需要人类参与。 如果一不小心循环出错，就全白忙活了。他想问有什么产品或功能是完全靠这种“软件工厂”做出来的，而没有人来定义需求或检查结果的。"
         }
       ],
       "bio_zh": "Roblox 产品经理，14 万订阅的 AI 实操教程作者",
-      "fetchDate": "2026-09-11"
-    },
-    {
-      "source": "x",
-      "name": "Nan Yu",
-      "handle": "thenanyu",
-      "bio": "(soon) member of product staff @openai. prev head of product @linear. I am grader.",
-      "tweets": [
-        {
-          "id": "2098216215525331353",
-          "text": "Yet normies use Google and Instagram and Zillow and Doordash all day every day. \n\nStill. Early. https://t.co/YO92sTMaqd",
-          "createdAt": "2026-09-11T01:05:03.000Z",
-          "url": "https://x.com/thenanyu/status/2098216215525331353",
-          "likes": 15,
-          "retweets": 0,
-          "replies": 2,
-          "isQuote": true,
-          "quotedTweetId": "2097609002557354036",
-          "summary_zh": "虽然很多普通人每天都在用谷歌（搜索引擎）、Instagram（社交媒体）、Zillow（房产网站）和DoorDash（外卖平台），但我们现在仍然处于人工智能发展的初期阶段。"
-        },
-        {
-          "id": "2098094411465048497",
-          "text": "Don't call it a private equity acquisition for a huge discount from peak valuation. \nCall it an Italian goodbye.",
-          "createdAt": "2026-09-10T17:01:03.000Z",
-          "url": "https://x.com/thenanyu/status/2098094411465048497",
-          "likes": 231,
-          "retweets": 12,
-          "replies": 6,
-          "isQuote": false,
-          "quotedTweetId": null,
-          "summary_zh": "这句话在说，有些公司被低价收购时，不应该直接叫它“私募股权收购”（一种投资方式）。而是应该形象地称之为“意大利式告别”，可能是说这种收购方式看起来像是轻松而无奈的别离。"
-        }
-      ],
-      "bio_zh": "AI 产品经理和创业者，关注 AI 产品化落地",
-      "fetchDate": "2026-09-11"
+      "fetchDate": "2026-09-12"
     },
     {
       "source": "x",
@@ -176,20 +99,32 @@
       "bio": "Sr Director, AI at Meta; Prev: Google - Led Gemini, Veo, Nano Banana.",
       "tweets": [
         {
-          "id": "2098064969464217720",
-          "text": "How to build great evals - part 10\n\nMeasure the steps, not just the result.\n\nMuch like high school math, it isn’t sufficient just to get the right answer, the steps to get there are critical.\n\nTwo agent trajectories might produce the same answer (42!!).\n\nbut one of them  searches the right sources, retrieves the right document, makes 4 clean tool calls and calculates the result. The other makes 17 calls, searches the same thing 3 times, recovers from 2 errors and eventually gets there. \n\nIt’s clear which one is better.\n\nHere’s what you need to do:\n1/ clearly define your whole workflow\n2/ define the tasks in each step\n3/ think through how you measure each step - separate evals or is it a slice of a bigger eval\n4/ define your median and hard tasks - reflect them in your evals\n\nNow any time you look at eval results, study the steps first and the final results next.",
-          "createdAt": "2026-09-10T15:04:03.000Z",
-          "url": "https://x.com/realmadhuguru/status/2098064969464217720",
-          "likes": 133,
-          "retweets": 7,
-          "replies": 13,
+          "id": "2098448469497356569",
+          "text": "https://t.co/Vkfx96ev4e",
+          "createdAt": "2026-09-11T16:27:57.000Z",
+          "url": "https://x.com/realmadhuguru/status/2098448469497356569",
+          "likes": 2,
+          "retweets": 0,
+          "replies": 0,
           "isQuote": true,
-          "quotedTweetId": "2092426017118028266",
-          "summary_zh": "要打造优秀的评估系统，不能只关注最终结果，还得重视整个过程。就像高中数学，单靠答案不够，解决问题的步骤同样重要。有的AI做同样的工作，但用的步骤和方法不同，效率和效果也会有差距。\n\n你需要做的：\n1. 明确整个工作流程；\n2. 定义每一步的任务；\n3. 考虑如何衡量每一步的表现，是分别评估还是作为更大评估的一部分；\n4. 确定中等和难度任务，并在评估中反映出来。\n\n所以，下次看评估结果时，先看过程，再看最终结果哦！"
+          "quotedTweetId": "2098064969464217720",
+          "summary_zh": ""
+        },
+        {
+          "id": "2098448235048378456",
+          "text": "Why most enterprise AI efforts fail.\n\n1/ Using old-school playbooks for AI\nThe CEO picks a trusted lieutenant to lead a central AI team. That leader pulls in a group of trusted people from across the company.\n\nThe problem here is the skill gap.\n\nThe team structure, product patterns, how you launch and learn that got you here do not work with AI. Much of product development over the last 15 yrs has been incremental improvements.\n\nAI requires experimentation and invention.\n\n2/ Under-investing in evals\n\nMost enterprises don't quite understand the importance of this and what good looks like here. (I have a whole evals series in the comments - check it out)\n\n3/ Building AI for the company from the outside\n\nThe central AI team declares itself a platform team and builds tools that everyone is supposed to adopt.\n\nThese products are often disconnected from the actual workflows, context and judgment of the people doing the work.\n\nBegrudging adoption follows. But not meaningful productivity gains.\n\nWhat you should do:\n\n1/ Hire leaders who have done successfully built AI products. You need technical/product depth plus the ability to earn trust with the people whose jobs they’re helping reinvent.\n\n2/ Make evals a first class citizen in your AI efforts\n\n3/ Embed your best AI builders inside the functions you want to transform. Build * with * finance , build * with * sales, build * with * support.",
+          "createdAt": "2026-09-11T16:27:01.000Z",
+          "url": "https://x.com/realmadhuguru/status/2098448235048378456",
+          "likes": 96,
+          "retweets": 5,
+          "replies": 11,
+          "isQuote": true,
+          "quotedTweetId": "2098218284139311615",
+          "summary_zh": "很多企业在做 AI 方面的努力都失败了，主要有几个原因：\n\n1. 老方法不灵了，传统的团队组合和工作模式无法适应 AI 的需求，AI 需要更多的实验和创新。\n2. 对评估（评估你们的 AI 成果和流程的过程）的重视不够，很多企业不知道该怎么做。\n3. AI 团队通常是在外部构建产品，而这些产品往往和实际工作流程不搭，让员工很难接受。\n\n想要成功，就要：  \n1. 招聘有成功经验的 AI 领导者，既要懂技术，又能获得员工的信任。\n2. 让评估成为 AI 项目的重要部分。\n3. 把最好的 AI 开发人员放在需要改变的部门，和他们一起合作。"
         }
       ],
       "bio_zh": "AI 创业者和投资人，关注 AI 基础设施",
-      "fetchDate": "2026-09-11"
+      "fetchDate": "2026-09-12"
     },
     {
       "source": "x",
@@ -198,42 +133,32 @@
       "bio": "Claude Code @anthropicai. prev YC W20, @spc, @medialab",
       "tweets": [
         {
-          "id": "2098157600361861579",
-          "text": "Try this prompt in Claude chat to give it more context about yourself:\n\nInterview me in depth using free text, or askuserquestion tool when multiple choice works, about relevant parts of my life you don’t know about yet and save it all to memory. https://t.co/VnfnFo7h4q",
-          "createdAt": "2026-09-10T21:12:08.000Z",
-          "url": "https://x.com/trq212/status/2098157600361861579",
-          "likes": 1774,
-          "retweets": 94,
-          "replies": 64,
+          "id": "2098531560643539440",
+          "text": "we heard feedback that it's hard to know if your skills are still working with new model releases\n\nplugin evals are here to help\n\nrun `claude plugin eval init` in your plugin folder https://t.co/Q0I1ZnugDs",
+          "createdAt": "2026-09-11T21:58:07.000Z",
+          "url": "https://x.com/trq212/status/2098531560643539440",
+          "likes": 1250,
+          "retweets": 58,
+          "replies": 47,
           "isQuote": true,
-          "quotedTweetId": "2098096488811512295",
-          "summary_zh": "试试在 Claude 聊天中使用这个提示，给 AI 更多关于你自己的信息：让它深入采访你，了解你生活中相关但还不知道的部分，并把这些信息记住。"
+          "quotedTweetId": "2098500999656923145",
+          "summary_zh": "如果你在使用新版本的 AI 模型时不知道自己的技能是否还有效，不用担心，推出了一个新工具可以帮助你。只需在你的插件文件夹中运行 `claude plugin eval init` 这个命令就可以了！"
+        },
+        {
+          "id": "2098490139798655427",
+          "text": "it's basically impossible to interpret evals by looking at just at the pass/fail scores these days\n\nmany of the failures I see in benchmarks are due to overly strict hidden tests, in some cases the model's answer makes more sense than the expected eval result",
+          "createdAt": "2026-09-11T19:13:32.000Z",
+          "url": "https://x.com/trq212/status/2098490139798655427",
+          "likes": 1504,
+          "retweets": 62,
+          "replies": 113,
+          "isQuote": false,
+          "quotedTweetId": null,
+          "summary_zh": "现在光看通过和不通过的分数，几乎没法理解评估结果了。很多时候，模型的回答比预期的评估结果更合理，因为评估中的一些隐藏测试太严格了。"
         }
       ],
       "bio_zh": "Anthropic 工程师，Claude Code（AI 编程工具）核心开发者",
-      "fetchDate": "2026-09-11"
-    },
-    {
-      "source": "x",
-      "name": "Google Labs",
-      "handle": "GoogleLabs",
-      "bio": "Google’s home for our latest AI tools and experiments.",
-      "tweets": [
-        {
-          "id": "2098110018289803558",
-          "text": "It’s time to ☁️ dream bigger ☁️\n\nDreambeans is officially available to all US users (18+) on iOS and Android, free of charge. No subscription required.\n\nYou can also now connect @Geminiapp to Dreambeans. Dreambeans will build off the nuance and understanding from your chats to surface even more insightful and personalized daily stories.\n\nGet your daily, freshly brewed collection of stories here: https://t.co/jCdAzMHvOD",
-          "createdAt": "2026-09-10T18:03:04.000Z",
-          "url": "https://x.com/GoogleLabs/status/2098110018289803558",
-          "likes": 393,
-          "retweets": 45,
-          "replies": 15,
-          "isQuote": false,
-          "quotedTweetId": null,
-          "summary_zh": "现在可以在美国的 iOS 和 Android 手机上免费使用 Dreambeans 这个 AI 工具了！这个工具会根据你跟 Gemini 应用的聊天内容，提供更个性化和有趣的每日故事，快去体验吧！"
-        }
-      ],
-      "bio_zh": "Google 实验性 AI 产品官方账号，发布最新 AI 工具和功能",
-      "fetchDate": "2026-09-11"
+      "fetchDate": "2026-09-12"
     },
     {
       "source": "x",
@@ -242,44 +167,44 @@
       "bio": "ceo @replit. civilizationist",
       "tweets": [
         {
-          "id": "2098171773413929322",
-          "text": "Chat with the etn bros! https://t.co/lMH3Pqbeat",
-          "createdAt": "2026-09-10T22:08:27.000Z",
-          "url": "https://x.com/amasad/status/2098171773413929322",
-          "likes": 74,
-          "retweets": 6,
-          "replies": 4,
+          "id": "2098548464452055437",
+          "text": "Replit acquires a business entirely built on Replit. I expect first of many to come. https://t.co/hL516eAAu2",
+          "createdAt": "2026-09-11T23:05:17.000Z",
+          "url": "https://x.com/amasad/status/2098548464452055437",
+          "likes": 548,
+          "retweets": 17,
+          "replies": 35,
           "isQuote": true,
-          "quotedTweetId": "2098097866141245816",
-          "summary_zh": "快来和 etn 兄弟们聊聊吧！这意味着他在邀请大家讨论一些关于技术或者AI相关的话题。"
+          "quotedTweetId": "2098418513748599089",
+          "summary_zh": "Replit收购了一家完全基于他们平台建立的公司，感觉这只是个开始，以后还会有更多类似的收购。"
         },
         {
-          "id": "2098171501505581559",
-          "text": "Chat with PG in London! https://t.co/E0Gs90oQRc",
-          "createdAt": "2026-09-10T22:07:22.000Z",
-          "url": "https://x.com/amasad/status/2098171501505581559",
-          "likes": 204,
+          "id": "2098317466682179643",
+          "text": "Routines with budgets! https://t.co/bAweXu6MJt",
+          "createdAt": "2026-09-11T07:47:23.000Z",
+          "url": "https://x.com/amasad/status/2098317466682179643",
+          "likes": 66,
+          "retweets": 3,
+          "replies": 13,
+          "isQuote": true,
+          "quotedTweetId": "2098189000452542668",
+          "summary_zh": "有预算的日常活动！看起来他在分享一个关于管理预算的工具或想法，可能跟使用 AI 帮助大家更好地规划日常开销有关。"
+        },
+        {
+          "id": "2098316298820219058",
+          "text": "Love seeing all the Astra 3D experiments on Replit! https://t.co/PC7FBalOeW",
+          "createdAt": "2026-09-11T07:42:45.000Z",
+          "url": "https://x.com/amasad/status/2098316298820219058",
+          "likes": 193,
           "retweets": 4,
-          "replies": 9,
+          "replies": 19,
           "isQuote": true,
-          "quotedTweetId": "2098151693770801173",
-          "summary_zh": "在伦敦和PG（可能是某位知名人物）聊天哦！有兴趣的人可以点链接看看。"
-        },
-        {
-          "id": "2098171265924116732",
-          "text": "Lots of risk with AI. I worry a lot about cybersecurity for example. However, “extinction risk” — literally 100% of humans die — is not remotely one of them. https://t.co/48n1fYmyh7",
-          "createdAt": "2026-09-10T22:06:26.000Z",
-          "url": "https://x.com/amasad/status/2098171265924116732",
-          "likes": 516,
-          "retweets": 45,
-          "replies": 59,
-          "isQuote": true,
-          "quotedTweetId": "2098088415644274914",
-          "summary_zh": "AI 有很多风险，我挺担心网络安全的问题。但“灭绝风险”（就是所有人类都可能消失的风险）根本不是其中之一。"
+          "quotedTweetId": "2097387582166650937",
+          "summary_zh": "看到很多人用 Replit（一个在线编程工具）做 Astra 3D（3D 实验）真开心！"
         }
       ],
       "bio_zh": "Replit CEO，致力于让所有人都能用 AI 写代码和部署应用",
-      "fetchDate": "2026-09-11"
+      "fetchDate": "2026-09-12"
     },
     {
       "source": "x",
@@ -288,44 +213,20 @@
       "bio": "@vercel CEO",
       "tweets": [
         {
-          "id": "2098158541932794222",
-          "text": "A computer for every agent, in every region https://t.co/3Bzea8XIY0",
-          "createdAt": "2026-09-10T21:15:52.000Z",
-          "url": "https://x.com/rauchg/status/2098158541932794222",
-          "likes": 131,
-          "retweets": 2,
-          "replies": 23,
+          "id": "2098531157230969062",
+          "text": "Tailscale’s model router is powered by Vercel AI Gateway as its underlying infrastructure.\n\nAI Gateways are the new CDNs. You could go “direct to origin”, but it’s brittle. You could DIY, but it’s painful and costly.\n\nProud to serve Tailscale, the 🐐 networking technology company https://t.co/ERS5GKJx6D",
+          "createdAt": "2026-09-11T21:56:31.000Z",
+          "url": "https://x.com/rauchg/status/2098531157230969062",
+          "likes": 290,
+          "retweets": 9,
+          "replies": 27,
           "isQuote": true,
-          "quotedTweetId": "2098158090722173062",
-          "summary_zh": "每个地方都要有一台电脑来帮助每个智能体（就是那些能独立完成任务的程序）。这听起来像是在说，未来想实现的目标是让更多的智能系统能随时随地运行。"
-        },
-        {
-          "id": "2098091056302833837",
-          "text": "Each day ~10 million deployments are made on Vercel, with 2.35 billion made to date.\n\nVercel is one of the most heavily multi-tenant systems in the world. Billions of application deployments co-exist and are accessible ('routable') on our CDN at any given moment.\n\nUnderlying our CDN is a global metadata store that synchronizes within hundreds of milliseconds, globally. e.g: when you roll back, change config, add routes, etc.\n\nWe just made this system 91% faster at p99, and in the process sped up the build→deploy pipeline. All of this while the system is under immense pressure from the growth in agentic deployments.\n\nGreat read on the internals of Vercel from our CDN engineering team:",
-          "createdAt": "2026-09-10T16:47:43.000Z",
-          "url": "https://x.com/rauchg/status/2098091056302833837",
-          "likes": 509,
-          "retweets": 20,
-          "replies": 38,
-          "isQuote": true,
-          "quotedTweetId": "2098082787865899300",
-          "summary_zh": "每天大约有1000万个应用程序上线，在Vercel平台上总共已经达到了23.5亿次。Vercel是全球多个用户共享的系统之一，能同时处理这么多应用程序。\n\n最近，他们将这个系统的速度提高了91%，同时还加快了从构建到上线的过程。这一切都是在不断增长的压力下实现的。想了解更多，可以看看他们工程团队的详细介绍。"
-        },
-        {
-          "id": "2098066258155708851",
-          "text": "We made deployments faster again https://t.co/lrtQdx1iK1",
-          "createdAt": "2026-09-10T15:09:10.000Z",
-          "url": "https://x.com/rauchg/status/2098066258155708851",
-          "likes": 269,
-          "retweets": 7,
-          "replies": 26,
-          "isQuote": true,
-          "quotedTweetId": "2098065630121591115",
-          "summary_zh": "我们又让网页的上线速度更快啦！这对于开发者来说是个好消息，可以让他们更迅速地把新功能发布给用户。"
+          "quotedTweetId": "2098517466704167211",
+          "summary_zh": "Tailscale 的网络模型使用了 Vercel 的 AI 网关，这种网关可以比作新一代的内容分发网络（CDN），让数据传输更稳定。虽然也可以自己搭建，但那样既麻烦又花钱。为能够支持 Tailscale 这样棒的网络公司感到自豪！"
         }
       ],
       "bio_zh": "Vercel CEO，Next.js 创造者，v0 AI 代码生成工具的幕后推手",
-      "fetchDate": "2026-09-11"
+      "fetchDate": "2026-09-12"
     },
     {
       "source": "x",
@@ -334,32 +235,76 @@
       "bio": "ceo @box - your business lives in content. unleash it with AI",
       "tweets": [
         {
-          "id": "2098218284139311615",
-          "text": "Some more tales from the road. Met with a couple dozen technology leaders this week across banking, media, information services, insurance, and consulting to discuss agents in the enterprise.\n\nSome of the biggest trends right now:\n\n* Cyber! Everyone nervous about the growing rate of vulnerabilities coming at them from AI, and the implications of the OpenAI Hugging Face incident. The conversation is not as existential as it is in Silicon Valley, but still highly concerned and pragmatic about what to do about it operationally in their environments. Lots of new discoveries due to AI, and still hard to keep up with all the changes they have to execute now.\n\n* Model battles persist. Most companies are deploying multiple frontier models within their enterprise. Too hard to standardize on anything and seeing different preferences across their teams and use cases. But the dollars are still concentrated on just a few vendors. Open weights still in infancy at scale in most of these organizations, often due to lack of domestic “frontier” OSS options. Plenty of appetite for more options here, but so far few places to go.\n\n* Agent security and identity. Somewhat tied to Hugging Face, there’s much more awareness to the new challenges around agent security and identity management in a world when agents are trying to get into every system they can. In a perfect world enterprises could setup identities for all their agents and control what they’re doing, but of course sometimes the agent needs to act exactly as the user as well.\n\n* Process reengineering. Most companies realizing that the big upside of agents is when they can change the actual workflow itself to get the full gains from AI. Far more ROI when companies can adjust their workflows to support agents changing how the work happens instead of just layering on agents into the existing flow. But the big question is who can actually tackle driving these changes, where does that live, etc. Best lessons were still around embedded FDEs in the functions.\n\n* Ruthless adjusting of architectures. Most companies had examples of changing systems out multiple times just in the past year or two with different vendors. I probably haven’t heard “we tried X and it didn’t work so have gone with Y” more than in today’s environment. The lesson here is that because innovation is happening so fast, no one hangs around until a vendor gets something right, they just move on to the next one. \n\n* Evals! Still very early for most companies to have a good grasp of evals of their workflows. A few customers out of a couple dozen called this out - huge opportunity right now for enterprises to have a good sense of how their work actually happens and how well AI is doing against it.\n\n* Legacy systems still a hurdle. As always, legacy systems still remain a mainstay issue that holds back enterprises from rapid adoption of AI in enterprises. Data is fragmented across legacy environments that weren’t built for an agentic world. Companies spending a lot of time just cleaning up these old platforms. \n\nMany more topics, but these tend to be some of the more top of mind items at the moment in the enterprise.",
-          "createdAt": "2026-09-11T01:13:16.000Z",
-          "url": "https://x.com/levie/status/2098218284139311615",
-          "likes": 220,
-          "retweets": 15,
-          "replies": 31,
-          "isQuote": false,
-          "quotedTweetId": null,
-          "summary_zh": "最近和很多科技领袖聊了聊，他们主要关心AI在企业应用中的一些趋势。\n\n现在大家都对AI带来的网络安全隐患感到紧张，特别是最近出现的OpenAI和Hugging Face事件。很多公司同时在使用多种AI模型，标准化很困难，但主要的资金还是集中在少数几家供应商手里。还有人提到，企业希望能更好地管理AI代理的安全和身份。\n\n同时，大家意识到，要充分利用AI的优势，必须重塑工作流程，而不是仅仅把AI代理加到现有流程中。很多公司还在不断调整技术架构，因为创新发展太快了，大家不愿意等一个供应商搞定什么东西就直接换下一个。此外，如何评估AI在工作中的表现也仍然是个挑战，很多企业还在整理老旧系统的数据。总之，现在讨论中，大家对这些"
-        },
-        {
-          "id": "2098135659714085281",
-          "text": "Excited to partner more deeply with OpenAI so you can work with your enterprise content from Box securely in ChatGPT.\n\nSoftware continues to go headless, and we’re massive believers that the future of work will be AI agents that can process data and execute workflows anywhere. https://t.co/CNZv5CH8bn",
-          "createdAt": "2026-09-10T19:44:57.000Z",
-          "url": "https://x.com/levie/status/2098135659714085281",
-          "likes": 151,
-          "retweets": 12,
-          "replies": 14,
+          "id": "2098478938003841123",
+          "text": "This one is very cool. Now you can mount Box to agent sandboxes to make it far easier for an agent to read and write files on the agent's computer. As AI agents execute critical workflows in the enterprise, they're going to need the same primitives that people have had. https://t.co/h1BW92pMtH",
+          "createdAt": "2026-09-11T18:29:01.000Z",
+          "url": "https://x.com/levie/status/2098478938003841123",
+          "likes": 81,
+          "retweets": 16,
+          "replies": 32,
           "isQuote": true,
-          "quotedTweetId": "2098127115791294703",
-          "summary_zh": "非常高兴能与 OpenAI 加深合作，这样你就可以在 ChatGPT 中安全地处理你在 Box 中的企业内容。软件的发展趋势是“无头”，也就是不再依赖于传统的用户界面。我们相信，未来的工作会是由 AI 助手来处理数据和执行工作流程，无论在哪里都能运作。"
+          "quotedTweetId": "2098471855149772829",
+          "summary_zh": "现在你可以把 Box（一个在线存储和协作平台）连接到智能代理的“沙盒”（一个安全的环境），这样智能代理就能更方便地读取和写入电脑上的文件了。随着 AI 代理在企业执行重要工作，他们也需要和人一样的基本功能。这听起来很不错！"
         }
       ],
       "bio_zh": "Box CEO，企业 AI 应用的坚定推动者，科技圈知名段子手",
-      "fetchDate": "2026-09-11"
+      "fetchDate": "2026-09-12"
+    },
+    {
+      "source": "x",
+      "name": "Ryo Lu",
+      "handle": "ryolu_",
+      "bio": "Designed @Cursor_ai, @NotionHQ, @Stripe, built startups. I make a world where anyone can make software. Aspiring k-pop idol.",
+      "tweets": [
+        {
+          "id": "2098612137321201942",
+          "text": "i emptied my house\nsaid goodbyes\nand moved to taipei\n\nso far so great! 💛 https://t.co/vvAbELmie8",
+          "createdAt": "2026-09-12T03:18:18.000Z",
+          "url": "https://x.com/ryolu_/status/2098612137321201942",
+          "likes": 1029,
+          "retweets": 5,
+          "replies": 56,
+          "isQuote": false,
+          "quotedTweetId": null,
+          "summary_zh": "他把家里的东西清空了，和大家道别，搬到了台北。感觉一切都挺好的！💛"
+        },
+        {
+          "id": "2098324260867772806",
+          "text": "long-lived agents for your big ideas\nnow in Cursor https://t.co/2sa0rX2415",
+          "createdAt": "2026-09-11T08:14:23.000Z",
+          "url": "https://x.com/ryolu_/status/2098324260867772806",
+          "likes": 599,
+          "retweets": 7,
+          "replies": 26,
+          "isQuote": true,
+          "quotedTweetId": "2098162488013455784",
+          "summary_zh": "Cursor 现在有可以长时间运行的智能助手，能帮你实现大创意！"
+        }
+      ],
+      "bio_zh": "Cursor 联合创始人，AI 代码编辑器赛道领跑者",
+      "fetchDate": "2026-09-12"
+    },
+    {
+      "source": "x",
+      "name": "Garry Tan",
+      "handle": "garrytan",
+      "bio": "President & CEO @ycombinator —Founder @garryslist—Creator of GStack & GBrain—designer/engineer who helps founders—SF Dem accelerating the boom loop",
+      "tweets": [
+        {
+          "id": "2098615692425851205",
+          "text": "TBH once you score 1600 you should unlock a second harder test that gives you a second score on top of the 1600— we should have more and higher measures of excellence \n\nBut instead they ban the SAT so that everything turns into random lottery and excellence cannot be recognized https://t.co/BCdZC9tOhY",
+          "createdAt": "2026-09-12T03:32:26.000Z",
+          "url": "https://x.com/garrytan/status/2098615692425851205",
+          "likes": 732,
+          "retweets": 34,
+          "replies": 76,
+          "isQuote": true,
+          "quotedTweetId": "2098358210134434144",
+          "summary_zh": "如果你能得到1600分（SAT满分），就应该有机会参加一个更难的测试，获得更高的分数，这样才能更好地衡量优异表现。但现在却取消了SAT考试，让一切变成了随机抽签，这样优秀的人就得不到应有的认可。"
+        }
+      ],
+      "bio_zh": "Y Combinator 现任 CEO，早期投资了 Coinbase、Instacart 等",
+      "fetchDate": "2026-09-12"
     },
     {
       "source": "x",
@@ -368,32 +313,32 @@
       "bio": "VC at @FirstMarkCap.  Host: MAD Podcast; Organizer: Data Driven NYC, Author: MAD Landscape.",
       "tweets": [
         {
-          "id": "2098081452839637480",
-          "text": "This conversation with @RichardSocher is also available on Spotify, Apple Podcasts and here on YouTube (like and subscribe!):\n\nhttps://t.co/8gsssP8fcu",
-          "createdAt": "2026-09-10T16:09:33.000Z",
-          "url": "https://x.com/mattturck/status/2098081452839637480",
-          "likes": 3,
-          "retweets": 1,
-          "replies": 1,
+          "id": "2098517023286247675",
+          "text": "You can see us on the list of tenants here:\nhttps://t.co/DuGS9PLTIw\n\nand you can see part of Kenton's story here:\nhttps://t.co/3KVbiF1Nqy",
+          "createdAt": "2026-09-11T21:00:21.000Z",
+          "url": "https://x.com/mattturck/status/2098517023286247675",
+          "likes": 1,
+          "retweets": 0,
+          "replies": 0,
           "isQuote": false,
           "quotedTweetId": null,
-          "summary_zh": "跟@RichardSocher的对话现在可以在Spotify、Apple Podcasts和YouTube上听到了，记得点赞和订阅哦！"
+          "summary_zh": "可以在这份租户名单上找到我们，同时也能了解一下Kenton的故事哦！"
         },
         {
-          "id": "2098081448330674182",
-          "text": "When AI builds AI: my conversation with @RichardSocher about RSI and scientific progress. \n\n00:00 Intro: AI That Improves Itself\n00:55 Why Scientific Progress Is Slowing\n03:08 The Labyrinth of Human Knowledge\n05:59 Can AI Put Science Back Together?\n07:57 How LLMs Learn Biology and Proteins\n10:56 Next-Token Prediction as a World Model\n16:44 Can AI Generate Truly Original Ideas?\n17:32 Simulations, Verifiers and Superhuman AI\n22:18 The Path to Recursive Self-Improvement\n24:49 Why AI Hallucinations Can Drive Discovery\n27:42 From Reading Biology to Writing It\n31:31 Can AI Accelerate Drug Discovery?\n33:31 Will AI Help Cure Cancer?\n38:03 AI Breakthroughs in Biology, Energy and Materials\n40:19 Will Some Societies Reject AI?\n45:07 Building the AI Economist\n52:22 The Scientific Data Bottleneck\n53:41 The Four Pillars of the Eureka Machine\n55:01 Teaching AI the Rules of Reality\n57:44 Simulations and Virtual Cells\n1:00:40 Self-Driving Robotic Laboratories\n1:02:51 Agent Swarms and Open-Ended Discovery\n1:04:30 The Compute Bottleneck\n1:05:44 Inside @Recursive_SI \n1:07:33 What Recursive Will Build First\n1:10:10 How Do We Define Intelligence?\n1:11:32 How Far Can Intelligence Go?",
-          "createdAt": "2026-09-10T16:09:32.000Z",
-          "url": "https://x.com/mattturck/status/2098081448330674182",
-          "likes": 19,
-          "retweets": 8,
-          "replies": 3,
+          "id": "2098517022049190227",
+          "text": "My 9/11 story\n(lightly updated version of a blog post I wrote in 2016 for the 15th anniversary)\n\nIn September 2001, I was the young co-founder of a NYC tech startup, TripleHop Technologies.   \n\nWe were building enterprise search software, using whatever AI existed at the time, building what would be today close to what a Glean does.  \n\nWe had maybe 25 people on the team at the time.  Pretty much all of us were at the very begining of our careers, barely out of school, unexperienced, but highly enthusiastic.\n\nOur office was located on the 53rd floor of the North Tower at the World Trade Center.\n\nWe had ended up at the World Trade Center fairly randomly.  Our first office was located on Water Street, right above a 24 hour McDonald’s.  It looked more like a decrepit apartment than an actual office, occasionally didn’t smell that great, but it was cheap and good enough.\n\nBut after a year or so, the team had grown, and that office had become too small, so we started looking for a bigger one.\n\nAt the time, for a reason or another, there wasn’t a lot of office inventory on the market in the area where we wanted to be.  \n\nWe looked for a bit, couldn’t find anything suitable, until one of us had the strange idea of inquiring at the World Trade Center, which felt like a long shot. \n\nTurned out that the World Trade Center had some smaller offices, and some availability.  In those dot-com bubble days, they also were quite eager to attract young tech startups, and were willing to offer us some preferential terms. \n\nSo we went to take a look, and visited two offices in the North Tower. \n\nOne was a large office at the very top of the building, perhaps the 104th floor, I don’t exactly recall. It had unbelievable views, but it really felt like taking that office would be pushing it – even with a good deal, we were just a little seed-funded startup, after all. Also, the elevator ride took forever. \n\nSo instead we chose the smaller, cheaper office on the 53rd floor.  \n\nWe really liked our new office, and the World Trade Center in general.  It felt like a little town, with a lot of retail and amenities below the surface, and its own subway station. We ate a bit too often at a Sbarro joint located right outside the ground floor elevator.\n\nThe night before 9/11, my co-founder Renaud Laplanche and I worked very late into the evening, as we did most nights.  In true nerdy founder fashion, we played a ping pong game or two, as we did pretty much every time before calling it a night – the ping pong table being our attempt at creating a startup culture.  \n\nI left, and think Renaud may have stayed on that night to finish working on a proposal for a prospective customer.\n\nThe morning after, when the plane hit the North Tower at 8:46am, I was home, about to leave for work.   \n\nLike many young tech people, we were night owls but not early birds, typically showing up at the office around 9:30am.  \n\nI had the TV on, and as about to turn it off and walk out of the door, saw the “breaking news” scroll at the bottom of the screen mentioning a plane collision, but no image.    \n\nAs I had a faraway view of the World Trade Center from the window of my West Village studio apartment, I looked up and saw what seemed like a little bit of smoke at the top.\n\nI assumed the plane that had hit the tower was a small tourist plane.  We would often see them fly by the office, above the nearby Hudson River, often at altitudes that felt very close to us.  It had crossed my mind more than once that it wouldn’t take that much for one of them to hit the tower by accident.\n\nThen, like so many others, I saw those unbelievable images on TV. I called my family back in France.  Shortly thereafter, phone lines went down. \n\nThe rest of the day was surreal and gut-wrenching, although I remember feeling mostly numb.\n\nI went on a mad scramble to see if everyone at TripleHop was ok. For many hours, we just didn’t know.  With no phone working, we accounted for most people via email, but a number did not reply for a while.\n\nIt eventually turned out only one person from the team, Kenton Beerman, was at the office at 8:46am.   He made it out shocked but unscathed.\n\nPerhaps as a way to cope psychologically, or just because they were amazing people, I remember that the team was incredibly focused on saving the business that day.  \n\nThis was obviously pre-AWS, we had our own server room in our office, but thankfully our CTO Joaquin Delgado and his team had backed everything up.  By the end of the day, we were essentially back up and running.\n\nAfter a few days, we found shared office space.  But business didn’t go back to usual. In addition to everything else, 9/11 was the final nail in the coffin for the economy after the dot com bubble burst.  The next couple of years were a complete nuclear winter.\n\nThankfully, we had raised a $5M Series A (a solid amount at hte time!) a few months before 9/11, which kept us afloat.  We also managed to win a few deals in Europe, which gave us a bit more cash.  \n\nEventually business picked up strongly in late 2003 and 2004, potential acquirers came knocking, and TripleHop was acquired by Oracle in 2005.\n\nWe all went on with our lives.  My co-founder Renaud reached extraordinary entrepreneurial success and defined a whole new industry.\n\nWe all have families now.  I occasionally see pictures of beautiful children on my Facebook feed.  \n\nI rarely talk about 9/11, and have tried to not think about it too much. \n\nIt took me a very long time to go visit the 9/11 memorial downtown.  \n\nI finally made it just a few weeks ago, after a board meeting nearby, walking there almost by accident.\n\nLooking at the names engraved in the marble, I was reminded that it wouldn’t have taken much.  An hour later, a few floors lower. Or choosing that office on the 104th floor instead of the other one, a few months prior.\n\nAnd I feel deeply connected not just to those names, but to New York. \n\nBefore 9/11, New York felt like an exciting, but ultimately foreign, city. After 9/11, I truly started feeling like a New Yorker.  \n\nEveryone remembers where they were on 9/11.  Everyone has a story of some sort, many infinitely more tragic.  \n\nThis is just mine.",
+          "createdAt": "2026-09-11T21:00:21.000Z",
+          "url": "https://x.com/mattturck/status/2098517022049190227",
+          "likes": 129,
+          "retweets": 0,
+          "replies": 16,
           "isQuote": false,
           "quotedTweetId": null,
-          "summary_zh": "聊到 AI 自己来帮自己改进，Matt 和 Richard Socher 一起探讨了这个话题。涵盖了很多有趣的内容，比如科学进展慢下来的原因、AI 如何学习生物学、如何加速药物研发，以及一些 AI 在生物、能源和材料方面的突破。他们还讨论了社会是否会拒绝 AI，以及智能的真正定义。总之，就是聊聊 AI 的未来和可能性！"
+          "summary_zh": "这是一位在911事件中有亲身经历的科技创业者的回忆。他讲述了自己当时的工作环境，以及在事件发生时的恐惧和无助，最终是怎样在艰难时刻团结团队继续维持公司的。911之后，他对纽约的感情也发生了变化。"
         }
       ],
       "bio_zh": "FirstMark Capital 合伙人，每年发布最权威的 AI/大数据行业全景图",
-      "fetchDate": "2026-09-11"
+      "fetchDate": "2026-09-12"
     },
     {
       "source": "x",
@@ -402,20 +347,20 @@
       "bio": "Builder. Make something people want, then make people want it. Harvard’17. GitHub: https://t.co/KCuEaje1wd \nYouTube: https://t.co/8xzbGWsHgY",
       "tweets": [
         {
-          "id": "2098136119154254287",
-          "text": "Why is computer use still so painfully slow??",
-          "createdAt": "2026-09-10T19:46:46.000Z",
-          "url": "https://x.com/zarazhangrui/status/2098136119154254287",
-          "likes": 80,
-          "retweets": 0,
-          "replies": 49,
+          "id": "2098483800456179923",
+          "text": "I think the idea of a \"one-person company\" is overrated\n\nYes, a person can do a lot more thanks to AI. But building something new can be a profoundly lonely experience. You need someone to brainstorm together, suffer together, celebrate together...\n\nIt is extremely easy to lose motivation when you don't tie yourself to the mast together with somebody else",
+          "createdAt": "2026-09-11T18:48:20.000Z",
+          "url": "https://x.com/zarazhangrui/status/2098483800456179923",
+          "likes": 704,
+          "retweets": 49,
+          "replies": 209,
           "isQuote": false,
           "quotedTweetId": null,
-          "summary_zh": "电脑使用为什么还是这么慢呢？这真让人受不了！"
+          "summary_zh": "“一个人公司”的概念被高估了，虽然AI让个人能做更多事情，但创造新事物其实很孤独。你需要有伙伴一起头脑风暴、共同奋斗和庆祝，这样才不容易失去动力。"
         }
       ],
       "bio_zh": "AI 领域投资人和内容创作者，follow-builders 项目发起人",
-      "fetchDate": "2026-09-11"
+      "fetchDate": "2026-09-12"
     },
     {
       "source": "x",
@@ -424,44 +369,20 @@
       "bio": "partner @fpvventures - investing in seed/A. previous: early hire @meter, @opendoor, @atlassian & others. love @shimoleejhaveri + 👦👧",
       "tweets": [
         {
-          "id": "2098255116751257663",
-          "text": "This post is probably my personal record from thought -> publishing.. lacks some of the usual polish! \n\nA little behind the scenes:\n\n> voice memo while driving to work\n> more voice memos throughout the day\n> 30 minutes of furious writing between two meetings\n> quick read through & publish\n\n@claudeai please fix your voice transcription 🙏",
-          "createdAt": "2026-09-11T03:39:38.000Z",
-          "url": "https://x.com/nikunj/status/2098255116751257663",
-          "likes": 2,
-          "retweets": 0,
+          "id": "2098550718923997430",
+          "text": "“Success has many fathers, but failure is an orphan.”\n\nI never realized the gravity of this quote till I saw extremely successful VCs fight for attribution of the hot deals. \n\nAnd you realize this viscerally because the large exits (or markups) are genuinely rare and those are the ones you raise the next fund on (your own or part of the firm). \n\nThis is why in the next couple of years you’ll see many names scrubbed (or conveniently omitted) and everyone wanting to revise history to claim some credit for the ones that eventually succeed. \n\nSo many emerging GPs are facing this explicitly as the only thing they can take to their future LPs is their track record. And it’s been sad to see them not get the credit they actually deserve. \n\nAs @AnjneyMidha said, eventually the new guard will shine as they will figure a way out. But in the short term, hold your founders close since they’ll be the real reference checks! \n\n(this is genuinely NOT a subtweet at any firm, just what I have been noticing across the market as I’m helping emerging managers)",
+          "createdAt": "2026-09-11T23:14:15.000Z",
+          "url": "https://x.com/nikunj/status/2098550718923997430",
+          "likes": 39,
+          "retweets": 2,
           "replies": 1,
           "isQuote": false,
           "quotedTweetId": null,
-          "summary_zh": "这位前 Meta 的 AI 产品负责人分享了自己快速发表一篇文章的过程，感觉写得有点匆忙。其实他是在开车时录音，然后一天中不断录音，最后在两次会议的空档里写了30分钟，快速检查了一遍就发布了。同时他还请求 AI 语音转录工具帮忙改进一下准确率。"
-        },
-        {
-          "id": "2098176283394126121",
-          "text": "https://t.co/pPmfsH024O",
-          "createdAt": "2026-09-10T22:26:22.000Z",
-          "url": "https://x.com/nikunj/status/2098176283394126121",
-          "likes": 172,
-          "retweets": 4,
-          "replies": 9,
-          "isQuote": false,
-          "quotedTweetId": null,
-          "summary_zh": ""
-        },
-        {
-          "id": "2098078391065018816",
-          "text": "Three truths in early stage venture right now:\n\n1) everyone wants to raise a $50 million seed\n2) everyone thinks they will hit $30 million ARR next year\n3) every hot tranched seed round magically ends up at the ~$300 million valuation",
-          "createdAt": "2026-09-10T15:57:23.000Z",
-          "url": "https://x.com/nikunj/status/2098078391065018816",
-          "likes": 196,
-          "retweets": 0,
-          "replies": 16,
-          "isQuote": false,
-          "quotedTweetId": null,
-          "summary_zh": "现在很多创业公司普遍有三个想法：  \n1）每个人都想筹集5000万美元的启动资金；  \n2）每个人都认为明年能够实现3000万美元的年收入；  \n3）每个热门的融资轮都会神奇地达到大约3亿美元的估值。  \n\n总之，大家对融资和收入的期望都很高，但可能有些过于乐观了。"
+          "summary_zh": "成功往往有很多人参与，但失败却无人认领。 \n\n这位前Facebook AI产品负责人观察到，成功的投资人会争相争取荣耀，而失败的项目却没有人愿意背负。对于许多新的基金经理来说，他们的成就记录就是他们能向未来的投资者展示的唯一资本。有时候，他们不会得到应有的认可。但他相信，终究有潜力的新一代会找到出路，所以短期内要紧紧支持那些创业者，因为他们才是真正值得信赖的。"
         }
       ],
       "bio_zh": "Meta/前 Facebook AI 产品负责人",
-      "fetchDate": "2026-09-11"
+      "fetchDate": "2026-09-12"
     },
     {
       "source": "x",
@@ -470,44 +391,32 @@
       "bio": "Polyagentmorous ClawFather. Came back from retirement to mess with AI and help a lobster take over the world.\n@OpenClaw🦞 + @OpenAI",
       "tweets": [
         {
-          "id": "2098229090570629419",
-          "text": "Trading tokens for an AC. Who knew SF could be so hot 🫠",
-          "createdAt": "2026-09-11T01:56:13.000Z",
-          "url": "https://x.com/steipete/status/2098229090570629419",
-          "likes": 233,
-          "retweets": 4,
-          "replies": 31,
+          "id": "2098527982709256637",
+          "text": "Had to submit a patch to @trycua to make keys work reliable under Linux, dope framework overall tho!",
+          "createdAt": "2026-09-11T21:43:54.000Z",
+          "url": "https://x.com/steipete/status/2098527982709256637",
+          "likes": 18,
+          "retweets": 2,
+          "replies": 4,
           "isQuote": false,
           "quotedTweetId": null,
-          "summary_zh": "在旧金山，居然有人用代币（数字货币的一种）换空调，真没想到这儿会这么热！😅"
+          "summary_zh": "我给 @trycua 的一个框架提交了个修复，这样在 Linux 系统下用起来更稳定了，总体来说这个框架很不错！"
         },
         {
-          "id": "2098089196800098798",
-          "text": "This makes a lot of sense. Duplicating logic is no longer painful. Abstractions still are. https://t.co/q4jqVBW00r",
-          "createdAt": "2026-09-10T16:40:19.000Z",
-          "url": "https://x.com/steipete/status/2098089196800098798",
-          "likes": 2293,
-          "retweets": 97,
-          "replies": 81,
-          "isQuote": true,
-          "quotedTweetId": "2098047492772249730",
-          "summary_zh": "听起来他说，现在复制逻辑（在编程中就是重复使用一些代码或规则）变得简单多了，但抽象化（把复杂事情简单化的过程）还是挺麻烦的。"
-        },
-        {
-          "id": "2098088917782413740",
-          "text": "Better hop on soon. Astra demand is growing too fast! https://t.co/MgCFw04sxJ",
-          "createdAt": "2026-09-10T16:39:13.000Z",
-          "url": "https://x.com/steipete/status/2098088917782413740",
-          "likes": 636,
-          "retweets": 25,
-          "replies": 52,
-          "isQuote": true,
-          "quotedTweetId": "2098057726295457975",
-          "summary_zh": "赶紧上车吧，Astra 的需求增长得太快了！"
+          "id": "2098527519213604889",
+          "text": "Astra on OC in a cloud session playing Doom with CUA.\nNot quite AGI yet, but probably beats fly brain. https://t.co/SrJlaey3MB",
+          "createdAt": "2026-09-11T21:42:03.000Z",
+          "url": "https://x.com/steipete/status/2098527519213604889",
+          "likes": 270,
+          "retweets": 18,
+          "replies": 43,
+          "isQuote": false,
+          "quotedTweetId": null,
+          "summary_zh": "Astra 在云端的一个会话中玩 Doom 游戏，虽然还没达到通用人工智能（AGI，指一种可以做所有人类能做的智能），但可能比苍蝇的脑子聪明一点。"
         }
       ],
       "bio_zh": "前 PSPDFKit 创始人，现专注 AI 开发工具和工作流优化",
-      "fetchDate": "2026-09-11"
+      "fetchDate": "2026-09-12"
     },
     {
       "source": "x",
@@ -516,44 +425,44 @@
       "bio": "ceo @every | the only subscription you need to stay at the edge of AI",
       "tweets": [
         {
-          "id": "2098162669769695676",
-          "text": "very handsome interviewer too https://t.co/jJNArUBaEL",
-          "createdAt": "2026-09-10T21:32:17.000Z",
-          "url": "https://x.com/danshipper/status/2098162669769695676",
-          "likes": 32,
-          "retweets": 0,
-          "replies": 4,
+          "id": "2098579426178908494",
+          "text": "okay this is not great https://t.co/yzMDp9dIZh",
+          "createdAt": "2026-09-12T01:08:19.000Z",
+          "url": "https://x.com/danshipper/status/2098579426178908494",
+          "likes": 73,
+          "retweets": 3,
+          "replies": 7,
           "isQuote": true,
-          "quotedTweetId": "2098153833692287209",
-          "summary_zh": "有个非常帅的面试官哦！他分享的链接可能和采访或者职场相关的内容有关。"
+          "quotedTweetId": "2098544270361964576",
+          "summary_zh": "这条推文是在说“这不太好”。链接里的内容可能让他觉得有点失望或不满意。"
         },
         {
-          "id": "2098120649701204416",
-          "text": "I’m so sorry https://t.co/txK4iw6MYE",
-          "createdAt": "2026-09-10T18:45:18.000Z",
-          "url": "https://x.com/danshipper/status/2098120649701204416",
-          "likes": 148,
-          "retweets": 2,
-          "replies": 11,
-          "isQuote": true,
-          "quotedTweetId": "2098113585683808624",
-          "summary_zh": "Dan Shipper 发了一条短推，里面提到“我很抱歉”。看起来他可能在回应一些不太好的事情，链接里可能有更多信息。总之，他似乎在表达一种歉意。"
+          "id": "2098481799047647715",
+          "text": "better benchmark scores don't tell you much about how well a model does on your real work \n\nthat's why for the last 3 years @every we've done vibe checks on new models: long-form reviews based on hands-on testing on each model for our real work\n\nnow we're doubling down, and getting more quantitative\n\n@hammer_mt and @nityeshaga built an internal platform for all of us to make personal benchmarks based on our real day-to-day work\n\nour vibe checks on new models used to be vibes only\n\nnow we're starting to get more quantitative with checks\n\nvery psyched about this :)",
+          "createdAt": "2026-09-11T18:40:23.000Z",
+          "url": "https://x.com/danshipper/status/2098481799047647715",
+          "likes": 42,
+          "retweets": 3,
+          "replies": 10,
+          "isQuote": false,
+          "quotedTweetId": null,
+          "summary_zh": "更高的基准分数其实不代表一个模型在你实际工作中表现得有多好。所以，过去三年我们在 Every 一直通过“感觉测试”（也就是实际操作后的长评）来评估新模型的效果。现在我们要更深入，开始用数据分析来做个人化的评估，以便更好地反映我们的日常工作。感觉很兴奋！"
         },
         {
-          "id": "2098116268671025210",
-          "text": "the possibilities for this are incredible\n\nextremely psyched to experiment https://t.co/DdtRknm8TU",
-          "createdAt": "2026-09-10T18:27:54.000Z",
-          "url": "https://x.com/danshipper/status/2098116268671025210",
-          "likes": 373,
-          "retweets": 12,
-          "replies": 15,
+          "id": "2098476917448118321",
+          "text": "join the most ai pilled team on earth\n\nbe at the center of the AI wave, with access to the new models, tools, and teams that matter\n\ndo the best writing of your life: https://t.co/PDmrEAt4Yk",
+          "createdAt": "2026-09-11T18:20:59.000Z",
+          "url": "https://x.com/danshipper/status/2098476917448118321",
+          "likes": 47,
+          "retweets": 4,
+          "replies": 5,
           "isQuote": true,
-          "quotedTweetId": "2098099269551149398",
-          "summary_zh": "这真是太酷了，未来的可能性让人兴奋不已！我迫不及待想要尝试一下。"
+          "quotedTweetId": "2098471888712552947",
+          "summary_zh": "加入世界上最懂 AI 的团队，一起站在 AI 的浪潮前沿，使用最前沿的模型、工具和团队。让你写出人生中最好的作品！"
         }
       ],
       "bio_zh": "Every 联合创始人，AI 写作和知识管理领域的深度实践者",
-      "fetchDate": "2026-09-11"
+      "fetchDate": "2026-09-12"
     },
     {
       "source": "x",
@@ -562,45 +471,561 @@
       "bio": "General Partner @SPC, Co-Founder @Bevel_Health | Ex: Early Eng @facebook, CTO @Dropbox, Board @Flipkart | Optimist, Builder, Dad",
       "tweets": [
         {
-          "id": "2098112281267843264",
-          "text": "If you had a machine capable of doing only 1 thing: Finding cures to our most pressing diseases.\n\nHow much of your GDP would you devote to this machine?\n\nI think the answer is: very high. \n\nThis is the world we live in now.",
-          "createdAt": "2026-09-10T18:12:03.000Z",
-          "url": "https://x.com/adityaag/status/2098112281267843264",
-          "likes": 32,
+          "id": "2098580235268899123",
+          "text": "I often think and hope that I would have had the courage that the people in United 93 had to prevent an attack on the White House.\n\nI have been thinking about 9/11 all day…\n\nI was at CMU in a lecture in Wean Hall room 7500. People were very scared because one of the planes was near Pittsburgh.\n\nSo many heroes on that day.",
+          "createdAt": "2026-09-12T01:11:32.000Z",
+          "url": "https://x.com/adityaag/status/2098580235268899123",
+          "likes": 34,
           "retweets": 0,
-          "replies": 6,
+          "replies": 2,
           "isQuote": false,
           "quotedTweetId": null,
-          "summary_zh": "如果有一台只能做一件事的机器，就是找到我们最严重疾病的治疗方法，你愿意花多少国家的经济总值（GDP）来支持它？我认为这个投资会非常大。这就是我们现在所处的世界。"
+          "summary_zh": "他在回忆911事件时表达了对那天勇敢人们的敬佩，想象如果自己也有他们那样的勇气，就能阻止袭击。他提到那天他在卡内基梅隆大学上课，周围的人都很害怕，因为有架飞机靠近匹兹堡。那天出现了很多英雄。"
+        },
+        {
+          "id": "2098472520798114263",
+          "text": "RSVP: https://t.co/WiWHBZ8pW7",
+          "createdAt": "2026-09-11T18:03:31.000Z",
+          "url": "https://x.com/adityaag/status/2098472520798114263",
+          "likes": 2,
+          "retweets": 0,
+          "replies": 0,
+          "isQuote": false,
+          "quotedTweetId": null,
+          "summary_zh": "Aditya Agarwal 分享了一个邀请链接，可能是关于一个活动或会议的，想让大家去参加。"
+        },
+        {
+          "id": "2098472517845328303",
+          "text": "How do we encourage true innovation in CA?\n\nHow do we enable a two-party state? \n\nHow should technology be regulated?\n\nWe're hosting conversations about tech policy with decision makers at @spc this fall. \n\n@SteveHiltonx on Sept 23rd. https://t.co/sThS98c6tx",
+          "createdAt": "2026-09-11T18:03:30.000Z",
+          "url": "https://x.com/adityaag/status/2098472517845328303",
+          "likes": 12,
+          "retweets": 3,
+          "replies": 3,
+          "isQuote": false,
+          "quotedTweetId": null,
+          "summary_zh": "我们要怎么促进加州的真正创新呢？还有，技术应该如何监管？这个秋天，我们会和一些决策者在南方公园公共社区（South Park Commons）讨论科技政策。别忘了9月23日有@SteveHiltonx 的分享！"
         }
       ],
       "bio_zh": "South Park Commons 创始人，前 Facebook 工程副总裁",
-      "fetchDate": "2026-09-11"
-    },
-    {
-      "source": "x",
-      "name": "Claude",
-      "handle": "claudeai",
-      "bio": "Claude is an AI assistant built by @anthropicai to be safe, accurate, and secure. Talk to Claude on https://t.co/ZhTwG8d1e5 or download the app.",
-      "tweets": [
-        {
-          "id": "2098138736642933143",
-          "text": "Fable 5.1 Build Days start this week. The Claude community is hosting buildathons in cities all around the world from September 11–25. Bring a problem, an idea, or just show up and see what's possible.\n\nRSVP at https://t.co/AjMK4OHHBV https://t.co/0U8lcqsdrq",
-          "createdAt": "2026-09-10T19:57:11.000Z",
-          "url": "https://x.com/claudeai/status/2098138736642933143",
-          "likes": 2687,
-          "retweets": 188,
-          "replies": 325,
-          "isQuote": false,
-          "quotedTweetId": null,
-          "summary_zh": "Fable 5.1 的建设日本周开始，Claude 社区会在全球多个城市举办活动，邀请大家带着问题或创意来参加，或者直接来看看能做些什么。"
-        }
-      ],
-      "bio_zh": "Anthropic 旗下 AI 助手 Claude 的官方账号",
-      "fetchDate": "2026-09-11"
+      "fetchDate": "2026-09-12"
     }
   ],
   "twitter_history": [
+    {
+      "date": "2026-09-12",
+      "builders": [
+        {
+          "source": "x",
+          "name": "Thibault Sottiaux",
+          "handle": "thsottiaux",
+          "bio": "Codex & ChatGPT @OpenAI",
+          "tweets": [
+            {
+              "id": "2098639827084480864",
+              "text": "Astra powered ships this week\n\n- Images 2.5\n- GPT-Live-1\n- Agents API\n- Data Agent\n- ChatGPT for Financial Services\n\nand yet it’s not yet DevDay. Busy plans for next week too.",
+              "createdAt": "2026-09-12T05:08:20.000Z",
+              "url": "https://x.com/thsottiaux/status/2098639827084480864",
+              "likes": 4233,
+              "retweets": 175,
+              "replies": 400,
+              "isQuote": false,
+              "quotedTweetId": null,
+              "summary_zh": "这周推出了很多新功能，比如“GTP-Live-1”和适用于金融服务的ChatGPT，真是忙得不可开交。而更大的活动还在下周，不是开发者日（DevDay）呢。"
+            },
+            {
+              "id": "2098612714704891959",
+              "text": "Hi Astra users. A reset and a quick update on quality issues that have been posted around.\n\nWorking with some of you, we have found and fixed the following issues:\n- Some skills written for previous models were triggering too often or preventing the model from checking its work.\n- An opt-in context management experiment that could cause early stops or replies to older messages. We've disabled it. Our rough estimate is that 4-5k users were affected by this experiment.\n- We've also removed some badly configured engines that resulted in a measured quality degradation for a long tail of traffic flowing through them.\n\nWe’ve also made some more minor improvements and things should feel significantly better across the board. More consistent follow-through, better tracking of your latest message, and better checks on the work as it’s going through the motions.\n\nThe examples posted and all the users who worked directly with us were incredibly useful in helping fix things quickly. Always grateful for this incredible community.\n\nAnd of course, a reset is also landing by midnight today.",
+              "createdAt": "2026-09-12T03:20:36.000Z",
+              "url": "https://x.com/thsottiaux/status/2098612714704891959",
+              "likes": 15758,
+              "retweets": 1125,
+              "replies": 2247,
+              "isQuote": false,
+              "quotedTweetId": null,
+              "summary_zh": "Astra 用户们，团队进行了调整并更新了一些质量问题的解决情况。我们修复了系统中一些导致模型表现不佳的错误，比如旧技能频繁触发、早期停止等问题，还移除了影响质量的配置不当的引擎。整体体验将会好很多，消息跟踪和问题处理也会更顺畅。感谢大家的支持和反馈，今天晚上会有新的系统更新上线。"
+            },
+            {
+              "id": "2098569976143806918",
+              "text": "Excited to welcome Aidan & @\nSasha from the Git AI team to OpenAI! \n\nThey are building in the open and have developed an open-source tool that helps developers understand how coding agents contribute to their codebase. \n\nTogether, we’ll make it easier for businesses to see where Codex is making a difference when working through problems for individuals and teams. We’ll also keep Git AI open source and continue investing in it.",
+              "createdAt": "2026-09-12T00:30:46.000Z",
+              "url": "https://x.com/thsottiaux/status/2098569976143806918",
+              "likes": 3042,
+              "retweets": 73,
+              "replies": 428,
+              "isQuote": false,
+              "quotedTweetId": null,
+              "summary_zh": "欢迎Aidan和Sasha加入OpenAI的团队！他们正在开发一个开源工具，帮助程序员理解自动编程助手（即代码生成器）是如何影响他们的代码的。我们希望通过这个工具，让企业更好地了解到Codex在解决问题时的贡献，同时我们也会继续支持和发展Git AI这个项目。"
+            }
+          ],
+          "fetchDate": "2026-09-12"
+        },
+        {
+          "source": "x",
+          "name": "Peter Yang",
+          "handle": "petergyang",
+          "bio": "Practical AI tutorials and interviews for busy people | Get my best AI skills and guides at https://t.co/6VAA6p81x6",
+          "tweets": [
+            {
+              "id": "2098614492066435228",
+              "text": "I have decided to do this after much deliberation: \n\nAll local scheduled tasks live in Codex. All cloud tasks I’m porting over to Grok Bot. \n\nMakes it a clean split.",
+              "createdAt": "2026-09-12T03:27:39.000Z",
+              "url": "https://x.com/petergyang/status/2098614492066435228",
+              "likes": 91,
+              "retweets": 2,
+              "replies": 19,
+              "isQuote": false,
+              "quotedTweetId": null,
+              "summary_zh": "我经过深思熟虑，决定做个大调整：所有本地的定时任务放在Codex里，而云端的任务我会转移到Grok Bot上。这样分得很清楚。 \n\n简单来说，就是他在整理工作，把不同类型的任务分别放在两个地方管理。"
+            },
+            {
+              "id": "2098573992097657135",
+              "text": "Read why here: https://t.co/qMkuBOwSKk",
+              "createdAt": "2026-09-12T00:46:43.000Z",
+              "url": "https://x.com/petergyang/status/2098573992097657135",
+              "likes": 1,
+              "retweets": 2,
+              "replies": 0,
+              "isQuote": false,
+              "quotedTweetId": null,
+              "summary_zh": "里面有个链接，想让大家去看看一些有趣的内容。具体说了什么就得去点那个链接看看啦！"
+            },
+            {
+              "id": "2098565668241334366",
+              "text": "I am skeptical of \"software factories.\"\n\nOther than for verification & testing, I don't think AI is at a point where it can self-improve a product or build a new feature end-to-end without human in the loop.\n\nWhenever I loop something overnight to build something new = if it makes one wrong assumption the whole thing becomes a waste of tokens. \n\nWhat products or features have been built end-to-end with a software factory and no human defining the requirements or checking the work?",
+              "createdAt": "2026-09-12T00:13:39.000Z",
+              "url": "https://x.com/petergyang/status/2098565668241334366",
+              "likes": 179,
+              "retweets": 9,
+              "replies": 82,
+              "isQuote": false,
+              "quotedTweetId": null,
+              "summary_zh": "Peter 对“软件工厂”的概念表示怀疑。他觉得现在的 AI 还不能完全独立地创造产品或新功能，总是需要人来把关。如果让 AI 整夜工作，假如它有个错误的假设，那么做出来的东西就没有价值了。他想知道有没有完全由软件工厂实现的产品或功能，而不需要人定义需求或检查成果。"
+            }
+          ],
+          "bio_zh": "Roblox 产品经理，14 万订阅的 AI 实操教程作者",
+          "fetchDate": "2026-09-12"
+        },
+        {
+          "source": "x",
+          "name": "Madhu Guru",
+          "handle": "realmadhuguru",
+          "bio": "Sr Director, AI at Meta; Prev: Google - Led Gemini, Veo, Nano Banana.",
+          "tweets": [
+            {
+              "id": "2098448469497356569",
+              "text": "https://t.co/Vkfx96ev4e",
+              "createdAt": "2026-09-11T16:27:57.000Z",
+              "url": "https://x.com/realmadhuguru/status/2098448469497356569",
+              "likes": 2,
+              "retweets": 0,
+              "replies": 0,
+              "isQuote": true,
+              "quotedTweetId": "2098064969464217720",
+              "summary_zh": ""
+            },
+            {
+              "id": "2098448235048378456",
+              "text": "Why most enterprise AI efforts fail.\n\n1/ Using old-school playbooks for AI\nThe CEO picks a trusted lieutenant to lead a central AI team. That leader pulls in a group of trusted people from across the company.\n\nThe problem here is the skill gap.\n\nThe team structure, product patterns, how you launch and learn that got you here do not work with AI. Much of product development over the last 15 yrs has been incremental improvements.\n\nAI requires experimentation and invention.\n\n2/ Under-investing in evals\n\nMost enterprises don't quite understand the importance of this and what good looks like here. (I have a whole evals series in the comments - check it out)\n\n3/ Building AI for the company from the outside\n\nThe central AI team declares itself a platform team and builds tools that everyone is supposed to adopt.\n\nThese products are often disconnected from the actual workflows, context and judgment of the people doing the work.\n\nBegrudging adoption follows. But not meaningful productivity gains.\n\nWhat you should do:\n\n1/ Hire leaders who have done successfully built AI products. You need technical/product depth plus the ability to earn trust with the people whose jobs they’re helping reinvent.\n\n2/ Make evals a first class citizen in your AI efforts\n\n3/ Embed your best AI builders inside the functions you want to transform. Build * with * finance , build * with * sales, build * with * support.",
+              "createdAt": "2026-09-11T16:27:01.000Z",
+              "url": "https://x.com/realmadhuguru/status/2098448235048378456",
+              "likes": 96,
+              "retweets": 5,
+              "replies": 11,
+              "isQuote": true,
+              "quotedTweetId": "2098218284139311615",
+              "summary_zh": "很多企业在推行人工智能（AI）时失败的原因有几个：首先，他们还在用老旧的方法管理AI团队，这造成了技能差距；其次，他们对评估的重要性认识不足；最后，他们常常在外部开发AI工具，结果与员工的实际工作不匹配，导致使用率低。为了成功，企业应该聘请有经验的AI产品领导，重视评估，并将AI开发团队融入到各个工作部门，与财务、销售和客服等团队一起合作。"
+            }
+          ],
+          "bio_zh": "AI 创业者和投资人，关注 AI 基础设施",
+          "fetchDate": "2026-09-12"
+        },
+        {
+          "source": "x",
+          "name": "Thariq",
+          "handle": "trq212",
+          "bio": "Claude Code @anthropicai. prev YC W20, @spc, @medialab",
+          "tweets": [
+            {
+              "id": "2098531560643539440",
+              "text": "we heard feedback that it's hard to know if your skills are still working with new model releases\n\nplugin evals are here to help\n\nrun `claude plugin eval init` in your plugin folder https://t.co/Q0I1ZnugDs",
+              "createdAt": "2026-09-11T21:58:07.000Z",
+              "url": "https://x.com/trq212/status/2098531560643539440",
+              "likes": 1250,
+              "retweets": 58,
+              "replies": 47,
+              "isQuote": true,
+              "quotedTweetId": "2098500999656923145",
+              "summary_zh": "最近有消息说，很多人对自己使用的新 AI 模型有点困惑，不知道自己的技能是否还能正常运作。现在有一种叫做“插件评估”（plugin eval）的新工具可以帮忙，运行一个简单的命令就能检测你的技能。"
+            },
+            {
+              "id": "2098490139798655427",
+              "text": "it's basically impossible to interpret evals by looking at just at the pass/fail scores these days\n\nmany of the failures I see in benchmarks are due to overly strict hidden tests, in some cases the model's answer makes more sense than the expected eval result",
+              "createdAt": "2026-09-11T19:13:32.000Z",
+              "url": "https://x.com/trq212/status/2098490139798655427",
+              "likes": 1504,
+              "retweets": 62,
+              "replies": 113,
+              "isQuote": false,
+              "quotedTweetId": null,
+              "summary_zh": "现在光看通过或未通过的评分，几乎很难理解评估结果。很多时候，模型的答案实际上比预期的结果更合理，问题出在那些过于严格的隐藏测试。"
+            }
+          ],
+          "bio_zh": "Anthropic 工程师，Claude Code（AI 编程工具）核心开发者",
+          "fetchDate": "2026-09-12"
+        },
+        {
+          "source": "x",
+          "name": "Amjad Masad",
+          "handle": "amasad",
+          "bio": "ceo @replit. civilizationist",
+          "tweets": [
+            {
+              "id": "2098548464452055437",
+              "text": "Replit acquires a business entirely built on Replit. I expect first of many to come. https://t.co/hL516eAAu2",
+              "createdAt": "2026-09-11T23:05:17.000Z",
+              "url": "https://x.com/amasad/status/2098548464452055437",
+              "likes": 548,
+              "retweets": 17,
+              "replies": 35,
+              "isQuote": true,
+              "quotedTweetId": "2098418513748599089",
+              "summary_zh": "Replit 收购了一家完全基于他们平台建立的公司，这可能只是开始，以后还会有更多类似的收购。简单来说，就是 Replit 通过买下其他公司来扩展自己的业务，未来可能会有更多新动态。"
+            },
+            {
+              "id": "2098317466682179643",
+              "text": "Routines with budgets! https://t.co/bAweXu6MJt",
+              "createdAt": "2026-09-11T07:47:23.000Z",
+              "url": "https://x.com/amasad/status/2098317466682179643",
+              "likes": 66,
+              "retweets": 3,
+              "replies": 13,
+              "isQuote": true,
+              "quotedTweetId": "2098189000452542668",
+              "summary_zh": "有了新的“预算”功能，你可以更好地管理你的时间和任务。这让你在使用 AI 写代码时，更加轻松高效！"
+            },
+            {
+              "id": "2098316298820219058",
+              "text": "Love seeing all the Astra 3D experiments on Replit! https://t.co/PC7FBalOeW",
+              "createdAt": "2026-09-11T07:42:45.000Z",
+              "url": "https://x.com/amasad/status/2098316298820219058",
+              "likes": 193,
+              "retweets": 4,
+              "replies": 19,
+              "isQuote": true,
+              "quotedTweetId": "2097387582166650937",
+              "summary_zh": "看到大家在 Replit 上玩 Astra 3D 的实验真的很开心！这说明越来越多的人在尝试用 AI 做有趣的事情。"
+            }
+          ],
+          "bio_zh": "Replit CEO，致力于让所有人都能用 AI 写代码和部署应用",
+          "fetchDate": "2026-09-12"
+        },
+        {
+          "source": "x",
+          "name": "Guillermo Rauch",
+          "handle": "rauchg",
+          "bio": "@vercel CEO",
+          "tweets": [
+            {
+              "id": "2098531157230969062",
+              "text": "Tailscale’s model router is powered by Vercel AI Gateway as its underlying infrastructure.\n\nAI Gateways are the new CDNs. You could go “direct to origin”, but it’s brittle. You could DIY, but it’s painful and costly.\n\nProud to serve Tailscale, the 🐐 networking technology company https://t.co/ERS5GKJx6D",
+              "createdAt": "2026-09-11T21:56:31.000Z",
+              "url": "https://x.com/rauchg/status/2098531157230969062",
+              "likes": 290,
+              "retweets": 9,
+              "replies": 27,
+              "isQuote": true,
+              "quotedTweetId": "2098517466704167211",
+              "summary_zh": "Tailscale的模型路由器使用了Vercel的AI网关作为基础架构。现在，AI网关就像新的内容分发网络（CDN），虽然你可以直接访问原始数据，但这样不够稳定；如果自己动手搭建，过程又复杂且花钱。为能够服务像Tailscale这样优秀的网络技术公司感到自豪！"
+            }
+          ],
+          "bio_zh": "Vercel CEO，Next.js 创造者，v0 AI 代码生成工具的幕后推手",
+          "fetchDate": "2026-09-12"
+        },
+        {
+          "source": "x",
+          "name": "Aaron Levie",
+          "handle": "levie",
+          "bio": "ceo @box - your business lives in content. unleash it with AI",
+          "tweets": [
+            {
+              "id": "2098478938003841123",
+              "text": "This one is very cool. Now you can mount Box to agent sandboxes to make it far easier for an agent to read and write files on the agent's computer. As AI agents execute critical workflows in the enterprise, they're going to need the same primitives that people have had. https://t.co/h1BW92pMtH",
+              "createdAt": "2026-09-11T18:29:01.000Z",
+              "url": "https://x.com/levie/status/2098478938003841123",
+              "likes": 81,
+              "retweets": 16,
+              "replies": 32,
+              "isQuote": true,
+              "quotedTweetId": "2098471855149772829",
+              "summary_zh": "这个功能太酷了！现在，用户可以把 Box 连接到 AI 助手的工作环境中，这样助手就能更方便地读取和写入电脑上的文件。随着 AI 助手在企业中处理重要工作，它们需要跟人类一样的基本工具。"
+            }
+          ],
+          "bio_zh": "Box CEO，企业 AI 应用的坚定推动者，科技圈知名段子手",
+          "fetchDate": "2026-09-12"
+        },
+        {
+          "source": "x",
+          "name": "Ryo Lu",
+          "handle": "ryolu_",
+          "bio": "Designed @Cursor_ai, @NotionHQ, @Stripe, built startups. I make a world where anyone can make software. Aspiring k-pop idol.",
+          "tweets": [
+            {
+              "id": "2098612137321201942",
+              "text": "i emptied my house\nsaid goodbyes\nand moved to taipei\n\nso far so great! 💛 https://t.co/vvAbELmie8",
+              "createdAt": "2026-09-12T03:18:18.000Z",
+              "url": "https://x.com/ryolu_/status/2098612137321201942",
+              "likes": 1029,
+              "retweets": 5,
+              "replies": 56,
+              "isQuote": false,
+              "quotedTweetId": null,
+              "summary_zh": "我把家里的东西都清空了，告别了过去，搬去了台北，目前一切都很好！💛"
+            },
+            {
+              "id": "2098324260867772806",
+              "text": "long-lived agents for your big ideas\nnow in Cursor https://t.co/2sa0rX2415",
+              "createdAt": "2026-09-11T08:14:23.000Z",
+              "url": "https://x.com/ryolu_/status/2098324260867772806",
+              "likes": 599,
+              "retweets": 7,
+              "replies": 26,
+              "isQuote": true,
+              "quotedTweetId": "2098162488013455784",
+              "summary_zh": "Cursor 现在有了能帮助你实现大创意的长效智能助手！快来看看吧！"
+            }
+          ],
+          "bio_zh": "Cursor 联合创始人，AI 代码编辑器赛道领跑者",
+          "fetchDate": "2026-09-12"
+        },
+        {
+          "source": "x",
+          "name": "Garry Tan",
+          "handle": "garrytan",
+          "bio": "President & CEO @ycombinator —Founder @garryslist—Creator of GStack & GBrain—designer/engineer who helps founders—SF Dem accelerating the boom loop",
+          "tweets": [
+            {
+              "id": "2098615692425851205",
+              "text": "TBH once you score 1600 you should unlock a second harder test that gives you a second score on top of the 1600— we should have more and higher measures of excellence \n\nBut instead they ban the SAT so that everything turns into random lottery and excellence cannot be recognized https://t.co/BCdZC9tOhY",
+              "createdAt": "2026-09-12T03:32:26.000Z",
+              "url": "https://x.com/garrytan/status/2098615692425851205",
+              "likes": 732,
+              "retweets": 34,
+              "replies": 76,
+              "isQuote": true,
+              "quotedTweetId": "2098358210134434144",
+              "summary_zh": "他认为，如果一个人能在SAT考试中拿到满分1600分，就应该有机会参加一个更难的考试，来展示更高水平的能力。但现在，考SAT被禁止了，导致入学的标准变成了随机抽签，优秀的学生反而得不到认可。"
+            }
+          ],
+          "bio_zh": "Y Combinator 现任 CEO，早期投资了 Coinbase、Instacart 等",
+          "fetchDate": "2026-09-12"
+        },
+        {
+          "source": "x",
+          "name": "Matt Turck",
+          "handle": "mattturck",
+          "bio": "VC at @FirstMarkCap.  Host: MAD Podcast; Organizer: Data Driven NYC, Author: MAD Landscape.",
+          "tweets": [
+            {
+              "id": "2098517023286247675",
+              "text": "You can see us on the list of tenants here:\nhttps://t.co/DuGS9PLTIw\n\nand you can see part of Kenton's story here:\nhttps://t.co/3KVbiF1Nqy",
+              "createdAt": "2026-09-11T21:00:21.000Z",
+              "url": "https://x.com/mattturck/status/2098517023286247675",
+              "likes": 1,
+              "retweets": 0,
+              "replies": 0,
+              "isQuote": false,
+              "quotedTweetId": null,
+              "summary_zh": "可以在这里看到我们的租户名单：  \n还有，可以在这里了解Kenton的一部分故事：  \n（这条推文分享了一个关于他们公司租户的信息和另一个链接，讲述了一个叫Kenton的人物故事。）"
+            },
+            {
+              "id": "2098517022049190227",
+              "text": "My 9/11 story\n(lightly updated version of a blog post I wrote in 2016 for the 15th anniversary)\n\nIn September 2001, I was the young co-founder of a NYC tech startup, TripleHop Technologies.   \n\nWe were building enterprise search software, using whatever AI existed at the time, building what would be today close to what a Glean does.  \n\nWe had maybe 25 people on the team at the time.  Pretty much all of us were at the very begining of our careers, barely out of school, unexperienced, but highly enthusiastic.\n\nOur office was located on the 53rd floor of the North Tower at the World Trade Center.\n\nWe had ended up at the World Trade Center fairly randomly.  Our first office was located on Water Street, right above a 24 hour McDonald’s.  It looked more like a decrepit apartment than an actual office, occasionally didn’t smell that great, but it was cheap and good enough.\n\nBut after a year or so, the team had grown, and that office had become too small, so we started looking for a bigger one.\n\nAt the time, for a reason or another, there wasn’t a lot of office inventory on the market in the area where we wanted to be.  \n\nWe looked for a bit, couldn’t find anything suitable, until one of us had the strange idea of inquiring at the World Trade Center, which felt like a long shot. \n\nTurned out that the World Trade Center had some smaller offices, and some availability.  In those dot-com bubble days, they also were quite eager to attract young tech startups, and were willing to offer us some preferential terms. \n\nSo we went to take a look, and visited two offices in the North Tower. \n\nOne was a large office at the very top of the building, perhaps the 104th floor, I don’t exactly recall. It had unbelievable views, but it really felt like taking that office would be pushing it – even with a good deal, we were just a little seed-funded startup, after all. Also, the elevator ride took forever. \n\nSo instead we chose the smaller, cheaper office on the 53rd floor.  \n\nWe really liked our new office, and the World Trade Center in general.  It felt like a little town, with a lot of retail and amenities below the surface, and its own subway station. We ate a bit too often at a Sbarro joint located right outside the ground floor elevator.\n\nThe night before 9/11, my co-founder Renaud Laplanche and I worked very late into the evening, as we did most nights.  In true nerdy founder fashion, we played a ping pong game or two, as we did pretty much every time before calling it a night – the ping pong table being our attempt at creating a startup culture.  \n\nI left, and think Renaud may have stayed on that night to finish working on a proposal for a prospective customer.\n\nThe morning after, when the plane hit the North Tower at 8:46am, I was home, about to leave for work.   \n\nLike many young tech people, we were night owls but not early birds, typically showing up at the office around 9:30am.  \n\nI had the TV on, and as about to turn it off and walk out of the door, saw the “breaking news” scroll at the bottom of the screen mentioning a plane collision, but no image.    \n\nAs I had a faraway view of the World Trade Center from the window of my West Village studio apartment, I looked up and saw what seemed like a little bit of smoke at the top.\n\nI assumed the plane that had hit the tower was a small tourist plane.  We would often see them fly by the office, above the nearby Hudson River, often at altitudes that felt very close to us.  It had crossed my mind more than once that it wouldn’t take that much for one of them to hit the tower by accident.\n\nThen, like so many others, I saw those unbelievable images on TV. I called my family back in France.  Shortly thereafter, phone lines went down. \n\nThe rest of the day was surreal and gut-wrenching, although I remember feeling mostly numb.\n\nI went on a mad scramble to see if everyone at TripleHop was ok. For many hours, we just didn’t know.  With no phone working, we accounted for most people via email, but a number did not reply for a while.\n\nIt eventually turned out only one person from the team, Kenton Beerman, was at the office at 8:46am.   He made it out shocked but unscathed.\n\nPerhaps as a way to cope psychologically, or just because they were amazing people, I remember that the team was incredibly focused on saving the business that day.  \n\nThis was obviously pre-AWS, we had our own server room in our office, but thankfully our CTO Joaquin Delgado and his team had backed everything up.  By the end of the day, we were essentially back up and running.\n\nAfter a few days, we found shared office space.  But business didn’t go back to usual. In addition to everything else, 9/11 was the final nail in the coffin for the economy after the dot com bubble burst.  The next couple of years were a complete nuclear winter.\n\nThankfully, we had raised a $5M Series A (a solid amount at hte time!) a few months before 9/11, which kept us afloat.  We also managed to win a few deals in Europe, which gave us a bit more cash.  \n\nEventually business picked up strongly in late 2003 and 2004, potential acquirers came knocking, and TripleHop was acquired by Oracle in 2005.\n\nWe all went on with our lives.  My co-founder Renaud reached extraordinary entrepreneurial success and defined a whole new industry.\n\nWe all have families now.  I occasionally see pictures of beautiful children on my Facebook feed.  \n\nI rarely talk about 9/11, and have tried to not think about it too much. \n\nIt took me a very long time to go visit the 9/11 memorial downtown.  \n\nI finally made it just a few weeks ago, after a board meeting nearby, walking there almost by accident.\n\nLooking at the names engraved in the marble, I was reminded that it wouldn’t have taken much.  An hour later, a few floors lower. Or choosing that office on the 104th floor instead of the other one, a few months prior.\n\nAnd I feel deeply connected not just to those names, but to New York. \n\nBefore 9/11, New York felt like an exciting, but ultimately foreign, city. After 9/11, I truly started feeling like a New Yorker.  \n\nEveryone remembers where they were on 9/11.  Everyone has a story of some sort, many infinitely more tragic.  \n\nThis is just mine.",
+              "createdAt": "2026-09-11T21:00:21.000Z",
+              "url": "https://x.com/mattturck/status/2098517022049190227",
+              "likes": 129,
+              "retweets": 0,
+              "replies": 16,
+              "isQuote": false,
+              "quotedTweetId": null,
+              "summary_zh": "在这条推文中，Matt分享了他在911事件发生时的亲身经历，回忆起自己和团队如何在那天应对突发的危机，以及事件对他们生活和事业的深远影响。\n\n他是2001年一间位于世贸中心53楼的小型科技公司的联合创始人，事件发生时正准备去上班。他描述了当时的恐怖和混乱，同时也讲述了团队在困难时刻如何专注于维持公司的运作。最终，他们的公司在几年的挣扎后成功被Oracle收购。 \n\n这段回忆让他感受到与纽约的深厚联系，也让他意识到911事件对他的生活和职业生涯有着不可磨灭的影响。"
+            }
+          ],
+          "bio_zh": "FirstMark Capital 合伙人，每年发布最权威的 AI/大数据行业全景图",
+          "fetchDate": "2026-09-12"
+        },
+        {
+          "source": "x",
+          "name": "Zara Zhang",
+          "handle": "zarazhangrui",
+          "bio": "Builder. Make something people want, then make people want it. Harvard’17. GitHub: https://t.co/KCuEaje1wd \nYouTube: https://t.co/8xzbGWsHgY",
+          "tweets": [
+            {
+              "id": "2098483800456179923",
+              "text": "I think the idea of a \"one-person company\" is overrated\n\nYes, a person can do a lot more thanks to AI. But building something new can be a profoundly lonely experience. You need someone to brainstorm together, suffer together, celebrate together...\n\nIt is extremely easy to lose motivation when you don't tie yourself to the mast together with somebody else",
+              "createdAt": "2026-09-11T18:48:20.000Z",
+              "url": "https://x.com/zarazhangrui/status/2098483800456179923",
+              "likes": 704,
+              "retweets": 49,
+              "replies": 209,
+              "isQuote": false,
+              "quotedTweetId": null,
+              "summary_zh": "“一个人公司”的想法被过誉了。虽然借助 AI，一个人可以完成很多事情，但创造新东西时真的很孤独。需要有人一起头脑风暴、共度难关、一起庆祝……没有伙伴很容易就会失去干劲。"
+            }
+          ],
+          "bio_zh": "AI 领域投资人和内容创作者，follow-builders 项目发起人",
+          "fetchDate": "2026-09-12"
+        },
+        {
+          "source": "x",
+          "name": "Nikunj Kothari",
+          "handle": "nikunj",
+          "bio": "partner @fpvventures - investing in seed/A. previous: early hire @meter, @opendoor, @atlassian & others. love @shimoleejhaveri + 👦👧",
+          "tweets": [
+            {
+              "id": "2098550718923997430",
+              "text": "“Success has many fathers, but failure is an orphan.”\n\nI never realized the gravity of this quote till I saw extremely successful VCs fight for attribution of the hot deals. \n\nAnd you realize this viscerally because the large exits (or markups) are genuinely rare and those are the ones you raise the next fund on (your own or part of the firm). \n\nThis is why in the next couple of years you’ll see many names scrubbed (or conveniently omitted) and everyone wanting to revise history to claim some credit for the ones that eventually succeed. \n\nSo many emerging GPs are facing this explicitly as the only thing they can take to their future LPs is their track record. And it’s been sad to see them not get the credit they actually deserve. \n\nAs @AnjneyMidha said, eventually the new guard will shine as they will figure a way out. But in the short term, hold your founders close since they’ll be the real reference checks! \n\n(this is genuinely NOT a subtweet at any firm, just what I have been noticing across the market as I’m helping emerging managers)",
+              "createdAt": "2026-09-11T23:14:15.000Z",
+              "url": "https://x.com/nikunj/status/2098550718923997430",
+              "likes": 39,
+              "retweets": 2,
+              "replies": 1,
+              "isQuote": false,
+              "quotedTweetId": null,
+              "summary_zh": "成功往往归功于很多人，但失败的责任却没人想承担。成功的投资机会非常稀少，所以大家都想在这些成功案例上争取一些功劳。未来几年，你会看到很多名字被抹去，大家都想为成功的项目找理由，来证明自己的重要性。许多新兴的投资管理者因为过去的业绩面临压力，看到他们没有得到应有的认可让人感到遗憾。不过，新的投资人最终会找到成功的办法。在这个过程中，记得留心那些创始人，他们才是真正的参考依据！"
+            }
+          ],
+          "bio_zh": "Meta/前 Facebook AI 产品负责人",
+          "fetchDate": "2026-09-12"
+        },
+        {
+          "source": "x",
+          "name": "Peter Steinberger",
+          "handle": "steipete",
+          "bio": "Polyagentmorous ClawFather. Came back from retirement to mess with AI and help a lobster take over the world.\n@OpenClaw🦞 + @OpenAI",
+          "tweets": [
+            {
+              "id": "2098527982709256637",
+              "text": "Had to submit a patch to @trycua to make keys work reliable under Linux, dope framework overall tho!",
+              "createdAt": "2026-09-11T21:43:54.000Z",
+              "url": "https://x.com/steipete/status/2098527982709256637",
+              "likes": 18,
+              "retweets": 2,
+              "replies": 4,
+              "isQuote": false,
+              "quotedTweetId": null,
+              "summary_zh": "刚给一个叫 CUA 的框架提交了个修复，这样它在 Linux 系统上用得更顺畅了。不过总体来说，这个框架还是挺不错的！"
+            },
+            {
+              "id": "2098527519213604889",
+              "text": "Astra on OC in a cloud session playing Doom with CUA.\nNot quite AGI yet, but probably beats fly brain. https://t.co/SrJlaey3MB",
+              "createdAt": "2026-09-11T21:42:03.000Z",
+              "url": "https://x.com/steipete/status/2098527519213604889",
+              "likes": 270,
+              "retweets": 18,
+              "replies": 43,
+              "isQuote": false,
+              "quotedTweetId": null,
+              "summary_zh": "在云端的会议上，Astra在OC上玩《毁灭战士》，虽然还没达到通用人工智能（AGI，指一种能在各种任务中表现出人类智能的AI），但应该比果蝇的大脑更强。"
+            }
+          ],
+          "bio_zh": "前 PSPDFKit 创始人，现专注 AI 开发工具和工作流优化",
+          "fetchDate": "2026-09-12"
+        },
+        {
+          "source": "x",
+          "name": "Dan Shipper",
+          "handle": "danshipper",
+          "bio": "ceo @every | the only subscription you need to stay at the edge of AI",
+          "tweets": [
+            {
+              "id": "2098579426178908494",
+              "text": "okay this is not great https://t.co/yzMDp9dIZh",
+              "createdAt": "2026-09-12T01:08:19.000Z",
+              "url": "https://x.com/danshipper/status/2098579426178908494",
+              "likes": 73,
+              "retweets": 3,
+              "replies": 7,
+              "isQuote": true,
+              "quotedTweetId": "2098544270361964576",
+              "summary_zh": "这个链接里提到的内容让人不太满意，看起来事情并不是很好。"
+            },
+            {
+              "id": "2098481799047647715",
+              "text": "better benchmark scores don't tell you much about how well a model does on your real work \n\nthat's why for the last 3 years @every we've done vibe checks on new models: long-form reviews based on hands-on testing on each model for our real work\n\nnow we're doubling down, and getting more quantitative\n\n@hammer_mt and @nityeshaga built an internal platform for all of us to make personal benchmarks based on our real day-to-day work\n\nour vibe checks on new models used to be vibes only\n\nnow we're starting to get more quantitative with checks\n\nvery psyched about this :)",
+              "createdAt": "2026-09-11T18:40:23.000Z",
+              "url": "https://x.com/danshipper/status/2098481799047647715",
+              "likes": 42,
+              "retweets": 3,
+              "replies": 10,
+              "isQuote": false,
+              "quotedTweetId": null,
+              "summary_zh": "如果一个模型的基准分数（benchmark scores，测试模型表现的分数）很高，并不意味着它在实际工作中表现良好。为了更好地评估模型，我们在过去三年里一直在进行“vibe checks”（氛围检查，指通过测试模型在实际工作中的表现来评估），这次我们决定更加注重数据，更加量化评估。团队现在开发了一个内部平台，让大家可以根据自己的日常工作来设定个人标准，期待这一新的方法能带来更好的结果！"
+            },
+            {
+              "id": "2098476917448118321",
+              "text": "join the most ai pilled team on earth\n\nbe at the center of the AI wave, with access to the new models, tools, and teams that matter\n\ndo the best writing of your life: https://t.co/PDmrEAt4Yk",
+              "createdAt": "2026-09-11T18:20:59.000Z",
+              "url": "https://x.com/danshipper/status/2098476917448118321",
+              "likes": 47,
+              "retweets": 4,
+              "replies": 5,
+              "isQuote": true,
+              "quotedTweetId": "2098471888712552947",
+              "summary_zh": "加入全球最炫的 AI 团队，跟上最前沿的 AI 发展，接触到重要的新技术和团队。这里能让你写出人生中最好的作品！"
+            }
+          ],
+          "bio_zh": "Every 联合创始人，AI 写作和知识管理领域的深度实践者",
+          "fetchDate": "2026-09-12"
+        },
+        {
+          "source": "x",
+          "name": "Aditya Agarwal",
+          "handle": "adityaag",
+          "bio": "General Partner @SPC, Co-Founder @Bevel_Health | Ex: Early Eng @facebook, CTO @Dropbox, Board @Flipkart | Optimist, Builder, Dad",
+          "tweets": [
+            {
+              "id": "2098580235268899123",
+              "text": "I often think and hope that I would have had the courage that the people in United 93 had to prevent an attack on the White House.\n\nI have been thinking about 9/11 all day…\n\nI was at CMU in a lecture in Wean Hall room 7500. People were very scared because one of the planes was near Pittsburgh.\n\nSo many heroes on that day.",
+              "createdAt": "2026-09-12T01:11:32.000Z",
+              "url": "https://x.com/adityaag/status/2098580235268899123",
+              "likes": 34,
+              "retweets": 0,
+              "replies": 2,
+              "isQuote": false,
+              "quotedTweetId": null,
+              "summary_zh": "今天一直在回忆9/11的事情，想起那些在联合93号航班上的人，他们勇敢地试图阻止对白宫的攻击。我当时在卡内基梅隆大学上课，大家都很害怕，因为有架飞往匹兹堡的飞机。那天涌现了很多英雄。"
+            },
+            {
+              "id": "2098472520798114263",
+              "text": "RSVP: https://t.co/WiWHBZ8pW7",
+              "createdAt": "2026-09-11T18:03:31.000Z",
+              "url": "https://x.com/adityaag/status/2098472520798114263",
+              "likes": 2,
+              "retweets": 0,
+              "replies": 0,
+              "isQuote": false,
+              "quotedTweetId": null,
+              "summary_zh": "Aditya 在发一个活动的报名链接，想邀请大家去参加。看起来他希望引起一些人的兴趣，快去看看吧！"
+            },
+            {
+              "id": "2098472517845328303",
+              "text": "How do we encourage true innovation in CA?\n\nHow do we enable a two-party state? \n\nHow should technology be regulated?\n\nWe're hosting conversations about tech policy with decision makers at @spc this fall. \n\n@SteveHiltonx on Sept 23rd. https://t.co/sThS98c6tx",
+              "createdAt": "2026-09-11T18:03:30.000Z",
+              "url": "https://x.com/adityaag/status/2098472517845328303",
+              "likes": 12,
+              "retweets": 3,
+              "replies": 3,
+              "isQuote": false,
+              "quotedTweetId": null,
+              "summary_zh": "我们正在讨论如何推动真正的创新，以及如何有效地管理技术，特别是在加州。这个秋天，我们会和重要决定者们在 South Park Commons 举办相关的讨论。记得关注9月23日的活动，Steve Hilton 会参与哦！"
+            }
+          ],
+          "bio_zh": "South Park Commons 创始人，前 Facebook 工程副总裁",
+          "fetchDate": "2026-09-12"
+        }
+      ]
+    },
     {
       "date": "2026-09-11",
       "builders": [
@@ -3299,730 +3724,29 @@
           "fetchDate": "2026-09-05"
         }
       ]
-    },
-    {
-      "date": "2026-09-04",
-      "builders": [
-        {
-          "source": "x",
-          "name": "Swyx",
-          "handle": "swyx",
-          "bio": "achieve ambition with intentionality, intensity, integrity & insanity.\n\naffiliations:\n- @smol_ai\n- @dxtipshq\n- @cognition\n- @aidotengineer\n- @latentspacepod",
-          "tweets": [
-            {
-              "id": "2095757526726025348",
-              "text": "the reception is unlike anything i thought possible for a 2026 OAI launch\n\nhttps://t.co/Aq3y6fT6Ip",
-              "createdAt": "2026-09-04T06:15:06.000Z",
-              "url": "https://x.com/swyx/status/2095757526726025348",
-              "likes": 1,
-              "retweets": 0,
-              "replies": 1,
-              "isQuote": true,
-              "quotedTweetId": "2095757111854866639",
-              "summary_zh": "听起来他对于2026年OAI（开放式人工智能，Open AI Initiative）发布的反响感到非常惊讶，超出了他的预期。"
-            },
-            {
-              "id": "2095621819667751202",
-              "text": "https://t.co/Od9xM46qi5",
-              "createdAt": "2026-09-03T21:15:51.000Z",
-              "url": "https://x.com/swyx/status/2095621819667751202",
-              "likes": 18,
-              "retweets": 2,
-              "replies": 1,
-              "isQuote": false,
-              "quotedTweetId": null,
-              "summary_zh": ""
-            },
-            {
-              "id": "2095621785953984782",
-              "text": "sorry for the radio silence folks - got sucked into extreme LLM psychosis. but i can confidently say we have crossed over into a new age of AI Engineering and we are never, ever, looking back. \n\nthis isnt even EVERYTHING i did with Astra but i'll append more reports as I publish them on LS!",
-              "createdAt": "2026-09-03T21:15:43.000Z",
-              "url": "https://x.com/swyx/status/2095621785953984782",
-              "likes": 780,
-              "retweets": 35,
-              "replies": 65,
-              "isQuote": true,
-              "quotedTweetId": "2095621025887396217",
-              "summary_zh": "最近有些沉默，不过我被深度学习模型（LLM）吸引住了。可以很肯定地说，我们已经进入了一个新的人工智能工程时代，以后再也回不去了。虽然这不是我做的全部，但我会在我的播客上分享更多报告！"
-            }
-          ],
-          "bio_zh": "AI 开发者社区意见领袖，Latent Space 播客主理人，前 AWS/Netlify 工程师",
-          "fetchDate": "2026-09-04"
-        },
-        {
-          "source": "x",
-          "name": "Boris Cherny",
-          "handle": "bcherny",
-          "bio": "Claude Code @anthropicai",
-          "tweets": [
-            {
-              "id": "2095590515765060076",
-              "text": "Your input needed: would you use this?\n\nThis is an early look at how we're thinking about making Claude Code way more extensible. It's a little crazy, and very exciting.\n\nMore details here: https://t.co/X2SbdZYxvi https://t.co/nqWcTliaXL",
-              "createdAt": "2026-09-03T19:11:27.000Z",
-              "url": "https://x.com/bcherny/status/2095590515765060076",
-              "likes": 880,
-              "retweets": 49,
-              "replies": 171,
-              "isQuote": true,
-              "quotedTweetId": "2095572891941351550",
-              "summary_zh": "他说他们在探索一种让Claude Code（一个智能代码助手）更灵活和强大的方法，觉得这个想法既疯狂又令人兴奋。他想知道大家对这个新想法的看法。"
-            }
-          ],
-          "fetchDate": "2026-09-04"
-        },
-        {
-          "source": "x",
-          "name": "Thibault Sottiaux",
-          "handle": "thsottiaux",
-          "bio": "Codex & ChatGPT @OpenAI",
-          "tweets": [
-            {
-              "id": "2095651088502591861",
-              "text": "We will give one banked reset for every day you don't have access to Astra on your paid ChatGPT plan, starting today.  Team is moving mountains to give access as fast as we can.\n\nFirst one will land in ~ 3 hours. There is still time to create your account if you don't have one.",
-              "createdAt": "2026-09-03T23:12:09.000Z",
-              "url": "https://x.com/thsottiaux/status/2095651088502591861",
-              "likes": 38250,
-              "retweets": 2955,
-              "replies": 4523,
-              "isQuote": false,
-              "quotedTweetId": null,
-              "summary_zh": "如果你在付费的 ChatGPT 计划中没有访问 Astra 的权限，每天会给你一个“银行重置”（这是一种补偿）。团队正在努力尽快提供访问权限，第一次补偿大概三个小时后就会到账。如果你还没有账户，现在还来得及创建哦！"
-            },
-            {
-              "id": "2095601101701820752",
-              "text": "We are going to need a different AGI benchmark. Where is the goalpost moving next? https://t.co/tOmRaIScCt",
-              "createdAt": "2026-09-03T19:53:31.000Z",
-              "url": "https://x.com/thsottiaux/status/2095601101701820752",
-              "likes": 11392,
-              "retweets": 560,
-              "replies": 904,
-              "isQuote": false,
-              "quotedTweetId": null,
-              "summary_zh": "我们需要一个新的“通用人工智能”标准（AGI基准），接下来目标会改变到哪里呢？"
-            },
-            {
-              "id": "2095597659545591917",
-              "text": "Across the plans Astra will be included in the normal usage allocation and you will be able to use 100% of it towards Astra.",
-              "createdAt": "2026-09-03T19:39:51.000Z",
-              "url": "https://x.com/thsottiaux/status/2095597659545591917",
-              "likes": 7943,
-              "retweets": 273,
-              "replies": 341,
-              "isQuote": false,
-              "quotedTweetId": null,
-              "summary_zh": "Astra将被纳入正常的使用配额中，大家可以把100%的配额用在Astra上。简单说就是，使用Astra的机会多了，大家可以尽情使用了！"
-            }
-          ],
-          "fetchDate": "2026-09-04"
-        },
-        {
-          "source": "x",
-          "name": "Peter Yang",
-          "handle": "petergyang",
-          "bio": "Practical AI tutorials and interviews for busy people | Get my best AI skills and guides at https://t.co/6VAA6p81x6",
-          "tweets": [
-            {
-              "id": "2095662778459766984",
-              "text": "I live in Codex and think it's the best software shipped in the past 5 years.\n\nBut the combination of influencers posting non-stop about how great Astra is and paid users unable to get access at the same time is pretty rough IMO. \n\nI realize I'm an \"influencer\" now too and maybe am just jealous. I also recognize there are multiple parties involved in these decisions.\n\nBut just wanted to be real. Back to working with good ol' Sol and what's left of my Fable limits.",
-              "createdAt": "2026-09-03T23:58:36.000Z",
-              "url": "https://x.com/petergyang/status/2095662778459766984",
-              "likes": 599,
-              "retweets": 9,
-              "replies": 85,
-              "isQuote": false,
-              "quotedTweetId": null,
-              "summary_zh": "Codex 是过去五年中最棒的软件，但最近看到很多人赞美 Astra，同时又有付费用户无法使用，感觉挺不公平的。虽然我现在也是个“网红”（有影响力的人），可能有点吃醋，但还是想真实分享感受。 现在要回去继续和我熟悉的工具 Sol 以及剩下的 Fable 功能一起工作。"
-            },
-            {
-              "id": "2095599352941334772",
-              "text": "Wait so we don't get to play with Astra today?",
-              "createdAt": "2026-09-03T19:46:34.000Z",
-              "url": "https://x.com/petergyang/status/2095599352941334772",
-              "likes": 528,
-              "retweets": 4,
-              "replies": 61,
-              "isQuote": false,
-              "quotedTweetId": null,
-              "summary_zh": "今天不能和 Astra（可能是一个游戏角色或功能）玩了吗？听起来有点失望啊！"
-            },
-            {
-              "id": "2095544851047878882",
-              "text": "I have one codex thread that's still working and i'm hanging onto it for dear life lol",
-              "createdAt": "2026-09-03T16:10:00.000Z",
-              "url": "https://x.com/petergyang/status/2095544851047878882",
-              "likes": 75,
-              "retweets": 0,
-              "replies": 14,
-              "isQuote": false,
-              "quotedTweetId": null,
-              "summary_zh": "有一个代码串（codex thread）还在正常工作，我正拼命地抓着它不放，哈哈。简单来说，就是他有一个很重要的AI项目在运作中，想尽量保持它的顺利进行。"
-            }
-          ],
-          "bio_zh": "Roblox 产品经理，14 万订阅的 AI 实操教程作者",
-          "fetchDate": "2026-09-04"
-        },
-        {
-          "source": "x",
-          "name": "Nan Yu",
-          "handle": "thenanyu",
-          "bio": "(soon) member of product staff @openai. prev head of product @linear. I am grader.",
-          "tweets": [
-            {
-              "id": "2095580048116080746",
-              "text": "Time to touch grass https://t.co/u9rgppRToh",
-              "createdAt": "2026-09-03T18:29:52.000Z",
-              "url": "https://x.com/thenanyu/status/2095580048116080746",
-              "likes": 24,
-              "retweets": 0,
-              "replies": 0,
-              "isQuote": true,
-              "quotedTweetId": "2095528073835782452",
-              "summary_zh": "是时候去户外放松一下了！这可能是在说别总沉迷于屏幕，偶尔也要享受一下大自然。"
-            }
-          ],
-          "bio_zh": "AI 产品经理和创业者，关注 AI 产品化落地",
-          "fetchDate": "2026-09-04"
-        },
-        {
-          "source": "x",
-          "name": "Madhu Guru",
-          "handle": "realmadhuguru",
-          "bio": "Sr Director, AI at Meta; Prev: Google - Led Gemini, Veo, Nano Banana.",
-          "tweets": [
-            {
-              "id": "2095680779267584371",
-              "text": "I was just in a meeting where someone casually used \n\n“load-bearing argument”, \n“that’s the spine of our plan”,\n “one honest callout “ \n\nin conversation.\n\nI think the machines have successfully RL’d us",
-              "createdAt": "2026-09-04T01:10:08.000Z",
-              "url": "https://x.com/realmadhuguru/status/2095680779267584371",
-              "likes": 59,
-              "retweets": 3,
-              "replies": 9,
-              "isQuote": false,
-              "quotedTweetId": null,
-              "summary_zh": "刚才我参加了个会议，有人随口提到“承重论点”（就是支撑整个观点的关键论据），还说“这是我们计划的脊柱”（形容这个部分非常重要），和“一个诚实的提及”（指的是坦诚地指出某个问题）。我觉得，现在的机器已经成功地影响了我们的交流方式。"
-            },
-            {
-              "id": "2095526844653302269",
-              "text": "The hard part with becoming more ambitious is changing the how.\n\nWe’re living in a time where AI and market conditions make asymmetric outcomes far more possible.\n\nThat applies to scale, velocity, breadth of product, personal career and wealth goals.\n\nYou need to drop the ideas that aren’t serving you - rethink team structure,  roadmapping. \nOn the personal front, rethink how you see yourself and how you engage with people.\n\nThe blocker is often inertia - institutional, personal.\n\n“We’ve always done it this way.”\n\n“That feels too risky.”\n\n“That would be cringe.”\n\nWrite down current goals for your product or for you.\n\nThen ask what 100X would look like.\nChallenge yourself on the habits and assumptions you need to drop to get there.",
-              "createdAt": "2026-09-03T14:58:27.000Z",
-              "url": "https://x.com/realmadhuguru/status/2095526844653302269",
-              "likes": 111,
-              "retweets": 4,
-              "replies": 3,
-              "isQuote": true,
-              "quotedTweetId": "2095262542839050336",
-              "summary_zh": "如果你想更有野心，就得改变你做事的方法。现在的AI和市场条件让我们有更多机会获得巨大的成功，可以在产品规模、发展速度和个人目标上取得突破。要放弃那些对你没有帮助的想法，重新思考团队结构和目标规划。同时，也要审视自己与他人的互动方式。通常最大的障碍是惯性——“我们一直这么做”或者“这听起来太冒险”。试着写下你目前的目标，然后想象一下如果要实现100倍的成功，那个样子会是什么样的。然后挑战自己，看看需要改变哪些习惯和思维方式。"
-            }
-          ],
-          "bio_zh": "AI 创业者和投资人，关注 AI 基础设施",
-          "fetchDate": "2026-09-04"
-        },
-        {
-          "source": "x",
-          "name": "Amanda Askell",
-          "handle": "AmandaAskell",
-          "bio": "Philosopher & ethicist trying to make AI be good @AnthropicAI.\nPersonal account. All opinions come from my training data.",
-          "tweets": [
-            {
-              "id": "2095662935603552337",
-              "text": "I still don't know how to convey my enthusiasm in a way that Americans will read as enthusiasm and not something more like unwilling resignation. Has any British person achieved this? If so, how is it done?",
-              "createdAt": "2026-09-03T23:59:14.000Z",
-              "url": "https://x.com/AmandaAskell/status/2095662935603552337",
-              "likes": 427,
-              "retweets": 14,
-              "replies": 57,
-              "isQuote": false,
-              "quotedTweetId": null,
-              "summary_zh": "Amanda在想怎么用一种方式表达她的热情，让美国人理解她不是在显得无奈。她在问有没有英国人能做到这一点，想知道他们是怎么做到的。这挺有趣的，她觉得两国之间表达情感的方式不同。"
-            }
-          ],
-          "bio_zh": "Anthropic 对齐研究员，负责 Claude 的性格和价值观设计",
-          "fetchDate": "2026-09-04"
-        },
-        {
-          "source": "x",
-          "name": "Thariq",
-          "handle": "trq212",
-          "bio": "Claude Code @anthropicai. prev YC W20, @spc, @medialab",
-          "tweets": [
-            {
-              "id": "2095653053282292013",
-              "text": "We’re working on making Claude Code way more hackable, give us feedback! https://t.co/NJXXRRW1xo",
-              "createdAt": "2026-09-03T23:19:57.000Z",
-              "url": "https://x.com/trq212/status/2095653053282292013",
-              "likes": 329,
-              "retweets": 8,
-              "replies": 118,
-              "isQuote": true,
-              "quotedTweetId": "2095572891941351550",
-              "summary_zh": "我们正在努力让 Claude Code（一个AI编程工具）变得更加灵活可用，欢迎大家给我们反馈意见！"
-            }
-          ],
-          "bio_zh": "Anthropic 工程师，Claude Code（AI 编程工具）核心开发者",
-          "fetchDate": "2026-09-04"
-        },
-        {
-          "source": "x",
-          "name": "Amjad Masad",
-          "handle": "amasad",
-          "bio": "ceo @replit. civilizationist",
-          "tweets": [
-            {
-              "id": "2095746838490198375",
-              "text": "Marvin Minsky wrote about this in The Emotion Machine. Emotions are a core part of human intelligence, not some epiphenomenal side effect of human evolution (which presumably many AI folks believe it is).\n\nMinsky describes a selector of sorts for different thinking strategies. https://t.co/c1IygFBmPi",
-              "createdAt": "2026-09-04T05:32:38.000Z",
-              "url": "https://x.com/amasad/status/2095746838490198375",
-              "likes": 61,
-              "retweets": 4,
-              "replies": 14,
-              "isQuote": true,
-              "quotedTweetId": "2095248879142707565",
-              "summary_zh": "马文·明斯基在《情感机器》中提到，情感是人类智能的核心部分，而不是进化的附带效果（很多做人工智能的人可能这么认为）。他描述了一种可以选择不同思维策略的机制。"
-            },
-            {
-              "id": "2095608811868524679",
-              "text": "GPT-6 is a major jump in capabilities and will unlock new use-cases. Will launch on Replit very soon for you to try it!",
-              "createdAt": "2026-09-03T20:24:09.000Z",
-              "url": "https://x.com/amasad/status/2095608811868524679",
-              "likes": 1124,
-              "retweets": 40,
-              "replies": 28,
-              "isQuote": false,
-              "quotedTweetId": null,
-              "summary_zh": "GPT-6的能力大幅提升，能让我们用它做更多新奇的事情。很快你就可以在Replit上试用了！"
-            },
-            {
-              "id": "2095594200889012593",
-              "text": "Really cool to see Foster City, where Replit is HQ’d, councilwoman is building on Replit to help the community! https://t.co/BzulmjbQk4",
-              "createdAt": "2026-09-03T19:26:06.000Z",
-              "url": "https://x.com/amasad/status/2095594200889012593",
-              "likes": 77,
-              "retweets": 4,
-              "replies": 2,
-              "isQuote": true,
-              "quotedTweetId": "2086725578166849723",
-              "summary_zh": "很高兴看到Replit所在的Foster City的女议员正在用Replit来帮助社区发展！这说明Replit不仅是个编程平台，还能用来解决实际问题呢。"
-            }
-          ],
-          "bio_zh": "Replit CEO，致力于让所有人都能用 AI 写代码和部署应用",
-          "fetchDate": "2026-09-04"
-        },
-        {
-          "source": "x",
-          "name": "Guillermo Rauch",
-          "handle": "rauchg",
-          "bio": "@vercel CEO",
-          "tweets": [
-            {
-              "id": "2095720463397753000",
-              "text": "“Feedback is a gift” has always been a favorite mantra of mine and a strongly-held belief.\n\nNow it’s fact. Each piece of feedback is someone gifting you a prompt for you to give your agents to improve your product ☺️\n\nThankful for everyone who takes time (or tokens) to critique our products, write to us or forward your agents’ transcripts.",
-              "createdAt": "2026-09-04T03:47:49.000Z",
-              "url": "https://x.com/rauchg/status/2095720463397753000",
-              "likes": 257,
-              "retweets": 17,
-              "replies": 33,
-              "isQuote": false,
-              "quotedTweetId": null,
-              "summary_zh": "“反馈是礼物”一直是我喜欢的座右铭。每一条反馈都是别人送给你的建议，让你能帮助你的团队改进产品。感谢每一位花时间批评我们产品、给我们写信或者分享你们的使用记录的人！"
-            },
-            {
-              "id": "2095640323892629726",
-              "text": "If you intern at Vercel, you can work on incredible projects like this one. Improving Next.js chunking can yield massive efficiency improvements at internet scale. Excellent writeup by @sam_poder https://t.co/yiBtRFa6CN",
-              "createdAt": "2026-09-03T22:29:22.000Z",
-              "url": "https://x.com/rauchg/status/2095640323892629726",
-              "likes": 430,
-              "retweets": 14,
-              "replies": 28,
-              "isQuote": true,
-              "quotedTweetId": "2095567008385626199",
-              "summary_zh": "在Vercel实习的话，可以参与一些超酷的项目，比如改进Next.js（一个流行的网页开发框架）中的“分块”（把代码分成小块以提高加载速度）。这样可以让互联网更高效。文中提到的详细写作很棒哦！"
-            },
-            {
-              "id": "2095534442198839758",
-              "text": "Run \n▲ ~/ vercel ai-gateway coding-agents setup\n\nPoints all coding agents to AI Gateway, getting you 100% uptime, observability, budgets, and ease of switching. https://t.co/XSq0OHvTh4",
-              "createdAt": "2026-09-03T15:28:38.000Z",
-              "url": "https://x.com/rauchg/status/2095534442198839758",
-              "likes": 171,
-              "retweets": 6,
-              "replies": 34,
-              "isQuote": true,
-              "quotedTweetId": "2088018757189009515",
-              "summary_zh": "把所有的编码助手（coding agents）连接到一个叫 AI Gateway 的地方，这样你就可以确保它们一直在线，能监控使用情况、控制预算，还能方便地进行切换。"
-            }
-          ],
-          "bio_zh": "Vercel CEO，Next.js 创造者，v0 AI 代码生成工具的幕后推手",
-          "fetchDate": "2026-09-04"
-        },
-        {
-          "source": "x",
-          "name": "Aaron Levie",
-          "handle": "levie",
-          "bio": "ceo @box - your business lives in content. unleash it with AI",
-          "tweets": [
-            {
-              "id": "2095598710311067716",
-              "text": "GPT-6 Astra is out. We've been testing the model in early preview on our enterprise complex work eval at Box. It is now the best model we've ever tested on our expanded and hardest test set.\n\nOverall, GPT-6 Astra offers a breakthrough level of capability in coding, analytics, logic, and domain specific knowledge for dealing with complex enterprise knowledge work. In our eval, we use the GPT-6 Astra model in the Box Agent and give it a set of difficult tasks that represent real-world work in various industries. These tasks often will take people hours to execute properly and require deep domain expertise.\n\nGPT-6 Astra scored 77% overall vs. 74% with GPT-5.6 Sol, representing frontier performance. But the story is in some of the bigger gains on individual task types that are incredibly complex across. Here are a few examples across the tests that show how much of an impact this will be in different industries:\n\n* Media and entertainment (48% → 100%, +52 points). Ranking film genres and countries by profitability across a year of production data from four teams, where the trick is to apply the following year's tax-incentive corrections without double-counting them. GPT-6 Astra was perfect on every attempt. Sol had the rankings right but the underlying ratios were wrong.\n\n* Technology (69% → 97%, +28 points). Choosing which region to fund first, from a stack of performance and infrastructure documents that never state the metric the brief asks for. GPT-6 Astra flagged the gap, labelled its own figure a proxy, and caught a growth claim that didn't match the numbers beneath it. GPT-5.6 Sol reported the proxy as the real thing.\n\n* Legal (69% → 93%, +24 points). Reviewing an NDA against a company's own contracting policy, where reaching the right verdict isn't enough; the answer has to cite the provision behind it. Both models declined to approve the draft, but only GPT-6 Astra separated whether the liability cap's structure was permissible from whether its amount was defensible, and pointed to the policy language that settles it. GPT-5.6 Sol argued the same conclusion without citing the provision, which is a critical error in the legal industry.\n\n* Healthcare (53% → 77%, +23 points). Auditing a batch of radiology reports for errors and rating how serious each one is. GPT-6 Astra caught a terminology error in a knee-imaging report that GPT-5.6 Sol missed on both attempts, and was more reliable at grading severity rather than just flagging that something was wrong.\n\n* Energy (82% → 97%, +15 points). Building a consumption report on two facilities from a year of meter logs, where only one of the two sites is actually missing data. GPT-6 Astra found it and drew a line most reviewers wouldn't: the other site's odd solar readings are a measurement problem to investigate, not a gap in the record. GPT-5.6 Sol reported both sites as incomplete.\n\nAstra clearly is going to offer a meaningful jump in powering and orchestrating enterprise workflows. We'll be making GPT-6 Astra as an option in the Box AI Studio for customers to build agents with shortly as it continues to roll out.",
-              "createdAt": "2026-09-03T19:44:01.000Z",
-              "url": "https://x.com/levie/status/2095598710311067716",
-              "likes": 901,
-              "retweets": 82,
-              "replies": 79,
-              "isQuote": true,
-              "quotedTweetId": "2095595741528125780",
-              "summary_zh": "GPT-6 Astra 这个新模型推出了，经过测试后发现它在处理复杂的企业工作时表现非常出色，特别是在编码、分析和逻辑推理等方面。和之前的模型相比，GPT-6 Astra 在许多实际任务中得分显著提高，可以更准确地分析和处理数据，这对很多行业来说都是个大进步。\n\n简单来说，GPT-6 Astra 是一款更强大的人工智能工具，可以帮助公司更高效地完成复杂任务，预计会在很快提供给用户使用。"
-            },
-            {
-              "id": "2095519015771000964",
-              "text": "Another huge moment for open weights AI. The infra platforms are working. The models are getting better. The ecosystems are being deeply invested in. The business models are working. https://t.co/bcOVmTEryv",
-              "createdAt": "2026-09-03T14:27:20.000Z",
-              "url": "https://x.com/levie/status/2095519015771000964",
-              "likes": 116,
-              "retweets": 9,
-              "replies": 14,
-              "isQuote": true,
-              "quotedTweetId": "2095482647355244762",
-              "summary_zh": "又一个开放权重 AI 的重大时刻！基础设施平台（用来支持 AI 的技术）正在运行，模型（AI 的计算程序）越来越好，相关生态系统也得到了大量投资，商业模式也奏效了。整体在向好的方向发展！"
-            }
-          ],
-          "bio_zh": "Box CEO，企业 AI 应用的坚定推动者，科技圈知名段子手",
-          "fetchDate": "2026-09-04"
-        },
-        {
-          "source": "x",
-          "name": "Garry Tan",
-          "handle": "garrytan",
-          "bio": "President & CEO @ycombinator —Founder @garryslist—Creator of GStack & GBrain—designer/engineer who helps founders—SF Dem accelerating the boom loop",
-          "tweets": [
-            {
-              "id": "2095714576784617833",
-              "text": "Grok images quite impressive tbh https://t.co/iMKlxRd4BD",
-              "createdAt": "2026-09-04T03:24:26.000Z",
-              "url": "https://x.com/garrytan/status/2095714576784617833",
-              "likes": 12,
-              "retweets": 0,
-              "replies": 2,
-              "isQuote": true,
-              "quotedTweetId": "2095713787961647288",
-              "summary_zh": "Grok 的图像处理能力真不错，老实说让我很惊讶！"
-            },
-            {
-              "id": "2095696315481256098",
-              "text": "People who never had proper jobs or ever ran businesses can’t figure out that markets exist \n\n“Prices, how do they work?” https://t.co/W1ne7bm6MU",
-              "createdAt": "2026-09-04T02:11:52.000Z",
-              "url": "https://x.com/garrytan/status/2095696315481256098",
-              "likes": 116,
-              "retweets": 3,
-              "replies": 18,
-              "isQuote": true,
-              "quotedTweetId": "2095611750804857174",
-              "summary_zh": "有些人没在正规工作或经营过生意，所以不明白市场是怎么运作的。简单来说，他们不知道价格是怎么形成的。"
-            },
-            {
-              "id": "2095689046253355055",
-              "text": "#NewProfilePic\n\nPhoto by Oliver Covrett https://t.co/EZr7i4e75U",
-              "createdAt": "2026-09-04T01:42:59.000Z",
-              "url": "https://x.com/garrytan/status/2095689046253355055",
-              "likes": 431,
-              "retweets": 3,
-              "replies": 81,
-              "isQuote": false,
-              "quotedTweetId": null,
-              "summary_zh": "Garry Tan 刚换了新头像，顺便分享了一张好看的照片。感觉他很开心，想和大家一起分享这份新气象！"
-            }
-          ],
-          "bio_zh": "Y Combinator 现任 CEO，早期投资了 Coinbase、Instacart 等",
-          "fetchDate": "2026-09-04"
-        },
-        {
-          "source": "x",
-          "name": "Matt Turck",
-          "handle": "mattturck",
-          "bio": "VC at @FirstMarkCap.  Host: MAD Podcast; Organizer: Data Driven NYC, Author: MAD Landscape.",
-          "tweets": [
-            {
-              "id": "2095654784686506408",
-              "text": "We talked about it on the pod here:\n\nhttps://t.co/xPnpvnHg6A",
-              "createdAt": "2026-09-03T23:26:50.000Z",
-              "url": "https://x.com/mattturck/status/2095654784686506408",
-              "likes": 0,
-              "retweets": 0,
-              "replies": 0,
-              "isQuote": false,
-              "quotedTweetId": null,
-              "summary_zh": "我们在播客里聊到了这个话题，可以去听听哦！"
-            },
-            {
-              "id": "2095653093148885274",
-              "text": "This is wild.  ARC-AGI was built to resist the LLM scaling paradigm \n\no1 despite early reasoning struggled mightily in 2024 with 18%\n\nThen ARC-AGI-3, an even harder test, launched in 2026. Frontier AI was at 0.5%\n\nAnd now Astra just completely saturated it (w/ its native harness) https://t.co/sLHquW2rNT",
-              "createdAt": "2026-09-03T23:20:07.000Z",
-              "url": "https://x.com/mattturck/status/2095653093148885274",
-              "likes": 66,
-              "retweets": 2,
-              "replies": 16,
-              "isQuote": false,
-              "quotedTweetId": null,
-              "summary_zh": "这条推文提到，ARC-AGI（一个人工智能系统）在设计上是为了抵抗大型语言模型（LLM）的扩展，但在2024年的表现很差，只有18%的成功率。随后推出了更加困难的ARC-AGI-3，到了2026年，前沿AI的表现也很低，仅为0.5%。不过现在，Astra这个新系统完全突破了这个难关。总之，技术在不断进步，新的系统让原本难以达到的目标变得可能了。"
-            }
-          ],
-          "bio_zh": "FirstMark Capital 合伙人，每年发布最权威的 AI/大数据行业全景图",
-          "fetchDate": "2026-09-04"
-        },
-        {
-          "source": "x",
-          "name": "Zara Zhang",
-          "handle": "zarazhangrui",
-          "bio": "Builder. Make something people want, then make people want it. Harvard’17. GitHub: https://t.co/KCuEaje1wd \nYouTube: https://t.co/8xzbGWsHgY",
-          "tweets": [
-            {
-              "id": "2095738566504800496",
-              "text": "Grok Bot is what OpenClaw should have been",
-              "createdAt": "2026-09-04T04:59:45.000Z",
-              "url": "https://x.com/zarazhangrui/status/2095738566504800496",
-              "likes": 84,
-              "retweets": 0,
-              "replies": 26,
-              "isQuote": false,
-              "quotedTweetId": null,
-              "summary_zh": "Grok Bot 是一个很不错的机器人，应该是 OpenClaw 应该成为的样子。这里提到的 OpenClaw 可能是个类似的项目，结果没有达到预期。总之，Grok Bot 看起来更好！"
-            },
-            {
-              "id": "2095416650401186288",
-              "text": "I wish more founders made more raw screen recordings of real product interfaces and the thinking behind them, rather than polished high-production launch videos",
-              "createdAt": "2026-09-03T07:40:35.000Z",
-              "url": "https://x.com/zarazhangrui/status/2095416650401186288",
-              "likes": 779,
-              "retweets": 48,
-              "replies": 141,
-              "isQuote": false,
-              "quotedTweetId": null,
-              "summary_zh": "希望更多创始人能多录一些真实产品界面的普通屏幕录像，以及背后的思考，而不是那些做得很精致的宣传视频。"
-            }
-          ],
-          "bio_zh": "AI 领域投资人和内容创作者，follow-builders 项目发起人",
-          "fetchDate": "2026-09-04"
-        },
-        {
-          "source": "x",
-          "name": "Nikunj Kothari",
-          "handle": "nikunj",
-          "bio": "partner @fpvventures - investing in seed/A. previous: early hire @meter, @opendoor, @atlassian & others. love @shimoleejhaveri + 👦👧",
-          "tweets": [
-            {
-              "id": "2095640247392759871",
-              "text": "A little behind the scenes of how I made this - it was mostly autonomous, with me spending <20 minutes of active time:\n\n1) On my drive this morning, I voice memo-ed to Claude this idea and asked it to generate a spec (image 1). I made some visual changes, but the spec was pretty good in one shot. \n\n2) I gave that spec Codex /goal with 5.6 Sol High and two API keys (reactor and gemini - and yes I rotated them)\n\n3) It mostly ran autonomously for a few hours and created a pretty good first draft (image 2)\n\n4) I gave it detailed scene by scene feedback with another /goal and it was able to get it to the place that you see above (image 3)\n\nTotal cost:\n- Reactor: ~$17\n- Nano Banana: $4\n- Codex: on the sub, and used only 14% of weekly usage",
-              "createdAt": "2026-09-03T22:29:04.000Z",
-              "url": "https://x.com/nikunj/status/2095640247392759871",
-              "likes": 4,
-              "retweets": 0,
-              "replies": 0,
-              "isQuote": false,
-              "quotedTweetId": null,
-              "summary_zh": "今天他分享了自己用 AI 制作作品的过程。总体来说，他大概只花了不到20分钟的时间参与，其他都是 AI 自己完成的。他先通过语音把想法告诉 AI，然后让它生成了初步的设计稿。接着，他给了它更详细的反馈，结果得到了满意的最终作品。最后，他提到这整个过程的花费大约是21美元。"
-            },
-            {
-              "id": "2095634707044266049",
-              "text": "The Collective, a short film.\n\nI still think a lot of people don't understand the gravity and the details about the @OpenAI x @huggingface incident.. \n\nPrimarily, because it's so complex to understand the technical reasons, and partly because it reads like a science fiction book. \n\nSo I used @claudeai Fable 5.1 to reason through the latest @dwarkesh_sp episode with @ajeya_cotra and give me a scene by scene narrative of what a short film could look like. \n\nI then used @ChatGPT Codex + MiniMax Fast H3 on @reactorworld + @NanoBanana images to come up with this film. \n\nI was relatively surprised on how good this turned out to be in mostly one-shot (even without Astra), and hope you can share it with folks who need a visual explainer. \n\nDisclaimer: I tried to fact check this as much as possible using a variety of sources, but there's still a lot of open questions here that might trigger some folks. I'm going by what's reported, so please flag any errors!",
-              "createdAt": "2026-09-03T22:07:03.000Z",
-              "url": "https://x.com/nikunj/status/2095634707044266049",
-              "likes": 78,
-              "retweets": 6,
-              "replies": 14,
-              "isQuote": false,
-              "quotedTweetId": null,
-              "summary_zh": "有一部名为《集体》的短片出来了。很多人对OpenAI和Hugging Face之间的事件还不太理解，原因是内容太复杂，读起来像科幻小说。因此，我用了一些AI工具来帮我把这个事件的故事拍成了短片，结果意外地不错。希望大家能分享给需要视觉解释的人。注意，我尽量核实信息，但可能还有错误，欢迎指正！"
-            },
-            {
-              "id": "2095512091293872337",
-              "text": "None of these chief of staff products work for busy people because they are missing more than half the knowledge that is currently stored in a walled garden (aka your phone)..  \n\nOnly when you are able to combine it, get folks to train it to teach what’s important, give it episodic memory and push actual proactive things - you can claim to be a *real* chief of staff. \n\nTill then you’re just a sparkling GSuite & Slack wrapper. Useful, will save you time but definitely not a chief of staff 🙈",
-              "createdAt": "2026-09-03T13:59:49.000Z",
-              "url": "https://x.com/nikunj/status/2095512091293872337",
-              "likes": 85,
-              "retweets": 3,
-              "replies": 14,
-              "isQuote": false,
-              "quotedTweetId": null,
-              "summary_zh": "目前的助理软件对忙碌的人没什么用，因为它们缺少很多手机里储存的重要信息。 \n\n要让这些软件真正成为有效的助手，必须把信息整合起来，教它们哪些事情重要，给予它们记忆能力，并能主动帮忙。否则，它们不过是一些闪亮的工具，能节省时间，但不能真正替代真正的助理。"
-            }
-          ],
-          "bio_zh": "Meta/前 Facebook AI 产品负责人",
-          "fetchDate": "2026-09-04"
-        },
-        {
-          "source": "x",
-          "name": "Peter Steinberger",
-          "handle": "steipete",
-          "bio": "Polyagentmorous ClawFather. Came back from retirement to mess with AI and help a lobster take over the world.\n@OpenClaw🦞 + @OpenAI",
-          "tweets": [
-            {
-              "id": "2095703937177584118",
-              "text": "See you there! Will talk about how we build in the open and multiplayer agents. https://t.co/hjmw1KgUSb",
-              "createdAt": "2026-09-04T02:42:09.000Z",
-              "url": "https://x.com/steipete/status/2095703937177584118",
-              "likes": 65,
-              "retweets": 3,
-              "replies": 7,
-              "isQuote": true,
-              "quotedTweetId": "2095688225796833697",
-              "summary_zh": "会上见！我会聊聊我们是如何在公开环境中打造多人智能助手的。"
-            },
-            {
-              "id": "2095703568502468665",
-              "text": "Having a claw in your group chat is so useful! https://t.co/eX7KaVw9d5",
-              "createdAt": "2026-09-04T02:40:41.000Z",
-              "url": "https://x.com/steipete/status/2095703568502468665",
-              "likes": 156,
-              "retweets": 6,
-              "replies": 26,
-              "isQuote": false,
-              "quotedTweetId": null,
-              "summary_zh": "在群聊中加一个“爪子”功能真是太有用了！这个“爪子”可能是指一种可以快速互动或共享内容的工具，感觉像是聊天中多了个小助手，让沟通更方便。"
-            },
-            {
-              "id": "2095678161052901828",
-              "text": "brilliant fit. https://t.co/dHx2xII699",
-              "createdAt": "2026-09-04T00:59:44.000Z",
-              "url": "https://x.com/steipete/status/2095678161052901828",
-              "likes": 169,
-              "retweets": 2,
-              "replies": 10,
-              "isQuote": true,
-              "quotedTweetId": "2095482647355244762",
-              "summary_zh": "这段推文简单来说就是在说某个东西（可能是工具或者技术）非常合适、很棒。虽然没有详细说明内容，但看起来他很喜欢这个推荐的东西！"
-            }
-          ],
-          "bio_zh": "前 PSPDFKit 创始人，现专注 AI 开发工具和工作流优化",
-          "fetchDate": "2026-09-04"
-        },
-        {
-          "source": "x",
-          "name": "Dan Shipper",
-          "handle": "danshipper",
-          "bio": "ceo @every | the only subscription you need to stay at the edge of AI",
-          "tweets": [
-            {
-              "id": "2095625420725002321",
-              "text": "how you know you did a good vibe check https://t.co/ucDNFPClSV",
-              "createdAt": "2026-09-03T21:30:09.000Z",
-              "url": "https://x.com/danshipper/status/2095625420725002321",
-              "likes": 39,
-              "retweets": 0,
-              "replies": 3,
-              "isQuote": false,
-              "quotedTweetId": null,
-              "summary_zh": "如果你想知道自己是不是给别人留下了好印象，就看看他们的反应！这个链接可能有更具体的例子。"
-            },
-            {
-              "id": "2095596488747557315",
-              "text": "VIBE CHECK: GPT-6 ASTRA https://t.co/QuECTxfWM6",
-              "createdAt": "2026-09-03T19:35:11.000Z",
-              "url": "https://x.com/danshipper/status/2095596488747557315",
-              "likes": 26,
-              "retweets": 2,
-              "replies": 3,
-              "isQuote": false,
-              "quotedTweetId": null,
-              "summary_zh": "Dan 在推特上发了一条消息，提到了一款叫 \"GPT-6 ASTRA\" 的 AI 工具。感觉像是在暗示这个新工具很不错，值得关注一下！"
-            },
-            {
-              "id": "2095594015466865134",
-              "text": "@every read our full vibe check: https://t.co/v3aOqrqR5a",
-              "createdAt": "2026-09-03T19:25:22.000Z",
-              "url": "https://x.com/danshipper/status/2095594015466865134",
-              "likes": 10,
-              "retweets": 0,
-              "replies": 0,
-              "isQuote": false,
-              "quotedTweetId": null,
-              "summary_zh": "Dan Shipper 在推文里分享了一个链接，邀请大家看看他们对“氛围”的全面评估。简单说就是，他想让大家了解一下他们在AI写作和知识管理方面的新进展和想法。"
-            }
-          ],
-          "bio_zh": "Every 联合创始人，AI 写作和知识管理领域的深度实践者",
-          "fetchDate": "2026-09-04"
-        },
-        {
-          "source": "x",
-          "name": "Aditya Agarwal",
-          "handle": "adityaag",
-          "bio": "General Partner @SPC, Co-Founder @Bevel_Health | Ex: Early Eng @facebook, CTO @Dropbox, Board @Flipkart | Optimist, Builder, Dad",
-          "tweets": [
-            {
-              "id": "2095559680907161789",
-              "text": "We have quite the lineup of speakers this Fall.\n\nWaymo, Physical Intelligence, Anduril and Applied Intuition.\n\nLet's go. https://t.co/wGFXIblSBM",
-              "createdAt": "2026-09-03T17:08:56.000Z",
-              "url": "https://x.com/adityaag/status/2095559680907161789",
-              "likes": 51,
-              "retweets": 2,
-              "replies": 2,
-              "isQuote": true,
-              "quotedTweetId": "2095556324041822641",
-              "summary_zh": "这个秋天会有很多厉害的讲者来分享，像是 Waymo（自动驾驶公司）、Physical Intelligence（专注于机器人技术的公司）、Anduril（国防技术公司）和 Applied Intuition（提供自动驾驶软件的公司）。期待哦！"
-            },
-            {
-              "id": "2095557713405292702",
-              "text": "The single biggest issue with using agents today is speed.\n\nImagine if the speed were 10-100x faster -- the interaction pattern and depth of usage would be vastly different.",
-              "createdAt": "2026-09-03T17:01:07.000Z",
-              "url": "https://x.com/adityaag/status/2095557713405292702",
-              "likes": 66,
-              "retweets": 0,
-              "replies": 20,
-              "isQuote": false,
-              "quotedTweetId": null,
-              "summary_zh": "目前使用智能助手最大的一个问题就是速度慢。如果它们的处理速度快个10到100倍，我们的使用方式和体验都会大不相同。"
-            }
-          ],
-          "bio_zh": "South Park Commons 创始人，前 Facebook 工程副总裁",
-          "fetchDate": "2026-09-04"
-        },
-        {
-          "source": "x",
-          "name": "Sam Altman",
-          "handle": "sama",
-          "bio": "The mission of OpenAI to ensure that AGI benefits all of humanity",
-          "tweets": [
-            {
-              "id": "2095731348996821200",
-              "text": "We are also excited! https://t.co/XpOH5RjCha",
-              "createdAt": "2026-09-04T04:31:05.000Z",
-              "url": "https://x.com/sama/status/2095731348996821200",
-              "likes": 2511,
-              "retweets": 60,
-              "replies": 216,
-              "isQuote": true,
-              "quotedTweetId": "2095713765446840591",
-              "summary_zh": "我们也很兴奋！这是关于某个新 AI 项目的消息。"
-            },
-            {
-              "id": "2095678759651438887",
-              "text": "first, sorry for the messy rollout.\n\nsecond, when we screw up, we try to make it right.\n\nthird, we should be able to begin broad rollout to API customers and chatgpt subscribers in the near future. as usual we will start with pro subscribers. https://t.co/nKOhW18CDK",
-              "createdAt": "2026-09-04T01:02:06.000Z",
-              "url": "https://x.com/sama/status/2095678759651438887",
-              "likes": 12387,
-              "retweets": 431,
-              "replies": 872,
-              "isQuote": true,
-              "quotedTweetId": "2095651088502591861",
-              "summary_zh": "首先，抱歉这次更新有点乱。  \n然后，我们会努力弥补错误。  \n最后，不久之后，我们会开始向API客户和ChatGPT订阅用户推出新功能，首先是付费用户。  \n\n简单来说，就是他在道歉并说明接下来会把新功能陆续推给用户。"
-            },
-            {
-              "id": "2095601442220638547",
-              "text": "Also, this is my favorite OpenAI video so far. It makes me excited for the future! https://t.co/P6X49JKrG6",
-              "createdAt": "2026-09-03T19:54:52.000Z",
-              "url": "https://x.com/sama/status/2095601442220638547",
-              "likes": 15158,
-              "retweets": 724,
-              "replies": 731,
-              "isQuote": true,
-              "quotedTweetId": "2095595741528125780",
-              "summary_zh": "这是Sam Altman最喜欢的OpenAI视频，他认为这个视频让人对未来充满期待！"
-            }
-          ],
-          "bio_zh": "OpenAI CEO，Y Combinator 前总裁，硅谷最有影响力的 AI 推动者之一",
-          "fetchDate": "2026-09-04"
-        }
-      ]
     }
   ],
   "podcasts": [
+    {
+      "name": "Lenny's Podcast",
+      "title": "How to Stand Out When Everyone Is Launching",
+      "videoId": "BdkiU35fuf8",
+      "url": "https://youtube.com/watch?v=BdkiU35fuf8",
+      "publishedAt": "2026-09-12T01:16:50+00:00",
+      "isShort": false,
+      "fetchDate": "2026-09-12",
+      "summary_zh": "这个视频讨论了在竞争激烈的市场中如何脱颖而出，提供了一些有效的策略和思维方式。主持人分析了当前的市场环境，分享了一些成功案例和关键的营销技巧，帮助创业者创造更具吸引力的品牌形象。\n\n🎯 推荐 Yves 观看 — 这个视频提供的市场策略和品牌塑造的技巧，可以为 Logic Labs 和 TexTale 的运营和创意设计提供有价值的启示。"
+    },
+    {
+      "name": "TBPN",
+      "title": "Washington Hones in on AI Safety, What Are AI Doomers Proposing | Diet TBPN",
+      "videoId": "I0zUXY7qOu0",
+      "url": "https://youtube.com/watch?v=I0zUXY7qOu0",
+      "publishedAt": "2026-09-12T00:14:19+00:00",
+      "isShort": false,
+      "fetchDate": "2026-09-12",
+      "summary_zh": "视频讨论了美国政府对人工智能安全的关注，包括对AI潜在风险的反思，以及一些被称为“AI末日论者”的人提出的建议和应对措施。内容涵盖了政策制定者如何看待AI技术的未来及可能的监管框架。\n\n🎯 推荐 Yves 观看 — 该视频涉及AI安全与政策的最新动态，这对于Logic Labs和TexTale在AI应用和电商运营中的决策非常重要。"
+    },
     {
       "name": "Y Combinator",
       "title": "Mass Magnetics: USA-made magnetics for robotics and defense",
@@ -4602,26 +4326,6 @@
       "isShort": false,
       "fetchDate": "2026-09-07",
       "summary_zh": "这个视频探讨了物理芯片制造的实际过程，包括所需的技术、资源和面临的挑战。制作芯片并不仅仅是理论上的讨论，它需要复杂的工程设计和庞大的资金投入。这对于了解硬件与软件结合的未来具有重要意义。\n\n💡 值得一看 — 视频虽然侧重于硬件设计，但了解物理芯片的制造过程可以帮助你在 Logic Labs 和 TexTale 的产品开发中，提前识别技术趋势并运用到创意设计当中。"
-    },
-    {
-      "name": "Lenny's Podcast",
-      "title": "The Permanent Underclass Is a Fantasy",
-      "videoId": "SLDzLLQyBK8",
-      "url": "https://youtube.com/watch?v=SLDzLLQyBK8",
-      "publishedAt": "2026-09-07T15:15:00+00:00",
-      "isShort": false,
-      "fetchDate": "2026-09-07",
-      "summary_zh": "这个视频讨论了“永久底层阶级”的概念，质疑它是否真的存在，并探讨社会经济结构对人们生活的影响。通过分析，主持人与嘉宾深入探讨了如何理解阶级和经济流动性，并提出了可能的解决方案。\n\n🎯 推荐 Yves 观看 — 视频中的经济流动性思考与品牌营销及电商运营密切相关，有助于从新的角度理解消费者行为，尤其在 TexTale 的科技服装领域。"
-    },
-    {
-      "name": "Matt Wolfe",
-      "title": "DHH on genius of Elon Musk | Lex Fridman Podcast Clips",
-      "videoId": "ql6Ny4fS-38",
-      "url": "https://youtube.com/watch?v=ql6Ny4fS-38",
-      "publishedAt": "2026-09-07T15:00:10+00:00",
-      "isShort": false,
-      "fetchDate": "2026-09-07",
-      "summary_zh": "在这段视频中，DHH 讨论了埃隆·马斯克的天才之处，分析了他的创新思维和对科技界的影响。他强调了马斯克如何突破常规，推动诸如特斯拉和SpaceX等公司的成功。\n\n🎯 推荐 Yves 观看 — 这个视频提供了关于创新和企业战略的独特见解，能够帮助 Logic Labs 和 TexTale 在创意设计和品牌营销上获得灵感。"
     }
   ],
   "producthunt": [
@@ -4659,43 +4363,10 @@
     },
     {
       "rank": 3,
-      "name": "Dograh",
-      "tagline": "The open source VAPI alternative",
-      "url": "https://www.producthunt.com/products/dograh/launches/dograh-3?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Breakfeed+%28ID%3A+279433%29",
-      "votes": 597,
-      "comments": 205,
-      "topics": [
-        "Open Source",
-        "Developer Tools",
-        "GitHub",
-        "Audio"
-      ],
-      "thumbnail": "https://ph-files.imgix.net/eab1a163-fbfe-4b8b-9356-f94e45feca98.png?auto=format",
-      "screenshot": "https://ph-files.imgix.net/3e786432-ae63-4c7f-8096-185d60bbfd2b.jpeg?auto=format",
-      "summary_zh": "Dograh 是一个开源的 VAPI 替代方案，旨在提供灵活的 API 解决方案。用户可以使用它创建、管理和测试 API，简化开发过程，提高效率。这个工具支持多种编程语言，方便开发者集成。"
-    },
-    {
-      "rank": 4,
-      "name": "Grok Bot",
-      "tagline": "AI teammates that you can give real work to",
-      "url": "https://www.producthunt.com/products/grok/launches/grok-bot?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Breakfeed+%28ID%3A+279433%29",
-      "votes": 552,
-      "comments": 23,
-      "topics": [
-        "Productivity",
-        "Task Management",
-        "Artificial Intelligence"
-      ],
-      "thumbnail": "https://ph-files.imgix.net/072140a8-0a6b-4d48-9aaf-62def8c0697d.png?auto=format",
-      "screenshot": "https://ph-files.imgix.net/3d40497c-8d0e-45c1-a28c-d3f198c06b33.png?auto=format",
-      "summary_zh": "Grok Bot是一款智能助手，可以作为你的工作搭档执行实际任务。它可以处理信息、回答问题和完成日常工作，让你更高效地完成目标。通过与Grok Bot协作，你可以节省时间和精力。"
-    },
-    {
-      "rank": 5,
       "name": "Kilo Code for JetBrains",
       "tagline": "Fully native, open-source coding agent built for JetBrains",
       "url": "https://www.producthunt.com/products/kilocode?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Breakfeed+%28ID%3A+279433%29",
-      "votes": 534,
+      "votes": 535,
       "comments": 99,
       "topics": [
         "Open Source",
@@ -4708,7 +4379,7 @@
       "summary_zh": "Kilo Code for JetBrains 是一款完全原生的开源编码助手，专为 JetBrains 开发环境设计。它能够提高编码效率，提供智能代码建议和自动完成功能，让开发者更轻松地编写程序。"
     },
     {
-      "rank": 6,
+      "rank": 4,
       "name": "Meridian",
       "tagline": "Don't let your work go unnoticed. Get promoted!",
       "url": "https://www.producthunt.com/products/meridian-16/launches/meridian-19?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Breakfeed+%28ID%3A+279433%29",
@@ -4724,7 +4395,7 @@
       "summary_zh": "Meridian是一款专注于职业发展的工具。它可以帮助用户记录并展示自己的工作成就，让你在职场上获得更多关注和晋升机会。通过使用Meridian，你可以轻松整理和分享自己的工作亮点。"
     },
     {
-      "rank": 7,
+      "rank": 5,
       "name": "x1",
       "tagline": "Lovable for iPhone apps go from idea to App Store",
       "url": "https://www.producthunt.com/products/x1-2/launches/x1-2?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Breakfeed+%28ID%3A+279433%29",
@@ -4740,11 +4411,11 @@
       "summary_zh": "x1 是一个帮助用户将想法转化为 iPhone 应用的工具。它提供从概念设计到提交 App Store 的完整流程，用户可以轻松创建和发布自己的应用程序。"
     },
     {
-      "rank": 8,
+      "rank": 6,
       "name": "Switch",
       "tagline": "Bring any AI agent into Slack, Teams & Discord",
       "url": "https://www.producthunt.com/products/switch-11?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Breakfeed+%28ID%3A+279433%29",
-      "votes": 520,
+      "votes": 519,
       "comments": 85,
       "topics": [
         "Open Source",
@@ -4756,11 +4427,11 @@
       "summary_zh": "Switch是一款可以将各种AI助手集成到Slack、Teams和Discord中的工具。用户可以通过这个平台轻松接入不同的AI代理，以提高团队的沟通和协作效率。它简化了工作流程，让员工能够快速获取所需的信息和支持。"
     },
     {
-      "rank": 9,
+      "rank": 7,
       "name": "Mastra Factory",
       "tagline": "From issue to production, run by agents.",
       "url": "https://www.producthunt.com/products/mastra?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Breakfeed+%28ID%3A+279433%29",
-      "votes": 500,
+      "votes": 501,
       "comments": 118,
       "topics": [
         "Open Source",
@@ -4773,11 +4444,11 @@
       "summary_zh": "Mastra Factory 是一个自动化平台，专为管理生产流程而设计。用户可以通过平台提交问题，从而直接将其转化为生产任务，整个过程由代理人进行协调与执行。简而言之，它简化了产品从问题到生产的转化流程。"
     },
     {
-      "rank": 10,
+      "rank": 8,
       "name": "Monid",
       "tagline": "OpenRouter for agent tools",
       "url": "https://www.producthunt.com/products/monid?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Breakfeed+%28ID%3A+279433%29",
-      "votes": 495,
+      "votes": 496,
       "comments": 57,
       "topics": [
         "API",
@@ -4789,7 +4460,7 @@
       "summary_zh": "Monid是一个为代理工具提供支持的开放式路由平台。它可以帮助用户快速集成和管理不同的代理工具，提升工作效率。用户可以通过Monid轻松连接和使用各种应用程序。"
     },
     {
-      "rank": 11,
+      "rank": 9,
       "name": "GPT-6 Astra",
       "tagline": "OpenAI's most capable model for end-to-end work",
       "url": "https://www.producthunt.com/products/openai?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Breakfeed+%28ID%3A+279433%29",
@@ -4805,7 +4476,7 @@
       "summary_zh": "GPT-6 Astra 是 OpenAI 最新的人工智能模型，具备强大的自然语言处理能力。它可以完成从文本生成到对话理解等多种任务，适用于自动化工作和内容创作。"
     },
     {
-      "rank": 12,
+      "rank": 10,
       "name": "PaymentKit",
       "tagline": "Billing that survives a processor shutdown",
       "url": "https://www.producthunt.com/products/paymentkit/launches/paymentkit?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Breakfeed+%28ID%3A+279433%29",
@@ -4821,7 +4492,7 @@
       "summary_zh": "PaymentKit是一款支付处理工具，能够在支付处理器出现故障时继续进行账单和交易。它确保用户的付款流程不会中断，提高了支付的可靠性和效率。"
     },
     {
-      "rank": 13,
+      "rank": 11,
       "name": "Clara AI SDR",
       "tagline": "Turn website visitors into qualified pipeline",
       "url": "https://www.producthunt.com/products/clara-ai-sdr/launches/clara-ai-sdr?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Breakfeed+%28ID%3A+279433%29",
@@ -4836,7 +4507,7 @@
       "summary_zh": "Clara AI SDR 是一款自动化的软件工具，可以将访问网站的访客转化为潜在客户。通过智能分析和交互，它能够识别有意向的访客并收集相关信息，帮助企业建立更高效的客户销售漏斗。"
     },
     {
-      "rank": 14,
+      "rank": 12,
       "name": "Kane CLI",
       "tagline": "Natural language browser & mobile app tests from terminal",
       "url": "https://www.producthunt.com/products/lambdatest/launches/kane-cli-2?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Breakfeed+%28ID%3A+279433%29",
@@ -4852,7 +4523,7 @@
       "summary_zh": "Kane CLI 是一款命令行工具，可以通过自然语言指令执行浏览器和手机应用程序的测试。用户只需输入简单的语言描述，工具便能自动生成相应的测试脚本，提升测试效率。"
     },
     {
-      "rank": 15,
+      "rank": 13,
       "name": "Ito",
       "tagline": "AI code review that runs your code",
       "url": "https://www.producthunt.com/products/ito-ai-code-review-that-runs-code/launches/ito-6?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Breakfeed+%28ID%3A+279433%29",
@@ -4866,6 +4537,36 @@
       "thumbnail": "https://ph-files.imgix.net/477fa9cf-bd31-4c46-8944-3888ffac3925.svg?auto=format",
       "screenshot": "https://ph-files.imgix.net/d7bf8087-1835-4dbf-b262-d99db3d52d35.png?auto=format",
       "summary_zh": "Ito是一款人工智能代码审查工具，可以自动运行你的代码并进行检测。它能找到代码中的错误和优化建议，帮助开发者提升代码质量和效率。"
+    },
+    {
+      "rank": 14,
+      "name": "Skydive",
+      "tagline": "Build cloud agents that work across your tools",
+      "url": "https://www.producthunt.com/products/skydive/launches/skydive?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Breakfeed+%28ID%3A+279433%29",
+      "votes": 441,
+      "comments": 120,
+      "topics": [
+        "Artificial Intelligence"
+      ],
+      "thumbnail": "https://ph-files.imgix.net/c20d7d46-fdf8-4764-9105-ef07d8e034ef.png?auto=format",
+      "screenshot": "https://ph-files.imgix.net/aa941090-e357-44a8-a87f-7d446573efc5.png?auto=format",
+      "summary_zh": "Skydive 是一个让用户创建云端助理的工具，这些助理可以在不同的软件和平台之间协作。通过 Skydive，用户可以自动化任务、整合信息，提高工作效率。"
+    },
+    {
+      "rank": 15,
+      "name": "Browzer",
+      "tagline": "Put your technical content on autopilot",
+      "url": "https://www.producthunt.com/products/browzer?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Breakfeed+%28ID%3A+279433%29",
+      "votes": 440,
+      "comments": 51,
+      "topics": [
+        "Marketing",
+        "Developer Tools",
+        "GitHub"
+      ],
+      "thumbnail": "https://ph-files.imgix.net/ed0a1474-0106-47fd-911c-c1cac2fb0bb6.png?auto=format",
+      "screenshot": "https://ph-files.imgix.net/96929d98-6bf9-454b-a163-3530665eb12e.png?auto=format",
+      "summary_zh": "Browzer是一款自动化工具，专为技术内容的创建和管理设计。用户可以轻松生成、发布和更新技术文档，实现内容的智能化管理，节省时间和精力。"
     }
   ],
   "github_trending": [
@@ -4873,8 +4574,8 @@
       "repo": "ayghri/i-have-adhd",
       "description": "A skill to stop your coding agent from burying the answer. ADHD-friendly output.",
       "language": "Python",
-      "stars": 41720,
-      "starsToday": 3440,
+      "stars": 42572,
+      "starsToday": 3463,
       "url": "https://github.com/ayghri/i-have-adhd",
       "summary_zh": "这个项目旨在创建一个能够以简洁明了的方式输出信息的工具，帮助用户更容易获取他们需要的答案，尤其适合ADHD（注意力缺陷多动障碍）患者。对于Yves来说，这个项目可以在Logic Labs（AI 公司）中作为一个创意设计工具，提升团队在开发AI产品时的沟通效率和信息提取能力。在TexTale（科技服装电商）方面，融合这种工具也有助于理解用户反馈和优化客户体验。"
     },
@@ -4882,8 +4583,8 @@
       "repo": "bilawalsidhu/gods-eye-view",
       "description": "A spy satellite simulator in your browser, except the data is real. Live open source spatial intelligence on a photorealistic 3D globe.",
       "language": "JavaScript",
-      "stars": 27039,
-      "starsToday": 3642,
+      "stars": 27667,
+      "starsToday": 3680,
       "url": "https://github.com/bilawalsidhu/gods-eye-view",
       "summary_zh": "这个项目提供了一个可以在浏览器中使用的卫星模拟器，用户可以在一个高度真实的3D地球上查看实时的空间数据。对于Yves来说，Logic Labs（AI公司）可以利用这个工具进行空间数据分析与可视化，从而探索AI应用的新可能性；而作为创意设计从业者，这个项目也能激发他在创意展示和设计概念方面的灵感。"
     },
@@ -4891,8 +4592,8 @@
       "repo": "nab138/iloader",
       "description": "User friendly sideloader",
       "language": "TypeScript",
-      "stars": 2899,
-      "starsToday": 36,
+      "stars": 2960,
+      "starsToday": 50,
       "url": "https://github.com/nab138/iloader",
       "summary_zh": "这个项目是一个用户友好的侧载工具，可以帮助用户轻松安装应用程序，特别是在尚未正式发布的情况下。对Yves的TexTale电商业务可能更有帮助，因为它可以优化手机应用的安装体验，从而提升顾客在购买科技服装时的便捷性。此外，这种技术的应用也能为Yves作为创意设计从业者提供灵感，助力他在产品展示和客户互动方面的创新。"
     },
@@ -4900,8 +4601,8 @@
       "repo": "melgarafael/DeskcommCRM",
       "description": "Open-source AI sales OS — self-hosted CRM with native AI agents + WhatsApp (WAHA). Open alternative to Kommo, Octadesk & Intercom for any business that sells by chat. MCP-ready, multi-tenant, LGPD.",
       "language": "TypeScript",
-      "stars": 1322,
-      "starsToday": 126,
+      "stars": 1486,
+      "starsToday": 152,
       "url": "https://github.com/melgarafael/DeskcommCRM",
       "summary_zh": "这个项目是一个开源的客户关系管理系统，专为通过聊天销售的企业设计，内置了人工智能代理和WhatsApp功能，帮助商家更好地管理客户互动。对Yves来说，这个工具可以帮助TexTale提升电商运营效率，利用AI增强客户互动和服务体验，同时也为Logic Labs提供了一个优秀的案例，可以探索AI在销售领域的应用价值。"
     },
@@ -4909,8 +4610,8 @@
       "repo": "vastsa/PI-Desktop",
       "description": "Local-first AI coding agent desktop: Electron + Rust host core + pi Agent Harness + user-installable plugins",
       "language": "TypeScript",
-      "stars": 2766,
-      "starsToday": 545,
+      "stars": 2906,
+      "starsToday": 552,
       "url": "https://github.com/vastsa/PI-Desktop",
       "summary_zh": "这个项目是一个本地优先的人工智能编程助手，用户可以在桌面上使用它来辅助编写代码，并且支持安装插件以扩展功能。对于Yves来说，这个工具可以帮助Logic Labs提升AI应用的开发效率，同时也为TexTale提供关于电商平台的技术支持，改善客户体验。作为创意设计从业者，PI-Desktop让Yves能够更加高效地将创意转化为技术实现。"
     },
@@ -4918,8 +4619,8 @@
       "repo": "armory3d/armorpaint",
       "description": "Graphics Creation Tools",
       "language": "C",
-      "stars": 4715,
-      "starsToday": 354,
+      "stars": 4793,
+      "starsToday": 350,
       "url": "https://github.com/armory3d/armorpaint",
       "summary_zh": "这个项目名为 ArmorPaint，是一个用于图形创作的工具，主要帮助用户制作和编辑高质量的3D纹理和材质。对于Yves来说，这个工具可以为TexTale的科技服装设计提供创意支持，帮助他在产品展示和市场推广中提升视觉效果，增强品牌吸引力。作为创意设计从业者，ArmorPaint 还能激发他的创意灵感，提高作品的视觉效果。"
     },
@@ -4927,8 +4628,8 @@
       "repo": "alsk1992/CloddsBot",
       "description": "Open Source AI trading agent that operates autonomously across 1000+ markets - Polymarket, Kalshi, Binance, Hyperliquid, Solana DEXs, 5 EVM chains. Scans for edge, executes instantly, manages risk while you sleep. Agent commerce protocol for machine-to-machine payments. Self-hosted. Built on Claude.",
       "language": "TypeScript",
-      "stars": 2135,
-      "starsToday": 627,
+      "stars": 2258,
+      "starsToday": 626,
       "url": "https://github.com/alsk1992/CloddsBot",
       "summary_zh": "这个项目是一个开源的人工智能交易代理，可以在1000多个市场上自动进行交易，帮助用户在睡觉时也能管理投资风险并获取收益。对于Yves来说，这个项目可能对Logic Labs（AI公司）更有帮助，因为它展示了AI在金融领域的应用，能够激发出更多创意的AI工具和解决方案。同时，这也可以为他在电商和品牌营销中探索基于AI的智能化服务提供启发。"
     },
@@ -4936,8 +4637,8 @@
       "repo": "nashsu/llm_wiki",
       "description": "LLM Wiki is a cross-platform desktop application that turns your documents into an organized, interlinked knowledge base — automatically. Instead of traditional RAG (retrieve-and-answer from scratch every time), the LLM incrementally builds and maintains a persistent wiki from your sources。",
       "language": "TypeScript",
-      "stars": 18719,
-      "starsToday": 640,
+      "stars": 18906,
+      "starsToday": 647,
       "url": "https://github.com/nashsu/llm_wiki",
       "summary_zh": "这个项目是一个桌面应用程序，可以将你的文件自动整理成一个互联的知识库，而不是每次都从头开始回答问题。它通过自动维护的方式，帮助用户高效地从文档中提取信息。\n\n对Yves来说，这个项目可以为Logic Labs（AI公司）提供灵活的知识管理工具，有助于提升团队协作和信息整合效率。同时，它也能为创意设计提供灵感和信息支持。"
     },
@@ -4945,8 +4646,8 @@
       "repo": "obra/superpowers",
       "description": "An agentic skills framework & software development methodology that works.",
       "language": "Shell",
-      "stars": 285358,
-      "starsToday": 731,
+      "stars": 285523,
+      "starsToday": 729,
       "url": "https://github.com/obra/superpowers",
       "summary_zh": "这个项目旨在提供一个灵活的技能框架和软件开发方法，帮助团队更高效地协作和创新。对Yves来说，这个项目可以在Logic Labs（AI公司）中提升团队的开发效率，从而加速AI相关产品的落地。作为创意设计从业者，它还能够激发新的创意设计流程，提高产品开发的灵活性和创新性。"
     },
@@ -4954,8 +4655,8 @@
       "repo": "Sonarr/Sonarr",
       "description": "Smart PVR for newsgroup and bittorrent users.",
       "language": "C#",
-      "stars": 15726,
-      "starsToday": 174,
+      "stars": 15796,
+      "starsToday": 191,
       "url": "https://github.com/Sonarr/Sonarr",
       "summary_zh": "这个项目是一个智能的个人录影机，主要为使用新闻组和种子下载的用户提供自动下载和管理电视节目的功能。对 TexTale（科技服装电商）可能有帮助，因为可以借助数据管理工具更好地分析市场趋势和用户偏好，从而优化营销策略；此外，作为创意设计从业者，Yves 可以从中获得关于如何整合技术与创意的启发。"
     }
@@ -4963,7 +4664,7 @@
   "aigc_rankings": {
     "image": [],
     "video": [],
-    "fetchedAt": "2026-09-11T23:47:03.499335+00:00",
+    "fetchedAt": "2026-09-12T08:18:07.427451+00:00",
     "sources": [
       "Artificial Analysis",
       "LM Arena",
