@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-19T16:48:32.070862+00:00",
+  "generatedAt": "2026-10-20T00:54:02.818712+00:00",
   "twitter": [
     {
       "source": "x",
@@ -45,7 +45,7 @@
         }
       ],
       "bio_zh": "AI 开发者社区意见领袖，Latent Space 播客主理人，前 AWS/Netlify 工程师",
-      "fetchDate": "2026-10-19"
+      "fetchDate": "2026-10-20"
     },
     {
       "source": "x",
@@ -90,7 +90,7 @@
           "summary_zh": "我们跟OpenCode团队合作，帮助他们的用户恢复服务，并退还因攻击而损失的信用（就像是账户里的余额）。另外，如果你需要网络安全防护，可以申请Daybreak Blue的使用权限，别等到遇到问题才来找我们，我们随时乐意帮助你。"
         }
       ],
-      "fetchDate": "2026-10-19"
+      "fetchDate": "2026-10-20"
     },
     {
       "source": "x",
@@ -136,7 +136,7 @@
         }
       ],
       "bio_zh": "Roblox 产品经理，14 万订阅的 AI 实操教程作者",
-      "fetchDate": "2026-10-19"
+      "fetchDate": "2026-10-20"
     },
     {
       "source": "x",
@@ -182,7 +182,7 @@
         }
       ],
       "bio_zh": "Anthropic 工程师，Claude Code（AI 编程工具）核心开发者",
-      "fetchDate": "2026-10-19"
+      "fetchDate": "2026-10-20"
     },
     {
       "source": "x",
@@ -228,7 +228,7 @@
         }
       ],
       "bio_zh": "Vercel CEO，Next.js 创造者，v0 AI 代码生成工具的幕后推手",
-      "fetchDate": "2026-10-19"
+      "fetchDate": "2026-10-20"
     },
     {
       "source": "x",
@@ -250,7 +250,7 @@
         }
       ],
       "bio_zh": "Box CEO，企业 AI 应用的坚定推动者，科技圈知名段子手",
-      "fetchDate": "2026-10-19"
+      "fetchDate": "2026-10-20"
     },
     {
       "source": "x",
@@ -272,7 +272,7 @@
         }
       ],
       "bio_zh": "Y Combinator 现任 CEO，早期投资了 Coinbase、Instacart 等",
-      "fetchDate": "2026-10-19"
+      "fetchDate": "2026-10-20"
     },
     {
       "source": "x",
@@ -294,7 +294,7 @@
         }
       ],
       "bio_zh": "FirstMark Capital 合伙人，每年发布最权威的 AI/大数据行业全景图",
-      "fetchDate": "2026-10-19"
+      "fetchDate": "2026-10-20"
     },
     {
       "source": "x",
@@ -316,7 +316,7 @@
         }
       ],
       "bio_zh": "Meta/前 Facebook AI 产品负责人",
-      "fetchDate": "2026-10-19"
+      "fetchDate": "2026-10-20"
     },
     {
       "source": "x",
@@ -338,7 +338,7 @@
         }
       ],
       "bio_zh": "前 PSPDFKit 创始人，现专注 AI 开发工具和工作流优化",
-      "fetchDate": "2026-10-19"
+      "fetchDate": "2026-10-20"
     },
     {
       "source": "x",
@@ -360,7 +360,7 @@
         }
       ],
       "bio_zh": "Every 联合创始人，AI 写作和知识管理领域的深度实践者",
-      "fetchDate": "2026-10-19"
+      "fetchDate": "2026-10-20"
     }
   ],
   "twitter_history": [
@@ -3569,383 +3569,29 @@
           "fetchDate": "2026-10-13"
         }
       ]
-    },
-    {
-      "date": "2026-10-12",
-      "builders": [
-        {
-          "source": "x",
-          "name": "Andrej Karpathy",
-          "handle": "karpathy",
-          "bio": "",
-          "tweets": [
-            {
-              "id": "2109361546505966046",
-              "text": "Dusting off this tweet from April because this gap in shared understanding of LLM capability is *widening*. It's now less \"two groups of people speaking past each other\" and more a sharp funnel.\n\n- Napkin math somewhere around 6B people (~75% of the population) have barely come in contact with LLMs at all.\n- Around 1-2B (~20%) are casual and infrequent users of free-tier ChatGPT-like products. This group sees derpy chatbots and treats them a bit like a better Google search, a writing aid, or etc. Maybe an agent tries to book you a flight. I have non-tech friends who (reasonably, imo) say they have not much use for it at all. Even many professionals outside of math&code are in this tier. For example, execs and many other functions spend a lot of their time talking to other people, so while they understand what is happening intellectually, it is still second-hand and a bit abstract.\n- Now we get to professional use of frontier-grade LLMs in math&code. Somewhere around 20M people (0.2%) see first-hand that large, complex projects that used to take them weeks/months can now be completed by agents with a prompt. Building apps, copying apps, translating apps, decompiling apps from binaries... This has all happened very quickly and recently - less than 1 year ago, I was writing code manually by hand, typing memorized computer code commands into a code editor character by character, occasionally pressing Tab to autocomplete a little chunk of code.\n- And finally we get to the ~5,000 people (~0.00006%) with access to frontier-grade systems internally. The external world has seen the preview. It looks like swarms of thousands of agents collaborating over weeks on software mega projects: minting zero days, running cyber attacks and defenses at machine speeds, discovering new science, advancing the frontier of mathematics. Things that would have taken top professionals in the industry years of work. Meanwhile, human review and comprehension are starting to fall behind. For example, people are still involved in the \"archeology\" of the OpenAI-HF incident from many months ago. Mathematicians may be poring over the 722 manuscripts on frontier mathematics for a while.\n\nThe funnel is driven by a combination of factors:\n1. The impact scales with ambition, problem size, and horizon. A question with a paragraph answer barely stresses the system. You need a reservoir of big, difficult problems that you really care about. This aspect drives the consumer / professional dimension of the funnel.\n2. The jaggedness of the system (which I have written about a lot separately). Capability peaks in domains that are digital, verifiable and economically valuable. This is because LLM capability emerges from reinforcement learning on verifiable rewards on a curated environment mixture driven by revenue potential. This aspect primarily drives the area (e.g. math&code) dimension of the funnel.\n3. Access. Free-tier, paid-tier, internal.\n\nSo this is the weirdness of the moment. The general public has mostly not interacted with these systems. When they have, it looks like a derpy chatbot. The majority of professionals still see only a modest uplift. And a small sliver of professionals are experiencing the vertigo of the curve going vertical. And it is all happening at the same time.",
-              "createdAt": "2026-10-11T19:12:37.000Z",
-              "url": "https://x.com/karpathy/status/2109361546505966046",
-              "likes": 30115,
-              "retweets": 3852,
-              "replies": 1357,
-              "isQuote": true,
-              "quotedTweetId": "2042334451611693415",
-              "summary_zh": "目前在社会上，大多数人对大型语言模型（LLM）了解得很有限，造成了人们之间的认知差距。大约有60亿人几乎没有接触过LLM，只有1到2亿人偶尔使用类似ChatGPT的聊天工具，而真正能利用这些先进技术的人就非常少，大约只有5000人。那些有深度应用的人正在体验到这些技术的巨大潜力，能迅速完成复杂的工作，但大部分人还停留在表面，对这些改变并没有真正感受到。所以现在的情况就是，大众和专业人士都没有完全跟上这个技术快速发展的节奏。"
-            }
-          ],
-          "bio_zh": "前 Tesla AI 总监、前 OpenAI 创始成员，斯坦福 CS PhD，现创办 Eureka Labs 做 AI 教育",
-          "fetchDate": "2026-10-12"
-        },
-        {
-          "source": "x",
-          "name": "Swyx",
-          "handle": "swyx",
-          "bio": "achieve ambition with intentionality, intensity, integrity & insanity.\n\naffiliations:\n- @smol_ai\n- @dxtipshq\n- @cognition\n- @aidotengineer\n- @latentspacepod",
-          "tweets": [
-            {
-              "id": "2109365419937239158",
-              "text": "reupping my talk tips thread for all our lovely AIE NYC speakers. see you tmr at speaker dinner! https://t.co/1xf4Eblnil",
-              "createdAt": "2026-10-11T19:28:00.000Z",
-              "url": "https://x.com/swyx/status/2109365419937239158",
-              "likes": 36,
-              "retweets": 3,
-              "replies": 24,
-              "isQuote": true,
-              "quotedTweetId": "2069964772003770673",
-              "summary_zh": "给 AIE NYC 的演讲者们分享我的演讲小技巧。明天在演讲者晚宴见！"
-            }
-          ],
-          "bio_zh": "AI 开发者社区意见领袖，Latent Space 播客主理人，前 AWS/Netlify 工程师",
-          "fetchDate": "2026-10-12"
-        },
-        {
-          "source": "x",
-          "name": "Thibault Sottiaux",
-          "handle": "thsottiaux",
-          "bio": "Codex & ChatGPT @OpenAI",
-          "tweets": [
-            {
-              "id": "2109439315570999598",
-              "text": "The results of this poll has gotten me confused. I definitely thought it would sway much more favorably in the 2X direction across Pro 100/200/500 at the cost of bringing back 5h limits in order to smoothen the demand curve. https://t.co/zwn7kboMhT",
-              "createdAt": "2026-10-12T00:21:38.000Z",
-              "url": "https://x.com/thsottiaux/status/2109439315570999598",
-              "likes": 4625,
-              "retweets": 99,
-              "replies": 3319,
-              "isQuote": true,
-              "quotedTweetId": "2109152716954222849",
-              "summary_zh": "这位推文作者对一项调查的结果感到困惑，他原本以为让专业版的某些功能翻倍（2X）会更受欢迎，但实际上似乎并不如预期。他还提到，有可能为了调整需求而考虑恢复5小时的限制。"
-            },
-            {
-              "id": "2109430894604026039",
-              "text": "With this change, we are not charging long context fees for GPT-6.1 Sol when drawing usage from the subscription.",
-              "createdAt": "2026-10-11T23:48:11.000Z",
-              "url": "https://x.com/thsottiaux/status/2109430894604026039",
-              "likes": 2553,
-              "retweets": 55,
-              "replies": 157,
-              "isQuote": false,
-              "quotedTweetId": null,
-              "summary_zh": "听着，OpenAI在更新他们的GPT-6.1 Sol版本，现在使用这个版本的时候，用户不需要再支付额外的费用来处理长文本内容了。也就是说，大家使用起来会更划算！"
-            },
-            {
-              "id": "2109430343346581527",
-              "text": "Day 7/\n\nWe have increased default context length for GPT-6.1 Sol to 500k when used through Codex & Work, up from 272k or an ~ 80% increase.\n\nWe will go higher in the future, but it helps reduce occurrence of compactions and with tasks that require keeping a lot of context and nuance over periods of time. It was carefully tested and is the new sweet spot for most of our users. You can still override it if you want to be higher our lower, with maximum context length of GPT-6.1 Sol of 1M.",
-              "createdAt": "2026-10-11T23:45:59.000Z",
-              "url": "https://x.com/thsottiaux/status/2109430343346581527",
-              "likes": 10608,
-              "retweets": 454,
-              "replies": 1320,
-              "isQuote": false,
-              "quotedTweetId": null,
-              "summary_zh": "GPT-6.1 Sol在Codex和Work中默认的上下文长度增加到了50万，比之前的27.2万增加了约80%。这种改进能帮助它处理更复杂的任务，让系统更好地理解上下文。如果需要，用户还可以手动调整上下文长度，最高可以达到100万。"
-            }
-          ],
-          "fetchDate": "2026-10-12"
-        },
-        {
-          "source": "x",
-          "name": "Peter Yang",
-          "handle": "petergyang",
-          "bio": "Practical AI tutorials and interviews for busy people | Get my best AI skills and guides at https://t.co/6VAA6p81x6",
-          "tweets": [
-            {
-              "id": "2109435203269878242",
-              "text": "YouTube comments undefeated the disrespect to @Rasmic  😭 https://t.co/SiPRGxvUwc",
-              "createdAt": "2026-10-12T00:05:18.000Z",
-              "url": "https://x.com/petergyang/status/2109435203269878242",
-              "likes": 3,
-              "retweets": 0,
-              "replies": 0,
-              "isQuote": false,
-              "quotedTweetId": null,
-              "summary_zh": "YouTube 评论对 @Rasmic 的 disrespect（不尊重）还真是无敌，哈哈！这位产品经理似乎对评论区的负面评价感到无奈又好笑。"
-            },
-            {
-              "id": "2109434554729824397",
-              "text": "Building a @modretro game with my daughter and Codex https://t.co/78Ev7iGuG1",
-              "createdAt": "2026-10-12T00:02:43.000Z",
-              "url": "https://x.com/petergyang/status/2109434554729824397",
-              "likes": 75,
-              "retweets": 4,
-              "replies": 15,
-              "isQuote": false,
-              "quotedTweetId": null,
-              "summary_zh": "在和女儿一起用Codex（一个帮助编程的AI工具）制作一个复古风格的游戏，看着她玩得开心真的很棒！"
-            },
-            {
-              "id": "2109433961223180517",
-              "text": "\"I'm not at a point where I trust the agent, especially with stuff that people are using.\"\n\nFrom Micky (@Rasmic), who's taught 100K+ people to build with AI:\n\n\"The manual review is like the final step. All the work's done, and I have as much evidence from the agent as possible.\n\nWith evidence-driven testing, before and after, and even greploop, we're trying to build trust. The agent presents evidence: This is the work that's done, and this is why it's good.\n\nFor anyone who's been a developer for any time, manual review is probably the worst part of your job. This sort of helps minimize the friction.\"\n\n📌 Watch Micky's full 4-step workflow here: https://t.co/ju9aMQKaCE",
-              "createdAt": "2026-10-12T00:00:22.000Z",
-              "url": "https://x.com/petergyang/status/2109433961223180517",
-              "likes": 24,
-              "retweets": 1,
-              "replies": 9,
-              "isQuote": true,
-              "quotedTweetId": "2109293947755651371",
-              "summary_zh": "有些人对 AI 代理的信任还不够，尤其是在人们使用的场景中。Micky 提到，手动审查（人工检查）是最后一步，目的就是通过证据来建立信任。虽然手动检查是开发者最讨厌的一部分，但这种方法可以让它变得简单些。想了解更多，可以看看 Micky 的完整流程。"
-            }
-          ],
-          "bio_zh": "Roblox 产品经理，14 万订阅的 AI 实操教程作者",
-          "fetchDate": "2026-10-12"
-        },
-        {
-          "source": "x",
-          "name": "Nan Yu",
-          "handle": "thenanyu",
-          "bio": "product, codex @openai. prev head of product @linear",
-          "tweets": [
-            {
-              "id": "2109538550421262552",
-              "text": "Who’s gonna tell him https://t.co/QcAecsogbx",
-              "createdAt": "2026-10-12T06:55:58.000Z",
-              "url": "https://x.com/thenanyu/status/2109538550421262552",
-              "likes": 0,
-              "retweets": 0,
-              "replies": 0,
-              "isQuote": true,
-              "quotedTweetId": "2109105912095138258",
-              "summary_zh": "看起来有人发了个有趣的链接，Nan Yu想知道谁会去告诉那个“他”一些事情。可能是个幽默或者有争议的话题。"
-            }
-          ],
-          "bio_zh": "AI 产品经理和创业者，关注 AI 产品化落地",
-          "fetchDate": "2026-10-12"
-        },
-        {
-          "source": "x",
-          "name": "Thariq",
-          "handle": "trq212",
-          "bio": "Claude Code @anthropicai. prev YC W20, @spc, @medialab",
-          "tweets": [
-            {
-              "id": "2109329495341867391",
-              "text": "I think Terrence Tao is directionally correct, we shouldn’t settle for a super intelligence that is opaque.\n\nA key signal of intelligence is communication. We should strive to make products and models that build understanding with humans instead of disintermediating them. https://t.co/p44dDROehA",
-              "createdAt": "2026-10-11T17:05:15.000Z",
-              "url": "https://x.com/trq212/status/2109329495341867391",
-              "likes": 1219,
-              "retweets": 59,
-              "replies": 205,
-              "isQuote": true,
-              "quotedTweetId": "2108992955382210632",
-              "summary_zh": "提到的这位数学家陶哲轩说得很对，我们不应该接受那些不透明（难以理解）的超级智能。一个智能系统能否有效沟通是很重要的，我们应该努力打造能够帮助人类理解的产品和模型，而不是让人类与技术之间的联系变得疏远。"
-            }
-          ],
-          "bio_zh": "Anthropic 工程师，Claude Code（AI 编程工具）核心开发者",
-          "fetchDate": "2026-10-12"
-        },
-        {
-          "source": "x",
-          "name": "Guillermo Rauch",
-          "handle": "rauchg",
-          "bio": "@vercel CEO",
-          "tweets": [
-            {
-              "id": "2109297685392175488",
-              "text": "So cool. The future of learning https://t.co/cT6crizjKp",
-              "createdAt": "2026-10-11T14:58:51.000Z",
-              "url": "https://x.com/rauchg/status/2109297685392175488",
-              "likes": 2659,
-              "retweets": 94,
-              "replies": 63,
-              "isQuote": true,
-              "quotedTweetId": "2108948624004526516",
-              "summary_zh": "太酷了！这是学习的未来。"
-            }
-          ],
-          "bio_zh": "Vercel CEO，Next.js 创造者，v0 AI 代码生成工具的幕后推手",
-          "fetchDate": "2026-10-12"
-        },
-        {
-          "source": "x",
-          "name": "Aaron Levie",
-          "handle": "levie",
-          "bio": "ceo @box - your business lives in content. unleash it with AI",
-          "tweets": [
-            {
-              "id": "2109467575025578330",
-              "text": "This is a good way to understand how early we actually are in AI diffusion right now. The vast majority of people are using AI as a chatbot for simple interactions that approximate next-generation search. This is super useful but dramatically underrepresents the full capability of AI.\n\nOn the complete other end of the spectrum, agent swarms represent possibly the ultimate form factor of what agents will do inside of our workflows. Math, cyber, bio, materials science, software engineering, finance, and any other field that has valuable tasks that can be executed in parallel where compute can be applied to accelerate work all have this characteristic.\n\nLess than a fraction of a fraction of the population uses AI in this way right now, due to a mix of the capabilities of models relative to the user's domain, the cost of doing these types of workflows today, the harnesses available to do this style of AI work, and the availability (or lack thereof) of frontier models to the general public.\n\nThere will also be a huge amount of change management necessary to get most areas of work -beyond software and AI research- to benefit from this style of agents. Companies need to upgrade their workflows, data needs to integrated and migrated into modern platforms, and companies will need to work through compliance, governance, and security frameworks to pull it off. \n\nBut this all represents opportunity right now. A lot of this is where the applied layer of AI will really shine in the enterprise because of the domain specificity of this type of work. You can get an early sense of where things are going and the opportunity ahead by seeing through the funnel that Andrej lays out.",
-              "createdAt": "2026-10-12T02:13:56.000Z",
-              "url": "https://x.com/levie/status/2109467575025578330",
-              "likes": 343,
-              "retweets": 46,
-              "replies": 88,
-              "isQuote": true,
-              "quotedTweetId": "2109361546505966046",
-              "summary_zh": "现在大多数人用 AI 主要是和聊天机器人进行简单对话，这种用法虽然方便，但远未发挥出 AI 的全部潜力。相比之下，像“代理群体”（多个智能代理同时协作）这样的应用，可以彻底改变各个行业的工作流程，虽然现在只有很少的人在用这种先进的方式。 \n\n要让更多的行业都能受益于这种智能代理工作方式，企业需要改进工作流程并处理好数据合规等问题，但这也意味着巨大的机会。简单来说，现在正是企业应用 AI 的好时机。"
-            }
-          ],
-          "bio_zh": "Box CEO，企业 AI 应用的坚定推动者，科技圈知名段子手",
-          "fetchDate": "2026-10-12"
-        },
-        {
-          "source": "x",
-          "name": "Garry Tan",
-          "handle": "garrytan",
-          "bio": "President & CEO @ycombinator —Founder @garryslist—Creator of GStack & GBrain—designer/engineer who helps founders—SF Dem accelerating the boom loop",
-          "tweets": [
-            {
-              "id": "2109418482953814026",
-              "text": "Be part of the 5000 today. It’s amazing\n\nThe lucky thing is the price will come down and more people will see this, and get a chance to bring it to the world\n\nGreatest alpha fountain in the history of man https://t.co/0CQTE04g9m",
-              "createdAt": "2026-10-11T22:58:52.000Z",
-              "url": "https://x.com/garrytan/status/2109418482953814026",
-              "likes": 1113,
-              "retweets": 34,
-              "replies": 66,
-              "isQuote": true,
-              "quotedTweetId": "2109361546505966046",
-              "summary_zh": "今天加入5000人团体吧，真的很棒！价格会越来越低，更多人会看到这个机会，能把它带给全世界。这是人类历史上最伟大的机会源泉！"
-            },
-            {
-              "id": "2109417956929327510",
-              "text": "If you wonder what an SF Public Bank will do for the city…\n\nFor you? Absolutely nothing. \n\nFor Jackie Fielder’s nonprofit grifter cronies? Absolutely everything. https://t.co/rIjHhK7jFI",
-              "createdAt": "2026-10-11T22:56:46.000Z",
-              "url": "https://x.com/garrytan/status/2109417956929327510",
-              "likes": 239,
-              "retweets": 22,
-              "replies": 22,
-              "isQuote": true,
-              "quotedTweetId": "2109407841358647359",
-              "summary_zh": "如果你在想旧金山的公共银行（政府设立的银行）对你有什么帮助……答案是完全没有。对一些人来说，比如Jackie Fielder的非营利组织的小伙伴们，却是一切都有。"
-            },
-            {
-              "id": "2109410082769482174",
-              "text": "Replacing LLM calls with deterministic code is a no brainer and also results in better code that better matches what users want https://t.co/jzOeeoHFMO",
-              "createdAt": "2026-10-11T22:25:29.000Z",
-              "url": "https://x.com/garrytan/status/2109410082769482174",
-              "likes": 1624,
-              "retweets": 71,
-              "replies": 129,
-              "isQuote": true,
-              "quotedTweetId": "2102061534956662818",
-              "summary_zh": "用确定性代码（就是结果固定的代码）替代大语言模型（LLM，能够生成和理解人类语言的人工智能）调用是个明智的选择，这样做出来的代码更好，更符合用户的需求。"
-            }
-          ],
-          "bio_zh": "Y Combinator 现任 CEO，早期投资了 Coinbase、Instacart 等",
-          "fetchDate": "2026-10-12"
-        },
-        {
-          "source": "x",
-          "name": "Matt Turck",
-          "handle": "mattturck",
-          "bio": "VC at @FirstMarkCap.  Host: MAD Podcast; Organizer: Data Driven NYC, Author: MAD Landscape.",
-          "tweets": [
-            {
-              "id": "2109410677526065460",
-              "text": "Please respect my privacy during this difficult time in the family https://t.co/qliJU9WvVY",
-              "createdAt": "2026-10-11T22:27:51.000Z",
-              "url": "https://x.com/mattturck/status/2109410677526065460",
-              "likes": 64,
-              "retweets": 1,
-              "replies": 4,
-              "isQuote": false,
-              "quotedTweetId": null,
-              "summary_zh": "Matt 最近在经历一些家庭困难，希望大家能尊重他的隐私，不要打扰他。"
-            },
-            {
-              "id": "2109345191010472332",
-              "text": "People were punch card operators then they were Lotus Notes admins, then they were Flash developers and Dreamweaver webmasters, then they were DevOps and Tableau analysts, and now they’re becoming agent managers and harness engineers.  It will work out just fine.",
-              "createdAt": "2026-10-11T18:07:37.000Z",
-              "url": "https://x.com/mattturck/status/2109345191010472332",
-              "likes": 54,
-              "retweets": 0,
-              "replies": 12,
-              "isQuote": false,
-              "quotedTweetId": null,
-              "summary_zh": "人们的工作一直在不断变化，从最早的打孔卡操作员到现在的代理经理和工程师。这过程虽然有很多转变，但最终都会适应得很好，不用担心。"
-            }
-          ],
-          "bio_zh": "FirstMark Capital 合伙人，每年发布最权威的 AI/大数据行业全景图",
-          "fetchDate": "2026-10-12"
-        },
-        {
-          "source": "x",
-          "name": "Zara Zhang",
-          "handle": "zarazhangrui",
-          "bio": "Builder. Make something people want, then make people want it. Harvard’17. GitHub: https://t.co/KCuEajezlL \nYouTube: https://t.co/8xzbGWtf6w",
-          "tweets": [
-            {
-              "id": "2109483079106740500",
-              "text": "The only place where I use Gemini these days is in Chrome",
-              "createdAt": "2026-10-12T03:15:33.000Z",
-              "url": "https://x.com/zarazhangrui/status/2109483079106740500",
-              "likes": 93,
-              "retweets": 1,
-              "replies": 57,
-              "isQuote": false,
-              "quotedTweetId": null,
-              "summary_zh": "现在我只在 Chrome 浏览器里用 Gemini（一个 AI 工具）。"
-            }
-          ],
-          "bio_zh": "AI 领域投资人和内容创作者，follow-builders 项目发起人",
-          "fetchDate": "2026-10-12"
-        },
-        {
-          "source": "x",
-          "name": "Nikunj Kothari",
-          "handle": "nikunj",
-          "bio": "partner @fpvventures - investing in seed/A. previous: early hire @meter, @opendoor, @atlassian & others. love @shimoleejhaveri + 👦👧",
-          "tweets": [
-            {
-              "id": "2109428362171305984",
-              "text": "🔵👼 https://t.co/fCataNatin",
-              "createdAt": "2026-10-11T23:38:07.000Z",
-              "url": "https://x.com/nikunj/status/2109428362171305984",
-              "likes": 20,
-              "retweets": 0,
-              "replies": 0,
-              "isQuote": false,
-              "quotedTweetId": null,
-              "summary_zh": "这条推文可能是分享了一些和人工智能（AI）相关的新消息或链接，配上了两个简洁的图标。感觉就是在引起大家对某个有趣话题的关注，具体内容还得去看链接哦！"
-            }
-          ],
-          "bio_zh": "Meta/前 Facebook AI 产品负责人",
-          "fetchDate": "2026-10-12"
-        },
-        {
-          "source": "x",
-          "name": "Dan Shipper",
-          "handle": "danshipper",
-          "bio": "ceo @every | the only subscription you need to stay at the edge of AI",
-          "tweets": [
-            {
-              "id": "2109331798282915907",
-              "text": "made a feed that automatically tracks the books im reading (and have read going back to 2012!)\n\nmaybe we should have a feed for everybody @every could be fun to see https://t.co/rKpU0itSMX",
-              "createdAt": "2026-10-11T17:14:24.000Z",
-              "url": "https://x.com/danshipper/status/2109331798282915907",
-              "likes": 73,
-              "retweets": 4,
-              "replies": 19,
-              "isQuote": false,
-              "quotedTweetId": null,
-              "summary_zh": "我做了一个可以自动记录我正在读的书（还有我自2012年以来读过的书）的功能！也许我们可以为每个人做一个这样的功能，看看大家都在读什么，感觉会很有趣。"
-            }
-          ],
-          "bio_zh": "Every 联合创始人，AI 写作和知识管理领域的深度实践者",
-          "fetchDate": "2026-10-12"
-        }
-      ]
     }
   ],
   "podcasts": [
+    {
+      "name": "TBPN",
+      "title": "50 Gigawatts To The Face, 17% GDP Growth Please, Road to COD 4, Bing Gordon Joins",
+      "videoId": "gh-8LhMHHjA",
+      "url": "https://youtube.com/watch?v=gh-8LhMHHjA",
+      "publishedAt": "2026-10-19T20:32:50+00:00",
+      "isShort": false,
+      "fetchDate": "2026-10-20",
+      "summary_zh": "这个视频讨论了AI技术在不同领域中的应用及其经济影响，尤其是如何通过创新推动GDP增长，同时介绍了Bing Gordon的观点和经验，提供了对未来发展的洞察。要点包括对AI能力的强调及其如何重新定义行业标准和商业模式。\n\n🎯 推荐 Yves 观看 — 该视频讨论了AI应用与经济增长的关系，对Logic Labs的AI产品开发和TexTale的品牌营销也有启发。"
+    },
+    {
+      "name": "Greg Isenberg",
+      "title": "Meta Muse Will Create 1,000 Millionaires",
+      "videoId": "tpZOU1ugODQ",
+      "url": "https://youtube.com/watch?v=tpZOU1ugODQ",
+      "publishedAt": "2026-10-19T17:50:26+00:00",
+      "isShort": false,
+      "fetchDate": "2026-10-20",
+      "summary_zh": "这个视频探讨了Meta Muse这一新兴平台如何帮助创作者利用AI技术构建自己的品牌，进而实现财富自由。Greg Isenberg分享了他对未来财富分配的看法，认为这个平台有潜力让一千人变成百万富翁。\n\n🎯 推荐 Yves 观看 — 这个视频将帮助你了解AI在创业和品牌建设中的应用，特别是对Logic Labs和TexTale未来的创意设计与市场策略都大有裨益。"
+    },
     {
       "name": "The AI Daily Brief",
       "title": "A Potentially Historic AI Breakthrough",
@@ -4531,26 +4177,6 @@
       "isShort": false,
       "fetchDate": "2026-10-14",
       "summary_zh": "这个视频探讨了多个前沿科技项目，包括Xbox实验室的最新AI应用、仿生鸟的开发、物联网设备的对抗，以及一些有趣的AI角色互动工具。这些内容展示了新技术在多个领域的创新潜力，并引发了对未来科技产品的深思。\n\n💡 值得一看 — 视频中的技术趋势和创意设计方向可能对Logic Labs和TexTale的产品开发有所启发，尤其是在结合AI与用户体验方面。"
-    },
-    {
-      "name": "Fireship",
-      "title": "OpenAI’s lead engineer was secretly a spy...",
-      "videoId": "QZVzuq28eFw",
-      "url": "https://youtube.com/watch?v=QZVzuq28eFw",
-      "publishedAt": "2026-10-14T17:48:10+00:00",
-      "isShort": false,
-      "fetchDate": "2026-10-14",
-      "summary_zh": "该视频探讨了OpenAI的一位首席工程师的背景故事，揭示了他曾担任间谍的秘密。这位工程师的经历与他在人工智能领域的工作之间的联系被详细分析，内容让人对AI行业的人才构成和潜在风险有更深的理解。\n\n💡 值得一看 — 视频深入分析了AI行业内的人才背后故事，这可能会带给Yves关于AI工具和产品开发的新视角，帮助他在Logic Labs和TexTale的业务中使用更具创意的策略。"
-    },
-    {
-      "name": "Matt Wolfe",
-      "title": "Lex Fridman drinking Taiwanese beer with Jensen Huang (in Taiwan)",
-      "videoId": "NZLx_XntJds",
-      "url": "https://youtube.com/watch?v=NZLx_XntJds",
-      "publishedAt": "2026-10-14T17:00:24+00:00",
-      "isShort": false,
-      "fetchDate": "2026-10-14",
-      "summary_zh": "这个视频记录了Lex Fridman与NVIDIA创始人黄仁勋在台湾享用当地啤酒的对话，涵盖了他们对AI行业趋势的看法和未来发展的讨论。两位科技领袖分享了对创新和设计的理解，展现了他们作为行业先锋的深刻见解。\n\n💡 值得一看 — 其中涉及到AI行业的趋势与发展，可能对Yves在Logic Labs和TexTale中的设计和产品策略有所启发。"
     }
   ],
   "producthunt": [
@@ -4591,8 +4217,8 @@
       "name": "Spira Maxima",
       "tagline": "Video model that turns script into viral social media videos",
       "url": "https://www.producthunt.com/products/spira-ai/launches/spira-maxima?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Breakfeed+%28ID%3A+279433%29",
-      "votes": 589,
-      "comments": 72,
+      "votes": 587,
+      "comments": 70,
       "topics": [
         "Social Media",
         "Marketing",
@@ -4607,7 +4233,7 @@
       "name": "Pancake",
       "tagline": "The Vercel for GTM",
       "url": "https://www.producthunt.com/products/pancake-6?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Breakfeed+%28ID%3A+279433%29",
-      "votes": 565,
+      "votes": 567,
       "comments": 78,
       "topics": [
         "Sales",
@@ -4639,8 +4265,8 @@
       "name": "IrisGo for Solopreneurs",
       "tagline": "AI workflow automation: show it once, let it run",
       "url": "https://www.producthunt.com/products/irisgo-public-beta?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Breakfeed+%28ID%3A+279433%29",
-      "votes": 480,
-      "comments": 129,
+      "votes": 478,
+      "comments": 126,
       "topics": [
         "Task Management",
         "Artificial Intelligence",
@@ -4683,22 +4309,6 @@
     },
     {
       "rank": 9,
-      "name": "Pexo",
-      "tagline": "Produce pitch perfect launch videos with precise control",
-      "url": "https://www.producthunt.com/products/pexo-2/launches/pexo-2?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Breakfeed+%28ID%3A+279433%29",
-      "votes": 432,
-      "comments": 67,
-      "topics": [
-        "Marketing",
-        "Artificial Intelligence",
-        "Video"
-      ],
-      "thumbnail": "https://ph-files.imgix.net/be1e7e1e-e624-4a66-be49-f4372a72945b.png?auto=format",
-      "screenshot": "https://ph-files.imgix.net/f2e2ecea-a5cc-412e-adac-ffbfee93de28.png?auto=format",
-      "summary_zh": "Pexo 是一个视频制作工具，专门用于创建完美的产品发布视频。用户可以精确控制视频的各个元素，以确保每个细节都达到最佳效果。通过 Pexo，轻松制作出引人注目的宣传视频。"
-    },
-    {
-      "rank": 10,
       "name": "MCP Connectors by Databox",
       "tagline": "Give your AI Analyst context to explain performance and act",
       "url": "https://www.producthunt.com/products/databox/launches/mcp-connectors-by-databox?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Breakfeed+%28ID%3A+279433%29",
@@ -4714,11 +4324,27 @@
       "summary_zh": "MCP Connectors 是由 Databox 提供的一款工具，旨在为人工智能分析师提供上下文信息。它能够解析和解释不同数据的表现，帮助用户快速理解业务状况并采取相应行动。"
     },
     {
+      "rank": 10,
+      "name": "Pexo",
+      "tagline": "Produce pitch perfect launch videos with precise control",
+      "url": "https://www.producthunt.com/products/pexo-2/launches/pexo-2?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Breakfeed+%28ID%3A+279433%29",
+      "votes": 432,
+      "comments": 65,
+      "topics": [
+        "Marketing",
+        "Artificial Intelligence",
+        "Video"
+      ],
+      "thumbnail": "https://ph-files.imgix.net/be1e7e1e-e624-4a66-be49-f4372a72945b.png?auto=format",
+      "screenshot": "https://ph-files.imgix.net/f2e2ecea-a5cc-412e-adac-ffbfee93de28.png?auto=format",
+      "summary_zh": "Pexo 是一个视频制作工具，专门用于创建完美的产品发布视频。用户可以精确控制视频的各个元素，以确保每个细节都达到最佳效果。通过 Pexo，轻松制作出引人注目的宣传视频。"
+    },
+    {
       "rank": 11,
       "name": "Floot MCP",
       "tagline": "Build and ship web and mobile apps inside Claude or ChatGPT",
       "url": "https://www.producthunt.com/products/floot/launches/floot-mcp?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Breakfeed+%28ID%3A+279433%29",
-      "votes": 428,
+      "votes": 427,
       "comments": 68,
       "topics": [
         "Developer Tools",
@@ -4750,7 +4376,7 @@
       "name": "Solid",
       "tagline": "Agents with their own computers, accounts, and budgets.",
       "url": "https://www.producthunt.com/products/solid-3/launches/solid-9?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Breakfeed+%28ID%3A+279433%29",
-      "votes": 414,
+      "votes": 413,
       "comments": 35,
       "topics": [
         "Productivity",
@@ -4799,8 +4425,8 @@
       "repo": "MadsLorentzen/ai-job-search",
       "description": "The job search that runs on your machine. AI job application framework built on Claude Code: evaluate postings, tailor CVs, write cover letters, prep interviews. Fork it and own it.",
       "language": "Python",
-      "stars": 56186,
-      "starsToday": 3860,
+      "stars": 57267,
+      "starsToday": 3856,
       "url": "https://github.com/MadsLorentzen/ai-job-search",
       "summary_zh": "这个项目是一个基于人工智能的求职应用框架，能够帮助用户评估工作岗位、定制简历、撰写求职信和准备面试，操作简单，可以在个人电脑上运行。对于Yves来说，这个项目对Logic Labs（AI 公司）尤其有价值，可以用来优化招聘流程和提升求职者体验，同时也能帮助他在TexTale中更好地筛选和准备合适的人才，符合他的创意设计需求。"
     },
@@ -4808,8 +4434,8 @@
       "repo": "anomalyco/opencode",
       "description": "The open source coding agent.",
       "language": "TypeScript",
-      "stars": 217469,
-      "starsToday": 1310,
+      "stars": 217814,
+      "starsToday": 1311,
       "url": "https://github.com/anomalyco/opencode",
       "summary_zh": "该项目是一个开源的编码代理，可以帮助开发者自动生成代码，从而提高编码效率。对于Yves来说，这个项目对Logic Labs（AI公司）尤为有帮助，因为它能加速AI相关应用的开发，同时也能在TexTale（科技服装电商）中提高产品开发的效率，助力创新设计。作为创意设计从业者，Yves可以利用该工具快速实验和实现自己的创意想法。"
     },
@@ -4817,7 +4443,7 @@
       "repo": "akitaonrails/ai-memory",
       "description": "Solution for long term memory for agent coding CLIs and to facilitate handoff between different agent vendors",
       "language": "Rust",
-      "stars": 11071,
+      "stars": 11343,
       "starsToday": 666,
       "url": "https://github.com/akitaonrails/ai-memory",
       "summary_zh": "这个项目旨在为智能代理提供长期记忆解决方案，使其在执行命令行操作时能够保持上下文，并在不同代理之间顺利交接。对于Yves来说，这个项目可以帮助Logic Labs提升AI系统的智能化水平和交互能力，从而更好地服务于创意设计领域，提高工作效率。"
@@ -4826,7 +4452,7 @@
       "repo": "Comfy-Org/ComfyUI",
       "description": "The most powerful and modular diffusion model GUI, api and backend with a graph/nodes interface. The fastest local inference engine in the world.",
       "language": "Python",
-      "stars": 139419,
+      "stars": 139725,
       "starsToday": 1011,
       "url": "https://github.com/Comfy-Org/ComfyUI",
       "summary_zh": "这个项目是一个强大而模块化的图形用户界面（GUI），用于操作扩散模型，支持API和后端。它允许用户通过图形化的节点界面快速进行本地推理，提供了极高的运行效率。\n\n对Yves来说，这个项目对Logic Labs（AI公司）非常有帮助，因为它能够提升人工智能模型的开发和部署效率，同时也可以为TexTale提供更灵活的创意设计工具，帮助其在电商运营中更好地运用AI进行品牌营销。"
@@ -4835,7 +4461,7 @@
       "repo": "ruvnet/ruflo",
       "description": "🌊 The original agent harness. Deploy intelligent multi-player swarms, coordinate autonomous workflows, and build conversational AI systems. Features adaptive memory, self-learning intelligence, federation, vector RAG integration, and native Claude Code / Codex / Hermes and many more Integrated",
       "language": "TypeScript",
-      "stars": 76989,
+      "stars": 77187,
       "starsToday": 564,
       "url": "https://github.com/ruvnet/ruflo",
       "summary_zh": "这个项目是一个智能代理框架，旨在通过协调多个自主工作流程和构建对话式人工智能系统，来提高任务的执行效率。它可以利用自我学习和适应性记忆，帮助团队更好地协作并实现智能化的决策支持。对Yves来说，这个项目可能对Logic Labs的AI应用开发具有显著价值，尤其是在提升团队协作和自动化流程方面，同时也能够为创意设计提供更智能的工具和灵感来源。"
@@ -4844,8 +4470,8 @@
       "repo": "stablyai/orca",
       "description": "Orca is the place for working with a fleet of agents (e.g. Grok Bot, Claude Code). Run any coding agent with your own subscription. Available on desktop, mobile and remote runtime.",
       "language": "TypeScript",
-      "stars": 97893,
-      "starsToday": 1591,
+      "stars": 98286,
+      "starsToday": 1590,
       "url": "https://github.com/stablyai/orca",
       "summary_zh": "这个项目 Orca 是一个可以管理多个智能代理的平台，例如编程助手或聊天机器人，用户可以在桌面、移动设备和远程环境中使用它。对于 Yves 的 Logic Labs，这个工具可以帮助团队更高效地开发和测试 AI 应用，提升创新设计能力；而对于 TexTale，Orca 可能在电商运营中辅助自动化客服或个性化推荐，提升用户体验。作为创意设计从业者，Yves 可以利用这个平台来探索新的创意工具，从而更好地实现他的设计理念。"
     },
@@ -4853,8 +4479,8 @@
       "repo": "headroomlabs-ai/headroom",
       "description": "Compress tool outputs, logs, files, and RAG chunks before they reach the LLM. 20% fewer tokens for coding agents, 60-95% fewer tokens for JSON, same answers. Library, proxy, MCP server.",
       "language": "Python",
-      "stars": 76104,
-      "starsToday": 317,
+      "stars": 76245,
+      "starsToday": 310,
       "url": "https://github.com/headroomlabs-ai/headroom",
       "summary_zh": "这个项目是一个压缩工具，可以在数据处理过程中减少传输的数据量，比如代码、日志和文件，从而提高处理效率，同时保持输出结果不变。对于Yves来说，这个项目对Logic Labs（AI公司）特别有帮助，因为可以提升AI模型的运行效率，节省计算资源，助力更快速的创意设计和开发。"
     },
@@ -4862,8 +4488,8 @@
       "repo": "withmarbleapp/os-taxonomy",
       "description": "",
       "language": "JavaScript",
-      "stars": 5976,
-      "starsToday": 301,
+      "stars": 6121,
+      "starsToday": 284,
       "url": "https://github.com/withmarbleapp/os-taxonomy",
       "summary_zh": "这个项目是一个用于组织和管理数据分类的工具，可以帮助开发者轻松管理和处理复杂的数据结构。对Yves的TexTale电商业务将有帮助，因为它能提升产品分类和搜索的效率，使用户更容易找到他们需要的科技服装。同时作为创意设计从业者，Yves也能利用该工具在设计和构思阶段，系统化地整理和分类灵感与创意。"
     },
@@ -4871,8 +4497,8 @@
       "repo": "Kruk2/jasna",
       "description": "Video restoration tool",
       "language": "Python",
-      "stars": 2800,
-      "starsToday": 502,
+      "stars": 2889,
+      "starsToday": 498,
       "url": "https://github.com/Kruk2/jasna",
       "summary_zh": "这个项目是一个视频修复工具，能够改善老旧视频的画质，使其更加清晰和真实。对于Yves而言，这个工具可以在Logic Labs中用于提升AI生成视频的质量，或者在TexTale中为营销视频和产品展示提供更专业的视觉效果，增强品牌形象。作为创意设计从业者，他可以利用这个工具提升创意内容的视觉吸引力。"
     },
@@ -4880,8 +4506,8 @@
       "repo": "HKUDS/CLI-Anything",
       "description": "\"CLI-Anything: Making ALL Software Agent-Native\" -- CLI-Hub:https://clianything.cc/",
       "language": "Python",
-      "stars": 55049,
-      "starsToday": 607,
+      "stars": 55237,
+      "starsToday": 606,
       "url": "https://github.com/HKUDS/CLI-Anything",
       "summary_zh": "这个项目旨在将所有软件转换为能够通过命令行界面（CLI）进行交互的智能代理，使得用户可以更加高效地操控各种应用程序。对Yves而言，Logic Labs可以利用这个工具提升AI应用的自动化和操作效率，而TexTale则可以借助该项目提升电商平台的用户交互体验。作为创意设计从业者，Yves还能通过CLI工具更便捷地实现创意构思与设计流程的自动化。"
     }
@@ -4889,7 +4515,7 @@
   "aigc_rankings": {
     "image": [],
     "video": [],
-    "fetchedAt": "2026-10-19T16:46:25.752821+00:00",
+    "fetchedAt": "2026-10-20T00:52:22.674227+00:00",
     "sources": [
       "Artificial Analysis",
       "LM Arena",
