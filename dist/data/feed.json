@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-25T14:05:54.595796+00:00",
+  "generatedAt": "2026-10-25T18:42:31.403090+00:00",
   "twitter": [
     {
       "source": "x",
@@ -4028,6 +4028,16 @@
   ],
   "podcasts": [
     {
+      "name": "Data Driven NYC",
+      "title": "AI is electricity #ai #podcast",
+      "videoId": "Ys_SDiy-p3c",
+      "url": "https://youtube.com/watch?v=Ys_SDiy-p3c",
+      "publishedAt": "2026-10-25T16:00:32+00:00",
+      "isShort": false,
+      "fetchDate": "2026-10-25",
+      "summary_zh": "这个视频探讨了人工智能如何像电一样成为现代生活的基础，改变了各行各业的运作方式，并讨论了AI对创意和商业的潜在影响。主播们分享了对未来AI发展的看法，以及如何将这些技术应用于实际产品和服务中。\n\n🎯 推荐 Yves 观看 — 这个视频对理解AI在设计和电商领域的应用及其对品牌营销的潜在影响非常重要，特别是对Logic Labs和TexTale的业务发展有启发。"
+    },
+    {
       "name": "Peter Yang",
       "title": "How to Make Amazing Videos with Claude and HyperFrames | Jake Moran",
       "videoId": "MC1g2fHYC88",
@@ -4618,16 +4628,6 @@
       "isShort": false,
       "fetchDate": "2026-10-21",
       "summary_zh": "视频探讨了“你可以看到一切”的项目第四天的详细内容，包括一些最新的AI技术和应用。除了技术展示，视频还涉及了如何将这些创新想法转化为实际项目和产品，尤其在创意和设计领域的潜力。\n\n💡 值得一看 — 这个视频提供了关于AI技术在创意设计过程中的实际应用，可能对Yves在Logic Labs和TexTale中的创新工作有启发。"
-    },
-    {
-      "name": "TBPN",
-      "title": "Jay Leno on Comedy, Supercars, and the State of Hollywood",
-      "videoId": "cgM3ctXoSHE",
-      "url": "https://youtube.com/watch?v=cgM3ctXoSHE",
-      "publishedAt": "2026-10-20T21:23:05+00:00",
-      "isShort": false,
-      "fetchDate": "2026-10-21",
-      "summary_zh": "在这段视频中，著名喜剧演员和车迷Jay Leno分享了他对喜剧、超级跑车以及好莱坞现状的看法。他回顾了自己在娱乐行业的经历，并分析了当前影视行业的发展趋势，包括技术如何影响创作。\n\n💡 值得一看 — Jay Leno的见解能够帮助理解娱乐行业的变化，尤其是在品牌营销和创意设计领域，可能会为Logic Labs和TexTale提供一些灵感。"
     }
   ],
   "producthunt": [
@@ -4652,7 +4652,7 @@
       "name": "Pancake",
       "tagline": "The Vercel for GTM",
       "url": "https://www.producthunt.com/products/pancake-6?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Breakfeed+%28ID%3A+279433%29",
-      "votes": 584,
+      "votes": 587,
       "comments": 72,
       "topics": [
         "Sales",
@@ -4761,6 +4761,22 @@
     },
     {
       "rank": 9,
+      "name": "Product Hunt Visual Launch Editor",
+      "tagline": "See your launch as you build it",
+      "url": "https://www.producthunt.com/products/producthunt?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Breakfeed+%28ID%3A+279433%29",
+      "votes": 427,
+      "comments": 23,
+      "topics": [
+        "Product Hunt",
+        "Maker Tools",
+        "Community"
+      ],
+      "thumbnail": "https://ph-files.imgix.net/d618ea86-70ae-4d12-8ec2-0ed78c723ddf.png?auto=format",
+      "screenshot": "https://ph-files.imgix.net/63e7224f-3120-4869-b8c5-6aca2a63c623.jpeg?auto=format",
+      "summary_zh": "Product Hunt Visual Launch Editor 是一个在线工具，让用户在创建产品发布时，实时预览发布效果。通过直观的界面，用户可以轻松编辑内容，调整布局，从而实现更加吸引人的发布页面。这个工具旨在简化产品发布流程，使设计与调整更加高效。"
+    },
+    {
+      "rank": 10,
       "name": "MCP Connectors by Databox",
       "tagline": "Give your AI Analyst context to explain performance and act",
       "url": "https://www.producthunt.com/products/databox/launches/mcp-connectors-by-databox?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Breakfeed+%28ID%3A+279433%29",
@@ -4776,7 +4792,7 @@
       "summary_zh": "MCP Connectors 是由 Databox 提供的一款工具，旨在为人工智能分析师提供上下文信息。它能够解析和解释不同数据的表现，帮助用户快速理解业务状况并采取相应行动。"
     },
     {
-      "rank": 10,
+      "rank": 11,
       "name": "Monospace from Directus",
       "tagline": "The governed API layer for every app, person, and agent",
       "url": "https://www.producthunt.com/products/directus/launches/monospace-from-directus?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Breakfeed+%28ID%3A+279433%29",
@@ -4790,22 +4806,6 @@
       "thumbnail": "https://ph-files.imgix.net/f2d08a6b-b088-4b28-affa-1c10df46549b.png?auto=format",
       "screenshot": "https://ph-files.imgix.net/8c068d38-2ed9-42d4-9025-0dfe0c155a1c.png?auto=format",
       "summary_zh": "Monospace from Directus 是一个 API 管理平台，专为各种应用、用户和代理创建和管理数据接口。它允许用户方便地定义和控制数据访问权限，从而确保数据的安全性和可用性。通过 Monospace，开发者可以迅速构建灵活、高效的应用程序。"
-    },
-    {
-      "rank": 11,
-      "name": "Product Hunt Visual Launch Editor",
-      "tagline": "See your launch as you build it",
-      "url": "https://www.producthunt.com/products/producthunt?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Breakfeed+%28ID%3A+279433%29",
-      "votes": 421,
-      "comments": 23,
-      "topics": [
-        "Product Hunt",
-        "Maker Tools",
-        "Community"
-      ],
-      "thumbnail": "https://ph-files.imgix.net/d618ea86-70ae-4d12-8ec2-0ed78c723ddf.png?auto=format",
-      "screenshot": "https://ph-files.imgix.net/63e7224f-3120-4869-b8c5-6aca2a63c623.jpeg?auto=format",
-      "summary_zh": "Product Hunt Visual Launch Editor 是一个在线工具，让用户在创建产品发布时，实时预览发布效果。通过直观的界面，用户可以轻松编辑内容，调整布局，从而实现更加吸引人的发布页面。这个工具旨在简化产品发布流程，使设计与调整更加高效。"
     },
     {
       "rank": 12,
@@ -4878,7 +4878,7 @@
       "repo": "makecindy/cindy",
       "description": "Consider it done. The open-source AI agent that works out of the box · 想到，就能做到。开源、开箱即用的 AI Agent。",
       "language": "TypeScript",
-      "stars": 4518,
+      "stars": 4705,
       "starsToday": 677,
       "url": "https://github.com/makecindy/cindy",
       "summary_zh": "这个项目是一个开源的人工智能助手，能够快速完成用户的各种任务，用户只需简单输入需求，它就能自动执行。对Yves而言，这个项目对Logic Labs（AI公司）尤为有帮助，因为它可以为AI产品开发提供便捷的工具和接口，也能激发创意设计的灵感，加速产品迭代。同时，对TexTale（科技服装电商）也有潜在价值，能够提升客户体验和运营效率。"
@@ -4887,7 +4887,7 @@
       "repo": "Nutlope/hallmark",
       "description": "Anti-AI-slop design skill for Claude Code, Cursor, and Codex.",
       "language": "CSS",
-      "stars": 33024,
+      "stars": 33397,
       "starsToday": 1359,
       "url": "https://github.com/Nutlope/hallmark",
       "summary_zh": "这个项目旨在提高 AI 生成代码的设计质量，通过一些技巧和工具减少设计上的粗糙和错误，使得生成的代码更符合设计要求。对 Yves 来说，这个项目可以在 Logic Labs 的 AI 应用中提升设计效果，同时也能为 TexTale 的品牌形象赋予更高的设计标准，帮助他在创意设计上实现更好的视觉效果。"
@@ -4896,7 +4896,7 @@
       "repo": "debpalash/VoiceStudio",
       "description": "VoiceStudio is the open-source, fully-local ElevenLabs alternative — voice cloning, voice design, video dubbing, dictation, transcription & audiobook creation in 646 languages.",
       "language": "Python",
-      "stars": 85910,
+      "stars": 86376,
       "starsToday": 1588,
       "url": "https://github.com/debpalash/VoiceStudio",
       "summary_zh": "这个项目VoiceStudio是一个开源应用，允许用户进行语音克隆、设计、视频配音、转录和有声书制作，支持646种语言。对于Yves来说，这个项目可以为Logic Labs提供强大的语音处理工具，促进AI应用的创新，同时也能为TexTale提供个性化的语音营销解决方案，增强品牌影响力。作为创意设计从业者，VoiceStudio能够激发他的创意，帮助他在作品中融入独特的声音元素。"
@@ -4905,7 +4905,7 @@
       "repo": "pbakaus/impeccable",
       "description": "The design language that makes your AI harness better at design.",
       "language": "Rust",
-      "stars": 87129,
+      "stars": 87438,
       "starsToday": 1113,
       "url": "https://github.com/pbakaus/impeccable",
       "summary_zh": "这个项目旨在帮助用户通过一种优雅的设计语言，使AI在设计方面表现得更出色。对于Yves来说，这个项目可以帮助Logic Labs提升其AI产品的设计能力，同时也能为TexTale提供更具吸引力的品牌视觉效果，增强电商品牌的市场竞争力。作为创意设计从业者，他可以借助这个工具提高设计效率和质量，更好地实现创意想法。"
@@ -4914,7 +4914,7 @@
       "repo": "pollen-robotics/microduck",
       "description": "A Tiny biped duck robot 🦆",
       "language": "Rust",
-      "stars": 11368,
+      "stars": 11508,
       "starsToday": 657,
       "url": "https://github.com/pollen-robotics/microduck",
       "summary_zh": "这个项目是一个小型的双足鸭子机器人，可以模拟鸭子的动作。对于Yves来说，这个项目可能对Logic Labs有帮助，因为它展示了如何结合机械技术与AI，激发创意设计的新思路，也能够启发他在未来的产品设计中运用类似的技术。"
@@ -4923,8 +4923,8 @@
       "repo": "TauricResearch/TradingAgents",
       "description": "TradingAgents: Multi-Agents LLM Financial Trading Framework",
       "language": "Python",
-      "stars": 114048,
-      "starsToday": 309,
+      "stars": 114332,
+      "starsToday": 636,
       "url": "https://github.com/TauricResearch/TradingAgents",
       "summary_zh": "这个项目是一个基于多智能体和大型语言模型（LLM）的金融交易框架，旨在通过智能代理来优化和自动化股票交易过程。对于Yves来说，这个项目可以帮助Logic Labs更深入地探索AI在金融领域的应用，提升公司在AI技术研发方面的领先地位，同时也为他在创意设计方面提供灵感，让他更好地理解如何利用AI进行复杂决策及模拟。"
     },
@@ -4932,8 +4932,8 @@
       "repo": "Renhuai123/ziwei-doushu",
       "description": "紫微斗数开源排盘引擎 — 基于倪海厦《天纪》体系，含完整排盘算法、四化系统、格局知识库、古籍原文数据",
       "language": "TypeScript",
-      "stars": 7421,
-      "starsToday": 489,
+      "stars": 7500,
+      "starsToday": 255,
       "url": "https://github.com/Renhuai123/ziwei-doushu",
       "summary_zh": "这个项目是一个开源的紫微斗数排盘引擎，能够通过特定的算法和数据为用户生成个性化的命盘，并提供相应的解读和分析。对于Yves来说，这个项目可能对Logic Labs有所帮助，因为它展示了如何使用复杂的算法和数据处理技术来提供个性化的体验，激发他在AI应用和创意设计方面的新想法。同时，这也可能为TexTale提供灵感，通过结合传统文化与现代科技，为产品增添独特的品牌故事和市场卖点。"
     },
@@ -4941,7 +4941,7 @@
       "repo": "JetBrains/thinkrail",
       "description": "Vibe code with pi in a lightweight, real IDE that customises itself around the way you work — The Vibe You Need",
       "language": "TypeScript",
-      "stars": 1178,
+      "stars": 1293,
       "starsToday": 52,
       "url": "https://github.com/JetBrains/thinkrail",
       "summary_zh": "这个项目是一个轻量级的集成开发环境（IDE），旨在根据用户的工作方式自动调整设置，帮助开发者更顺畅地编写代码。对于Yves而言，这个工具可以在Logic Labs中帮助团队更高效地进行AI相关的开发工作，同时也能为TexTale提供技术支持和代码管理的灵活性，有助于快速实现创意设计的想法。"
@@ -4950,7 +4950,7 @@
       "repo": "coollabsio/coolify",
       "description": "An open-source, self-hostable PaaS alternative to Vercel, Heroku & Netlify that lets you easily deploy static sites, databases, full-stack applications and 360+ one-click services on your own servers.",
       "language": "PHP",
-      "stars": 63932,
+      "stars": 64131,
       "starsToday": 192,
       "url": "https://github.com/coollabsio/coolify",
       "summary_zh": "这个项目是一个开源的自托管平台，类似于 Vercel、Heroku 和 Netlify，用户可以轻松在自己的服务器上部署静态网站、数据库、全栈应用程序以及超过 360 种一键服务。对于 Yves 来说，这个工具可以帮助 Logic Labs 快速搭建和测试 AI 相关的应用，提升项目迭代效率，同时也能为 TexTale 提供方便的电商网站部署和管理。作为一名创意设计从业者，他可以利用这个平台探索新的设计与技术结合的方式，激发更多创意。"
@@ -4959,7 +4959,7 @@
       "repo": "cloudflare/security-audit-skill",
       "description": "A coding-agent skill for multi-phase security audits with independently verified, machine-readable findings",
       "language": "JavaScript",
-      "stars": 46002,
+      "stars": 46456,
       "starsToday": 2874,
       "url": "https://github.com/cloudflare/security-audit-skill",
       "summary_zh": "这个项目是一个代码审计工具，可以帮助开发者在多个阶段进行安全检查，并生成可以被机器读取的、经过独立验证的审计结果。 \n\n对于Yves来说，这个项目对Logic Labs（AI公司）特别有帮助，因为它可以提升软件开发过程中的安全性，确保AI相关产品的可靠性。而作为创意设计从业者，他也能从中获取关于如何在设计中与安全标准相结合的灵感。"
@@ -4968,7 +4968,7 @@
   "aigc_rankings": {
     "image": [],
     "video": [],
-    "fetchedAt": "2026-10-25T14:04:26.839213+00:00",
+    "fetchedAt": "2026-10-25T18:41:33.929291+00:00",
     "sources": [
       "Artificial Analysis",
       "LM Arena",
